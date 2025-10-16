@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>风起江湖 · 原创武侠歌曲合集</title>
+  <style>
+    
+.aplayer {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  width: 100%;        /* 占满屏幕 */
+  max-width: 900px;   /* 最大宽度 */
+}
+
+    :root{
+      --fg:#222;
+      --muted:#666;
+      --link:#0b5fff;
+      --bg:#fafafa;
+      --card:#fff;
+      --border:#eee;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Noto Serif SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif;
+      color:var(--fg);
+      background:var(--bg);
+      line-height:1.8;
+    }
+    header{
+      position:sticky;
+      top:0;
+      background:rgba(250,250,250,.9);
+      backdrop-filter:saturate(110%) blur(6px);
+      border-bottom:1px solid var(--border);
+      z-index:10;
+    }
+    .wrap{
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1rem 1.2rem;
+    }
+    h1{margin: .4rem 0 0; font-size: 1.8rem; letter-spacing: .02em;}
+    p.lead{color:var(--muted); margin:.5rem 0 0.5rem}
+    nav{
+      display:flex; gap:.8rem; flex-wrap:wrap; margin:.4rem 0 .2rem;
+    }
+    nav a{
+      font-size:.95rem;
+      padding:.25rem .6rem;
+      border:1px solid var(--border);
+      border-radius:999px;
+      color:var(--fg);
+      text-decoration:none;
+      background:var(--card);
+    }
+    main{padding:1rem 0 2rem}
+    section.song{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:1rem 1rem 1rem;
+      margin: 1rem auto 1.2rem;
+    }
+    section.song h2{
+      margin:.2rem 0 .6rem;
+      font-size:1.35rem;
+      letter-spacing:.02em;
+    }
+    .meta{color:var(--muted); margin:.2rem 0 .6rem;}
+    audio{width:100%; margin:.25rem 0 .5rem}
+    .blockquote{
+      border-left:3px solid var(--border);
+      padding:.25rem .75rem;
+      margin:.4rem 0 .8rem;
+      color:#444;
+      background: #fafafa;
+      border-radius:6px;
+    }
+    pre.lyric{
+      white-space:pre-wrap;
+      word-break:break-word;
+      background:#fcfcfc;
+      border:1px dashed var(--border);
+      border-radius:12px;
+      padding:.8rem .9rem;
+      margin:.6rem 0 0.2rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
+      font-size:.96rem;
+      line-height:1.9;
+    }
+    footer{color:var(--muted); text-align:center; padding:1.6rem 0 2.4rem}
+    .sep{height:1px;background:var(--border);margin:1.2rem 0}
+  </style>
+</head>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<div id="aplayer" class="wrap" style="margin-top:24px;"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script>
+  var web = 'https://music-1254067592.cos.ap-guangzhou.myqcloud.com';
+  const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    fixed: false,
+    theme: '#e74c3c',   // 近网易云红
+    loop: 'all',
+    order: 'list',
+    preload: 'none',
+    volume: 0.75,
+    listFolded: false,
+    lrcType: 3,
+    audio: [
+      {
+        name: '风起江湖（主题曲）',
+        artist: 'AI演唱',
+        url: web+'/music/fengqi.mp3',
+        cover: 'cover/fengqi.jpg',
+        lrc:   'lrc/fengqi.lrc'
+      },
+      {
+        name: '长风歌',
+        artist: 'AI演唱',
+        url: web+'/music/changfengge.mp3',
+        cover: 'cover/changfengge.jpg',
+        lrc:   'lrc/changfengge.lrc'
+      },
+      {
+        name: '南湖·少年行',
+        artist: 'AI演唱',
+        url: web+'/music/nanhu-shaonianxing.mp3',
+        cover: 'cover/nanhu-shaonianxing.jpg',
+        lrc:   'lrc/nanhu-shaonianxing.lrc'
+      },
+      {
+        name: '少年游',
+        artist: 'AI演唱',
+        url: web+'/music/shaonianyou.mp3',
+        cover: 'cover/shaonianyou.jpg',
+        lrc:   'lrc/shaonianyou.lrc'
+      },
+      {
+        name: '行香子·天上人间',
+        artist: 'AI演唱',
+        url: web+'/music/xingxiangzi-tianshangrenjian.mp3',
+        cover: 'cover/xingxiangzi-tianshangrenjian.jpg',
+        lrc:   'lrc/xingxiangzi-tianshangrenjian.lrc'
+      }
+    ]
+  });
+</script>
+
+<body>
+  <header>
+    <div class="wrap">
+      <h1>风起江湖 · 原创武侠歌曲合集</h1>
+      <p class="lead">这是为原创武侠世界《风起江湖》所创作的主题音乐歌单。每一首歌，都写给一个人物、一段命运。</p>
+      <nav>
+        <a href="#fengqi">风起江湖</a>
+        <a href="#changfengge">长风歌</a>
+        <a href="#nanhu">南湖·少年行</a>
+        <a href="#shaonianyou">少年游</a>
+        <a href="#xingxiangzi">行香子·天上人间</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="song" id="fengqi">
+      <h2>1. 风起江湖（主题曲）</h2>
+      <div class="meta">男女对唱 · 大气主旋律</div>
+      <audio controls preload="none">
+        <source src="https://music-1254067592.cos.ap-guangzhou.myqcloud.com/music/fengqi.mp3" type="audio/mpeg"/>
+        您的浏览器不支持音频播放，请直接下载：<a href="music/fengqi.mp3">风起江湖.mp3</a>
+      </audio>
+      <div class="blockquote">“漫漫英雄路，仇人斩不尽。十面埋伏，却笑说无妨。”</div>
+      <pre class="lyric">
+
+满目狼烟，苍生不平。  
+拔剑问天下，青锋霜雪明。  
+朝饮黄河水，夜宿白玉京。  
+漫漫英雄路，
+恩情环不完，仇人斩不尽。  
+
+人在江湖，身不由己。  
+莫笑戏中人，等不来的嫁衣。  
+纵饮今宵酒，难消明日愁。  
+燕去燕归来，
+寄不出尺素，上不得高楼。  
+
+天地一局棋
+谁主成败~
+成败两头空
+谁是英雄~
+英雄无觅处
+暮然回首~
+灯火阑珊，伊人消瘦
+
+朋友呐，并肩踏碎九州浪。  
+血热三尺，不换万户侯堂。  
+魑魅魍魉，何其不自量。  
+十面埋伏，却笑说无妨。  
+
+爱人啊，共赴乱世到惊鸿。  
+花开花落，便葬我心葱龙。  
+一串相思，寄给了秋风。  
+三世轮回，踏万骨而从。  
+
+长剑直~
+奈何路崎岖  
+风再起~
+偏偏遇见你  
+英雄志~
+会当凌绝顶  
+向来痴， 两忘烟水里
+
+英雄志，会当凌绝顶  
+向来痴，两忘烟水里  
+
+</pre>
+    </section>
+
+    <section class="song" id="changfengge">
+      <h2>2. 长风歌</h2>
+      <div class="meta">成全 · 守望</div>
+      <audio controls preload="none">
+        <source src="https://music-1254067592.cos.ap-guangzhou.myqcloud.com/music/changfengge.mp3" type="audio/mpeg"/>
+        无法播放？请下载音频：<a href="music/changfengge.mp3">长风歌.mp3</a>
+      </audio>
+      <div class="blockquote">“岂曰无衣 与子同袍	岂曰无路 与子偕行”</div>
+      <pre class="lyric">
+饮马过百川 对敌肩并肩  
+抬首笑斜阳 
+汗透寒甲 血尤未干
+
+云停风不停 情义两难全
+江湖风波恶 
+你若安好 便是晴天
+
+长歌纵酒 
+笑傲江湖河海
+奋起扬鞭 
+誓拔五岳三山
+
+情深难寄 
+相望已成哽咽
+春风几度 
+江上柳絮如烟
+
+男: 长风何迢迢
+女: 不问过往~
+男: 江湖路滔滔
+女: 也莫问未来~
+男: 问君何时归?
+女: 在此停留~
+男: 共剪西窗烛
+女: 一醉方休~
+起曰无路 与子偕行
+
+起曰无衣 与子同袍	
+起曰无路 与子偕行
+
+起曰无衣 与子同袍	
+起曰无路 与子偕行</pre>
+    </section>
+
+    <section class="song" id="nanhu">
+      <h2>3. 南湖·少年行</h2>
+      <div class="meta">对唱叙事曲 · 江上送别</div>
+      <audio controls preload="none">
+        <source src="https://music-1254067592.cos.ap-guangzhou.myqcloud.com/music/nanhu-shaonianxing.mp3" type="audio/mpeg"/>
+        无法播放？请下载音频：<a href="music/nanhu-shaonianxing.mp3">南湖·少年行.mp3</a>
+      </audio>
+      <div class="blockquote">“画船有一灯，青衫素环真。”</div>
+      <pre class="lyric">[Verse 1]
+磊落少年行
+数点鸿雁声
+江湖阔又狂
+画船有一灯
+
+十年风吹雨
+饮尽月与尘
+吴钩终回鞘
+青衫素环真
+
+蒹葭苍苍, 白露为霜
+所谓伊人, 在水一方
+
+男：问骄阳
+女：磊落少年行
+男：离人泪
+女：数点鸿雁声
+男：风波恶
+女：江湖阔又狂
+男：夜不眠
+女：画船有一灯
+
+男：十年风吹雨
+女：吹不尽~
+男：饮尽月与尘
+女：共婵娟~
+男：吴钩终回鞘
+女：燕归来~
+男：青衫素环真
+女：素环真~
+
+蒹葭苍苍, 白露为霜
+所谓伊人, 在水一方
+
+蒹葭苍苍, 白露为霜
+所谓伊人, 在水一方</pre>
+    </section>
+
+    <section class="song" id="shaonianyou">
+      <h2>4. 少年游</h2>
+      <div class="meta">女主插曲 · 楼台红尘</div>
+      <audio controls preload="none">
+        <source src="https://music-1254067592.cos.ap-guangzhou.myqcloud.com/music/shaonianyou.mp3" type="audio/mpeg"/>
+        无法播放？请下载音频：<a href="music/shaonianyou.mp3">少年游.mp3</a>
+      </audio>
+      <div class="blockquote">“红尘侠影，弦歌未尽。霜天易晓，恐有暗流。”</div>
+      <pre class="lyric">青骢马踏汴河秋，
+意气满吴钩。
+朱门弦歌，红尘侠影，
+相逢皆在最高楼。
+
+新声巧借琵琶诉，
+似说平生谋。
+霜天易晓，前路难测，
+休独倚、恐有暗流。</pre>
+    </section>
+
+    <section class="song" id="xingxiangzi">
+      <h2>5. 行香子·天上人间</h2>
+      <div class="meta">梦境插曲 · 宿命拷问</div>
+      <audio controls preload="none">
+        <source src="https://music-1254067592.cos.ap-guangzhou.myqcloud.com/music/xingxiangzi-tianshangrenjian.mp3" type="audio/mpeg"/>
+        无法播放？请下载音频：<a href="music/xingxiangzi-tianshangrenjian.mp3">行香子·天上人间.mp3</a>
+      </audio>
+      <div class="blockquote">“是人间世，天上狱，两相宜。”</div>
+      <pre class="lyric">朱门笙歌，蓬牖风嘶。
+看汴河、同渡琉璃。
+星斗坠入金樽漪，霜月沉于乞儿缡。
+是人间世，天上狱，两相宜。
+
+珠履碾香，鹑衣裹泥。
+问苍冥、何判云泥？
+荣枯本自同根蒂，炎凉却作异生机。
+歌至此处，泪落如糜。</pre>
+    </section>
+
+    <div class="sep"></div>
+    <footer>风起江湖 · Vol.1 · Indie OST</footer>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+/* ------------------------------
+   H2 预设：fancy（圆角浅蓝横条）
+   用法：<div data-h2="fancy"> … </div>
+   ------------------------------ */
+
+.vp-doc [data-h2="fancy"] h2{
+  display: block;
+  margin: 1.75rem 0 1rem;
+  padding: .55rem .9rem;
+  border-radius: 10px;
+
+  /* 背景与立体感 */
+  background: linear-gradient(#8ea6b6, #7f97a8);      /* 浅蓝到更深一点 */
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.35),              /* 顶部高光 */
+    inset 0 -1px 0 rgba(0,0,0,.18),                   /* 底部内阴影 */
+    0 2px 6px rgba(0,0,0,.28);                        /* 外阴影（微浮起） */
+
+  /* 文案 */
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: .3px;
+  text-shadow: 0 1px 0 rgba(0,0,0,.35);               /* 让白字更清晰 */
+}
+
+/* 可选：H2 内的小标签（如「未完成」） */
+.vp-doc [data-h2="fancy"] h2 .tag{
+  display: inline-block;
+  margin-left: .5em;
+  padding: .08rem .45rem;
+  font-weight: 700;
+  font-size: .82em;
+  line-height: 1.2;
+  color: rgba(255,255,255,.9);
+
+  background: rgba(0,0,0,.22);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.18);
+  text-shadow: none;
+}
+
+/* 深色模式微调（可选） */
+@media (prefers-color-scheme: dark){
+  .vp-doc [data-h2="fancy"] h2{
+    background: linear-gradient(#7b94a6, #6b8395);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.25),
+      inset 0 -1px 0 rgba(0,0,0,.25),
+      0 2px 6px rgba(0,0,0,.4);
+  }
+}

@@ -24,9 +24,9 @@ dao/web/fq-wiki
 
 ## 发布
 
-1. 安装ruby
-2. 安装neocities  
->gem install neocities
-3. b发布.bat  
-输入网站 例如:mmosquito111  
-密码
+git add .
+git commit -m 'push vercel'
+git push
+
+也可以运行 push-vercel.bat
+

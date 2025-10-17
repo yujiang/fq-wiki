@@ -1,11 +1,25 @@
-:root[data-h2="fancy"] .vp-doc h2{
-  display:block;margin:1.75rem 0 1rem;padding:.55rem .9rem;border-radius:10px;
+:root[data-h2="fancy"] .vp-doc h2 {
+  display: block;
+  margin: 1.75rem 0 1rem;
+  padding: 0.55rem 0.9rem;
   background:linear-gradient(#8ea6b6,#7f97a8);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -1px 0 rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.28);
-  color:#fff;font-weight:800;letter-spacing:.3px;text-shadow:0 1px 0 rgba(0,0,0,.35);
+  color: #fff;
+  font-weight: 700; /* 稍微加粗字体 */
+  letter-spacing: 0.3px;
+  text-shadow: none; /* 去除文字阴影 */
+  border: none; /* 不要边框 */
+  border-radius: 0; /* 去除圆角 */
 }
-:root[data-h2="fancy"] .vp-doc h2 .tag{
-  display:inline-block;margin-left:.5em;padding:.08rem .45rem;font-weight:700;font-size:.82em;line-height:1.2;
-  color:rgba(255,255,255,.9);background:rgba(0,0,0,.22);border-radius:6px;box-shadow:inset 0 1px 0 rgba(255,255,255,.18);
-  white-space:nowrap;text-shadow:none;
+
+:root[data-h2="fancy"] .vp-doc h2 .tag {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0.08rem 0.45rem;
+  font-weight: 700;
+  font-size: 0.82em;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.16); /* 保持标签背景 */
+  border-radius: 0; /* 去除圆角 */
+  text-shadow: none; /* 去除标签阴影 */
 }

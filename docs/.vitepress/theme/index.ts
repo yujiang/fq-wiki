@@ -3,6 +3,9 @@ import DefaultTheme from 'vitepress/theme'
 import { watch } from 'vue'
 import type { Router } from 'vitepress'
 import './style.css'
+import "./jianghu.css"
+import "./poem.css"
+import "./person.css"
 
 export default {
   ...DefaultTheme,

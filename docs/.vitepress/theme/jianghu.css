@@ -1,0 +1,69 @@
+/* ===== jianghu 自定义容器 ===== */
+.custom-block.jianghu{
+  --jh-accent: #70dbdb;              /* 青色主色（可按主题调） */
+  --jh-bg: rgba(112,219,219,0.06);   /* 浅青背景 */
+  --jh-border: color-mix(in oklab, var(--jh-accent) 70%, black);
+  --jh-shadow: 0 2px 12px rgba(0,0,0,0.06);
+
+  position: relative;
+  padding: 14px 16px 14px 18px;
+  margin: 16px 0;
+  border-left: 4px solid var(--jh-border);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3)) 0 0/100% 100%,
+    var(--jh-bg);
+  border-radius: 10px;
+  box-shadow: var(--jh-shadow);
+  line-height: 1.75;
+}
+
+/* 顶部标题（可选） */
+.custom-block.jianghu .jh-title{
+  margin: 0 0 6px 0;
+  font-weight: 600;
+  letter-spacing: .06em;
+  font-size: 14px;
+  color: color-mix(in oklab, var(--jh-accent) 60%, black);
+}
+
+/* 正文微调（去掉块内首尾段落多余间距） */
+.custom-block.jianghu > p:first-of-type { margin-top: 4px; }
+.custom-block.jianghu > p:last-of-type  { margin-bottom: 4px; }
+
+/* 左上/右下角装饰（细丝纹） */
+.custom-block.jianghu::before,
+.custom-block.jianghu::after{
+  content:"";
+  position:absolute;
+  width:12px;height:12px;
+  opacity:.28;
+  pointer-events:none;
+  background:
+    radial-gradient(closest-side, var(--jh-accent), transparent 70%);
+  filter: blur(.4px);
+}
+.custom-block.jianghu::before{ top:6px;  right:8px;  clip-path: polygon(0 0,100% 0,100% 100%); }
+.custom-block.jianghu::after { bottom:6px; left:8px; clip-path: polygon(0 0,0 100%,100% 100%); }
+
+/* 暗色模式适配 */
+.dark .custom-block.jianghu{
+  --jh-bg: rgba(112,219,219,0.10);
+  background:
+    linear-gradient(180deg, rgba(18,18,18,0.6), rgba(18,18,18,0.3)) 0 0/100% 100%,
+    var(--jh-bg);
+  box-shadow: 0 2px 14px rgba(0,0,0,0.25);
+}
+.dark .custom-block.jianghu .jh-title{
+  color: color-mix(in oklab, var(--jh-accent) 70%, white);
+}
+
+/* 可选：隐藏内置提示块的英文标题（若你仍用 info/tip 等） */
+.custom-block .custom-block-title{ display:none; }
+
+
+/* 朱砂（危机/宿命） */
+.custom-block.jianghu.jh-red{ --jh-accent:#e85959; }
+/* 金土（基座/典章） */
+.custom-block.jianghu.jh-gold{ --jh-accent:#d7a85a; }
+/* 墨蓝（秩序/海域） */
+.custom-block.jianghu.jh-ink{ --jh-accent:#4b6aa7; }

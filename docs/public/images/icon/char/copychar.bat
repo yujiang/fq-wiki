@@ -1,0 +1,2 @@
+copy 80x80\%1.png 80x80\%2.png
+copy 150x200\%1.png 150x200\%2.png

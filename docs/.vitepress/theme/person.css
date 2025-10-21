@@ -1,0 +1,78 @@
+/* ===== person：人物卡片 ===== */
+.custom-block.person{
+  --ps-accent: #4b6aa7;                       /* 默认：墨蓝 */
+  --ps-bg: rgba(75,106,167,0.06);
+  --ps-ink: #1f2d3d;
+
+  margin: 18px 0;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+  border: 1px solid color-mix(in oklab, var(--ps-accent) 35%, transparent);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.35)) 0 0/100% 100%,
+    var(--ps-bg);
+  color: var(--ps-ink);
+}
+
+/* 顶部条（标题区） */
+.custom-block.person .ps-header{
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px;
+  background: linear-gradient(90deg,
+    color-mix(in oklab, var(--ps-accent) 20%, white),
+    transparent 60%);
+  border-bottom: 1px solid color-mix(in oklab, var(--ps-accent) 35%, transparent);
+}
+.custom-block.person .ps-title{
+  font-weight: 700; letter-spacing: .04em;
+}
+
+/* 内容区：左侧头像 + 右侧文本 */
+.custom-block.person .ps-body{
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 14px;
+  padding: 14px;
+  align-items: start;
+}
+
+/* 卡内第一张图片视为头像（用 Markdown 图片语法即可） */
+.custom-block.person .ps-body > :is(p, div) img:first-child{
+  width: 92px; height: 92px; object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid color-mix(in oklab, var(--ps-accent) 40%, transparent);
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);
+  display: block;
+}
+
+/* 头像右侧正文：将首个含图的段落当头像列，其他自然流进右侧 */
+.custom-block.person .ps-body p:first-child{
+  grid-column: 1 / 2;
+  margin: 0; /* 头像容器无外距 */
+}
+.custom-block.person .ps-body p:nth-child(n+2){
+  grid-column: 2 / 3;
+}
+
+/* 没有头像时：单列展示 */
+.custom-block.person .ps-body:not(:has(img)){
+  grid-template-columns: 1fr;
+}
+
+/* 暗色模式 */
+.dark .custom-block.person{
+  --ps-bg: rgba(75,106,167,0.12);
+  --ps-ink: #e6e6e6;
+  background:
+    linear-gradient(180deg, rgba(16,16,16,0.6), rgba(16,16,16,0.3)) 0 0/100% 100%,
+    var(--ps-bg);
+  box-shadow: 0 6px 20px rgba(0,0,0,.28);
+}
+
+/* 主题色变体 */
+.custom-block.person.ps-ink  { --ps-accent:#4b6aa7; } /* 墨蓝（默认） */
+.custom-block.person.ps-gold { --ps-accent:#d7a85a; } /* 金土 */
+.custom-block.person.ps-red  { --ps-accent:#e85959; } /* 朱砂 */
+.custom-block.person.ps-green{ --ps-accent:#68c060; } /* 青绿 */

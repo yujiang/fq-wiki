@@ -23,3 +23,37 @@
   border-radius: 0; /* 去除圆角 */
   text-shadow: none; /* 去除标签阴影 */
 }
+
+.red { color: #ff4d4f; }
+.blue { color: #1890ff; }
+.green { color: #52c41a; }
+.warn { color: orange; font-weight: bold; }
+
+
+/* 隐藏默认块头标题（INFO / TIP / WARNING / DANGER） */
+.custom-block .custom-block-title {
+  display: none;
+}
+
+/* 可选：微调块体样式，使其更像“江湖卷页” */
+.custom-block.info {
+  border-left-color: #6ec1e4;
+  background: rgba(110, 193, 228, 0.08);
+}
+
+.custom-block.tip {
+  border-left-color: #68c060;
+  background: rgba(104, 192, 96, 0.08);
+}
+
+.custom-block.warning {
+  border-left-color: #e6a23c;
+  background: rgba(230, 162, 60, 0.08);
+}
+
+.custom-block.danger {
+  border-left-color: #f56c6c;
+  background: rgba(245, 108, 108, 0.08);
+}
+
+

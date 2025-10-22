@@ -4,6 +4,10 @@ import { watch } from 'vue'
 import type { Router } from 'vitepress'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
+import ItemCard from './components/ItemCard.vue'
+import ShopCard from './components/ShopCard.vue'
+import ShopTabs from './components/ShopTabs.vue'
+
 import './style.css'
 import "./jianghu.css"
 import "./poem.css"
@@ -16,7 +20,10 @@ export default {
     if (typeof window === 'undefined') return;
 
     enhanceAppWithTabs(app)
-
+    app.component('ItemCard', ItemCard)
+    app.component('ShopCard', ShopCard)
+    app.component('ShopTabs', ShopTabs)
+    
     const apply = () => {
       const fm = router.route.data?.frontmatter as any; 
       if(!fm) return;

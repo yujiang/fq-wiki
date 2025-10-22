@@ -42,11 +42,12 @@ const current = computed(() => {
   gap: 8px;
   flex-wrap: wrap;
   margin-bottom: 12px;
+  background: #f0f0f0; /* 设置背景色 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* 添加阴影 */  
 }
 .tab {
   padding: 6px 12px;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
   background: var(--vp-c-bg-soft);
   cursor: pointer;
 }

@@ -3,8 +3,10 @@ import {withMermaid, MermaidPlugin, MermaidMarkdown} from 'vitepress-plugin-merm
 import { setupContainers } from './jianghu';
 // import { generateSidebar } from 'vitepress-sidebar'
 import { generateSidebarRemoveNumber } from './sidebar';
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
-export default defineConfig({
+
+export default withMermaid({
   lang: 'zh-CN',
   title: '风起江湖 · Wiki',
   description: '游戏世界观 / 人物 / 门派 / 剧情资料',
@@ -13,7 +15,7 @@ export default defineConfig({
 
   vite: {
     // 必需，否则 vitepress-plugin-mermaid 无法正常工作
-    plugins: [MermaidPlugin()],
+    // plugins: [MermaidPlugin()],
     optimizeDeps: {
         include: ['mermaid'],
     },
@@ -24,9 +26,9 @@ export default defineConfig({
 
   markdown: {
     config: (md) => {
-      md.use(MermaidMarkdown);
+      // md.use(MermaidMarkdown);
+      md.use(tabsMarkdownPlugin)
       setupContainers(md);
-
     }
   },  
 

@@ -2,13 +2,13 @@
 
 ## 测试block
 ::: tip 测试block
-[jianghu](./02-jianghu)  
-[person](./03-person)  
-[poem](./04-poem)  
+[江湖block](./02-jianghu)  
+[人物卡片](./03-person)  
+[诗句](./04-poem)  
 :::
 
 ## 测试color
 ::: warning 测试color
-[color](./01-color)
+[颜色](./01-color)
 :::
 

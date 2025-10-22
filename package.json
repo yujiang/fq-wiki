@@ -19,6 +19,7 @@
     "typescript": "^5.9.3",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-plugin-tabs": "^0.7.3",
     "vitepress-sidebar": "^1.33.0"
   },
   "dependencies": {

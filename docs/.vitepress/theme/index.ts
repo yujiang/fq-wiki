@@ -2,6 +2,8 @@
 import DefaultTheme from 'vitepress/theme'
 import { watch } from 'vue'
 import type { Router } from 'vitepress'
+import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
+
 import './style.css'
 import "./jianghu.css"
 import "./poem.css"
@@ -9,16 +11,25 @@ import "./person.css"
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ router }: { router: Router }) {
+  enhanceApp({ app, router }: any) {
     // SSR 守卫
-    if (typeof window === 'undefined') return
+    if (typeof window === 'undefined') return;
+
+    enhanceAppWithTabs(app)
 
     const apply = () => {
-      const fm = router.route.data?.frontmatter as { h2Style?: string } | undefined
-      const v = fm?.h2Style
+      const fm = router.route.data?.frontmatter as any; 
+      if(!fm) return;
       const el = document.documentElement
-      if (v) el.setAttribute('data-h2', v)
-      else el.removeAttribute('data-h2')
+      const keys ={
+        "h2Style": "data-h2",
+        "h3Style": "data-h3"
+      }
+      for (const [key,v] of Object.entries(keys)) {
+        const v2 = fm[key];
+        if (v2) el.setAttribute(v, v2)
+        else el.removeAttribute(v)
+      }
     }
 
     // 首屏

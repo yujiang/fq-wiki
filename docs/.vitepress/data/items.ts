@@ -3,6 +3,7 @@ import { fetchXls, XlsBase } from "./xls";
 export interface XlsItem extends  XlsBase {
   Desc?: string;
   Rank: number; // 决定bg?
+  Detail: string;
 }
 
 // export const items: Record<number, Item> = {

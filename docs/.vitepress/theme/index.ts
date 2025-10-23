@@ -9,11 +9,18 @@ import ShopCard from './components/ShopCard.vue'
 import ShopTabs from './components/ShopTabs.vue'
 
 import ItemGrid from './components/ItemGrid.vue'
+import ItemList from './components/ItemList.vue'
+import ButtonWithTooltip from './components/ButtonWithTooltip.vue'
 
 import './style.css'
 import "./jianghu.css"
 import "./poem.css"
 import "./person.css"
+
+import ElementPlus from 'element-plus';
+import 'element-plus/dist/index.css'; // 引入 Element Plus 的样式
+import NaiveUI from 'naive-ui'
+// import 'naive-ui/dist/naive-ui.css'  // 引入 Naive UI 的样式
 
 export default {
   ...DefaultTheme,
@@ -27,7 +34,14 @@ export default {
     app.component('ShopTabs', ShopTabs)
 
     app.component('ItemGrid', ItemGrid)
-    
+    app.component('ItemList', ItemList)
+
+    app.component('ButtonWithTooltip', ButtonWithTooltip)
+
+    // enableTips(app);
+    app.use(ElementPlus);
+    app.use(NaiveUI);
+
     const apply = () => {
       const fm = router.route.data?.frontmatter as any; 
       if(!fm) return;

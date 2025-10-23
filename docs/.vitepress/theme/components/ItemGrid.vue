@@ -1,16 +1,23 @@
 <template>
   <div class="item-grid" v-if="item">
-    <div class="icon-wrap" :class="['rank-' + (item.Rank || 1)]">
-      <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
-    </div>
-    <div class="meta">
-      <span class="数目" v-if="count">{{ count }}</span>
-    </div>
+    <!-- 使用 NTooltip 包裹触发元素 -->
+    <n-tooltip :style="{ maxWidth: '200px' }" trigger="click">
+      <!-- 触发元素放在 #trigger 插槽中 -->
+      <template #trigger>
+        <div class="icon-wrap">
+          <img v-if="itemicon" :src="itemicon" alt="" class="icon" :style="backgroundStyle" />
+          <span class="数目" v-if="count">{{ count }}</span>
+        </div>
+      </template>
+      <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
+      <div>{{ item.Detail }}</div>
+    </n-tooltip>
+    <div class="item-name" v-if="item?.Name">{{ item.Name }}</div> <!-- 物品名字 -->
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { XlsItem, getItemIcon, getItemById } from "../../data/items";
 
 // 接收 props 数据
@@ -20,7 +27,7 @@ const props = defineProps<{
 }>();
 
 // 异步加载所有 items
-let item = ref<XlsItem|null>(null);
+let item = ref<XlsItem | null>(null);
 let itemicon = ref('');
 
 // 初始化并加载数据
@@ -38,112 +45,82 @@ watch(
 
 const updateCurrentItem = async (id: number) => {
   item.value = await getItemById(id);
-  itemicon.value = getItemIcon(item?.value?.Icon||0);
+  itemicon.value = getItemIcon(item?.value?.Icon || 0);
 };
+
+// 根据 rank 动态计算背景图片
+const backgroundStyle = computed(() => {
+  const rank = item.value?.Rank || 1;
+  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${rank + 2}.png")`;
+  return {
+    backgroundImage: bgImage,
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat',
+  };
+});
 </script>
 
 <style scoped>
 .item-grid {
   width: 90px;
   display: flex;
+  flex-direction: column; /* 竖直排列 */
   align-items: center;
-  gap: 12px;
-  height: 90px;
+  gap: 8px;
+  height: 105px;
   padding: 0px 0px;
   box-sizing: border-box;
   border-radius: 6px;
+  position: relative; /* 添加相对定位以支持绝对定位的子元素 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡 */
+}
 
-  /* 🔹背景层叠顺序（从下到上）：
-     1. 九宫格底图 frame_11.png
-     2. 纸纹噪点
-     3. 淡色渐变 */
-  background: url("/images/ui/frame/frame_11.png") no-repeat center / 100% 100%;
-  border: 1px solid black;
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.4),
-    inset 0 -1px 0 rgba(0,0,0,0.08);
+.item-grid:hover {
+  transform: scale(1.05); /* 鼠标 hover 时放大 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* 增加阴影 */
 }
 
 .icon-wrap {
-  width: 90px;
-  height: 90px;
-  border-radius: 0px;
+  width: 80px; /* 控制图标宽度 */
+  height: 80px; /* 控制图标高度 */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  border-radius: 6px;
   border: 2px solid #333;
-  background:
-    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.2), transparent 60%),
-    linear-gradient(180deg, #76d28d, #4caf7a);
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  position: relative; /* 使得子元素可以相对定位 */
+  transition: transform 0.3s ease; /* 图标放大效果 */
+}
+
+.icon-wrap:hover {
+  transform: scale(1.1); /* 鼠标 hover 时图标放大 */
 }
 
 .icon {
-  width: 48px;
-  height: 48px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-/* 品质色 */
-/* 不同品质的背景样式 */
-.rank-0 {
-  background: radial-gradient(circle at center, #ddd 0%, #999 100%);
-  border-color: #ccc;
-}
-.rank-1 {
-  background: radial-gradient(circle at center, #c8f7c5 0%, #27ae60 100%);
-  border-color: #2ecc71;
-}
-.rank-2 {
-  background: radial-gradient(circle at center, #a0c4ff 0%, #3498db 100%);
-  border-color: #3498db;
-}
-.rank-3 {
-  background: radial-gradient(circle at center, #e1bee7 0%, #9b59b6 100%);
-  border-color: #9b59b6;
-}
-.rank-4 {
-  background: radial-gradient(circle at center, #ffeaa7 0%, #f39c12 100%);
-  border-color: #f1c40f;
-}
-.rank-5 {
-  background: radial-gradient(circle at center, #ffb6c1 0%, #e74c3c 100%);
-  border-color: #e74c3c;
-}
-.meta {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
-.title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6px;
-}
-
-.name {
-  font-weight: 700;
-  font-size: 18px;
-  font-family: "Ma Shan Zheng", "LXGW WenKai", "KaiTi", sans-serif;
-  text-shadow: 0 1px 0 #fff, 0 0 1px rgba(0,0,0,.25);
-}
-
-.stock {
-  color: #5b5b5b;
+.数目 {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
   font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
 }
 
-.price-line {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.price {
-  color: #1556c9;
+.item-name {
+  position: absolute;
+  bottom: 0px; /* 物品名字距离卡片的底部 */
+  width: 100%;
   font-weight: 700;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  font-family: "Ma Shan Zheng", "LXGW WenKai", "KaiTi", sans-serif;
 }
-
 </style>

@@ -41,8 +41,7 @@
 </template>
 
 <script setup lang="ts">
-import { ElButton, ElTooltip } from 'element-plus'; // 引入 Element Plus 的 Button 和 Tooltip 组件
-import { NButton, NTooltip } from 'naive-ui'
+
 </script>
 
 <style scoped>

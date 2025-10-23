@@ -1,31 +1,29 @@
-import { fetchXls } from "./items";
+import { fetchXls, XlsBase } from "./xls";
 
-export interface ShopItem {
+export interface XlsShopItem extends XlsBase {
   ItemId: number;
-  Name: string;
   Price: number;
   Count: number;
   Tag: string;
 }
 
-export interface Shop {
-  Id: number;
-  Name: string;
-  Tag: string;
+// 临时数据,非表格
+export interface XlsShop extends XlsBase{
   // keeper: string;
   // note?: string;  // 商店的备注
-  goods: ShopItem[]; // 商品列表
+  Npc: number;
+  Tag: string;
+  goods: XlsShopItem[]; // 商品列表
 }
 
-export type Shops = Record<number, Shop>;
+export type Shops = Record<number, XlsShop>;
 
-type ShopItems = Record<number, ShopItem>;
+type ShopItems = Record<number, XlsShopItem>;
 
-interface XlsShoptype {
-  Id: number;
-  Name: string;
+interface XlsShoptype extends XlsBase{
   DataName: string;
   Tag: string;
+  Npc: number;
 }
 
 export type ShopTypes = Record<number, XlsShoptype>;
@@ -42,7 +40,7 @@ export async function getShopTypes() {
 const shops: Shops = {};
 
 // 获取某个商店的数据
-export async function getShopById(shopId: number): Promise<Shop | null> {
+export async function getShopById(shopId: number): Promise<XlsShop | null> {
   if (shops[shopId]) {
     return shops[shopId];    // 返回指定 ID 的商店，如果没有则返回 null
   }
@@ -56,10 +54,11 @@ export async function getShopById(shopId: number): Promise<Shop | null> {
     return null;
   }
 
-  const s: Shop = {
+  const s: XlsShop = {
     Id: xls.Id,
     Name: xls.Name,
     Tag: xls.Tag,
+    Npc: xls.Npc,
     goods: []
   };
 
@@ -75,11 +74,12 @@ export async function getShopById(shopId: number): Promise<Shop | null> {
 }
 
 export async function getShopsByIds(ids: number[]): Promise<Shops> {
-  for (let id of ids) {
-    await getShopById(id);
-  }
+  // 并行请求所有指定 id 的商店
+  await Promise.all(ids.map(id => getShopById(id)));
+  // getShopById 内部应该已经把结果填进全局 shops 缓存
   return shops;
 }
+
 
 export async function getShopsByName(name: string): Promise<[number[], Shops]> {
   const ss = await getShopTypes();  // 获取所有商店数据

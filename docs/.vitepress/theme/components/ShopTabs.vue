@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watchEffect  } from 'vue'
-import { Shop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shops'
+import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shops'
 import ShopCard from './ShopCard.vue'
 
 const props = defineProps<{ ids: number[], name: string }>()
@@ -31,7 +31,7 @@ console.log("ShopTabs props", props)
 const active = ref(0)
 
 // Computed to get the current shop data based on active tab index
-const current = ref<Shop|null> (null);
+const current = ref<XlsShop|null> (null);
 
 const shopMap = ref<Shops>({})
 

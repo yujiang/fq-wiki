@@ -10,11 +10,11 @@
 ## 商店测试
 
 ```vue
-<ShopCard :shopId="4103" />
+<ShopCard :shopId="4502" />
 ```
 
 
-<ShopCard :shopId="4103" />
+<ShopCard :shopId="4502" />
 
 ## 🛍️ 杏花村商店(by id)
 

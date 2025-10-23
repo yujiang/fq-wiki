@@ -1,8 +1,8 @@
-export interface Item {
-  Id: number;
-  Name: string;
-  Icon: number;
+import { fetchXls, XlsBase } from "./xls";
+
+export interface XlsItem extends  XlsBase {
   Desc?: string;
+  Rank: number; // 决定bg?
 }
 
 // export const items: Record<number, Item> = {
@@ -15,34 +15,53 @@ export interface Item {
 //   22001: { id: 22001, name: '铁剑', icon: 1007, desc: '入门兵器' },
 // }
 
-export type Items = Record<number, Item>;
+export type Items = Record<number, XlsItem>;
 
-// 使用 fetch 动态加载 item.json 数据
-export const fetchXls = async (name: string): Promise<any> => {
-  const response = await fetch('/.vitepress/json/'+name+'_xls.json')
-  if (!response.ok) {
-    throw new Error('Failed to load items')
+
+
+type Kind = "item" | "equip" | "material" | "drug" | "book" | "food";
+
+let itemsCache: Items | null = null;
+// 正在加载时的单例 Promise（并发共享这一个）
+let itemsPromise: Promise<Items> | null = null;
+
+export async function getAllItems(): Promise<Items> {
+  if (itemsCache) return itemsCache;         // 已有结果
+  if (itemsPromise) return itemsPromise;     // 正在加载：复用同一个 Promise
+
+  itemsPromise = (async () => {
+    const kinds: Kind[] = ["item", "equip", "material", "drug", "book", "food"];
+    // 并行抓取
+    const chunks = await Promise.all(kinds.map(k => fetchXls(k) as Promise<Items>));
+
+    // 合并（如果担心覆盖，可加告警）
+    const merged = Object.assign({}, ...chunks) as Items;
+
+    // ✅ 缓存最终结果
+    itemsCache = merged;
+    console.log("items", Object.keys(merged).length);
+    return merged;
+  })();
+
+  try {
+    return await itemsPromise;
+  } catch (err) {
+    // 失败时允许后续重试
+    itemsPromise = null;
+    throw err;
+  } finally {
+    // 成功后保留 itemsPromise 也无妨；若想节省内存可清空：
+    itemsPromise = null;
   }
-  return response.json()  // 返回 JSON 数据
 }
 
-let items : Items;
-export async function getAllItems(){
-  if (!items){
-    const names = [
-      'item','equip','material','drug','book','food',
-    ]
-    let i = {};
-    for (const n of names){
-      const item = await fetchXls(n) as Items;
-      i = {...i, ...item};
-    }
-    items = i;
-  }
-  return items;
+
+export function getItemIcon(icon: number) {
+  //return `/images/icon/char/268x249/1013.png`;
+  return `/images/icon/item/100x100/${icon}.png`;
 }
 
-export function getItemIcon(icon: number){
+export function getRankBg(rank: number) {
   //return `/images/icon/char/268x249/1013.png`;
   return `/images/icon/item/100x100/${icon}.png`;
 }

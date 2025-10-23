@@ -3,6 +3,7 @@
     <div class="header">
       <div class="title">
         <strong>{{ currentShop.Name }}</strong>
+        <small class="keeper">掌柜：{{ npcname }}</small>
       </div>
     </div>
 
@@ -17,21 +18,30 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
-import { Shop, getShopById } from '../../data/shops'
+import { ref, watch } from 'vue'
+import { XlsShop, getShopById } from '../../data/shops'
 import ItemCard from './ItemCard.vue'
+import { getNpc } from '../../data/npcs';
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ shopId: number }>()
 
 // 使用响应式数据来存储当前商店数据
-const currentShop = ref<Shop | null>(null)
+const currentShop = ref<XlsShop | null>(null)
+
+let npcname = ref('(无)');
 
 // 当 shopId 改变时获取新商店数据
 watch(() => props.shopId, async (newShopId) => {
   const shop = await getShopById(newShopId)
+  if (shop?.Npc){
+    const npc = await getNpc(shop.Npc)
+    if (npc) {
+      npcname.value = npc.Name
+    }
+  }
   currentShop.value = shop;
-  console.log("currentShop.value", shop?.goods)
+  // console.log("currentShop.value", shop?.goods, npcname.value)
 }, { immediate: true })
 
 </script>

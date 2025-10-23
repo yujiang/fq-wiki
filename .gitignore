@@ -6,6 +6,7 @@ docs/.vitepress/cache/
 docs/.vitepress/dist/
 docs/.vitepress/temp/
 docs/.vitepress/.vitepress/
+docs/.vitepress/json/
 
 # 编辑器/系统杂项（建议顺手忽略）
 .DS_Store

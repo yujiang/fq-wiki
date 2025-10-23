@@ -3,36 +3,54 @@
     <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
     <div class="meta">
       <div class="title">
-        <strong>{{ cur.item.name }}</strong>
-         <div class="stock">库存：{{ cur.good.stock }}</div>
+        <strong>{{ cur.item?.Name }}</strong>
+        <div class="stock">库存：{{ cur.good.Count }}</div>
       </div>
-        <span class="price">￥{{ cur.good.price }}</span>
+      <span class="price">￥{{ cur.good.Price }}</span>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps, reactive, watchEffect } from 'vue'
-import { items, getItemIcon } from '../../data/items'
-import { ShopItem } from '../../data/shops';
+import { defineProps, ref, onMounted, watch } from "vue";
+import { Item, Items, getAllItems, getItemIcon } from "../../data/items";
+import { ShopItem } from "../../data/shops";
 
+// 接收 props 数据
 const props = defineProps<{
-  good: ShopItem,   // 商品数据
-}>()
+  good: ShopItem; // 商品数据
+}>();
 
-// 使用 reactive 来创建响应式对象
-const cur = reactive({
+// 使用 ref 来存储 item 数据和 icon
+const cur = ref({
   good: props.good,
-  item: items[props.good.itemId],
-  icon: getItemIcon(items[props.good.itemId]?.icon)
-})
+  item: {} as Item,
+  icon: "",
+});
 
-// 使用 watchEffect 来确保每次 good 变化时，自动更新相关数据
-watchEffect(() => {
-  cur.good = props.good
-  cur.item = items[cur.good.itemId]
-  cur.icon = getItemIcon(cur.item.icon)
-})
+// 异步加载所有 items
+let items = ref<Items>({});
+
+// 初始化并加载数据
+onMounted(async () => {
+  items.value = await getAllItems();
+  updateCurrentItem(props.good);
+});
+
+// 监听 good 变化
+watch(
+  () => props.good,
+  (newGood) => {
+    updateCurrentItem(newGood);
+  }
+);
+
+const updateCurrentItem = (good: ShopItem) => {
+  const item = items.value[good.ItemId];
+  const icon = getItemIcon(item?.Icon);
+  cur.value = { good, item, icon };
+  console.log("updateCurrentItem", cur.value);
+};
 </script>
 
 <style scoped>

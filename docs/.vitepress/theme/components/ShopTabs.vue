@@ -3,37 +3,60 @@
     <!-- Tabs -->
     <div class="tabs">
       <button
-        v-for="(sid, i) in ids"
+        v-for="(sid, i) in localIds"
         :key="sid"
         :class="['tab', { active: i === active }]"
         @click="active = i"
       >
-        {{ shopMap[sid]?.name ?? sid }}
+        {{ shopMap[sid]?.Name ?? sid }}
       </button>
     </div>
  
     <!-- Active Tab Content -->
     <div class="panel" v-if="current">
-      <ShopCard :shopId="current.id" />
+      <ShopCard :shopId="current.Id" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-import { shops as shopMap } from '../../data/shops'
+import { ref, onMounted, watchEffect  } from 'vue'
+import { Shop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shops'
 import ShopCard from './ShopCard.vue'
 
-const props = defineProps<{ ids: number[] }>()
+const props = defineProps<{ ids: number[], name: string }>()
+console.log("ShopTabs props", props)
 
 // Active tab index
 const active = ref(0)
 
 // Computed to get the current shop data based on active tab index
-const current = computed(() => {
-  const id = props.ids[active.value]
-  return shopMap[id]
+const current = ref<Shop|null> (null);
+
+const shopMap = ref<Shops>({})
+
+const localIds = ref<number[]>([])
+
+onMounted(async () => {
+  if (props.ids) {
+    shopMap.value = await getShopsByIds(props.ids);
+    localIds.value = props.ids // Directly use the prop ids if they exist
+  }
+  else {
+    const [ids,shops] = await getShopsByName(props.name);
+    shopMap.value = shops;
+    localIds.value = ids // Set ids dynamically based on the name search
+  }
+  const id = localIds.value[active.value]
+  current.value = await getShopById(id)
 })
+
+// 监听 active 的变化，每次切换时更新当前商店
+watchEffect(() => {
+  const shopId = localIds.value[active.value]
+  current.value = shopMap.value[shopId] || null  // 更新当前商店
+})
+
 </script>
 
 <style scoped>

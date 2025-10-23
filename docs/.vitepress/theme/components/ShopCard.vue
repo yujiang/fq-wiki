@@ -21,7 +21,7 @@
 import { ref, watch } from 'vue'
 import { XlsShop, getShopById } from '../../data/shops'
 import ItemCard from './ItemCard.vue'
-import { getNpc } from '../../data/npcs';
+import { getNpc, getNpcPosition } from '../../data/npcs';
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ shopId: number }>()
@@ -31,15 +31,23 @@ const currentShop = ref<XlsShop | null>(null)
 
 let npcname = ref('(无)');
 
+async function getNpcName(npcid: number){
+  let value = '(无)';
+  if (npcid){
+    const npc = await getNpc(npcid)
+    if (npc) {
+      value = npc.Name;
+      value += await getNpcPosition(npcid);
+    }
+  }
+  return value;
+
+}
+
 // 当 shopId 改变时获取新商店数据
 watch(() => props.shopId, async (newShopId) => {
   const shop = await getShopById(newShopId)
-  if (shop?.Npc){
-    const npc = await getNpc(shop.Npc)
-    if (npc) {
-      npcname.value = npc.Name
-    }
-  }
+  npcname.value = await getNpcName(shop?.Npc || 0);
   currentShop.value = shop;
   // console.log("currentShop.value", shop?.goods, npcname.value)
 }, { immediate: true })

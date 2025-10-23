@@ -1,69 +1,55 @@
 <template>
-  <div class="item-card" v-if="cur">
-    <div class="icon-wrap" :class="['rank-' + (cur.item.Rank || 1)]">
-      <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
+  <div class="item-grid" v-if="item">
+    <div class="icon-wrap" :class="['rank-' + (item.Rank || 1)]">
+      <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
     </div>
     <div class="meta">
-      <div class="title">
-        <strong>{{ cur.item?.Name }}</strong>
-        <div class="stock">库存：{{ cur.good.Count }}</div>
-      </div>
-      <span class="price">￥{{ cur.good.Price }}</span>
+      <span class="数目" v-if="count">{{ count }}</span>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import { XlsItem, Items, getAllItems, getItemIcon } from "../../data/items";
-import { XlsShopItem } from "../../data/shops";
+import { XlsItem, getItemIcon, getItemById } from "../../data/items";
 
 // 接收 props 数据
 const props = defineProps<{
-  good: XlsShopItem; // 商品数据
+  id: number; // 商品数据
+  count?: number; // 商品数量
 }>();
 
-// 使用 ref 来存储 item 数据和 icon
-const cur = ref({
-  good: props.good,
-  item: {} as XlsItem,
-  icon: "",
-});
-
 // 异步加载所有 items
-let items = ref<Items>({});
+let item = ref<XlsItem|null>(null);
+let itemicon = ref('');
 
 // 初始化并加载数据
 onMounted(async () => {
-  items.value = await getAllItems();
-  updateCurrentItem(props.good);
+  updateCurrentItem(props.id);
 });
 
 // 监听 good 变化
 watch(
-  () => props.good,
+  () => props.id,
   (newGood) => {
     updateCurrentItem(newGood);
   }
 );
 
-const updateCurrentItem = (good: XlsShopItem) => {
-  const item = items.value[good.ItemId];
-  const icon = getItemIcon(item?.Icon || 0);
-  cur.value = { good, item, icon };
-  // console.log("updateCurrentItem", cur.value);
+const updateCurrentItem = async (id: number) => {
+  item.value = await getItemById(id);
+  itemicon.value = getItemIcon(item?.value?.Icon||0);
 };
 </script>
 
 <style scoped>
-.item-card {
-  width: 250px;
+.item-grid {
+  width: 90px;
   display: flex;
   align-items: center;
   gap: 12px;
-  min-width: 260px;
   height: 90px;
-  padding: 10px 14px;
+  padding: 0px 0px;
   box-sizing: border-box;
   border-radius: 6px;
 
@@ -71,7 +57,7 @@ const updateCurrentItem = (good: XlsShopItem) => {
      1. 九宫格底图 frame_11.png
      2. 纸纹噪点
      3. 淡色渐变 */
-  background: url("/images/ui/frame_11_wide.png") no-repeat center / 100% 100%;
+  background: url("/images/ui/frame_11.png") no-repeat center / 100% 100%;
   border: 1px solid black;
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,0.4),
@@ -79,9 +65,9 @@ const updateCurrentItem = (good: XlsShopItem) => {
 }
 
 .icon-wrap {
-  width: 64px;
-  height: 64px;
-  border-radius: 6px;
+  width: 90px;
+  height: 90px;
+  border-radius: 0px;
   display: flex;
   align-items: center;
   justify-content: center;

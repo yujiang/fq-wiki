@@ -55,6 +55,10 @@ export async function getAllItems(): Promise<Items> {
   }
 }
 
+export function getItemById(id: number) {
+  return getAllItems().then(items => items[id]);
+}
+
 
 export function getItemIcon(icon: number) {
   //return `/images/icon/char/268x249/1013.png`;

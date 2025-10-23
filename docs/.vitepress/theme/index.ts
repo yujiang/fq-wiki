@@ -8,6 +8,8 @@ import ItemCard from './components/ItemCard.vue'
 import ShopCard from './components/ShopCard.vue'
 import ShopTabs from './components/ShopTabs.vue'
 
+import ItemGrid from './components/ItemGrid.vue'
+
 import './style.css'
 import "./jianghu.css"
 import "./poem.css"
@@ -23,6 +25,8 @@ export default {
     app.component('ItemCard', ItemCard)
     app.component('ShopCard', ShopCard)
     app.component('ShopTabs', ShopTabs)
+
+    app.component('ItemGrid', ItemGrid)
     
     const apply = () => {
       const fm = router.route.data?.frontmatter as any; 

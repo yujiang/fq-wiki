@@ -1,12 +1,4 @@
 
-## item测试
-
-```vue
-<ItemCard :good="{ ItemId: 100, Price: 10, Count: 100 }" />
-```
-
-<ItemCard :good="{ ItemId: 100, Price: 10, Count: 100 }" />
-
 ## 商店测试
 
 ```vue

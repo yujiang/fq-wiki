@@ -8,6 +8,14 @@ export interface XlsBase {
   Detail?: string
 }
 
+export interface XlsSceneObj extends XlsBase {
+    Scene: number;
+    x: number;
+    y: number;
+};
+
+
+
 export type Bases = Record<number, XlsBase>
 
 // 全局缓存

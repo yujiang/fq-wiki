@@ -57,7 +57,7 @@ const updateCurrentItem = async (id: number) => {
      1. 九宫格底图 frame_11.png
      2. 纸纹噪点
      3. 淡色渐变 */
-  background: url("/images/ui/frame_11.png") no-repeat center / 100% 100%;
+  background: url("/images/ui/frame/frame_11.png") no-repeat center / 100% 100%;
   border: 1px solid black;
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,0.4),

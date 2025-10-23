@@ -1,0 +1,15 @@
+{
+  "牡丹": {"Id": "牡丹", "Icon": "flower_huashu4_png", "ItemId": 54001, "Main": 1},
+  "梅花": {"Id": "梅花", "Icon": "flower_huashu6_png", "ItemId": 54002, "Main": 1},
+  "菊花": {"Id": "菊花", "Icon": "flower_huashu8_png", "ItemId": 54003, "Main": 1},
+  "荷花": {"Id": "荷花", "Icon": "flower_huashu7_png", "ItemId": 54004, "Main": 1},
+  "兰花": {"Id": "兰花", "Icon": "flower_huashu5_png", "ItemId": 54005, "Main": 1},
+  "桃花": {"Id": "桃花", "Icon": "flower_huashu1_png", "ItemId": 54006, "Main": 1},
+  "银芽柳": {
+    "Id": "银芽柳",
+    "Icon": "flower_huashu3_png",
+    "ItemId": 54007,
+    "Main": 0
+  },
+  "飞燕草": {"Id": "飞燕草", "Icon": "flower_huashu2_png", "ItemId": 54008, "Main": 0}
+}

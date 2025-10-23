@@ -1,0 +1,35 @@
+{
+  "2001": {
+    "Id": 2001,
+    "Name": "活动1",
+    "Every": "closeonce",
+    "TimeRange": ["06.01", "06.07"],
+    "OpenTimes": ["08:00", "10:00"],
+    "Script": 1001,
+    "OpenMsg": "1001开启了",
+    "CloseMsg": "1001关闭了",
+    "CancelMsg": "1001取消了"
+  },
+  "2003": {
+    "Id": 2003,
+    "Name": "活动3",
+    "Every": "day",
+    "OpenRange": [1, 7],
+    "OpenTimes": ["08:00", "10:00"],
+    "Script": 1001,
+    "OpenMsg": "1003开启了",
+    "CloseMsg": "1003关闭了",
+    "CancelMsg": "1003取消了"
+  },
+  "2005": {
+    "Id": 2005,
+    "Name": "活动5",
+    "Every": "month",
+    "EveryParam": [1, 2, 3],
+    "OpenTimes": [["08:00", "10:00"], ["12:00", "14:00"]],
+    "Script": 1001,
+    "OpenMsg": "1005开启了",
+    "CloseMsg": "1005关闭了",
+    "CancelMsg": "1005取消了"
+  }
+}

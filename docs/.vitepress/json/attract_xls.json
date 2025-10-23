@@ -1,0 +1,103 @@
+{
+  "1000": {
+    "Id": 1000,
+    "Name": "米",
+    "ItemTag": "米",
+    "Distance": 300,
+    "Action": "attack",
+    "Time": 10
+  },
+  "1001": {
+    "Id": 1001,
+    "Name": "肉",
+    "ItemTag": "肉",
+    "Distance": 300,
+    "Drama": "tigger/attractStart",
+    "Action": "attack",
+    "Time": 10,
+    "DramaEnd": "tigger/attractEnd"
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "狼",
+    "ItemTag": "肉",
+    "Distance": 600,
+    "Drama": "wolf/attractStart",
+    "Action": "wolf/eat",
+    "Time": 8,
+    "DramaEnd": "tigger/attractEnd"
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "武昌鸡",
+    "Item": 50055,
+    "Distance": 300,
+    "Drama": "hen/attractStart",
+    "Action": "hen/eat",
+    "Time": 2,
+    "DramaEnd": "hen/attractEnd"
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "莫干山鸡",
+    "Item": 50055,
+    "Distance": 300,
+    "Drama": "hen/attractStart",
+    "Action": "hen/eat",
+    "Time": 2,
+    "DramaEnd": "hen/attractEnd"
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "断桥镇鸡",
+    "Item": 50055,
+    "Distance": 300,
+    "Drama": "hen/attractStart",
+    "Action": "hen/eat",
+    "Time": 2,
+    "DramaEnd": "hen/attractEnd"
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "秦岭老虎",
+    "ItemTag": "肉",
+    "Distance": 300,
+    "Drama": "tigger/attractStart",
+    "Action": "tiger/eat",
+    "Time": 60,
+    "DramaEnd": "tigger/attractEnd"
+  },
+  "1007": {
+    "Id": 1007,
+    "Name": "郊外老虎",
+    "ItemTag": "肉",
+    "Distance": 300,
+    "Drama": "tigger/attractStart",
+    "Action": "tiger/eat",
+    "Time": 60,
+    "DramaEnd": "tigger/attractEnd"
+  },
+  "1008": {
+    "Id": 1008,
+    "Name": "测试老虎",
+    "ItemTag": "肉",
+    "Distance": 300,
+    "Drama": "tigger/attractStart",
+    "Action": "tiger/eat",
+    "Time": 10,
+    "DramaEnd": "tigger/attractEnd",
+    "Back": 1,
+    "EndTips": "肉被吃光了"
+  },
+  "1009": {
+    "Id": 1009,
+    "Name": "测试鸡",
+    "Item": 50055,
+    "Distance": 300,
+    "Drama": "hen/attractStart",
+    "Action": "tiger/eat",
+    "Time": 10,
+    "DramaEnd": "hen/attractEnd",
+    "EndTips": "米吃完了"
+  }
+}

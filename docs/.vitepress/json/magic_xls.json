@@ -1,0 +1,7693 @@
+{
+  "1000": {
+    "Id": 1000,
+    "Name": "普通攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "walk",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1001": {
+    "Id": 1001,
+    "Name": "溅射",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "重击",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall3"
+    },
+    "Defend": {
+      "Hit": "down",
+      "Hit2": "down",
+      "Die": "die"
+    }
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "跳砍",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackjump"
+    }
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "协战",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackhelp",
+      "Attack": "attack"
+    }
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "二连",
+    "Yell": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attack2",
+      "Attack": "attack"
+    }
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "浮空",
+    "Yell": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attackfly",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Hit2": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": [
+        "attackfly1",
+        "attackfly2"
+      ]
+    }
+  },
+  "1007": {
+    "Id": 1007,
+    "Name": "三连",
+    "Yell": 1,
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/attackall2",
+      "Attack": "attack2three"
+    },
+    "Defend": {
+      "Miss": "miss3",
+      "Defend": "defend"
+    }
+  },
+  "1008": {
+    "Id": 1008,
+    "Name": "突后",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackrush2"
+    },
+    "Defend": {
+      "Hit": [
+        "hit",
+        "downup"
+      ],
+      "Hit2": [
+        "hit",
+        "downup"
+      ]
+    }
+  },
+  "1009": {
+    "Id": 1009,
+    "Name": "反击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/counterattack",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1010": {
+    "Id": 1010,
+    "Name": "外功反击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/counterattack",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1011": {
+    "Id": 1011,
+    "Name": "内功反击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/counterattack",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1012": {
+    "Id": 1012,
+    "Name": "外功夹击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1013": {
+    "Id": 1013,
+    "Name": "夹击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1014": {
+    "Id": 1014,
+    "Name": "外功助攻",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1015": {
+    "Id": 1015,
+    "Name": "协防",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1016": {
+    "Id": 1016,
+    "Name": "特殊反击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1017": {
+    "Id": 1017,
+    "Name": "特殊夹击",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1018": {
+    "Id": 1018,
+    "Name": "特殊助攻",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1021": {
+    "Id": 1021,
+    "Name": "刀al特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "al",
+      "WeaponEffect": 9011
+    }
+  },
+  "1022": {
+    "Id": 1022,
+    "Name": "剑al特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "al",
+      "WeaponEffect": 9012
+    }
+  },
+  "1023": {
+    "Id": 1023,
+    "Name": "拳al特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "al",
+      "WeaponEffect": 9013
+    }
+  },
+  "1024": {
+    "Id": 1024,
+    "Name": "棍al特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "al",
+      "WeaponEffect": 9014
+    }
+  },
+  "1025": {
+    "Id": 1025,
+    "Name": "琴al特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "al",
+      "WeaponEffect": 9015
+    }
+  },
+  "1031": {
+    "Id": 1031,
+    "Name": "刀ar特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "ar",
+      "WeaponEffect": 9011
+    }
+  },
+  "1032": {
+    "Id": 1032,
+    "Name": "剑ar特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "ar",
+      "WeaponEffect": 9012
+    }
+  },
+  "1033": {
+    "Id": 1033,
+    "Name": "拳ar特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "ar",
+      "WeaponEffect": 9013
+    }
+  },
+  "1034": {
+    "Id": 1034,
+    "Name": "棍ar特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "ar",
+      "WeaponEffect": 9014
+    }
+  },
+  "1035": {
+    "Id": 1035,
+    "Name": "琴ar特效攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "rush",
+      "Attack": "ar",
+      "WeaponEffect": 9015
+    }
+  },
+  "1051": {
+    "Id": 1051,
+    "Name": "分身打3个",
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attack3",
+      "Attack": "al"
+    }
+  },
+  "1052": {
+    "Id": 1052,
+    "Name": "分身4个绕一圈",
+    "Attack": {
+      "Action": "attack/attack4"
+    }
+  },
+  "1053": {
+    "Id": 1053,
+    "Name": "凌空攻击",
+    "Attack": {
+      "Action": "attack/attack5"
+    }
+  },
+  "1054": {
+    "Id": 1054,
+    "Name": "浮空只有半段",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attack6",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Hit2": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": [
+        "attackfly1",
+        "attackfly2"
+      ]
+    }
+  },
+  "1055": {
+    "Id": 1055,
+    "Name": "浮空整段",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attack6",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Hit2": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": [
+        "attackfly1",
+        "attackfly2"
+      ]
+    }
+  },
+  "1056": {
+    "Id": 1056,
+    "Name": "伏虎",
+    "Desc": "方向和mirror的设置",
+    "Attack": {
+      "Action": "attack/attackfuhu"
+    }
+  },
+  "1057": {
+    "Id": 1057,
+    "Name": "4个攻击只取最后一个打击点",
+    "AttackEvent": 3,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackfour1"
+    }
+  },
+  "1058": {
+    "Id": 1058,
+    "Name": "4个攻击取2,4打击点",
+    "AttackEvent": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attackfour1"
+    }
+  },
+  "1059": {
+    "Id": 1059,
+    "Name": "原地攻击",
+    "Attack": {
+      "Action": "attack/attackstand",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9999": {
+    "Id": 9999,
+    "Name": "无动作",
+    "Attack": {
+      "Move": "walk",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Hit2": "hit2",
+      "Heal": "heal",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10000": {
+    "Id": 10000,
+    "Desc": "普通攻击",
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10001": {
+    "Id": 10001,
+    "Desc": "三个目标",
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/attack3",
+      "Attack": "al"
+    }
+  },
+  "10002": {
+    "Id": 10002,
+    "Desc": "跳砍",
+    "AttackAll": 0,
+    "OnlyMainAction": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attackfly"
+    },
+    "Defend": {
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ]
+    }
+  },
+  "10003": {
+    "Id": 10003,
+    "Desc": "星火术",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "xinghuo"
+    }
+  },
+  "10004": {
+    "Id": 10004,
+    "Desc": "模板",
+    "Attack": {
+      "Action": "normalmagic",
+      "Param": {
+        "file1": "new/xinhuozhou/magic01",
+        "file2": "new/xinhuozhou/magic"
+      }
+    }
+  },
+  "10005": {
+    "Id": 10005,
+    "Desc": "普通攻击通用",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10005"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10006": {
+    "Id": 10006,
+    "Desc": "普攻全体",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10007": {
+    "Id": 10007,
+    "Desc": "刀普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10007"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10008": {
+    "Id": 10008,
+    "Desc": "剑普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10008"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10009": {
+    "Id": 10009,
+    "Desc": "拳普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10009"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10010": {
+    "Id": 10010,
+    "Desc": "棍普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10011": {
+    "Id": 10011,
+    "Desc": "琴普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10011"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10012": {
+    "Id": 10012,
+    "Desc": "普通远程攻击",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10125"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10022": {
+    "Id": 10022,
+    "Desc": "合击跳砍",
+    "AttackAll": 0,
+    "OnlyMainAction": 1,
+    "NoMain": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/attack2fly"
+    },
+    "Defend": {
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ]
+    }
+  },
+  "10023": {
+    "Id": 10023,
+    "Desc": "4段攻击",
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 4,
+      "Action": "attack/attack4d"
+    }
+  },
+  "10024": {
+    "Id": 10024,
+    "Desc": "射箭普攻",
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "magic/arrow1041"
+    },
+    "Defend": {
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10025": {
+    "Id": 10025,
+    "Desc": "连珠箭",
+    "Name": "连珠箭",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "magic/arrow1040"
+    }
+  },
+  "10026": {
+    "Id": 10026,
+    "Desc": "原地挥刀",
+    "Attack": {
+      "Action": "magic/blade",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10027": {
+    "Id": 10027,
+    "Desc": "au",
+    "Attack": {
+      "Action": "attack/au"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "10106": {
+    "Id": 10106,
+    "Desc": "棍横扫",
+    "Name": "横扫",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10106"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10107": {
+    "Id": 10107,
+    "Desc": "腿横扫",
+    "Name": "横扫",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10107"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10108": {
+    "Id": 10108,
+    "Desc": "刀横扫",
+    "Name": "横扫",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10108"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10109": {
+    "Id": 10109,
+    "Desc": "剑横扫",
+    "Name": "横扫",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10109"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10110": {
+    "Id": 10110,
+    "Desc": "棍贯穿",
+    "Name": "贯穿",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10111": {
+    "Id": 10111,
+    "Desc": "拳贯穿",
+    "Name": "贯穿",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10111"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10112": {
+    "Id": 10112,
+    "Desc": "刀贯穿",
+    "Name": "贯穿",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10112"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10113": {
+    "Id": 10113,
+    "Desc": "剑贯穿",
+    "Name": "贯穿",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10113"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10114": {
+    "Id": 10114,
+    "Desc": "回血被动",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/healemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "10115": {
+    "Id": 10115,
+    "Desc": "伤害被动",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "11019": {
+    "Id": 11019,
+    "Desc": "反击",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackjia",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "11020": {
+    "Id": 11020,
+    "Desc": "夹击",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackjia",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "11021": {
+    "Id": 11021,
+    "Desc": "追击",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "11022": {
+    "Id": 11022,
+    "Desc": "反震效果",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/fanzhen"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "fanzhen",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "11023": {
+    "Id": 11023,
+    "Desc": "流血效果",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/11023"
+    },
+    "Defend": {
+      "Hit": "hit",
+      "BloodEffect": "normal"
+    }
+  },
+  "11024": {
+    "Id": 11024,
+    "Desc": "吸血/回血效果（只飘字）",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/xixue"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "11025": {
+    "Id": 11025,
+    "Desc": "逃跑",
+    "Dialogue": [
+      [
+        "我先溜了！",
+        1
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "escape/11025"
+    },
+    "Defend": {
+      "BloodEffect": "normal"
+    }
+  },
+  "11030": {
+    "Id": 11030,
+    "Desc": "协反",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackjia",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "20101": {
+    "Id": 20101,
+    "Desc": "昆吾剑法普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/wuguan/jicu/20101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "20102": {
+    "Id": 20102,
+    "Desc": "开山刀普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/wuguan/jicu/20102"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "20103": {
+    "Id": 20103,
+    "Desc": "白猿棍法普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/wuguan/jicu/20103"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "20104": {
+    "Id": 20104,
+    "Desc": "太祖长拳普攻",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/wuguan/jicu/20104"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "100110": {
+    "Id": 100110,
+    "Desc": "主角棍天赋",
+    "Name": "金刚怒目",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/100110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/100110",
+      "Heal": "tianfu/100110",
+      "Buff": "tianfu/100110",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "100210": {
+    "Id": 100210,
+    "Desc": "主角拳天赋",
+    "Name": "和光同尘",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/100210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/100210",
+      "Heal": "tianfu/100210",
+      "Buff": "tianfu/100210",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "100310": {
+    "Id": 100310,
+    "Desc": "主角刀天赋",
+    "Name": "修罗体",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/100310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/100310",
+      "Heal": "tianfu/100310",
+      "Buff": "tianfu/100310",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "100410": {
+    "Id": 100410,
+    "Desc": "主角剑天赋",
+    "Name": "雪隐",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/100410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/100410",
+      "Heal": "tianfu/100410",
+      "Buff": "tianfu/100410",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "100421": {
+    "Id": 100421,
+    "Desc": "主角剑天赋",
+    "Name": "破隐一击",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200131": {
+    "Id": 200131,
+    "Desc": "天赋",
+    "Name": "金鳞摆尾",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200131"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200211": {
+    "Id": 200211,
+    "Desc": "天赋",
+    "Name": "天杀狂徒",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200211"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/200211",
+      "Heal": "tianfu/200211",
+      "Buff": "tianfu/200211",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200230": {
+    "Id": 200230,
+    "Desc": "天赋",
+    "Name": "战吼",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200230"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/200230",
+      "Heal": "tianfu/200230",
+      "Buff": "tianfu/200230",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200310": {
+    "Id": 200310,
+    "Desc": "天赋",
+    "Name": "颂",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/200310",
+      "Heal": "tianfu/200310",
+      "Buff": "tianfu/200310",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200331": {
+    "Id": 200331,
+    "Desc": "天赋",
+    "Name": "风",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200331"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/200311",
+      "Heal": "tianfu/200311",
+      "Buff": "tianfu/200311",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200431": {
+    "Id": 200431,
+    "Desc": "天赋",
+    "Name": "断幽冥",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200610": {
+    "Id": 200610,
+    "Desc": "天赋",
+    "Name": "机傀操演",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200621": {
+    "Id": 200621,
+    "Desc": "天赋",
+    "Name": "李代桃僵",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200820": {
+    "Id": 200820,
+    "Desc": "天赋",
+    "Name": "幽恨遥天",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200820"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "200931": {
+    "Id": 200931,
+    "Desc": "天赋",
+    "Name": "不垢不净",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/200931"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/200931",
+      "Heal": "tianfu/200931",
+      "Buff": "tianfu/200931",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "201010": {
+    "Id": 201010,
+    "Desc": "天赋",
+    "Name": "崔巍",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/201010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/201010",
+      "Heal": "tianfu/201010",
+      "Buff": "tianfu/201010",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "201130": {
+    "Id": 201130,
+    "Desc": "天赋",
+    "Name": "枯木焕春",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/201130"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/201130",
+      "Heal": "tianfu/201130",
+      "Buff": "tianfu/201130",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "201131": {
+    "Id": 201131,
+    "Desc": "天赋",
+    "Name": "枯木焕春",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/201131"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "tianfu/201131",
+      "Heal": "tianfu/201131",
+      "Buff": "tianfu/201131",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "201331": {
+    "Id": 201331,
+    "Desc": "天赋",
+    "Name": "沥血",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/healemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "201610": {
+    "Id": 201610,
+    "Desc": "天赋",
+    "Name": "召唤",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/tianfu/201610"
+    }
+  },
+  "202000": {
+    "Id": 202000,
+    "Name": "一气贯通",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/quan/6005010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "500113": {
+    "Id": 500113,
+    "Desc": "飞针",
+    "Name": "飞针",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": 500113
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "500115": {
+    "Id": 500115,
+    "Desc": "无影脚",
+    "Name": "无影脚",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "你们两个小辈且退下，等我二人让他有来无回。",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/1214050"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "500116": {
+    "Id": 500116,
+    "Desc": "1060喷毒",
+    "Name": "蛇毒",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "嘶~嘶~",
+        1000
+      ]
+    ],
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "Attack": {
+      "Action": "guai/500116"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hitdu",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "500117": {
+    "Id": 500117,
+    "Desc": "傀儡发刀气",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "guai/500117"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500118": {
+    "Id": 500118,
+    "Desc": "2108magic二段炸气",
+    "Dialogue": [
+      [
+        "去死吧！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/500118"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500119": {
+    "Id": 500119,
+    "Desc": "7010猪突猛进",
+    "Name": "猪突猛进",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "哦咿哦咿！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/500119"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hitBack",
+      "Die": "hitBackDie",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500120": {
+    "Id": 500120,
+    "Desc": "1020跳跃magic",
+    "Dialogue": [
+      [
+        "冲啊",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/500120"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500121": {
+    "Id": 500121,
+    "Desc": "1019红旋风斩",
+    "Dialogue": [
+      [
+        "滚开",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "guai/500121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hitBack",
+      "Die": "hitBackDie",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500122": {
+    "Id": 500122,
+    "Desc": "1063蓝冲脸旋风斩",
+    "Dialogue": [
+      [
+        "水龙卷",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "guai/500122"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hitBack",
+      "Die": "hitBackDie",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "500123": {
+    "Id": 500123,
+    "Desc": "2115magic丢飞镖",
+    "Attack": {
+      "Action": "guai/500123"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal",
+      "BloodFont": "hp_sub"
+    }
+  },
+  "1116010": {
+    "Id": 1116010,
+    "Desc": "猛虎推山",
+    "Name": "猛虎推山",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/1116010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214020": {
+    "Id": 1214020,
+    "Desc": "傀儡机关",
+    "Name": "傀儡机关",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/1214020"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214030": {
+    "Id": 1214030,
+    "Desc": "三阳开泰",
+    "Name": "三阳开泰",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/1214030"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214031": {
+    "Id": 1214031,
+    "Desc": "吃我一箭!",
+    "Name": "吃我一箭!",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackGFJ"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214040": {
+    "Id": 1214040,
+    "Desc": "怒海潮生",
+    "Name": "怒海潮生",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/1214040"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214050": {
+    "Id": 1214050,
+    "Desc": "开天一剑",
+    "Name": "开天一剑",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/1214050"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1214060": {
+    "Id": 1214060,
+    "Desc": "射箭普攻",
+    "Name": "射箭普攻",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "arsenal/新版射箭普攻"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001101": {
+    "Id": 5001101,
+    "Desc": "黄泉掌",
+    "Name": "黄泉掌",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001102": {
+    "Id": 5001102,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001311"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001103": {
+    "Id": 5001103,
+    "Desc": "含笑九泉",
+    "Name": "含笑九泉",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "桀桀桀，认命吧！",
+        1800
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/npc/5001103"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "wuguan/qin/6009310",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001240": {
+    "Id": 5001240,
+    "Desc": "2080magic丢炸弹",
+    "Dialogue": [
+      [
+        "吃我霹雳丸",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001240"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defendbao",
+      "Hit": "hitbao",
+      "Die": "hitbaodie",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001250": {
+    "Id": 5001250,
+    "Desc": "2182跳跃magic",
+    "Attack": {
+      "Action": "guai/5001250"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001260": {
+    "Id": 5001260,
+    "Desc": "1053突脸magic",
+    "Attack": {
+      "Action": "guai/5001260"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001270": {
+    "Id": 5001270,
+    "Desc": "2091半空magic",
+    "Attack": {
+      "Action": "guai/5001270"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001280": {
+    "Id": 5001280,
+    "Desc": "2159原地炸气",
+    "Dialogue": [
+      [
+        "哈！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001280"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001310": {
+    "Id": 5001310,
+    "Desc": "2018炸气",
+    "Dialogue": [
+      [
+        "军阵！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001320": {
+    "Id": 5001320,
+    "Desc": "2113突脸magic",
+    "Attack": {
+      "Action": "guai/5001320"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001330": {
+    "Id": 5001330,
+    "Desc": "2055迷惑",
+    "Attack": {
+      "Action": "guai/5001330"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001340": {
+    "Id": 5001340,
+    "Desc": "2051突脸砍",
+    "Dialogue": [
+      [
+        "去死吧！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001340"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001350": {
+    "Id": 5001350,
+    "Desc": "2104丢金钱镖",
+    "Attack": {
+      "Action": "guai/5001350"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001360": {
+    "Id": 5001360,
+    "Desc": "2101x两剑",
+    "Dialogue": [
+      [
+        "去死吧！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001360"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001370": {
+    "Id": 5001370,
+    "Desc": "2021炸气",
+    "Name": "铁布衫",
+    "Dialogue": [
+      [
+        "哈！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001370"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001380": {
+    "Id": 5001380,
+    "Desc": "2172炸气",
+    "Dialogue": [
+      [
+        "哈！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001380"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001390": {
+    "Id": 5001390,
+    "Desc": "2148突脸magic",
+    "Attack": {
+      "Action": "guai/5001390"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001400": {
+    "Id": 5001400,
+    "Desc": "2056magic风",
+    "Dialogue": [
+      [
+        "滚开",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001400"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001410": {
+    "Id": 5001410,
+    "Desc": "2002magic炸气",
+    "Attack": {
+      "Action": "guai/5001410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001420": {
+    "Id": 5001420,
+    "Desc": "1015突脸magic",
+    "Attack": {
+      "Action": "guai/5001420"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001430": {
+    "Id": 5001430,
+    "Desc": "2084突脸跳回来",
+    "Dialogue": [
+      [
+        "受死!",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001430"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001440": {
+    "Id": 5001440,
+    "Desc": "2206三连",
+    "Attack": {
+      "Action": "guai/5001440"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001450": {
+    "Id": 5001450,
+    "Desc": "2058突脸",
+    "Dialogue": [
+      [
+        "去死吧！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "guai/5001450"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001460": {
+    "Id": 5001460,
+    "Desc": "2107三连",
+    "Attack": {
+      "Action": "guai/5001460"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001470": {
+    "Id": 5001470,
+    "Desc": "2171突脸",
+    "Attack": {
+      "Action": "guai/5001470"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001480": {
+    "Id": 5001480,
+    "Desc": "2144飞刀",
+    "Attack": {
+      "Action": "guai/5001480"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001490": {
+    "Id": 5001490,
+    "Desc": "3118砸地",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "guai/5001490"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5001500": {
+    "Id": 5001500,
+    "Desc": "2146突脸",
+    "Attack": {
+      "Action": "guai/5001500"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5061014": {
+    "Id": 5061014,
+    "Desc": "密宗神拳",
+    "Name": "密宗神拳",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/quan/6005710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5061016": {
+    "Id": 5061016,
+    "Desc": "门派大比药王回血",
+    "Name": "药王诀",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/6016810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Heal": "hit/heal_10128",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5222361": {
+    "Id": 5222361,
+    "Desc": "许一刀",
+    "Dialogue": [
+      [
+        "一刀",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/5222361"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5222362": {
+    "Id": 5222362,
+    "Desc": "许二刀",
+    "Dialogue": [
+      [
+        "两刀",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/5222361"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5222363": {
+    "Id": 5222363,
+    "Desc": "许三刀",
+    "Dialogue": [
+      [
+        "三刀！",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/5222361"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5610120": {
+    "Id": 5610120,
+    "Desc": "助我！！",
+    "Name": "助我！！",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "万兽来袭。",
+        1500
+      ]
+    ],
+    "Attack": {
+      "Action": "guard"
+    },
+    "Defend": {
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5610180": {
+    "Id": 5610180,
+    "Desc": "五毒神功",
+    "Name": "五毒神功",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5610181": {
+    "Id": 5610181,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001311"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6000110": {
+    "Id": 6000110,
+    "Desc": "风助火势",
+    "Name": "风助火势",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/school/gun/6000110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6000210": {
+    "Id": 6000210,
+    "Desc": "灵松撼地",
+    "Name": "灵松撼地",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/school/gun/6000210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6000310": {
+    "Id": 6000310,
+    "Desc": "韦陀杵",
+    "Name": "韦陀杵"
+  },
+  "6000410": {
+    "Id": 6000410,
+    "Desc": "达摩棍法",
+    "Name": "达摩棍法"
+  },
+  "6001310": {
+    "Id": 6001310,
+    "Desc": "回风落叶",
+    "Name": "回风落叶",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6001311": {
+    "Id": 6001311,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/quan/6001311"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6001410": {
+    "Id": 6001410,
+    "Desc": "巽风连袭",
+    "Name": "巽风连袭",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/quan/6001410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6001411": {
+    "Id": 6001411,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/quan/6001411"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6001510": {
+    "Id": 6001510,
+    "Desc": "无极玄功拳",
+    "Name": "无极玄功拳"
+  },
+  "6001511": {
+    "Id": 6001511,
+    "Desc": "无极玄功拳",
+    "Name": "无极玄功拳"
+  },
+  "6001610": {
+    "Id": 6001610,
+    "Desc": "太极拳",
+    "Name": "太极拳"
+  },
+  "6001611": {
+    "Id": 6001611,
+    "Desc": "太极拳",
+    "Name": "太极拳"
+  },
+  "6001830": {
+    "Id": 6001830,
+    "Desc": "混元一炁",
+    "Name": "混元一炁",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/tianfu/200310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002510": {
+    "Id": 6002510,
+    "Desc": "三剪水",
+    "Name": "三剪水",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002510"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002511": {
+    "Id": 6002511,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002511"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002512": {
+    "Id": 6002512,
+    "Desc": 3,
+    "Name": 3,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002512"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002610": {
+    "Id": 6002610,
+    "Desc": "狂杀碎浪",
+    "Name": "狂杀碎浪",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002611": {
+    "Id": 6002611,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002611"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002612": {
+    "Id": 6002612,
+    "Desc": 3,
+    "Name": 3,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/dao/6002612"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6002710": {
+    "Id": 6002710,
+    "Desc": "晦暝刀意",
+    "Name": "晦暝刀意"
+  },
+  "6002711": {
+    "Id": 6002711,
+    "Desc": "晦暝刀意二段",
+    "Name": "晦暝刀意二段"
+  },
+  "6002712": {
+    "Id": 6002712,
+    "Desc": "晦暝刀意三段",
+    "Name": "晦暝刀意三段"
+  },
+  "6002713": {
+    "Id": 6002713,
+    "Desc": "晦暝刀意三合二",
+    "Name": "晦暝刀意三合二"
+  },
+  "6002714": {
+    "Id": 6002714,
+    "Desc": "晦暝刀意三合二二段",
+    "Name": "晦暝刀意三合二二段"
+  },
+  "6002810": {
+    "Id": 6002810,
+    "Desc": "霸刀",
+    "Name": "霸刀"
+  },
+  "6002811": {
+    "Id": 6002811,
+    "Desc": "霸刀二段",
+    "Name": "霸刀二段"
+  },
+  "6002812": {
+    "Id": 6002812,
+    "Desc": "霸刀三段",
+    "Name": "霸刀三段"
+  },
+  "6002813": {
+    "Id": 6002813,
+    "Desc": "霸中霸",
+    "Name": "霸中霸"
+  },
+  "6003710": {
+    "Id": 6003710,
+    "Desc": "点点红梅",
+    "Name": "点点红梅",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/school/jian/6003710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003711": {
+    "Id": 6003711,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003712": {
+    "Id": 6003712,
+    "Desc": 3,
+    "Name": 3,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003810": {
+    "Id": 6003810,
+    "Desc": "红梅白雪",
+    "Name": "红梅白雪",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003811": {
+    "Id": 6003811,
+    "Desc": 2,
+    "Name": 2,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003811"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003812": {
+    "Id": 6003812,
+    "Desc": 3,
+    "Name": 3,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003811"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003813": {
+    "Id": 6003813,
+    "Desc": 4,
+    "Name": 4,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003811"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003814": {
+    "Id": 6003814,
+    "Desc": 5,
+    "Name": 5,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/school/jian/6003811"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6003910": {
+    "Id": 6003910,
+    "Desc": "朔风剑势",
+    "Name": "朔风剑势"
+  },
+  "6003911": {
+    "Id": 6003911,
+    "Desc": "朔风剑势二段",
+    "Name": "朔风剑势二段"
+  },
+  "6003912": {
+    "Id": 6003912,
+    "Desc": "朔风剑势三段",
+    "Name": "朔风剑势三段"
+  },
+  "6004010": {
+    "Id": 6004010,
+    "Desc": "缥缈五云剑",
+    "Name": "缥缈五云剑"
+  },
+  "6004011": {
+    "Id": 6004011,
+    "Desc": "缥缈五云剑二段",
+    "Name": "缥缈五云剑二段"
+  },
+  "6004012": {
+    "Id": 6004012,
+    "Desc": "缥缈五云剑三段",
+    "Name": "缥缈五云剑三段"
+  },
+  "6004013": {
+    "Id": 6004013,
+    "Desc": "缥缈五云剑四段",
+    "Name": "缥缈五云剑四段"
+  },
+  "6004014": {
+    "Id": 6004014,
+    "Desc": "缥缈五云剑五段",
+    "Name": "缥缈五云剑五段"
+  },
+  "6004910": {
+    "Id": 6004910,
+    "Desc": "白猿望月",
+    "Name": "白猿望月",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/gun/6021710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005010": {
+    "Id": 6005010,
+    "Desc": "正步冲拳",
+    "Name": "正步冲拳",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/quan/6005010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005110": {
+    "Id": 6005110,
+    "Desc": "迎门献剑",
+    "Name": "迎门献剑",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6005110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005111": {
+    "Id": 6005111,
+    "Desc": "迎门献剑二段",
+    "Name": "迎门献剑二段",
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6005111"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005210": {
+    "Id": 6005210,
+    "Desc": "碎岳式",
+    "Name": "碎岳式",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/dao/6005210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005610": {
+    "Id": 6005610,
+    "Desc": "震岳",
+    "Name": "震岳",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/gun/6005610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005710": {
+    "Id": 6005710,
+    "Desc": "六合归一",
+    "Name": "六合归一",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/quan/6005710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005810": {
+    "Id": 6005810,
+    "Desc": "回春",
+    "Name": "回春",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/quan/6005810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005910": {
+    "Id": 6005910,
+    "Desc": "落瑛",
+    "Name": "落瑛",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6005910"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6005921": {
+    "Id": 6005921,
+    "Desc": "落瑛追击",
+    "Name": "落瑛追击",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6005921"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006010": {
+    "Id": 6006010,
+    "Desc": "玉切",
+    "Name": "玉切",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/dao/6006010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006110": {
+    "Id": 6006110,
+    "Desc": "绝艳",
+    "Name": "绝艳",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/qita/dao/6006110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006610": {
+    "Id": 6006610,
+    "Desc": "五郎八卦棍",
+    "Name": "五郎八卦棍",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/gun/6006610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006710": {
+    "Id": 6006710,
+    "Desc": "杨家枪法",
+    "Name": "杨家枪法",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/qita/gun/6006710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006711": {
+    "Id": 6006711,
+    "Desc": "杨家枪法二段",
+    "Name": "杨家枪法二段",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/gun/6006711"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006712": {
+    "Id": 6006712,
+    "Desc": "杨家枪法三段",
+    "Name": "杨家枪法三段",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/gun/6006712"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006810": {
+    "Id": 6006810,
+    "Desc": "狼牙棒法",
+    "Name": "狼牙棒法",
+    "Yell": 1,
+    "AttackAll": 1,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/gun/6006810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6006910": {
+    "Id": 6006910,
+    "Desc": "点苍棍法",
+    "Name": "点苍棍法",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/qita/gun/6006910"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007010": {
+    "Id": 6007010,
+    "Desc": "疯魔杖法",
+    "Name": "疯魔杖法",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/zhenying/gun/6007010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007110": {
+    "Id": 6007110,
+    "Desc": "五禽戏",
+    "Name": "五禽戏",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/quan/6007110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007210": {
+    "Id": 6007210,
+    "Desc": "分花拂穴手",
+    "Name": "分花拂穴手",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/zhenying/quan/6007210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "zhenying/quan/6007210",
+      "Heal": "zhenying/quan/6007210",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007231": {
+    "Id": 6007231,
+    "Desc": "再生回血",
+    "Name": "再生回血",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/healemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007310": {
+    "Id": 6007310,
+    "Desc": "莲花掌",
+    "Name": "莲花掌",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/quan/6007310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "qita/quan/6007311",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007410": {
+    "Id": 6007410,
+    "Desc": "千夫所指",
+    "Name": "千夫所指",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/quan/6007410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "qita/quan/6007410",
+      "Heal": "qita/quan/6007410",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007510": {
+    "Id": 6007510,
+    "Desc": "骨肉分离",
+    "Name": "骨肉分离",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/dao/6007510"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007511": {
+    "Id": 6007511,
+    "Desc": "骨肉分离2",
+    "Name": "骨肉分离2",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/qita/dao/6007511"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007512": {
+    "Id": 6007512,
+    "Desc": "骨肉分离3",
+    "Name": "骨肉分离3",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/qita/dao/6007512"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007610": {
+    "Id": 6007610,
+    "Desc": "有去无回",
+    "Name": "有去无回",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/zhenying/dao/6007610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007611": {
+    "Id": 6007611,
+    "Desc": "有去无回",
+    "Name": "有去无回",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Action": "attack/zhenying/dao/6007611"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007710": {
+    "Id": 6007710,
+    "Desc": "破风斩",
+    "Name": "破风斩",
+    "Yell": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/dao/6007710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007731": {
+    "Id": 6007731,
+    "Desc": "残刀重击",
+    "Name": "残刀重击",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/attackemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007810": {
+    "Id": 6007810,
+    "Desc": "纵横刀法",
+    "Name": "纵横刀法",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/dao/6007810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007811": {
+    "Id": 6007811,
+    "Desc": "纵横刀法二段",
+    "Name": "纵横刀法二段",
+    "AttackAll": 1,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/dao/6007811"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6007910": {
+    "Id": 6007910,
+    "Desc": "青松迎客",
+    "Name": "青松迎客",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/jian/6007910"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008010": {
+    "Id": 6008010,
+    "Desc": "星月剑法",
+    "Name": "星月剑法",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": 6014810,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/zhenying/jian/6008010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": 6014810,
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008011": {
+    "Id": 6008011,
+    "Desc": "星月剑法",
+    "Name": "星月剑法",
+    "AttackAll": 0,
+    "NoEventAction": 6014810,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/zhenying/jian/6008011"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": 6014811,
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008110": {
+    "Id": 6008110,
+    "Desc": "惊寒剑诀",
+    "Name": "惊寒剑诀",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/jian/6008110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008111": {
+    "Id": 6008111,
+    "Desc": "惊寒剑诀",
+    "Name": "惊寒剑诀",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/jian/6008111"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008112": {
+    "Id": 6008112,
+    "Desc": "惊寒剑诀",
+    "Name": "惊寒剑诀",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/qita/jian/6008112"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008210": {
+    "Id": 6008210,
+    "Desc": "唐诗剑法",
+    "Name": "唐诗剑法",
+    "Yell": 1,
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6008210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008211": {
+    "Id": 6008211,
+    "Desc": "唐诗剑法",
+    "Name": "唐诗剑法",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6008211"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008212": {
+    "Id": 6008212,
+    "Desc": "唐诗剑法",
+    "Name": "唐诗剑法",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6008212"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008213": {
+    "Id": 6008213,
+    "Desc": "唐诗剑法",
+    "Name": "唐诗剑法",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/jian/6008213"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008321": {
+    "Id": 6008321,
+    "Desc": "三元养气法被动2回血",
+    "Name": "三元养气法被动2回血",
+    "AttackAll": 0,
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/6016810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Heal": "hit/heal_10128",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6008631": {
+    "Id": 6008631,
+    "Desc": "生息",
+    "Name": "生息",
+    "Attack": {
+      "Action": "attack/healemhit"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009310": {
+    "Id": 6009310,
+    "Desc": "山路十八弯",
+    "Name": "山路十八弯",
+    "Yell": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/qin/6009310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "wuguan/qin/6009310",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009410": {
+    "Id": 6009410,
+    "Desc": "甩手箭",
+    "Name": "甩手箭",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/an/6009410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009510": {
+    "Id": 6009510,
+    "Desc": "百戏图·机",
+    "Name": "百戏图·机",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6009510"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009511": {
+    "Id": 6009511,
+    "Desc": "百戏图·机",
+    "Name": "百戏图·机",
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6009511"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009512": {
+    "Id": 6009512,
+    "Desc": "百戏图·机",
+    "Name": "百戏图·机",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6009512"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009610": {
+    "Id": 6009610,
+    "Desc": "御兽诀·忠",
+    "Name": "御兽诀·忠",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/shou/6009610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009710": {
+    "Id": 6009710,
+    "Desc": "五毒圣典·牵丝",
+    "Name": "五毒圣典·牵丝",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/du/6009710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009810": {
+    "Id": 6009810,
+    "Desc": "幽兰",
+    "Name": "幽兰",
+    "Yell": 1,
+    "AttackAll": 1,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/wuguan/qin/6009810"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "wuguan/qin/6009810",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6009910": {
+    "Id": 6009910,
+    "Desc": "连珠箭",
+    "Name": "连珠箭",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/an/6009910"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010010": {
+    "Id": 6010010,
+    "Desc": "a",
+    "Name": "a",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010010"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010011": {
+    "Id": 6010011,
+    "Desc": "百戏图·巧",
+    "Name": "百戏图·巧",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010011"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010012": {
+    "Id": 6010012,
+    "Desc": "百戏图·巧",
+    "Name": "百戏图·巧",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010012"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010110": {
+    "Id": 6010110,
+    "Desc": "御兽诀·勇",
+    "Name": "御兽诀·勇",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/shou/6010110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010210": {
+    "Id": 6010210,
+    "Desc": "五毒圣典·百足",
+    "Name": "五毒圣典·百足",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/du/6010210"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010310": {
+    "Id": 6010310,
+    "Desc": "高山流水",
+    "Name": "高山流水",
+    "Yell": 1,
+    "AttackAll": 1,
+    "AttackEvent": [
+      0,
+      0,
+      1
+    ],
+    "Attack": {
+      "Times": 3,
+      "Action": "attack/wuguan/qin/6010310"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "wuguan/qin/6010310",
+      "Heal": "qita/quan/6007410",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010331": {
+    "Id": 6010331,
+    "Desc": "高山流水鼓舞",
+    "Name": "高山流水鼓舞",
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "wuguan/qin/6010310",
+      "Heal": "qita/quan/6007410",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010410": {
+    "Id": 6010410,
+    "Desc": "乾坤一掷",
+    "Name": "乾坤一掷",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/an/6010410"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010510": {
+    "Id": 6010510,
+    "Desc": "机巧录",
+    "Name": "机巧录",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010510"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010511": {
+    "Id": 6010511,
+    "Desc": "机巧录",
+    "Name": "机巧录",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010511"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010512": {
+    "Id": 6010512,
+    "Desc": "机巧录",
+    "Name": "机巧录",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/ji/6010512"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010610": {
+    "Id": 6010610,
+    "Desc": "山珍谱",
+    "Name": "山珍谱",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/shou/6010610"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "6010710": {
+    "Id": 6010710,
+    "Desc": "百虫谱",
+    "Name": "百虫谱",
+    "Yell": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 1,
+      "Action": "attack/wuguan/du/6010710"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "7000001": {
+    "Id": 7000001,
+    "Desc": "双剑合璧",
+    "AttackAll": 0,
+    "OnlyMainAction": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "combo/10001"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "7000002": {
+    "Id": 7000002,
+    "Desc": "刀剑合璧",
+    "AttackAll": 0,
+    "OnlyMainAction": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "combo/10001"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "7000003": {
+    "Id": 7000003,
+    "Desc": "拳剑合击",
+    "AttackAll": 0,
+    "OnlyMainAction": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "combo/10001"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "7000004": {
+    "Id": 7000004,
+    "Desc": "棍剑合击",
+    "AttackAll": 0,
+    "OnlyMainAction": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Times": 2,
+      "Action": "combo/10001"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": [
+        "attackfly1",
+        "attackfly2"
+      ],
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "7000010": {
+    "Id": 7000010,
+    "Desc": "弯月斩",
+    "Name": "弯月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "只敢躲在后面的，吃我一刀！",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9910010": {
+    "Id": 9910010,
+    "Desc": "反震",
+    "Name": "反震",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/9910010"
+    },
+    "Defend": {
+      "Hit": "hit",
+      "BloodEffect": "normal"
+    }
+  },
+  "9910150": {
+    "Id": 9910150,
+    "Desc": "吸血回血效果",
+    "Name": "吸血回血效果",
+    "Attack": {
+      "Action": "attack/9910150"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "70100901": {
+    "Id": 70100901,
+    "Desc": "加buff",
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "magic/70100901"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "120030101": {
+    "Id": 120030101,
+    "Desc": "一般武馆刀",
+    "Name": "形销骨立",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "AttackEvent": [
+      0,
+      1
+    ],
+    "NoEventAction": "hurt",
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/120030101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "301080410": {
+    "Id": 301080410,
+    "Desc": "移星换斗",
+    "Name": "移星换斗",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "为了复国大业，为了我的使命...",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "301080411": {
+    "Id": 301080411,
+    "Desc": "移星换斗",
+    "Name": "移星换斗",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "国势微弱，若我不抓住这次机会铲除你们",
+        1500
+      ],
+      [
+        "大韩恐再无天日！",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "301080412": {
+    "Id": 301080412,
+    "Desc": "移星换斗",
+    "Name": "移星换斗",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "我不能让阮青丝的牺牲白费...现在已经没有退路可言！",
+        1500
+      ]
+    ],
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022003": {
+    "Id": 900022003,
+    "Desc": "破天剑气",
+    "Name": "破天剑气",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022004": {
+    "Id": 900022004,
+    "Desc": "荒天双剑",
+    "Name": "荒天双剑",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022005": {
+    "Id": 900022005,
+    "Desc": "荒天双剑",
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022006": {
+    "Id": 900022006,
+    "Desc": "追风赶月",
+    "Name": "追风赶月",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022007": {
+    "Id": 900022007,
+    "Desc": "捅天打地",
+    "Name": "捅天打地",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/10119",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "900022008": {
+    "Id": 900022008,
+    "Desc": "开碑碎石",
+    "Name": "开碑碎石",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/10119",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000046": {
+    "Id": 910000046,
+    "Desc": "血涌潮枯",
+    "Name": "血涌潮枯",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "嘎哦哦！！！",
+        1000
+      ],
+      [
+        "为了..大燕！",
+        1000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/110050101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000051": {
+    "Id": 910000051,
+    "Desc": "烽火狼牙",
+    "Name": "烽火狼牙",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000059": {
+    "Id": 910000059,
+    "Desc": "血溅八方",
+    "Name": "血溅八方",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "杀.！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000060": {
+    "Id": 910000060,
+    "Desc": "罗汉一式",
+    "Name": "罗汉一式",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "一！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/120120101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000061": {
+    "Id": 910000061,
+    "Desc": "罗汉二式",
+    "Name": "罗汉二式",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "二！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/120120101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000062": {
+    "Id": 910000062,
+    "Desc": "罗汉三式",
+    "Name": "罗汉三式",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "尘事不过三，打！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/120120101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000063": {
+    "Id": 910000063,
+    "Desc": "七煞离魂",
+    "Name": "七煞离魂",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000064": {
+    "Id": 910000064,
+    "Desc": "恶鬼追命",
+    "Name": "恶鬼追命",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000065": {
+    "Id": 910000065,
+    "Desc": "大卸八块",
+    "Name": "大卸八块",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000066": {
+    "Id": 910000066,
+    "Desc": "落井下石",
+    "Name": "落井下石",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000067": {
+    "Id": 910000067,
+    "Desc": "浣花洗剑",
+    "Name": "浣花洗剑",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000068": {
+    "Id": 910000068,
+    "Desc": "翩然入梦",
+    "Name": "翩然入梦",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "头好晕！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/120050101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000069": {
+    "Id": 910000069,
+    "Desc": "醒梦",
+    "Dialogue": [
+      [
+        "原来我正在梦间与少侠切磋吗！",
+        1000
+      ],
+      [
+        "那就敬请赐教！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000070": {
+    "Id": 910000070,
+    "Desc": "金刚架势",
+    "Name": "金刚架势",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "进可攻，退可守，金刚刀势！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000071": {
+    "Id": 910000071,
+    "Desc": "锋刃架势",
+    "Name": "锋刃架势",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "以进为退，以攻为守，锋刃刀势！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000072": {
+    "Id": 910000072,
+    "Desc": "擒龙手",
+    "Name": "擒龙手",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000073": {
+    "Id": 910000073,
+    "Desc": "三阴腐尸毒",
+    "Name": "三阴腐尸毒",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/10118"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000074": {
+    "Id": 910000074,
+    "Desc": "天地同寿",
+    "Name": "天地同寿",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000075": {
+    "Id": 910000075,
+    "Desc": "横扫千军",
+    "Name": "横扫千军",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10114"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000076": {
+    "Id": 910000076,
+    "Desc": "错玉切",
+    "Name": "错玉切",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000077": {
+    "Id": 910000077,
+    "Desc": "越战越勇",
+    "Name": "越战越勇",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000078": {
+    "Id": 910000078,
+    "Desc": "万箭齐发",
+    "Name": "万箭齐发",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000079": {
+    "Id": 910000079,
+    "Desc": "烽火狼烟",
+    "Name": "烽火狼烟",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000080": {
+    "Id": 910000080,
+    "Desc": "烈火燎原",
+    "Name": "烈火燎原",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000081": {
+    "Id": 910000081,
+    "Desc": "箭雨",
+    "Name": "箭雨",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000082": {
+    "Id": 910000082,
+    "Desc": "天动万象",
+    "Name": "天动万象",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000083": {
+    "Id": 910000083,
+    "Desc": "兔兔伯爵",
+    "Dialogue": [
+      [
+        "兔兔伯爵，出击！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000084": {
+    "Id": 910000084,
+    "Desc": "青龙在渊",
+    "Name": "青龙在渊",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "萤烛之火，也敢同日月争辉！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000085": {
+    "Id": 910000085,
+    "Desc": "秋水无痕",
+    "Name": "秋水无痕",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "青龙会的恶行就由我来斩断！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10116",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000086": {
+    "Id": 910000086,
+    "Desc": "恶鬼伏诛",
+    "Name": "恶鬼伏诛",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "童子大人，请斩妖邪！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000087": {
+    "Id": 910000087,
+    "Desc": "佳人拂袖",
+    "Name": "佳人拂袖",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000088": {
+    "Id": 910000088,
+    "Desc": "一方太平",
+    "Name": "一方太平",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "你们两个小辈且退下，等我二人让他有来无回。",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/1214050"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000089": {
+    "Id": 910000089,
+    "Desc": "血海翻涛",
+    "Name": "血海翻涛",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "我来断后，你们先走！",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "magic/900000121"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "910000091": {
+    "Id": 910000091,
+    "Desc": "朴素一拳",
+    "Name": "朴素一拳",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "何方毛贼，敢来我们杏花村撒野？",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/10119"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201010": {
+    "Id": 1309201010,
+    "Desc": "杀勿净怒招",
+    "Name": "杀勿净怒招",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201020": {
+    "Id": 1309201020,
+    "Desc": "杀勿净25%血线技能",
+    "Name": "杀勿净25%血线技能",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201021": {
+    "Id": 1309201021,
+    "Desc": "杀勿净25%血线技能2",
+    "Name": "杀勿净25%血线技能2",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201030": {
+    "Id": 1309201030,
+    "Desc": "深沙1回合召唤",
+    "Name": "深沙1回合召唤",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201031": {
+    "Id": 1309201031,
+    "Desc": "深沙3回合召唤",
+    "Name": "深沙3回合召唤",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201032": {
+    "Id": 1309201032,
+    "Desc": "深沙5回合召唤",
+    "Name": "深沙5回合召唤",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309201033": {
+    "Id": 1309201033,
+    "Desc": "深沙7回合召唤",
+    "Name": "深沙7回合召唤",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201040": {
+    "Id": 1309201040,
+    "Desc": "浮丘自爆",
+    "Name": "浮丘自爆",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309201041": {
+    "Id": 1309201041,
+    "Desc": "浮丘自爆造成伤害",
+    "Name": "浮丘自爆造成伤害",
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309202010": {
+    "Id": 1309202010,
+    "Name": "朱无能怒招",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309202020": {
+    "Id": 1309202020,
+    "Desc": "朱无能睡觉",
+    "Name": "好困",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309202030": {
+    "Id": 1309202030,
+    "Desc": "朱无能狂暴",
+    "Name": "朱无能狂暴",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309202040": {
+    "Id": 1309202040,
+    "Desc": "朱无能召唤烧鸡",
+    "Name": "朱无能召唤烧鸡",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309202050": {
+    "Id": 1309202050,
+    "Desc": "朱无能吃烧鸡",
+    "Name": "朱无能吃烧鸡",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309202051": {
+    "Id": 1309202051,
+    "Desc": "朱无能吃烧鸡回血",
+    "Name": "朱无能吃烧鸡回血",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203010": {
+    "Id": 1309203010,
+    "Desc": "孙五空怒招",
+    "Name": "孙五空怒招",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203020": {
+    "Id": 1309203020,
+    "Desc": "七十二变1",
+    "Name": "七十二变1",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203021": {
+    "Id": 1309203021,
+    "Desc": "七十二变2",
+    "Name": "七十二变2",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203022": {
+    "Id": 1309203022,
+    "Desc": "七十二变2扣血",
+    "Name": "七十二变2扣血",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309203030": {
+    "Id": 1309203030,
+    "Desc": "定海神针",
+    "Name": "定海神针",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203051": {
+    "Id": 1309203051,
+    "Desc": "身外化身1",
+    "Name": "身外化身1",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309203052": {
+    "Id": 1309203052,
+    "Desc": "身外化身2",
+    "Name": "身外化身2",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309204010": {
+    "Id": 1309204010,
+    "Desc": "赤焰龙马80%血技能",
+    "Name": "赤焰龙马80%血技能",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309204020": {
+    "Id": 1309204020,
+    "Desc": "赤焰龙马50%血技能1",
+    "Name": "赤焰龙马50%血技能1",
+    "Yell": 1,
+    "AttackAll": 1,
+    "NoMain": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1309204021": {
+    "Id": 1309204021,
+    "Desc": "赤焰龙马50%血技能2",
+    "Name": "赤焰龙马50%血技能2",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309204030": {
+    "Id": 1309204030,
+    "Desc": "赤焰龙马20%血技能",
+    "Name": "赤焰龙马20%血技能",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309204040": {
+    "Id": 1309204040,
+    "Desc": "神速",
+    "Name": "神速",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309204041": {
+    "Id": 1309204041,
+    "Desc": "神速下回合伤害",
+    "Name": "神速下回合伤害",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1309204050": {
+    "Id": 1309204050,
+    "Desc": "赤焰龙马普攻",
+    "Name": "赤焰龙马普攻",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "1312700131": {
+    "Id": 1312700131,
+    "Desc": "水龙刀",
+    "Name": "水龙刀",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1313000121": {
+    "Id": 1313000121,
+    "Desc": "碎盾",
+    "Name": "碎盾",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1313400111": {
+    "Id": 1313400111,
+    "Desc": "蓄力挥击",
+    "Name": "蓄力挥击",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "1313400131": {
+    "Id": 1313400131,
+    "Desc": "以命相搏",
+    "Name": "以命相搏",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010302001": {
+    "Id": 3010302001,
+    "Desc": "啄击",
+    "Name": "啄击",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010302007": {
+    "Id": 3010302007,
+    "Desc": "胖揍",
+    "Name": "胖揍",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010302008": {
+    "Id": 3010302008,
+    "Desc": "大金刚掌",
+    "Name": "大金刚掌",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010302009": {
+    "Id": 3010302009,
+    "Desc": "铁砂掌",
+    "Name": "铁砂掌",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010302010": {
+    "Id": 3010302010,
+    "Desc": "胖揍",
+    "Name": "胖揍",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Move": "jump",
+      "Attack": "al"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "3010307010": {
+    "Id": 3010307010,
+    "Desc": "三入地狱",
+    "Name": "三入地狱",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "能和小僧打成平手的，世上没有几人。",
+        1800
+      ],
+      [
+        "放马过来吧！",
+        1000
+      ]
+    ],
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307020": {
+    "Id": 3010307020,
+    "Desc": "燃木刀法",
+    "Name": "燃木刀法",
+    "Yell": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307030": {
+    "Id": 3010307030,
+    "Desc": "火焰刀",
+    "Name": "火焰刀",
+    "Yell": 1,
+    "Juqi": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307040": {
+    "Id": 3010307040,
+    "Desc": "火焰刀第二次",
+    "Name": "火焰刀第二次",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "十招已完，施主认命吧！",
+        1800
+      ]
+    ],
+    "Juqi": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307050": {
+    "Id": 3010307050,
+    "Desc": "金刚法印",
+    "Name": "金刚法印",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "少林的绝学只有在贫僧的手上才能发挥得淋漓尽致！",
+        1800
+      ]
+    ],
+    "Juqi": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307060": {
+    "Id": 3010307060,
+    "Desc": "明王第二次召唤",
+    "Name": "明王第二次召唤",
+    "Yell": 1,
+    "Juqi": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307090": {
+    "Id": 3010307090,
+    "Desc": "明王引爆火法印",
+    "Name": "明王引爆火法印",
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307091": {
+    "Id": 3010307091,
+    "Desc": "火法印爆炸",
+    "Name": "火法印爆炸",
+    "Yell": 1,
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307092": {
+    "Id": 3010307092,
+    "Desc": "冰法印反击",
+    "Name": "冰法印反击",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/11023"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "3010307093": {
+    "Id": 3010307093,
+    "Desc": "火法印反击",
+    "Name": "火法印反击",
+    "Yell": 1,
+    "Attack": {
+      "Action": "attack/11023"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit"
+    }
+  },
+  "4000000000": {
+    "Id": 4000000000,
+    "Desc": "龙渊普攻",
+    "Name": "龙渊普攻",
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000001": {
+    "Id": 4000000001,
+    "Desc": "龙息斩",
+    "Name": "龙息斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "后悔吧！！",
+        500
+      ],
+      [
+        "不要妨碍我！",
+        500
+      ],
+      [
+        "滚开！",
+        500
+      ],
+      [
+        "休想挡我",
+        500
+      ]
+    ],
+    "RandomDialogue": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000002": {
+    "Id": 4000000002,
+    "Desc": "龙涎斩",
+    "Name": "龙涎斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "束手就擒吧！",
+        500
+      ],
+      [
+        "让开！",
+        500
+      ],
+      [
+        "你这个大恶人",
+        500
+      ]
+    ],
+    "RandomDialogue": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000003": {
+    "Id": 4000000003,
+    "Desc": "龙渊决",
+    "Name": "龙渊决",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "渊龙出海！！",
+        500
+      ]
+    ],
+    "RandomDialogue": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000010": {
+    "Id": 4000000010,
+    "Desc": "插眼",
+    "Name": "插眼",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "看我不斩了你的腿！！",
+        500
+      ]
+    ],
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000011": {
+    "Id": 4000000011,
+    "Desc": "踢裆",
+    "Name": "踢裆",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "看我不打断你的手！！",
+        500
+      ]
+    ],
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000012": {
+    "Id": 4000000012,
+    "Desc": "胡乱攻击",
+    "Name": "胡乱攻击",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "看我的王八剑法！",
+        1000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000013": {
+    "Id": 4000000013,
+    "Desc": "独狼阵",
+    "Dialogue": [
+      [
+        "阵法起！！",
+        1500
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000014": {
+    "Id": 4000000014,
+    "Desc": "真·孤狼斩",
+    "Dialogue": [
+      [
+        "狼灵在呼唤我！",
+        1000
+      ],
+      [
+        "我乃最锋利的獠牙！",
+        1000
+      ],
+      [
+        "狼灵与我同在！",
+        1000
+      ],
+      [
+        "草原在等着我！",
+        1000
+      ],
+      [
+        "头狼会撕碎你们！",
+        1000
+      ]
+    ],
+    "RandomDialogue": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000015": {
+    "Id": 4000000015,
+    "Desc": "狼噬魂",
+    "Name": "狼噬魂",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "弱小就是罪恶！！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000016": {
+    "Id": 4000000016,
+    "Desc": "电光火石",
+    "Name": "电光火石",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "少爷当心，我可要使出全力了！",
+        1800
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000017": {
+    "Id": 4000000017,
+    "Desc": "铁砂掌",
+    "Name": "铁砂掌",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "不痛不痒，莫非我真有神功加身？！",
+        1800
+      ],
+      [
+        "吃我一招！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000018": {
+    "Id": 4000000018,
+    "Desc": "群魔乱舞",
+    "Name": "群魔乱舞",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "哼，言过其实不过如此！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000019": {
+    "Id": 4000000019,
+    "Desc": "自爆",
+    "Name": "自爆",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "艾卡西亚惊喜！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000020": {
+    "Id": 4000000020,
+    "Desc": "自爆",
+    "Name": "自爆",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "艾卡西亚惊喜！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "4000000021": {
+    "Id": 4000000021,
+    "Desc": "自爆",
+    "Name": "自爆",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "艾卡西亚惊喜！",
+        1000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000000": {
+    "Id": 9000000000,
+    "Desc": "血煞",
+    "Name": "血煞",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "有点意思",
+        2000
+      ],
+      [
+        "接我一剑",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000001": {
+    "Id": 9000000001,
+    "Desc": "血噬",
+    "Name": "血噬",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "不错！",
+        2000
+      ],
+      [
+        "但远远不够",
+        2001
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000002": {
+    "Id": 9000000002,
+    "Desc": "血逝",
+    "Name": "血逝",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "我！",
+        2000
+      ],
+      [
+        "是不可战胜的！",
+        2002
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000003": {
+    "Id": 9000000003,
+    "Desc": "血涌",
+    "Dialogue": [
+      [
+        "成为我的力量吧！",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000004": {
+    "Id": 9000000004,
+    "Desc": "血涌",
+    "Dialogue": [
+      [
+        "奉献吧！",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000005": {
+    "Id": 9000000005,
+    "Desc": "血涌",
+    "Dialogue": [
+      [
+        "你是不可能打败我的！！",
+        2000
+      ]
+    ],
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000006": {
+    "Id": 9000000006,
+    "Desc": "哈哈哈哈！",
+    "Name": "哈哈哈哈！",
+    "Yell": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000007": {
+    "Id": 9000000007,
+    "Dialogue": [
+      [
+        "速来！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000008": {
+    "Id": 9000000008,
+    "Dialogue": [
+      [
+        "快来救我！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000009": {
+    "Id": 9000000009,
+    "Desc": "怒海潮升",
+    "Name": "怒海潮升",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "螳臂当车，自不量力！",
+        2000
+      ],
+      [
+        "看招！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000010": {
+    "Id": 9000000010,
+    "Dialogue": [
+      [
+        "可恶！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000011": {
+    "Id": 9000000011,
+    "Desc": "寒梅怒放",
+    "Name": "寒梅怒放",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "你们现在这般实力，必然逃不过追捕",
+        2000
+      ],
+      [
+        "还是早些找掌门谢罪吧！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000012": {
+    "Id": 9000000012,
+    "Desc": "鹰击长空",
+    "Name": "鹰击长空",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "！！！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000013": {
+    "Id": 9000000013,
+    "Dialogue": [
+      [
+        "既然一己之力难敌四拳",
+        2000
+      ],
+      [
+        "那莫要袖手旁观",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000014": {
+    "Id": 9000000014,
+    "Desc": "连峦",
+    "Name": "连峦",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "一夫当关！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000015": {
+    "Id": 9000000015,
+    "Desc": "风尘三尺剑",
+    "Name": "风尘三尺剑",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "真是扫了酒兴！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000016": {
+    "Id": 9000000016,
+    "Desc": "棒打狗头",
+    "Name": "棒打狗头",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "小子，打得不错，孺子可教也！",
+        2000
+      ],
+      [
+        "我老叫花子就使点真本事给你开开眼！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10110"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000017": {
+    "Id": 9000000017,
+    "Desc": "黑风摧城",
+    "Name": "黑风摧城",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "你过不了俺这关！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/10116"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000018": {
+    "Id": 9000000018,
+    "Desc": "黑风压境",
+    "Name": "黑风压境",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "没料到竟有点本事！",
+        2000
+      ],
+      [
+        "但俺铁牛也不是吃素的！",
+        2000
+      ],
+      [
+        "尝尝这招！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/10116"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000019": {
+    "Id": 9000000019,
+    "Dialogue": [
+      [
+        "千军万马皆听我令！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000020": {
+    "Id": 9000000020,
+    "Dialogue": [
+      [
+        "束手就擒吧！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000021": {
+    "Id": 9000000021,
+    "Dialogue": [
+      [
+        "你等已无路可退！！",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "attack/9000000007"
+    },
+    "Defend": {
+      "Hit": "xixue",
+      "Heal": "xixue",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000022": {
+    "Id": 9000000022,
+    "Desc": "直刺",
+    "Name": "直刺",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000024": {
+    "Id": 9000000024,
+    "Desc": "力劈华山",
+    "Name": "力劈华山",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000025": {
+    "Id": 9000000025,
+    "Desc": "肉斩骨断",
+    "Name": "肉斩骨断",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000026": {
+    "Id": 9000000026,
+    "Desc": "血戮之爪",
+    "Name": "血戮之爪",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "愚蠢至极的杂碎",
+        2000
+      ],
+      [
+        "我的铁爪会把你切碎！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Times": 2,
+      "Action": "attack/120330101"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000027": {
+    "Id": 9000000027,
+    "Desc": "新月斩",
+    "Name": "新月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "吃我一刀",
+        400
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000028": {
+    "Id": 9000000028,
+    "Desc": "残月斩",
+    "Name": "残月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "看我的追月刀",
+        400
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000029": {
+    "Id": 9000000029,
+    "Desc": "弦月斩",
+    "Name": "弦月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "竟然又躲开了",
+        400
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000030": {
+    "Id": 9000000030,
+    "Desc": "半月斩",
+    "Name": "半月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "继续躲阿！",
+        400
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000031": {
+    "Id": 9000000031,
+    "Desc": "满月斩",
+    "Name": "满月斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "你会后悔的！",
+        400
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 0,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000032": {
+    "Id": 9000000032,
+    "Desc": "撼泰山",
+    "Name": "撼泰山",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "快把玉交出来！！",
+        800
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000033": {
+    "Id": 9000000033,
+    "Desc": "荒荡四方",
+    "Name": "荒荡四方",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "绝对不会让你们通过的！！",
+        2000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000034": {
+    "Id": 9000000034,
+    "Desc": "真·荒荡四方",
+    "Name": "真·荒荡四方",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "够了",
+        1000
+      ],
+      [
+        "永远的留在这吧！",
+        1000
+      ]
+    ],
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000035": {
+    "Id": 9000000035,
+    "Desc": "荒荡四方",
+    "Name": "荒荡四方",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "狼灵在呼唤我！",
+        1000
+      ],
+      [
+        "我乃最锋利的獠牙！",
+        1000
+      ],
+      [
+        "狼灵与我同在！",
+        1000
+      ],
+      [
+        "草原在等着我！",
+        1000
+      ],
+      [
+        "头狼会撕碎你们！",
+        1000
+      ]
+    ],
+    "RandomDialogue": 1,
+    "Juqi": 1,
+    "AttackAll": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000036": {
+    "Id": 9000000036,
+    "Desc": "无畏刺击",
+    "Name": "无畏刺击",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000037": {
+    "Id": 9000000037,
+    "Desc": "荒狼斩",
+    "Name": "荒狼斩",
+    "Yell": 1,
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000038": {
+    "Id": 9000000038,
+    "Desc": "孤狼斩",
+    "Name": "孤狼斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "狼会越战越勇！！",
+        1500
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000039": {
+    "Id": 9000000039,
+    "Desc": "荒狼斩",
+    "Name": "荒狼斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "我的獠牙会撕碎你！",
+        1500
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000040": {
+    "Id": 9000000040,
+    "Desc": "无归刺击",
+    "Name": "无归刺击",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "将军，与我一起共赴黄泉吧！！",
+        1000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000041": {
+    "Id": 9000000041,
+    "Desc": "独狼斩",
+    "Name": "独狼斩",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "弱者退散！",
+        500
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "9000000042": {
+    "Id": 9000000042,
+    "Desc": "绝命刺击",
+    "Name": "绝命刺击",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "我已经失去了所有...",
+        1500
+      ],
+      [
+        "无路可走了！！",
+        1000
+      ]
+    ],
+    "Juqi": 1,
+    "Attack": {
+      "Action": "attack/attackall",
+      "Attack": "attack"
+    },
+    "Defend": {
+      "Miss": "miss",
+      "Defend": "defend",
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  },
+  "5010404001": {
+    "Id": 5010404001,
+    "Desc": "白鹤飞尽",
+    "Name": "白鹤飞尽",
+    "Yell": 1,
+    "RandomDialogue": 1
+  },
+  "9000000023": {
+    "Id": 9000000023,
+    "Desc": "救命啊！！！",
+    "Name": "救命啊！！！",
+    "Yell": 1,
+    "Dialogue": [
+      [
+        "来者不善，看我的。",
+        2000
+      ]
+    ],
+    "Attack": {
+      "Action": "guard"
+    },
+    "Defend": {
+      "Hit": "hit",
+      "Die": "die",
+      "BloodEffect": "normal"
+    }
+  }
+}

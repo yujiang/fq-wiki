@@ -1,0 +1,112 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 30047,
+    "Name": "力王丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 30048,
+    "Name": "雪晨露",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 30050,
+    "Name": "腊仙丸",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 30052,
+    "Name": "巫息丸",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 30045,
+    "Name": "洗髓丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 15,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 30042,
+    "Name": "经脉神通丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "7": {
+    "Id": 7,
+    "ItemId": 30008,
+    "Name": "黄灵丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 12,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "8": {
+    "Id": 8,
+    "ItemId": 30009,
+    "Name": "玄灵丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 30010,
+    "Name": "地灵丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 36,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  },
+  "10": {
+    "Id": 10,
+    "ItemId": 30011,
+    "Name": "天灵丹",
+    "Count": 5,
+    "MoneyType": 29,
+    "Price": 160,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "轮回"
+  }
+}

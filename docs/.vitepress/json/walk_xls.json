@@ -1,0 +1,86 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "普通",
+    "Color": 1,
+    "Sound": "scene/7034.wav",
+    "Land": {"Sound": "scene/7034.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "2": {
+    "Id": 2,
+    "Name": "木地板",
+    "Color": 1,
+    "Sound": "scene/7042.wav",
+    "Land": {"Sound": "scene/7042.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "3": {
+    "Id": 3,
+    "Name": "水",
+    "Color": 2,
+    "Sound": "scene/7043.wav",
+    "Water": 1,
+    "Land": {"Sound": "scene/7043.wav", "Vol": 1},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1}
+  },
+  "4": {
+    "Id": 4,
+    "Name": "草地",
+    "Color": 4,
+    "Sound": "scene/7035.wav",
+    "Land": {"Sound": "scene/7035.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "5": {
+    "Id": 5,
+    "Name": "雪地",
+    "Color": 5,
+    "Sound": "scene/7039.wav",
+    "Land": {"Sound": "scene/7039.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "6": {
+    "Id": 6,
+    "Name": "沙地",
+    "Color": 6,
+    "Sound": "scene/7036.wav",
+    "Land": {"Sound": "scene/7036.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "7": {
+    "Id": 7,
+    "Name": "石板",
+    "Color": 7,
+    "Sound": "scene/7038.wav",
+    "Land": {"Sound": "scene/7038.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "8": {
+    "Id": 8,
+    "Name": "湿地",
+    "Color": 8,
+    "Sound": "scene/7037.wav",
+    "Land": {"Sound": "scene/7037.wav", "Vol": 1, "Ani": "common/Land"},
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  },
+  "9": {
+    "Id": 9,
+    "Name": "示例",
+    "Color": 4,
+    "Sound": "scene/7035.wav",
+    "Water": 1,
+    "Foot": "magic/arrow/huojian",
+    "FootLife": 1000,
+    "FadeLife": 1000,
+    "Land": {
+      "Sound": "scene/7035.wav",
+      "Vol": 1,
+      "Ani": "common/Land",
+      "Particle": "Rune",
+      "ParticleLife": 1000,
+      "ParticleBlend": 1
+    },
+    "Jump": {"Sound": "scene/7040.wav", "Vol": 1, "Ani": "common/QiTiao"}
+  }
+}

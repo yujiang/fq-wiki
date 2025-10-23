@@ -1,0 +1,132 @@
+{
+  "59999": {
+    "Id": 59999,
+    "Name": "蒲团",
+    "Desc": "风生水起-等至子时",
+    "Icon": 3121,
+    "CreateType": "scene",
+    "Shape": 3121,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 210006,
+    "Scene": 1022,
+    "act": 5
+  },
+  "62010": {
+    "Id": 62010,
+    "Name": "户籍书架",
+    "Icon": 7036,
+    "CreateType": "scene",
+    "Shape": 7036,
+    "HideName": 1,
+    "Type": "shujia",
+    "Scene": 4003,
+    "act": 5,
+    "dis": 150,
+    "clickDis": 150
+  },
+  "89998": {
+    "Id": 89998,
+    "Name": "神仙图",
+    "Desc": "风生水起-鉴画",
+    "Icon": 3999,
+    "CreateType": "scene",
+    "Shape": 3999,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 210006,
+    "Scene": 3179,
+    "act": 5
+  },
+  "89999": {
+    "Id": 89999,
+    "Name": "嫁衣",
+    "Desc": "嫁衣-查看嫁衣",
+    "Icon": 3999,
+    "CreateType": "scene",
+    "Shape": 3999,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 210006,
+    "Scene": 1029,
+    "act": 5
+  },
+  "129996": {
+    "Id": 129996,
+    "Name": "墓碑",
+    "Icon": 30371,
+    "CreateType": "scene",
+    "Shape": 31201,
+    "say": 259012,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 250021,
+    "Scene": 3195,
+    "act": 5,
+    "dis": 100,
+    "clickDis": 100
+  },
+  "129997": {
+    "Id": 129997,
+    "Name": "查探线索3",
+    "Icon": 3999,
+    "CreateType": "scene",
+    "Shape": 3999,
+    "say": 259002,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 250009,
+    "Scene": 1008,
+    "x": 4149,
+    "y": 2206,
+    "act": 5,
+    "dis": 100,
+    "clickDis": 100
+  },
+  "129998": {
+    "Id": 129998,
+    "Name": "查探线索2",
+    "Icon": 3999,
+    "CreateType": "scene",
+    "Shape": 3999,
+    "say": 259001,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 250008,
+    "Scene": 1008,
+    "x": 3965,
+    "y": 2113,
+    "act": 5,
+    "dis": 100,
+    "clickDis": 100
+  },
+  "129999": {
+    "Id": 129999,
+    "Name": "正确-查探线索1",
+    "Icon": 3999,
+    "CreateType": "scene",
+    "Shape": 3999,
+    "say": 259000,
+    "HideName": 1,
+    "Type": "box",
+    "ConShow": 250007,
+    "Scene": 1008,
+    "x": 4207,
+    "y": 2117,
+    "act": 5,
+    "dis": 100,
+    "clickDis": 100
+  },
+  "本页签仅做记录，方便填表和维护，无法生效": {
+    "Id": "本页签仅做记录，方便填表和维护，无法生效"
+  },
+  "临安50000": {
+    "Id": "临安50000"
+  },
+  "武昌80000": {
+    "Id": "武昌80000"
+  },
+  "汴京60000": {
+    "Id": "汴京60000"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 50006,
+    "Name": "山药",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 2,
+    "Price": 10,
+    "Level": 0,
+    "Sort": 1,
+    "Tag": "百草堂"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 50004,
+    "Name": "当归",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 2,
+    "Price": 15,
+    "Level": 0,
+    "Sort": 2,
+    "Tag": "百草堂"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 50044,
+    "Name": "南瓜",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 10,
+    "Level": 0,
+    "Sort": 1,
+    "Tag": "五行小铺"
+  },
+  "10": {
+    "Id": 10,
+    "ItemId": 50042,
+    "Name": "土豆",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 2,
+    "Price": 8,
+    "Level": 0,
+    "Sort": 2,
+    "Tag": "五行小铺"
+  },
+  "11": {
+    "Id": 11,
+    "ItemId": 53003,
+    "Name": "草鱼",
+    "RestrType": 1,
+    "Count": 2,
+    "MoneyType": 2,
+    "Price": 30,
+    "Level": 0,
+    "Sort": 3,
+    "Tag": "五行小铺"
+  },
+  "12": {
+    "Id": 12,
+    "ItemId": 38005,
+    "Name": "油纸伞",
+    "RestrType": 1,
+    "Count": 2,
+    "MoneyType": 2,
+    "Price": 30,
+    "Level": 0,
+    "Sort": 1,
+    "Tag": "杂货铺"
+  },
+  "13": {
+    "Id": 13,
+    "ItemId": 38001,
+    "Name": "鱼竿",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 20,
+    "Level": 0,
+    "Sort": 2,
+    "Tag": "杂货铺"
+  },
+  "14": {
+    "Id": 14,
+    "ItemId": 32034,
+    "Name": "叉烧包",
+    "RestrType": 1,
+    "Count": 10,
+    "MoneyType": 2,
+    "Price": 50,
+    "Level": 0,
+    "Sort": 1,
+    "Tag": "二娘包子"
+  },
+  "15": {
+    "Id": 15,
+    "ItemId": 33001,
+    "Name": "米酒",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 2,
+    "Price": 100,
+    "Level": 0,
+    "Sort": 2,
+    "Tag": "二娘包子"
+  }
+}

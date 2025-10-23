@@ -1,0 +1,7 @@
+{
+  "1": {"Id": 1, "Name": "泛泛之交", "level": 1, "Rank": 1, "friendness": 0},
+  "2": {"Id": 2, "Name": "友好往来", "level": 2, "Rank": 2, "friendness": 100},
+  "3": {"Id": 3, "Name": "志同道合", "level": 3, "Rank": 3, "friendness": 200},
+  "4": {"Id": 4, "Name": "亲密无间", "level": 4, "Rank": 4, "friendness": 300},
+  "5": {"Id": 5, "Name": "肝胆相照", "level": 5, "Rank": 5, "friendness": 400}
+}

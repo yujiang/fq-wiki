@@ -1,0 +1,69 @@
+{
+  "1": {
+    "Id": 1,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "task",
+    "UI3": "self",
+    "Del": "click"
+  },
+  "2": {
+    "Id": 2,
+    "Soldier": 0,
+    "UI1": "skill",
+    "UI2": "wu",
+    "UI3": "learn",
+    "Del": "use"
+  },
+  "3": {"Id": 3, "UI3": "self", "Del": "click"},
+  "4": {
+    "Id": 4,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "book",
+    "UI3": "self",
+    "Del": "use"
+  },
+  "5": {
+    "Id": 5,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "book",
+    "UI3": "self",
+    "Del": "use"
+  },
+  "6": {
+    "Id": 6,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "book",
+    "UI3": "self",
+    "Del": "use"
+  },
+  "7": {
+    "Id": 7,
+    "Soldier": 0,
+    "UI1": "skill",
+    "UI2": "qing",
+    "UI3": "learn",
+    "Del": "click"
+  },
+  "8": {
+    "Id": 8,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "equip",
+    "UI3": "self",
+    "Del": "click"
+  },
+  "9": {"Id": 9, "Soldier": 0, "UI1": "char"},
+  "14": {
+    "Id": 14,
+    "Soldier": 0,
+    "UI1": "bag",
+    "UI2": "book",
+    "UI3": "self",
+    "Del": "click"
+  },
+  "100": {"Id": 100, "UI1": "skill"}
+}

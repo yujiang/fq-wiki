@@ -1,0 +1,97 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "snow",
+    "Desc": "雪",
+    "Particle": "snow",
+    "Num": 250,
+    "lightRadius": 300,
+    "lightColor": 12044268
+  },
+  "2": {
+    "Id": 2,
+    "Name": "snow1",
+    "Desc": "大雪",
+    "Particle": "snow",
+    "Num": 450,
+    "lightRadius": 250,
+    "lightColor": 12044268
+  },
+  "3": {
+    "Id": 3,
+    "Name": "snow2",
+    "Desc": "小雪",
+    "Particle": "snow",
+    "Num": 50,
+    "lightRadius": 350,
+    "lightColor": 12044268
+  },
+  "4": {
+    "Id": 4,
+    "Name": "rain",
+    "Desc": "雨",
+    "Particle": "rain",
+    "Num": 250,
+    "Land": "particle/shuihua.png",
+    "Music": "rain",
+    "lightRadius": 300,
+    "lightColor": 12044268
+  },
+  "5": {
+    "Id": 5,
+    "Name": "rain1",
+    "Desc": "大雨",
+    "Particle": "rain",
+    "Num": 450,
+    "Land": "particle/shuihua.png",
+    "Music": "rain",
+    "lightRadius": 250,
+    "lightColor": 12044268
+  },
+  "6": {
+    "Id": 6,
+    "Name": "rain2",
+    "Desc": "小雨",
+    "Particle": "rain",
+    "Num": 50,
+    "Land": "particle/shuihua.png",
+    "Music": "rain",
+    "lightRadius": 350,
+    "lightColor": 12044268
+  },
+  "7": {
+    "Id": 7,
+    "Name": "thunder",
+    "Desc": "雷雨",
+    "Particle": "rain",
+    "Num": 250,
+    "Music": "rain",
+    "lightRadius": 300,
+    "lightColor": 12044268,
+    "Thunder": {"file": "weather/thunder.mp3", "vol": 0.8, "sec": [60, 60]}
+  },
+  "8": {
+    "Id": 8,
+    "Name": "thunder1",
+    "Desc": "大雷雨",
+    "Particle": "rain",
+    "Num": 450,
+    "Music": "rain",
+    "lightRadius": 250,
+    "lightColor": 12044268,
+    "Thunder": {"file": "weather/thunder.mp3", "vol": 1, "sec": [60, 60]}
+  },
+  "9": {
+    "Id": 9,
+    "Name": "thunder2",
+    "Desc": "小雷雨",
+    "Particle": "rain",
+    "Num": 50,
+    "Music": "rain",
+    "lightRadius": 350,
+    "lightColor": 12044268,
+    "Thunder": {"file": "weather/thunder.mp3", "vol": 0.5, "sec": [60, 60]}
+  },
+  "10": {"Id": 10, "Name": "wind", "Desc": "风", "Music": "wind"},
+  "11": {"Id": 11, "Name": "sunny"}
+}

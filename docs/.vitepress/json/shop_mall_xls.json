@@ -1,0 +1,252 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 2102,
+    "Name": "2万银票",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "每日热卖"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 2101,
+    "Name": "神铁令",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 100,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "每日热卖"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 2012,
+    "Name": "回城符",
+    "RestrType": 1,
+    "Count": 10,
+    "MoneyType": 2,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "每日热卖"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 30047,
+    "Name": "力王丹",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 4,
+    "Tag": "消耗"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 30048,
+    "Name": "雪晨露",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 5,
+    "Tag": "消耗"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 30050,
+    "Name": "腊仙丸",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 6,
+    "Tag": "消耗"
+  },
+  "7": {
+    "Id": 7,
+    "ItemId": 30052,
+    "Name": "巫息丸",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 7,
+    "Tag": "消耗"
+  },
+  "8": {
+    "Id": 8,
+    "ItemId": 30045,
+    "Name": "洗髓丹",
+    "MoneyType": 1,
+    "Price": 15,
+    "Needs": {"Level": 0},
+    "Sort": 8,
+    "Tag": "消耗"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 30042,
+    "Name": "经脉神通丹",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 9,
+    "Tag": "消耗"
+  },
+  "10": {
+    "Id": 10,
+    "ItemId": 30008,
+    "Name": "黄灵丹",
+    "MoneyType": 1,
+    "Price": 12,
+    "Needs": {"Level": 0},
+    "Sort": 10,
+    "Tag": "消耗"
+  },
+  "11": {
+    "Id": 11,
+    "ItemId": 30009,
+    "Name": "玄灵丹",
+    "MoneyType": 1,
+    "Price": 20,
+    "Needs": {"Level": 0},
+    "Sort": 11,
+    "Tag": "消耗"
+  },
+  "12": {
+    "Id": 12,
+    "ItemId": 30010,
+    "Name": "地灵丹",
+    "MoneyType": 1,
+    "Price": 36,
+    "Needs": {"Level": 0},
+    "Sort": 12,
+    "Tag": "消耗"
+  },
+  "13": {
+    "Id": 13,
+    "ItemId": 30011,
+    "Name": "天灵丹",
+    "MoneyType": 1,
+    "Price": 160,
+    "Needs": {"Level": 0},
+    "Sort": 13,
+    "Tag": "消耗"
+  },
+  "14": {
+    "Id": 14,
+    "ItemId": 30039,
+    "Name": "聚元丹",
+    "MoneyType": 1,
+    "Price": 150,
+    "Needs": {"Level": 0},
+    "Sort": 14,
+    "Tag": "消耗"
+  },
+  "15": {
+    "Id": 15,
+    "ItemId": 30005,
+    "Name": "九转回魂丹",
+    "MoneyType": 1,
+    "Price": 5,
+    "Needs": {"Level": 0},
+    "Sort": 15,
+    "Tag": "消耗"
+  },
+  "16": {
+    "Id": 16,
+    "ItemId": 30043,
+    "Name": "逆元丹",
+    "MoneyType": 1,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 16,
+    "Tag": "消耗"
+  },
+  "17": {
+    "Id": 17,
+    "ItemId": 2102,
+    "Name": "2w银票",
+    "MoneyType": 1,
+    "Price": 100,
+    "Needs": {"Level": 0},
+    "Sort": 17,
+    "Tag": "其他"
+  },
+  "18": {
+    "Id": 18,
+    "ItemId": 2022,
+    "Name": "搬山镐",
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 18,
+    "Tag": "其他"
+  },
+  "19": {
+    "Id": 19,
+    "ItemId": 2023,
+    "Name": "鹤嘴锄",
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 19,
+    "Tag": "其他"
+  },
+  "20": {
+    "Id": 20,
+    "ItemId": 2024,
+    "Name": "鱼尾斧",
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 20,
+    "Tag": "其他"
+  },
+  "21": {
+    "Id": 21,
+    "ItemId": 2025,
+    "Name": "新月镰",
+    "Count": 1,
+    "MoneyType": 1,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 21,
+    "Tag": "其他"
+  },
+  "22": {
+    "Id": 22,
+    "ItemId": 2038,
+    "Name": "马车票",
+    "MoneyType": 1,
+    "Price": 200,
+    "Needs": {"Level": 0},
+    "Sort": 22,
+    "Tag": "其他"
+  },
+  "23": {
+    "Id": 23,
+    "ItemId": 13001,
+    "Name": "甲级机关",
+    "MoneyType": 1,
+    "Price": 300,
+    "Needs": {"Level": 0},
+    "Sort": 23,
+    "Tag": "其他"
+  },
+  "24": {
+    "Id": 24,
+    "ItemId": 13002,
+    "Name": "乙级机关",
+    "MoneyType": 1,
+    "Price": 80,
+    "Needs": {"Level": 0},
+    "Sort": 24,
+    "Tag": "其他"
+  }
+}

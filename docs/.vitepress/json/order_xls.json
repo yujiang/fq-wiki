@@ -1,0 +1,53 @@
+{
+  "1": {
+    "out_trade_no": 1,
+    "goods_id": 203001,
+    "description": "60元宝",
+    "total_fee": 600,
+    "FirstMul": 2,
+    "FirstReward": 203008
+  },
+  "2": {
+    "out_trade_no": 2,
+    "goods_id": 203002,
+    "description": "300元宝",
+    "total_fee": 3000,
+    "FirstMul": 2
+  },
+  "3": {
+    "out_trade_no": 3,
+    "goods_id": 203003,
+    "description": "980元宝",
+    "total_fee": 9800,
+    "FirstMul": 2
+  },
+  "4": {
+    "out_trade_no": 4,
+    "goods_id": 203004,
+    "description": "1980元宝",
+    "total_fee": 19800,
+    "FirstMul": 2
+  },
+  "5": {
+    "out_trade_no": 5,
+    "goods_id": 203005,
+    "description": "3280元宝",
+    "total_fee": 32800,
+    "FirstMul": 2
+  },
+  "6": {
+    "out_trade_no": 6,
+    "goods_id": 203006,
+    "description": "6480元宝",
+    "total_fee": 64800,
+    "FirstMul": 2
+  },
+  "7": {
+    "out_trade_no": 7,
+    "goods_id": 203007,
+    "description": "月卡",
+    "total_fee": 3000,
+    "DailyMail": 1001,
+    "LifeTime": 2592000
+  }
+}

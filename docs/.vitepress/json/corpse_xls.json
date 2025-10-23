@@ -1,0 +1,959 @@
+{
+  "1111": {
+    "Id": 1111,
+    "Name": "狐狸",
+    "CorpseTime": 10,
+    "RefreshTime": 20,
+    "act": 3
+  },
+  "1277": {
+    "Id": 1277,
+    "Name": "剑无痕",
+    "dis": 150,
+    "act": 3
+  },
+  "10001": {
+    "Id": 10001,
+    "Name": "鹿",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 2101028,
+    "act": 3
+  },
+  "10002": {
+    "Id": 10002,
+    "Name": "鹿",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 2101031,
+    "act": 3
+  },
+  "10003": {
+    "Id": 10003,
+    "Name": "野狼（门派任务）",
+    "CorpseTime": 15,
+    "RefreshTime": 30,
+    "Resource": 3001,
+    "act": 3
+  },
+  "10004": {
+    "Id": 10004,
+    "Name": "秦岭虎",
+    "CorpseTime": 60,
+    "RefreshTime": 60,
+    "Resource": 1021,
+    "act": 3
+  },
+  "10005": {
+    "Id": 10005,
+    "Name": "牛",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10006": {
+    "Id": 10006,
+    "Name": "羊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10007": {
+    "Id": 10007,
+    "Name": "鸡（同猪牛羊，不下蛋）",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10008": {
+    "Id": 10008,
+    "Name": "鸡蛋",
+    "CorpseTime": 10,
+    "RefreshTime": 20,
+    "act": 3
+  },
+  "10009": {
+    "Id": 10009,
+    "Name": "猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10010": {
+    "Id": 10010,
+    "Name": "蛇",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10011": {
+    "Id": 10011,
+    "Name": "犀牛",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10012": {
+    "Id": 10012,
+    "Name": "被冻住的野猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600
+  },
+  "10013": {
+    "Id": 10013,
+    "Name": "熊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10014": {
+    "Id": 10014,
+    "Name": "野猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "act": 3
+  },
+  "10018": {
+    "Id": 10018,
+    "Name": "张富贵",
+    "CorpseTime": 27,
+    "RefreshTime": 27,
+    "dis": 300
+  },
+  "10080": {
+    "Id": 10080,
+    "Name": "野猪",
+    "CorpseTime": 10,
+    "RefreshTime": 10
+  },
+  "20001": {
+    "Id": 20001,
+    "Name": "小鱼苗支线-杀蛇蛇",
+    "CorpseTime": 1,
+    "RefreshTime": 5
+  },
+  "30011": {
+    "Id": 30011,
+    "Name": "测试羊",
+    "CorpseTime": 30,
+    "RefreshTime": 60,
+    "Resource": 30011,
+    "act": 3
+  },
+  "30411": {
+    "Id": 30411,
+    "Name": "家丁",
+    "dis": 150,
+    "act": 3
+  },
+  "40364": {
+    "Id": 40364,
+    "Name": "薛老六",
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "42232": {
+    "Id": 42232,
+    "Name": "李慕白",
+    "dis": 150,
+    "act": 5
+  },
+  "42925": {
+    "Id": 42925,
+    "Name": "武昌猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1001,
+    "act": 3
+  },
+  "42926": {
+    "Id": 42926,
+    "Name": "武昌羊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1004,
+    "act": 3
+  },
+  "103151": {
+    "Id": 103151,
+    "Name": "敦煌羊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1005,
+    "act": 3
+  },
+  "103154": {
+    "Id": 103154,
+    "Name": "敦煌羊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1006,
+    "act": 3
+  },
+  "103155": {
+    "Id": 103155,
+    "Name": "敦煌羊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1007,
+    "act": 3
+  },
+  "103251": {
+    "Id": 103251,
+    "Name": "秦岭牛",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1008,
+    "act": 3
+  },
+  "103253": {
+    "Id": 103253,
+    "Name": "秦岭熊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1019,
+    "act": 3
+  },
+  "150001": {
+    "Id": 150001,
+    "Name": "秦岭匪徒",
+    "RefreshTime": 20
+  },
+  "210000": {
+    "Id": 210000,
+    "Name": "霜刀寻义-讨贼",
+    "RefreshTime": 20
+  },
+  "312001": {
+    "Id": 312001,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "312002": {
+    "Id": 312002,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "312003": {
+    "Id": 312003,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "312004": {
+    "Id": 312004,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "312005": {
+    "Id": 312005,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "332001": {
+    "Id": 332001,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "332002": {
+    "Id": 332002,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "332003": {
+    "Id": 332003,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "332004": {
+    "Id": 332004,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "332005": {
+    "Id": 332005,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "342001": {
+    "Id": 342001,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342002": {
+    "Id": 342002,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342003": {
+    "Id": 342003,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342004": {
+    "Id": 342004,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342005": {
+    "Id": 342005,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342006": {
+    "Id": 342006,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "342007": {
+    "Id": 342007,
+    "Name": "北国斥候",
+    "RefreshTime": 20
+  },
+  "350001": {
+    "Id": 350001,
+    "Name": "30水寇小头目",
+    "RefreshTime": 20
+  },
+  "350002": {
+    "Id": 350002,
+    "Name": "30水寇小头目",
+    "RefreshTime": 20
+  },
+  "350003": {
+    "Id": 350003,
+    "Name": "30水寇小头目",
+    "RefreshTime": 20
+  },
+  "350004": {
+    "Id": 350004,
+    "Name": "30长江水寇",
+    "RefreshTime": 20
+  },
+  "350005": {
+    "Id": 350005,
+    "Name": "30长江水寇",
+    "RefreshTime": 20
+  },
+  "350006": {
+    "Id": 350006,
+    "Name": "30长江水寇",
+    "RefreshTime": 20
+  },
+  "360001": {
+    "Id": 360001,
+    "Name": "衡山山贼",
+    "RefreshTime": 20
+  },
+  "360002": {
+    "Id": 360002,
+    "Name": "衡山山贼",
+    "RefreshTime": 20
+  },
+  "360003": {
+    "Id": 360003,
+    "Name": "衡山山贼",
+    "RefreshTime": 20
+  },
+  "360004": {
+    "Id": 360004,
+    "Name": "衡山山贼",
+    "RefreshTime": 20
+  },
+  "360005": {
+    "Id": 360005,
+    "Name": "衡山山贼",
+    "RefreshTime": 20
+  },
+  "400002": {
+    "Id": 400002,
+    "Name": "长乐帮众乙",
+    "CorpseTime": 600,
+    "RefreshTime": 3600,
+    "Resource": 400002,
+    "act": 3
+  },
+  "400021": {
+    "Id": 400021,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "403118": {
+    "Id": 403118,
+    "Name": "杨制使",
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 200,
+    "act": 3
+  },
+  "403125": {
+    "Id": 403125,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "410021": {
+    "Id": 410021,
+    "Name": "山贼",
+    "RefreshTime": 20
+  },
+  "429001": {
+    "Id": 429001,
+    "Name": "武昌鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 429001,
+    "act": 3
+  },
+  "11004003": {
+    "Id": 11004003,
+    "Name": "风暴",
+    "CorpseTime": 15,
+    "RefreshTime": 3600,
+    "Resource": 110040031,
+    "dis": 150,
+    "act": 3
+  },
+  "11016001": {
+    "Id": 11016001,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016002": {
+    "Id": 11016002,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016003": {
+    "Id": 11016003,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016004": {
+    "Id": 11016004,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016005": {
+    "Id": 11016005,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016006": {
+    "Id": 11016006,
+    "Name": "10巨鲸寨喽啰",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11016007": {
+    "Id": 11016007,
+    "Name": "芦苇荡蛇",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1017,
+    "act": 3
+  },
+  "11029001": {
+    "Id": 11029001,
+    "Name": "30水寇小头目",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11029002": {
+    "Id": 11029002,
+    "Name": "30水寇小头目",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11029003": {
+    "Id": 11029003,
+    "Name": "30水寇小头目",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11029004": {
+    "Id": 11029004,
+    "Name": "30长江水寇",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11029005": {
+    "Id": 11029005,
+    "Name": "30长江水寇",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031001": {
+    "Id": 11031001,
+    "Name": "沙驼帮马匪",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031002": {
+    "Id": 11031002,
+    "Name": "沙驼帮马匪",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031003": {
+    "Id": 11031003,
+    "Name": "沙驼帮马匪",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031004": {
+    "Id": 11031004,
+    "Name": "沙驼帮强盗",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031005": {
+    "Id": 11031005,
+    "Name": "沙驼帮强盗",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11031006": {
+    "Id": 11031006,
+    "Name": "沙驼帮强盗",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032009": {
+    "Id": 11032009,
+    "Name": "50秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032010": {
+    "Id": 11032010,
+    "Name": "51秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032011": {
+    "Id": 11032011,
+    "Name": "52秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032012": {
+    "Id": 11032012,
+    "Name": "53秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032013": {
+    "Id": 11032013,
+    "Name": "54秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032014": {
+    "Id": 11032014,
+    "Name": "55秦岭匪徒",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "11032017": {
+    "Id": 11032017,
+    "Name": "秦岭鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 11032017,
+    "act": 3
+  },
+  "13038001": {
+    "Id": 13038001,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038002": {
+    "Id": 13038002,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038003": {
+    "Id": 13038003,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038004": {
+    "Id": 13038004,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038005": {
+    "Id": 13038005,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038006": {
+    "Id": 13038006,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038007": {
+    "Id": 13038007,
+    "Name": "40北国斥候",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038008": {
+    "Id": 13038008,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038010": {
+    "Id": 13038010,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038011": {
+    "Id": 13038011,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038012": {
+    "Id": 13038012,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038013": {
+    "Id": 13038013,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038014": {
+    "Id": 13038014,
+    "Name": "50北国士兵",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038015": {
+    "Id": 13038015,
+    "Name": "60古达兹",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13038016": {
+    "Id": 13038016,
+    "Name": "战场鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1016,
+    "act": 3
+  },
+  "13060008": {
+    "Id": 13060008,
+    "Name": "45汴京山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13060009": {
+    "Id": 13060009,
+    "Name": "45汴京山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13060010": {
+    "Id": 13060010,
+    "Name": "45汴京山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13060011": {
+    "Id": 13060011,
+    "Name": "45汴京山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13060012": {
+    "Id": 13060012,
+    "Name": "45汴京山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13060013": {
+    "Id": 13060013,
+    "Name": "郊外猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1003,
+    "act": 3
+  },
+  "13060014": {
+    "Id": 13060014,
+    "Name": "郊外牛",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1010,
+    "act": 3
+  },
+  "13060015": {
+    "Id": 13060015,
+    "Name": "郊外鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1015,
+    "act": 3
+  },
+  "13060016": {
+    "Id": 13060016,
+    "Name": "郊外虎",
+    "CorpseTime": 60,
+    "RefreshTime": 60,
+    "Resource": 1022,
+    "act": 3
+  },
+  "13067001": {
+    "Id": 13067001,
+    "Name": "20山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13067002": {
+    "Id": 13067002,
+    "Name": "20山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13067003": {
+    "Id": 13067003,
+    "Name": "20山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13067004": {
+    "Id": 13067004,
+    "Name": "20山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13067005": {
+    "Id": 13067005,
+    "Name": "20山贼",
+    "CorpseTime": 1,
+    "RefreshTime": 20,
+    "dis": 1
+  },
+  "13067006": {
+    "Id": 13067006,
+    "Name": "江南道蛇",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1018,
+    "act": 3
+  },
+  "13067007": {
+    "Id": 13067007,
+    "Name": "江南道牛",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1009,
+    "act": 3
+  },
+  "13067008": {
+    "Id": 13067008,
+    "Name": "江南道猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1002,
+    "act": 3
+  },
+  "13067009": {
+    "Id": 13067009,
+    "Name": "江南道鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1306709,
+    "act": 3
+  },
+  "13113001": {
+    "Id": 13113001,
+    "Name": "剑南道熊",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1020,
+    "act": 3
+  },
+  "13113002": {
+    "Id": 13113002,
+    "Name": "剑南道野猪",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1023,
+    "act": 3
+  },
+  "13127001": {
+    "Id": 13127001,
+    "Name": "江断奔",
+    "CorpseTime": 15,
+    "RefreshTime": 3600,
+    "Resource": 131270011,
+    "dis": 150,
+    "act": 3
+  },
+  "13129001": {
+    "Id": 13129001,
+    "Name": "张昊",
+    "CorpseTime": 15,
+    "RefreshTime": 3600,
+    "Resource": 131290011,
+    "dis": 150,
+    "act": 3
+  },
+  "13130001": {
+    "Id": 13130001,
+    "Name": "阿骨打",
+    "CorpseTime": 15,
+    "RefreshTime": 3600,
+    "Resource": 131300011,
+    "dis": 150,
+    "act": 3
+  },
+  "13134001": {
+    "Id": 13134001,
+    "Name": "李淬",
+    "CorpseTime": 15,
+    "RefreshTime": 3600,
+    "Resource": 131340011,
+    "dis": 150,
+    "act": 3
+  },
+  "14236001": {
+    "Id": 14236001,
+    "Name": "后山鸡",
+    "CorpseTime": 60,
+    "RefreshTime": 3600,
+    "Resource": 1423601,
+    "act": 3
+  },
+  "30108028": {
+    "Id": 30108028,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "30113001": {
+    "Id": 30113001,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 3
+  },
+  "50104005": {
+    "Id": 50104005,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50104013": {
+    "Id": 50104013,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50104019": {
+    "Id": 50104019,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50104020": {
+    "Id": 50104020,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50106001": {
+    "Id": 50106001,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50108031": {
+    "Id": 50108031,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  },
+  "50108032": {
+    "Id": 50108032,
+    "CorpseTime": 9999,
+    "RefreshTime": 9999,
+    "dis": 150,
+    "act": 5
+  }
+}

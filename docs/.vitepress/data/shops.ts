@@ -64,11 +64,13 @@ export async function getShopById(shopId: number): Promise<Shop | null> {
   };
 
   for (const good of Object.values(data)) {
+    // console.log(good.Tag, xls.Tag)
     if (good.Tag === xls.Tag) {
       s.goods.push(good);
     }
   }
   shops[shopId] = s;
+  console.log('getShopById', shopId, Object.values(data).length, s.goods.length, xls.Tag);
   return s;
 }
 

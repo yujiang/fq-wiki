@@ -1,0 +1,30 @@
+{
+  "30032": {
+    "Id": 30032,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52115, 1]],
+    "Mastery": 50
+  },
+  "30033": {
+    "Id": 30033,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52115, 1]],
+    "Mastery": 50
+  },
+  "30034": {
+    "Id": 30034,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52116, 1]],
+    "Mastery": 50
+  },
+  "30035": {
+    "Id": 30035,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52117, 1]],
+    "Mastery": 50
+  }
+}

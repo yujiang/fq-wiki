@@ -1,0 +1,19 @@
+{
+  "BagSize": {"Id": "BagSize", "descs": {"1": "背包容量{0}"}},
+  "EnergyMax": {"Id": "EnergyMax", "descs": {"1": "体力上限{0}"}},
+  "EnergyBuyTimes": {"Id": "EnergyBuyTimes", "descs": {"1": "体力购买次数{0}"}},
+  "ExpAddRate": {"Id": "ExpAddRate", "descs": {"1": "战斗经验收益{0}%"}},
+  "YueliAddRate": {"Id": "YueliAddRate", "descs": {"1": "战斗阅历收益{0}%"}},
+  "YinliangAddRate": {"Id": "YinliangAddRate", "descs": {"1": "战斗银两收益{0}%"}},
+  "OfflineAddRate": {"Id": "OfflineAddRate", "descs": {"1": "离线挂机收益{0}%"}},
+  "OrgContorAddRate": {"Id": "OrgContorAddRate", "descs": {"1": "门派任务贡献{0}%"}},
+  "LadderChallengeTimes": {
+    "Id": "LadderChallengeTimes",
+    "descs": {"1": "武馆挑战次数{0}"}
+  },
+  "FubenTimes": {"Id": "FubenTimes", "descs": {"1": "额外副本次数{0}"}},
+  "MysteryShopRefreshTimes": {
+    "Id": "MysteryShopRefreshTimes",
+    "descs": {"1": "神秘商店刷新次数{0}"}
+  }
+}

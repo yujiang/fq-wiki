@@ -1,0 +1,39 @@
+{
+  "81000": {
+    "Id": 81000,
+    "Name": "船",
+    "MoveSpeed": 200,
+    "AddSpeed": 10,
+    "MaxSpeed": 400,
+    "HpMax": 0,
+    "Step": 200,
+    "Collide": 1,
+    "Buff": 80001,
+    "MaxDir": 4,
+    "RiderPos": 1
+  },
+  "82000": {
+    "Id": 82000,
+    "Name": "船",
+    "MoveSpeed": 200,
+    "AddSpeed": 10,
+    "MaxSpeed": 400,
+    "HpMax": 0,
+    "Step": 200,
+    "Collide": 1,
+    "MaxDir": 8,
+    "RiderPos": 2
+  },
+  "83000": {
+    "Id": 83000,
+    "Name": "船",
+    "MoveSpeed": 200,
+    "AddSpeed": 10,
+    "MaxSpeed": 400,
+    "HpMax": 0,
+    "Step": 200,
+    "Collide": 1,
+    "MaxDir": 4,
+    "RiderPos": 1
+  }
+}

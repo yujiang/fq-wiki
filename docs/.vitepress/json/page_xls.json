@@ -1,0 +1,89 @@
+{
+  "normal": {
+    "Id": "normal",
+    "Name": "杂项",
+    "UIName": "杂 项",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "equip": {
+    "Id": "equip",
+    "Name": "装备",
+    "UIName": "装 备",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "drug": {
+    "Id": "drug",
+    "Name": "药食",
+    "UIName": "丹 药",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "star": {
+    "Id": "star",
+    "Name": "星命石",
+    "UIName": "星命石",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "material": {
+    "Id": "material",
+    "Name": "材料",
+    "UIName": "材 料",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30,
+    "Tags": ["篝火", "天材地宝"]
+  },
+  "book": {
+    "Id": "book",
+    "Name": "秘籍",
+    "UIName": "秘 籍",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "wield": {
+    "Id": "wield",
+    "Name": "装备",
+    "UIName": "装 备",
+    "InitNum": 7,
+    "NpcInitNum": 6
+  },
+  "task": {
+    "Id": "task",
+    "Name": "任务",
+    "UIName": "任 务",
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "food": {
+    "Id": "food",
+    "Name": "酒食",
+    "UIName": "酒 食",
+    "UIBag": 1,
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  },
+  "summoned": {
+    "Id": "summoned",
+    "Name": "召唤物",
+    "UIName": "召唤物",
+    "InitNum": 30,
+    "OrgInitNum": 99,
+    "NpcInitNum": 30
+  }
+}

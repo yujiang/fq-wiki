@@ -1,0 +1,62 @@
+{
+  "12": {
+    "Id": 12,
+    "ItemId": 700040,
+    "Name": "刀经",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 1000,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 7,
+    "Tag": "苍牙商店"
+  },
+  "13": {
+    "Id": 13,
+    "ItemId": 700041,
+    "Name": "破阵军刀",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 2000,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 8,
+    "Tag": "苍牙商店"
+  },
+  "14": {
+    "Id": 14,
+    "ItemId": 700042,
+    "Name": "浪刀鸣音",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 9,
+    "Tag": "苍牙商店"
+  },
+  "15": {
+    "Id": 15,
+    "ItemId": 700043,
+    "Name": "无锋心典",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 4000,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 10,
+    "Tag": "苍牙商店"
+  },
+  "16": {
+    "Id": 16,
+    "ItemId": 700044,
+    "Name": "天下止戈",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 5000,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 11,
+    "Tag": "苍牙商店"
+  }
+}

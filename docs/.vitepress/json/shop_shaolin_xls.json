@@ -1,0 +1,74 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 12242,
+    "Name": "线香",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 300,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "少林商店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 30004,
+    "Name": "金创药",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "少林商店"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 12276,
+    "Name": "火折子",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "少林商店"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 12332,
+    "Name": "麻绳",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 2,
+    "Price": 75,
+    "Needs": {"Level": 0},
+    "Sort": 4,
+    "Tag": "少林商店"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 2012,
+    "Name": "回城符",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 5,
+    "Tag": "少林商店"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 300121,
+    "Name": "竹棍",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 167,
+    "Needs": {"Level": 0},
+    "Sort": 6,
+    "Tag": "少林商店"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "10级土豪少林棍",
+    "Grade": 10,
+    "Money": "土豪",
+    "School": "少林",
+    "Skill": "棍",
+    "Player": {"Level": 5, "Equip": "紫色"},
+    "Soldier": {"Level": 5, "Equip": "紫色"}
+  },
+  "2": {
+    "Id": 2,
+    "Name": "10级大R少林拳",
+    "Grade": 10,
+    "Money": "大R",
+    "School": "少林",
+    "Skill": "拳"
+  },
+  "3": {"Id": 3, "Name": 3, "Money": "中R"},
+  "4": {"Id": 4, "Name": 4, "Money": "小R"},
+  "5": {"Id": 5, "Name": 5, "Money": "非R"},
+  "6": {"Id": 6, "Name": 6, "Money": "新手"}
+}

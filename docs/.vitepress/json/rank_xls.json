@@ -1,0 +1,6 @@
+{
+  "1": {"Id": 1, "FixesCount": 0, "Desc": "绿"},
+  "2": {"Id": 2, "FixesCount": 1, "Desc": "蓝"},
+  "3": {"Id": 3, "FixesCount": 2, "Desc": "紫"},
+  "4": {"Id": 4, "FixesCount": 3, "Desc": "橙"}
+}

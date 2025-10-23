@@ -1,0 +1,583 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "al",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "2": {
+    "Id": 2,
+    "Name": "ar",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "3": {
+    "Id": 3,
+    "Name": "au",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "4": {
+    "Id": 4,
+    "Name": "ad",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "5": {
+    "Id": 5,
+    "Name": "alr",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "6": {
+    "Id": 6,
+    "Name": "ald",
+    "Weapon": 0,
+    "From": {"Src": "attack", "Event": 1}
+  },
+  "7": {
+    "Id": 7,
+    "Name": "al",
+    "Weapon": 1,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7], "Event": 1}
+  },
+  "8": {
+    "Id": 8,
+    "Name": "ar",
+    "Weapon": 1,
+    "From": {"Src": "a", "Frames": [8, 9, 10, 11, 12, 13, 14, 15], "Event": 1}
+  },
+  "9": {
+    "Id": 9,
+    "Name": "au",
+    "Weapon": 1,
+    "From": {"Src": "a", "Frames": [16, 17, 18, 19, 20, 21, 22, 23], "Event": 1}
+  },
+  "10": {
+    "Id": 10,
+    "Name": "ad",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [24, 25, 26, 27, 28, 29, 30, 31, 24],
+      "Event": 1
+    }
+  },
+  "11": {
+    "Id": 11,
+    "Name": "alr",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15],
+      "Event": 1
+    }
+  },
+  "12": {
+    "Id": 12,
+    "Name": "ald",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 27, 28, 29, 30, 31],
+      "Event": 1
+    }
+  },
+  "13": {
+    "Id": 13,
+    "Name": "aa",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46],
+      "Event": 1
+    }
+  },
+  "14": {
+    "Id": 14,
+    "Name": "ab",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57],
+      "Event": 1
+    }
+  },
+  "15": {
+    "Id": 15,
+    "Name": "ac",
+    "Weapon": 1,
+    "From": {
+      "Src": "a",
+      "Frames": [57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 20, 21, 22, 23, 24],
+      "Event": 1
+    }
+  },
+  "16": {
+    "Id": 16,
+    "Name": "al",
+    "Weapon": 2,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7, 0], "Event": 1}
+  },
+  "17": {
+    "Id": 17,
+    "Name": "ar",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [8, 9, 10, 11, 12, 13, 14, 15, 8],
+      "Event": 1
+    }
+  },
+  "18": {
+    "Id": 18,
+    "Name": "au",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [16, 17, 18, 19, 20, 21, 22, 23, 16],
+      "Event": 1
+    }
+  },
+  "19": {
+    "Id": 19,
+    "Name": "ad",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [24, 25, 26, 27, 28, 29, 30, 31, 24],
+      "Event": 1
+    }
+  },
+  "20": {
+    "Id": 20,
+    "Name": "alr",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 0],
+      "Event": 1
+    }
+  },
+  "21": {
+    "Id": 21,
+    "Name": "ald",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 27, 28, 29, 30, 31, 0],
+      "Event": 1
+    }
+  },
+  "22": {
+    "Id": 22,
+    "Name": "aa",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+      "Event": 1
+    }
+  },
+  "23": {
+    "Id": 23,
+    "Name": "ab",
+    "Weapon": 2,
+    "From": {
+      "Src": "a",
+      "Frames": [45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "Event": 1
+    }
+  },
+  "24": {
+    "Id": 24,
+    "Name": "ac",
+    "Weapon": 2,
+    "From": {"Src": "a", "Frames": [56, 57, 58, 59, 60, 61, 60, 56], "Event": 1}
+  },
+  "25": {
+    "Id": 25,
+    "Name": "al",
+    "Weapon": 3,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7, 0], "Event": 1}
+  },
+  "26": {
+    "Id": 26,
+    "Name": "ar",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [8, 9, 10, 11, 12, 13, 14, 15, 8],
+      "Event": 1
+    }
+  },
+  "27": {
+    "Id": 27,
+    "Name": "au",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [16, 17, 18, 19, 20, 21, 22, 23, 16],
+      "Event": 1
+    }
+  },
+  "28": {
+    "Id": 28,
+    "Name": "ad",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [24, 25, 26, 27, 28, 29, 30, 31, 32, 24],
+      "Event": 1
+    }
+  },
+  "29": {
+    "Id": 29,
+    "Name": "alr",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 0],
+      "Event": 1
+    }
+  },
+  "30": {
+    "Id": 30,
+    "Name": "ald",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 27, 28, 29, 30, 31, 0],
+      "Event": 1
+    }
+  },
+  "31": {
+    "Id": 31,
+    "Name": "aa",
+    "Weapon": 3,
+    "From": {"Src": "a", "Frames": [33, 34, 35, 36, 37, 38, 39, 40], "Event": 1}
+  },
+  "32": {
+    "Id": 32,
+    "Name": "ab",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "Event": 1
+    }
+  },
+  "33": {
+    "Id": 33,
+    "Name": "ac",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61],
+      "Event": 1
+    }
+  },
+  "34": {
+    "Id": 34,
+    "Name": "ae",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [71, 72, 73, 74, 75, 76, 77, 76, 71],
+      "Event": 1
+    }
+  },
+  "35": {
+    "Id": 35,
+    "Name": "af",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [78, 79, 80, 81, 82, 83, 84, 85, 86],
+      "Event": 1
+    }
+  },
+  "36": {
+    "Id": 36,
+    "Name": "ag",
+    "Weapon": 3,
+    "From": {"Src": "a", "Frames": [86, 87, 88, 89, 90, 92, 93], "Event": 1}
+  },
+  "37": {
+    "Id": 37,
+    "Name": "ah",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106],
+      "Event": 1
+    }
+  },
+  "38": {
+    "Id": 38,
+    "Name": "ai",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 106],
+      "Event": 1
+    }
+  },
+  "39": {
+    "Id": 39,
+    "Name": "aj",
+    "Weapon": 3,
+    "From": {
+      "Src": "a",
+      "Frames": [62, 63, 64, 65, 66, 67, 68, 69, 70, 0],
+      "Event": 1
+    }
+  },
+  "40": {
+    "Id": 40,
+    "Name": "al",
+    "Weapon": 4,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7, 0], "Event": 1}
+  },
+  "41": {
+    "Id": 41,
+    "Name": "ar",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [8, 9, 10, 11, 12, 13, 14, 15, 8],
+      "Event": 1
+    }
+  },
+  "42": {
+    "Id": 42,
+    "Name": "au",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [16, 17, 18, 19, 20, 21, 22, 23, 16],
+      "Event": 1
+    }
+  },
+  "43": {
+    "Id": 43,
+    "Name": "ad",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [24, 25, 26, 27, 28, 29, 30, 31, 24],
+      "Event": 1
+    }
+  },
+  "44": {
+    "Id": 44,
+    "Name": "alr",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15],
+      "Event": 1
+    }
+  },
+  "45": {
+    "Id": 45,
+    "Name": "ald",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 27, 28, 29, 30, 31],
+      "Event": 1
+    }
+  },
+  "46": {
+    "Id": 46,
+    "Name": "aa",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [32, 33, 34, 35, 36, 37, 38, 39, 40],
+      "Event": 1
+    }
+  },
+  "47": {
+    "Id": 47,
+    "Name": "ab",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+      "Event": 1
+    }
+  },
+  "48": {
+    "Id": 48,
+    "Name": "ac",
+    "Weapon": 4,
+    "From": {
+      "Src": "a",
+      "Frames": [49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 49],
+      "Event": 1
+    }
+  },
+  "49": {
+    "Id": 49,
+    "Name": "al",
+    "Weapon": 5,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7], "Event": 1}
+  },
+  "50": {
+    "Id": 50,
+    "Name": "ar",
+    "Weapon": 5,
+    "From": {"Src": "a", "Frames": [8, 9, 10, 11, 12, 13, 14, 15], "Event": 1}
+  },
+  "51": {
+    "Id": 51,
+    "Name": "au",
+    "Weapon": 5,
+    "From": {"Src": "a", "Frames": [16, 17, 18, 19, 20, 21, 22, 23], "Event": 1}
+  },
+  "52": {
+    "Id": 52,
+    "Name": "ad",
+    "Weapon": 5,
+    "From": {"Src": "a", "Frames": [24, 25, 26, 27, 28, 29, 30, 31], "Event": 1}
+  },
+  "53": {
+    "Id": 53,
+    "Name": "alr",
+    "Weapon": 5,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15],
+      "Event": 1
+    }
+  },
+  "54": {
+    "Id": 54,
+    "Name": "ald",
+    "Weapon": 5,
+    "From": {
+      "Src": "a",
+      "Frames": [0, 1, 2, 3, 4, 5, 6, 7, 24, 25, 26, 27, 28, 29, 30, 31],
+      "Event": 1
+    }
+  },
+  "55": {
+    "Id": 55,
+    "Name": "al",
+    "Weapon": 6,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7, 0], "Event": 1}
+  },
+  "56": {
+    "Id": 56,
+    "Name": "au",
+    "Weapon": 6,
+    "From": {
+      "Src": "a",
+      "Frames": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 8],
+      "Event": 1
+    }
+  },
+  "57": {
+    "Id": 57,
+    "Name": "al",
+    "Weapon": 7,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7], "Event": 1}
+  },
+  "58": {
+    "Id": 58,
+    "Name": "al",
+    "Weapon": 8,
+    "From": {"Src": "a", "Frames": [0, 1, 2, 3, 4, 5, 6, 7], "Event": 1}
+  },
+  "59": {"Id": 59, "Name": "relife", "From": {"Src": "die", "Reverse": 1}},
+  "60": {"Id": 60, "Name": "rjump", "From": {"Src": "rjump", "Reverse": 1}},
+  "61": {"Id": 61, "Name": "jumpprev", "From": {"Src": "jump", "Frames": [1]}},
+  "62": {
+    "Id": 62,
+    "Name": "jumpup",
+    "From": {"Src": "jump", "Frames": [2, 3, 4]}
+  },
+  "63": {
+    "Id": 63,
+    "Name": "jumpfly",
+    "From": {"Src": "jump", "Frames": [5, 6, 7, 8, 9]}
+  },
+  "64": {
+    "Id": 64,
+    "Name": "jumpdown",
+    "From": {"Src": "jump", "Frames": [10, 11]}
+  },
+  "65": {
+    "Id": 65,
+    "Name": "jumpend",
+    "From": {"Src": "jump", "Frames": [12, 13]}
+  },
+  "66": {
+    "Id": 66,
+    "Name": "rjumpprev",
+    "From": {"Src": "rjump", "Frames": [0]}
+  },
+  "67": {
+    "Id": 67,
+    "Name": "rjumpup",
+    "From": {"Src": "rjump", "Frames": [1, 2]}
+  },
+  "68": {
+    "Id": 68,
+    "Name": "rjumpfly",
+    "From": {"Src": "rjump", "Frames": [3, 4, 5]}
+  },
+  "69": {
+    "Id": 69,
+    "Name": "rjumpdown",
+    "From": {"Src": "rjump", "Frames": [6]}
+  },
+  "70": {"Id": 70, "Name": "rjumpend", "From": {"Src": "rjump", "Frames": [7]}},
+  "71": {
+    "Id": 71,
+    "Name": "hand",
+    "From": {"Src": "exchange", "Frames": [0, 1, 2, 3, 4, 5]}
+  },
+  "72": {"Id": 72, "Name": "guard", "From": {"Src": "stand"}},
+  "73": {"Id": 73, "Name": "rush", "From": {"Src": "walk"}},
+  "74": {"Id": 74, "Name": "bjump", "From": {"Src": "jump", "Reverse": 1}},
+  "75": {
+    "Id": 75,
+    "Name": "bjumpprev",
+    "From": {"Src": "bjump", "Frames": [0]}
+  },
+  "76": {
+    "Id": 76,
+    "Name": "bjumpup",
+    "From": {"Src": "bjump", "Frames": [1, 2]}
+  },
+  "77": {
+    "Id": 77,
+    "Name": "bjumpfly",
+    "From": {"Src": "bjump", "Frames": [4, 5, 6, 7, 8, 9, 10]}
+  },
+  "78": {
+    "Id": 78,
+    "Name": "bjumpdown",
+    "From": {"Src": "bjump", "Frames": [11]}
+  },
+  "79": {
+    "Id": 79,
+    "Name": "bjumpend",
+    "From": {"Src": "bjump", "Frames": [12]}
+  },
+  "80": {
+    "Id": 80,
+    "Name": "af",
+    "Weapon": 3,
+    "From": {"Src": "a", "Frames": [16, 17, 21, 22, 16], "Event": 1}
+  },
+  "81": {
+    "Id": 81,
+    "Name": "afz",
+    "Weapon": 3,
+    "From": {"Src": "a", "Frames": [0, 4, 5, 0], "Event": 1}
+  }
+}

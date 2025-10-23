@@ -1,0 +1,37 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "地图特效",
+    "src": "防御者",
+    "target": "攻击者",
+    "dir": -3,
+    "layer": "magic"
+  },
+  "2": {
+    "Id": 2,
+    "Name": "char特效",
+    "src": "攻击者",
+    "target": "防御者",
+    "dir": -2,
+    "layer": "body"
+  },
+  "3": {"Id": 3, "Name": "移动到防御者", "src": "当前", "target": "防御者", "dis": 100},
+  "4": {"Id": 4, "Name": "移动到防御者", "src": "当前", "target": "防御者面前", "dis": 100},
+  "5": {"Id": 5, "Name": "移动到防御者", "src": "当前", "target": "防御者背后", "dis": 100},
+  "6": {
+    "Id": 6,
+    "Name": "char特效top",
+    "src": "攻击者",
+    "target": "防御者",
+    "dir": -2,
+    "layer": "top"
+  },
+  "7": {
+    "Id": 7,
+    "Name": "轮回",
+    "src": "攻击者",
+    "target": "防御者",
+    "dir": -2,
+    "layer": "body"
+  }
+}

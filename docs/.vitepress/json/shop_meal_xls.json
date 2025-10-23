@@ -1,0 +1,68 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 40049,
+    "Name": "禅院椒香",
+    "RestrType": 1,
+    "Count": 2,
+    "Cost": [[50091, 5]],
+    "Needs": {"SchoolLevel": 1},
+    "Sort": 1,
+    "Tag": "斋饭"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 40050,
+    "Name": "鼎湖上素",
+    "RestrType": 1,
+    "Count": 1,
+    "Cost": [[50110, 5]],
+    "Needs": {"SchoolLevel": 1},
+    "Sort": 2,
+    "Tag": "斋饭"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 40051,
+    "Name": "筼筜流霞",
+    "RestrType": 1,
+    "Count": 1,
+    "Cost": [[50120, 1], [50111, 1], [50110, 2]],
+    "Needs": {"SchoolLevel": 2},
+    "Sort": 3,
+    "Tag": "斋饭"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 40054,
+    "Name": "半月沉江",
+    "RestrType": 1,
+    "Count": 1,
+    "Cost": [[50145, 2], [50143, 3]],
+    "Needs": {"SchoolLevel": 2},
+    "Sort": 4,
+    "Tag": "斋饭"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 40053,
+    "Name": "天厨素饼",
+    "RestrType": 1,
+    "Count": 1,
+    "Cost": [[50145, 2], [50140, 3], [50143, 1]],
+    "Needs": {"SchoolLevel": 2},
+    "Sort": 5,
+    "Tag": "斋饭"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 40052,
+    "Name": "五行养生粥",
+    "RestrType": 1,
+    "Count": 1,
+    "Cost": [[50141, 2], [50112, 1], [50140, 1], [50090, 2]],
+    "Needs": {"SchoolLevel": 3},
+    "Sort": 6,
+    "Tag": "斋饭"
+  }
+}

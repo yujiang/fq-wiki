@@ -1,0 +1,50 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 40065,
+    "Name": "临江仙",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "酒铺"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 50025,
+    "Name": "党参",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 300,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "药铺"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 50026,
+    "Name": "龙眼肉",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 400,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "药铺"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 50027,
+    "Name": "酸枣仁",
+    "RestrType": 1,
+    "Count": 3,
+    "MoneyType": 2,
+    "Price": 500,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "药铺"
+  }
+}

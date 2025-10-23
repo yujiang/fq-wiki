@@ -1,0 +1,282 @@
+{
+  "40006": {
+    "Id": 40006,
+    "Name": "清炒时蔬",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50090, 2]],
+    "Mastery": 50,
+    "DishType": 0,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40007": {
+    "Id": 40007,
+    "Name": "清蒸鱼",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50100, 1], [50142, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40008": {
+    "Id": 40008,
+    "Name": "鲜鱼冬瓜汤",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50146, 1], [50092, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40009": {
+    "Id": 40009,
+    "Name": "刀削面",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50145, 3]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40010": {
+    "Id": 40010,
+    "Name": "响油泥鳅",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50105, 2], [50142, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40011": {
+    "Id": 40011,
+    "Name": "脆炒藕丁",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50094, 3]],
+    "Mastery": 50,
+    "DishType": 0,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40012": {
+    "Id": 40012,
+    "Name": "翡翠白鱼汤",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50102, 1], [50120, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40013": {
+    "Id": 40013,
+    "Name": "爆炒腰花",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50087, 1], [50091, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40014": {
+    "Id": 40014,
+    "Name": "白水鸡",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50079, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40015": {
+    "Id": 40015,
+    "Name": "肉末茄子",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 1], [50093, 3]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40016": {
+    "Id": 40016,
+    "Name": "葱爆牛肉",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50076, 1], [50142, 3]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40017": {
+    "Id": 40017,
+    "Name": "排骨藕汤",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 2], [50094, 2], [50143, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40018": {
+    "Id": 40018,
+    "Name": "宋嫂鱼羹",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50100, 1], [50147, 3], [50140, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40019": {
+    "Id": 40019,
+    "Name": "金钱鹿肉",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50081, 2], [50145, 2], [52001, 1], [50143, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40020": {
+    "Id": 40020,
+    "Name": "双龙戏珠",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50080, 2], [52001, 1], [50143, 1], [50142, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40021": {
+    "Id": 40021,
+    "Name": "红煨熊掌",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50016, 1], [50120, 4], [50143, 2], [50142, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40022": {
+    "Id": 40022,
+    "Name": "枸杞羊肉",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50078, 4], [50004, 4], [50090, 3]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40023": {
+    "Id": 40023,
+    "Name": "盘龙菜",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 1], [50103, 2], [52001, 2], [50142, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40024": {
+    "Id": 40024,
+    "Name": "油条麻糍",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50145, 2], [50141, 1], [50140, 1], [50112, 1]],
+    "Mastery": 50,
+    "DishType": 0,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40025": {
+    "Id": 40025,
+    "Name": "龙井虾仁",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50104, 3], [50114, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40026": {
+    "Id": 40026,
+    "Name": "清炖狮子头",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 3], [50116, 1], [52001, 1], [50004, 2], [50090, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40027": {
+    "Id": 40027,
+    "Name": "烤全羊",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50078, 4], [50115, 4]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40028": {
+    "Id": 40028,
+    "Name": "塞北蒸肉",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 3], [50090, 1], [50004, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40029": {
+    "Id": 40029,
+    "Name": "腊肉炒红菜苔",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 3], [50113, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40030": {
+    "Id": 40030,
+    "Name": "水煮鱼",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50101, 2], [50091, 3], [50143, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40059": {
+    "Id": 40059,
+    "Name": "馒头",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50145, 2]],
+    "Mastery": 50,
+    "DishType": 0,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40062": {
+    "Id": 40062,
+    "Name": "东坡肉",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50077, 3], [50140, 1]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  },
+  "40065": {
+    "Id": 40065,
+    "Name": "蟹酿橙",
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50106, 1], [40066, 1], [50142, 2]],
+    "Mastery": 50,
+    "DishType": 1,
+    "DoubleFormula": "MakeFoodDouble"
+  }
+}

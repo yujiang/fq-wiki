@@ -32,16 +32,17 @@ export async function getAllItems(){
     const names = [
       'item','equip','material','drug','book','food',
     ]
-    items = {};
+    let i = {};
     for (const n of names){
       const item = await fetchXls(n) as Items;
-      items = {...items, ...item};
+      i = {...i, ...item};
     }
+    items = i;
   }
   return items;
 }
 
 export function getItemIcon(icon: number){
-  return `/images/icon/char/268x249/1013.png`;
-  //return `/images/icon/char/268x249/${icon}.png`;
+  //return `/images/icon/char/268x249/1013.png`;
+  return `/images/icon/item/100x100/${icon}.png`;
 }

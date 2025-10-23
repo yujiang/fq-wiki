@@ -1,0 +1,424 @@
+{
+  "1001": {
+    "Id": 1001,
+    "Name": "庄园古董",
+    "Desc": "主界面-庄园",
+    "Dir": "DlgMain.mainMenu.btnManorMain",
+    "Type": ["char"]
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "庄园古董",
+    "Desc": "客户端红点",
+    "Dir": "DlgAntique.tabList",
+    "Type": ["char"]
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "庄园古董",
+    "Desc": "客户端红点",
+    "Dir": "DlgAntique.aList",
+    "Type": ["char"]
+  },
+  "3001": {
+    "Id": 3001,
+    "Name": "角色入口",
+    "Desc": "主界面-角色",
+    "Dir": "DlgMain.mainMenu.btnCharMain",
+    "Type": ["char"]
+  },
+  "3002": {
+    "Id": 3002,
+    "Name": "角色列表",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.listChar",
+    "Type": ["char"]
+  },
+  "3011": {
+    "Id": 3011,
+    "Name": "装备",
+    "Desc": "信息",
+    "Dir": "DlgMainChar.tabMeunChar.tabChar.getChildAt(0)",
+    "Parent": 0,
+    "Pos": [55, 20],
+    "Note": "角色-右侧信息"
+  },
+  "3012": {
+    "Id": 3012,
+    "Name": "装备",
+    "Desc": "装备",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.tab.getChildAt(0)",
+    "Parent": 3011,
+    "Pos": [71, 3],
+    "Note": "角色-左侧装备"
+  },
+  "3013": {
+    "Id": 3013,
+    "Name": "装备",
+    "Desc": "装备格1",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(0)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,0)"],
+    "Pos": [68, 8]
+  },
+  "3014": {
+    "Id": 3014,
+    "Name": "装备",
+    "Desc": "装备格2",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(1)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,1)"],
+    "Pos": [68, 8]
+  },
+  "3015": {
+    "Id": 3015,
+    "Name": "装备",
+    "Desc": "装备格3",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(2)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,2)"],
+    "Pos": [68, 8]
+  },
+  "3016": {
+    "Id": 3016,
+    "Name": "装备",
+    "Desc": "装备格4",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(3)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,3)"],
+    "Pos": [68, 8]
+  },
+  "3017": {
+    "Id": 3017,
+    "Name": "装备",
+    "Desc": "装备格5",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(4)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,4)"],
+    "Pos": [68, 8]
+  },
+  "3018": {
+    "Id": 3018,
+    "Name": "装备",
+    "Desc": "装备格6",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(5)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,5)"],
+    "Pos": [68, 8]
+  },
+  "3019": {
+    "Id": 3019,
+    "Name": "装备",
+    "Desc": "装备格7",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(6)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,6)"],
+    "Pos": [68, 8]
+  },
+  "3020": {
+    "Id": 3020,
+    "Name": "装备",
+    "Desc": "装备格8",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharInfo.tabMeunInfoLeft.pnlWield.list.getVirtualElementAt(7)",
+    "Type": ["char"],
+    "Parent": 3012,
+    "Func": ["RD_HaveHigherZhanliEquip(p,7)"],
+    "Pos": [68, 8]
+  },
+  "3101": {
+    "Id": 3101,
+    "Name": "功法",
+    "Desc": "主界面-功法",
+    "Dir": "DlgMain.mainMenu.btnGongfaMain",
+    "Parent": 0,
+    "Pos": [80, 10]
+  },
+  "3102": {
+    "Id": 3102,
+    "Name": "功法",
+    "Desc": "武学",
+    "Dir": "DlgMainChar.tabMeunChar.tabChar.getChildAt(1)",
+    "Parent": 3101,
+    "Pos": [55, 20],
+    "Note": "角色-右侧武学"
+  },
+  "3103": {
+    "Id": 3103,
+    "Name": "功法",
+    "Desc": "套路",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.tab.getChildAt(0)",
+    "Type": ["char"],
+    "Parent": 3102,
+    "Func": ["RD_CanLearnTaolu(p, 'wu')", "RD_CanUpgradeTaolu(p, 'wu')"],
+    "Pos": [100, 1]
+  },
+  "3104": {
+    "Id": 3104,
+    "Name": "功法",
+    "Desc": "内功",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.tab.getChildAt(1)",
+    "Type": ["char"],
+    "Parent": 3102,
+    "Func": ["RD_CanLearnTaolu(p, 'nei')", "RD_CanUpgradeTaolu(p, 'nei')"],
+    "Pos": [100, 1]
+  },
+  "3105": {
+    "Id": 3105,
+    "Name": "功法",
+    "Desc": "轻功",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.tab.getChildAt(2)",
+    "Type": ["char"],
+    "Parent": 3102,
+    "Func": ["RD_CanLearnTaolu(p, 'qing')", "RD_CanUpgradeTaolu(p, 'qing')"],
+    "Pos": [100, 1]
+  },
+  "3106": {
+    "Id": 3106,
+    "Name": "功法",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.btnAdd",
+    "Type": ["char"]
+  },
+  "3107": {
+    "Id": 3107,
+    "Name": "功法",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.wu",
+    "Type": ["char"]
+  },
+  "3108": {
+    "Id": 3108,
+    "Name": "功法",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.nei",
+    "Type": ["char"]
+  },
+  "3109": {
+    "Id": 3109,
+    "Name": "功法",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharSkill.pages.qing",
+    "Type": ["char"]
+  },
+  "3201": {
+    "Id": 3201,
+    "Name": "资质",
+    "Desc": "资质",
+    "Dir": "DlgMainChar.tabMeunChar.tabChar.getChildAt(2)",
+    "Parent": 0,
+    "Pos": [55, 20],
+    "Note": "角色-右侧资质"
+  },
+  "3202": {
+    "Id": 3202,
+    "Name": "气血",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(0)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'气血资质')"],
+    "Pos": [68, 10]
+  },
+  "3203": {
+    "Id": 3203,
+    "Name": "外攻",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(1)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'外攻资质')"],
+    "Pos": [68, 10]
+  },
+  "3204": {
+    "Id": 3204,
+    "Name": "外防",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(2)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'外防资质')"],
+    "Pos": [68, 10]
+  },
+  "3205": {
+    "Id": 3205,
+    "Name": "内攻",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(3)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'内攻资质')"],
+    "Pos": [68, 10]
+  },
+  "3206": {
+    "Id": 3206,
+    "Name": "内防",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(4)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'内防资质')"],
+    "Pos": [68, 10]
+  },
+  "3207": {
+    "Id": 3207,
+    "Name": "内力",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(5)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'内力资质')"],
+    "Pos": [68, 10]
+  },
+  "3208": {
+    "Id": 3208,
+    "Name": "速度",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(6)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'速度资质')"],
+    "Pos": [68, 10]
+  },
+  "3209": {
+    "Id": 3209,
+    "Name": "治疗",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.tab.getChildAt(7)",
+    "Type": ["char"],
+    "Parent": 3201,
+    "Func": ["RD_HaveZizhiDrug(p,'治疗资质')"],
+    "Pos": [68, 10]
+  },
+  "3210": {
+    "Id": 3210,
+    "Name": "‘服用’按钮",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.pnlCharZizhi.page.PnlZizhiDesc.redDot",
+    "Type": ["char"]
+  },
+  "3301": {
+    "Id": 3301,
+    "Name": "加点",
+    "Desc": "客户端红点",
+    "Dir": "DlgMainChar.tabMeunChar.tabChar.getChildAt(3)",
+    "Type": ["char"]
+  },
+  "3401": {
+    "Id": 3401,
+    "Name": "背包入口",
+    "Desc": "客户端红点",
+    "Dir": "DlgMain.mainMenu.btnBagMain",
+    "Type": ["item"]
+  },
+  "3402": {
+    "Id": 3402,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(0)",
+    "Type": ["item"]
+  },
+  "3403": {
+    "Id": 3403,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(1)",
+    "Type": ["item"]
+  },
+  "3404": {
+    "Id": 3404,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(2)",
+    "Type": ["item"]
+  },
+  "3405": {
+    "Id": 3405,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(3)",
+    "Type": ["item"]
+  },
+  "3406": {
+    "Id": 3406,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(4)",
+    "Type": ["item"]
+  },
+  "3407": {
+    "Id": 3407,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(5)",
+    "Type": ["item"]
+  },
+  "3408": {
+    "Id": 3408,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(6)",
+    "Type": ["item"]
+  },
+  "3409": {
+    "Id": 3409,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.tab.getChildAt(7)",
+    "Type": ["item"]
+  },
+  "3410": {
+    "Id": 3410,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.normal.list",
+    "Type": ["item"]
+  },
+  "3411": {
+    "Id": 3411,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.equip.list",
+    "Type": ["item"]
+  },
+  "3412": {
+    "Id": 3412,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.task.list",
+    "Type": ["item"]
+  },
+  "3413": {
+    "Id": 3413,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.drug.list",
+    "Type": ["item"]
+  },
+  "3414": {
+    "Id": 3414,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.antique.list",
+    "Type": ["item"]
+  },
+  "3415": {
+    "Id": 3415,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.book.list",
+    "Type": ["item"]
+  },
+  "3416": {
+    "Id": 3416,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.material.list",
+    "Type": ["item"]
+  },
+  "3417": {
+    "Id": 3417,
+    "Name": "背包-新道具",
+    "Desc": "客户端红点",
+    "Dir": "DlgBag.pnlBag.pnl_item.pnlPages.food.list",
+    "Type": ["item"]
+  }
+}

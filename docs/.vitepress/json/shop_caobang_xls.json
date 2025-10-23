@@ -1,0 +1,110 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 210150,
+    "Name": "龙泉剑",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "武器店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 270150,
+    "Name": "白玉琴",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "武器店"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 280150,
+    "Name": "金丝掌套",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "武器店"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 290150,
+    "Name": "百胜刀",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 4,
+    "Tag": "武器店"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 300150,
+    "Name": "狼牙棒",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 5,
+    "Tag": "武器店"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 310150,
+    "Name": "曾伏虎",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 6,
+    "Tag": "武器店"
+  },
+  "7": {
+    "Id": 7,
+    "ItemId": 52011,
+    "Name": "鲫鱼",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 100,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "鱼摊"
+  },
+  "8": {
+    "Id": 8,
+    "ItemId": 52013,
+    "Name": "鲤鱼",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 200,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "鱼摊"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 52012,
+    "Name": "草鱼",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 300,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "鱼摊"
+  }
+}

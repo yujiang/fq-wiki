@@ -1,0 +1,19 @@
+{
+  "1": {"Id": 1, "Name": "小梳子", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "2": {"Id": 2, "Name": "破戒僧", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "3": {"Id": 3, "Name": "云中阁主", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "4": {"Id": 4, "Name": "萨二娘", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "5": {"Id": 5, "Name": "胡秋侠", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "6": {"Id": 6, "Name": "傀戏人", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "7": {"Id": 7, "Name": "吕轻侯", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "8": {"Id": 8, "Name": "暮成雪", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "9": {"Id": 9, "Name": "持戒", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "10": {"Id": 10, "Name": "祁衍", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "11": {"Id": 11, "Name": "岑小婉", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "12": {"Id": 12, "Name": "雷雳", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "13": {"Id": 13, "Name": "狄去邪", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "14": {"Id": 14, "Name": "南姗", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "15": {"Id": 15, "Name": "唐七", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "16": {"Id": 16, "Name": "巩霄", "FriendMax": 7200, "biography": [1, 2, 3]},
+  "17": {"Id": 17, "Name": "阿紫", "FriendMax": 7200, "biography": [1, 2, 3]}
+}

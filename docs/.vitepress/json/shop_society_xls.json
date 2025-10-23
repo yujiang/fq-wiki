@@ -1,0 +1,812 @@
+{
+  "211201": {
+    "Id": 211201,
+    "Name": "咏春拳",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211202": {
+    "Id": 211202,
+    "Name": "铁砂掌",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211203": {
+    "Id": 211203,
+    "Name": "白猿通背拳",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211204": {
+    "Id": 211204,
+    "Name": "鹰爪功",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211205": {
+    "Id": 211205,
+    "Name": "天马流星拳",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211206": {
+    "Id": 211206,
+    "Name": "天都光明拳",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211207": {
+    "Id": 211207,
+    "Name": "千蛛万毒手",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211208": {
+    "Id": 211208,
+    "Name": "五指封山咒",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211209": {
+    "Id": 211209,
+    "Name": "左右方圆功",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211301": {
+    "Id": 211301,
+    "Name": "铁膝功",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211302": {
+    "Id": 211302,
+    "Name": "二段踢",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211303": {
+    "Id": 211303,
+    "Name": "旋风腿",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211304": {
+    "Id": 211304,
+    "Name": "兔蹬鹰",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211305": {
+    "Id": 211305,
+    "Name": "疾电侧踢",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211306": {
+    "Id": 211306,
+    "Name": "秋风落叶扫",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211307": {
+    "Id": 211307,
+    "Name": "电光毒蛇钻",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211308": {
+    "Id": 211308,
+    "Name": "风神腿",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211309": {
+    "Id": 211309,
+    "Name": "三霄金蛟剪",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211401": {
+    "Id": 211401,
+    "Name": "截脉指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211402": {
+    "Id": 211402,
+    "Name": "三山止血指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211403": {
+    "Id": 211403,
+    "Name": "破妄指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211404": {
+    "Id": 211404,
+    "Name": "千年杀指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211405": {
+    "Id": 211405,
+    "Name": "仙人指路",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211406": {
+    "Id": 211406,
+    "Name": "观音指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211407": {
+    "Id": 211407,
+    "Name": "弹指神通",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211408": {
+    "Id": 211408,
+    "Name": "一阳指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211409": {
+    "Id": 211409,
+    "Name": "六脉神剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211501": {
+    "Id": 211501,
+    "Name": "瓦釜雷鸣",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211502": {
+    "Id": 211502,
+    "Name": "秦风无衣",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211503": {
+    "Id": 211503,
+    "Name": "阳关三叠",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211504": {
+    "Id": 211504,
+    "Name": "龟寿镇灵曲",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211505": {
+    "Id": 211505,
+    "Name": "秦王破阵乐",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211506": {
+    "Id": 211506,
+    "Name": "高山流水",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211507": {
+    "Id": 211507,
+    "Name": "刹那芳华谱",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211508": {
+    "Id": 211508,
+    "Name": "碧海潮生曲",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211509": {
+    "Id": 211509,
+    "Name": "广陵散",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211601": {
+    "Id": 211601,
+    "Name": "一字剑斩",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 19
+  },
+  "211602": {
+    "Id": 211602,
+    "Name": "斩蛇剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 20
+  },
+  "211603": {
+    "Id": 211603,
+    "Name": "灵狐剑诀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 21
+  },
+  "211604": {
+    "Id": 211604,
+    "Name": "菩提慧剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 22
+  },
+  "211605": {
+    "Id": 211605,
+    "Name": "云豹剑袭",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 23
+  },
+  "211606": {
+    "Id": 211606,
+    "Name": "如意心剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 24
+  },
+  "211607": {
+    "Id": 211607,
+    "Name": "独孤九剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 25
+  },
+  "211608": {
+    "Id": 211608,
+    "Name": "朱雀翔天剑舞",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 26
+  },
+  "211609": {
+    "Id": 211609,
+    "Name": "万剑归宗",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 27
+  },
+  "211701": {
+    "Id": 211701,
+    "Name": "开山刀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211702": {
+    "Id": 211702,
+    "Name": "十字蝶斩",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211703": {
+    "Id": 211703,
+    "Name": "剔骨断筋刀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211704": {
+    "Id": 211704,
+    "Name": "炎焚断魂斩",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211705": {
+    "Id": 211705,
+    "Name": "熊虎霸王刀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211706": {
+    "Id": 211706,
+    "Name": "大夏龙雀刀法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211707": {
+    "Id": 211707,
+    "Name": "割鹿刀法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211708": {
+    "Id": 211708,
+    "Name": "青龙偃月刀术",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211709": {
+    "Id": 211709,
+    "Name": "太阴虚空刀法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211801": {
+    "Id": 211801,
+    "Name": "烈火棍",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211802": {
+    "Id": 211802,
+    "Name": "齐眉棍法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211803": {
+    "Id": 211803,
+    "Name": "泼水杖法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211804": {
+    "Id": 211804,
+    "Name": "熊王镇山棍",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211805": {
+    "Id": 211805,
+    "Name": "追风棍法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211806": {
+    "Id": 211806,
+    "Name": "定风波棍法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211807": {
+    "Id": 211807,
+    "Name": "大文殊杖法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211808": {
+    "Id": 211808,
+    "Name": "连山出云棍诀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211809": {
+    "Id": 211809,
+    "Name": "玄武司命棍经",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "211901": {
+    "Id": 211901,
+    "Name": "刺枪术",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "211902": {
+    "Id": 211902,
+    "Name": "回马枪",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "211903": {
+    "Id": 211903,
+    "Name": "梨花枪法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "211904": {
+    "Id": 211904,
+    "Name": "白马银枪术",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "211905": {
+    "Id": 211905,
+    "Name": "燎原百击枪",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "211906": {
+    "Id": 211906,
+    "Name": "岳家枪法",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "211907": {
+    "Id": 211907,
+    "Name": "极电星陨枪",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "211908": {
+    "Id": 211908,
+    "Name": "夺命追魂枪",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "211909": {
+    "Id": 211909,
+    "Name": "白虎庚金枪诀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  },
+  "212001": {
+    "Id": 212001,
+    "Name": "金钱镖",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 10,
+    "Needs": {"Level": 0},
+    "Sort": 28
+  },
+  "212002": {
+    "Id": 212002,
+    "Name": "袖箭",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 20,
+    "Needs": {"Level": 10},
+    "Sort": 29
+  },
+  "212003": {
+    "Id": 212003,
+    "Name": "飞蝗石",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 40,
+    "Needs": {"Level": 20},
+    "Sort": 30
+  },
+  "212004": {
+    "Id": 212004,
+    "Name": "枣核钉",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 80,
+    "Needs": {"Level": 30},
+    "Sort": 31
+  },
+  "212005": {
+    "Id": 212005,
+    "Name": "玉蜂针",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 160,
+    "Needs": {"Level": 40},
+    "Sort": 32
+  },
+  "212006": {
+    "Id": 212006,
+    "Name": "冰魄银针",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 320,
+    "Needs": {"Level": 50},
+    "Sort": 33
+  },
+  "212007": {
+    "Id": 212007,
+    "Name": "金刚镯",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 640,
+    "Needs": {"Level": 60},
+    "Sort": 34
+  },
+  "212008": {
+    "Id": 212008,
+    "Name": "生死符",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 1280,
+    "Needs": {"Level": 70},
+    "Sort": 35
+  },
+  "212009": {
+    "Id": 212009,
+    "Name": "封神榜",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 2560,
+    "Needs": {"Level": 80},
+    "Sort": 36
+  }
+}

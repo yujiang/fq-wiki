@@ -1,0 +1,6 @@
+{
+  "wisdom": {"Id": "wisdom", "Value": 0, "Icon": 200004, "Desc": "谋"},
+  "brave": {"Id": "brave", "Value": 0, "Icon": 200004, "Desc": "勇"},
+  "justice": {"Id": "justice", "Value": 0, "Icon": 200004, "Desc": "正"},
+  "evil": {"Id": "evil", "Value": 0, "Icon": 200004, "Desc": "邪"}
+}

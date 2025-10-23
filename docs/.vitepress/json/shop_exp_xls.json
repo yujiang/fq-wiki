@@ -1,0 +1,46 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 10001,
+    "Name": "元宝卡",
+    "RestrType": 2,
+    "Count": 5,
+    "MoneyType": 3,
+    "Price": 100000,
+    "Needs": {"Level": 50},
+    "Sort": 1
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 10002,
+    "Name": "银两卡",
+    "RestrType": 2,
+    "Count": 30,
+    "MoneyType": 3,
+    "Price": 100000,
+    "Needs": {"Level": 50},
+    "Sort": 2
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 10004,
+    "Name": "阅历卡",
+    "RestrType": 2,
+    "Count": 30,
+    "MoneyType": 3,
+    "Price": 100000,
+    "Needs": {"Level": 50},
+    "Sort": 3
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 10012,
+    "Name": "普通装备盒",
+    "RestrType": 2,
+    "Count": 50,
+    "MoneyType": 3,
+    "Price": 150000,
+    "Needs": {"Level": 50},
+    "Sort": 4
+  }
+}

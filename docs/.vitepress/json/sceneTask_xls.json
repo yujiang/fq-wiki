@@ -1,0 +1,40 @@
+{
+  "1": {"Id": 1, "Scenes": 1112, "Enter": {"task": 6000}},
+  "2": {"Id": 2, "Scenes": 1113, "Enter": {}, "Leave": {"task": 6000}},
+  "3": {
+    "Id": 3,
+    "Scenes": [1115, 1116],
+    "Enter": {"task": 6001},
+    "Leave": {"task": 6001}
+  },
+  "4": {
+    "Id": 4,
+    "Scenes": [2048, 2049],
+    "Enter": {},
+    "Leave": {"task": 1007010}
+  },
+  "5": {
+    "Id": 5,
+    "Scenes": 1234,
+    "Enter": {"buff": 50000},
+    "Leave": {"buff": 50000}
+  },
+  "6": {
+    "Id": 6,
+    "Scenes": 1235,
+    "Enter": {"group": 1000},
+    "Leave": {"group": 0}
+  },
+  "7": {
+    "Id": 7,
+    "Scenes": [3023, 3026],
+    "Enter": {},
+    "Leave": {"task": 3026001}
+  },
+  "8": {
+    "Id": 8,
+    "Scenes": [4232, 4234],
+    "Enter": {"task": 200100501},
+    "Leave": {"task": 200100501}
+  }
+}

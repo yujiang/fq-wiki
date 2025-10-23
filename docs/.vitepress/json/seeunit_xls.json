@@ -1,0 +1,4246 @@
+{
+  "10": {
+    "Id": 10,
+    "Name": "老虎",
+    "Passive": 1,
+    "Battle": 10000,
+    "InSignSay": "hi guy!",
+    "CatchSay": "catch you baby!",
+    "UnCatchSay": "run fast!",
+    "AttackedSay": "you get",
+    "AttackSay": "you die!",
+    "ReturnSay": "i will back",
+    "WinSay": "you lost ",
+    "LostSay": "you win",
+    "FollowLen": 1000,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1123": {
+    "Id": 1123,
+    "Name": "捉迷藏的小孩",
+    "Battle": 600301,
+    "InSignSay": "hi guy!",
+    "CatchSay": "catch you baby!",
+    "UnCatchSay": "run fast!",
+    "AttackedSay": "you get",
+    "AttackSay": "you die!",
+    "ReturnSay": "i will back",
+    "WinSay": "you lost ",
+    "LostSay": "you win",
+    "FollowLen": 1000,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1130": {
+    "Id": 1130,
+    "Name": "小桥测试npc",
+    "Battle": 600301,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1131": {
+    "Id": 1131,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1132": {
+    "Id": 1132,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1133": {
+    "Id": 1133,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1134": {
+    "Id": 1134,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1135": {
+    "Id": 1135,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run2042",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1136": {
+    "Id": 1136,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run2042",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1137": {
+    "Id": 1137,
+    "Name": "藏剑弟子",
+    "WarDrama": "main/run",
+    "InSignSay": "叛徒！还敢回来！",
+    "CatchSay": "叛徒哪里逃！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1138": {
+    "Id": 1138,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1139": {
+    "Id": 1139,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1140": {
+    "Id": 1140,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1141": {
+    "Id": 1141,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1142": {
+    "Id": 1142,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1143": {
+    "Id": 1143,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1144": {
+    "Id": 1144,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1145": {
+    "Id": 1145,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1146": {
+    "Id": 1146,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1147": {
+    "Id": 1147,
+    "Name": "修罗BOSS",
+    "WarDrama": "main/run",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1148": {
+    "Id": 1148,
+    "Name": "漕帮水匪",
+    "Battle": 1007010011,
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1149": {
+    "Id": 1149,
+    "Name": "漕帮水匪",
+    "Battle": 1007010011,
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1150": {
+    "Id": 1150,
+    "Name": "漕帮水匪",
+    "Battle": 1007010011,
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1151": {
+    "Id": 1151,
+    "Name": "漕帮水匪",
+    "Battle": 1007010011,
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1152": {
+    "Id": 1152,
+    "Name": "漕帮水匪",
+    "Battle": 1007010011,
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1153": {
+    "Id": 1153,
+    "Name": "漕帮BOSS",
+    "InSignSay": "！",
+    "CatchSay": "嘿嘿！逮到你了",
+    "UnCatchSay": "？",
+    "AttackSay": "死",
+    "ReturnSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1154": {
+    "Id": 1154,
+    "Name": "血刀门弟子",
+    "Battle": 600303,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1155": {
+    "Id": 1155,
+    "Name": "血刀门弟子",
+    "Battle": 600303,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1156": {
+    "Id": 1156,
+    "Name": "巨螯森蝎",
+    "Battle": 600305,
+    "InSignSay": "嘁！！",
+    "CatchSay": "嘁嘁！",
+    "UnCatchSay": "嘁——",
+    "AttackedSay": "嘁！！！",
+    "ReturnSay": "嘁嘁嘁——",
+    "WinSay": "嘁，嘁嘁——",
+    "LostSay": "嘁嘁——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1236": {
+    "Id": 1236,
+    "Name": "拦路狗",
+    "Battle": 600201,
+    "InSignSay": "汪！汪！",
+    "CatchSay": "呜～汪！",
+    "UnCatchSay": "呜？",
+    "AttackedSay": "嗷～嗷～",
+    "AttackSay": "汪！汪！",
+    "ReturnSay": "汪！",
+    "WinSay": "汪！汪！",
+    "LostSay": "嗷～嗷～",
+    "FollowLen": 1000,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1242": {
+    "Id": 1242,
+    "Name": "天狼子",
+    "Battle": 600302,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1243": {
+    "Id": 1243,
+    "Name": "出云子",
+    "Battle": 600301,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1265": {
+    "Id": 1265,
+    "Name": "金兵丁",
+    "Battle": 1501010,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "4234": {
+    "Id": 4234,
+    "Name": "巨鲸寨精英",
+    "Battle": 10010303,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 1000,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10001": {
+    "Id": 10001,
+    "Name": "测试1",
+    "Battle": 10106,
+    "InSignSay": "？",
+    "CatchSay": "？",
+    "UnCatchSay": "？",
+    "AttackedSay": "?",
+    "AttackSay": "?",
+    "ReturnSay": "?",
+    "WinSay": "?",
+    "LostSay": "?",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10002": {
+    "Id": 10002,
+    "Name": "测试2",
+    "Battle": 10107,
+    "InSignSay": "？",
+    "CatchSay": "？",
+    "UnCatchSay": "？",
+    "AttackedSay": "?",
+    "AttackSay": "?",
+    "ReturnSay": "?",
+    "WinSay": "?",
+    "LostSay": "?",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10004": {
+    "Id": 10004,
+    "Name": "老虎",
+    "Passive": 1,
+    "Battle": 110004,
+    "UnCatchSay": "？",
+    "AttackedSay": "！",
+    "AttackedDrama": "main/zhandou"
+  },
+  "10006": {
+    "Id": 10006,
+    "Name": "野狼",
+    "Passive": 1,
+    "AttackWin": 1,
+    "AttackedDrama": "main/touxi"
+  },
+  "10010": {
+    "Id": 10010,
+    "Name": "蛇",
+    "Passive": 1,
+    "Battle": 110010,
+    "UnCatchSay": "？",
+    "AttackedSay": "！",
+    "AttackedDrama": "main/zhandou"
+  },
+  "10011": {
+    "Id": 10011,
+    "Name": "犀牛",
+    "Passive": 1,
+    "Battle": 110011,
+    "UnCatchSay": "？",
+    "AttackedSay": "！",
+    "AttackedDrama": "main/zhandou"
+  },
+  "10013": {
+    "Id": 10013,
+    "Name": "熊",
+    "Passive": 1,
+    "Battle": 110013,
+    "UnCatchSay": "？",
+    "AttackedSay": "！",
+    "AttackedDrama": "main/zhandou"
+  },
+  "10014": {
+    "Id": 10014,
+    "Name": "野猪",
+    "Passive": 1,
+    "Battle": 110014,
+    "UnCatchSay": "？",
+    "AttackedSay": "！",
+    "AttackedDrama": "main/zhandou"
+  },
+  "10041": {
+    "Id": 10041,
+    "Name": "毒蛇",
+    "Battle": 10011,
+    "CondBattle": {
+      "10020": 10010
+    },
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10042": {
+    "Id": 10042,
+    "Name": "巨鲸帮巡逻战甲乙",
+    "Battle": 10014,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10043": {
+    "Id": 10043,
+    "Name": "巨鲸帮巡逻战AC",
+    "Battle": 10015,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10044": {
+    "Id": 10044,
+    "Name": "巨鲸帮巡逻战乙B",
+    "Battle": 10016,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10045": {
+    "Id": 10045,
+    "Name": "巨鲸帮巡逻战精英",
+    "Battle": 10017,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10046": {
+    "Id": 10046,
+    "Name": "青玉堂弟子",
+    "Battle": 10020,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10047": {
+    "Id": 10047,
+    "Name": "青玉堂弟子",
+    "Battle": 10021,
+    "CondBattle": "有敌人！！",
+    "InSignSay": "嘿嘿！抓到你了！",
+    "CatchSay": "哼！跑得还真快！",
+    "UnCatchSay": "无耻，偷袭本大爷!",
+    "AttackedSay": "去死吧！",
+    "AttackSay": "算了，回去了",
+    "ReturnSay": "我还没出力你怎么就倒下了~",
+    "WinSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10080": {
+    "Id": 10080,
+    "Name": "野猪",
+    "Passive": 1,
+    "Battle": 10021,
+    "InSignSay": "哦咿！哦咿！",
+    "CatchSay": "咿——哦咿！",
+    "AttackedSay": "哦——咿！",
+    "AttackSay": "哦——咿！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20001": {
+    "Id": 20001,
+    "Name": "巨鲸帮巡逻战甲乙",
+    "Battle": 20001,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20002": {
+    "Id": 20002,
+    "Name": "巨鲸帮巡逻战AC",
+    "Battle": 20002,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20003": {
+    "Id": 20003,
+    "Name": "巨鲸帮巡逻战乙B",
+    "Battle": 20003,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20004": {
+    "Id": 20004,
+    "Name": "巨鲸帮巡逻战精英",
+    "Battle": 20004,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20012": {
+    "Id": 20012,
+    "Name": "毒蛇",
+    "Battle": 20005,
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20018": {
+    "Id": 20018,
+    "Name": "巨鲸寨精英",
+    "Battle": 20020,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20019": {
+    "Id": 20019,
+    "Name": "巨鲸寨精英",
+    "Battle": 20022,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20020": {
+    "Id": 20020,
+    "Name": "巨鲸寨精英",
+    "Battle": 20022,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20021": {
+    "Id": 20021,
+    "Name": "巨鲸寨精英",
+    "Battle": 20020,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20034": {
+    "Id": 20034,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20017,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20035": {
+    "Id": 20035,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20018,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20036": {
+    "Id": 20036,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20019,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20037": {
+    "Id": 20037,
+    "Name": "巨鲸寨精英",
+    "Battle": 20022,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20038": {
+    "Id": 20038,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20010,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20039": {
+    "Id": 20039,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20011,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20040": {
+    "Id": 20040,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20012,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20042": {
+    "Id": 20042,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20014,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20043": {
+    "Id": 20043,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20015,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20044": {
+    "Id": 20044,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20016,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20045": {
+    "Id": 20045,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20017,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20046": {
+    "Id": 20046,
+    "Name": "巨鲸寨精英",
+    "Battle": 20021,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20047": {
+    "Id": 20047,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20019,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20048": {
+    "Id": 20048,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20015,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20049": {
+    "Id": 20049,
+    "Name": "巨鲸寨精英",
+    "Battle": 20020,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20050": {
+    "Id": 20050,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20017,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20051": {
+    "Id": 20051,
+    "Name": "巨鲸寨精英",
+    "Battle": 20022,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20052": {
+    "Id": 20052,
+    "Name": "巨鲸寨精英",
+    "Battle": 20020,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20053": {
+    "Id": 20053,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20015,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20054": {
+    "Id": 20054,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20010,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20055": {
+    "Id": 20055,
+    "Name": "巨鲸寨精英",
+    "Battle": 20020,
+    "InSignSay": "哪来的毛头小子？",
+    "CatchSay": "留步！",
+    "UnCatchSay": "明智的撤退。",
+    "AttackedSay": "不好！",
+    "AttackSay": "吃我一刀。",
+    "ReturnSay": "穷寇不追。",
+    "WinSay": "年少气盛，可惜。",
+    "LostSay": "我有愧大当家。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20056": {
+    "Id": 20056,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20012,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "20057": {
+    "Id": 20057,
+    "Name": "巨鲸寨喽啰",
+    "Battle": 20013,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "大侠饶命啊——",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30011": {
+    "Id": 30011,
+    "Name": "测试羊",
+    "Passive": 1,
+    "Runaway": 300,
+    "AttackWin": 1,
+    "AttackedDrama": "main/touxi"
+  },
+  "30014": {
+    "Id": 30014,
+    "Name": "测试老虎",
+    "Passive": 1,
+    "Battle": 110004,
+    "AttackedDrama": "main/touxi"
+  },
+  "41801": {
+    "Id": 41801,
+    "Name": "青玉堂弟子",
+    "AttackWin": 2,
+    "Battle": 2002003021,
+    "SayCatched": 417000,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "杀!",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41802": {
+    "Id": 41802,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003021,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41803": {
+    "Id": 41803,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003021,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41804": {
+    "Id": 41804,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003021,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41805": {
+    "Id": 41805,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003021,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41806": {
+    "Id": 41806,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003022,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "41807": {
+    "Id": 41807,
+    "Name": "青玉堂弟子",
+    "Battle": 2002003023,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯青玉堂？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "43405": {
+    "Id": 43405,
+    "Name": "二龙山响马",
+    "Battle": 3034003,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "43406": {
+    "Id": 43406,
+    "Name": "二龙山响马",
+    "Battle": 3034003,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "43407": {
+    "Id": 43407,
+    "Name": "二龙山响马",
+    "Battle": 3034003,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50000": {
+    "Id": 50000,
+    "Name": "主线-灵隐寺-潜行",
+    "AttackWin": 3,
+    "SayCatched": 59220,
+    "InSignSay": "哪来的臭小子！"
+  },
+  "50041": {
+    "Id": 50041,
+    "Name": "毒蛇",
+    "Battle": 10011,
+    "CondBattle": {
+      "10020": 10010
+    },
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "103001": {
+    "Id": 103001,
+    "Name": "毒蛇",
+    "Battle": 10010332,
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "130001": {
+    "Id": 130001,
+    "Name": "野狼",
+    "Battle": 137803,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "150001": {
+    "Id": 150001,
+    "Name": "50秦岭匪徒",
+    "Passive": 1,
+    "Battle": 150001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "210000": {
+    "Id": 210000,
+    "Name": "霜刀寻义-讨贼",
+    "Passive": 1,
+    "Battle": 210012,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "300042": {
+    "Id": 300042,
+    "Name": "巨鲸帮喽喽",
+    "Battle": 300014,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300043": {
+    "Id": 300043,
+    "Name": "巨鲸帮喽喽",
+    "Battle": 300015,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300044": {
+    "Id": 300044,
+    "Name": "巨鲸帮喽喽",
+    "Battle": 300016,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300045": {
+    "Id": 300045,
+    "Name": "巨鲸帮喽喽",
+    "Battle": 300017,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300046": {
+    "Id": 300046,
+    "Name": "青玉堂弟子",
+    "Battle": 300020,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300047": {
+    "Id": 300047,
+    "Name": "青玉堂弟子",
+    "Battle": 300021,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "300100": {
+    "Id": 300100,
+    "Name": "北国影军",
+    "InSignSay": "！",
+    "CatchSay": "这里是不你该来的地方！",
+    "UnCatchSay": "？",
+    "AttackedSay": "敌袭！",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "309101": {
+    "Id": 309101,
+    "Name": "蝎子",
+    "Battle": 309101,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "310001": {
+    "Id": 310001,
+    "Name": "山贼",
+    "Passive": 1,
+    "Battle": 310001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "330001": {
+    "Id": 330001,
+    "Name": "山贼",
+    "Passive": 1,
+    "Battle": 330001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "340001": {
+    "Id": 340001,
+    "Name": "北国斥候",
+    "Passive": 1,
+    "Battle": 340001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "350001": {
+    "Id": 350001,
+    "Name": "30长江水寇",
+    "Passive": 1,
+    "Battle": 350001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "350002": {
+    "Id": 350002,
+    "Name": "翩若惊鸿-护院潜行被抓",
+    "AttackWin": 2,
+    "SayCatched": 352175
+  },
+  "350003": {
+    "Id": 350003,
+    "Name": "翩若惊鸿-守卫潜行被抓",
+    "AttackWin": 2,
+    "SayCatched": 352195
+  },
+  "360001": {
+    "Id": 360001,
+    "Name": "30衡山山贼",
+    "Passive": 1,
+    "Battle": 360001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "BossDrama": "npc/insign",
+    "InSignAction": "npc/outsign",
+    "OutSignAction": "npc/touxi",
+    "AttackDrama": "main/zhandou"
+  },
+  "400002": {
+    "Id": 400002,
+    "Name": "长乐帮众乙",
+    "Passive": 1,
+    "Battle": 400002,
+    "CatchSpeed": 600,
+    "CatchDis": 400,
+    "BossDrama": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "400021": {
+    "Id": 400021,
+    "Name": "山贼",
+    "Passive": 1,
+    "Battle": 400021,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "410021": {
+    "Id": 410021,
+    "Name": "山贼",
+    "Passive": 1,
+    "Battle": 410021,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "411801": {
+    "Id": 411801,
+    "Name": "青玉堂帮众",
+    "AttackWin": 2,
+    "SayCatched": 417000
+  },
+  "530450": {
+    "Id": 530450,
+    "Name": "家丁",
+    "Battle": 530450,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 0,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "BossDrama": "npc/insign1"
+  },
+  "530460": {
+    "Id": 530460,
+    "Name": "守卫",
+    "Passive": 1,
+    "Battle": 530460
+  },
+  "530470": {
+    "Id": 530470,
+    "Name": "守卫",
+    "Passive": 1,
+    "Battle": 530470
+  },
+  "530480": {
+    "Id": 530480,
+    "Name": "守卫",
+    "Passive": 1,
+    "Battle": 530480
+  },
+  "530490": {
+    "Id": 530490,
+    "Name": "守卫",
+    "Passive": 1,
+    "Battle": 530490
+  },
+  "530500": {
+    "Id": 530500,
+    "Name": "守卫",
+    "AttackWin": 2,
+    "Battle": 530500,
+    "CatchSpeed": -1,
+    "WarDrama": "530000/find"
+  },
+  "530510": {
+    "Id": 530510,
+    "Name": "家丁",
+    "AttackWin": 2,
+    "Battle": 530510,
+    "CatchSpeed": -1,
+    "WarDrama": "530000/find"
+  },
+  "964001": {
+    "Id": 964001,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964002": {
+    "Id": 964002,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964003": {
+    "Id": 964003,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964004": {
+    "Id": 964004,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964007": {
+    "Id": 964007,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964009": {
+    "Id": 964009,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964010": {
+    "Id": 964010,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "964011": {
+    "Id": 964011,
+    "Name": "蝎子",
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1001030": {
+    "Id": 1001030,
+    "Name": "巨鲸帮巡逻战甲乙",
+    "Battle": 1001030,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1001031": {
+    "Id": 1001031,
+    "Name": "鲸追",
+    "Battle": 1001031,
+    "InSignSay": "谁在那！！",
+    "CatchSay": "嘿嘿！还想跑！",
+    "UnCatchSay": "哎？跑到哪去了？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "自不量力！",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "你算老几啊就在我的地盘上乱跑！",
+    "LostSay": "情况不对！快溜！",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1001033": {
+    "Id": 1001033,
+    "Name": "毒蛇",
+    "Battle": 1001033,
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1001053": {
+    "Id": 1001053,
+    "Name": "千叠岗北朝士兵",
+    "Battle": 1403502,
+    "InSignSay": "有刺客！",
+    "CatchSay": "哪里逃！",
+    "UnCatchSay": "奇怪，跑到哪去了？",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "哼，不自量力！",
+    "LostSay": "啊～～～",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "1001054": {
+    "Id": 1001054,
+    "Name": "千叠岗北朝将士",
+    "Battle": 1403503,
+    "InSignSay": "有刺客！",
+    "CatchSay": "哪里逃！",
+    "UnCatchSay": "奇怪，跑到哪去了？",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "哼，不自量力！",
+    "LostSay": "啊～～～",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3000001": {
+    "Id": 3000001,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3000002": {
+    "Id": 3000002,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3000003": {
+    "Id": 3000003,
+    "Name": "木人巷大将",
+    "Battle": 3000005,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3000004": {
+    "Id": 3000004,
+    "Name": "木人巷镇守",
+    "Battle": 3000004,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001001": {
+    "Id": 3001001,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001002": {
+    "Id": 3001002,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001003": {
+    "Id": 3001003,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001004": {
+    "Id": 3001004,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001005": {
+    "Id": 3001005,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001006": {
+    "Id": 3001006,
+    "Name": "镇守木人",
+    "Battle": 3000001,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001007": {
+    "Id": 3001007,
+    "Name": "木人巷镇守",
+    "Battle": 3000004,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3001008": {
+    "Id": 3001008,
+    "Name": "木人巷大将",
+    "Battle": 3000003,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004001": {
+    "Id": 3004001,
+    "Name": "赤金蟾",
+    "Battle": 3004001,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004002": {
+    "Id": 3004002,
+    "Name": "寒水蛇",
+    "Battle": 3004002,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004003": {
+    "Id": 3004003,
+    "Name": "锦木花",
+    "Battle": 3004003,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004004": {
+    "Id": 3004004,
+    "Name": "烁炎蝎",
+    "Battle": 3004004,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004005": {
+    "Id": 3004005,
+    "Name": "裂地熊",
+    "Battle": 3004005,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3004006": {
+    "Id": 3004006,
+    "Name": "万毒谷守卫",
+    "Battle": 3004006,
+    "InSignSay": "有敌人！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3008001": {
+    "Id": 3008001,
+    "Name": "噬血剑",
+    "Battle": 3008001,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3008002": {
+    "Id": 3008002,
+    "Name": "血卫",
+    "Battle": 3008002,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3008003": {
+    "Id": 3008003,
+    "Name": "血",
+    "Battle": 3008003,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3010001": {
+    "Id": 3010001,
+    "Name": "长乐帮弟子",
+    "Battle": 3022008011,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3010002": {
+    "Id": 3010002,
+    "Name": "长乐帮弟子",
+    "Battle": 3022008011,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3010003": {
+    "Id": 3010003,
+    "Name": "长乐帮弟子",
+    "Battle": 3022008011,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3010004": {
+    "Id": 3010004,
+    "Name": "长乐帮弟子",
+    "Battle": 3022008011,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3037101": {
+    "Id": 3037101,
+    "Name": "宋兵",
+    "Battle": 305001,
+    "InSignSay": "北国奸细！",
+    "CatchSay": "抓到你了！奸细",
+    "UnCatchSay": "奸细哪里逃！",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038001": {
+    "Id": 3038001,
+    "Name": "金兵巡逻",
+    "WarDrama": "main/run",
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038002": {
+    "Id": 3038002,
+    "Name": "猎杀金兵失败",
+    "Battle": 30381006,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038003": {
+    "Id": 3038003,
+    "Name": "金兵密林",
+    "Battle": 30381005,
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038004": {
+    "Id": 3038004,
+    "Name": "金兵炮火",
+    "Battle": 30381007,
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038005": {
+    "Id": 3038005,
+    "Name": "金兵炮火",
+    "Battle": 30381008,
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038006": {
+    "Id": 3038006,
+    "Name": "金兵炮火",
+    "Battle": 30381009,
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038007": {
+    "Id": 3038007,
+    "Name": "先锋统领",
+    "Battle": 30381004,
+    "InSignSay": "此路不通！",
+    "CatchSay": "一刀就了解你！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3038008": {
+    "Id": 3038008,
+    "Name": "普通金兵",
+    "Battle": 30381001,
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？看错了么？",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3041001": {
+    "Id": 3041001,
+    "Name": "家丁",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "敢闯长乐帮？！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "FollowLen": 0,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign1",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3047001": {
+    "Id": 3047001,
+    "Name": "金兵",
+    "WarDrama": "main/run",
+    "InSignSay": "谁在那里？！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "嗯？人呢？看错了么？",
+    "AttackedSay": "敌袭！",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3049005": {
+    "Id": 3049005,
+    "Name": "北国影军",
+    "Battle": 3049005,
+    "InSignSay": "！",
+    "CatchSay": "这里是不你该来的地方！",
+    "UnCatchSay": "？",
+    "AttackedSay": "敌袭！",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "3051001": {
+    "Id": 3051001,
+    "Name": "宋兵巡逻",
+    "WarDrama": "main/run",
+    "InSignSay": "北国奸细！",
+    "CatchSay": "抓到你了！奸细",
+    "UnCatchSay": "奸细哪里逃！",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603001": {
+    "Id": 9603001,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603002": {
+    "Id": 9603002,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603003": {
+    "Id": 9603003,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603004": {
+    "Id": 9603004,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603005": {
+    "Id": 9603005,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603006": {
+    "Id": 9603006,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603007": {
+    "Id": 9603007,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603008": {
+    "Id": 9603008,
+    "Name": "修罗强盗",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603009": {
+    "Id": 9603009,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603010": {
+    "Id": 9603010,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603011": {
+    "Id": 9603011,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603012": {
+    "Id": 9603012,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603013": {
+    "Id": 9603013,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9603014": {
+    "Id": 9603014,
+    "Name": "修罗哨兵",
+    "WarDrama": "main/run9603",
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9614001": {
+    "Id": 9614001,
+    "Name": "石傀",
+    "WarDrama": "main/run9614",
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9614002": {
+    "Id": 9614002,
+    "Name": "神秘雪人",
+    "Battle": 961401,
+    "InSignSay": "！！！",
+    "CatchSay": "！！！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "？？？？",
+    "FollowLen": 600,
+    "CatchSpeed": 600,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9644001": {
+    "Id": 9644001,
+    "Name": "谢龙吟",
+    "Battle": 9644001,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9644002": {
+    "Id": 9644002,
+    "Name": "董南歌",
+    "Battle": 9644002,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9644003": {
+    "Id": 9644003,
+    "Name": "厉江风",
+    "Battle": 9644003,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "9644004": {
+    "Id": 9644004,
+    "Name": "青玉堂劫匪",
+    "Battle": 9644004,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10010301": {
+    "Id": 10010301,
+    "Name": "巨鲸帮巡逻战AC",
+    "Battle": 10010301,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10010302": {
+    "Id": 10010302,
+    "Name": "巨鲸帮巡逻战乙B",
+    "Battle": 10010302,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10010303": {
+    "Id": 10010303,
+    "Name": "巨鲸帮巡逻战精英",
+    "Battle": 10010303,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "嘿嘿！抓到你了！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "AttackSay": "去死吧！",
+    "ReturnSay": "算了，回去了",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "LostSay": "点子扎手！扯呼！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "10010332": {
+    "Id": 10010332,
+    "Name": "毒蛇",
+    "Battle": 10010332,
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "11004003": {
+    "Id": 11004003,
+    "Name": "风暴",
+    "Passive": 1,
+    "Battle": 1100403,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/11004003"
+  },
+  "11016001": {
+    "Id": 11016001,
+    "Name": "10巨鲸寨喽啰",
+    "Passive": 1,
+    "Battle": 1101601,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "11022001": {
+    "Id": 11022001,
+    "Name": "李淬",
+    "Passive": 1,
+    "Battle": 1102201,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/11022001"
+  },
+  "11029001": {
+    "Id": 11029001,
+    "Name": "30长江水寇",
+    "Passive": 1,
+    "Battle": 1102901,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "11031001": {
+    "Id": 11031001,
+    "Name": "55沙驼帮强盗",
+    "Passive": 1,
+    "Battle": 1103101,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "11032009": {
+    "Id": 11032009,
+    "Name": "50秦岭匪徒",
+    "Passive": 1,
+    "Battle": 1103209,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020001": {
+    "Id": 13020001,
+    "Name": "正北",
+    "Passive": 1,
+    "Battle": 13020001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020002": {
+    "Id": 13020002,
+    "Name": "东北",
+    "Passive": 1,
+    "Battle": 13020002,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020003": {
+    "Id": 13020003,
+    "Name": "正东",
+    "Passive": 1,
+    "Battle": 13020003,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020004": {
+    "Id": 13020004,
+    "Name": "西北",
+    "Passive": 1,
+    "Battle": 13020004,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020005": {
+    "Id": 13020005,
+    "Name": "东南",
+    "Passive": 1,
+    "Battle": 13020005,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020006": {
+    "Id": 13020006,
+    "Name": "正南",
+    "Passive": 1,
+    "Battle": 13020006,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020007": {
+    "Id": 13020007,
+    "Name": "西南",
+    "Passive": 1,
+    "Battle": 13020007,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13020008": {
+    "Id": 13020008,
+    "Name": "正西",
+    "Passive": 1,
+    "Battle": 13020008,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13038001": {
+    "Id": 13038001,
+    "Name": "40北国斥候",
+    "Passive": 1,
+    "Battle": 1303801,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13038002": {
+    "Id": 13038002,
+    "Name": "50北国士兵",
+    "Battle": 1303802,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13038003": {
+    "Id": 13038003,
+    "Name": "60北国小BOSS",
+    "Battle": 1303803,
+    "InSignSay": "有敌人！！",
+    "CatchSay": "擅闯者死！",
+    "UnCatchSay": "哼！跑得还真快！",
+    "AttackedSay": "无耻，偷袭本大爷!",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13060008": {
+    "Id": 13060008,
+    "Name": "45汴京山贼",
+    "Passive": 1,
+    "Battle": 1306008,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13067001": {
+    "Id": 13067001,
+    "Name": "20山贼",
+    "Passive": 1,
+    "Battle": 1306701,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou"
+  },
+  "13127001": {
+    "Id": 13127001,
+    "Name": "江断奔",
+    "Passive": 1,
+    "Battle": 1312701,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/13127001"
+  },
+  "13129001": {
+    "Id": 13129001,
+    "Name": "张昊",
+    "Passive": 1,
+    "Battle": 1312901,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/13129001"
+  },
+  "13130001": {
+    "Id": 13130001,
+    "Name": "阿骨打",
+    "Passive": 1,
+    "Battle": 1313001,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/13130001"
+  },
+  "13134001": {
+    "Id": 13134001,
+    "Name": "钟星",
+    "Passive": 1,
+    "Battle": 1313401,
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/13134001"
+  },
+  "30330051": {
+    "Id": 30330051,
+    "Name": "北国强盗",
+    "WarDrama": "main/run",
+    "InSignSay": "在这！",
+    "CatchSay": "抓到你了！",
+    "UnCatchSay": "？？？？",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 400,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30330052": {
+    "Id": 30330052,
+    "Name": "狼",
+    "Battle": 303300501,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30380011": {
+    "Id": 30380011,
+    "Name": "金兵巡逻",
+    "WarDrama": "main/run",
+    "InSignSay": "有奸细！",
+    "CatchSay": "抓到你了！奸细",
+    "UnCatchSay": "奸细哪里逃！",
+    "AttackedSay": "嗷～嗷～",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30470011": {
+    "Id": 30470011,
+    "Name": "毒蛇",
+    "Battle": 3047001,
+    "InSignSay": "嘶！！",
+    "CatchSay": "嘶、嘶——",
+    "AttackSay": "嘶嘶！",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30470012": {
+    "Id": 30470012,
+    "Name": "蟾蜍",
+    "Battle": 3047003,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30470013": {
+    "Id": 30470013,
+    "Name": "蝎子",
+    "Battle": 3047002,
+    "InSignSay": "！",
+    "UnCatchSay": "？",
+    "FollowLen": 600,
+    "CatchSpeed": 1000,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "30950001": {
+    "Id": 30950001,
+    "Name": "参赛者",
+    "Battle": 3095001,
+    "InSignSay": "牌子别跑！",
+    "CatchSay": "留下牌子！",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "牌子是我的了！",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101001": {
+    "Id": 50101001,
+    "Name": "采花贼1",
+    "Passive": 1,
+    "Battle": 5010101,
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢坏我好事？",
+    "OutSignAction": "npc/outsign",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101002": {
+    "Id": 50101002,
+    "Name": "盗贼1",
+    "Passive": 1,
+    "Battle": 5010102,
+    "CatchSay": "什么人？",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "InSignAction": "task/50101001",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101003": {
+    "Id": 50101003,
+    "Name": "劫匪1",
+    "Battle": 5010103,
+    "InSignSay": "打劫！！！",
+    "CatchSay": "留下吧你！",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101004": {
+    "Id": 50101004,
+    "Name": "采花贼2",
+    "Passive": 1,
+    "Battle": 5010104,
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢坏我好事？",
+    "OutSignAction": "npc/outsign",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101005": {
+    "Id": 50101005,
+    "Name": "盗贼2",
+    "Passive": 1,
+    "Battle": 5010105,
+    "CatchSay": "什么人？",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "InSignAction": "task/50101002",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50101006": {
+    "Id": 50101006,
+    "Name": "劫匪2",
+    "Battle": 5010106,
+    "InSignSay": "打劫！！！",
+    "CatchSay": "留下吧你！",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50109010": {
+    "Id": 50109010,
+    "Name": "青龙会会众",
+    "Battle": 5010903,
+    "InSignSay": "找死！",
+    "CatchSay": "留下吧你！",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  },
+  "50110005": {
+    "Id": 50110005,
+    "Name": "二龙山响马",
+    "Battle": 5011003,
+    "InSignSay": "找死！",
+    "CatchSay": "留下吧你！",
+    "UnCatchSay": "？",
+    "AttackedSay": "你敢惹我？",
+    "ReturnSay": "奇怪，怎么找不到了。",
+    "WinSay": "我还没出力你怎么就倒下了~",
+    "FollowLen": 600,
+    "CatchSpeed": 400,
+    "CatchDis": 80,
+    "InSignAction": "npc/insign",
+    "OutSignAction": "npc/outsign",
+    "AttackDrama": "npc/touxi",
+    "AttackedDrama": "main/zhandou",
+    "AttackStatus": [
+      220011
+    ]
+  }
+}

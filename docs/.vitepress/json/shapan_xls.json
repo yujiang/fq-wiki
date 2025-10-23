@@ -1,0 +1,38 @@
+{
+  "1": {
+    "Id": 1,
+    "LevelRange": [0, 99],
+    "PlayerScore": 10,
+    "EnemyScore": 12,
+    "UnitData": [202036, 202037, 202038],
+    "LostReward": 204104,
+    "WinReward": 204103
+  },
+  "2": {
+    "Id": 2,
+    "LevelRange": [100, 199],
+    "PlayerScore": 12,
+    "EnemyScore": 14,
+    "UnitData": [202036, 202037, 202038],
+    "LostReward": 204104,
+    "WinReward": 204103
+  },
+  "3": {
+    "Id": 3,
+    "LevelRange": [200, 299],
+    "PlayerScore": 14,
+    "EnemyScore": 16,
+    "UnitData": [202036, 202037, 202038],
+    "LostReward": 204104,
+    "WinReward": 204103
+  },
+  "4": {
+    "Id": 4,
+    "LevelRange": [300, 400],
+    "PlayerScore": 16,
+    "EnemyScore": 18,
+    "UnitData": [202036, 202037, 202038],
+    "LostReward": 204104,
+    "WinReward": 204103
+  }
+}

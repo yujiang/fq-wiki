@@ -1,0 +1,20 @@
+{
+  "1": {"Id": 1, "Name": "walk", "NameDisplay": "移动"},
+  "2": {"Id": 2, "Name": "jump", "NameDisplay": "跳跃"},
+  "3": {"Id": 3, "Name": "transport", "NameDisplay": "传送", "Desc": "主动使用道具传送"},
+  "4": {"Id": 4, "Name": "teleport", "NameDisplay": "传送", "Desc": "通过传送点被动传送"},
+  "5": {"Id": 5, "Name": "fight", "NameDisplay": "战斗"},
+  "6": {"Id": 6, "Name": "npcclick", "NameDisplay": "交互"},
+  "7": {"Id": 7, "Name": "collect", "NameDisplay": "采集"},
+  "8": {"Id": 8, "Name": "trade", "NameDisplay": "交易"},
+  "9": {"Id": 9, "Name": "sendpos", "NameDisplay": "发送位置消息"},
+  "10": {"Id": 10, "Name": "jumpplate", "NameDisplay": "平台", "Desc": "检查落入平台！"},
+  "11": {"Id": 11, "Name": "clickmap", "NameDisplay": "接受输入，比如走和跳"},
+  "12": {"Id": 12, "Name": "scaleMap", "NameDisplay": "缩放地图"},
+  "13": {"Id": 13, "Name": "act", "Desc": "主界面的act键"},
+  "14": {"Id": 14, "Name": "checkFall", "Desc": "检查是否落水"},
+  "15": {"Id": 15, "Name": "clicked", "Desc": "npc被click "},
+  "16": {"Id": 16, "Name": "zoom", "NameDisplay": "缩放屏幕"},
+  "17": {"Id": 17, "Name": "heal", "NameDisplay": "治疗"},
+  "18": {"Id": 18, "Name": "tips", "NameDisplay": "提示"}
+}

@@ -1,0 +1,15 @@
+{
+  "hunter": {
+    "Id": "hunter",
+    "Name": "打猎",
+    "MapScale": 1,
+    "HideLight": 1,
+    "HideFollow": 1,
+    "Status": 13,
+    "HideMain": 1,
+    "Joystick": 1,
+    "FixCamera": 1,
+    "HideNpcs": 1,
+    "HideItems": 1
+  }
+}

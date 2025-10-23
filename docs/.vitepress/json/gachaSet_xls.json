@@ -1,0 +1,22 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "卡池1",
+    "First": "南姗概率",
+    "Set": [
+      ["card1", "南姗概率"],
+      ["card11", "橙卡概率1"],
+      ["card12", "紫卡概率1"],
+      ["card13", 1]
+    ],
+    "CostTicket": [25, 1],
+    "CostMoney": [24, 160],
+    "Point": 1,
+    "Exchange": [180, 21000009, 30],
+    "MiniNum": 100,
+    "MainBg": "gacha_bg_2_jpg",
+    "SetBg": ["gacha_set_bg_normal2_png", "gacha_set_bg_selected2_png"],
+    "Desc": "御守人纲聚星火，慧见正邪亦蹉跎。\n青莲不染污泥处，除魔一念是成魔。",
+    "Detail": "每次招募可累积1点招募积分，使用180积分可兑换侠客及星命石。"
+  }
+}

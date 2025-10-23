@@ -1,0 +1,84 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "李勇学习射艺",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnBagMain"],
+      ["DlgBag", "pnlBag.pnlPages.tab.4"],
+      ["DlgBag", "pnlBag.pnlPages.book.70029"],
+      ["DlgBag", "pnlBag.pnlDesc.btnEquip"]
+    ]
+  },
+  "2": {
+    "Id": 2,
+    "Name": "胡秋侠学武功",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnBagMain"],
+      ["DlgBag", "pnlBag.pnlPages.tab.4"],
+      ["DlgBag", "pnlBag.pnlPages.book.160001|160002|160003|160004"],
+      ["DlgBag", "pnlBag.pnlDesc.listChars.0"],
+      ["DlgBag", "pnlBag.pnlDesc.btnEquip"],
+      ["DlgBag", "btnClose"]
+    ]
+  },
+  "3": {
+    "Id": 3,
+    "Name": "激活经脉引导",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnCharMain"],
+      ["DlgMainChar", "tabMeunChar.tabChar.2"],
+      ["DlgMainChar", "tabMeunChar.pnlCharChannel.btnActive0"]
+    ]
+  },
+  "4": {
+    "Id": 4,
+    "Name": "引导加点",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnCharMain"],
+      ["DlgMainChar", "tabMeunChar.tabChar.4"],
+      ["DlgMainChar", "tabMeunChar.pnlCharPoint.pnlSchame.item1.btnAdd"],
+      ["DlgMainChar", "tabMeunChar.pnlCharPoint.pnlSchame.btnMod"]
+    ]
+  },
+  "5": {
+    "Id": 5,
+    "Name": "引导打开装备界面",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnBagMain"],
+      ["DlgBag", "pnlBag.pnlPages.tab.1"],
+      ["DlgBag", "pnlBag.pnlPages.equip.290120|210120|320120|300120"],
+      ["DlgBag", "pnlBag.pnlDesc.btnEquip"]
+    ]
+  },
+  "6": {
+    "Id": 6,
+    "Name": "引导升级武功",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnCharMain"],
+      ["DlgMainChar", "tabMeunChar.tabChar.1"],
+      [
+        "DlgMainChar",
+        [
+          "tabMeunChar.pnlCharSkill.pnlUpgrade.pnlUp.btnOk",
+          "tabMeunChar.pnlCharSkill.pnlUpgrade.pnlBreak.btnOk",
+          "btnClose"
+        ]
+      ]
+    ]
+  },
+  "7": {
+    "Id": 7,
+    "Name": "引导战斗",
+    "clicks": [["WarUI", "groupChar.chars.0.gSkill.0"]]
+  },
+  "8": {
+    "Id": 8,
+    "Name": "引导上阵",
+    "clicks": [
+      ["DlgMain", "mainMenu.btnCharMain"],
+      ["DlgMainChar", "tabMeunChar.pnlCharInfo.btnForm"],
+      ["PnlFormation", "listChar.1"],
+      ["PnlFormation", "btnUpform"]
+    ]
+  }
+}

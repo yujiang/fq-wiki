@@ -1,0 +1,18 @@
+{
+  "393": {"id": 393, "rewardId": 200020, "loseRewardId": 200036},
+  "396": {"id": 396, "rewardId": 200021, "loseRewardId": 200036},
+  "399": {"id": 399, "rewardId": 200022, "loseRewardId": 200036},
+  "693": {"id": 693, "rewardId": 200024, "loseRewardId": 200037},
+  "696": {"id": 696, "rewardId": 200025, "loseRewardId": 200037},
+  "699": {"id": 699, "rewardId": 200026, "loseRewardId": 200037},
+  "893": {"id": 893, "rewardId": 200028, "loseRewardId": 200038},
+  "896": {"id": 896, "rewardId": 200029, "loseRewardId": 200038},
+  "899": {"id": 899, "rewardId": 200030, "loseRewardId": 200038},
+  "9993": {"id": 9993, "rewardId": 200032, "loseRewardId": 200039},
+  "9996": {"id": 9996, "rewardId": 200033, "loseRewardId": 200039},
+  "9999": {"id": 9999, "rewardId": 200034, "loseRewardId": 200039},
+  "39999": {"id": 39999, "rewardId": 200023, "loseRewardId": 200036},
+  "69999": {"id": 69999, "rewardId": 200027, "loseRewardId": 200037},
+  "89999": {"id": 89999, "rewardId": 200031, "loseRewardId": 200038},
+  "999999": {"id": 999999, "rewardId": 200035, "loseRewardId": 200039}
+}

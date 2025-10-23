@@ -1,0 +1,53 @@
+{
+  "common": {
+    "Id": "common",
+    "Desc": "通用",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "cutmeet": {
+    "Id": "cutmeet",
+    "Desc": "割肉",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "peel": {"Id": "peel", "Desc": "剥皮", "ResDir": "btn_main_ctrl_collect_png"},
+  "release": {
+    "Id": "release",
+    "Desc": "放生",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "leave": {"Id": "leave", "Desc": "离开", "ResDir": "btn_main_ctrl_collect_png"},
+  "kill": {"Id": "kill", "Desc": "宰杀", "ResDir": "btn_main_ctrl_collect_png"},
+  "egg": {"Id": "egg", "Desc": "偷蛋", "ResDir": "btn_main_ctrl_collect_png"},
+  "water": {"Id": "water", "Desc": "浇水", "ResDir": "btn_main_ctrl_collect_png"},
+  "fertilizer": {
+    "Id": "fertilizer",
+    "Desc": "施肥",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "insects": {
+    "Id": "insects",
+    "Desc": "除草",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "weed": {"Id": "weed", "Desc": "灭虫", "ResDir": "btn_main_ctrl_collect_png"},
+  "chat": {"Id": "chat", "Desc": "闲聊", "ResDir": "btn_main_ctrl_collect_png"},
+  "gift": {"Id": "gift", "Desc": "送礼", "ResDir": "btn_main_ctrl_collect_png"},
+  "fight": {"Id": "fight", "Desc": "切磋", "ResDir": "btn_main_ctrl_collect_png"},
+  "support": {
+    "Id": "support",
+    "Desc": "培养",
+    "ResDir": "btn_main_ctrl_collect_png"
+  },
+  "team": {"Id": "team", "Desc": "招募", "ResDir": "btn_main_ctrl_collect_png"},
+  "love": {"Id": "love", "Desc": "誓约", "ResDir": "btn_main_ctrl_collect_png"},
+  "closesneak": {
+    "Id": "closesneak",
+    "Desc": "近战偷袭",
+    "ResDir": "btn_main_ctrl_kill_png"
+  },
+  "farsneak": {
+    "Id": "farsneak",
+    "Desc": "远程偷袭",
+    "ResDir": "btn_main_ctrl_collect_png"
+  }
+}

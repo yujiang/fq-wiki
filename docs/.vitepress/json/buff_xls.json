@@ -1,0 +1,1363 @@
+{
+  "1001": {
+    "Id": 1001,
+    "Name": "buff1",
+    "Icon": 111,
+    "Show": 1,
+    "PSkill": 20002,
+    "Level": 1,
+    "LifeTime": 60,
+    "Status": "运镖"
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "易容123",
+    "Overlay": 0,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 10,
+    "OnAddType": "changeShape",
+    "OnAddParam": 2079,
+    "OnDelType": "restoreShape"
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 10,
+    "OnDelType": "taskFail",
+    "OnDelParam": 1001
+  },
+  "1013": {
+    "Id": 1013,
+    "Name": "火折子",
+    "IconType": "item",
+    "Type": "照明",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "视野加100",
+    "Tags": 0,
+    "Level": 101,
+    "LifeTime": 120
+  },
+  "1014": {
+    "Id": 1014,
+    "Name": "照明弹",
+    "IconType": "item",
+    "Type": "照明",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "视野加200",
+    "Level": 200,
+    "LifeTime": 120
+  },
+  "10000": {
+    "Id": 10000,
+    "Name": "禁止传送",
+    "Icon": 1011,
+    "Show": 1,
+    "Desc": "禁止传送到别的场景",
+    "Tags": [
+      "禁止传送"
+    ],
+    "Status": "运镖"
+  },
+  "10001": {
+    "Id": 10001,
+    "Name": "禁止更改任务追踪",
+    "Icon": 1011,
+    "Desc": "禁止更改任务追踪状态"
+  },
+  "10002": {
+    "Id": 10002,
+    "Name": "战斗扣次数",
+    "Show": 1,
+    "Desc": "禁止传送到别的场景",
+    "Level": 1,
+    "Times": 10,
+    "Event": "win",
+    "DelTimeMsg": "10002扣了一次"
+  },
+  "10003": {
+    "Id": 10003,
+    "Name": "禁疗",
+    "Type": "禁疗",
+    "Icon": 1011,
+    "Desc": "禁疗",
+    "Tags": [
+      "禁疗"
+    ]
+  },
+  "10004": {
+    "Id": 10004,
+    "Name": "试炼",
+    "Type": "试炼",
+    "Icon": 1012,
+    "Desc": "试炼",
+    "Status": "轮回殿"
+  },
+  "10010": {
+    "Id": 10010,
+    "Name": "1级照明",
+    "IconType": "item",
+    "Type": "照明",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Icon": 1001,
+    "Show": 1,
+    "Desc": "视野加100",
+    "Level": 100,
+    "LifeTime": 120
+  },
+  "10011": {
+    "Id": 10011,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 900,
+    "OnAddType": "changeShape",
+    "OnAddParam": 2127,
+    "OnDelType": "restoreShape"
+  },
+  "10012": {
+    "Id": 10012,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 900,
+    "OnDelType": "taskFail",
+    "OnDelParam": 3033002
+  },
+  "10013": {
+    "Id": 10013,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "任务完成就回到原来的样子",
+    "OnAddType": "changeShape",
+    "OnAddParam": 2069,
+    "OnDelType": "restoreShape"
+  },
+  "10014": {
+    "Id": 10014,
+    "Name": "测试偷袭",
+    "Desc": "测试偷袭，手动添加和删除",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        220011
+      ]
+    ],
+    "Level": 1
+  },
+  "10015": {
+    "Id": 10015,
+    "Name": "负重前行",
+    "Type": "禁跳",
+    "Overlay": 2,
+    "Icon": 1013,
+    "Show": 1,
+    "Desc": "背包的东西太多了，无法使用轻功",
+    "Tags": [
+      "禁跳"
+    ],
+    "Level": 1
+  },
+  "10051": {
+    "Id": 10051,
+    "Name": "强记丹",
+    "Type": "阅读速度",
+    "Show": 1,
+    "Desc": "读书速度加快50%，持续30分钟",
+    "Level": 50,
+    "LifeTime": 1800
+  },
+  "10052": {
+    "Id": 10052,
+    "Name": "强目丹",
+    "Type": "照明",
+    "Show": 1,
+    "Desc": "夜间视野范围扩大300，持续30分钟",
+    "Level": 300,
+    "LifeTime": 1800
+  },
+  "10053": {
+    "Id": 10053,
+    "Name": "好运",
+    "Show": 1,
+    "Desc": "3%暴击率",
+    "PSkill": 20053,
+    "Level": 50,
+    "LifeTime": 1800
+  },
+  "10054": {
+    "Id": 10054,
+    "Name": "霉运",
+    "Show": 1,
+    "Desc": "无实际影响",
+    "PSkill": 20054,
+    "Level": 50,
+    "LifeTime": 1800
+  },
+  "10055": {
+    "Id": 10055,
+    "Name": "杀鬼咒",
+    "Type": "符箓",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击百分比",
+    "PSkill": 20055,
+    "LifeTime": 3000
+  },
+  "10056": {
+    "Id": 10056,
+    "Name": "去灾咒",
+    "Type": "符箓",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "命中率",
+    "PSkill": 20056,
+    "LifeTime": 3000
+  },
+  "10057": {
+    "Id": 10057,
+    "Name": "平安咒",
+    "Type": "符箓",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "防御百分比",
+    "PSkill": 20057,
+    "LifeTime": 3000
+  },
+  "10058": {
+    "Id": 10058,
+    "Name": "五行咒",
+    "Type": "符箓",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "生命百分比",
+    "PSkill": 20058,
+    "LifeTime": 3000
+  },
+  "10059": {
+    "Id": 10059,
+    "Name": "开运咒",
+    "Type": "符箓",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "暴击率",
+    "PSkill": 20059,
+    "LifeTime": 3000
+  },
+  "10060": {
+    "Id": 10060,
+    "Name": "修罗火刀1",
+    "Type": "刀焰",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击小幅提升",
+    "PSkill": 20060,
+    "LifeTime": 1800
+  },
+  "10061": {
+    "Id": 10061,
+    "Name": "修罗火刀2",
+    "Type": "刀焰",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "暴击提升，命中小幅降低",
+    "PSkill": 20061,
+    "LifeTime": 1800
+  },
+  "10062": {
+    "Id": 10062,
+    "Name": "修罗火刀3",
+    "Type": "刀焰",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击/暴击提升，防御中幅降低",
+    "PSkill": 20062,
+    "LifeTime": 1800
+  },
+  "10063": {
+    "Id": 10063,
+    "Name": "修罗火刀4",
+    "Type": "刀焰",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击提升，附带灼烧效果//未实现",
+    "PSkill": 20063,
+    "LifeTime": 1800
+  },
+  "10064": {
+    "Id": 10064,
+    "Name": "冰荷散",
+    "Type": "制散",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击提升，速度小幅提升  //会消除酒意",
+    "PSkill": 20064,
+    "LifeTime": 1800
+  },
+  "10065": {
+    "Id": 10065,
+    "Name": "甲霜散",
+    "Type": "制散",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "防御提升，速度小幅下降",
+    "PSkill": 20065,
+    "LifeTime": 1800
+  },
+  "10066": {
+    "Id": 10066,
+    "Name": "凌悉散",
+    "Type": "制散",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "破招提升，命中小幅提升",
+    "PSkill": 20066,
+    "LifeTime": 1800
+  },
+  "10067": {
+    "Id": 10067,
+    "Name": "冰澈散",
+    "Type": "制散",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "攻击提升，（一定几率）免疫间接伤害效果 //未实现",
+    "PSkill": 20067,
+    "LifeTime": 1800
+  },
+  "10068": {
+    "Id": 10068,
+    "Name": "轻燕丹",
+    "Type": "移动",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "冲冲冲1",
+    "Tags": [
+      "减速"
+    ],
+    "Level": -50,
+    "LifeTime": 900
+  },
+  "10069": {
+    "Id": 10069,
+    "Name": "月卡",
+    "Overlay": 3,
+    "Icon": 1005,
+    "Show": 1,
+    "Desc": "月卡效果",
+    "LifeTime": 2592000
+  },
+  "20001": {
+    "Id": 20001,
+    "Name": "烂醉",
+    "Type": "醉酒",
+    "OverlayType": 1,
+    "Overlay": 2,
+    "Show": 1,
+    "Desc": "烂醉如泥，手脚不稳。",
+    "Tags": [
+      "禁加速"
+    ],
+    "PSkill": 20001,
+    "Level": 50,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "20002": {
+    "Id": 20002,
+    "Name": "醉意",
+    "Type": "醉酒",
+    "OverlayType": 1,
+    "Overlay": 2,
+    "Icon": 1010,
+    "Show": 1,
+    "Desc": "些许醉意，增加5%攻击，降低5%命中。",
+    "PSkill": 20002,
+    "Level": 10,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "20003": {
+    "Id": 20003,
+    "Name": "杯莫停",
+    "Type": "醉酒",
+    "OverlayType": 1,
+    "Overlay": 2,
+    "Icon": 1006,
+    "Show": 1,
+    "Desc": "增加8%攻击。",
+    "PSkill": 20003,
+    "Level": 20,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "30001": {
+    "Id": 30001,
+    "Name": "守灵丸",
+    "Show": 1,
+    "Desc": "战斗结束后自动回复气血",
+    "Level": 1,
+    "Times": 100,
+    "Event": "win"
+  },
+  "30002": {
+    "Id": 30002,
+    "Name": "还魂丸",
+    "Show": 1,
+    "Desc": "战斗结束后自动回复内力",
+    "Level": 1,
+    "Times": 100,
+    "Event": "win"
+  },
+  "30003": {
+    "Id": 30003,
+    "Name": "大力丸",
+    "Type": "给指定的角色，增伤+3%",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "给使用此丹药的角色，增加3%伤害。",
+    "PSkill": 30003,
+    "Level": 1,
+    "Times": 1,
+    "Event": "win",
+    "AddCond": 302
+  },
+  "30004": {
+    "Id": 30004,
+    "Name": "左归丸",
+    "Show": 1,
+    "Desc": "临时增加内攻",
+    "PSkill": 30004,
+    "Level": 1,
+    "LifeTime": 28800
+  },
+  "30005": {
+    "Id": 30005,
+    "Name": "养荣丸",
+    "Show": 1,
+    "Desc": "临时增加治疗",
+    "PSkill": 30005,
+    "Level": 1,
+    "LifeTime": 28800
+  },
+  "30006": {
+    "Id": 30006,
+    "Name": "金刚丹",
+    "Type": "给指定的角色，免伤+3%",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "给使用此丹药的角色，增加3%免伤。",
+    "PSkill": 30006,
+    "Level": 1,
+    "Times": 1,
+    "Event": "win",
+    "AddCond": 303
+  },
+  "30007": {
+    "Id": 30007,
+    "Name": "补心丹",
+    "Type": "给指定的角色，生命+3%",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "给使用此丹药的角色，增加3%生命。",
+    "PSkill": 30007,
+    "Level": 1,
+    "Times": 1,
+    "Event": "win",
+    "AddCond": 304
+  },
+  "30008": {
+    "Id": 30008,
+    "Name": "冷香丸",
+    "Show": 1,
+    "Desc": "临时增加速度",
+    "PSkill": 30008,
+    "Level": 1,
+    "LifeTime": 28800
+  },
+  "30009": {
+    "Id": 30009,
+    "Name": "点舌丸",
+    "Show": 1,
+    "Desc": "临时增加内力",
+    "PSkill": 30009,
+    "Level": 1,
+    "LifeTime": 28800
+  },
+  "30010": {
+    "Id": 30010,
+    "Name": "地黄丸",
+    "Show": 1,
+    "Desc": "临时增加气血",
+    "PSkill": 30010,
+    "Level": 1,
+    "LifeTime": 28800
+  },
+  "40001": {
+    "Id": 40001,
+    "Name": "外攻资质加强",
+    "Desc": "增加外攻资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90001
+      ]
+    ]
+  },
+  "40002": {
+    "Id": 40002,
+    "Name": "内攻资质加强",
+    "Desc": "增加内攻资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90002
+      ]
+    ]
+  },
+  "40003": {
+    "Id": 40003,
+    "Name": "治疗资质加强",
+    "Desc": "增加治疗资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "defend",
+      [
+        90003
+      ]
+    ]
+  },
+  "40004": {
+    "Id": 40004,
+    "Name": "外防资质加强",
+    "Desc": "增加外防资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        90004
+      ]
+    ]
+  },
+  "40005": {
+    "Id": 40005,
+    "Name": "内防资质加强",
+    "Desc": "增加内防资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "紫色"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        91004
+      ]
+    ]
+  },
+  "40006": {
+    "Id": 40006,
+    "Name": "速度资质加强",
+    "Desc": "增加速度资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90001
+      ]
+    ]
+  },
+  "40007": {
+    "Id": 40007,
+    "Name": "内力资质加强",
+    "Desc": "增加内力资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90002
+      ]
+    ]
+  },
+  "40008": {
+    "Id": 40008,
+    "Name": "气血资质加强",
+    "Desc": "增加气血资质百分比",
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "defend",
+      [
+        90003
+      ]
+    ]
+  },
+  "40009": {
+    "Id": 40009,
+    "Name": "降低战斗难度",
+    "Show": 1,
+    "Desc": "下一场战斗难度降低",
+    "PSkill": 30011,
+    "Level": 1,
+    "Times": 1,
+    "Event": "win"
+  },
+  "40010": {
+    "Id": 40010,
+    "Name": "快速战斗",
+    "Overlay": 3,
+    "Icon": 1015,
+    "Show": 1,
+    "Desc": "快速战斗",
+    "LifeTime": 2592000
+  },
+  "40011": {
+    "Id": 40011,
+    "Name": "女儿红",
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnAddType": "addLifeSkillExp",
+    "OnAddParam": [
+      50009,
+      400
+    ],
+    "OnDelType": "ClearWine"
+  },
+  "40012": {
+    "Id": 40012,
+    "Name": "杜康酒",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40013": {
+    "Id": 40013,
+    "Name": "兰陵琥珀",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40014": {
+    "Id": 40014,
+    "Name": "老白干",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40015": {
+    "Id": 40015,
+    "Name": "烧刀子",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40016": {
+    "Id": 40016,
+    "Name": "剑南烧春",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40017": {
+    "Id": 40017,
+    "Name": "山楂酒",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40018": {
+    "Id": 40018,
+    "Name": "青梅酒",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40019": {
+    "Id": 40019,
+    "Name": "醉卧沙场",
+    "Show": 1,
+    "Desc": "饮酒后主角增加5%攻击，降低5%命中。",
+    "PSkill": 40018,
+    "LifeTime": 600,
+    "Reward": 1127,
+    "OnDelType": "ClearWine"
+  },
+  "40020": {
+    "Id": 40020,
+    "Name": "任务失败延迟",
+    "Icon": 1016,
+    "Show": 1,
+    "Desc": "此任务失败了，需要等待一段时间后领取",
+    "LifeTime": 600
+  },
+  "40021": {
+    "Id": 40021,
+    "Name": "狩猎投食",
+    "Desc": "狩猎投食必须要的buff"
+  },
+  "40022": {
+    "Id": 40022,
+    "Name": "狩猎食物存在的时间",
+    "Desc": "狩猎投食食物存在的时间buff",
+    "LifeTime": 20
+  },
+  "40023": {
+    "Id": 40023,
+    "Name": "狩猎老虎投食",
+    "Show": 1,
+    "Desc": "狩猎老虎投食需要的buff"
+  },
+  "40024": {
+    "Id": 40024,
+    "Name": "狩猎老虎食物存在的时间",
+    "Show": 1,
+    "Desc": "狩猎老虎食物存在的时间buff",
+    "LifeTime": 60
+  },
+  "40025": {
+    "Id": 40025,
+    "Name": "狩猎鸡的食物buff",
+    "Desc": "狩猎鸡投食必须要的buff",
+    "LifeTime": 5
+  },
+  "40026": {
+    "Id": 40026,
+    "Name": "诱敌buff",
+    "OverlayType": 0,
+    "Overlay": 0,
+    "Icon": 1017,
+    "Show": 1,
+    "Desc": "引诱巡逻怪的buff",
+    "Level": 0,
+    "MaxLevel": 1,
+    "LifeTime": 5
+  },
+  "40027": {
+    "Id": 40027,
+    "Name": "十面埋伏",
+    "Type": "弹琴",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "十面埋伏描绘楚汉垓下之战，气势磅礴，技法激昂，演奏后全队增加num1%伤害。",
+    "DisplayData": "level*1|5",
+    "PSkill": 40027,
+    "AllSoldier": 1,
+    "Times": 3,
+    "Event": "win"
+  },
+  "40028": {
+    "Id": 40028,
+    "Name": "高山流水",
+    "Type": "弹琴",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "高山流水形象鲜明，情景交融，演奏后全队增加num1%命中率。",
+    "DisplayData": "level*1|5",
+    "PSkill": 40028,
+    "AllSoldier": 1,
+    "Times": 3,
+    "Event": "win"
+  },
+  "40029": {
+    "Id": 40029,
+    "Name": "小鸟朝凤",
+    "Type": "弹琴",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "小鸟朝凤活泼跳跃，表现了小鸟归巢，鹤鸣凤舞的景象，演奏后全队增加num1%伤害减免。",
+    "DisplayData": "level*1|5",
+    "PSkill": 40029,
+    "AllSoldier": 1,
+    "Times": 3,
+    "Event": "win"
+  },
+  "40030": {
+    "Id": 40030,
+    "Name": "平沙落雁",
+    "Type": "弹琴",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "平沙落雁借大雁之远志，写逸士之心胸，演奏后全队增加num1%最大气血。",
+    "DisplayData": "level*1|5",
+    "PSkill": 40030,
+    "AllSoldier": 1,
+    "Times": 3,
+    "Event": "win"
+  },
+  "40031": {
+    "Id": 40031,
+    "Name": "防疫",
+    "Show": 1,
+    "Desc": "穿上之后可以靠近带有传染病的病人",
+    "LifeTime": 86400
+  },
+  "40032": {
+    "Id": 40032,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "伪装中···",
+    "LifeTime": 86400,
+    "OnAddType": "changeShape",
+    "OnAddParam": 2065,
+    "OnDelType": "restoreShape"
+  },
+  "44461": {
+    "Id": 44461,
+    "Name": "凌波微步",
+    "Show": 1,
+    "Desc": "跳跃距离提升100",
+    "LifeTime": 30,
+    "OnAddType": "addJump",
+    "OnAddParam": 100
+  },
+  "44462": {
+    "Id": 44462,
+    "Name": "擒龙手",
+    "Show": 1,
+    "Desc": "宝箱触距离提升100",
+    "LifeTime": 30,
+    "OnAddType": "addTouch",
+    "OnAddParam": 200
+  },
+  "50000": {
+    "Id": 50000,
+    "Name": "瘴气",
+    "Type": "扣血上限",
+    "Overlay": 1,
+    "Icon": 1009,
+    "Show": 1,
+    "Desc": "循环间断扣血量的最大上限",
+    "PSkill": 20004,
+    "AllSoldier": 1,
+    "Level": 1,
+    "MaxLevel": 5,
+    "AddCond": 309,
+    "AddMsg": "你吸入一口瘴气",
+    "RemoveMsg": "瘴气消失，你浑身轻松了",
+    "AddLevelMsg": "瘴气升级了。"
+  },
+  "50001": {
+    "Id": 50001,
+    "Name": "野怪被吸引buff",
+    "OverlayType": 0,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "野怪正朝着你的方向被吸引",
+    "Level": 0,
+    "MaxLevel": 1
+  },
+  "50002": {
+    "Id": 50002,
+    "Name": "火毒",
+    "Type": "扣血上限",
+    "Overlay": 1,
+    "Icon": 1009,
+    "Show": 1,
+    "Desc": "循环间断扣血量的最大上限",
+    "AllSoldier": 1,
+    "Level": 1,
+    "MaxLevel": 5,
+    "AddMsg": "你不小心被炮火炸伤了。",
+    "RemoveMsg": "你痊愈了。",
+    "AddLevelMsg": "你的伤势加重了。"
+  },
+  "50027": {
+    "Id": 50027,
+    "Name": "龟息术",
+    "Type": "移动",
+    "Show": 1,
+    "Desc": "龟息术期间减速50%",
+    "Tags": [
+      "减速"
+    ],
+    "Level": 50
+  },
+  "50030": {
+    "Id": 50030,
+    "Name": "破戒",
+    "Icon": 1018,
+    "Show": 1,
+    "Desc": "你破戒了,战斗中佛学等级将会降低",
+    "PSkill": 21106
+  },
+  "50031": {
+    "Id": 50031,
+    "Name": "佛佑",
+    "Show": 1,
+    "Desc": "佛法等级暂时提升50级",
+    "PSkill": 21107,
+    "LifeTime": 1800
+  },
+  "50032": {
+    "Id": 50032,
+    "Name": "辟谷",
+    "Overlay": 1,
+    "Icon": 1003,
+    "Show": 1,
+    "Desc": "辟谷",
+    "LifeTime": 86400,
+    "OnDelType": "taskFail",
+    "OnDelParam": 200001
+  },
+  "50033": {
+    "Id": 50033,
+    "Name": "韩复破绽-阮青丝之死"
+  },
+  "50034": {
+    "Id": 50034,
+    "Name": "韩复破绽-复国无望"
+  },
+  "50035": {
+    "Id": 50035,
+    "Name": "韩复破绽-谁要复国"
+  },
+  "50036": {
+    "Id": 50036,
+    "Name": "毒气",
+    "Overlay": 1,
+    "Icon": 1009,
+    "Show": 1,
+    "Desc": "扣当前血量",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Event": "move",
+    "AddMsg": "你吸入一口瘴气",
+    "RemoveMsg": "瘴气消失，你浑身轻松了",
+    "AddLevelMsg": "瘴气升级了。",
+    "Do": 1001
+  },
+  "50037": {
+    "Id": 50037,
+    "Name": "暗雷",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "触发暗雷",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Times": 3,
+    "Event": "move",
+    "AddMsg": "你进入了踩地雷模式",
+    "DelTimeMsg": "暗雷减一",
+    "Do": 1002
+  },
+  "50038": {
+    "Id": 50038,
+    "Name": "少林水桶",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "添加轻功奖励",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Times": 5,
+    "Event": "move",
+    "RemoveMsg": "少林水桶消失了",
+    "DelTimeMsg": "少林水桶减一",
+    "Do": 1005
+  },
+  "50039": {
+    "Id": 50039,
+    "Name": "毒气",
+    "Overlay": 1,
+    "Icon": 1009,
+    "Show": 1,
+    "Desc": "扣当前血量",
+    "Level": 1,
+    "MaxLevel": 5,
+    "AddMsg": "你吸入一口瘴气",
+    "RemoveMsg": "瘴气消失，你浑身轻松了",
+    "AddLevelMsg": "瘴气升级了。"
+  },
+  "50040": {
+    "Id": 50040,
+    "Name": "毒气2",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Icon": 1009,
+    "Desc": "生成毒气",
+    "Event": "move",
+    "MoveStep": 20,
+    "Do": 1004
+  },
+  "50041": {
+    "Id": 50041,
+    "Name": "少林打水加轻功",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "少林打水加轻功",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Times": 5,
+    "Event": "move",
+    "Status": "打水",
+    "DelTimeMsg": "哎呀,水泼出来一些了!",
+    "Do": 1005
+  },
+  "50042": {
+    "Id": 50042,
+    "Name": "运镖暗雷",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Icon": 1007,
+    "Show": 1,
+    "Desc": "触发暗雷",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Times": 3,
+    "Event": "move",
+    "MoveStep": [
+      300,
+      400
+    ],
+    "Status": 1,
+    "Do": 1002
+  },
+  "50043": {
+    "Id": 50043,
+    "Name": "押镖",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Icon": 1007,
+    "Show": 1,
+    "Desc": "禁止传送;青玉堂杀手随时会来袭",
+    "Level": 1,
+    "MaxLevel": 5,
+    "Event": "move",
+    "MoveScenes": "野外",
+    "MoveCond": 59999,
+    "MoveStep": 200,
+    "Status": 1,
+    "Do": 1006
+  },
+  "50044": {
+    "Id": 50044,
+    "Name": "顿悟",
+    "Icon": 1020,
+    "Show": 1,
+    "Desc": "来自佛祖的力量充满全身，提升5%攻击",
+    "PSkill": 30108,
+    "Level": 1,
+    "Times": 5,
+    "Event": "win"
+  },
+  "50045": {
+    "Id": 50045,
+    "Name": "三条的毒镖",
+    "MainOnly": 1,
+    "Overlay": 1,
+    "Icon": 1009,
+    "Show": 1,
+    "Desc": "中了劫匪的毒镖，全身无数蚂蚁啃噬般痛苦，攻防减半，移动速度减半。",
+    "PSkill": 30109,
+    "BattleStatus": [
+      "attack",
+      [
+        10017
+      ]
+    ],
+    "Level": 1,
+    "MaxLevel": 1,
+    "LifeTime": 3600
+  },
+  "80001": {
+    "Id": 80001,
+    "Name": "南湖的船",
+    "Overlay": 1,
+    "Icon": 1000,
+    "Show": 1,
+    "Desc": "浓雾弥漫,危机四伏",
+    "Tags": [
+      "client"
+    ],
+    "Event": "move",
+    "BuffCond": -80002,
+    "MoveStep": 80,
+    "Status": "划船",
+    "Do": 1007
+  },
+  "80002": {
+    "Id": 80002,
+    "Name": "灯火引路",
+    "Overlay": 0,
+    "Icon": 1001,
+    "Show": 1,
+    "Desc": "灯火照耀,驱散杀机",
+    "Tags": [
+      "client"
+    ],
+    "LifeTime": 60
+  },
+  "666666": {
+    "Id": 666666,
+    "Name": "加速（测试",
+    "Type": "移动",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Icon": 1005,
+    "Show": 1,
+    "Desc": "冲冲冲1",
+    "Tags": [
+      "减速"
+    ],
+    "Level": -20
+  },
+  "666667": {
+    "Id": 666667,
+    "Name": "测试1",
+    "Type": "移动",
+    "OverlayType": 1,
+    "Overlay": 0,
+    "Show": 1,
+    "Desc": "冲冲冲2",
+    "Tags": [
+      "减速"
+    ],
+    "Level": -200
+  },
+  "1007017": {
+    "Id": 1007017,
+    "Name": "搬运",
+    "Type": "移动",
+    "Show": 1,
+    "Desc": "搬运重物，无法快步行走与使用轻功。",
+    "Tags": [
+      "减速",
+      "禁跳"
+    ],
+    "Level": 60
+  },
+  "3001001": {
+    "Id": 3001001,
+    "Name": "胶水",
+    "Type": "移动",
+    "Show": 1,
+    "Desc": "减速50%",
+    "Tags": [
+      "减速"
+    ],
+    "Level": 50,
+    "LifeTime": 5
+  },
+  "3001002": {
+    "Id": 3001002,
+    "Name": "强力胶",
+    "Type": "移动",
+    "Show": 1,
+    "Desc": "减速100%",
+    "Tags": [
+      "减速"
+    ],
+    "Level": 100,
+    "LifeTime": 5
+  },
+  "3001003": {
+    "Id": 3001003,
+    "Name": "超级强力胶",
+    "Type": "移动",
+    "Show": 1,
+    "Desc": "减速101%",
+    "Tags": [
+      "减速"
+    ],
+    "Level": 100,
+    "LifeTime": 2
+  },
+  "3003011": {
+    "Id": 3003011,
+    "Name": "金属性",
+    "Type": "五毒",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40000
+      ]
+    ]
+  },
+  "3003012": {
+    "Id": 3003012,
+    "Name": "水属性",
+    "Type": "五毒",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40002
+      ]
+    ]
+  },
+  "3003013": {
+    "Id": 3003013,
+    "Name": "木属性",
+    "Type": "五毒",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40001
+      ]
+    ]
+  },
+  "3003014": {
+    "Id": 3003014,
+    "Name": "火属性",
+    "Type": "五毒",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40003
+      ]
+    ]
+  },
+  "3003015": {
+    "Id": 3003015,
+    "Name": "土属性",
+    "Type": "五毒",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Show": 1,
+    "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40004
+      ]
+    ]
+  },
+  "200100411": {
+    "Id": 200100411,
+    "Name": "醒酒丸",
+    "Show": 1,
+    "Desc": "即便喝得再多也能保持头脑清醒"
+  }
+}

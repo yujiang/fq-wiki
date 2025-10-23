@@ -1,0 +1,32 @@
+{
+  "10001": {
+    "Id": 10001,
+    "Name": "巨鲸寨",
+    "Levels": [4232, 4234],
+    "FirstScene": 4234,
+    "FirstPos": [20, 15],
+    "ExitScene": 1023,
+    "ExitPos": [207, 265],
+    "Times": 999
+  },
+  "10002": {
+    "Id": 10002,
+    "Name": "大战前夕",
+    "Levels": [1003, 1004, 1005, 1006, 1007, 1008, 1009],
+    "FirstScene": 2037,
+    "FirstPos": [10, 144],
+    "ExitScene": 1114,
+    "ExitPos": [109, 222],
+    "Times": 999
+  },
+  "10003": {
+    "Id": 10003,
+    "Name": "侠之行",
+    "Levels": [9645, 9644],
+    "FirstScene": 9645,
+    "FirstPos": [72, 28],
+    "ExitScene": 1022,
+    "ExitPos": [378, 160],
+    "Times": 999
+  }
+}

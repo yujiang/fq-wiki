@@ -1,0 +1,87 @@
+{
+  "sx": {
+    "Id": "sx",
+    "Male": "少侠",
+    "Female": "女侠"
+  },
+  "gz": {
+    "Id": "gz",
+    "Male": "公子",
+    "Female": "姑娘"
+  },
+  "gg": {
+    "Id": "gg",
+    "Male": "哥哥",
+    "Female": "姐姐"
+  },
+  "dd": {
+    "Id": "dd",
+    "Male": "弟弟",
+    "Female": "妹妹"
+  },
+  "xg": {
+    "Id": "xg",
+    "Male": "小哥",
+    "Female": "小妹"
+  },
+  "xz": {
+    "Id": "xz",
+    "Male": "小子",
+    "Female": "丫头"
+  },
+  "sz": {
+    "Id": "sz",
+    "Male": "孙儿",
+    "Female": "孙女"
+  },
+  "sj": {
+    "Id": "sj",
+    "Male": "师兄",
+    "Female": "师姐"
+  },
+  "sd": {
+    "Id": "sd",
+    "Male": "师弟",
+    "Female": "师妹"
+  },
+  "xd": {
+    "Id": "xd",
+    "Male": "贤弟",
+    "Female": "贤妹"
+  },
+  "ta": {
+    "Id": "ta",
+    "Male": "他",
+    "Female": "她"
+  },
+  "xxd": {
+    "Id": "xxd",
+    "Male": "小弟",
+    "Female": "小妹"
+  },
+  "dg": {
+    "Id": "dg",
+    "Male": "大哥",
+    "Female": "阿姐"
+  },
+  "jd": {
+    "Id": "jd",
+    "Male": "兄弟",
+    "Female": "姐弟"
+  },
+  "mz": {
+    "Id": "mz",
+    "Male": "兄弟",
+    "Female": "妹子"
+  },
+  "xy": {
+    "Id": "xy",
+    "Male": "小爷",
+    "Female": "姑奶奶"
+  },
+  "xgn": {
+    "Id": "xgn",
+    "Male": "小兄弟",
+    "Female": "小姑娘"
+  }
+}

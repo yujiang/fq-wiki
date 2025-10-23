@@ -1,0 +1,20 @@
+{
+  "school": {"Id": "school", "Name": "门派"},
+  "schoolcall": {"Id": "schoolcall", "Name": "法号"},
+  "schoollevel": {"Id": "schoollevel", "Name": "等级"},
+  "zm": {"Id": "zm", "Name": "掌门"},
+  "master": {"Id": "master", "Name": "师父"},
+  "schooltask": {"Id": "schooltask", "Name": "发任务的人"},
+  "shili": {"Id": "shili", "Name": "势力"},
+  "shilicall": {"Id": "shilicall", "Name": "法号"},
+  "name": {"Id": "name", "Name": "名字"},
+  "xing": {"Id": "xing", "Name": "姓"},
+  "ming": {"Id": "ming", "Name": "名"},
+  "call": {"Id": "call", "Desc": "$call(zm,0),掌门尊称"},
+  "npc": {"Id": "npc", "Desc": "$npc(50002)"},
+  "pos": {"Id": "pos", "Name": "npcpos", "Desc": "$pos(50002)"},
+  "item": {"Id": "item", "Desc": "$item(1001)"},
+  "scene": {"Id": "scene", "Desc": "$scene(3001)"},
+  "cost": {"Id": "cost", "Desc": "$cost(1001),$cost(1001,10)"},
+  "other": {"Id": "other", "Desc": "$other(equip0)"}
+}

@@ -1,0 +1,242 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "第1关",
+    "NpcId": 70010,
+    "RewardId": 70001,
+    "Battle": 70010,
+    "Teleport": [5302, 30, 150]
+  },
+  "2": {
+    "Id": 2,
+    "Name": "第2关",
+    "NpcId": 70020,
+    "RewardId": 70002,
+    "Battle": 70020,
+    "Teleport": [5302, 30, 150]
+  },
+  "3": {
+    "Id": 3,
+    "Name": "第3关",
+    "NpcId": 70030,
+    "RewardId": 70003,
+    "Battle": 70030,
+    "Teleport": [5302, 30, 150]
+  },
+  "4": {
+    "Id": 4,
+    "Name": "第4关",
+    "NpcId": 70040,
+    "RewardId": 70001,
+    "Battle": 70040,
+    "Teleport": [5302, 30, 150]
+  },
+  "5": {
+    "Id": 5,
+    "Name": "第5关",
+    "NpcId": 70050,
+    "RewardId": 70002,
+    "Battle": 70050,
+    "Teleport": [5302, 30, 150]
+  },
+  "6": {
+    "Id": 6,
+    "Name": "第6关",
+    "NpcId": 70060,
+    "RewardId": 70003,
+    "Battle": 70060,
+    "Teleport": [5302, 30, 150]
+  },
+  "7": {
+    "Id": 7,
+    "Name": "第7关",
+    "NpcId": 70070,
+    "RewardId": 70001,
+    "Battle": 70070,
+    "Teleport": [5302, 30, 150]
+  },
+  "8": {
+    "Id": 8,
+    "Name": "第8关",
+    "NpcId": 70080,
+    "RewardId": 70002,
+    "Battle": 70080,
+    "Teleport": [5302, 30, 150]
+  },
+  "9": {
+    "Id": 9,
+    "Name": "第9关",
+    "NpcId": 70090,
+    "RewardId": 70003,
+    "Battle": 70090,
+    "Teleport": [5302, 30, 150]
+  },
+  "10": {
+    "Id": 10,
+    "Name": "第10关",
+    "NpcId": 70100,
+    "RewardId": 70001,
+    "Battle": 70100,
+    "Teleport": [5302, 30, 150]
+  },
+  "11": {
+    "Id": 11,
+    "Name": "第11关",
+    "NpcId": 70110,
+    "RewardId": 70002,
+    "Battle": 70110,
+    "Teleport": [5302, 30, 150]
+  },
+  "12": {
+    "Id": 12,
+    "Name": "第12关",
+    "NpcId": 70120,
+    "RewardId": 70003,
+    "Battle": 70120,
+    "Teleport": [5302, 30, 150]
+  },
+  "13": {
+    "Id": 13,
+    "Name": "第13关",
+    "NpcId": 70130,
+    "RewardId": 70001,
+    "Battle": 70130,
+    "Teleport": [5302, 30, 150]
+  },
+  "14": {
+    "Id": 14,
+    "Name": "第14关",
+    "NpcId": 70140,
+    "RewardId": 70002,
+    "Battle": 70140,
+    "Teleport": [5302, 30, 150]
+  },
+  "15": {
+    "Id": 15,
+    "Name": "第15关",
+    "NpcId": 70150,
+    "RewardId": 70003,
+    "Battle": 70150,
+    "Teleport": [5302, 30, 150]
+  },
+  "16": {
+    "Id": 16,
+    "Name": "第16关",
+    "NpcId": 70160,
+    "RewardId": 70001,
+    "Battle": 70160,
+    "Teleport": [5302, 30, 150]
+  },
+  "17": {
+    "Id": 17,
+    "Name": "第17关",
+    "NpcId": 70170,
+    "RewardId": 70002,
+    "Battle": 70170,
+    "Teleport": [5302, 30, 150]
+  },
+  "18": {
+    "Id": 18,
+    "Name": "第18关",
+    "NpcId": 70180,
+    "RewardId": 70003,
+    "Battle": 70180,
+    "Teleport": [5302, 30, 150]
+  },
+  "19": {
+    "Id": 19,
+    "Name": "第19关",
+    "NpcId": 70190,
+    "RewardId": 70001,
+    "Battle": 70190,
+    "Teleport": [5302, 30, 150]
+  },
+  "20": {
+    "Id": 20,
+    "Name": "第20关",
+    "NpcId": 70200,
+    "RewardId": 70002,
+    "Battle": 70200,
+    "Teleport": [5302, 30, 150]
+  },
+  "21": {
+    "Id": 21,
+    "Name": "第21关",
+    "NpcId": 70210,
+    "RewardId": 70003,
+    "Battle": 70210,
+    "Teleport": [5302, 30, 150]
+  },
+  "22": {
+    "Id": 22,
+    "Name": "第22关",
+    "NpcId": 70220,
+    "RewardId": 70001,
+    "Battle": 70220,
+    "Teleport": [5302, 30, 150]
+  },
+  "23": {
+    "Id": 23,
+    "Name": "第23关",
+    "NpcId": 70230,
+    "RewardId": 70002,
+    "Battle": 70230,
+    "Teleport": [5302, 30, 150]
+  },
+  "24": {
+    "Id": 24,
+    "Name": "第24关",
+    "NpcId": 70240,
+    "RewardId": 70003,
+    "Battle": 70240,
+    "Teleport": [5302, 30, 150]
+  },
+  "25": {
+    "Id": 25,
+    "Name": "第25关",
+    "NpcId": 70250,
+    "RewardId": 70001,
+    "Battle": 70250,
+    "Teleport": [5302, 30, 150]
+  },
+  "26": {
+    "Id": 26,
+    "Name": "第26关",
+    "NpcId": 70260,
+    "RewardId": 70002,
+    "Battle": 70260,
+    "Teleport": [5302, 30, 150]
+  },
+  "27": {
+    "Id": 27,
+    "Name": "第27关",
+    "NpcId": 70270,
+    "RewardId": 70003,
+    "Battle": 70270,
+    "Teleport": [5302, 30, 150]
+  },
+  "28": {
+    "Id": 28,
+    "Name": "第28关",
+    "NpcId": 70280,
+    "RewardId": 70001,
+    "Battle": 70280,
+    "Teleport": [5302, 30, 150]
+  },
+  "29": {
+    "Id": 29,
+    "Name": "第29关",
+    "NpcId": 70290,
+    "RewardId": 70002,
+    "Battle": 70290,
+    "Teleport": [5302, 30, 150]
+  },
+  "30": {
+    "Id": 30,
+    "Name": "第30关",
+    "NpcId": 70300,
+    "RewardId": 70003,
+    "Battle": 70300,
+    "Teleport": [5302, 30, 150]
+  }
+}

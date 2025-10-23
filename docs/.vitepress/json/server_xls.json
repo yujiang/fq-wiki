@@ -1,0 +1,101 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "测试服1",
+    "Url": "http://192.168.16.80",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["qingdou"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "2": {
+    "Id": 2,
+    "Name": "测试服2",
+    "Url": "http://192.168.16.77",
+    "Port": 8081,
+    "Group": 1,
+    "Plateform": ["qingdou"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "3": {
+    "Id": 3,
+    "Name": "测试服2",
+    "Url": "http://192.168.16.77",
+    "Port": 8080,
+    "Group": 2,
+    "Plateform": ["qingdou"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "4": {
+    "Id": 4,
+    "Name": "本机",
+    "Url": "http://127.0.0.1",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["local"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "5": {
+    "Id": 5,
+    "Name": "yujiang",
+    "Url": "http://192.168.16.99",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["yujiang"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "6": {
+    "Id": 6,
+    "Name": "localtest_ps",
+    "Url": "http://192.168.16.105",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["localtest_ps"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "7": {
+    "Id": 7,
+    "Name": "test",
+    "Url": "http://192.168.16.10",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["localtest"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "8": {
+    "Id": 8,
+    "Name": "localtest_wyc",
+    "Url": "http://192.168.16.91",
+    "Port": 8080,
+    "Group": 1,
+    "Plateform": ["localtest_wyc"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  },
+  "9000": {
+    "Id": 9000,
+    "Name": "local_develop_ps",
+    "Url": "http://192.168.16.105",
+    "Port": 8090,
+    "Group": 1,
+    "Plateform": ["local_develop_ps"],
+    "Time": "2022.1.1",
+    "Status": 1,
+    "IsNew": 0
+  }
+}

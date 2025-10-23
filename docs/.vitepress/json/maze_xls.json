@@ -1,0 +1,39 @@
+{
+  "2221": {
+    "Id": 2221,
+    "Name": "迷宫测试",
+    "lwidth": 1920,
+    "lheight": 1440,
+    "offx": 100,
+    "offy": 100,
+    "type": "loop4",
+    "dirs": [0, 1],
+    "exit": 2223,
+    "backTips": "你又走了回来。",
+    "changeTips": "眼前景色忽然一变。",
+    "succTips": "你成功走出了迷宫"
+  },
+  "3075": {
+    "Id": 3075,
+    "Name": "杏子林",
+    "lwidth": 1920,
+    "lheight": 1440,
+    "offx": 100,
+    "offy": 100,
+    "type": "loop4",
+    "dirs": [2, 1, 0, 3],
+    "exit": 3076
+  },
+  "4445": {
+    "Id": 4445,
+    "Name": "迷宫测试",
+    "lwidth": 1920,
+    "lheight": 1440,
+    "offx": 100,
+    "offy": 100,
+    "type": "loopy",
+    "dirs": [0, 1, 2, 3],
+    "backTips": "你又走了回来。",
+    "changeTips": "眼前景色忽然一变。"
+  }
+}

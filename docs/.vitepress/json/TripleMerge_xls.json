@@ -1,0 +1,35 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "简单",
+    "slotNum": 7,
+    "composeNum": 3,
+    "typeNum": 3,
+    "levelBlockNum": 6,
+    "borderStep": 1,
+    "levelNum": 1,
+    "randomBlocks": [4, 4]
+  },
+  "2": {
+    "Id": 2,
+    "Name": "一般",
+    "slotNum": 7,
+    "composeNum": 3,
+    "typeNum": 7,
+    "levelBlockNum": 10,
+    "borderStep": 1,
+    "levelNum": 5,
+    "randomBlocks": [8, 8]
+  },
+  "3": {
+    "Id": 3,
+    "Name": "地狱",
+    "slotNum": 7,
+    "composeNum": 3,
+    "typeNum": 7,
+    "levelBlockNum": 20,
+    "borderStep": 1,
+    "levelNum": 10,
+    "randomBlocks": [8, 8]
+  }
+}

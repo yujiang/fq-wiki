@@ -1,0 +1,95 @@
+{
+  "initPKLadder": {
+    "Id": "initPKLadder",
+    "Desc": "初始化多少个假人",
+    "Tags": "pk",
+    "Value": 10
+  },
+  "viewPKDes": {"Id": "viewPKDes", "Desc": "pk的对手数目", "Tags": "pk", "Value": 5},
+  "viewPKLadder": {
+    "Id": "viewPKLadder",
+    "Desc": "排行榜显示多少个",
+    "Tags": "pk",
+    "Value": 10
+  },
+  "MAX_LADDERREWARD_DAY": {
+    "Id": "MAX_LADDERREWARD_DAY",
+    "Desc": "日榜获奖的个数",
+    "Tags": "pk",
+    "Value": 1000000
+  },
+  "MAX_LADDERREWARD_WEEK": {
+    "Id": "MAX_LADDERREWARD_WEEK",
+    "Desc": "周榜获奖的个数",
+    "Tags": "pk",
+    "Value": 1000000
+  },
+  "cdPKRefresh": {
+    "Id": "cdPKRefresh",
+    "Desc": "pk刷新cd, 秒",
+    "Tags": "pk",
+    "Value": 60
+  },
+  "cdGardenRefresh": {
+    "Id": "cdGardenRefresh",
+    "Desc": "药园刷新cd，秒",
+    "Tags": "garden",
+    "Value": 60
+  },
+  "MAX_LADDERR_BOSS": {
+    "Id": "MAX_LADDERR_BOSS",
+    "Desc": "挑战boss的排行榜",
+    "Tags": "boss",
+    "Value": 50
+  },
+  "MAX_LADDER_ACTIVITY": {
+    "Id": "MAX_LADDER_ACTIVITY",
+    "Desc": "活动排行榜",
+    "Tags": "activity",
+    "Value": 50
+  },
+  "GARDEN_TRYCARD_TIME": {
+    "Id": "GARDEN_TRYCARD_TIME",
+    "Desc": "试用药园月卡时间",
+    "Tags": "garden",
+    "Value": 3
+  },
+  "GARDEN_STEAL_TIMES": {
+    "Id": "GARDEN_STEAL_TIMES",
+    "Desc": "每日偷取次数",
+    "Tags": "garden",
+    "Value": 5
+  },
+  "cdGardensteal": {
+    "Id": "cdGardensteal",
+    "Desc": "偷取冷却",
+    "Tags": "garden",
+    "Value": 5
+  },
+  "VipOpenValue": {
+    "Id": "VipOpenValue",
+    "Desc": "贵族大使开放金额",
+    "Tags": "ui",
+    "Value": 800
+  },
+  "RelicBossMaxStar": {
+    "Id": "RelicBossMaxStar",
+    "Desc": "悬赏Boss最大星级",
+    "Tags": "boss",
+    "Value": 6
+  },
+  "NewOpenDays": {
+    "Id": "NewOpenDays",
+    "Desc": "新服活动开放天数",
+    "Tags": "activity",
+    "Value": 10
+  },
+  "ChangeSexCost": {"Id": "ChangeSexCost", "Desc": "转换性别消耗", "Value": 500},
+  "AutoHoeOpenVip": {"Id": "AutoHoeOpenVip", "Desc": "开放自动挖矿贵宾等级", "Value": 8},
+  "MaxTrans": {"Id": "MaxTrans", "Desc": "能使用的最大上限的传送门", "Value": 625},
+  "addTeamAutoCost": {
+    "Id": "addTeamAutoCost",
+    "Desc": "app端仙盟自动加入消耗",
+    "Value": 50
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "1": {"Id": 1, "Name": "白鹤独立", "levels": [["bhdl", 60]]},
+  "2": {"Id": 2, "Name": "读书", "levels": [["dushu", 90]]},
+  "3": {"Id": 3, "Name": "闺玉", "levels": [["guiyu", 120]]},
+  "4": {
+    "Id": 4,
+    "Name": "组合",
+    "levels": [["bhdl", 60], ["dushu", 90], ["guiyu", 120]]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "长草": {
+    "Id": "长草",
+    "Odds": 0.1,
+    "Op": "拔草",
+    "Effect": [10, 1],
+    "Desc": "周围长了一些杂草",
+    "Flag": "plant_grass"
+  },
+  "干旱": {
+    "Id": "干旱",
+    "Odds": 0.1,
+    "Op": "浇水",
+    "Effect": [5, 1],
+    "Desc": "叶子有些发黄",
+    "Flag": "plant_water"
+  },
+  "缺肥": {
+    "Id": "缺肥",
+    "Odds": 0.1,
+    "Op": "施肥",
+    "Effect": [10, 1],
+    "Desc": "叶子有点蔫了",
+    "Flag": "plant_fertilize"
+  },
+  "生虫": {
+    "Id": "生虫",
+    "Odds": 0.1,
+    "Op": "捉虫",
+    "Effect": [2, 1],
+    "Desc": "长了一些虫子",
+    "Flag": "plant_worm"
+  },
+  "缺酒": {
+    "Id": "缺酒",
+    "Odds": 0,
+    "Op": "浇酒",
+    "Effect": [1, 1],
+    "Desc": "需要酒的浇灌",
+    "Flag": "plant_water"
+  }
+}

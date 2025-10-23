@@ -1,0 +1,74 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 30055,
+    "Name": "真元小补丸",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 1000,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "修罗商店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 40044,
+    "Name": "烧刀子",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 2000,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "修罗商店"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 12276,
+    "Name": "火折子",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 3000,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "修罗商店"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 2007,
+    "Name": "铁斧",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 4000,
+    "Needs": {"Level": 0},
+    "Sort": 4,
+    "Tag": "修罗商店"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 2012,
+    "Name": "回城符",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 50,
+    "Needs": {"Level": 0},
+    "Sort": 5,
+    "Tag": "修罗商店"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 290121,
+    "Name": "鸳鸯刀",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 167,
+    "Needs": {"Level": 0},
+    "Sort": 6,
+    "Tag": "修罗商店"
+  }
+}

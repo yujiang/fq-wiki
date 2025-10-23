@@ -1,0 +1,6 @@
+{
+  "39": {"id": 39, "battleId": 200000, "ExperienceMax": 3000},
+  "69": {"id": 69, "battleId": 200001, "ExperienceMax": 6000},
+  "89": {"id": 89, "battleId": 200002, "ExperienceMax": 10000},
+  "999": {"id": 999, "battleId": 200003, "ExperienceMax": 10000}
+}

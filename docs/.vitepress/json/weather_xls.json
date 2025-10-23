@@ -1,0 +1,524 @@
+{
+  "1001": {
+    "Id": 1001,
+    "Name": "杏花村",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.05, "rain": 0.3},
+      {"rain": 0.4},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.1},
+      {"thunder": 0.2, "rain": 0.1},
+      {"rain": 0.4},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3, "rain": 0.1}
+    ]
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "栖霞镇",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.05, "rain": 0.3},
+      {"rain": 0.4},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.1},
+      {"thunder": 0.2, "rain": 0.1},
+      {"rain": 0.4},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3, "rain": 0.1}
+    ]
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "汴京",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "西夏灵州",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"snow": 0.1},
+      {"snow": 0.3}
+    ]
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "武当派",
+    "Monthes": [
+      {"snow": 0.2, "rain": 0.2},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "白鹭书院",
+    "Monthes": [
+      {"snow": 0.2},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1007": {
+    "Id": 1007,
+    "Name": "少林寺",
+    "Monthes": [
+      {"snow": 0.2, "rain": 0.2},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1008": {
+    "Id": 1008,
+    "Name": "天山派",
+    "Monthes": [
+      {"snow": 1},
+      {"snow": 0.8},
+      {"snow": 0.6},
+      {"snow": 0.4},
+      {"snow": 0.2},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"snow": 0.4},
+      {"snow": 0.6},
+      {"snow": 0.8},
+      {"snow": 1}
+    ]
+  },
+  "1009": {
+    "Id": 1009,
+    "Name": "华山",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1010": {
+    "Id": 1010,
+    "Name": "恶人谷",
+    "Monthes": [
+      {"snow": 0.05},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.05, "rain": 0.2}
+    ]
+  },
+  "1011": {
+    "Id": 1011,
+    "Name": "唐门",
+    "Monthes": [
+      {"snow": 0.05},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.05, "rain": 0.2}
+    ]
+  },
+  "1012": {
+    "Id": 1012,
+    "Name": "藏剑山庄",
+    "Monthes": [
+      {"snow": 0.05},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.05, "rain": 0.2}
+    ]
+  },
+  "1014": {
+    "Id": 1014,
+    "Name": "移花宫",
+    "Monthes": [
+      {"snow": 0.05},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.05, "rain": 0.2}
+    ]
+  },
+  "1015": {
+    "Id": 1015,
+    "Name": "丐帮总舵",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1016": {
+    "Id": 1016,
+    "Name": "芦苇荡",
+    "Monthes": [
+      {"snow": 0.2, "rain": 0.2},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1017": {
+    "Id": 1017,
+    "Name": "快活林",
+    "Monthes": [
+      {"snow": 0.05},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.05, "rain": 0.2}
+    ]
+  },
+  "1018": {
+    "Id": 1018,
+    "Name": "昆仑",
+    "Monthes": [
+      {"snow": 0.4},
+      {"snow": 0.3},
+      {"snow": 0.2},
+      {"snow": 0.2},
+      {"thunder": 0.05, "rain": 0.3},
+      {"thunder": 0.05, "rain": 0.3},
+      {"thunder": 0.05, "rain": 0.3},
+      {"thunder": 0.05, "rain": 0.3},
+      {"snow": 0.2},
+      {"snow": 0.2},
+      {"snow": 0.3},
+      {"snow": 0.4}
+    ]
+  },
+  "1019": {
+    "Id": 1019,
+    "Name": "岳麓山",
+    "Monthes": [
+      {"snow": 0.05},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1020": {
+    "Id": 1020,
+    "Name": "雁门关",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1021": {
+    "Id": 1021,
+    "Name": "凉州",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"rain": 0.05},
+      {"rain": 0.05},
+      {"snow": 0.1},
+      {"snow": 0.3}
+    ]
+  },
+  "1022": {
+    "Id": 1022,
+    "Name": "临安",
+    "Monthes": [
+      {"snow": 0.2, "rain": 0.2},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"thunder": 0.1, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"snow": 0.3}
+    ]
+  },
+  "1023": {
+    "Id": 1023,
+    "Name": "永昌",
+    "Monthes": [
+      {"rain": 0.3},
+      {"thunder": 0.1, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"rain": 0.4},
+      {"rain": 0.4},
+      {"rain": 0.3},
+      {"rain": 0.3}
+    ]
+  },
+  "1024": {
+    "Id": 1024,
+    "Name": "大理",
+    "Monthes": [
+      {"rain": 0.3},
+      {"thunder": 0.1, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"rain": 0.4},
+      {"rain": 0.4},
+      {"rain": 0.3},
+      {"rain": 0.3}
+    ]
+  },
+  "1025": {
+    "Id": 1025,
+    "Name": "青龙会",
+    "Monthes": [
+      {"snow": 0.3},
+      {"snow": 0.1, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.2},
+      {"rain": 0.3},
+      {"rain": 0.3},
+      {"snow": 0.2, "rain": 0.1},
+      {"snow": 0.3}
+    ]
+  },
+  "1026": {
+    "Id": 1026,
+    "Name": "侠客岛",
+    "Monthes": [
+      {"rain": 0.3},
+      {"thunder": 0.1, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.2},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"thunder": 0.2, "rain": 0.3},
+      {"rain": 0.4},
+      {"rain": 0.4},
+      {"rain": 0.3},
+      {"rain": 0.3}
+    ]
+  },
+  "2040": {
+    "Id": 2040,
+    "Name": "卧龙湖",
+    "Monthes": [
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1}
+    ]
+  },
+  "2042": {
+    "Id": 2042,
+    "Name": "藏剑门",
+    "Monthes": [
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1}
+    ]
+  },
+  "2047": {
+    "Id": 2047,
+    "Name": "藏剑门",
+    "Monthes": [
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1},
+      {"rain": 1}
+    ]
+  },
+  "4237": {
+    "Id": 4237,
+    "Name": "天山后山",
+    "Monthes": [
+      {"snow": 1},
+      {"snow": 0.8},
+      {"snow": 0.6},
+      {"snow": 0.4},
+      {"snow": 0.2},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"rain": 0.1},
+      {"snow": 0.4},
+      {"snow": 0.6},
+      {"snow": 0.8},
+      {"snow": 1}
+    ]
+  }
+}

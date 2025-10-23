@@ -1,0 +1,51 @@
+{
+  "1": {"Id": 1, "Name": "运镖", "Forbid": ["transport"]},
+  "2": {"Id": 2, "Name": "保护", "Forbid": ["transport"]},
+  "3": {
+    "Id": 3,
+    "Name": "战斗",
+    "Forbid": ["trade", "transport", "input", "sendpos"]
+  },
+  "4": {"Id": 4, "Name": "组队", "Forbid": ["trade"]},
+  "5": {"Id": 5, "Name": "队员", "Forbid": ["walk", "jump"]},
+  "6": {"Id": 6, "Name": "队长"},
+  "7": {"Id": 7, "Name": "跳跃", "Forbid": ["sendpos"]},
+  "8": {"Id": 8, "Name": "drama"},
+  "9": {
+    "Id": 9,
+    "Name": "死亡",
+    "Forbid": ["sendpos", "jumpplate", "walk", "jump"]
+  },
+  "10": {"Id": 10, "Name": "noInput", "Forbid": ["clickmap"]},
+  "11": {"Id": 11, "Name": "noScaleMap", "Forbid": ["scaleMap"]},
+  "12": {
+    "Id": 12,
+    "Name": "tower",
+    "Forbid": [
+      "walk",
+      "jump",
+      "transport",
+      "teleport",
+      "npcclick",
+      "collect",
+      "trade"
+    ]
+  },
+  "13": {
+    "Id": 13,
+    "Name": "hunter",
+    "Forbid": ["walk", "jump", "clickmap"],
+    "Desc": "狩猎"
+  },
+  "14": {"Id": 14, "Name": "clickNpc", "Forbid": ["clickmap"], "Desc": "点npc"},
+  "15": {"Id": 15, "Name": "篝火", "Forbid": ["clickmap"]},
+  "16": {"Id": 16, "Name": "小游戏", "Forbid": ["zoom"]},
+  "17": {"Id": 17, "Name": "enterscene", "Forbid": ["walk", "jump"]},
+  "18": {"Id": 18, "Name": "打水", "Forbid": ["transport", "teleport", "jump"]},
+  "19": {
+    "Id": 19,
+    "Name": "轮回殿",
+    "Forbid": ["transport", "teleport", "jump", "heal"]
+  },
+  "20": {"Id": 20, "Name": "划船", "Forbid": ["transport", "act"]}
+}

@@ -1,0 +1,56 @@
+{
+  "1": {
+    "Id": 1,
+    "Tid": 100520,
+    "TitleFinish": "完成主1",
+    "TitleFail": "失败主1",
+    "TaskFinish": "主线1做完",
+    "TaskFail": "主线1做完f"
+  },
+  "2": {
+    "Id": 2,
+    "Tid": 100522,
+    "TitleFinish": "完成主2",
+    "TitleFail": "失败主2",
+    "TaskFinish": "主线2做完",
+    "TaskFail": "主线2做完f"
+  },
+  "3": {
+    "Id": 3,
+    "Tid": 100524,
+    "TitleFinish": "完成主3",
+    "TitleFail": "失败主3",
+    "TaskFinish": "主线3做完",
+    "TaskFail": "主线3做完f"
+  },
+  "4": {
+    "Id": 4,
+    "Tid": 100526,
+    "TitleFinish": "完成支1",
+    "TitleFail": "失败支1",
+    "TaskFinish": "支线测试1成功",
+    "TaskFail": "支线测试1失败"
+  },
+  "5": {
+    "Id": 5,
+    "Tid": 100527,
+    "TitleFinish": "完成支2",
+    "TitleFail": "失败支2",
+    "TaskFinish": "支线测试2成功",
+    "TaskFail": "支线测试2失败"
+  },
+  "6": {
+    "Id": 6,
+    "Tid": -1,
+    "VirtualEvent": 1,
+    "TitleFinish": "完成虚拟事件1",
+    "TaskFinish": "你在第一年中，完成了虚拟事件1。"
+  },
+  "7": {
+    "Id": 7,
+    "Tid": -1,
+    "VirtualEvent": 2,
+    "TitleFail": "失败虚拟事件2",
+    "TaskFail": "你在第二年中，没能完成虚拟事件2。"
+  }
+}

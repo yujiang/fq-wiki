@@ -1,0 +1,93 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "少林寺",
+    "Type": 1,
+    "Create": {"name": "达摩"},
+    "Grade": 5,
+    "iconSource": "icon_camp_char4_png",
+    "Leader": 110001,
+    "Master": 110002,
+    "Schooltask": 110004,
+    "Dashixiong": 110030,
+    "SinLine": [0, 100, 150, 200, 250, 250],
+    "zm2": 610030
+  },
+  "2": {
+    "Id": 2,
+    "Name": "武当派",
+    "Type": 1,
+    "Grade": 5,
+    "iconSource": "icon_camp_char7_png",
+    "Leader": 100001,
+    "Master": 100002,
+    "Schooltask": 100009,
+    "Dashixiong": 100020,
+    "zm2": 610050
+  },
+  "3": {
+    "Id": 3,
+    "Name": "修罗宫",
+    "Type": 1,
+    "Grade": 5,
+    "iconSource": "icon_camp_char2_png",
+    "Leader": 130001,
+    "Master": 130002,
+    "Schooltask": 130008,
+    "Dashixiong": 130014,
+    "zm2": 610090
+  },
+  "4": {
+    "Id": 4,
+    "Name": "天山派",
+    "Type": 1,
+    "Grade": 5,
+    "iconSource": "icon_camp_char3_png",
+    "Leader": 120001,
+    "Master": 120004,
+    "Schooltask": 120002,
+    "Dashixiong": 120009,
+    "zm2": 610070
+  },
+  "5": {
+    "Id": 5,
+    "Name": "移花宫",
+    "Type": 1,
+    "Grade": 5,
+    "iconSource": "icon_camp_char8_png"
+  },
+  "6": {
+    "Id": 6,
+    "Name": "唐门",
+    "Type": 1,
+    "Grade": 5,
+    "iconSource": "icon_camp_char1_png"
+  },
+  "7": {"Id": 7, "Name": "白鹿", "Type": 1, "Grade": 5},
+  "8": {"Id": 8, "Name": "天山", "Type": 1, "Grade": 5},
+  "10": {"Id": 10, "Name": "朝廷", "Type": 2, "Grade": 7},
+  "11": {
+    "Id": 11,
+    "Name": "青龙会",
+    "Type": 2,
+    "Grade": 6,
+    "Cost": 20108,
+    "iconSource": "icon_camp_char6_png",
+    "MaxLevel": 5
+  },
+  "12": {
+    "Id": 12,
+    "Name": "侠客岛",
+    "Type": 2,
+    "Grade": 6,
+    "Cost": 20108,
+    "iconSource": "icon_camp_char5_png",
+    "MaxLevel": 5
+  },
+  "20": {"Id": 20, "Name": "红花会", "Type": 3, "Grade": 4},
+  "21": {"Id": 21, "Name": "青城", "Type": 3, "Grade": 3},
+  "22": {"Id": 22, "Name": "万兽山庄", "Type": 3, "Grade": 3},
+  "23": {"Id": 23, "Name": "药王谷", "Desc": "坐骑相关", "Type": 3, "Grade": 3},
+  "24": {"Id": 24, "Name": "逍遥海", "Type": 3, "Grade": 3},
+  "25": {"Id": 25, "Name": "密宗", "Type": 3, "Grade": 3}
+}

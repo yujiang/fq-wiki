@@ -1,0 +1,23 @@
+{
+  "jumpSpeed": {"Id": "jumpSpeed", "Name": "起跳向上速度", "Value": 1500},
+  "jumpG": {"Id": "jumpG", "Name": "起跳的g", "Value": 7500},
+  "flySpeed": {"Id": "flySpeed", "Name": "fly向上速度", "Value": 3000},
+  "flyG": {"Id": "flyG", "Name": "fly的g", "Value": 10000},
+  "flyMinTime": {
+    "Id": "flyMinTime",
+    "Name": "秒, 超过这个时间才fly jumpSpeed*2/jumpG >= flyMinTime",
+    "Value": 0.2
+  },
+  "rSign": {"Id": "rSign", "Name": "境界圆半径", "Value": 80},
+  "fallG": {"Id": "fallG", "Name": "掉落的g", "Value": 15000},
+  "moveSpeed": {"Id": "moveSpeed", "Name": "移动速度", "Value": 350},
+  "initSpeed": {"Id": "initSpeed", "Name": "玩家初始速度", "Value": 350},
+  "initHour": {"Id": "initHour", "Name": "玩家初始化小时", "Value": 20},
+  "initTask": {"Id": "initTask", "Name": "玩家初始化任务", "Value": 10101},
+  "initX": {"Id": "initX", "Name": "初始化x", "Value": 168},
+  "initY": {"Id": "initY", "Name": "初始化y", "Value": 70},
+  "initScene": {"Id": "initScene", "Name": "初始化场景", "Value": 1031},
+  "QiecuoCost": {"Id": "QiecuoCost", "Name": "切磋扣体力", "Value": 10},
+  "QingjiaoCost": {"Id": "QingjiaoCost", "Name": "请教扣体力", "Value": 10},
+  "TaoyaoCist": {"Id": "TaoyaoCist", "Name": "讨要扣体力", "Value": 10}
+}

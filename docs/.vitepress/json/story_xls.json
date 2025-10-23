@@ -1,0 +1,2471 @@
+{
+  "1": {
+    "Id": 1,
+    "Task": 6000,
+    "Step": 0,
+    "Prior": 1,
+    "Flag": "task_ready4",
+    "Npc": 1260
+  },
+  "2": {
+    "Id": 2,
+    "Task": 6000,
+    "Step": 1,
+    "Prior": 1,
+    "Flag": "task_ready4",
+    "Npc": 1260
+  },
+  "3": {
+    "Id": 3,
+    "Task": 6000,
+    "Step": 2,
+    "Prior": 1,
+    "Flag": "task_ready4",
+    "Npc": 1262
+  },
+  "4": {
+    "Id": 4,
+    "Task": 6000,
+    "Step": 4,
+    "Prior": 1,
+    "Flag": "task_ready4",
+    "Npc": 1261
+  },
+  "5": {
+    "Id": 5,
+    "Task": 6000,
+    "Step": 6,
+    "Prior": 1,
+    "Flag": "task_ready4",
+    "Npc": 1261
+  },
+  "6": {
+    "Id": 6,
+    "Task": 6002,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "7": {
+    "Id": 7,
+    "Task": 6002,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20373001
+  },
+  "8": {
+    "Id": 8,
+    "Task": 6002,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "9": {
+    "Id": 9,
+    "Task": 6002,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "10": {
+    "Id": 10,
+    "Task": 6002,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_combat",
+    "Npc": 1236
+  },
+  "11": {
+    "Id": 11,
+    "Task": 6002,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "12": {
+    "Id": 12,
+    "Task": 6002,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "13": {
+    "Id": 13,
+    "Task": 6002,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20373002
+  },
+  "14": {
+    "Id": 14,
+    "Task": 6002,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "15": {
+    "Id": 15,
+    "Task": 6002,
+    "Step": 9,
+    "Prior": 100
+  },
+  "16": {
+    "Id": 16,
+    "Task": 6002,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "17": {
+    "Id": 17,
+    "Task": 6002,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1235
+  },
+  "18": {
+    "Id": 18,
+    "Task": 6002,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20373004
+  },
+  "19": {
+    "Id": 19,
+    "Task": 6001,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1255
+  },
+  "20": {
+    "Id": 20,
+    "Task": 6001,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1246
+  },
+  "21": {
+    "Id": 21,
+    "Task": 6001,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1246
+  },
+  "22": {
+    "Id": 22,
+    "Task": 6001,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1246
+  },
+  "23": {
+    "Id": 23,
+    "Task": 6001,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1246
+  },
+  "24": {
+    "Id": 24,
+    "Task": 6003,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "25": {
+    "Id": 25,
+    "Task": 6003,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "26": {
+    "Id": 26,
+    "Task": 6003,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "27": {
+    "Id": 27,
+    "Task": 6003,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "28": {
+    "Id": 28,
+    "Task": 6003,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "29": {
+    "Id": 29,
+    "Task": 6003,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "30": {
+    "Id": 30,
+    "Task": 6003,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "31": {
+    "Id": 31,
+    "Task": 6003,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1245
+  },
+  "32": {
+    "Id": 32,
+    "Task": 6003,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1123
+  },
+  "33": {
+    "Id": 33,
+    "Task": 6003,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1123
+  },
+  "34": {
+    "Id": 34,
+    "Task": 6003,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20383003
+  },
+  "35": {
+    "Id": 35,
+    "Task": 6003,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20383004
+  },
+  "36": {
+    "Id": 36,
+    "Task": 6003,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 20383004
+  },
+  "37": {
+    "Id": 37,
+    "Task": 6003,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1124
+  },
+  "38": {
+    "Id": 38,
+    "Task": 6004,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1274
+  },
+  "39": {
+    "Id": 39,
+    "Task": 6004,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1274
+  },
+  "40": {
+    "Id": 40,
+    "Task": 6004,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1274
+  },
+  "41": {
+    "Id": 41,
+    "Task": 6004,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1276
+  },
+  "42": {
+    "Id": 42,
+    "Task": 6004,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1276
+  },
+  "43": {
+    "Id": 43,
+    "Task": 6004,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1276
+  },
+  "44": {
+    "Id": 44,
+    "Task": 6004,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 2042004
+  },
+  "45": {
+    "Id": 45,
+    "Task": 6004,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1276
+  },
+  "46": {
+    "Id": 46,
+    "Task": 6004,
+    "Step": 6,
+    "Prior": 100,
+    "Condition": 2041005
+  },
+  "47": {
+    "Id": 47,
+    "Task": 6004,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1276
+  },
+  "48": {
+    "Id": 48,
+    "Task": 6004,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 2042001
+  },
+  "49": {
+    "Id": 49,
+    "Task": 6004,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1277
+  },
+  "50": {
+    "Id": 50,
+    "Task": 6004,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 2041001
+  },
+  "51": {
+    "Id": 51,
+    "Task": 6004,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready5",
+    "Trap": 402704
+  },
+  "52": {
+    "Id": 52,
+    "Task": 6004,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_combat",
+    "Npc": 1279
+  },
+  "53": {
+    "Id": 53,
+    "Task": 1007016,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready5",
+    "Trap": 100304,
+    "Condition": 100700313
+  },
+  "54": {
+    "Id": 54,
+    "Desc": "村长",
+    "Task": 200100100,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42327
+  },
+  "55": {
+    "Id": 55,
+    "Desc": "小梳子",
+    "Task": 200100104,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42354
+  },
+  "56": {
+    "Id": 56,
+    "Desc": "南姗",
+    "Task": 200100105,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42332
+  },
+  "57": {
+    "Id": 57,
+    "Task": 200100100,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10005,
+    "Condition": 2001001024
+  },
+  "58": {
+    "Id": 58,
+    "Task": 200100100,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42329,
+    "Condition": 2001001022
+  },
+  "59": {
+    "Id": 59,
+    "Task": 200100100,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42334
+  },
+  "60": {
+    "Id": 60,
+    "Task": 200100100,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42334
+  },
+  "61": {
+    "Id": 61,
+    "Task": 200100100,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1023003,
+    "Condition": 2001001051
+  },
+  "62": {
+    "Id": 62,
+    "Task": 200100100,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42329,
+    "Condition": 2001001052
+  },
+  "63": {
+    "Id": 63,
+    "Task": 200100100,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42310
+  },
+  "64": {
+    "Id": 64,
+    "Task": 200100100,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 4231002
+  },
+  "65": {
+    "Id": 65,
+    "Task": 200100200,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42341
+  },
+  "66": {
+    "Id": 66,
+    "Task": 200100200,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42337
+  },
+  "67": {
+    "Id": 67,
+    "Task": 200100200,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42337
+  },
+  "68": {
+    "Id": 68,
+    "Task": 200100200,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42341
+  },
+  "69": {
+    "Id": 69,
+    "Task": 200100200,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42337
+  },
+  "70": {
+    "Id": 70,
+    "Task": 200100200,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42341
+  },
+  "71": {
+    "Id": 71,
+    "Task": 200100200,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42330
+  },
+  "72": {
+    "Id": 72,
+    "Task": 200100200,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42343
+  },
+  "73": {
+    "Id": 73,
+    "Task": 200100200,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42330
+  },
+  "74": {
+    "Id": 74,
+    "Task": 200100200,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 4231002
+  },
+  "75": {
+    "Id": 75,
+    "Task": 200100300,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42341
+  },
+  "76": {
+    "Id": 76,
+    "Task": 200100300,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42333,
+    "Condition": 2001003011
+  },
+  "77": {
+    "Id": 77,
+    "Task": 200100300,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42328,
+    "Condition": 2001003012
+  },
+  "78": {
+    "Id": 78,
+    "Task": 200100300,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42328
+  },
+  "79": {
+    "Id": 79,
+    "Task": 200100300,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42336
+  },
+  "80": {
+    "Id": 80,
+    "Task": 200100300,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1023014
+  },
+  "81": {
+    "Id": 81,
+    "Task": 200100300,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42348
+  },
+  "82": {
+    "Id": 82,
+    "Task": 200100300,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42350
+  },
+  "83": {
+    "Id": 83,
+    "Task": 200100400,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42327
+  },
+  "84": {
+    "Id": 84,
+    "Task": 200100400,
+    "Step": 1
+  },
+  "85": {
+    "Id": 85,
+    "Task": 200100400,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42315
+  },
+  "86": {
+    "Id": 86,
+    "Task": 200100500,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42341
+  },
+  "87": {
+    "Id": 87,
+    "Task": 200100500,
+    "Step": 2,
+    "Prior": 100
+  },
+  "88": {
+    "Id": 88,
+    "Task": 200100500,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42209
+  },
+  "89": {
+    "Id": 89,
+    "Task": 200100500,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 424002
+  },
+  "90": {
+    "Id": 90,
+    "Task": 200200202,
+    "Step": 0,
+    "Prior": 100
+  },
+  "91": {
+    "Id": 91,
+    "Task": 200200100,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "master"
+  },
+  "92": {
+    "Id": 92,
+    "Task": 200200100,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "schooltask"
+  },
+  "93": {
+    "Id": 93,
+    "Task": 200200100,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "master"
+  },
+  "94": {
+    "Id": 94,
+    "Task": 200200500,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42327
+  },
+  "95": {
+    "Id": 95,
+    "Task": 200200500,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42330
+  },
+  "96": {
+    "Id": 96,
+    "Task": 200200500,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 200200501
+  },
+  "97": {
+    "Id": 97,
+    "Task": 200200500,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403115
+  },
+  "98": {
+    "Id": 98,
+    "Task": 200200500,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403124
+  },
+  "99": {
+    "Id": 99,
+    "Task": 200200500,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1003018
+  },
+  "100": {
+    "Id": 100,
+    "Task": 200200500,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403118
+  },
+  "101": {
+    "Id": 101,
+    "Task": 200200500,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40336
+  },
+  "102": {
+    "Id": 102,
+    "Task": 200200500,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1003019
+  },
+  "103": {
+    "Id": 103,
+    "Task": 200200500,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 200200503
+  },
+  "104": {
+    "Id": 104,
+    "Task": 200200500,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42251
+  },
+  "105": {
+    "Id": 105,
+    "Task": 200200500,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42254
+  },
+  "106": {
+    "Id": 106,
+    "Task": 200200500,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42256
+  },
+  "107": {
+    "Id": 107,
+    "Task": 200200500,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42256
+  },
+  "108": {
+    "Id": 108,
+    "Task": 200200500,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 1222
+  },
+  "109": {
+    "Id": 109,
+    "Task": 200200500,
+    "Step": 15,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403124
+  },
+  "110": {
+    "Id": 110,
+    "Task": 200200500,
+    "Step": 16,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42330
+  },
+  "111": {
+    "Id": 111,
+    "Task": 200200500,
+    "Step": 17,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403123
+  },
+  "112": {
+    "Id": 112,
+    "Task": 200200200,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "zm"
+  },
+  "113": {
+    "Id": 113,
+    "Task": 200200200,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "114": {
+    "Id": 114,
+    "Task": 200200300,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "115": {
+    "Id": 115,
+    "Task": 200200300,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "116": {
+    "Id": 116,
+    "Task": 200200300,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "117": {
+    "Id": 117,
+    "Task": 200200300,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "118": {
+    "Id": 118,
+    "Task": 200200300,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "119": {
+    "Id": 119,
+    "Task": 200200400,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "120": {
+    "Id": 120,
+    "Task": 200200400,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 9644014
+  },
+  "121": {
+    "Id": 121,
+    "Task": 200200400,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 9644013
+  },
+  "122": {
+    "Id": 122,
+    "Task": 200200400,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 42221
+  },
+  "123": {
+    "Id": 123,
+    "Task": 200200400,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 51403
+  },
+  "124": {
+    "Id": 124,
+    "Task": 200300100,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "zm"
+  },
+  "125": {
+    "Id": 125,
+    "Task": 200300100,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40347
+  },
+  "126": {
+    "Id": 126,
+    "Task": 200300100,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40318
+  },
+  "127": {
+    "Id": 127,
+    "Task": 200300100,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403104
+  },
+  "128": {
+    "Id": 128,
+    "Task": 200300100,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready5",
+    "Trap": 200300105
+  },
+  "129": {
+    "Id": 129,
+    "Task": 200300100,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40383
+  },
+  "130": {
+    "Id": 130,
+    "Task": 200300100,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40395
+  },
+  "131": {
+    "Id": 131,
+    "Task": 200300100,
+    "Step": 7,
+    "Prior": 100
+  },
+  "132": {
+    "Id": 132,
+    "Task": 200300100,
+    "Step": 8,
+    "Prior": 100
+  },
+  "133": {
+    "Id": 133,
+    "Task": 200300100,
+    "Step": 9,
+    "Prior": 100
+  },
+  "134": {
+    "Id": 134,
+    "Task": 200300100,
+    "Step": 10,
+    "Prior": 100
+  },
+  "135": {
+    "Id": 135,
+    "Task": 200300100,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40318
+  },
+  "136": {
+    "Id": 136,
+    "Task": 200300100,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready5",
+    "Trap": 200300105
+  },
+  "137": {
+    "Id": 137,
+    "Task": 200300100,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40318
+  },
+  "138": {
+    "Id": 138,
+    "Task": 200300100,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40388
+  },
+  "139": {
+    "Id": 139,
+    "Task": 200300100,
+    "Step": 15,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 403101
+  },
+  "140": {
+    "Id": 140,
+    "Task": 200300100,
+    "Step": 16,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40388
+  },
+  "141": {
+    "Id": 141,
+    "Task": 200300100,
+    "Step": 17,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40394
+  },
+  "142": {
+    "Id": 142,
+    "Task": 200300100,
+    "Step": 18,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40395
+  },
+  "143": {
+    "Id": 143,
+    "Task": 200300100,
+    "Step": 19,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "zm"
+  },
+  "144": {
+    "Id": 144,
+    "Task": 200300200,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "zm"
+  },
+  "145": {
+    "Id": 145,
+    "Task": 200300200,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": "zm"
+  },
+  "146": {
+    "Id": 146,
+    "Task": 200300200,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43301
+  },
+  "147": {
+    "Id": 147,
+    "Task": 200300300,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43302
+  },
+  "148": {
+    "Id": 148,
+    "Task": 200300300,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43302,
+    "Condition": 200300318
+  },
+  "149": {
+    "Id": 149,
+    "Task": 200300300,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43302,
+    "Condition": 200300315
+  },
+  "150": {
+    "Id": 150,
+    "Task": 200300300,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43303,
+    "Condition": 2003003151
+  },
+  "151": {
+    "Id": 151,
+    "Task": 200300300,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43304,
+    "Condition": 3020006046
+  },
+  "152": {
+    "Id": 152,
+    "Task": 200300300,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43303
+  },
+  "153": {
+    "Id": 153,
+    "Task": 200300300,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 43370,
+    "Condition": 200300328
+  },
+  "154": {
+    "Id": 154,
+    "Task": 200300300,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "155": {
+    "Id": 155,
+    "Task": 200300300,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "156": {
+    "Id": 156,
+    "Task": 200300300,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 200300305
+  },
+  "157": {
+    "Id": 157,
+    "Task": 30101000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30101001
+  },
+  "158": {
+    "Id": 158,
+    "Task": 30101000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30101001
+  },
+  "159": {
+    "Id": 159,
+    "Task": 30101000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1003004
+  },
+  "160": {
+    "Id": 160,
+    "Task": 30101000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102007
+  },
+  "161": {
+    "Id": 161,
+    "Task": 30101000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30101006
+  },
+  "162": {
+    "Id": 162,
+    "Task": 30102000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102005
+  },
+  "163": {
+    "Id": 163,
+    "Task": 30102000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102006
+  },
+  "164": {
+    "Id": 164,
+    "Task": 30102000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 30102100
+  },
+  "165": {
+    "Id": 165,
+    "Task": 30102000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102013
+  },
+  "166": {
+    "Id": 166,
+    "Task": 30102000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102011
+  },
+  "167": {
+    "Id": 167,
+    "Task": 30102000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102013
+  },
+  "168": {
+    "Id": 168,
+    "Task": 30102000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 11003001
+  },
+  "169": {
+    "Id": 169,
+    "Task": 30102000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102014
+  },
+  "170": {
+    "Id": 170,
+    "Task": 30102000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 13063001
+  },
+  "171": {
+    "Id": 171,
+    "Task": 30102000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102016
+  },
+  "172": {
+    "Id": 172,
+    "Task": 30103000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103001
+  },
+  "173": {
+    "Id": 173,
+    "Task": 30103000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103002
+  },
+  "174": {
+    "Id": 174,
+    "Task": 30103000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 30103001
+  },
+  "175": {
+    "Id": 175,
+    "Task": 30103000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103004
+  },
+  "176": {
+    "Id": 176,
+    "Task": 30103000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103007
+  },
+  "177": {
+    "Id": 177,
+    "Task": 30103000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 13060001
+  },
+  "178": {
+    "Id": 178,
+    "Task": 30103000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 13060002
+  },
+  "179": {
+    "Id": 179,
+    "Task": 30103000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 30103002
+  },
+  "180": {
+    "Id": 180,
+    "Task": 30103000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103012
+  },
+  "181": {
+    "Id": 181,
+    "Task": 30103000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103013
+  },
+  "182": {
+    "Id": 182,
+    "Task": 30103000,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103010
+  },
+  "183": {
+    "Id": 183,
+    "Task": 30103000,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103011
+  },
+  "184": {
+    "Id": 184,
+    "Task": 30103000,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103002
+  },
+  "185": {
+    "Id": 185,
+    "Task": 30103000,
+    "Step": 15,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103014
+  },
+  "186": {
+    "Id": 186,
+    "Task": 30103000,
+    "Step": 16,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103015
+  },
+  "187": {
+    "Id": 187,
+    "Task": 30103000,
+    "Step": 17,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103019
+  },
+  "188": {
+    "Id": 188,
+    "Task": 30103000,
+    "Step": 20,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103032
+  },
+  "189": {
+    "Id": 189,
+    "Task": 30103000,
+    "Step": 21,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 30103005
+  },
+  "190": {
+    "Id": 190,
+    "Task": 30103000,
+    "Step": 22,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1007004
+  },
+  "191": {
+    "Id": 191,
+    "Task": 30103000,
+    "Step": 23,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103042
+  },
+  "192": {
+    "Id": 192,
+    "Task": 30103000,
+    "Step": 24,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103043
+  },
+  "193": {
+    "Id": 193,
+    "Task": 30103000,
+    "Step": 25,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 13078001
+  },
+  "194": {
+    "Id": 194,
+    "Task": 30104000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 30104000
+  },
+  "195": {
+    "Id": 195,
+    "Task": 30104000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104001
+  },
+  "196": {
+    "Id": 196,
+    "Task": 30104000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104005
+  },
+  "197": {
+    "Id": 197,
+    "Task": 30104000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 13060003
+  },
+  "198": {
+    "Id": 198,
+    "Task": 30104000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104010
+  },
+  "199": {
+    "Id": 199,
+    "Task": 30104000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104008
+  },
+  "200": {
+    "Id": 200,
+    "Task": 30104000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104008
+  },
+  "201": {
+    "Id": 201,
+    "Task": 30105000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104006
+  },
+  "202": {
+    "Id": 202,
+    "Task": 30105000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30105001
+  },
+  "203": {
+    "Id": 203,
+    "Task": 30105000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40308
+  },
+  "204": {
+    "Id": 204,
+    "Task": 30105000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30105001
+  },
+  "205": {
+    "Id": 205,
+    "Task": 30105000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30105001
+  },
+  "206": {
+    "Id": 206,
+    "Task": 30105000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30105001
+  },
+  "207": {
+    "Id": 207,
+    "Task": 30106000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30104007
+  },
+  "208": {
+    "Id": 208,
+    "Task": 30106000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1003004
+  },
+  "209": {
+    "Id": 209,
+    "Task": 30106000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30106005
+  },
+  "210": {
+    "Id": 210,
+    "Task": 30102011,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30102016
+  },
+  "211": {
+    "Id": 211,
+    "Task": 30103027,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30103050
+  },
+  "212": {
+    "Id": 212,
+    "Task": 30106005,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30106016
+  },
+  "213": {
+    "Id": 213,
+    "Task": 30107000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30107001
+  },
+  "214": {
+    "Id": 214,
+    "Task": 30108000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1031007
+  },
+  "215": {
+    "Id": 215,
+    "Task": 30108000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108008
+  },
+  "216": {
+    "Id": 216,
+    "Task": 30108000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "217": {
+    "Id": 217,
+    "Task": 30108000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108011
+  },
+  "218": {
+    "Id": 218,
+    "Task": 30108000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108012
+  },
+  "219": {
+    "Id": 219,
+    "Task": 30108000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40402
+  },
+  "220": {
+    "Id": 220,
+    "Task": 30108000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108014
+  },
+  "221": {
+    "Id": 221,
+    "Task": 30108000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "222": {
+    "Id": 222,
+    "Task": 30108000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 30108002
+  },
+  "223": {
+    "Id": 223,
+    "Task": 30108000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108014
+  },
+  "224": {
+    "Id": 224,
+    "Task": 30108000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108016
+  },
+  "225": {
+    "Id": 225,
+    "Task": 30108000,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 13060004
+  },
+  "226": {
+    "Id": 226,
+    "Task": 30108000,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108018
+  },
+  "227": {
+    "Id": 227,
+    "Task": 30108000,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108016
+  },
+  "228": {
+    "Id": 228,
+    "Task": 30108000,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108016
+  },
+  "229": {
+    "Id": 229,
+    "Task": 30108000,
+    "Step": 15,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108019
+  },
+  "230": {
+    "Id": 230,
+    "Task": 30108000,
+    "Step": 16,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 1008001
+  },
+  "231": {
+    "Id": 231,
+    "Task": 30108000,
+    "Step": 17,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108023
+  },
+  "232": {
+    "Id": 232,
+    "Task": 30108000,
+    "Step": 18,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108026
+  },
+  "233": {
+    "Id": 233,
+    "Task": 30108000,
+    "Step": 19,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40402
+  },
+  "234": {
+    "Id": 234,
+    "Task": 30108000,
+    "Step": 20,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 11004002
+  },
+  "235": {
+    "Id": 235,
+    "Task": 30108000,
+    "Step": 21,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108027
+  },
+  "236": {
+    "Id": 236,
+    "Task": 30108000,
+    "Step": 22,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30108028
+  },
+  "237": {
+    "Id": 237,
+    "Task": 30109000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109001
+  },
+  "238": {
+    "Id": 238,
+    "Task": 30109000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109013
+  },
+  "239": {
+    "Id": 239,
+    "Task": 30109000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109008
+  },
+  "240": {
+    "Id": 240,
+    "Task": 30109000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109013
+  },
+  "241": {
+    "Id": 241,
+    "Task": 30109000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40402
+  },
+  "242": {
+    "Id": 242,
+    "Task": 30109000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109001
+  },
+  "243": {
+    "Id": 243,
+    "Task": 30109000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 40402
+  },
+  "244": {
+    "Id": 244,
+    "Task": 30109000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109038
+  },
+  "245": {
+    "Id": 245,
+    "Task": 30109000,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109001
+  },
+  "246": {
+    "Id": 246,
+    "Task": 30109000,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109041
+  },
+  "247": {
+    "Id": 247,
+    "Task": 30109000,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109042
+  },
+  "248": {
+    "Id": 248,
+    "Task": 30109000,
+    "Step": 15,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109014
+  },
+  "249": {
+    "Id": 249,
+    "Task": 30109000,
+    "Step": 16,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109043
+  },
+  "250": {
+    "Id": 250,
+    "Task": 30109000,
+    "Step": 17,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30109044
+  },
+  "251": {
+    "Id": 251,
+    "Task": 30111000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111002
+  },
+  "252": {
+    "Id": 252,
+    "Task": 30111000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111001
+  },
+  "253": {
+    "Id": 253,
+    "Task": 30111000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111004
+  },
+  "254": {
+    "Id": 254,
+    "Task": 30111000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111005
+  },
+  "255": {
+    "Id": 255,
+    "Task": 30111000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011101,
+    "Condition": 30111100
+  },
+  "256": {
+    "Id": 256,
+    "Task": 30111000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011102,
+    "Condition": 30111101
+  },
+  "257": {
+    "Id": 257,
+    "Task": 30111000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111011
+  },
+  "258": {
+    "Id": 258,
+    "Task": 30111000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111012
+  },
+  "259": {
+    "Id": 259,
+    "Task": 30111000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30111013
+  },
+  "260": {
+    "Id": 260,
+    "Task": 30112000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 30112001
+  },
+  "261": {
+    "Id": 261,
+    "Task": 30112000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "262": {
+    "Id": 262,
+    "Task": 30112000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112001
+  },
+  "263": {
+    "Id": 263,
+    "Task": 30112000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "264": {
+    "Id": 264,
+    "Task": 30112000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "265": {
+    "Id": 265,
+    "Task": 30112000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "266": {
+    "Id": 266,
+    "Task": 30112000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112009
+  },
+  "267": {
+    "Id": 267,
+    "Task": 30112000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "268": {
+    "Id": 268,
+    "Task": 30112000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112013
+  },
+  "269": {
+    "Id": 269,
+    "Task": 30112000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112014
+  },
+  "270": {
+    "Id": 270,
+    "Task": 30112000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112018
+  },
+  "271": {
+    "Id": 271,
+    "Task": 30112000,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112018,
+    "Condition": 30112130
+  },
+  "272": {
+    "Id": 272,
+    "Task": 30112000,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112018
+  },
+  "273": {
+    "Id": 273,
+    "Task": 30112000,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011205
+  },
+  "274": {
+    "Id": 274,
+    "Task": 30112000,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30112013
+  },
+  "275": {
+    "Id": 275,
+    "Task": 30113000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "276": {
+    "Id": 276,
+    "Task": 30113000,
+    "Step": 1,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113005,
+    "Trap": " "
+  },
+  "277": {
+    "Id": 277,
+    "Task": 30113000,
+    "Step": 2,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011302
+  },
+  "278": {
+    "Id": 278,
+    "Task": 30113000,
+    "Step": 3,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "279": {
+    "Id": 279,
+    "Task": 30113000,
+    "Step": 4,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011303
+  },
+  "280": {
+    "Id": 280,
+    "Task": 30113000,
+    "Step": 5,
+    "Prior": 100,
+    "Flag": "task_ready4"
+  },
+  "281": {
+    "Id": 281,
+    "Task": 30113000,
+    "Step": 6,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 3011304
+  },
+  "282": {
+    "Id": 282,
+    "Task": 30113000,
+    "Step": 7,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113010
+  },
+  "283": {
+    "Id": 283,
+    "Task": 30113000,
+    "Step": 8,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113011
+  },
+  "284": {
+    "Id": 284,
+    "Task": 30113000,
+    "Step": 9,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113011,
+    "Condition": 30113130
+  },
+  "285": {
+    "Id": 285,
+    "Task": 30113000,
+    "Step": 10,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113014
+  },
+  "286": {
+    "Id": 286,
+    "Task": 30113000,
+    "Step": 11,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113012
+  },
+  "287": {
+    "Id": 287,
+    "Task": 30113000,
+    "Step": 12,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113012
+  },
+  "288": {
+    "Id": 288,
+    "Task": 30113000,
+    "Step": 13,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113018
+  },
+  "289": {
+    "Id": 289,
+    "Task": 30113000,
+    "Step": 14,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 30113018
+  },
+  "10001": {
+    "Id": 10001,
+    "Desc": "村长",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10001
+  },
+  "10002": {
+    "Id": 10002,
+    "Desc": "小梳子",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10002
+  },
+  "10003": {
+    "Id": 10003,
+    "Desc": "南姗",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10003
+  },
+  "10004": {
+    "Id": 10004,
+    "Desc": "南姗",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10003
+  },
+  "10005": {
+    "Id": 10005,
+    "Desc": "李勇",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10004
+  },
+  "10006": {
+    "Id": 10006,
+    "Desc": "李勇",
+    "Step": 0,
+    "Prior": 99,
+    "Flag": "task_ready4",
+    "Npc": 10004
+  },
+  "10007": {
+    "Id": 10007,
+    "Desc": "李勇",
+    "Step": 0,
+    "Prior": 99,
+    "Flag": "task_ready4",
+    "Npc": 10004
+  },
+  "10008": {
+    "Id": 10008,
+    "Desc": "trap",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Trap": 10001
+  },
+  "10009": {
+    "Id": 10009,
+    "Desc": "小鹿",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10006
+  },
+  "10010": {
+    "Id": 10010,
+    "Desc": "黄四娘",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10007
+  },
+  "10011": {
+    "Id": 10011,
+    "Desc": "小二",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10008
+  },
+  "10012": {
+    "Id": 10012,
+    "Desc": "小二",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10008
+  },
+  "10013": {
+    "Id": 10013,
+    "Desc": "小黄",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10010
+  },
+  "10014": {
+    "Id": 10014,
+    "Desc": "村长",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 10001
+  },
+  "10015": {
+    "Id": 10015,
+    "Desc": "木床",
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Item": 10001
+  },
+  "100001": {
+    "Id": 100001,
+    "Desc": "掌门",
+    "Task": 106000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 100001,
+    "Condition": 100004
+  },
+  "100002": {
+    "Id": 100002,
+    "Desc": "白启",
+    "Task": 106002,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 100002,
+    "Condition": 100008
+  },
+  "100003": {
+    "Id": 100003,
+    "Desc": "白羽",
+    "Task": 106003,
+    "Flag": "task_ready4",
+    "Npc": 100005,
+    "Condition": 100006
+  },
+  "130001": {
+    "Id": 130001,
+    "Desc": "掌门",
+    "Task": 136000,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 130001,
+    "Condition": 130004
+  },
+  "130002": {
+    "Id": 130002,
+    "Desc": "天赐",
+    "Task": 136002,
+    "Step": 0,
+    "Prior": 100,
+    "Flag": "task_ready4",
+    "Npc": 130002,
+    "Condition": 130008
+  }
+}

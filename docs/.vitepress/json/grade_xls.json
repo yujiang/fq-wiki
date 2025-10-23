@@ -1,0 +1,27 @@
+{
+  "2": {"Id": 2, "Grade": 2, "Name": "2级trigger", "Trigger": 201014},
+  "10": {"Id": 10, "Grade": 10, "Name": "10级trigger"},
+  "15": {"Id": 15, "Grade": 15, "Name": "15级trigger"},
+  "20": {"Id": 20, "Grade": 20, "Name": "20级trigger", "Trigger": 209902},
+  "25": {"Id": 25, "Grade": 25, "Name": "25级trigger"},
+  "30": {"Id": 30, "Grade": 30, "Name": "30级trigger", "Trigger": 200200519},
+  "35": {"Id": 35, "Grade": 35, "Name": "35级trigger", "Trigger": 200200414},
+  "40": {"Id": 40, "Grade": 40, "Name": "40级trigger"},
+  "45": {"Id": 45, "Grade": 45, "Name": "45级trigger"},
+  "50": {"Id": 50, "Grade": 50, "Name": "50级trigger"},
+  "60": {"Id": 60, "Grade": 60, "Name": "60级trigger"},
+  "1001": {
+    "Id": 1001,
+    "Name": "获得小梳子",
+    "Desc": "如果只有2个单位获得小梳子,加一个引导上阵",
+    "Trigger": 15040,
+    "Soldier": 10002
+  },
+  "1002": {
+    "Id": 1002,
+    "Grade": 0,
+    "Name": "升级",
+    "Desc": "如果有九曲最后一步的523200,升级发一个邮件",
+    "Trigger": {"530000": 530000}
+  }
+}

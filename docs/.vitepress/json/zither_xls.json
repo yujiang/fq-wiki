@@ -1,0 +1,54 @@
+{
+  "2017": {
+    "Id": 2017,
+    "Name": "十面埋伏",
+    "MusicalLevel": [20, 40, 60, 80, 100],
+    "ZitherLevel": [60, 120, 180, 240, 300],
+    "BuffId": 40027,
+    "Reward": 204101,
+    "Proficiency": 1,
+    "PerfectCounter": 2017,
+    "MissSay": 209911,
+    "GoodSay": 209912,
+    "PerfectSay": 209913
+  },
+  "2018": {
+    "Id": 2018,
+    "Name": "高山流水",
+    "MusicalLevel": [20, 40, 60, 80, 100],
+    "ZitherLevel": [60, 120, 180, 240, 300],
+    "BuffId": 40028,
+    "Reward": 204101,
+    "Proficiency": 1,
+    "PerfectCounter": 2018,
+    "MissSay": 209911,
+    "GoodSay": 209912,
+    "PerfectSay": 209913
+  },
+  "2019": {
+    "Id": 2019,
+    "Name": "小鸟朝凤",
+    "MusicalLevel": [20, 40, 60, 80, 100],
+    "ZitherLevel": [60, 120, 180, 240, 300],
+    "BuffId": 40029,
+    "Reward": 204101,
+    "Proficiency": 1,
+    "PerfectCounter": 2019,
+    "MissSay": 209911,
+    "GoodSay": 209912,
+    "PerfectSay": 209913
+  },
+  "2020": {
+    "Id": 2020,
+    "Name": "平沙落雁",
+    "MusicalLevel": [20, 40, 60, 80, 100],
+    "ZitherLevel": [60, 120, 180, 240, 300],
+    "BuffId": 40030,
+    "Reward": 204101,
+    "Proficiency": 1,
+    "PerfectCounter": 2020,
+    "MissSay": 209911,
+    "GoodSay": 209912,
+    "PerfectSay": 209913
+  }
+}

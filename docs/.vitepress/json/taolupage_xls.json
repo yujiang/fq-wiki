@@ -1,0 +1,5 @@
+{
+  "wu": {"Id": "wu", "Name": "武功", "ActiveMax": 1},
+  "qing": {"Id": "qing", "Name": "轻功", "ActiveMax": 1},
+  "nei": {"Id": "nei", "Name": "内功", "ActiveMax": 1}
+}

@@ -1,0 +1,222 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 160024,
+    "Name": "白莲掌",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 200,
+    "Needs": {"Level": 0, "ShiliLevel": 1},
+    "Sort": 1,
+    "Tag": "青龙武学"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 160025,
+    "Name": "千夫指",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 201,
+    "Needs": {"Level": 0, "ShiliLevel": 2},
+    "Sort": 2,
+    "Tag": "青龙武学"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 160026,
+    "Name": "庖丁解牛",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 202,
+    "Needs": {"Level": 0, "ShiliLevel": 3},
+    "Sort": 3,
+    "Tag": "青龙武学"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 160027,
+    "Name": "逆刃刀诀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 203,
+    "Needs": {"Level": 0, "ShiliLevel": 4},
+    "Sort": 4,
+    "Tag": "青龙武学"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 160028,
+    "Name": "破风刀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 204,
+    "Needs": {"Level": 0, "ShiliLevel": 5},
+    "Sort": 5,
+    "Tag": "青龙武学"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 290120,
+    "Name": "鸳鸯刀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 205,
+    "Needs": {"Level": 0, "ShiliLevel": 1},
+    "Sort": 1,
+    "Tag": "青龙商店"
+  },
+  "7": {
+    "Id": 7,
+    "ItemId": 210120,
+    "Name": "铁剑",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 206,
+    "Needs": {"Level": 0, "ShiliLevel": 2},
+    "Sort": 2,
+    "Tag": "青龙商店"
+  },
+  "8": {
+    "Id": 8,
+    "ItemId": 270120,
+    "Name": "杉木琴",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 207,
+    "Needs": {"Level": 0, "ShiliLevel": 3},
+    "Sort": 3,
+    "Tag": "青龙商店"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 310120,
+    "Name": "柳叶飞刀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 208,
+    "Needs": {"Level": 0, "ShiliLevel": 4},
+    "Sort": 4,
+    "Tag": "青龙商店"
+  },
+  "10": {
+    "Id": 10,
+    "ItemId": 320120,
+    "Name": "铁机关",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 209,
+    "Needs": {"Level": 0, "ShiliLevel": 5},
+    "Sort": 5,
+    "Tag": "青龙商店"
+  },
+  "11": {
+    "Id": 11,
+    "ItemId": 160033,
+    "Name": "游身掌",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 210,
+    "Needs": {"Level": 0, "ShiliLevel": 1},
+    "Sort": 1,
+    "Tag": "侠客武学"
+  },
+  "12": {
+    "Id": 12,
+    "ItemId": 160034,
+    "Name": "三元养气法",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 211,
+    "Needs": {"Level": 0, "ShiliLevel": 2},
+    "Sort": 2,
+    "Tag": "侠客武学"
+  },
+  "13": {
+    "Id": 13,
+    "ItemId": 160035,
+    "Name": "金鳞诀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 212,
+    "Needs": {"Level": 0, "ShiliLevel": 3},
+    "Sort": 3,
+    "Tag": "侠客武学"
+  },
+  "14": {
+    "Id": 14,
+    "ItemId": 160036,
+    "Name": "坤元心法",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 213,
+    "Needs": {"Level": 0, "ShiliLevel": 4},
+    "Sort": 4,
+    "Tag": "侠客武学"
+  },
+  "15": {
+    "Id": 15,
+    "ItemId": 160037,
+    "Name": "游丝悬命诀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 214,
+    "Needs": {"Level": 0, "ShiliLevel": 5},
+    "Sort": 5,
+    "Tag": "侠客武学"
+  },
+  "16": {
+    "Id": 16,
+    "ItemId": 290120,
+    "Name": "鸳鸯刀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 215,
+    "Needs": {"Level": 0, "ShiliLevel": 1},
+    "Sort": 1,
+    "Tag": "侠客商店"
+  },
+  "17": {
+    "Id": 17,
+    "ItemId": 210120,
+    "Name": "铁剑",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 216,
+    "Needs": {"Level": 0, "ShiliLevel": 2},
+    "Sort": 2,
+    "Tag": "侠客商店"
+  },
+  "18": {
+    "Id": 18,
+    "ItemId": 270120,
+    "Name": "杉木琴",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 217,
+    "Needs": {"Level": 0, "ShiliLevel": 3},
+    "Sort": 3,
+    "Tag": "侠客商店"
+  },
+  "19": {
+    "Id": 19,
+    "ItemId": 310120,
+    "Name": "柳叶飞刀",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 218,
+    "Needs": {"Level": 0, "ShiliLevel": 4},
+    "Sort": 4,
+    "Tag": "侠客商店"
+  },
+  "20": {
+    "Id": 20,
+    "ItemId": 320120,
+    "Name": "铁机关",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 219,
+    "Needs": {"Level": 0, "ShiliLevel": 5},
+    "Sort": 5,
+    "Tag": "侠客商店"
+  }
+}

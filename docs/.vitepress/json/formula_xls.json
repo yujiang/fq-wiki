@@ -1,0 +1,15 @@
+{
+  "level": {"Id": "level", "Type": "IN_ARG", "Name": "等级"},
+  "MakeDrugDouble": {
+    "Id": "MakeDrugDouble",
+    "Formula": ["level"],
+    "Type": "OUT_OBJ",
+    "Name": "制作药品双倍概率"
+  },
+  "MakeFoodDouble": {
+    "Id": "MakeFoodDouble",
+    "Formula": ["level"],
+    "Type": "OUT_OBJ",
+    "Name": "制作药品双倍概率"
+  }
+}

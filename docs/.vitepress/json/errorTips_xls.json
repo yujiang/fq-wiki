@@ -1,0 +1,434 @@
+{
+  "Skill_levelup_nocost": {"Id": "Skill_levelup_nocost", "Name": "银两不足，升级失败"},
+  "Skill_levelup_reachmax": {
+    "Id": "Skill_levelup_reachmax",
+    "Name": "技能已经满级，无法升级"
+  },
+  "Skill_levelup_noskill": {"Id": "Skill_levelup_noskill", "Name": "找不到该技能"},
+  "Skill_learn_alreadylearned": {
+    "Id": "Skill_learn_alreadylearned",
+    "Name": "已经学习了该技能"
+  },
+  "Skill_learn_page_invalid": {
+    "Id": "Skill_learn_page_invalid",
+    "Name": "技能学习：技能页无效"
+  },
+  "Skill_levelup_page_invalid": {
+    "Id": "Skill_levelup_page_invalid",
+    "Name": "技能升级：技能页无效"
+  },
+  "Lifeskill_make_money_not_enough": {
+    "Id": "Lifeskill_make_money_not_enough",
+    "Name": "银两不足，制作失败"
+  },
+  "Lifeskill_make_material_not_enough": {
+    "Id": "Lifeskill_make_material_not_enough",
+    "Name": "材料不足，制作失败"
+  },
+  "Lifeskill_make_mastery_insufficient_lv": {
+    "Id": "Lifeskill_make_mastery_insufficient_lv",
+    "Name": "技艺熟练度不足，无法使用该配方"
+  },
+  "Item_sub_notfindcount1": {"Id": "Item_sub_notfindcount1", "Name": "道具不足"},
+  "Skill_boost_page_invalid": {
+    "Id": "Skill_boost_page_invalid",
+    "Name": "技艺突破：技能页无效"
+  },
+  "Skill_boost_noskill": {"Id": "Skill_boost_noskill", "Name": "找不到该技能"},
+  "Skill_boost_reachmax": {"Id": "Skill_boost_reachmax", "Name": "技能已经满级，无法突破"},
+  "Skill_boost_nocost": {"Id": "Skill_boost_nocost", "Name": "道具不足"},
+  "Money_cost_notmuch": {"Id": "Money_cost_notmuch", "Name": "银两不足"},
+  "Lifeskill_make_ore_not_enough": {
+    "Id": "Lifeskill_make_ore_not_enough",
+    "Name": "陨铁不足"
+  },
+  "Taolu_learn_notzaoyi": {"Id": "Taolu_learn_notzaoyi", "Name": "造诣不足"},
+  "Taolu_levelup_nocost": {"Id": "Taolu_levelup_nocost", "Name": "阅历不足，无法修炼"},
+  "Taolu_levelup_reachmax": {
+    "Id": "Taolu_levelup_reachmax",
+    "Name": "当前武学已达最高等级"
+  },
+  "Taolu_learn_notfindtaolu": {
+    "Id": "Taolu_learn_notfindtaolu",
+    "Name": "未配置套路"
+  },
+  "Taolu_active_max": {"Id": "Taolu_active_max", "Name": "已达激发上限"},
+  "Zizhi_mod_timelimit": {"Id": "Zizhi_mod_timelimit", "Name": "已达今日提升次数上限"},
+  "Taolu_levelup_already": {
+    "Id": "Taolu_levelup_already",
+    "Name": "同时只能突破一个武学"
+  },
+  "DailyBonus_reward_alreadyreward": {
+    "Id": "DailyBonus_reward_alreadyreward",
+    "Name": "奖励已领取"
+  },
+  "DailyBonus_reward_cannotreward": {
+    "Id": "DailyBonus_reward_cannotreward",
+    "Name": "未到领取时机"
+  },
+  "Antique_add_pageinvalide": {
+    "Id": "Antique_add_pageinvalide",
+    "Name": "古董添加：古董页无效"
+  },
+  "Antique_add_alreadyaddantique": {
+    "Id": "Antique_add_alreadyaddantique",
+    "Name": "古董添加：重复添加"
+  },
+  "Antique_add_notfindantique": {
+    "Id": "Antique_add_notfindantique",
+    "Name": "古董添加：未找到古董"
+  },
+  "Antique_del_pageinvalide": {
+    "Id": "Antique_del_pageinvalide",
+    "Name": "古董删除：古董页无效"
+  },
+  "Antique_del_notfindantique": {
+    "Id": "Antique_del_notfindantique",
+    "Name": "古董删除：未找到古董"
+  },
+  "Antique_activate_pageinvalide": {
+    "Id": "Antique_activate_pageinvalide",
+    "Name": "古董鉴定：古董页无效"
+  },
+  "Antique_activate_notfindantique": {
+    "Id": "Antique_activate_notfindantique",
+    "Name": "古董鉴定：未找到古董"
+  },
+  "Antique_activate_alreadyactivateantique": {
+    "Id": "Antique_activate_alreadyactivateantique",
+    "Name": "古董已鉴定"
+  },
+  "Antique_activate_failed": {
+    "Id": "Antique_activate_failed",
+    "Name": "古董激活：概率的失败"
+  },
+  "Antique_levelup_pageinvalide": {
+    "Id": "Antique_levelup_pageinvalide",
+    "Name": "古董升级：古董页无效"
+  },
+  "Antique_levelup_notfindantique": {
+    "Id": "Antique_levelup_notfindantique",
+    "Name": "古董升级：未找到古董"
+  },
+  "Antique_levelup_reachmaxlevel": {
+    "Id": "Antique_levelup_reachmaxlevel",
+    "Name": "古董已升至最满星"
+  },
+  "Antique_levelup_money_not_enough": {
+    "Id": "Antique_levelup_money_not_enough",
+    "Name": "银两不足"
+  },
+  "Antique_levelup_item_not_enough": {
+    "Id": "Antique_levelup_item_not_enough",
+    "Name": "升星材料不足"
+  },
+  "Antique_levelup_failed": {"Id": "Antique_levelup_failed", "Name": "升星失败"},
+  "Formation_learn_already": {
+    "Id": "Formation_learn_already",
+    "Name": "已学过该阵法"
+  },
+  "Formation_learn_noprevious": {
+    "Id": "Formation_learn_noprevious",
+    "Name": "阵法学习不能跨品阶"
+  },
+  "Formation_active_already": {
+    "Id": "Formation_active_already",
+    "Name": "阵法重复启用"
+  },
+  "Formation_enter_noactive": {
+    "Id": "Formation_enter_noactive",
+    "Name": "当前未启用任何阵法"
+  },
+  "Formation_enter_full": {"Id": "Formation_enter_full", "Name": "阵法位置已满"},
+  "Shop_buy_shopinfo_invalid": {
+    "Id": "Shop_buy_shopinfo_invalid",
+    "Name": "商店信息无效"
+  },
+  "Shop_buy_goodsinfo_invlalid": {
+    "Id": "Shop_buy_goodsinfo_invlalid",
+    "Name": "商品信息无效"
+  },
+  "Shop_buy_moneytype_invalid": {
+    "Id": "Shop_buy_moneytype_invalid",
+    "Name": "货币信息无效"
+  },
+  "Shop_buy_moneynotenough": {"Id": "Shop_buy_moneynotenough", "Name": "银两不足"},
+  "shop_buy_countinvalid": {"Id": "shop_buy_countinvalid", "Name": "购买数量无效"},
+  "shop_refresh_notimes": {"Id": "shop_refresh_notimes", "Name": "无刷新次数"},
+  "shop_refresh_moneynotenough": {
+    "Id": "shop_refresh_moneynotenough",
+    "Name": "刷新所需货币不足"
+  },
+  "Taolu_accelerate_nocost": {"Id": "Taolu_accelerate_nocost", "Name": "道具不足"},
+  "Soldier_add_friend_notfull": {
+    "Id": "Soldier_add_friend_notfull",
+    "Name": "友好度达到800才可招募"
+  },
+  "NPC_give_gift_faild": {"Id": "NPC_give_gift_faild", "Name": "我对你的礼物不感兴趣"},
+  "Smap_active_itemnotenough": {
+    "Id": "Smap_active_itemnotenough",
+    "Name": "血菩提不足"
+  },
+  "Soldier_add_already": {"Id": "Soldier_add_already", "Name": "已经招募了"},
+  "NPC_interactive_nocost": {"Id": "NPC_interactive_nocost", "Name": "体力不足"},
+  "Point_reset_nocost": {"Id": "Point_reset_nocost", "Name": "元宝不足"},
+  "Enhanch_stone_not_enough": {
+    "Id": "Enhanch_stone_not_enough",
+    "Name": "强化石不足"
+  },
+  "Jump_scene_notactive": {"Id": "Jump_scene_notactive", "Name": "该场景未激活"},
+  "Level_not_active": {"Id": "Level_not_active", "Name": "此关卡内的帐篷尚未激活"},
+  "Level_no_npcid": {"Id": "Level_no_npcid", "Name": "关卡无此NPC信息"},
+  "Level_reset_notimes": {"Id": "Level_reset_notimes", "Name": "关卡无剩余重置次数"},
+  "Soldier_add_notgrade": {"Id": "Soldier_add_notgrade", "Name": "你的等级不符合要求"},
+  "Completion_reward_not_reach_point": {
+    "Id": "Completion_reward_not_reach_point",
+    "Name": "当前进度未达成"
+  },
+  "Completion_reward_already": {
+    "Id": "Completion_reward_already",
+    "Name": "奖励不能重复领取"
+  },
+  "Soldier_add_notsocial": {
+    "Id": "Soldier_add_notsocial",
+    "Name": "未达到招募侠客所需要的社会属性"
+  },
+  "Zizhi_reset_nocost": {"Id": "Zizhi_reset_nocost", "Name": "洗髓丹数量不足"},
+  "Talent_skill_alreadylearned": {
+    "Id": "Talent_skill_alreadylearned",
+    "Name": "已经学会该天赋了"
+  },
+  "Talent_skill_notenough": {
+    "Id": "Talent_skill_notenough",
+    "Name": "激活2个天赋后才可以打书"
+  },
+  "Enhanch_max_level": {"Id": "Enhanch_max_level", "Name": "已经达到最大强化等级"},
+  "Soldier_add_notfriend": {
+    "Id": "Soldier_add_notfriend",
+    "Name": "友好度要达到萍水相逢后才可以招募"
+  },
+  "Point_add_maxtimes": {"Id": "Point_add_maxtimes", "Name": "该丹药已达最大使用次数"},
+  "Point_trans_nocost": {"Id": "Point_trans_nocost", "Name": "银两不足，传承失败"},
+  "Channel_levelup_nocost": {"Id": "Channel_levelup_nocost", "Name": "真气不足"},
+  "Channel_break_nocost": {"Id": "Channel_break_nocost", "Name": "通脉丹不足"},
+  "Channel_unlock_nocost": {"Id": "Channel_unlock_nocost", "Name": "破脉丹不足"},
+  "Channel_trans_nocost": {"Id": "Channel_trans_nocost", "Name": "传承丹不足"},
+  "Channel_unlock_already": {
+    "Id": "Channel_unlock_already",
+    "Name": "当前特效已经激活"
+  },
+  "Channel_levelup_reachmax": {
+    "Id": "Channel_levelup_reachmax",
+    "Name": "当前经脉已全部打通"
+  },
+  "Talent_activelevel_nocost": {
+    "Id": "Talent_activelevel_nocost",
+    "Name": "当前物品数量不足以激活天赋"
+  },
+  "Taolu_levelup_reachcurmax": {
+    "Id": "Taolu_levelup_reachcurmax",
+    "Name": "该武功已缺少后续口诀，无法继续突破"
+  },
+  "Taolu_learn_notschool": {"Id": "Taolu_learn_notschool", "Name": "非本门弟子无法学习"},
+  "Taolu_learn_notmain": {"Id": "Taolu_learn_notmain", "Name": "只有主角可以学"},
+  "Taolu_learn_notcond": {"Id": "Taolu_learn_notcond", "Name": "隐藏条件不满足"},
+  "Taolu_learn_notschoollevel": {
+    "Id": "Taolu_learn_notschoollevel",
+    "Name": "门派等级不足"
+  },
+  "Taolu_learn_notlifeskill": {
+    "Id": "Taolu_learn_notlifeskill",
+    "Name": "门派技艺不足"
+  },
+  "Taolu_learn_notschoolcontr": {
+    "Id": "Taolu_learn_notschoolcontr",
+    "Name": "门派贡献不足"
+  },
+  "Money_cost_nosatiety": {
+    "Id": "Money_cost_nosatiety",
+    "Name": "肚子太撑了，吃不下更多东西了"
+  },
+  "Item_use_equip_notgrade": {
+    "Id": "Item_use_equip_notgrade",
+    "Name": "等级不足，无法装备"
+  },
+  "Taolu_learn_notgrade": {"Id": "Taolu_learn_notgrade", "Name": "等级不足，无法学习套路"},
+  "Formation_active_outcanuse": {
+    "Id": "Formation_active_outcanuse",
+    "Name": "上阵人数过多，激活阵法失败"
+  },
+  "Item_use_drug_gradelimit": {
+    "Id": "Item_use_drug_gradelimit",
+    "Name": "侠客等级不能超过主角，无法使用聚元丹"
+  },
+  "Talent_activelevel_rechmax": {
+    "Id": "Talent_activelevel_rechmax",
+    "Name": "所有天赋都已经激活了！"
+  },
+  "counter_give_times": {"Id": "counter_give_times", "Name": "这件物品今天已经给得够多了！"},
+  "Channel_learn_notfindchannel": {
+    "Id": "Channel_learn_notfindchannel",
+    "Name": "该角色已经激活过这条经脉了！"
+  },
+  "Taolu_rankup_nocost": {"Id": "Taolu_rankup_nocost", "Name": "秘籍数量不足"},
+  "Taolu_rankup_reachmax": {
+    "Id": "Taolu_rankup_reachmax",
+    "Name": "该武功已经达到最大品阶"
+  },
+  "Soldier_fight_dead": {"Id": "Soldier_fight_dead", "Name": "阵亡角色无法上阵"},
+  "Taolu_learn_reachmax": {
+    "Id": "Taolu_learn_reachmax",
+    "Name": " {0}已经学会这套武学了！",
+    "ArgType": "soldier"
+  },
+  "Npc_give_notneed": {"Id": "Npc_give_notneed", "Name": "别人根本不需要这件东西！"},
+  "Item_healhp_noneed": {"Id": "Item_healhp_noneed", "Name": "气血已满！"},
+  "Channel_learn_nottempnpc": {
+    "Id": "Channel_learn_nottempnpc",
+    "Name": "临时npc不可以使用经脉书！"
+  },
+  "Taolu_levelup_nocost0": {"Id": "Taolu_levelup_nocost0", "Name": "武学突破书不足！"},
+  "Item_use_drug_nottemnpc": {
+    "Id": "Item_use_drug_nottemnpc",
+    "Name": "临时npc不可以使用丹药！"
+  },
+  "Gacha_not_cost": {"Id": "Gacha_not_cost", "Name": "召唤侠客消耗不足！"},
+  "Point_reset_noneed": {"Id": "Point_reset_noneed", "Name": "无需重置！"},
+  "ResourcePoint_nocost": {"Id": "ResourcePoint_nocost", "Name": "缺少工具！"},
+  "Gacha_exchange_not_cost": {
+    "Id": "Gacha_exchange_not_cost",
+    "Name": "兑换侠客点数不足！"
+  },
+  "Gacha_timeout": {"Id": "Gacha_timeout", "Name": "卡池已经过期！"},
+  "shop_buy_bag_overlimit": {
+    "Id": "shop_buy_bag_overlimit",
+    "Name": "你的背包放不下更多东西了！"
+  },
+  "Reward_client_notimes": {
+    "Id": "Reward_client_notimes",
+    "Name": "只允许填了times的Reward通过客户端发，否则会刷"
+  },
+  "Task_add_already": {"Id": "Task_add_already", "Name": "已有该任务了！"},
+  "Task_add_shiliwaiting": {
+    "Id": "Task_add_shiliwaiting",
+    "Name": "之前的任务完成不力，等待一会再来吧！"
+  },
+  "Org_notin": {"Id": "Org_notin", "Name": "您未加入该阵营"},
+  "Org_not_enough": {"Id": "Org_not_enough", "Name": "您的贡献值不足"},
+  "Org_max_level": {"Id": "Org_max_level", "Name": "你已达到最高等级"},
+  "Mail_del_notreaded": {
+    "Id": "Mail_del_notreaded",
+    "Name": "信中有重要内容，阅读后才可删除！"
+  },
+  "Lifeskill_make_prescription": {
+    "Id": "Lifeskill_make_prescription",
+    "Name": "这些材料太名贵了，还是请高人制做吧！"
+  },
+  "Soldier_fight_onesummoned": {
+    "Id": "Soldier_fight_onesummoned",
+    "Name": "只能上阵一名召唤系角色！"
+  },
+  "Skill_use_notarget": {"Id": "Skill_use_notarget", "Name": "没有合适的目标"},
+  "Skill_use_nostatus": {"Id": "Skill_use_nostatus", "Name": "技能释放条件不足"},
+  "Skill_use_nosp": {"Id": "Skill_use_nosp", "Name": "真气不足"},
+  "Skill_use_forbidtag": {"Id": "Skill_use_forbidtag", "Name": "技能释放条件不足"},
+  "Skill_use_incd": {"Id": "Skill_use_incd", "Name": "技能在冷却中"},
+  "Skill_use_once": {"Id": "Skill_use_once", "Name": "技能释放次数已达上限"},
+  "Skill_use_notcondtion": {"Id": "Skill_use_notcondtion", "Name": "技能释放条件不足"},
+  "Skill_use_call_nofreepos": {
+    "Id": "Skill_use_call_nofreepos",
+    "Name": "没有空余的位置"
+  },
+  "Lifeskill_make_material_not_level": {
+    "Id": "Lifeskill_make_material_not_level",
+    "Name": "烹饪水平不足以烹饪这道菜品"
+  },
+  "Item_use_drug_zhenqifull": {
+    "Id": "Item_use_drug_zhenqifull",
+    "Name": "丹田真气满了"
+  },
+  "Talent_reborn_notreach_level": {
+    "Id": "Talent_reborn_notreach_level",
+    "Name": "资质平平，无法服用洗髓丹"
+  },
+  "Talent_reborn_noskill": {
+    "Id": "Talent_reborn_noskill",
+    "Name": "所有天赋都都锁住了，无法服用洗髓丹"
+  },
+  "Talent_reborn_nocost": {"Id": "Talent_reborn_nocost", "Name": "洗髓丹数量不足"},
+  "Talent_zizhi_add_maxtimes": {
+    "Id": "Talent_zizhi_add_maxtimes",
+    "Name": "该丹药已达最大服用次数"
+  },
+  "Lifeskill_make_skill_not_exist": {
+    "Id": "Lifeskill_make_skill_not_exist",
+    "Name": "先学会生活技能才能解锁配方"
+  },
+  "Item_use_drug_maxtimes": {
+    "Id": "Item_use_drug_maxtimes",
+    "Name": "该丹药已达最大服用次数"
+  },
+  "Item_cost_notfinditem": {"Id": "Item_cost_notfinditem", "Name": "道具不足！"},
+  "Talent_zizhi_max": {"Id": "Talent_zizhi_max", "Name": "资质已经达到最大了"},
+  "Shilian_already": {"Id": "Shilian_already", "Name": "不可以重复进入试炼"},
+  "Shilian_week_already": {"Id": "Shilian_week_already", "Name": "本周已经完成了试炼"},
+  "Scene_change_nottele": {"Id": "Scene_change_nottele", "Name": "场景不能使用道具传出"},
+  "Item_healhp_forbid": {
+    "Id": "Item_healhp_forbid",
+    "Name": "你处于禁疗中，当前无法恢复生命值"
+  },
+  "Lifeskill_make_item_unlocked": {
+    "Id": "Lifeskill_make_item_unlocked",
+    "Name": "已经学会了该丹方"
+  },
+  "Taolu_learn_schoolreachmax": {
+    "Id": "Taolu_learn_schoolreachmax",
+    "Name": "我所学已经不能教你了."
+  },
+  "Soldier_buy_nomoney": {"Id": "Soldier_buy_nomoney", "Name": "元宝不足"},
+  "Scene_buff_nottele": {"Id": "Scene_buff_nottele", "Name": "你处于禁止传送中"},
+  "Secret_active_onlyonetype": {
+    "Id": "Secret_active_onlyonetype",
+    "Name": "类似的秘技只能激活1个"
+  },
+  "Secret_active_weaponnotmatch": {
+    "Id": "Secret_active_weaponnotmatch",
+    "Name": "武器的类型与秘技不符"
+  },
+  "Secret_active_reachmaxnow": {
+    "Id": "Secret_active_reachmaxnow",
+    "Name": "秘技激活数量满了"
+  },
+  "Collect_machinenocollect": {
+    "Id": "Collect_machinenocollect",
+    "Name": "离资源点太远，无法安放机关"
+  },
+  "Item_use_equip_notplayer": {
+    "Id": "Item_use_equip_notplayer",
+    "Name": "只有玩家才能使用"
+  },
+  "Item_use_equip_notsoldier": {
+    "Id": "Item_use_equip_notsoldier",
+    "Name": "只有伙伴才能使用"
+  },
+  "Channel_reverse_cost": {"Id": "Channel_reverse_cost", "Name": "逆元丹不足"},
+  "Taolu_levelup_unfinished": {
+    "Id": "Taolu_levelup_unfinished",
+    "Name": "套路正在突破中"
+  },
+  "Taolu_learn_notmaxlevel": {
+    "Id": "Taolu_learn_notmaxlevel",
+    "Name": "套路当前还没有学满"
+  },
+  "Buff_add_nooverlap": {"Id": "Buff_add_nooverlap", "Name": "上一个buff还存在"},
+  "Buff_add_condition": {"Id": "Buff_add_condition", "Name": "buff的条件不满足"},
+  "Item_use_compusenotnum": {"Id": "Item_use_compusenotnum", "Name": "合成数目不足"},
+  "Item_use_nouse": {"Id": "Item_use_nouse", "Name": "没有使用类型"},
+  "Taolu_levelup_nocostitem": {
+    "Id": "Taolu_levelup_nocostitem",
+    "Name": "{0}不足",
+    "ArgType": "item"
+  },
+  "Collect_machinenotxls": {"Id": "Collect_machinenotxls", "Name": "此处不允许安放机关"},
+  "Collect_dropmachine": {"Id": "Collect_dropmachine", "Name": "此处已经安放了机关"}
+}

@@ -1,0 +1,14 @@
+{
+  "1008": {
+    "Id": 1008,
+    "Name": "鸡窝",
+    "Nest": 30012,
+    "Distance": 300,
+    "Drama": "tigger/attractStart",
+    "Action": "tiger/eat",
+    "Time": 10,
+    "DramaEnd": "tigger/attractEnd",
+    "Back": 1,
+    "Tips": "母鸡下了一个蛋"
+  }
+}

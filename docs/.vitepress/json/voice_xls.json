@@ -1,0 +1,380 @@
+{
+  "10001": {
+    "Id": 10001,
+    "Name": "袁千手",
+    "prompt": 10001,
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10002": {
+    "Id": 10002,
+    "Name": "小梳子",
+    "prompt": "小梳子",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10003": {
+    "Id": 10003,
+    "Name": "南姗",
+    "prompt": "南姗",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10004": {
+    "Id": 10004,
+    "Name": "李勇",
+    "prompt": "李勇",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10005": {
+    "Id": 10005,
+    "Name": "傀戏人",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10007": {
+    "Id": 10007,
+    "Name": "黄四娘",
+    "prompt": "黄四娘",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10008": {
+    "Id": 10008,
+    "Name": "店小二",
+    "prompt": "青年男3",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10009": {
+    "Id": 10009,
+    "Name": "客人",
+    "prompt": "青年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10011": {
+    "Id": 10011,
+    "Name": "苏真真",
+    "prompt": "青年女1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10012": {
+    "Id": 10012,
+    "Name": "铁匠",
+    "prompt": "铁匠",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10013": {
+    "Id": 10013,
+    "Name": "巫云鹏",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10014": {
+    "Id": 10014,
+    "Name": "云翼",
+    "prompt": "云中阁主",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10015": {
+    "Id": 10015,
+    "Name": "胡秋侠",
+    "prompt": "威严长者1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10017": {
+    "Id": 10017,
+    "Name": "袁千手",
+    "prompt": 10001,
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10018": {
+    "Id": 10018,
+    "Name": "张富贵",
+    "prompt": "青年男4",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10019": {
+    "Id": 10019,
+    "Name": "吃鱼的客人",
+    "prompt": "青年男5",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10020": {
+    "Id": 10020,
+    "Name": "张富贵",
+    "prompt": "青年男4",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10021": {
+    "Id": 10021,
+    "Name": "九儿",
+    "prompt": "小女孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10022": {
+    "Id": 10022,
+    "Name": "柒柒",
+    "prompt": "小女孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10023": {
+    "Id": 10023,
+    "Name": "老五",
+    "prompt": "小男孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10024": {
+    "Id": 10024,
+    "Name": "二蛋",
+    "prompt": "小男孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10025": {
+    "Id": 10025,
+    "Name": "胡秋侠",
+    "prompt": "威严长者1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10026": {
+    "Id": 10026,
+    "Name": "九儿",
+    "prompt": "小女孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10027": {
+    "Id": 10027,
+    "Name": "柒柒",
+    "prompt": "小女孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10028": {
+    "Id": 10028,
+    "Name": "老五",
+    "prompt": "小男孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10029": {
+    "Id": 10029,
+    "Name": "二蛋",
+    "prompt": "小男孩1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10030": {
+    "Id": 10030,
+    "Name": "胡秋侠",
+    "prompt": "威严长者1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10031": {
+    "Id": 10031,
+    "Name": "小梳子",
+    "prompt": "小梳子",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10032": {
+    "Id": 10032,
+    "Name": "黑衣人",
+    "prompt": "青年男5",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10035": {
+    "Id": 10035,
+    "Name": "庄淑",
+    "prompt": "中年女1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10036": {
+    "Id": 10036,
+    "Name": "张仁金",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10037": {
+    "Id": 10037,
+    "Name": "刘贤",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10039": {
+    "Id": 10039,
+    "Name": "张富贵",
+    "prompt": "青年男4",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10040": {
+    "Id": 10040,
+    "Name": "黑衣人?",
+    "prompt": "青年男5",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10045": {
+    "Id": 10045,
+    "Name": "张富贵",
+    "prompt": "青年男4",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10046": {
+    "Id": 10046,
+    "Name": "张仁金",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10047": {
+    "Id": 10047,
+    "Name": "店小二",
+    "prompt": "青年男3",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10048": {
+    "Id": 10048,
+    "Name": "黄四娘",
+    "prompt": "黄四娘",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10049": {
+    "Id": 10049,
+    "Name": "苏真真",
+    "prompt": "少女1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10050": {
+    "Id": 10050,
+    "Name": "李和",
+    "prompt": "青年男5",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10051": {
+    "Id": 10051,
+    "Name": "张大牙",
+    "prompt": "青年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10052": {
+    "Id": 10052,
+    "Name": "蒋林生",
+    "prompt": "青年男3",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10056": {
+    "Id": 10056,
+    "Name": "南姗",
+    "prompt": "南姗",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10062": {
+    "Id": 10062,
+    "Name": "车夫",
+    "prompt": "青年男4",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10065": {
+    "Id": 10065,
+    "Name": "杏花村后山带路李勇",
+    "prompt": "李勇",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10066": {
+    "Id": 10066,
+    "Name": "李勇",
+    "prompt": "李勇",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10085": {
+    "Id": 10085,
+    "Name": "韩老板",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10090": {
+    "Id": 10090,
+    "Name": "牧天风",
+    "prompt": "青年男3",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10091": {
+    "Id": 10091,
+    "Name": "水柔云",
+    "prompt": "少女1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "10093": {
+    "Id": 10093,
+    "Name": "小梳子",
+    "prompt": "小梳子",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "19997": {
+    "Id": 19997,
+    "Name": "黑衣人",
+    "prompt": "青年男5",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "19998": {
+    "Id": 19998,
+    "Name": "武曲",
+    "prompt": "中年男2",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "19999": {
+    "Id": 19999,
+    "Name": "廉贞",
+    "prompt": "中年女1",
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  },
+  "50059": {
+    "Id": 50059,
+    "Name": "骊珠",
+    "prompt": 50059,
+    "emo_control_method": "使用情感描述文本控制",
+    "emo_weight": 0.8
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "1": {
+    "Id": 1,
+    "display": {
+      "name": "无名",
+      "shape": 300,
+      "icon": 300,
+      "draw": 300,
+      "weapon": 1,
+      "sex": 0
+    },
+    "pointdata": 1,
+    "basedata": 1,
+    "zizhidata": 1,
+    "talentdata": 1,
+    "grade": 1
+  },
+  "2": {
+    "Id": 2,
+    "display": {
+      "name": "主角",
+      "shape": 500,
+      "icon": 500,
+      "draw": 500,
+      "weapon": 1,
+      "sex": 1
+    },
+    "pointdata": 1,
+    "basedata": 1,
+    "zizhidata": 2,
+    "talentdata": 2,
+    "grade": 1
+  },
+  "10002": {
+    "Id": 10002,
+    "Tags": ["client"],
+    "display": {
+      "name": "小梳子",
+      "类型tag": "剑",
+      "shape": 2093,
+      "icon": 2093,
+      "draw": 2093,
+      "weapon": 2001,
+      "sex": 1
+    },
+    "pointdata": 101,
+    "basedata": 2,
+    "zizhidata": 21000001,
+    "talentdata": 10002,
+    "grade": 1,
+    "weapon": "剑",
+    "Taolu": {
+      "Wu": {"id": 60110, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [210110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20001,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3,
+    "SayNpc": {"59003": 50002}
+  },
+  "10003": {
+    "Id": 10003,
+    "Tags": ["client"],
+    "display": {
+      "name": "南姗",
+      "类型tag": "琴",
+      "shape": 2200,
+      "icon": 2200,
+      "draw": 2200,
+      "weapon": 5001,
+      "sex": 1
+    },
+    "pointdata": 114,
+    "basedata": 15,
+    "zizhidata": 21000014,
+    "talentdata": 10004,
+    "grade": 1,
+    "weapon": "琴",
+    "Taolu": {
+      "Wu": {"id": 60093, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [270110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20014,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3
+  },
+  "10005": {
+    "Id": 10005,
+    "Tags": ["client"],
+    "display": {
+      "name": "傀戏人",
+      "类型tag": "机关",
+      "shape": 2143,
+      "icon": 2143,
+      "draw": 2143,
+      "sex": 0
+    },
+    "pointdata": 106,
+    "basedata": 7,
+    "zizhidata": 21000006,
+    "grade": 1,
+    "weapon": "机关",
+    "Taolu": {
+      "Wu": {"id": 60095, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [320110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100],
+      [120001, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20006
+  },
+  "10018": {
+    "Id": 10018,
+    "Tags": ["client"],
+    "display": {
+      "name": "张富贵",
+      "类型tag": "拳",
+      "shape": 2003,
+      "icon": 2003,
+      "draw": 2003,
+      "sex": 0
+    },
+    "pointdata": 119,
+    "basedata": 20,
+    "zizhidata": 21000019,
+    "talentdata": 10003,
+    "grade": 1,
+    "weapon": "拳",
+    "Taolu": {
+      "Wu": {"id": 60050, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [280110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20019,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3
+  },
+  "50045": {
+    "Id": 50045,
+    "Tags": ["client"],
+    "display": {
+      "name": "破戒僧",
+      "类型tag": "棍",
+      "shape": 1103,
+      "icon": 1103,
+      "draw": 1103,
+      "weapon": 4022,
+      "sex": 0
+    },
+    "pointdata": 102,
+    "basedata": 3,
+    "zizhidata": 21000002,
+    "talentdata": 10006,
+    "grade": 1,
+    "weapon": "棍",
+    "Taolu": {
+      "Wu": {"id": 60049, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [300110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20002,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3
+  },
+  "50059": {
+    "Id": 50059,
+    "Tags": ["client"],
+    "display": {
+      "name": "骊珠",
+      "类型tag": "暗器",
+      "shape": 2206,
+      "icon": 2206,
+      "draw": 2206,
+      "sex": 1
+    },
+    "pointdata": 102,
+    "basedata": 3,
+    "zizhidata": 21000002,
+    "talentdata": 10005,
+    "grade": 1,
+    "weapon": "暗器",
+    "Taolu": {
+      "Wu": {"id": 60094, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [310110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20002,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3
+  },
+  "50093": {
+    "Id": 50093,
+    "Tags": ["client"],
+    "display": {
+      "name": "钱芷薇",
+      "shape": 2091,
+      "icon": 2091,
+      "draw": 2091,
+      "sex": 1
+    },
+    "pointdata": 101,
+    "basedata": 1,
+    "zizhidata": 1,
+    "grade": 20,
+    "Taolu": {
+      "Wu": {"id": 60037, "level": 20, "rank": 2},
+      "Nei": {"id": 60053, "level": 39, "rank": 1},
+      "Qing": {"id": 60055, "level": 39, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "DisableTrain": 1,
+    "AutoFight": 1
+  },
+  "53004": {
+    "Id": 53004,
+    "Tags": ["client"],
+    "display": {
+      "name": "狄去邪",
+      "类型tag": "刀",
+      "shape": 2192,
+      "icon": 2192,
+      "draw": 2192,
+      "sex": 0
+    },
+    "pointdata": 113,
+    "basedata": 14,
+    "zizhidata": 21000013,
+    "talentdata": 10007,
+    "grade": 1,
+    "weapon": "刀",
+    "Taolu": {
+      "Wu": {"id": 60052, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [290110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20013,
+    "Origin": 1,
+    "MallClickTips": "完成剧情后可招募",
+    "Rank": 3
+  },
+  "210008": {
+    "Id": 210008,
+    "Tags": ["client"],
+    "display": {
+      "name": "暮成雪",
+      "类型tag": "剑",
+      "shape": 2096,
+      "icon": 2096,
+      "draw": 2096,
+      "sex": 1
+    },
+    "pointdata": 108,
+    "basedata": 9,
+    "zizhidata": 21000008,
+    "grade": 1,
+    "weapon": "剑",
+    "Taolu": {
+      "Wu": {"id": 60051, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [210110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20008,
+    "Price": [1, 3000],
+    "Origin": 3,
+    "Rank": 4
+  },
+  "210010": {
+    "Id": 210010,
+    "Tags": ["client"],
+    "display": {
+      "name": "祁衍",
+      "类型tag": "棍",
+      "shape": 2097,
+      "icon": 2097,
+      "draw": 2097,
+      "sex": 0
+    },
+    "pointdata": 110,
+    "basedata": 11,
+    "zizhidata": 21000010,
+    "grade": 1,
+    "weapon": "棍",
+    "Taolu": {
+      "Wu": {"id": 60049, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [300110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20010,
+    "Price": [1, 2400],
+    "Origin": 3,
+    "Rank": 4
+  },
+  "210011": {
+    "Id": 210011,
+    "Tags": ["client"],
+    "display": {
+      "name": "岑小婉",
+      "类型tag": "拳",
+      "shape": 2092,
+      "icon": 2092,
+      "draw": 2092,
+      "sex": 1
+    },
+    "pointdata": 111,
+    "basedata": 12,
+    "zizhidata": 21000011,
+    "grade": 1,
+    "weapon": "拳",
+    "Taolu": {
+      "Wu": {"id": 60050, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [280110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20011,
+    "Price": [1, 2800],
+    "Origin": 3,
+    "Rank": 4
+  },
+  "210012": {
+    "Id": 210012,
+    "Tags": ["client"],
+    "display": {
+      "name": "雷雳",
+      "类型tag": "刀",
+      "shape": 2083,
+      "icon": 2083,
+      "draw": 2083,
+      "sex": 0
+    },
+    "pointdata": 112,
+    "basedata": 13,
+    "zizhidata": 21000012,
+    "grade": 1,
+    "weapon": "刀",
+    "Taolu": {
+      "Wu": {"id": 60052, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [290110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20012,
+    "Price": [1, 3000],
+    "Origin": 3,
+    "Rank": 4
+  },
+  "21000003": {
+    "Id": 21000003,
+    "Tags": ["client"],
+    "display": {
+      "name": "云中阁主",
+      "类型tag": "拳",
+      "shape": 2177,
+      "icon": 2177,
+      "draw": 2177,
+      "sex": 0
+    },
+    "pointdata": 103,
+    "basedata": 4,
+    "zizhidata": 21000003,
+    "grade": 1,
+    "weapon": "拳",
+    "Taolu": {
+      "Wu": {"id": 60050, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [280110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20003
+  },
+  "21000004": {
+    "Id": 21000004,
+    "Tags": ["client"],
+    "display": {
+      "name": "萨二娘",
+      "类型tag": "刀",
+      "shape": 2114,
+      "icon": 2114,
+      "draw": 2114,
+      "sex": 1
+    },
+    "pointdata": 104,
+    "basedata": 5,
+    "zizhidata": 21000004,
+    "grade": 1,
+    "weapon": "刀",
+    "Taolu": {
+      "Wu": {"id": 60052, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [290110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20004
+  },
+  "21000005": {
+    "Id": 21000005,
+    "Tags": ["client"],
+    "display": {
+      "name": "胡秋侠",
+      "类型tag": "拳",
+      "shape": 2133,
+      "icon": 2133,
+      "draw": 2133,
+      "sex": 0
+    },
+    "pointdata": 105,
+    "basedata": 6,
+    "zizhidata": 21000005,
+    "grade": 1,
+    "weapon": "拳",
+    "Taolu": {
+      "Wu": {"id": 60050, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [280110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20005
+  },
+  "21000007": {
+    "Id": 21000007,
+    "Tags": ["client"],
+    "display": {
+      "name": "吕轻侯",
+      "类型tag": "剑",
+      "shape": 1102,
+      "icon": 1102,
+      "draw": 1102,
+      "sex": 0
+    },
+    "pointdata": 107,
+    "basedata": 8,
+    "zizhidata": 21000007,
+    "grade": 1,
+    "weapon": "剑",
+    "Taolu": {
+      "Wu": {"id": 60051, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [210110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20007
+  },
+  "21000009": {
+    "Id": 21000009,
+    "Tags": ["client"],
+    "display": {
+      "name": "持戒",
+      "类型tag": "棍",
+      "shape": 2094,
+      "icon": 2094,
+      "draw": 2094,
+      "sex": 0
+    },
+    "pointdata": 109,
+    "basedata": 10,
+    "zizhidata": 21000009,
+    "grade": 1,
+    "weapon": "棍",
+    "Taolu": {
+      "Wu": {"id": 60049, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [290110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20009
+  },
+  "21000015": {
+    "Id": 21000015,
+    "Tags": ["client"],
+    "display": {
+      "name": "唐七",
+      "类型tag": "暗器",
+      "shape": 2175,
+      "icon": 2175,
+      "draw": 2175,
+      "sex": 0
+    },
+    "pointdata": 115,
+    "basedata": 16,
+    "zizhidata": 21000015,
+    "grade": 1,
+    "weapon": "暗器",
+    "Taolu": {
+      "Wu": {"id": 60094, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [310110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20015,
+    "Origin": 2,
+    "MallClickTips": "活动限定",
+    "Rank": 5
+  },
+  "21000016": {
+    "Id": 21000016,
+    "Tags": ["client"],
+    "display": {
+      "name": "巩霄",
+      "类型tag": "御兽",
+      "shape": 2090,
+      "icon": 2090,
+      "draw": 2090,
+      "sex": 1
+    },
+    "pointdata": 116,
+    "basedata": 17,
+    "zizhidata": 21000016,
+    "grade": 1,
+    "weapon": "御兽",
+    "Taolu": {
+      "Wu": {"id": 60096, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [330110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100],
+      [110001, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20016,
+    "Origin": 2,
+    "MallClickTips": "活动限定",
+    "Rank": 5
+  },
+  "21000017": {
+    "Id": 21000017,
+    "Tags": ["client"],
+    "display": {
+      "name": "阿紫",
+      "类型tag": "御蛊",
+      "shape": 6004,
+      "icon": 6004,
+      "draw": 6004,
+      "sex": 1
+    },
+    "pointdata": 117,
+    "basedata": 18,
+    "zizhidata": 21000017,
+    "grade": 1,
+    "weapon": "御蛊",
+    "Taolu": {
+      "Wu": {"id": 60097, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [340110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100],
+      [130001, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20017
+  },
+  "21000018": {
+    "Id": 21000018,
+    "Tags": ["client"],
+    "display": {
+      "name": "苏真真",
+      "类型tag": "剑",
+      "shape": 2073,
+      "icon": 2073,
+      "draw": 2073,
+      "sex": 1
+    },
+    "pointdata": 118,
+    "basedata": 19,
+    "zizhidata": 21000018,
+    "grade": 1,
+    "weapon": "剑",
+    "Taolu": {
+      "Wu": {"id": 60051, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [7, 8, 9],
+    "equip": [
+      [210110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20018
+  },
+  "21000020": {
+    "Id": 21000020,
+    "Tags": ["client"],
+    "display": {
+      "name": "王大勇",
+      "类型tag": "暗器",
+      "shape": 1040,
+      "icon": 1040,
+      "draw": 1040,
+      "sex": 0
+    },
+    "pointdata": 120,
+    "basedata": 21,
+    "zizhidata": 21000020,
+    "grade": 1,
+    "weapon": "暗器",
+    "Taolu": {
+      "Wu": {"id": 60094, "level": 1, "rank": 1},
+      "Nei": {"id": 60053, "level": 1, "rank": 1},
+      "Qing": {"id": 60055, "level": 1, "rank": 1}
+    },
+    "position": [2, 3, 4],
+    "equip": [
+      [310110, 1, 100],
+      [250110, 1, 100],
+      [220110, 1, 100],
+      [240110, 1, 100],
+      [230110, 1, 100],
+      [260110, 1, 100]
+    ],
+    "UnlockCondition": 285,
+    "NameIcon": 20020
+  }
+}

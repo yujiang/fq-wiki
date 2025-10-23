@@ -1,0 +1,259 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "晓晓",
+    "ShortName": "zh-CN-XiaoxiaoNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "assistant",
+      "chat",
+      "customerservice",
+      "newscast",
+      "affectionate",
+      "angry",
+      "calm",
+      "cheerful",
+      "disgruntled",
+      "fearful",
+      "gentle",
+      "lyrical",
+      "sad",
+      "serious",
+      "poetry-reading"
+    ]
+  },
+  "2": {
+    "Id": 2,
+    "Name": "云扬",
+    "ShortName": "zh-CN-YunyangNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "customerservice",
+      "narration-professional",
+      "newscast-casual"
+    ]
+  },
+  "3": {
+    "Id": 3,
+    "Name": "晓辰",
+    "ShortName": "zh-CN-XiaochenNeural",
+    "Sex": "Female"
+  },
+  "4": {
+    "Id": 4,
+    "Name": "晓涵",
+    "ShortName": "zh-CN-XiaohanNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad",
+      "gentle",
+      "affectionate",
+      "embarrassed"
+    ]
+  },
+  "5": {
+    "Id": 5,
+    "Name": "晓墨",
+    "ShortName": "zh-CN-XiaomoNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "embarrassed",
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad",
+      "depressed",
+      "affectionate",
+      "gentle",
+      "envious"
+    ]
+  },
+  "6": {
+    "Id": 6,
+    "Name": "晓秋",
+    "ShortName": "zh-CN-XiaoqiuNeural",
+    "Sex": "Female"
+  },
+  "7": {
+    "Id": 7,
+    "Name": "晓睿",
+    "ShortName": "zh-CN-XiaoruiNeural",
+    "Sex": "Female",
+    "StyleList": ["calm", "fearful", "angry", "sad"]
+  },
+  "8": {
+    "Id": 8,
+    "Name": "晓双",
+    "ShortName": "zh-CN-XiaoshuangNeural",
+    "Sex": "Female",
+    "StyleList": ["chat"]
+  },
+  "9": {
+    "Id": 9,
+    "Name": "晓萱",
+    "ShortName": "zh-CN-XiaoxuanNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "gentle",
+      "depressed"
+    ]
+  },
+  "10": {
+    "Id": 10,
+    "Name": "晓颜",
+    "ShortName": "zh-CN-XiaoyanNeural",
+    "Sex": "Female"
+  },
+  "11": {
+    "Id": 11,
+    "Name": "晓悠",
+    "ShortName": "zh-CN-XiaoyouNeural",
+    "Sex": "Female"
+  },
+  "12": {
+    "Id": 12,
+    "Name": "云希",
+    "ShortName": "zh-CN-YunxiNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "narration-relaxed",
+      "embarrassed",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad",
+      "depressed",
+      "chat",
+      "assistant",
+      "newscast"
+    ]
+  },
+  "13": {
+    "Id": 13,
+    "Name": "云野",
+    "ShortName": "zh-CN-YunyeNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "embarrassed",
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad"
+    ]
+  },
+  "14": {
+    "Id": 14,
+    "Name": "晓梦",
+    "ShortName": "zh-CN-XiaomengNeural",
+    "Sex": "Female",
+    "StyleList": ["chat"]
+  },
+  "15": {
+    "Id": 15,
+    "Name": "晓伊",
+    "ShortName": "zh-CN-XiaoyiNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "angry",
+      "disgruntled",
+      "affectionate",
+      "cheerful",
+      "fearful",
+      "sad",
+      "embarrassed",
+      "serious",
+      "gentle"
+    ]
+  },
+  "16": {
+    "Id": 16,
+    "Name": "晓甄",
+    "ShortName": "zh-CN-XiaozhenNeural",
+    "Sex": "Female",
+    "StyleList": [
+      "angry",
+      "disgruntled",
+      "cheerful",
+      "fearful",
+      "sad",
+      "serious"
+    ]
+  },
+  "17": {
+    "Id": 17,
+    "Name": "云枫",
+    "ShortName": "zh-CN-YunfengNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "angry",
+      "disgruntled",
+      "cheerful",
+      "fearful",
+      "sad",
+      "serious",
+      "depressed"
+    ]
+  },
+  "18": {
+    "Id": 18,
+    "Name": "云皓",
+    "ShortName": "zh-CN-YunhaoNeural",
+    "Sex": "Male",
+    "StyleList": ["advertisement-upbeat"]
+  },
+  "19": {
+    "Id": 19,
+    "Name": "云健",
+    "ShortName": "zh-CN-YunjianNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "Narration-relaxed",
+      "Sports_commentary",
+      "Sports_commentary_excited"
+    ]
+  },
+  "20": {
+    "Id": 20,
+    "Name": "云夏",
+    "ShortName": "zh-CN-YunxiaNeural",
+    "Sex": "Male",
+    "StyleList": ["calm", "fearful", "cheerful", "angry", "sad"]
+  },
+  "21": {
+    "Id": 21,
+    "Name": "云泽",
+    "ShortName": "zh-CN-YunzeNeural",
+    "Sex": "Male",
+    "StyleList": [
+      "calm",
+      "fearful",
+      "cheerful",
+      "disgruntled",
+      "serious",
+      "angry",
+      "sad",
+      "depressed",
+      "documentary-narration"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "白色": {
+    "Id": "白色",
+    "Color": 16777215,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar.png",
+    "ResDirWield": "ui_skins/common/tile/img_skill_bar.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_1.png"
+  },
+  "绿色": {
+    "Id": "绿色",
+    "Color": 116014,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_3.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_3.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_2.png"
+  },
+  "蓝色": {
+    "Id": "蓝色",
+    "Color": 2602239,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_4.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_4.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_3.png"
+  },
+  "粉色": {
+    "Id": "粉色",
+    "Color": 16597105,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_6.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_6.png"
+  },
+  "紫色": {
+    "Id": "紫色",
+    "Color": 13319423,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_5.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_5.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_4.png"
+  },
+  "橙色": {
+    "Id": "橙色",
+    "Color": 15694398,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_7.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_7.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_5.png"
+  },
+  "红色": {
+    "Id": "红色",
+    "Color": 14299698,
+    "ResDir": "ui_skins/common/tile/bag/img_skill_bar_8.png",
+    "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_8.png",
+    "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_6.png"
+  },
+  "红色未达成": {"Id": "红色未达成", "Color": 16711680},
+  "洗髓绿色": {
+    "Id": "洗髓绿色",
+    "Color": 116014,
+    "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_2.png"
+  },
+  "洗髓蓝色": {
+    "Id": "洗髓蓝色",
+    "Color": 2602239,
+    "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_3.png"
+  },
+  "洗髓紫色": {
+    "Id": "洗髓紫色",
+    "Color": 13319423,
+    "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_4.png"
+  },
+  "洗髓红色": {
+    "Id": "洗髓红色",
+    "Color": 14299698,
+    "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_5.png"
+  },
+  "洗髓橙色": {
+    "Id": "洗髓橙色",
+    "Color": 15694398,
+    "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_6.png"
+  },
+  "PlayerName": {"Id": "PlayerName", "Desc": "玩家名字颜色", "Color": 15724525},
+  "Title": {"Id": "Title", "Desc": "头衔颜色", "Color": 65424},
+  "NpcName": {"Id": "NpcName", "Desc": "npc名字颜色", "Color": 15724525},
+  "MainName": {"Id": "MainName", "Desc": "主角名字颜色", "Color": 15724525},
+  "MouseOver": {"Id": "MouseOver", "Desc": "鼠标放上去颜色", "Color": 16711680},
+  "EnterMenu": {"Id": "EnterMenu", "Desc": "成为目标颜色", "Color": 16776960},
+  "TaskNpc": {"Id": "TaskNpc", "Desc": "任务栏Npc名字", "Color": 4824273},
+  "DramaNpc": {"Id": "DramaNpc", "Desc": "对话框Npc名字", "Color": 2975878},
+  "TaskItem": {"Id": "TaskItem", "Desc": "任务栏Item名字", "Color": 116030},
+  "DramaItem": {"Id": "DramaItem", "Desc": "对话框Item名字", "Color": 165419},
+  "WarSkillJuqi": {"Id": "WarSkillJuqi", "Desc": "人物聚气", "Color": 6934012},
+  "主线": {"Id": "主线", "Desc": "文字颜色", "Color": 15597806},
+  "支线": {"Id": "支线", "Desc": "文字颜色", "Color": 11141290},
+  "江湖": {"Id": "江湖", "Desc": "文字颜色", "Color": 43758}
+}

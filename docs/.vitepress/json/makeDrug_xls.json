@@ -1,0 +1,182 @@
+{
+  "30001": {
+    "Id": 30001,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30002": {
+    "Id": 30002,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5], [50005, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30003": {
+    "Id": 30003,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 14], [50005, 7]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30004": {
+    "Id": 30004,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50010, 1], [50017, 1], [50006, 2]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30012": {
+    "Id": 30012,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 30], [50007, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30017": {
+    "Id": 30017,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 1], [50002, 2], [50022, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30019": {
+    "Id": 30019,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50005, 5], [50007, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30020": {
+    "Id": 30020,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50003, 5], [50010, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30021": {
+    "Id": 30021,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50002, 2], [50001, 2], [50009, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30037": {
+    "Id": 30037,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50004, 3], [50006, 2]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30038": {
+    "Id": 30038,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5], [50007, 1], [50021, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30042": {
+    "Id": 30042,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 10], [50010, 4]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30045": {
+    "Id": 30045,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50004, 10], [50008, 2]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30046": {
+    "Id": 30046,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5], [50004, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30049": {
+    "Id": 30049,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50002, 4], [50004, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30051": {
+    "Id": 30051,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5], [50003, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30053": {
+    "Id": 30053,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50001, 5], [50006, 4]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30055": {
+    "Id": 30055,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50003, 12], [50009, 1]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30067": {
+    "Id": 30067,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50026, 3], [50027, 3], [50003, 3], [50024, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  },
+  "30068": {
+    "Id": 30068,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[50026, 3], [50027, 3], [52119, 3]],
+    "Mastery": 50,
+    "Prescription": 1,
+    "DoubleFormula": "MakeDrugDoubl"
+  }
+}

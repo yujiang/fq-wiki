@@ -1,0 +1,352 @@
+{
+  "9001": {
+    "Id": 9001,
+    "Name": "杏花村车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1201,
+    "ActiveId": 1001,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9002": {
+    "Id": 9002,
+    "Name": "栖霞镇车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1202,
+    "ActiveId": 1002,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9003": {
+    "Id": 9003,
+    "Name": "汴京车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1203,
+    "ActiveId": 1003,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9004": {
+    "Id": 9004,
+    "Name": "西夏灵州车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1204,
+    "ActiveId": 1004,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9005": {
+    "Id": 9005,
+    "Name": "武当派车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1205,
+    "ActiveId": 1005,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9006": {
+    "Id": 9006,
+    "Name": "白鹭书院车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1206,
+    "ActiveId": 1006,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9007": {
+    "Id": 9007,
+    "Name": "少林寺车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1207,
+    "ActiveId": 1007,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9008": {
+    "Id": 9008,
+    "Name": "天山派车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1208,
+    "ActiveId": 1008,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9009": {
+    "Id": 9009,
+    "Name": "华山车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1209,
+    "ActiveId": 1009,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9010": {
+    "Id": 9010,
+    "Name": "恶人谷车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1210,
+    "ActiveId": 1010,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9011": {
+    "Id": 9011,
+    "Name": "唐门车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1211,
+    "ActiveId": 1011,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9012": {
+    "Id": 9012,
+    "Name": "藏剑山庄车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1212,
+    "ActiveId": 1012,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9013": {
+    "Id": 9013,
+    "Name": "凌霄塔车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1213,
+    "ActiveId": 1013,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9014": {
+    "Id": 9014,
+    "Name": "移花宫车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1214,
+    "ActiveId": 1014,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9015": {
+    "Id": 9015,
+    "Name": "丐帮总舵车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1215,
+    "ActiveId": 1015,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9016": {
+    "Id": 9016,
+    "Name": "芦苇荡车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1216,
+    "ActiveId": 1016,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9017": {
+    "Id": 9017,
+    "Name": "快活林车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1217,
+    "ActiveId": 1017,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9018": {
+    "Id": 9018,
+    "Name": "昆仑车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1218,
+    "ActiveId": 1018,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9019": {
+    "Id": 9019,
+    "Name": "岳麓山车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1219,
+    "ActiveId": 1019,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9020": {
+    "Id": 9020,
+    "Name": "雁门关车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1220,
+    "ActiveId": 1020,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9021": {
+    "Id": 9021,
+    "Name": "凉州车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1221,
+    "ActiveId": 1021,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9022": {
+    "Id": 9022,
+    "Name": "临安车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1222,
+    "ActiveId": 1022,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9023": {
+    "Id": 9023,
+    "Name": "寿昌村车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 42310,
+    "ActiveId": 1023,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9024": {
+    "Id": 9024,
+    "Name": "大理车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1224,
+    "ActiveId": 1024,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9025": {
+    "Id": 9025,
+    "Name": "青龙会车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1225,
+    "ActiveId": 1025,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9026": {
+    "Id": 9026,
+    "Name": "侠客岛车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1226,
+    "ActiveId": 1026,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9027": {
+    "Id": 9027,
+    "Name": "古剑山庄车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1227,
+    "ActiveId": 1027,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9028": {
+    "Id": 9028,
+    "Name": "杏子林车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1228,
+    "ActiveId": 1028,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9029": {
+    "Id": 9029,
+    "Name": "鄂州车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1229,
+    "ActiveId": 1029,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9031": {
+    "Id": 9031,
+    "Name": "沙驼岭车夫",
+    "Cost": 20102,
+    "MaxGrade": 3,
+    "NpcId": 1231,
+    "ActiveId": 1031,
+    "LevelUpRw": [41001, 41002, 41003]
+  },
+  "9101": {
+    "Id": 9101,
+    "Name": "凌霄塔神像1",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6001,
+    "LevelUpRw": [42101]
+  },
+  "9102": {
+    "Id": 9102,
+    "Name": "凌霄塔神像2",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6002,
+    "LevelUpRw": [42102]
+  },
+  "9103": {
+    "Id": 9103,
+    "Name": "凌霄塔神像3",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6003,
+    "LevelUpRw": [42103]
+  },
+  "9104": {
+    "Id": 9104,
+    "Name": "凌霄塔神像4",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6004,
+    "LevelUpRw": [42104]
+  },
+  "9105": {
+    "Id": 9105,
+    "Name": "凌霄塔神像5",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6005,
+    "LevelUpRw": [42105]
+  },
+  "9106": {
+    "Id": 9106,
+    "Name": "凌霄塔神像6",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6006,
+    "LevelUpRw": [42106]
+  },
+  "9107": {
+    "Id": 9107,
+    "Name": "凌霄塔神像7",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6007,
+    "LevelUpRw": [42107]
+  },
+  "9108": {
+    "Id": 9108,
+    "Name": "凌霄塔神像8",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6008,
+    "LevelUpRw": [42108]
+  },
+  "9109": {
+    "Id": 9109,
+    "Name": "凌霄塔神像9",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6009,
+    "LevelUpRw": [42109]
+  },
+  "9110": {
+    "Id": 9110,
+    "Name": "凌霄塔神像10",
+    "Cost": 20102,
+    "MaxGrade": 10,
+    "ActiveId": 6010,
+    "LevelUpRw": [42110]
+  }
+}

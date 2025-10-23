@@ -1,0 +1,58 @@
+{
+  "1": {
+    "Id": 1,
+    "nature": "急躁内向",
+    "value": {
+      "friend": 10,
+      "shuxing": 15,
+      "wuxue": 10,
+      "equip": 20,
+      "money": 20,
+      "item": 10,
+      "shili": 10,
+      "xiuxian": 5
+    }
+  },
+  "2": {
+    "Id": 2,
+    "nature": "温和内向",
+    "value": {
+      "friend": 10,
+      "shuxing": 15,
+      "wuxue": 20,
+      "equip": 10,
+      "money": 20,
+      "item": 10,
+      "shili": 10,
+      "xiuxian": 5
+    }
+  },
+  "3": {
+    "Id": 3,
+    "nature": "急躁外向",
+    "value": {
+      "friend": 20,
+      "shuxing": 15,
+      "wuxue": 10,
+      "equip": 20,
+      "money": 10,
+      "item": 10,
+      "shili": 10,
+      "xiuxian": 5
+    }
+  },
+  "4": {
+    "Id": 4,
+    "nature": "温和外向",
+    "value": {
+      "friend": 20,
+      "shuxing": 15,
+      "wuxue": 20,
+      "equip": 10,
+      "money": 10,
+      "item": 10,
+      "shili": 10,
+      "xiuxian": 5
+    }
+  }
+}

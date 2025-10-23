@@ -1,0 +1,82 @@
+{
+  "1001": {
+    "Id": 1001,
+    "Name": "野外",
+    "Night": {
+      "AlphaStep": 0.1,
+      "Alpha0": 0.6,
+      "Hours": 4,
+      "R0": 250,
+      "Color": 6131455,
+      "RStep": 50
+    },
+    "Dusk": {
+      "Color": 15709318,
+      "AlphaStep": 0.1,
+      "Alpha0": 0.8,
+      "Hours": 3,
+      "R0": 0,
+      "RStep": 0
+    }
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "山洞",
+    "Night": {
+      "AlphaStep": 0,
+      "Alpha0": 1,
+      "Hours": 100,
+      "R0": 200,
+      "Color": 2105410,
+      "RStep": 0
+    }
+  },
+  "1003": {"Id": 1003, "Name": "室内"},
+  "1004": {
+    "Id": 1004,
+    "Name": "关卡（夜晚）",
+    "Night": {
+      "AlphaStep": 0,
+      "Alpha0": 1,
+      "Hours": 4,
+      "R0": 300,
+      "Color": 6131455,
+      "RStep": 0
+    }
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "夜晚（黑色）",
+    "Night": {
+      "AlphaStep": 0,
+      "Alpha0": 1,
+      "Hours": 100,
+      "R0": 300,
+      "Color": 6131455,
+      "RStep": 0
+    }
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "黄昏（黄色）",
+    "Night": {
+      "AlphaStep": 0,
+      "Alpha0": 1,
+      "Hours": 100,
+      "R0": 300,
+      "Color": 15709318,
+      "RStep": 0
+    }
+  },
+  "1007": {
+    "Id": 1007,
+    "Name": "清晨(蓝色）",
+    "Night": {
+      "AlphaStep": 0,
+      "Alpha0": 1,
+      "Hours": 100,
+      "R0": 300,
+      "Color": 8236799
+    }
+  }
+}

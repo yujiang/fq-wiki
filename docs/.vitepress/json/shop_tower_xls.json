@@ -1,0 +1,122 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 210150,
+    "Name": "龙泉剑",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 1,
+    "Tag": "爬塔商店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 270150,
+    "Name": "白玉琴",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 2,
+    "Tag": "爬塔商店"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 280150,
+    "Name": "金丝掌套",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 3,
+    "Tag": "爬塔商店"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 290150,
+    "Name": "百胜刀",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 4,
+    "Tag": "爬塔商店"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 300150,
+    "Name": "狼牙棒",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 5,
+    "Tag": "爬塔商店"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 240150,
+    "Name": "锦云袍",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 6,
+    "Tag": "爬塔商店"
+  },
+  "7": {
+    "Id": 7,
+    "ItemId": 250150,
+    "Name": "鹿皮毡帽",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 7,
+    "Tag": "爬塔商店"
+  },
+  "8": {
+    "Id": 8,
+    "ItemId": 260150,
+    "Name": "红罗软靴",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 8,
+    "Tag": "爬塔商店"
+  },
+  "9": {
+    "Id": 9,
+    "ItemId": 220150,
+    "Name": "兽牙链",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 9,
+    "Tag": "爬塔商店"
+  },
+  "10": {
+    "Id": 10,
+    "ItemId": 230150,
+    "Name": "翠玉扳指",
+    "RestrType": 2,
+    "Count": 1,
+    "MoneyType": 26,
+    "Price": 30,
+    "Needs": {"Level": 0},
+    "Sort": 10,
+    "Tag": "爬塔商店"
+  }
+}

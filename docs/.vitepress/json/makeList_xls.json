@@ -1,0 +1,10 @@
+{
+  "50001": {"Id": 50001, "MakeData": "makeEquip"},
+  "50002": {"Id": 50002, "MakeData": "makeDrug"},
+  "50003": {"Id": 50003, "MakeData": "makeFood"},
+  "50005": {"Id": 50005, "MakeData": "makeWine"},
+  "50006": {"Id": 50006, "MakeData": "makeClothes"},
+  "50034": {"Id": 50034, "MakeData": "makePowder"},
+  "50035": {"Id": 50035, "MakeData": "makeKnifeFlame"},
+  "50037": {"Id": 50037, "MakeData": "makeCompose"}
+}

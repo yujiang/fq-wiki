@@ -1,0 +1,52 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "FIGHTING",
+    "Desc": "战斗",
+    "Forbid_Actions": ["TRADE,MOVE,FIGHT,NPC"]
+  },
+  "2": {"Id": 2, "Name": "TRADING", "Desc": "交易", "Forbid_Actions": ["TRADE"]},
+  "3": {
+    "Id": 3,
+    "Name": "PRISON",
+    "Desc": "监狱",
+    "Forbid_Actions": ["TEAM,TELE"]
+  },
+  "4": {
+    "Id": 4,
+    "Name": "TEAM_MEMBER",
+    "Desc": "队员",
+    "Forbid_Actions": ["MOVE,NPC"]
+  },
+  "5": {
+    "Id": 5,
+    "Name": "PLUGIN_CHECK",
+    "Desc": "反外挂",
+    "Forbid_Actions": ["MOVE,NPC"]
+  },
+  "6": {
+    "Id": 6,
+    "Name": "TALKING",
+    "Desc": "跟npc对话",
+    "Forbid_Actions": ["NPC"]
+  },
+  "7": {
+    "Id": 7,
+    "Name": "LOGIN_ABNORMAL",
+    "Desc": "异常登录",
+    "Forbid_Actions": ["IMPORTDATA"]
+  },
+  "8": {
+    "Id": 8,
+    "Name": "怀璧其罪",
+    "Desc": "怀璧其罪",
+    "Forbid_Actions": ["EXITGAME"]
+  },
+  "9": {"Id": 9, "Name": "擂台", "Desc": "擂台"},
+  "10": {
+    "Id": 10,
+    "Name": "BOOMERANGE",
+    "Desc": "运镖",
+    "Forbid_Actions": ["EXITGAME"]
+  }
+}

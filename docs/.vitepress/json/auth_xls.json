@@ -1,0 +1,24 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "local",
+    "Desc": "本机",
+    "Url": "http://127.0.0.1",
+    "Port": 8083,
+    "KeepAliveUrl": "http://127.0.0.1:8093"
+  },
+  "2": {
+    "Id": 2,
+    "Name": "default",
+    "Desc": "默认",
+    "Url": "http://129.204.10.74",
+    "Port": 8083
+  },
+  "20": {
+    "Id": 20,
+    "Name": "old_play",
+    "Desc": "正式box1",
+    "Url": "https://szlm1.greenbgame.com?url=http://127.0.0.1:8083",
+    "KeepAliveUrl": "https://szlm1.greenbgame.com?url=http://127.0.0.1:8093"
+  }
+}

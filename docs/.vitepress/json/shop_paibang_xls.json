@@ -1,0 +1,27 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 160028,
+    "Name": "破风刀",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 10000,
+    "Needs": {"Level": 0},
+    "cond": 80114,
+    "Sort": 1,
+    "Tag": "排帮商店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 150006,
+    "Name": "排帮防",
+    "Count": 1,
+    "MoneyType": 2,
+    "Price": 50000,
+    "Needs": {"Level": 0},
+    "cond": 80115,
+    "Sort": 2,
+    "Tag": "排帮商店"
+  }
+}

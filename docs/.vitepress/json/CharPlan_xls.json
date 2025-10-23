@@ -1,0 +1,3513 @@
+{
+  "10001": {"Id": 10001, "Name": "小r"},
+  "10002": {
+    "Id": 10002,
+    "Name": "爬塔lv45棍主",
+    "Grade": 45,
+    "school": 1,
+    "EquipPlan": 20002,
+    "TaoluPlan": 30010,
+    "FormationPlan": 10002
+  },
+  "10003": {
+    "Id": 10003,
+    "Name": "爬塔lv45刀主",
+    "Grade": 45,
+    "school": 3,
+    "EquipPlan": 20003,
+    "TaoluPlan": 30011,
+    "FormationPlan": 10003
+  },
+  "10004": {
+    "Id": 10004,
+    "Name": "爬塔lv45剑主",
+    "Grade": 45,
+    "school": 4,
+    "EquipPlan": 20004,
+    "TaoluPlan": 30012,
+    "FormationPlan": 10004
+  },
+  "10005": {
+    "Id": 10005,
+    "Name": "爬塔lv45拳主",
+    "Grade": 45,
+    "school": 2,
+    "EquipPlan": 20005,
+    "TaoluPlan": 30013,
+    "FormationPlan": 10005
+  },
+  "10006": {
+    "Id": 10006,
+    "Name": "爬塔lv45刀随",
+    "Soldier": 21000004,
+    "Grade": 45,
+    "EquipPlan": 20006,
+    "TaoluPlan": 30014
+  },
+  "10007": {
+    "Id": 10007,
+    "Name": "爬塔lv45剑随",
+    "Soldier": 21000001,
+    "Grade": 45,
+    "EquipPlan": 20007,
+    "TaoluPlan": 30015
+  },
+  "10008": {
+    "Id": 10008,
+    "Name": "爬塔lv45拳随",
+    "Soldier": 21000003,
+    "Grade": 45,
+    "EquipPlan": 20008,
+    "TaoluPlan": 30016
+  },
+  "10009": {
+    "Id": 10009,
+    "Name": "爬塔lv45棍随",
+    "Soldier": 21000002,
+    "Grade": 45,
+    "EquipPlan": 20009,
+    "TaoluPlan": 30017
+  },
+  "10010": {
+    "Id": 10010,
+    "Name": "爬塔lv45琴随",
+    "Soldier": 21000010,
+    "Grade": 45,
+    "EquipPlan": 20010,
+    "TaoluPlan": 30018
+  },
+  "60011": {
+    "Id": 60011,
+    "Name": "五郎八卦棍",
+    "Grade": 60,
+    "EquipPlan": 1005073,
+    "TaoluPlan": 100360,
+    "TalentPlan": 5
+  },
+  "60012": {
+    "Id": 60012,
+    "Name": "金刚八式",
+    "Grade": 60,
+    "EquipPlan": 1005074,
+    "TaoluPlan": 100460,
+    "TalentPlan": 5
+  },
+  "60013": {
+    "Id": 60013,
+    "Name": "纵横刀法",
+    "Grade": 60,
+    "EquipPlan": 1005071,
+    "TaoluPlan": 100160,
+    "TalentPlan": 5
+  },
+  "60014": {
+    "Id": 60014,
+    "Name": "唐诗剑法",
+    "Grade": 60,
+    "EquipPlan": 1005072,
+    "TaoluPlan": 100260,
+    "TalentPlan": 5
+  },
+  "60015": {
+    "Id": 60015,
+    "Name": "楚歌",
+    "Grade": 60,
+    "EquipPlan": 1005075,
+    "TaoluPlan": 100560,
+    "TalentPlan": 5
+  },
+  "60020": {
+    "Id": 60020,
+    "Name": "旋风烈火棍",
+    "Grade": 60,
+    "school": 1,
+    "EquipPlan": 1005063,
+    "TaoluPlan": 200360,
+    "TalentPlan": 5
+  },
+  "60021": {
+    "Id": 60021,
+    "Name": "别雪回风掌",
+    "Grade": 60,
+    "school": 2,
+    "EquipPlan": 1005064,
+    "TaoluPlan": 200460,
+    "TalentPlan": 5
+  },
+  "60022": {
+    "Id": 60022,
+    "Name": "墨隐刀法",
+    "Grade": 60,
+    "school": 3,
+    "EquipPlan": 1005061,
+    "TaoluPlan": 200160,
+    "TalentPlan": 5
+  },
+  "60023": {
+    "Id": 60023,
+    "Name": "寒梅落雪剑",
+    "Grade": 60,
+    "school": 4,
+    "EquipPlan": 1005062,
+    "TaoluPlan": 200260,
+    "TalentPlan": 5
+  },
+  "60024": {
+    "Id": 60024,
+    "Name": "青龙枪法",
+    "Grade": 60,
+    "EquipPlan": 1005073,
+    "TaoluPlan": 300360,
+    "TalentPlan": 5
+  },
+  "60025": {
+    "Id": 60025,
+    "Name": "灵蛇手",
+    "Grade": 60,
+    "EquipPlan": 1005074,
+    "TaoluPlan": 300460,
+    "TalentPlan": 5
+  },
+  "60026": {
+    "Id": 60026,
+    "Name": "烈火刀法",
+    "Grade": 60,
+    "EquipPlan": 1005071,
+    "TaoluPlan": 300160,
+    "TalentPlan": 5
+  },
+  "60027": {
+    "Id": 60027,
+    "Name": "盘龙枪诀",
+    "Grade": 80,
+    "EquipPlan": 1005088,
+    "TaoluPlan": 100170,
+    "TalentPlan": 5
+  },
+  "60028": {
+    "Id": 60028,
+    "Name": "灵蛇闭火手",
+    "Grade": 80,
+    "EquipPlan": 1005089,
+    "TaoluPlan": 100270,
+    "TalentPlan": 5
+  },
+  "60029": {
+    "Id": 60029,
+    "Name": "焚天刀诀",
+    "Grade": 80,
+    "EquipPlan": 1005086,
+    "TaoluPlan": 100370,
+    "TalentPlan": 5
+  },
+  "60030": {
+    "Id": 60030,
+    "Name": "九龙盘天枪",
+    "Grade": 90,
+    "EquipPlan": 1009013,
+    "TaoluPlan": 60030,
+    "TalentPlan": 5
+  },
+  "60031": {
+    "Id": 60031,
+    "Name": "狂蟒分砂手",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60031,
+    "TalentPlan": 5
+  },
+  "60032": {
+    "Id": 60032,
+    "Name": "烈焰焚天刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60032,
+    "TalentPlan": 5
+  },
+  "60033": {
+    "Id": 60033,
+    "Name": "游身掌",
+    "Grade": 60,
+    "EquipPlan": 1005074,
+    "TaoluPlan": 300560,
+    "TalentPlan": 5
+  },
+  "60034": {
+    "Id": 60034,
+    "Name": "星月剑法",
+    "Grade": 60,
+    "EquipPlan": 1005072,
+    "TaoluPlan": 300660,
+    "TalentPlan": 5
+  },
+  "60035": {
+    "Id": 60035,
+    "Name": "广陵残音",
+    "Grade": 60,
+    "EquipPlan": 1005075,
+    "TaoluPlan": 300760,
+    "TalentPlan": 5
+  },
+  "60036": {
+    "Id": 60036,
+    "Name": "蜉蝣游身掌",
+    "Grade": 80,
+    "EquipPlan": 1005089,
+    "TaoluPlan": 100470,
+    "TalentPlan": 5
+  },
+  "60037": {
+    "Id": 60037,
+    "Name": "大星月剑法",
+    "Grade": 80,
+    "EquipPlan": 1005087,
+    "TaoluPlan": 100570,
+    "TalentPlan": 5
+  },
+  "60038": {
+    "Id": 60038,
+    "Name": "广陵散",
+    "Grade": 80,
+    "EquipPlan": 1005080,
+    "TaoluPlan": 100670,
+    "TalentPlan": 5
+  },
+  "60039": {
+    "Id": 60039,
+    "Name": "八卦游身掌",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60039,
+    "TalentPlan": 5
+  },
+  "60040": {
+    "Id": 60040,
+    "Name": "穿云破月剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60040,
+    "TalentPlan": 5
+  },
+  "60041": {
+    "Id": 60041,
+    "Name": "广陵止息",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60041,
+    "TalentPlan": 5
+  },
+  "60042": {
+    "Id": 60042,
+    "Name": "少林上乘棍",
+    "Grade": 80,
+    "school": 1,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60042,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50030, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "60043": {
+    "Id": 60043,
+    "Name": "武当上乘拳",
+    "Grade": 80,
+    "school": 2,
+    "EquipPlan": 1005084,
+    "TaoluPlan": 60043,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50010, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "60044": {
+    "Id": 60044,
+    "Name": "修罗上乘刀",
+    "Grade": 80,
+    "school": 3,
+    "EquipPlan": 1005081,
+    "TaoluPlan": 60044,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50040, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "60045": {
+    "Id": 60045,
+    "Name": "天山上乘剑",
+    "Grade": 80,
+    "school": 4,
+    "EquipPlan": 1005082,
+    "TaoluPlan": 60045,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50050, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "60046": {
+    "Id": 60046,
+    "Name": "少林镇派棍",
+    "Grade": 90,
+    "school": 1,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60046,
+    "TalentPlan": 5
+  },
+  "60047": {
+    "Id": 60047,
+    "Name": "武当镇派拳",
+    "Grade": 90,
+    "school": 2,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60047,
+    "TalentPlan": 5
+  },
+  "60048": {
+    "Id": 60048,
+    "Name": "修罗镇派刀",
+    "Grade": 90,
+    "school": 3,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60048,
+    "TalentPlan": 5
+  },
+  "60049": {
+    "Id": 60049,
+    "Name": "天山镇派剑",
+    "Grade": 90,
+    "school": 4,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60049,
+    "TalentPlan": 5
+  },
+  "60050": {
+    "Id": 60050,
+    "Name": "横扫主T棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60050,
+    "TalentPlan": 5
+  },
+  "60051": {
+    "Id": 60051,
+    "Name": "招架反击拳",
+    "Grade": 80,
+    "EquipPlan": 1005084,
+    "TaoluPlan": 60051,
+    "TalentPlan": 5
+  },
+  "60052": {
+    "Id": 60052,
+    "Name": "野外暴击刀",
+    "Grade": 80,
+    "EquipPlan": 1005081,
+    "TaoluPlan": 60052,
+    "TalentPlan": 5
+  },
+  "60053": {
+    "Id": 60053,
+    "Name": "破招成长剑",
+    "Grade": 80,
+    "EquipPlan": 1005082,
+    "TaoluPlan": 60053,
+    "TalentPlan": 5
+  },
+  "60055": {
+    "Id": 60055,
+    "Name": "输出战士棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60055,
+    "TalentPlan": 5
+  },
+  "60056": {
+    "Id": 60056,
+    "Name": "群攻闪避拳",
+    "Grade": 80,
+    "EquipPlan": 1005084,
+    "TaoluPlan": 60056,
+    "TalentPlan": 5
+  },
+  "60057": {
+    "Id": 60057,
+    "Name": "群攻回气刀",
+    "Grade": 80,
+    "EquipPlan": 1005081,
+    "TaoluPlan": 60057,
+    "TalentPlan": 5
+  },
+  "60058": {
+    "Id": 60058,
+    "Name": "随4流血剑",
+    "Grade": 80,
+    "EquipPlan": 1005082,
+    "TaoluPlan": 60058,
+    "TalentPlan": 5
+  },
+  "60059": {
+    "Id": 60059,
+    "Name": "奶2免伤琴",
+    "Grade": 80,
+    "EquipPlan": 1005080,
+    "TaoluPlan": 60059,
+    "TalentPlan": 5
+  },
+  "60060": {
+    "Id": 60060,
+    "Name": "群攻招架棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60060,
+    "TalentPlan": 5
+  },
+  "60061": {
+    "Id": 60061,
+    "Name": "反集火奶拳",
+    "Grade": 80,
+    "EquipPlan": 1005084,
+    "TaoluPlan": 60061,
+    "TalentPlan": 5
+  },
+  "60062": {
+    "Id": 60062,
+    "Name": "集火攻高刀",
+    "Grade": 80,
+    "EquipPlan": 1005081,
+    "TaoluPlan": 60062,
+    "TalentPlan": 5
+  },
+  "60063": {
+    "Id": 60063,
+    "Name": "群攻收割剑",
+    "Grade": 80,
+    "EquipPlan": 1005082,
+    "TaoluPlan": 60063,
+    "TalentPlan": 5
+  },
+  "60064": {
+    "Id": 60064,
+    "Name": "间伤辅助琴",
+    "Grade": 80,
+    "EquipPlan": 1005080,
+    "TaoluPlan": 60064,
+    "TalentPlan": 5
+  },
+  "60065": {
+    "Id": 60065,
+    "Name": "战士收割棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60065,
+    "TalentPlan": 5
+  },
+  "60066": {
+    "Id": 60066,
+    "Name": "集火血少剑",
+    "Grade": 80,
+    "EquipPlan": 1005082,
+    "TaoluPlan": 60066,
+    "TalentPlan": 5
+  },
+  "60067": {
+    "Id": 60067,
+    "Name": "招架吸血棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60067,
+    "TalentPlan": 5
+  },
+  "60068": {
+    "Id": 60068,
+    "Name": "招架反击棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60068,
+    "TalentPlan": 5
+  },
+  "60069": {
+    "Id": 60069,
+    "Name": "受击增伤棍",
+    "Grade": 80,
+    "EquipPlan": 1005083,
+    "TaoluPlan": 60069,
+    "TalentPlan": 5
+  },
+  "60070": {
+    "Id": 60070,
+    "Name": "成长主T棍",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60070,
+    "TalentPlan": 5
+  },
+  "60071": {
+    "Id": 60071,
+    "Name": "招架反击拳",
+    "Grade": 90,
+    "EquipPlan": 1009014,
+    "TaoluPlan": 60071,
+    "TalentPlan": 5
+  },
+  "60072": {
+    "Id": 60072,
+    "Name": "暴击增伤刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60072,
+    "TalentPlan": 5
+  },
+  "60073": {
+    "Id": 60073,
+    "Name": "成长暴击剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60073,
+    "TalentPlan": 5
+  },
+  "60075": {
+    "Id": 60075,
+    "Name": "血少增伤棍(战)",
+    "Grade": 90,
+    "EquipPlan": 1009013,
+    "TaoluPlan": 60075,
+    "TalentPlan": 5
+  },
+  "60076": {
+    "Id": 60076,
+    "Name": "群攻回血拳",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60076,
+    "TalentPlan": 5
+  },
+  "60077": {
+    "Id": 60077,
+    "Name": "群攻回气刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60077,
+    "TalentPlan": 5
+  },
+  "60078": {
+    "Id": 60078,
+    "Name": "随4流血剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60078,
+    "TalentPlan": 5
+  },
+  "60079": {
+    "Id": 60079,
+    "Name": "奶2免伤琴",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60079,
+    "TalentPlan": 5
+  },
+  "60080": {
+    "Id": 60080,
+    "Name": "群攻减攻棍",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60080,
+    "TalentPlan": 5
+  },
+  "60081": {
+    "Id": 60081,
+    "Name": "摊伤害奶拳",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60081,
+    "TalentPlan": 5
+  },
+  "60082": {
+    "Id": 60082,
+    "Name": "集火攻高刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60082,
+    "TalentPlan": 5
+  },
+  "60083": {
+    "Id": 60083,
+    "Name": "群攻连放剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60083,
+    "TalentPlan": 5
+  },
+  "60084": {
+    "Id": 60084,
+    "Name": "间伤辅助琴",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60084,
+    "TalentPlan": 5
+  },
+  "60085": {
+    "Id": 60085,
+    "Name": "击杀增伤棍(战)",
+    "Grade": 90,
+    "EquipPlan": 1009023,
+    "TaoluPlan": 60085,
+    "TalentPlan": 5
+  },
+  "60086": {
+    "Id": 60086,
+    "Name": "集火血少剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60086,
+    "TalentPlan": 5
+  },
+  "60087": {
+    "Id": 60087,
+    "Name": "招架吸血棍(战)",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60087,
+    "TalentPlan": 5
+  },
+  "60088": {
+    "Id": 60088,
+    "Name": "招架反击棍(战)",
+    "Grade": 90,
+    "EquipPlan": 1009023,
+    "TaoluPlan": 60088,
+    "TalentPlan": 5
+  },
+  "60089": {
+    "Id": 60089,
+    "Name": "受击增伤棍(战)",
+    "Grade": 90,
+    "EquipPlan": 1009013,
+    "TaoluPlan": 60089,
+    "TalentPlan": 5
+  },
+  "60101": {
+    "Id": 60101,
+    "Name": "全体棍(T)",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60101,
+    "TalentPlan": 5
+  },
+  "60102": {
+    "Id": 60102,
+    "Name": "全体拳(T)",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60102,
+    "TalentPlan": 5
+  },
+  "60103": {
+    "Id": 60103,
+    "Name": "全体刀(DPS)",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60103,
+    "TalentPlan": 5
+  },
+  "60104": {
+    "Id": 60104,
+    "Name": "全体剑(DPS)",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60104,
+    "TalentPlan": 5
+  },
+  "60105": {
+    "Id": 60105,
+    "Name": "全体琴(奶)",
+    "Grade": 90,
+    "EquipPlan": 1009015,
+    "TaoluPlan": 60105,
+    "TalentPlan": 5
+  },
+  "60106": {
+    "Id": 60106,
+    "Name": "单体棍(T)",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60106,
+    "TalentPlan": 5
+  },
+  "60107": {
+    "Id": 60107,
+    "Name": "单体拳(T)",
+    "Grade": 90,
+    "EquipPlan": 1009034,
+    "TaoluPlan": 60107,
+    "TalentPlan": 5
+  },
+  "60108": {
+    "Id": 60108,
+    "Name": "单体刀(DPS)",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60108,
+    "TalentPlan": 5
+  },
+  "60109": {
+    "Id": 60109,
+    "Name": "单体剑(DPS)",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60109,
+    "TalentPlan": 5
+  },
+  "60110": {
+    "Id": 60110,
+    "Name": "单体琴(奶)",
+    "Grade": 90,
+    "EquipPlan": 1009015,
+    "TaoluPlan": 60110,
+    "TalentPlan": 5
+  },
+  "60111": {
+    "Id": 60111,
+    "Name": "反击棍(战士)",
+    "Grade": 90,
+    "EquipPlan": 1009023,
+    "TaoluPlan": 60111,
+    "TalentPlan": 5
+  },
+  "60112": {
+    "Id": 60112,
+    "Name": "反击拳(战士)",
+    "Grade": 90,
+    "EquipPlan": 1009024,
+    "TaoluPlan": 60112,
+    "TalentPlan": 5
+  },
+  "60113": {
+    "Id": 60113,
+    "Name": "切后刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60113,
+    "TalentPlan": 5
+  },
+  "60114": {
+    "Id": 60114,
+    "Name": "切后剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60114,
+    "TalentPlan": 5
+  },
+  "60115": {
+    "Id": 60115,
+    "Name": "集火血少刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60115,
+    "TalentPlan": 5
+  },
+  "60116": {
+    "Id": 60116,
+    "Name": "集火血少剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60116,
+    "TalentPlan": 5
+  },
+  "60117": {
+    "Id": 60117,
+    "Name": "集火攻高刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60117,
+    "TalentPlan": 5
+  },
+  "60118": {
+    "Id": 60118,
+    "Name": "集火攻高剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60118,
+    "TalentPlan": 5
+  },
+  "60119": {
+    "Id": 60119,
+    "Name": "5连流血剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60119,
+    "TalentPlan": 5
+  },
+  "60120": {
+    "Id": 60120,
+    "Name": "单体加防奶琴",
+    "Grade": 90,
+    "EquipPlan": 1009015,
+    "TaoluPlan": 60120,
+    "TalentPlan": 5
+  },
+  "60121": {
+    "Id": 60121,
+    "Name": "少林棍(战士)",
+    "Grade": 90,
+    "school": 1,
+    "EquipPlan": 1009023,
+    "TaoluPlan": 60121,
+    "TalentPlan": 5
+  },
+  "60122": {
+    "Id": 60122,
+    "Name": "武当拳(战士)",
+    "Grade": 90,
+    "school": 2,
+    "EquipPlan": 1009024,
+    "TaoluPlan": 60122,
+    "TalentPlan": 5
+  },
+  "60123": {
+    "Id": 60123,
+    "Name": "修罗刀(战士)",
+    "Grade": 90,
+    "school": 3,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60123,
+    "TalentPlan": 5
+  },
+  "60124": {
+    "Id": 60124,
+    "Name": "天山剑(DPS)",
+    "Grade": 90,
+    "school": 4,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60124,
+    "TalentPlan": 5
+  },
+  "60125": {
+    "Id": 60125,
+    "Name": "单体增伤琴",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60125,
+    "TalentPlan": 5
+  },
+  "60126": {
+    "Id": 60126,
+    "Name": "群体增伤琴",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60126,
+    "TalentPlan": 5
+  },
+  "60127": {
+    "Id": 60127,
+    "Name": "前排减防琴",
+    "Grade": 90,
+    "EquipPlan": 1009025,
+    "TaoluPlan": 60127,
+    "TalentPlan": 5
+  },
+  "60129": {
+    "Id": 60129,
+    "Name": "真伤刀",
+    "Grade": 90,
+    "EquipPlan": 1009021,
+    "TaoluPlan": 60129,
+    "TalentPlan": 5
+  },
+  "60130": {
+    "Id": 60130,
+    "Name": "真伤剑",
+    "Grade": 90,
+    "EquipPlan": 1009022,
+    "TaoluPlan": 60130,
+    "TalentPlan": 5
+  },
+  "60131": {
+    "Id": 60131,
+    "Name": "分摊伤害棍",
+    "Grade": 90,
+    "EquipPlan": 1009033,
+    "TaoluPlan": 60131,
+    "TalentPlan": 5
+  },
+  "60217": {
+    "Id": 60217,
+    "Name": "白猿棒法",
+    "Grade": 20,
+    "TaoluPlan": 60217,
+    "TalentPlan": 5
+  },
+  "60218": {
+    "Id": 60218,
+    "Name": "太祖棒法",
+    "Grade": 40,
+    "TaoluPlan": 60218,
+    "TalentPlan": 5
+  },
+  "60219": {
+    "Id": 60219,
+    "Name": "五郎八卦棍",
+    "Grade": 60,
+    "TaoluPlan": 60219,
+    "TalentPlan": 5
+  },
+  "60220": {
+    "Id": 60220,
+    "Name": "疯魔杖法",
+    "Grade": 60,
+    "TaoluPlan": 60220,
+    "TalentPlan": 5
+  },
+  "60221": {
+    "Id": 60221,
+    "Name": "点苍棍法",
+    "Grade": 60,
+    "TaoluPlan": 60221,
+    "TalentPlan": 5
+  },
+  "60222": {
+    "Id": 60222,
+    "Name": "狼牙棒法",
+    "Grade": 60,
+    "TaoluPlan": 60222,
+    "TalentPlan": 5
+  },
+  "60223": {
+    "Id": 60223,
+    "Name": "太祖长拳",
+    "Grade": 20,
+    "TaoluPlan": 60223,
+    "TalentPlan": 5
+  },
+  "60224": {
+    "Id": 60224,
+    "Name": "六合拳",
+    "Grade": 40,
+    "TaoluPlan": 60224,
+    "TalentPlan": 5
+  },
+  "60225": {
+    "Id": 60225,
+    "Name": "金刚八式",
+    "Grade": 60,
+    "TaoluPlan": 60225,
+    "TalentPlan": 5
+  },
+  "60226": {
+    "Id": 60226,
+    "Name": "五丁开路手",
+    "Grade": 60,
+    "TaoluPlan": 60226,
+    "TalentPlan": 5
+  },
+  "60227": {
+    "Id": 60227,
+    "Name": "破玉拳",
+    "Grade": 60,
+    "TaoluPlan": 60227,
+    "TalentPlan": 5
+  },
+  "60228": {
+    "Id": 60228,
+    "Name": "空空妙手",
+    "Grade": 60,
+    "TaoluPlan": 60228,
+    "TalentPlan": 5
+  },
+  "60229": {
+    "Id": 60229,
+    "Name": "开山刀",
+    "Grade": 20,
+    "TaoluPlan": 60229,
+    "TalentPlan": 5
+  },
+  "60230": {
+    "Id": 60230,
+    "Name": "碎玉刀法",
+    "Grade": 40,
+    "TaoluPlan": 60230,
+    "TalentPlan": 5
+  },
+  "60231": {
+    "Id": 60231,
+    "Name": "纵横刀法",
+    "Grade": 60,
+    "TaoluPlan": 60231,
+    "TalentPlan": 5
+  },
+  "60232": {
+    "Id": 60232,
+    "Name": "烈火刀法",
+    "Grade": 60,
+    "TaoluPlan": 60232,
+    "TalentPlan": 5
+  },
+  "60233": {
+    "Id": 60233,
+    "Name": "红颜绝",
+    "Grade": 40,
+    "TaoluPlan": 60233,
+    "TalentPlan": 5
+  },
+  "60234": {
+    "Id": 60234,
+    "Name": "残刀",
+    "Grade": 60,
+    "TaoluPlan": 60234,
+    "TalentPlan": 5
+  },
+  "60235": {
+    "Id": 60235,
+    "Name": "庖丁解牛",
+    "Grade": 60,
+    "TaoluPlan": 60235,
+    "TalentPlan": 5
+  },
+  "60236": {
+    "Id": 60236,
+    "Name": "昆吾剑法",
+    "Grade": 20,
+    "TaoluPlan": 60236,
+    "TalentPlan": 5
+  },
+  "60237": {
+    "Id": 60237,
+    "Name": "青萍剑法",
+    "Grade": 40,
+    "TaoluPlan": 60237,
+    "TalentPlan": 5
+  },
+  "60238": {
+    "Id": 60238,
+    "Name": "唐诗剑法",
+    "Grade": 60,
+    "TaoluPlan": 60238,
+    "TalentPlan": 5
+  },
+  "60239": {
+    "Id": 60239,
+    "Name": "星月剑法",
+    "Grade": 60,
+    "TaoluPlan": 60239,
+    "TalentPlan": 5
+  },
+  "60240": {
+    "Id": 60240,
+    "Name": "嵩阳剑法",
+    "Grade": 60,
+    "TaoluPlan": 60240,
+    "TalentPlan": 5
+  },
+  "60241": {
+    "Id": 60241,
+    "Name": "惊寒剑诀",
+    "Grade": 60,
+    "TaoluPlan": 60241,
+    "TalentPlan": 5
+  },
+  "60242": {
+    "Id": 60242,
+    "Name": "樵歌",
+    "Grade": 20,
+    "TaoluPlan": 60242,
+    "TalentPlan": 5
+  },
+  "60243": {
+    "Id": 60243,
+    "Name": "幽兰",
+    "Grade": 40,
+    "TaoluPlan": 60243,
+    "TalentPlan": 5
+  },
+  "60244": {
+    "Id": 60244,
+    "Name": "高山流水",
+    "Grade": 60,
+    "TaoluPlan": 60244,
+    "TalentPlan": 5
+  },
+  "60245": {
+    "Id": 60245,
+    "Name": "甩手箭",
+    "Grade": 20,
+    "TaoluPlan": 60245,
+    "TalentPlan": 5
+  },
+  "60246": {
+    "Id": 60246,
+    "Name": "连珠箭",
+    "Grade": 40,
+    "TaoluPlan": 60246,
+    "TalentPlan": 5
+  },
+  "60247": {
+    "Id": 60247,
+    "Name": "乾坤一掷",
+    "Grade": 60,
+    "TaoluPlan": 60247,
+    "TalentPlan": 5
+  },
+  "60248": {
+    "Id": 60248,
+    "Name": "百戏图·机",
+    "Grade": 20,
+    "TaoluPlan": 60248,
+    "TalentPlan": 5
+  },
+  "60249": {
+    "Id": 60249,
+    "Name": "百戏图·巧",
+    "Grade": 40,
+    "TaoluPlan": 60249,
+    "TalentPlan": 5
+  },
+  "60250": {
+    "Id": 60250,
+    "Name": "机巧录",
+    "Grade": 60,
+    "TaoluPlan": 60250,
+    "TalentPlan": 5
+  },
+  "60251": {
+    "Id": 60251,
+    "Name": "御兽诀·忠",
+    "Grade": 20,
+    "TaoluPlan": 60251,
+    "TalentPlan": 5
+  },
+  "60252": {
+    "Id": 60252,
+    "Name": "御兽诀·勇",
+    "Grade": 40,
+    "TaoluPlan": 60252,
+    "TalentPlan": 5
+  },
+  "60253": {
+    "Id": 60253,
+    "Name": "山珍谱",
+    "Grade": 60,
+    "TaoluPlan": 60253,
+    "TalentPlan": 5
+  },
+  "60254": {
+    "Id": 60254,
+    "Name": "五毒圣典·牵丝",
+    "Grade": 20,
+    "TaoluPlan": 60254,
+    "TalentPlan": 5
+  },
+  "60255": {
+    "Id": 60255,
+    "Name": "五毒圣典·百足",
+    "Grade": 40,
+    "TaoluPlan": 60255,
+    "TalentPlan": 5
+  },
+  "60256": {
+    "Id": 60256,
+    "Name": "百虫谱",
+    "Grade": 60,
+    "TaoluPlan": 60256,
+    "TalentPlan": 5
+  },
+  "60301": {
+    "Id": 60301,
+    "Name": "吐纳术",
+    "Grade": 20,
+    "TaoluPlan": 60301,
+    "TalentPlan": 5
+  },
+  "60302": {
+    "Id": 60302,
+    "Name": "罗汉心法",
+    "Grade": 40,
+    "school": 1,
+    "TaoluPlan": 60302,
+    "TalentPlan": 5
+  },
+  "60303": {
+    "Id": 60303,
+    "Name": "武当太和功",
+    "Grade": 40,
+    "school": 2,
+    "TaoluPlan": 60303,
+    "TalentPlan": 5
+  },
+  "60304": {
+    "Id": 60304,
+    "Name": "寒露诀",
+    "Grade": 40,
+    "school": 4,
+    "TaoluPlan": 60304,
+    "TalentPlan": 5
+  },
+  "60305": {
+    "Id": 60305,
+    "Name": "战意诀",
+    "Grade": 40,
+    "school": 3,
+    "TaoluPlan": 60305,
+    "TalentPlan": 5
+  },
+  "60306": {
+    "Id": 60306,
+    "Name": "铁布衫",
+    "Grade": 40,
+    "TaoluPlan": 60306,
+    "TalentPlan": 5
+  },
+  "60307": {
+    "Id": 60307,
+    "Name": "玉壶心法",
+    "Grade": 40,
+    "TaoluPlan": 60307,
+    "TalentPlan": 5
+  },
+  "60308": {
+    "Id": 60308,
+    "Name": "明镜拭心法",
+    "Grade": 60,
+    "school": 1,
+    "TaoluPlan": 60308,
+    "TalentPlan": 5
+  },
+  "60309": {
+    "Id": 60309,
+    "Name": "混元一气功",
+    "Grade": 60,
+    "school": 2,
+    "TaoluPlan": 60309,
+    "TalentPlan": 5
+  },
+  "60310": {
+    "Id": 60310,
+    "Name": "灵狐拜月心法",
+    "Grade": 60,
+    "school": 4,
+    "TaoluPlan": 60310,
+    "TalentPlan": 5
+  },
+  "60311": {
+    "Id": 60311,
+    "Name": "五霸争雄法",
+    "Grade": 60,
+    "school": 3,
+    "TaoluPlan": 60311,
+    "TalentPlan": 5
+  },
+  "60312": {
+    "Id": 60312,
+    "Name": "三元养气法",
+    "Grade": 60,
+    "TaoluPlan": 60312,
+    "TalentPlan": 5
+  },
+  "60313": {
+    "Id": 60313,
+    "Name": "金鳞诀",
+    "Grade": 60,
+    "TaoluPlan": 60313,
+    "TalentPlan": 5
+  },
+  "60314": {
+    "Id": 60314,
+    "Name": "坤元心法",
+    "Grade": 60,
+    "TaoluPlan": 60314,
+    "TalentPlan": 5
+  },
+  "60315": {
+    "Id": 60315,
+    "Name": "游丝悬命诀",
+    "Grade": 60,
+    "TaoluPlan": 60315,
+    "TalentPlan": 5
+  },
+  "60316": {
+    "Id": 60316,
+    "Name": "浩然正气",
+    "Grade": 60,
+    "TaoluPlan": 60316,
+    "TalentPlan": 5
+  },
+  "60401": {
+    "Id": 60401,
+    "Name": "少林梅花桩",
+    "Grade": 40,
+    "school": 1,
+    "TaoluPlan": 60401,
+    "TalentPlan": 5
+  },
+  "60402": {
+    "Id": 60402,
+    "Name": "踏七星",
+    "Grade": 40,
+    "school": 2,
+    "TaoluPlan": 60402,
+    "TalentPlan": 5
+  },
+  "60403": {
+    "Id": 60403,
+    "Name": "登枝步",
+    "Grade": 40,
+    "school": 4,
+    "TaoluPlan": 60403,
+    "TalentPlan": 5
+  },
+  "60404": {
+    "Id": 60404,
+    "Name": "闯鸿门",
+    "Grade": 40,
+    "school": 3,
+    "TaoluPlan": 60404,
+    "TalentPlan": 5
+  },
+  "60405": {
+    "Id": 60405,
+    "Name": "玉环步",
+    "Grade": 60,
+    "school": 1,
+    "TaoluPlan": 60405,
+    "TalentPlan": 5
+  },
+  "60406": {
+    "Id": 60406,
+    "Name": "九宫八卦步",
+    "Grade": 60,
+    "school": 2,
+    "TaoluPlan": 60406,
+    "TalentPlan": 5
+  },
+  "60407": {
+    "Id": 60407,
+    "Name": "笑折花",
+    "Grade": 60,
+    "school": 4,
+    "TaoluPlan": 60407,
+    "TalentPlan": 5
+  },
+  "60408": {
+    "Id": 60408,
+    "Name": "横江锁",
+    "Grade": 60,
+    "school": 3,
+    "TaoluPlan": 60408,
+    "TalentPlan": 5
+  },
+  "60409": {
+    "Id": 60409,
+    "Name": "草上飞",
+    "Grade": 20,
+    "TaoluPlan": 60409,
+    "TalentPlan": 5
+  },
+  "60410": {
+    "Id": 60410,
+    "Name": "八步赶蝉",
+    "Grade": 40,
+    "TaoluPlan": 60410,
+    "TalentPlan": 5
+  },
+  "60411": {
+    "Id": 60411,
+    "Name": "燕子三抄水",
+    "Grade": 40,
+    "TaoluPlan": 60411,
+    "TalentPlan": 5
+  },
+  "60412": {
+    "Id": 60412,
+    "Name": "醉仙望月步",
+    "Grade": 60,
+    "TaoluPlan": 60412,
+    "TalentPlan": 5
+  },
+  "60413": {
+    "Id": 60413,
+    "Name": "龙骧虎步",
+    "Grade": 60,
+    "TaoluPlan": 60413,
+    "TalentPlan": 5
+  },
+  "60414": {
+    "Id": 60414,
+    "Name": "跨鹤行云",
+    "Grade": 60,
+    "TaoluPlan": 60414,
+    "TalentPlan": 5
+  },
+  "60415": {
+    "Id": 60415,
+    "Name": "醉八仙步法",
+    "Grade": 60,
+    "TaoluPlan": 60415,
+    "TalentPlan": 5
+  },
+  "60416": {
+    "Id": 60416,
+    "Name": "神仙索",
+    "Grade": 60,
+    "TaoluPlan": 60416,
+    "TalentPlan": 5
+  },
+  "66027": {
+    "Id": 66027,
+    "Name": "盘龙枪诀",
+    "Grade": 80,
+    "EquipPlan": 1008013,
+    "TaoluPlan": 100170,
+    "TalentPlan": 5
+  },
+  "66028": {
+    "Id": 66028,
+    "Name": "灵蛇闭火手",
+    "Grade": 80,
+    "EquipPlan": 1008034,
+    "TaoluPlan": 100270,
+    "TalentPlan": 5
+  },
+  "66029": {
+    "Id": 66029,
+    "Name": "焚天刀诀",
+    "Grade": 80,
+    "EquipPlan": 1008021,
+    "TaoluPlan": 100370,
+    "TalentPlan": 5
+  },
+  "66036": {
+    "Id": 66036,
+    "Name": "蜉蝣游身掌",
+    "Grade": 80,
+    "EquipPlan": 1008034,
+    "TaoluPlan": 100470,
+    "TalentPlan": 5
+  },
+  "66037": {
+    "Id": 66037,
+    "Name": "大星月剑法",
+    "Grade": 80,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 100570,
+    "TalentPlan": 5
+  },
+  "66038": {
+    "Id": 66038,
+    "Name": "广陵散",
+    "Grade": 80,
+    "EquipPlan": 1008025,
+    "TaoluPlan": 100670,
+    "TalentPlan": 5
+  },
+  "66042": {
+    "Id": 66042,
+    "Name": "少林上乘棍",
+    "Grade": 80,
+    "school": 1,
+    "EquipPlan": 1008033,
+    "TaoluPlan": 60042,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50030, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "66043": {
+    "Id": 66043,
+    "Name": "武当上乘拳",
+    "Grade": 80,
+    "school": 2,
+    "EquipPlan": 1008034,
+    "TaoluPlan": 60043,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50010, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "66044": {
+    "Id": 66044,
+    "Name": "修罗上乘刀",
+    "Grade": 80,
+    "school": 3,
+    "EquipPlan": 1008021,
+    "TaoluPlan": 60044,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50040, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "66045": {
+    "Id": 66045,
+    "Name": "天山上乘剑",
+    "Grade": 80,
+    "school": 4,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 60045,
+    "TalentPlan": 5,
+    "LifeSkillPlan": [[50050, 300]],
+    "DrugPlan": [
+      [30023, 10],
+      [30024, 10],
+      [30025, 10],
+      [30026, 10],
+      [30027, 10],
+      [30028, 10],
+      [30029, 10],
+      [30022, 10]
+    ]
+  },
+  "66050": {
+    "Id": 66050,
+    "Name": "横扫主T棍",
+    "Grade": 80,
+    "EquipPlan": 1008033,
+    "TaoluPlan": 60050,
+    "TalentPlan": 5
+  },
+  "66051": {
+    "Id": 66051,
+    "Name": "招架反击拳",
+    "Grade": 80,
+    "EquipPlan": 1008014,
+    "TaoluPlan": 60051,
+    "TalentPlan": 5
+  },
+  "66052": {
+    "Id": 66052,
+    "Name": "野外暴击刀",
+    "Grade": 80,
+    "EquipPlan": 1008021,
+    "TaoluPlan": 60052,
+    "TalentPlan": 5
+  },
+  "66053": {
+    "Id": 66053,
+    "Name": "破招成长剑",
+    "Grade": 80,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 60053,
+    "TalentPlan": 5
+  },
+  "66055": {
+    "Id": 66055,
+    "Name": "输出战士棍",
+    "Grade": 80,
+    "EquipPlan": 1008013,
+    "TaoluPlan": 60055,
+    "TalentPlan": 5
+  },
+  "66056": {
+    "Id": 66056,
+    "Name": "群攻闪避拳",
+    "Grade": 80,
+    "EquipPlan": 1008034,
+    "TaoluPlan": 60056,
+    "TalentPlan": 5
+  },
+  "66057": {
+    "Id": 66057,
+    "Name": "群攻回气刀",
+    "Grade": 80,
+    "EquipPlan": 1008021,
+    "TaoluPlan": 60057,
+    "TalentPlan": 5
+  },
+  "66058": {
+    "Id": 66058,
+    "Name": "随4流血剑",
+    "Grade": 80,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 60058,
+    "TalentPlan": 5
+  },
+  "66059": {
+    "Id": 66059,
+    "Name": "奶2免伤琴",
+    "Grade": 80,
+    "EquipPlan": 1008025,
+    "TaoluPlan": 60059,
+    "TalentPlan": 5
+  },
+  "66060": {
+    "Id": 66060,
+    "Name": "群体减攻棍",
+    "Grade": 80,
+    "EquipPlan": 1008033,
+    "TaoluPlan": 60060,
+    "TalentPlan": 5
+  },
+  "66061": {
+    "Id": 66061,
+    "Name": "反集火奶拳",
+    "Grade": 80,
+    "EquipPlan": 1008034,
+    "TaoluPlan": 60061,
+    "TalentPlan": 5
+  },
+  "66062": {
+    "Id": 66062,
+    "Name": "集火攻高刀",
+    "Grade": 80,
+    "EquipPlan": 1008021,
+    "TaoluPlan": 60062,
+    "TalentPlan": 5
+  },
+  "66063": {
+    "Id": 66063,
+    "Name": "群攻收割剑",
+    "Grade": 80,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 60063,
+    "TalentPlan": 5
+  },
+  "66064": {
+    "Id": 66064,
+    "Name": "间伤辅助琴",
+    "Grade": 80,
+    "EquipPlan": 1008025,
+    "TaoluPlan": 60064,
+    "TalentPlan": 5
+  },
+  "66065": {
+    "Id": 66065,
+    "Name": "战士收割棍",
+    "Grade": 80,
+    "EquipPlan": 1008023,
+    "TaoluPlan": 60065,
+    "TalentPlan": 5
+  },
+  "66066": {
+    "Id": 66066,
+    "Name": "集火血少剑",
+    "Grade": 80,
+    "EquipPlan": 1008022,
+    "TaoluPlan": 60066,
+    "TalentPlan": 5
+  },
+  "66067": {
+    "Id": 66067,
+    "Name": "招架吸血棍",
+    "Grade": 80,
+    "EquipPlan": 1008033,
+    "TaoluPlan": 60067,
+    "TalentPlan": 5
+  },
+  "66068": {
+    "Id": 66068,
+    "Name": "招架反击棍",
+    "Grade": 80,
+    "EquipPlan": 1008023,
+    "TaoluPlan": 60068,
+    "TalentPlan": 5
+  },
+  "66069": {
+    "Id": 66069,
+    "Name": "受击增伤棍",
+    "Grade": 80,
+    "EquipPlan": 1008013,
+    "TaoluPlan": 60069,
+    "TalentPlan": 5
+  },
+  "100001": {"Id": 100001, "Name": "lv10 rank0刀", "EquipPlan": 200001},
+  "100002": {"Id": 100002, "Name": "lv10 rank0剑", "EquipPlan": 200002},
+  "100003": {"Id": 100003, "Name": "lv10 rank0棍", "EquipPlan": 200003},
+  "100004": {"Id": 100004, "Name": "lv10 rank0拳", "EquipPlan": 200004},
+  "100005": {"Id": 100005, "Name": "lv10 rank0琴", "EquipPlan": 200005},
+  "100006": {"Id": 100006, "Name": "lv10 rank0暗器", "EquipPlan": 200006},
+  "100007": {"Id": 100007, "Name": "lv10 rank0机关", "EquipPlan": 200007},
+  "100008": {"Id": 100008, "Name": "lv10 rank0御兽", "EquipPlan": 200008},
+  "100009": {"Id": 100009, "Name": "lv10 rank0御毒", "EquipPlan": 200009},
+  "100010": {"Id": 100010, "Name": "lv20 rank0刀", "EquipPlan": 200010},
+  "100011": {"Id": 100011, "Name": "lv20 rank0剑", "EquipPlan": 200011},
+  "100012": {"Id": 100012, "Name": "lv20 rank0棍", "EquipPlan": 200012},
+  "100013": {"Id": 100013, "Name": "lv20 rank0拳", "EquipPlan": 200013},
+  "100014": {"Id": 100014, "Name": "lv20 rank0琴", "EquipPlan": 200014},
+  "100015": {"Id": 100015, "Name": "lv20 rank0暗器", "EquipPlan": 200015},
+  "100016": {"Id": 100016, "Name": "lv20 rank0机关", "EquipPlan": 200016},
+  "100017": {"Id": 100017, "Name": "lv20 rank0御兽", "EquipPlan": 200017},
+  "100018": {"Id": 100018, "Name": "lv20 rank0御毒", "EquipPlan": 200018},
+  "100019": {"Id": 100019, "Name": "lv30 rank0刀", "EquipPlan": 200019},
+  "100020": {"Id": 100020, "Name": "lv30 rank0剑", "EquipPlan": 200020},
+  "100021": {"Id": 100021, "Name": "lv30 rank0棍", "EquipPlan": 200021},
+  "100022": {"Id": 100022, "Name": "lv30 rank0拳", "EquipPlan": 200022},
+  "100023": {"Id": 100023, "Name": "lv30 rank0琴", "EquipPlan": 200023},
+  "100024": {"Id": 100024, "Name": "lv30 rank0暗器", "EquipPlan": 200024},
+  "100025": {"Id": 100025, "Name": "lv30 rank0机关", "EquipPlan": 200025},
+  "100026": {"Id": 100026, "Name": "lv30 rank0御兽", "EquipPlan": 200026},
+  "100027": {"Id": 100027, "Name": "lv30 rank0御毒", "EquipPlan": 200027},
+  "100028": {"Id": 100028, "Name": "lv40 rank0刀", "EquipPlan": 200028},
+  "100029": {"Id": 100029, "Name": "lv40 rank0剑", "EquipPlan": 200029},
+  "100030": {"Id": 100030, "Name": "lv40 rank0棍", "EquipPlan": 200030},
+  "100031": {"Id": 100031, "Name": "lv40 rank0拳", "EquipPlan": 200031},
+  "100032": {"Id": 100032, "Name": "lv40 rank0琴", "EquipPlan": 200032},
+  "100033": {"Id": 100033, "Name": "lv40 rank0暗器", "EquipPlan": 200033},
+  "100034": {"Id": 100034, "Name": "lv40 rank0机关", "EquipPlan": 200034},
+  "100035": {"Id": 100035, "Name": "lv40 rank0御兽", "EquipPlan": 200035},
+  "100036": {"Id": 100036, "Name": "lv40 rank0御毒", "EquipPlan": 200036},
+  "100123": {
+    "Id": 100123,
+    "Name": "lv23刀随",
+    "Soldier": 101230,
+    "Grade": 23,
+    "EquipPlan": 100123,
+    "TaoluPlan": 100123
+  },
+  "100128": {
+    "Id": 100128,
+    "Name": "lv28刀随",
+    "Soldier": 101280,
+    "Grade": 28,
+    "EquipPlan": 100123,
+    "TaoluPlan": 100128
+  },
+  "100130": {
+    "Id": 100130,
+    "Name": "lv30刀随",
+    "Grade": 30,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100130
+  },
+  "100132": {
+    "Id": 100132,
+    "Name": "lv32刀随",
+    "Grade": 32,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100132
+  },
+  "100134": {
+    "Id": 100134,
+    "Name": "lv34刀随",
+    "Grade": 34,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100134
+  },
+  "100135": {
+    "Id": 100135,
+    "Name": "lv35刀随",
+    "Grade": 35,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100135
+  },
+  "100137": {
+    "Id": 100137,
+    "Name": "lv37刀随",
+    "Grade": 37,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100137
+  },
+  "100138": {
+    "Id": 100138,
+    "Name": "lv38刀随",
+    "Grade": 38,
+    "EquipPlan": 100130,
+    "TaoluPlan": 100138
+  },
+  "100140": {
+    "Id": 100140,
+    "Name": "lv40刀随",
+    "Grade": 40,
+    "EquipPlan": 100140,
+    "TaoluPlan": 100140
+  },
+  "100141": {
+    "Id": 100141,
+    "Name": "lv41刀随",
+    "Grade": 41,
+    "EquipPlan": 100140,
+    "TaoluPlan": 100141
+  },
+  "100142": {
+    "Id": 100142,
+    "Name": "lv42刀随",
+    "Grade": 42,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 100142
+  },
+  "100143": {
+    "Id": 100143,
+    "Name": "lv43刀随",
+    "Grade": 43,
+    "EquipPlan": 100140,
+    "TaoluPlan": 100143
+  },
+  "100144": {
+    "Id": 100144,
+    "Name": "lv44刀随",
+    "Grade": 44,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 100144
+  },
+  "100145": {
+    "Id": 100145,
+    "Name": "lv45刀随",
+    "Soldier": 21000001,
+    "Grade": 45,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 100145
+  },
+  "100223": {
+    "Id": 100223,
+    "Name": "lv23剑随",
+    "Soldier": 102230,
+    "Grade": 23,
+    "school": 4,
+    "TalentPlan": 2
+  },
+  "100228": {
+    "Id": 100228,
+    "Name": "lv28剑随",
+    "Grade": 28,
+    "EquipPlan": 100223,
+    "TaoluPlan": 100228
+  },
+  "100230": {
+    "Id": 100230,
+    "Name": "lv30剑随",
+    "Grade": 30,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100230
+  },
+  "100232": {
+    "Id": 100232,
+    "Name": "lv32剑随",
+    "Grade": 32,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100232
+  },
+  "100234": {
+    "Id": 100234,
+    "Name": "lv34剑随",
+    "Grade": 34,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100234
+  },
+  "100235": {
+    "Id": 100235,
+    "Name": "lv35剑随",
+    "Grade": 35,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100235
+  },
+  "100237": {
+    "Id": 100237,
+    "Name": "lv37剑随",
+    "Grade": 37,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100237
+  },
+  "100238": {
+    "Id": 100238,
+    "Name": "lv38剑随",
+    "Grade": 38,
+    "EquipPlan": 100230,
+    "TaoluPlan": 100238
+  },
+  "100240": {
+    "Id": 100240,
+    "Name": "lv40剑随",
+    "Grade": 40,
+    "EquipPlan": 100240,
+    "TaoluPlan": 100240
+  },
+  "100241": {
+    "Id": 100241,
+    "Name": "lv41剑随",
+    "Grade": 41,
+    "EquipPlan": 100240,
+    "TaoluPlan": 100241
+  },
+  "100242": {
+    "Id": 100242,
+    "Name": "lv42剑随",
+    "Grade": 42,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 100242
+  },
+  "100243": {
+    "Id": 100243,
+    "Name": "lv43剑随",
+    "Grade": 43,
+    "EquipPlan": 100240,
+    "TaoluPlan": 100243
+  },
+  "100244": {
+    "Id": 100244,
+    "Name": "lv44剑随",
+    "Grade": 44,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 100244
+  },
+  "100245": {
+    "Id": 100245,
+    "Name": "lv45剑随",
+    "Soldier": 21000002,
+    "Grade": 45,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 100245
+  },
+  "100323": {
+    "Id": 100323,
+    "Name": "lv23棍随",
+    "Soldier": 103230,
+    "Grade": 23,
+    "EquipPlan": 100323,
+    "TaoluPlan": 100323
+  },
+  "100328": {
+    "Id": 100328,
+    "Name": "lv28棍随",
+    "Grade": 28,
+    "EquipPlan": 100323,
+    "TaoluPlan": 100328
+  },
+  "100330": {
+    "Id": 100330,
+    "Name": "lv30棍随",
+    "Grade": 30,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100330
+  },
+  "100332": {
+    "Id": 100332,
+    "Name": "lv32棍随",
+    "Grade": 32,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100332
+  },
+  "100334": {
+    "Id": 100334,
+    "Name": "lv34棍随",
+    "Grade": 34,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100334
+  },
+  "100335": {
+    "Id": 100335,
+    "Name": "lv35棍随",
+    "Grade": 35,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100335
+  },
+  "100337": {
+    "Id": 100337,
+    "Name": "lv37棍随",
+    "Grade": 37,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100337
+  },
+  "100338": {
+    "Id": 100338,
+    "Name": "lv38棍随",
+    "Grade": 38,
+    "EquipPlan": 100330,
+    "TaoluPlan": 100338
+  },
+  "100340": {
+    "Id": 100340,
+    "Name": "lv40棍随",
+    "Grade": 40,
+    "EquipPlan": 100340,
+    "TaoluPlan": 100340
+  },
+  "100341": {
+    "Id": 100341,
+    "Name": "lv41棍随",
+    "Grade": 41,
+    "EquipPlan": 100340,
+    "TaoluPlan": 100341
+  },
+  "100342": {
+    "Id": 100342,
+    "Name": "lv42棍随",
+    "Grade": 42,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 100342
+  },
+  "100343": {
+    "Id": 100343,
+    "Name": "lv43棍随",
+    "Grade": 43,
+    "EquipPlan": 100340,
+    "TaoluPlan": 100343
+  },
+  "100344": {
+    "Id": 100344,
+    "Name": "lv44棍随",
+    "Grade": 44,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 100344
+  },
+  "100345": {
+    "Id": 100345,
+    "Name": "lv45棍随",
+    "Soldier": 21000003,
+    "Grade": 45,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 100345
+  },
+  "100423": {
+    "Id": 100423,
+    "Name": "lv23拳随",
+    "Soldier": 104230,
+    "Grade": 23,
+    "EquipPlan": 100423,
+    "TaoluPlan": 100423
+  },
+  "100428": {
+    "Id": 100428,
+    "Name": "lv28拳随",
+    "Grade": 28,
+    "EquipPlan": 100423,
+    "TaoluPlan": 100428
+  },
+  "100430": {
+    "Id": 100430,
+    "Name": "lv30拳随",
+    "Grade": 30,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100430
+  },
+  "100432": {
+    "Id": 100432,
+    "Name": "lv32拳随",
+    "Grade": 32,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100432
+  },
+  "100434": {
+    "Id": 100434,
+    "Name": "lv34拳随",
+    "Grade": 34,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100434
+  },
+  "100435": {
+    "Id": 100435,
+    "Name": "lv35拳随",
+    "Grade": 35,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100435
+  },
+  "100437": {
+    "Id": 100437,
+    "Name": "lv37拳随",
+    "Grade": 37,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100437
+  },
+  "100438": {
+    "Id": 100438,
+    "Name": "lv38拳随",
+    "Grade": 38,
+    "EquipPlan": 100430,
+    "TaoluPlan": 100438
+  },
+  "100440": {
+    "Id": 100440,
+    "Name": "lv40拳随",
+    "Grade": 40,
+    "EquipPlan": 100440,
+    "TaoluPlan": 100440
+  },
+  "100441": {
+    "Id": 100441,
+    "Name": "lv41拳随",
+    "Grade": 41,
+    "EquipPlan": 100440,
+    "TaoluPlan": 100441
+  },
+  "100442": {
+    "Id": 100442,
+    "Name": "lv42拳随",
+    "Grade": 42,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 100442
+  },
+  "100443": {
+    "Id": 100443,
+    "Name": "lv43拳随",
+    "Grade": 43,
+    "EquipPlan": 100440,
+    "TaoluPlan": 100443
+  },
+  "100444": {
+    "Id": 100444,
+    "Name": "lv44拳随",
+    "Grade": 44,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 100444
+  },
+  "100445": {
+    "Id": 100445,
+    "Name": "lv45拳随",
+    "Soldier": 21000004,
+    "Grade": 45,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 100445
+  },
+  "100501": {
+    "Id": 100501,
+    "Name": "lv50棍随从",
+    "Grade": 50,
+    "EquipPlan": 100501,
+    "TaoluPlan": 100501,
+    "TalentPlan": 5
+  },
+  "100502": {
+    "Id": 100502,
+    "Name": "lv50拳随从",
+    "Grade": 50,
+    "EquipPlan": 100502,
+    "TaoluPlan": 100502,
+    "TalentPlan": 5
+  },
+  "100503": {
+    "Id": 100503,
+    "Name": "lv50刀随从",
+    "Grade": 50,
+    "EquipPlan": 100503,
+    "TaoluPlan": 100503,
+    "TalentPlan": 5
+  },
+  "100504": {
+    "Id": 100504,
+    "Name": "lv50剑随从",
+    "Grade": 50,
+    "EquipPlan": 100504,
+    "TaoluPlan": 100504,
+    "TalentPlan": 5
+  },
+  "100505": {
+    "Id": 100505,
+    "Name": "lv50暗器随从",
+    "Grade": 50,
+    "EquipPlan": 100505,
+    "TaoluPlan": 100505,
+    "TalentPlan": 5
+  },
+  "100506": {
+    "Id": 100506,
+    "Name": "lv50机关随从",
+    "Grade": 50,
+    "EquipPlan": 100506,
+    "TaoluPlan": 100506,
+    "TalentPlan": 5
+  },
+  "100507": {
+    "Id": 100507,
+    "Name": "lv50御兽随从",
+    "Grade": 50,
+    "EquipPlan": 100507,
+    "TaoluPlan": 100507,
+    "TalentPlan": 5
+  },
+  "100508": {
+    "Id": 100508,
+    "Name": "lv50御毒随从",
+    "Grade": 50,
+    "EquipPlan": 100508,
+    "TaoluPlan": 100508,
+    "TalentPlan": 5
+  },
+  "100509": {
+    "Id": 100509,
+    "Name": "lv50琴随从",
+    "Grade": 50,
+    "EquipPlan": 100509,
+    "TaoluPlan": 100509,
+    "TalentPlan": 5
+  },
+  "100523": {
+    "Id": 100523,
+    "Name": "lv23琴随",
+    "Soldier": 105230,
+    "Grade": 23,
+    "EquipPlan": 100523,
+    "TaoluPlan": 100523
+  },
+  "100528": {
+    "Id": 100528,
+    "Name": "lv28琴随",
+    "Grade": 28,
+    "EquipPlan": 100523,
+    "TaoluPlan": 100528
+  },
+  "100530": {
+    "Id": 100530,
+    "Name": "lv30琴随",
+    "Grade": 30,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100530
+  },
+  "100532": {
+    "Id": 100532,
+    "Name": "lv32琴随",
+    "Grade": 32,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100532
+  },
+  "100534": {
+    "Id": 100534,
+    "Name": "lv34琴随",
+    "Grade": 34,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100534
+  },
+  "100535": {
+    "Id": 100535,
+    "Name": "lv35琴随",
+    "Grade": 35,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100535
+  },
+  "100537": {
+    "Id": 100537,
+    "Name": "lv37琴随",
+    "Grade": 37,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100537
+  },
+  "100538": {
+    "Id": 100538,
+    "Name": "lv38琴随",
+    "Grade": 38,
+    "EquipPlan": 100530,
+    "TaoluPlan": 100538
+  },
+  "100540": {
+    "Id": 100540,
+    "Name": "lv40琴随",
+    "Grade": 40,
+    "EquipPlan": 100540,
+    "TaoluPlan": 100540
+  },
+  "100541": {
+    "Id": 100541,
+    "Name": "lv41琴随",
+    "Grade": 41,
+    "EquipPlan": 100540,
+    "TaoluPlan": 100541
+  },
+  "100542": {
+    "Id": 100542,
+    "Name": "lv42琴随",
+    "Grade": 42,
+    "EquipPlan": 1005045,
+    "TaoluPlan": 100542
+  },
+  "100543": {
+    "Id": 100543,
+    "Name": "lv43琴随",
+    "Grade": 43,
+    "EquipPlan": 100540,
+    "TaoluPlan": 100543
+  },
+  "100544": {
+    "Id": 100544,
+    "Name": "lv44琴随",
+    "Grade": 44,
+    "EquipPlan": 1005045,
+    "TaoluPlan": 100544
+  },
+  "100545": {
+    "Id": 100545,
+    "Name": "lv45琴随",
+    "Soldier": 21000005,
+    "Grade": 45,
+    "EquipPlan": 1005045,
+    "TaoluPlan": 100545
+  },
+  "100623": {
+    "Id": 100623,
+    "Name": "lv23暗器",
+    "Soldier": 106230,
+    "Grade": 23,
+    "EquipPlan": 100623,
+    "TaoluPlan": 100623
+  },
+  "100628": {
+    "Id": 100628,
+    "Name": "lv28暗器",
+    "Grade": 28,
+    "EquipPlan": 100623,
+    "TaoluPlan": 100628
+  },
+  "100630": {
+    "Id": 100630,
+    "Name": "lv30暗器",
+    "Grade": 30,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100630
+  },
+  "100632": {
+    "Id": 100632,
+    "Name": "lv32暗器",
+    "Grade": 32,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100632
+  },
+  "100634": {
+    "Id": 100634,
+    "Name": "lv34暗器",
+    "Grade": 34,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100634
+  },
+  "100635": {
+    "Id": 100635,
+    "Name": "lv35暗器",
+    "Grade": 35,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100635
+  },
+  "100637": {
+    "Id": 100637,
+    "Name": "lv37暗器",
+    "Grade": 37,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100637
+  },
+  "100638": {
+    "Id": 100638,
+    "Name": "lv38暗器",
+    "Grade": 38,
+    "EquipPlan": 100630,
+    "TaoluPlan": 100638
+  },
+  "100640": {
+    "Id": 100640,
+    "Name": "lv40暗器",
+    "Grade": 40,
+    "EquipPlan": 100640,
+    "TaoluPlan": 100640
+  },
+  "100641": {
+    "Id": 100641,
+    "Name": "lv41暗器",
+    "Grade": 41,
+    "EquipPlan": 100640,
+    "TaoluPlan": 100641
+  },
+  "100642": {
+    "Id": 100642,
+    "Name": "lv42暗器",
+    "Grade": 42,
+    "EquipPlan": 100640,
+    "TaoluPlan": 100642
+  },
+  "100643": {
+    "Id": 100643,
+    "Name": "lv43暗器",
+    "Grade": 43,
+    "EquipPlan": 100640,
+    "TaoluPlan": 100643
+  },
+  "100723": {
+    "Id": 100723,
+    "Name": "lv23机关",
+    "Soldier": 107230,
+    "Grade": 23,
+    "EquipPlan": 100723,
+    "TaoluPlan": 100723
+  },
+  "100728": {
+    "Id": 100728,
+    "Name": "lv28机关",
+    "Grade": 28,
+    "EquipPlan": 100723,
+    "TaoluPlan": 100728
+  },
+  "100730": {
+    "Id": 100730,
+    "Name": "lv30机关",
+    "Grade": 30,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100730
+  },
+  "100732": {
+    "Id": 100732,
+    "Name": "lv32机关",
+    "Grade": 32,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100732
+  },
+  "100734": {
+    "Id": 100734,
+    "Name": "lv34机关",
+    "Grade": 34,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100734
+  },
+  "100735": {
+    "Id": 100735,
+    "Name": "lv35机关",
+    "Grade": 35,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100735
+  },
+  "100737": {
+    "Id": 100737,
+    "Name": "lv37机关",
+    "Grade": 37,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100737
+  },
+  "100738": {
+    "Id": 100738,
+    "Name": "lv38机关",
+    "Grade": 38,
+    "EquipPlan": 100730,
+    "TaoluPlan": 100738
+  },
+  "100740": {
+    "Id": 100740,
+    "Name": "lv40机关",
+    "Grade": 40,
+    "EquipPlan": 100740,
+    "TaoluPlan": 100740
+  },
+  "100741": {
+    "Id": 100741,
+    "Name": "lv41机关",
+    "Grade": 41,
+    "EquipPlan": 100740,
+    "TaoluPlan": 100741
+  },
+  "100742": {
+    "Id": 100742,
+    "Name": "lv42机关",
+    "Grade": 42,
+    "EquipPlan": 100740,
+    "TaoluPlan": 100742
+  },
+  "100743": {
+    "Id": 100743,
+    "Name": "lv43机关",
+    "Grade": 43,
+    "EquipPlan": 100740,
+    "TaoluPlan": 100743
+  },
+  "100823": {
+    "Id": 100823,
+    "Name": "lv23御兽",
+    "Soldier": 108230,
+    "Grade": 23,
+    "EquipPlan": 100823,
+    "TaoluPlan": 100823
+  },
+  "100828": {
+    "Id": 100828,
+    "Name": "lv28御兽",
+    "Grade": 28,
+    "EquipPlan": 100823,
+    "TaoluPlan": 100828
+  },
+  "100830": {
+    "Id": 100830,
+    "Name": "lv30御兽",
+    "Grade": 30,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100830
+  },
+  "100832": {
+    "Id": 100832,
+    "Name": "lv32御兽",
+    "Grade": 32,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100832
+  },
+  "100834": {
+    "Id": 100834,
+    "Name": "lv34御兽",
+    "Grade": 34,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100834
+  },
+  "100835": {
+    "Id": 100835,
+    "Name": "lv35御兽",
+    "Grade": 35,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100835
+  },
+  "100837": {
+    "Id": 100837,
+    "Name": "lv37御兽",
+    "Grade": 37,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100837
+  },
+  "100838": {
+    "Id": 100838,
+    "Name": "lv38御兽",
+    "Grade": 38,
+    "EquipPlan": 100830,
+    "TaoluPlan": 100838
+  },
+  "100840": {
+    "Id": 100840,
+    "Name": "lv40御兽",
+    "Grade": 40,
+    "EquipPlan": 100840,
+    "TaoluPlan": 100840
+  },
+  "100841": {
+    "Id": 100841,
+    "Name": "lv41御兽",
+    "Grade": 41,
+    "EquipPlan": 100840,
+    "TaoluPlan": 100841
+  },
+  "100842": {
+    "Id": 100842,
+    "Name": "lv42御兽",
+    "Grade": 42,
+    "EquipPlan": 100840,
+    "TaoluPlan": 100842
+  },
+  "100843": {
+    "Id": 100843,
+    "Name": "lv43御兽",
+    "Grade": 43,
+    "EquipPlan": 100840,
+    "TaoluPlan": 100843
+  },
+  "100923": {
+    "Id": 100923,
+    "Name": "lv23御毒",
+    "Soldier": 109230,
+    "Grade": 23,
+    "EquipPlan": 100923,
+    "TaoluPlan": 100923
+  },
+  "100928": {
+    "Id": 100928,
+    "Name": "lv28御毒",
+    "Grade": 28,
+    "EquipPlan": 100923,
+    "TaoluPlan": 100928
+  },
+  "100930": {
+    "Id": 100930,
+    "Name": "lv30御毒",
+    "Grade": 30,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100930
+  },
+  "100932": {
+    "Id": 100932,
+    "Name": "lv32御毒",
+    "Grade": 32,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100932
+  },
+  "100934": {
+    "Id": 100934,
+    "Name": "lv34御毒",
+    "Grade": 34,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100934
+  },
+  "100935": {
+    "Id": 100935,
+    "Name": "lv35御毒",
+    "Grade": 35,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100935
+  },
+  "100937": {
+    "Id": 100937,
+    "Name": "lv37御毒",
+    "Grade": 37,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100937
+  },
+  "100938": {
+    "Id": 100938,
+    "Name": "lv38御毒",
+    "Grade": 38,
+    "EquipPlan": 100930,
+    "TaoluPlan": 100938
+  },
+  "100940": {
+    "Id": 100940,
+    "Name": "lv40御毒",
+    "Grade": 40,
+    "EquipPlan": 100940,
+    "TaoluPlan": 100940
+  },
+  "100941": {
+    "Id": 100941,
+    "Name": "lv41御毒",
+    "Grade": 41,
+    "EquipPlan": 100940,
+    "TaoluPlan": 100941
+  },
+  "100942": {
+    "Id": 100942,
+    "Name": "lv42御毒",
+    "Grade": 42,
+    "EquipPlan": 100940,
+    "TaoluPlan": 100942
+  },
+  "100943": {
+    "Id": 100943,
+    "Name": "lv43御毒",
+    "Grade": 43,
+    "EquipPlan": 100940,
+    "TaoluPlan": 100943
+  },
+  "101250": {
+    "Id": 101250,
+    "Name": "lv25刀随",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100123,
+    "TaoluPlan": 100125
+  },
+  "102250": {
+    "Id": 102250,
+    "Name": "lv25剑随",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100223,
+    "TaoluPlan": 100225
+  },
+  "103250": {
+    "Id": 103250,
+    "Name": "lv25棍随",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100323,
+    "TaoluPlan": 100325
+  },
+  "104250": {
+    "Id": 104250,
+    "Name": "lv25拳随",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100423,
+    "TaoluPlan": 100425
+  },
+  "105250": {
+    "Id": 105250,
+    "Name": "lv25琴随",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100523,
+    "TaoluPlan": 100525
+  },
+  "106250": {
+    "Id": 106250,
+    "Name": "lv25暗器",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100623,
+    "TaoluPlan": 100625
+  },
+  "107250": {
+    "Id": 107250,
+    "Name": "lv25机关",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100723,
+    "TaoluPlan": 100725
+  },
+  "108250": {
+    "Id": 108250,
+    "Name": "lv25御兽",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100823,
+    "TaoluPlan": 100825
+  },
+  "109250": {
+    "Id": 109250,
+    "Name": "lv25御毒",
+    "Soldier": 102500,
+    "Grade": 25,
+    "EquipPlan": 100923,
+    "TaoluPlan": 100925
+  },
+  "200123": {
+    "Id": 200123,
+    "Name": "lv23刀主",
+    "Soldier": 201230,
+    "Grade": 23,
+    "school": 3,
+    "EquipPlan": 100123,
+    "TaoluPlan": 200123
+  },
+  "200128": {
+    "Id": 200128,
+    "Name": "lv28刀主",
+    "Grade": 28,
+    "school": 3,
+    "EquipPlan": 100123,
+    "TaoluPlan": 200128
+  },
+  "200130": {
+    "Id": 200130,
+    "Name": "lv30刀主",
+    "Grade": 30,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200130
+  },
+  "200132": {
+    "Id": 200132,
+    "Name": "lv32刀主",
+    "Grade": 32,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200132
+  },
+  "200134": {
+    "Id": 200134,
+    "Name": "lv34刀主",
+    "Grade": 34,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200134
+  },
+  "200135": {
+    "Id": 200135,
+    "Name": "lv35刀主",
+    "Grade": 35,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200135
+  },
+  "200137": {
+    "Id": 200137,
+    "Name": "lv37刀主",
+    "Grade": 37,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200137
+  },
+  "200138": {
+    "Id": 200138,
+    "Name": "lv38刀主",
+    "Grade": 38,
+    "school": 3,
+    "EquipPlan": 100130,
+    "TaoluPlan": 200138
+  },
+  "200140": {
+    "Id": 200140,
+    "Name": "lv40刀主",
+    "Grade": 40,
+    "school": 3,
+    "EquipPlan": 100140,
+    "TaoluPlan": 200140
+  },
+  "200141": {
+    "Id": 200141,
+    "Name": "lv41刀主",
+    "Grade": 41,
+    "school": 3,
+    "EquipPlan": 100140,
+    "TaoluPlan": 200141
+  },
+  "200142": {
+    "Id": 200142,
+    "Name": "lv42刀主",
+    "Grade": 42,
+    "school": 3,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 200142
+  },
+  "200143": {
+    "Id": 200143,
+    "Name": "lv43刀主",
+    "Grade": 43,
+    "school": 3,
+    "EquipPlan": 100140,
+    "TaoluPlan": 200143
+  },
+  "200144": {
+    "Id": 200144,
+    "Name": "lv44刀主",
+    "Grade": 44,
+    "school": 3,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 200144
+  },
+  "200145": {
+    "Id": 200145,
+    "Name": "lv45刀主",
+    "Grade": 45,
+    "school": 3,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 200145,
+    "FormationPlan": 200145
+  },
+  "200223": {
+    "Id": 200223,
+    "Name": "lv23剑主",
+    "Soldier": 202230,
+    "Grade": 23,
+    "school": 4,
+    "EquipPlan": 100223,
+    "TaoluPlan": 200223
+  },
+  "200228": {
+    "Id": 200228,
+    "Name": "lv28剑主",
+    "Grade": 28,
+    "school": 4,
+    "EquipPlan": 100223,
+    "TaoluPlan": 200228
+  },
+  "200230": {
+    "Id": 200230,
+    "Name": "lv30剑主",
+    "Grade": 30,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200230
+  },
+  "200232": {
+    "Id": 200232,
+    "Name": "lv32剑主",
+    "Grade": 32,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200232
+  },
+  "200234": {
+    "Id": 200234,
+    "Name": "lv34剑主",
+    "Grade": 34,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200234
+  },
+  "200235": {
+    "Id": 200235,
+    "Name": "lv35剑主",
+    "Grade": 35,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200235
+  },
+  "200237": {
+    "Id": 200237,
+    "Name": "lv37剑主",
+    "Grade": 37,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200237
+  },
+  "200238": {
+    "Id": 200238,
+    "Name": "lv38剑主",
+    "Grade": 38,
+    "school": 4,
+    "EquipPlan": 100230,
+    "TaoluPlan": 200238
+  },
+  "200240": {
+    "Id": 200240,
+    "Name": "lv40剑主",
+    "Grade": 40,
+    "school": 4,
+    "EquipPlan": 100240,
+    "TaoluPlan": 200240
+  },
+  "200241": {
+    "Id": 200241,
+    "Name": "lv41剑主",
+    "Grade": 41,
+    "school": 4,
+    "EquipPlan": 100240,
+    "TaoluPlan": 200241
+  },
+  "200242": {
+    "Id": 200242,
+    "Name": "lv42剑主",
+    "Grade": 42,
+    "school": 4,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 200242
+  },
+  "200243": {
+    "Id": 200243,
+    "Name": "lv43剑主",
+    "Grade": 43,
+    "school": 4,
+    "EquipPlan": 100240,
+    "TaoluPlan": 200243
+  },
+  "200244": {
+    "Id": 200244,
+    "Name": "lv44剑主",
+    "Grade": 44,
+    "school": 4,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 200244
+  },
+  "200245": {
+    "Id": 200245,
+    "Name": "lv45剑主",
+    "Grade": 45,
+    "school": 4,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 200245,
+    "FormationPlan": 200245
+  },
+  "200323": {
+    "Id": 200323,
+    "Name": "lv23棍主",
+    "Soldier": 203230,
+    "Grade": 23,
+    "school": 1,
+    "EquipPlan": 100323,
+    "TaoluPlan": 200323
+  },
+  "200328": {
+    "Id": 200328,
+    "Name": "lv28棍主",
+    "Grade": 28,
+    "school": 1,
+    "EquipPlan": 100323,
+    "TaoluPlan": 200328
+  },
+  "200330": {
+    "Id": 200330,
+    "Name": "lv30棍主",
+    "Grade": 30,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200330
+  },
+  "200332": {
+    "Id": 200332,
+    "Name": "lv32棍主",
+    "Grade": 32,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200332
+  },
+  "200334": {
+    "Id": 200334,
+    "Name": "lv34棍主",
+    "Grade": 34,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200334
+  },
+  "200335": {
+    "Id": 200335,
+    "Name": "lv35棍主",
+    "Grade": 35,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200335
+  },
+  "200337": {
+    "Id": 200337,
+    "Name": "lv37棍主",
+    "Grade": 37,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200337
+  },
+  "200338": {
+    "Id": 200338,
+    "Name": "lv38棍主",
+    "Grade": 38,
+    "school": 1,
+    "EquipPlan": 100330,
+    "TaoluPlan": 200338
+  },
+  "200340": {
+    "Id": 200340,
+    "Name": "lv40棍主",
+    "Grade": 40,
+    "school": 1,
+    "EquipPlan": 100340,
+    "TaoluPlan": 200340
+  },
+  "200341": {
+    "Id": 200341,
+    "Name": "lv41棍主",
+    "Grade": 41,
+    "school": 1,
+    "EquipPlan": 100340,
+    "TaoluPlan": 200341
+  },
+  "200342": {
+    "Id": 200342,
+    "Name": "lv42棍主",
+    "Grade": 42,
+    "school": 1,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 200342
+  },
+  "200343": {
+    "Id": 200343,
+    "Name": "lv43棍主",
+    "Grade": 43,
+    "school": 1,
+    "EquipPlan": 100340,
+    "TaoluPlan": 200343
+  },
+  "200344": {
+    "Id": 200344,
+    "Name": "lv44棍主",
+    "Grade": 44,
+    "school": 1,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 200344
+  },
+  "200345": {
+    "Id": 200345,
+    "Name": "lv45棍主",
+    "Grade": 45,
+    "school": 1,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 200345,
+    "FormationPlan": 200345
+  },
+  "200423": {
+    "Id": 200423,
+    "Name": "lv23拳主",
+    "Soldier": 204230,
+    "Grade": 23,
+    "school": 2,
+    "EquipPlan": 100423,
+    "TaoluPlan": 200423
+  },
+  "200428": {
+    "Id": 200428,
+    "Name": "lv28拳主",
+    "Grade": 28,
+    "school": 2,
+    "EquipPlan": 100423,
+    "TaoluPlan": 200428
+  },
+  "200430": {
+    "Id": 200430,
+    "Name": "lv30拳主",
+    "Grade": 30,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200430
+  },
+  "200432": {
+    "Id": 200432,
+    "Name": "lv32拳主",
+    "Grade": 32,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200432
+  },
+  "200434": {
+    "Id": 200434,
+    "Name": "lv34拳主",
+    "Grade": 34,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200434
+  },
+  "200435": {
+    "Id": 200435,
+    "Name": "lv35拳主",
+    "Grade": 35,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200435
+  },
+  "200437": {
+    "Id": 200437,
+    "Name": "lv37拳主",
+    "Grade": 37,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200437
+  },
+  "200438": {
+    "Id": 200438,
+    "Name": "lv38拳主",
+    "Grade": 38,
+    "school": 2,
+    "EquipPlan": 100430,
+    "TaoluPlan": 200438
+  },
+  "200440": {
+    "Id": 200440,
+    "Name": "lv40拳主",
+    "Grade": 40,
+    "school": 2,
+    "EquipPlan": 100440,
+    "TaoluPlan": 200440
+  },
+  "200441": {
+    "Id": 200441,
+    "Name": "lv41拳主",
+    "Grade": 41,
+    "school": 2,
+    "EquipPlan": 100440,
+    "TaoluPlan": 200441
+  },
+  "200442": {
+    "Id": 200442,
+    "Name": "lv42拳主",
+    "Grade": 42,
+    "school": 2,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 200442
+  },
+  "200443": {
+    "Id": 200443,
+    "Name": "lv43拳主",
+    "Grade": 43,
+    "school": 2,
+    "EquipPlan": 100440,
+    "TaoluPlan": 200443
+  },
+  "200444": {
+    "Id": 200444,
+    "Name": "lv44拳主",
+    "Grade": 44,
+    "school": 2,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 200444
+  },
+  "200445": {
+    "Id": 200445,
+    "Name": "lv45拳主",
+    "Grade": 45,
+    "school": 2,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 200445,
+    "FormationPlan": 200445
+  },
+  "200501": {
+    "Id": 200501,
+    "Name": "lv50少林棍主",
+    "Grade": 50,
+    "school": 1,
+    "EquipPlan": 200501,
+    "TaoluPlan": 200501,
+    "TalentPlan": 5
+  },
+  "200502": {
+    "Id": 200502,
+    "Name": "lv50武当拳主",
+    "Grade": 50,
+    "school": 2,
+    "EquipPlan": 200502,
+    "TaoluPlan": 200502,
+    "TalentPlan": 5
+  },
+  "200503": {
+    "Id": 200503,
+    "Name": "lv50修罗刀主",
+    "Grade": 50,
+    "school": 3,
+    "EquipPlan": 200503,
+    "TaoluPlan": 200503,
+    "TalentPlan": 5
+  },
+  "200504": {
+    "Id": 200504,
+    "Name": "lv50天山剑主",
+    "Grade": 50,
+    "school": 4,
+    "EquipPlan": 200504,
+    "TaoluPlan": 200504,
+    "TalentPlan": 5
+  },
+  "201250": {
+    "Id": 201250,
+    "Name": "lv25刀主",
+    "Soldier": 202500,
+    "Grade": 25,
+    "school": 3,
+    "EquipPlan": 100123,
+    "TaoluPlan": 200125
+  },
+  "202250": {
+    "Id": 202250,
+    "Name": "lv25剑主",
+    "Soldier": 202500,
+    "Grade": 25,
+    "school": 4,
+    "EquipPlan": 100223,
+    "TaoluPlan": 200225
+  },
+  "203250": {
+    "Id": 203250,
+    "Name": "lv25棍主",
+    "Soldier": 202500,
+    "Grade": 25,
+    "school": 1,
+    "EquipPlan": 100323,
+    "TaoluPlan": 200325
+  },
+  "204250": {
+    "Id": 204250,
+    "Name": "lv25拳主",
+    "Soldier": 202500,
+    "Grade": 25,
+    "school": 2,
+    "EquipPlan": 100423,
+    "TaoluPlan": 200425
+  },
+  "1001010": {
+    "Id": 1001010,
+    "Name": "lv10PT主角",
+    "Grade": 10,
+    "EquipPlan": 1001010,
+    "TaoluPlan": 1001010
+  },
+  "1002010": {
+    "Id": 1002010,
+    "Name": "lv20PT主角",
+    "Grade": 20,
+    "TaoluPlan": 1002010
+  },
+  "1004010": {
+    "Id": 1004010,
+    "Name": "LV40PT主角",
+    "Grade": 40,
+    "TaoluPlan": 1004010
+  },
+  "1004011": {"Id": 1004011, "Name": "苏笑笑", "Grade": 40, "TaoluPlan": 1004011},
+  "1004012": {"Id": 1004012, "Name": "傀儡人", "Grade": 40, "TaoluPlan": 1004012},
+  "1004013": {"Id": 1004013, "Name": "截英", "Grade": 40, "TaoluPlan": 1004013},
+  "1004014": {"Id": 1004014, "Name": "云中阁主", "Grade": 40, "TaoluPlan": 1004014},
+  "1004015": {"Id": 1004015, "Name": "玉姐", "Grade": 40, "TaoluPlan": 1004015},
+  "1004016": {"Id": 1004016, "Name": "巫云鹏", "Grade": 40, "TaoluPlan": 1004016},
+  "1004017": {"Id": 1004017, "Name": "曲二娘", "Grade": 40, "TaoluPlan": 1004017},
+  "1004018": {"Id": 1004018, "Name": "盖飞捷", "Grade": 40, "TaoluPlan": 1004018},
+  "1004020": {"Id": 1004020, "Name": "LV40PT主角", "Grade": 40},
+  "1004021": {"Id": 1004021, "Name": "苏笑笑", "Soldier": 21000008, "Grade": 40},
+  "1004022": {
+    "Id": 1004022,
+    "Name": "傀儡人",
+    "Soldier": 21000006,
+    "Grade": 40,
+    "TaoluPlan": 1004022
+  },
+  "1004023": {
+    "Id": 1004023,
+    "Name": "截英",
+    "Soldier": 21000007,
+    "Grade": 40,
+    "TaoluPlan": 1004023
+  },
+  "1004024": {"Id": 1004024, "Name": "云中阁主", "Grade": 40, "TaoluPlan": 1004024},
+  "1004025": {"Id": 1004025, "Name": "玉姐", "Grade": 40, "TaoluPlan": 1004025},
+  "1004026": {"Id": 1004026, "Name": "巫云鹏", "Grade": 40, "TaoluPlan": 1004026},
+  "1004027": {"Id": 1004027, "Name": "曲二娘", "Grade": 40, "TaoluPlan": 1004027},
+  "1004028": {"Id": 1004028, "Name": "盖飞捷", "Grade": 40, "TaoluPlan": 1004028},
+  "1005010": {"Id": 1005010, "Name": "退星", "TalentPlan": 2},
+  "1005011": {
+    "Id": 1005011,
+    "Name": "lv10主角标配",
+    "Grade": 10,
+    "EquipPlan": 1005011,
+    "TaoluPlan": 1005011
+  },
+  "1005021": {
+    "Id": 1005021,
+    "Name": "lv20刀",
+    "Grade": 20,
+    "EquipPlan": 1005021,
+    "TaoluPlan": 1005021
+  },
+  "1005022": {
+    "Id": 1005022,
+    "Name": "lv20剑",
+    "Grade": 20,
+    "EquipPlan": 1005022,
+    "TaoluPlan": 1005022
+  },
+  "1005023": {
+    "Id": 1005023,
+    "Name": "lv20棍",
+    "Grade": 20,
+    "EquipPlan": 1005023,
+    "TaoluPlan": 1005023
+  },
+  "1005024": {
+    "Id": 1005024,
+    "Name": "lv20拳",
+    "Grade": 20,
+    "EquipPlan": 1005024,
+    "TaoluPlan": 1005024
+  },
+  "1005025": {
+    "Id": 1005025,
+    "Name": "lv20琴",
+    "Grade": 20,
+    "EquipPlan": 1005025,
+    "TaoluPlan": 1005025
+  },
+  "1005026": {
+    "Id": 1005026,
+    "Name": "lv25刀",
+    "Grade": 25,
+    "EquipPlan": 1005011,
+    "TaoluPlan": 1005026
+  },
+  "1005027": {
+    "Id": 1005027,
+    "Name": "lv25剑",
+    "Grade": 25,
+    "EquipPlan": 1005021,
+    "TaoluPlan": 1005027
+  },
+  "1005028": {
+    "Id": 1005028,
+    "Name": "lv25棍",
+    "Grade": 25,
+    "EquipPlan": 1005022,
+    "TaoluPlan": 1005028
+  },
+  "1005029": {
+    "Id": 1005029,
+    "Name": "lv25拳",
+    "Grade": 25,
+    "EquipPlan": 1005023,
+    "TaoluPlan": 1005029
+  },
+  "1005030": {
+    "Id": 1005030,
+    "Name": "lv25琴",
+    "Grade": 25,
+    "EquipPlan": 1005024,
+    "TaoluPlan": 1005030
+  },
+  "1005031": {
+    "Id": 1005031,
+    "Name": "lv30刀",
+    "Grade": 30,
+    "EquipPlan": 1005031,
+    "TaoluPlan": 1005031
+  },
+  "1005032": {
+    "Id": 1005032,
+    "Name": "lv30剑",
+    "Grade": 30,
+    "EquipPlan": 1005032,
+    "TaoluPlan": 1005032
+  },
+  "1005033": {
+    "Id": 1005033,
+    "Name": "lv30棍",
+    "Grade": 30,
+    "EquipPlan": 1005033,
+    "TaoluPlan": 1005033
+  },
+  "1005034": {
+    "Id": 1005034,
+    "Name": "lv30拳",
+    "Grade": 30,
+    "EquipPlan": 1005034,
+    "TaoluPlan": 1005034
+  },
+  "1005035": {
+    "Id": 1005035,
+    "Name": "lv30琴",
+    "Grade": 30,
+    "EquipPlan": 1005035,
+    "TaoluPlan": 1005035
+  },
+  "1005036": {"Id": 1005036, "Name": "lv35刀", "Grade": 35},
+  "1005037": {"Id": 1005037, "Name": "lv35剑", "Grade": 35},
+  "1005038": {"Id": 1005038, "Name": "lv35棍", "Grade": 35},
+  "1005039": {"Id": 1005039, "Name": "lv35拳", "Grade": 35},
+  "1005040": {"Id": 1005040, "Name": "lv35琴", "Grade": 35},
+  "1005041": {
+    "Id": 1005041,
+    "Name": "lv40刀",
+    "Grade": 40,
+    "EquipPlan": 1005041,
+    "TaoluPlan": 1005041
+  },
+  "1005042": {
+    "Id": 1005042,
+    "Name": "lv40剑",
+    "Grade": 40,
+    "EquipPlan": 1005042,
+    "TaoluPlan": 1005042
+  },
+  "1005043": {
+    "Id": 1005043,
+    "Name": "lv40棍",
+    "Grade": 40,
+    "EquipPlan": 1005043,
+    "TaoluPlan": 1005043
+  },
+  "1005044": {
+    "Id": 1005044,
+    "Name": "lv40拳",
+    "Grade": 40,
+    "EquipPlan": 1005044,
+    "TaoluPlan": 1005044
+  },
+  "1005045": {
+    "Id": 1005045,
+    "Name": "lv40琴",
+    "Grade": 40,
+    "EquipPlan": 1005045,
+    "TaoluPlan": 1005045
+  }
+}

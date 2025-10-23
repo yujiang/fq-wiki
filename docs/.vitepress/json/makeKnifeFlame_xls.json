@@ -1,0 +1,31 @@
+{
+  "2033": {
+    "Id": 2033,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52111, 2]],
+    "Mastery": 50,
+    "Prescription": 0
+  },
+  "2034": {
+    "Id": 2034,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52110, 2]],
+    "Mastery": 50
+  },
+  "2035": {
+    "Id": 2035,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52109, 2]],
+    "Mastery": 50
+  },
+  "2036": {
+    "Id": 2036,
+    "MoneyType": 2,
+    "Cost": 0,
+    "Material": [[52110, 2]],
+    "Mastery": 50
+  }
+}

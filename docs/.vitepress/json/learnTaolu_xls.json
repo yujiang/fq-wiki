@@ -1,0 +1,1745 @@
+{
+  "少林风火棍上册": {
+    "Id": "少林风火棍上册",
+    "Taolu": 60001,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 110002
+  },
+  "少林风火棍下册": {
+    "Id": "少林风火棍下册",
+    "Taolu": 60001,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 400,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 110002,
+    "Say": 115000
+  },
+  "小夜叉棍法上册": {
+    "Id": "小夜叉棍法上册",
+    "Taolu": 60002,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40704
+  },
+  "小夜叉棍法下册": {
+    "Id": "小夜叉棍法下册",
+    "Taolu": 60002,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "韦陀杵上册": {
+    "Id": "韦陀杵上册",
+    "Taolu": 60003,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "韦陀杵中册": {
+    "Id": "韦陀杵中册",
+    "Taolu": 60003,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "韦陀杵下册": {
+    "Id": "韦陀杵下册",
+    "Taolu": 60003,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "达摩棍法上册": {
+    "Id": "达摩棍法上册",
+    "Taolu": 60004,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 6250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "达摩棍法中册": {
+    "Id": "达摩棍法中册",
+    "Taolu": 60004,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 7500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "达摩棍法下册": {
+    "Id": "达摩棍法下册",
+    "Taolu": 60004,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 1,
+      "weapon": "棍",
+      "ZaoYi": ["枪棍修为", 0]
+    },
+    "Cost": 11250,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "罗汉心法上册": {
+    "Id": "罗汉心法上册",
+    "Taolu": 60005,
+    "Need": {"SchoolLevel": 1, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40704
+  },
+  "罗汉心法下册": {
+    "Id": "罗汉心法下册",
+    "Taolu": 60005,
+    "Need": {"SchoolLevel": 1, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 300,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "金刚不坏体上册": {
+    "Id": "金刚不坏体上册",
+    "Taolu": 60006,
+    "Need": {"SchoolLevel": 2, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40704
+  },
+  "金刚不坏体下册": {
+    "Id": "金刚不坏体下册",
+    "Taolu": 60006,
+    "Need": {"SchoolLevel": 2, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "明镜拭心法上册": {
+    "Id": "明镜拭心法上册",
+    "Taolu": 60007,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "明镜拭心法中册": {
+    "Id": "明镜拭心法中册",
+    "Taolu": 60007,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3600,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "明镜拭心法下册": {
+    "Id": "明镜拭心法下册",
+    "Taolu": 60007,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5400,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "易筋经上册": {
+    "Id": "易筋经上册",
+    "Taolu": 60008,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "易筋经中册": {
+    "Id": "易筋经中册",
+    "Taolu": 60008,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 6000,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "易筋经下册": {
+    "Id": "易筋经下册",
+    "Taolu": 60008,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["内功修为", 0]},
+    "Cost": 9000,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "少林梅花桩上册": {
+    "Id": "少林梅花桩上册",
+    "Taolu": 60009,
+    "Need": {"SchoolLevel": 1, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40704
+  },
+  "少林梅花桩下册": {
+    "Id": "少林梅花桩下册",
+    "Taolu": 60009,
+    "Need": {"SchoolLevel": 1, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 200,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "玉环步上册": {
+    "Id": "玉环步上册",
+    "Taolu": 60010,
+    "Need": {"SchoolLevel": 2, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40704
+  },
+  "玉环步下册": {
+    "Id": "玉环步下册",
+    "Taolu": 60010,
+    "Need": {"SchoolLevel": 2, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "神足通上册": {
+    "Id": "神足通上册",
+    "Taolu": 60011,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "神足通中册": {
+    "Id": "神足通中册",
+    "Taolu": 60011,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2700,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "神足通下册": {
+    "Id": "神足通下册",
+    "Taolu": 60011,
+    "Need": {"SchoolLevel": 3, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4050,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "一苇渡江上册": {
+    "Id": "一苇渡江上册",
+    "Taolu": 60012,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40704
+  },
+  "一苇渡江中册": {
+    "Id": "一苇渡江中册",
+    "Taolu": 60012,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40704
+  },
+  "一苇渡江下册": {
+    "Id": "一苇渡江下册",
+    "Taolu": 60012,
+    "Need": {"SchoolLevel": 4, "SchoolId": 1, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40704
+  },
+  "回风掌上册": {
+    "Id": "回风掌上册",
+    "Taolu": 60013,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "回风掌下册": {
+    "Id": "回风掌下册",
+    "Taolu": 60013,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 400,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "八卦回风掌上册": {
+    "Id": "八卦回风掌上册",
+    "Taolu": 60014,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "八卦回风掌下册": {
+    "Id": "八卦回风掌下册",
+    "Taolu": 60014,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "无极玄功拳上册": {
+    "Id": "无极玄功拳上册",
+    "Taolu": 60015,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "无极玄功拳中册": {
+    "Id": "无极玄功拳中册",
+    "Taolu": 60015,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "无极玄功拳下册": {
+    "Id": "无极玄功拳下册",
+    "Taolu": 60015,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "太极拳上册": {
+    "Id": "太极拳上册",
+    "Taolu": 60016,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 6250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "太极拳中册": {
+    "Id": "太极拳中册",
+    "Taolu": 60016,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 7500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "太极拳下册": {
+    "Id": "太极拳下册",
+    "Taolu": 60016,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 2,
+      "weapon": "拳",
+      "ZaoYi": ["拳掌修为", 0]
+    },
+    "Cost": 11250,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "武当太和功上册": {
+    "Id": "武当太和功上册",
+    "Taolu": 60017,
+    "Need": {"SchoolLevel": 1, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "武当太和功下册": {
+    "Id": "武当太和功下册",
+    "Taolu": 60017,
+    "Need": {"SchoolLevel": 1, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 300,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "混元一气功上册": {
+    "Id": "混元一气功上册",
+    "Taolu": 60018,
+    "Need": {"SchoolLevel": 2, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "混元一气功下册": {
+    "Id": "混元一气功下册",
+    "Taolu": 60018,
+    "Need": {"SchoolLevel": 2, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "纯阳无极功上册": {
+    "Id": "纯阳无极功上册",
+    "Taolu": 60019,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "纯阳无极功中册": {
+    "Id": "纯阳无极功中册",
+    "Taolu": 60019,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3600,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "纯阳无极功下册": {
+    "Id": "纯阳无极功下册",
+    "Taolu": 60019,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5400,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "太极神功上册": {
+    "Id": "太极神功上册",
+    "Taolu": 60020,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "太极神功中册": {
+    "Id": "太极神功中册",
+    "Taolu": 60020,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 6000,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "太极神功下册": {
+    "Id": "太极神功下册",
+    "Taolu": 60020,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["内功修为", 0]},
+    "Cost": 9000,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "踏七星上册": {
+    "Id": "踏七星上册",
+    "Taolu": 60021,
+    "Need": {"SchoolLevel": 1, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "踏七星下册": {
+    "Id": "踏七星下册",
+    "Taolu": 60021,
+    "Need": {"SchoolLevel": 1, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 200,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "九宫八卦步上册": {
+    "Id": "九宫八卦步上册",
+    "Taolu": 60022,
+    "Need": {"SchoolLevel": 2, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40522
+  },
+  "九宫八卦步下册": {
+    "Id": "九宫八卦步下册",
+    "Taolu": 60022,
+    "Need": {"SchoolLevel": 2, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "上天梯上册": {
+    "Id": "上天梯上册",
+    "Taolu": 60023,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "上天梯中册": {
+    "Id": "上天梯中册",
+    "Taolu": 60023,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2700,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "上天梯下册": {
+    "Id": "上天梯下册",
+    "Taolu": 60023,
+    "Need": {"SchoolLevel": 3, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4050,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "梯云纵上册": {
+    "Id": "梯云纵上册",
+    "Taolu": 60024,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40522
+  },
+  "梯云纵中册": {
+    "Id": "梯云纵中册",
+    "Taolu": 60024,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40522
+  },
+  "梯云纵下册": {
+    "Id": "梯云纵下册",
+    "Taolu": 60024,
+    "Need": {"SchoolLevel": 4, "SchoolId": 2, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40522
+  },
+  "百战刀法上册": {
+    "Id": "百战刀法上册",
+    "Taolu": 60025,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "百战刀法下册": {
+    "Id": "百战刀法下册",
+    "Taolu": 60025,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 400,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "狂沙百战刀上册": {
+    "Id": "狂沙百战刀上册",
+    "Taolu": 60026,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "狂沙百战刀下册": {
+    "Id": "狂沙百战刀下册",
+    "Taolu": 60026,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "晦暝刀意上册": {
+    "Id": "晦暝刀意上册",
+    "Taolu": 60027,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "晦暝刀意中册": {
+    "Id": "晦暝刀意中册",
+    "Taolu": 60027,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "晦暝刀意下册": {
+    "Id": "晦暝刀意下册",
+    "Taolu": 60027,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "霸刀上册": {
+    "Id": "霸刀上册",
+    "Taolu": 60028,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 6250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "霸刀中册": {
+    "Id": "霸刀中册",
+    "Taolu": 60028,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 7500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "霸刀下册": {
+    "Id": "霸刀下册",
+    "Taolu": 60028,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 3,
+      "weapon": "刀",
+      "ZaoYi": ["刀法修为", 0]
+    },
+    "Cost": 11250,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "战意诀上册": {
+    "Id": "战意诀上册",
+    "Taolu": 60029,
+    "Need": {"SchoolLevel": 1, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "战意诀下册": {
+    "Id": "战意诀下册",
+    "Taolu": 60029,
+    "Need": {"SchoolLevel": 1, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 300,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "五霸争雄法上册": {
+    "Id": "五霸争雄法上册",
+    "Taolu": 60030,
+    "Need": {"SchoolLevel": 2, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "五霸争雄法下册": {
+    "Id": "五霸争雄法下册",
+    "Taolu": 60030,
+    "Need": {"SchoolLevel": 2, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "虎贲奋勇法上册": {
+    "Id": "虎贲奋勇法上册",
+    "Taolu": 60031,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "虎贲奋勇法中册": {
+    "Id": "虎贲奋勇法中册",
+    "Taolu": 60031,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3600,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "虎贲奋勇法下册": {
+    "Id": "虎贲奋勇法下册",
+    "Taolu": 60031,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5400,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "九鼎诀上册": {
+    "Id": "九鼎诀上册",
+    "Taolu": 60032,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "九鼎诀中册": {
+    "Id": "九鼎诀中册",
+    "Taolu": 60032,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 6000,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "九鼎诀下册": {
+    "Id": "九鼎诀下册",
+    "Taolu": 60032,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["内功修为", 0]},
+    "Cost": 9000,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "闯鸿门上册": {
+    "Id": "闯鸿门上册",
+    "Taolu": 60033,
+    "Need": {"SchoolLevel": 1, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "闯鸿门下册": {
+    "Id": "闯鸿门下册",
+    "Taolu": 60033,
+    "Need": {"SchoolLevel": 1, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 200,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "横江锁上册": {
+    "Id": "横江锁上册",
+    "Taolu": 60034,
+    "Need": {"SchoolLevel": 2, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 11012003
+  },
+  "横江锁下册": {
+    "Id": "横江锁下册",
+    "Taolu": 60034,
+    "Need": {"SchoolLevel": 2, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "踏刀斫斧上册": {
+    "Id": "踏刀斫斧上册",
+    "Taolu": 60035,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "踏刀斫斧中册": {
+    "Id": "踏刀斫斧中册",
+    "Taolu": 60035,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2700,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "踏刀斫斧下册": {
+    "Id": "踏刀斫斧下册",
+    "Taolu": 60035,
+    "Need": {"SchoolLevel": 3, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4050,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "血流漂橹上册": {
+    "Id": "血流漂橹上册",
+    "Taolu": 60036,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 11012003
+  },
+  "血流漂橹中册": {
+    "Id": "血流漂橹中册",
+    "Taolu": 60036,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 11012003
+  },
+  "血流漂橹下册": {
+    "Id": "血流漂橹下册",
+    "Taolu": 60036,
+    "Need": {"SchoolLevel": 4, "SchoolId": 3, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 11012003
+  },
+  "点梅剑法上册": {
+    "Id": "点梅剑法上册",
+    "Taolu": 60037,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "点梅剑法下册": {
+    "Id": "点梅剑法下册",
+    "Taolu": 60037,
+    "Need": {
+      "SchoolLevel": 1,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 400,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "寒梅落雪剑上册": {
+    "Id": "寒梅落雪剑上册",
+    "Taolu": 60038,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "寒梅落雪剑下册": {
+    "Id": "寒梅落雪剑下册",
+    "Taolu": 60038,
+    "Need": {
+      "SchoolLevel": 2,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "朔风剑势上册": {
+    "Id": "朔风剑势上册",
+    "Taolu": 60039,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "朔风剑势中册": {
+    "Id": "朔风剑势中册",
+    "Taolu": 60039,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "朔风剑势下册": {
+    "Id": "朔风剑势下册",
+    "Taolu": 60039,
+    "Need": {
+      "SchoolLevel": 3,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "缥缈五云剑上册": {
+    "Id": "缥缈五云剑上册",
+    "Taolu": 60040,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 6250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "缥缈五云剑中册": {
+    "Id": "缥缈五云剑中册",
+    "Taolu": 60040,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 7500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "缥缈五云剑下册": {
+    "Id": "缥缈五云剑下册",
+    "Taolu": 60040,
+    "Need": {
+      "SchoolLevel": 4,
+      "SchoolId": 4,
+      "weapon": "剑",
+      "ZaoYi": ["剑法修为", 0]
+    },
+    "Cost": 11250,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "寒露诀上册": {
+    "Id": "寒露诀上册",
+    "Taolu": 60041,
+    "Need": {"SchoolLevel": 1, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "寒露诀下册": {
+    "Id": "寒露诀下册",
+    "Taolu": 60041,
+    "Need": {"SchoolLevel": 1, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 300,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "灵狐拜月心法上册": {
+    "Id": "灵狐拜月心法上册",
+    "Taolu": 60042,
+    "Need": {"SchoolLevel": 2, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "灵狐拜月心法下册": {
+    "Id": "灵狐拜月心法下册",
+    "Taolu": 60042,
+    "Need": {"SchoolLevel": 2, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "少阴明玉经上册": {
+    "Id": "少阴明玉经上册",
+    "Taolu": 60043,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "少阴明玉经中册": {
+    "Id": "少阴明玉经中册",
+    "Taolu": 60043,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 3600,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "少阴明玉经下册": {
+    "Id": "少阴明玉经下册",
+    "Taolu": 60043,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5400,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "千刃归一诀上册": {
+    "Id": "千刃归一诀上册",
+    "Taolu": 60044,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 5000,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "千刃归一诀中册": {
+    "Id": "千刃归一诀中册",
+    "Taolu": 60044,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 6000,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "千刃归一诀下册": {
+    "Id": "千刃归一诀下册",
+    "Taolu": 60044,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["内功修为", 0]},
+    "Cost": 9000,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "登枝步上册": {
+    "Id": "登枝步上册",
+    "Taolu": 60045,
+    "Need": {"SchoolLevel": 1, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 0,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "登枝步下册": {
+    "Id": "登枝步下册",
+    "Taolu": 60045,
+    "Need": {"SchoolLevel": 1, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 200,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "笑折花上册": {
+    "Id": "笑折花上册",
+    "Taolu": 60046,
+    "Need": {"SchoolLevel": 2, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 1200,
+    "Level": 0,
+    "MaxLevel": 19,
+    "NpcId": 40801
+  },
+  "笑折花下册": {
+    "Id": "笑折花下册",
+    "Taolu": 60046,
+    "Need": {"SchoolLevel": 2, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2000,
+    "Level": 20,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "千里婵娟上册": {
+    "Id": "千里婵娟上册",
+    "Taolu": 60047,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2250,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "千里婵娟中册": {
+    "Id": "千里婵娟中册",
+    "Taolu": 60047,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 2700,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "千里婵娟下册": {
+    "Id": "千里婵娟下册",
+    "Taolu": 60047,
+    "Need": {"SchoolLevel": 3, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4050,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "踏雪寻梅上册": {
+    "Id": "踏雪寻梅上册",
+    "Taolu": 60048,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 3750,
+    "Level": 0,
+    "MaxLevel": 11,
+    "NpcId": 40801
+  },
+  "踏雪寻梅中册": {
+    "Id": "踏雪寻梅中册",
+    "Taolu": 60048,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 4500,
+    "Level": 12,
+    "MaxLevel": 23,
+    "NpcId": 40801
+  },
+  "踏雪寻梅下册": {
+    "Id": "踏雪寻梅下册",
+    "Taolu": 60048,
+    "Need": {"SchoolLevel": 4, "SchoolId": 4, "ZaoYi": ["轻功修为", 0]},
+    "Cost": 6750,
+    "Level": 24,
+    "MaxLevel": 39,
+    "NpcId": 40801
+  },
+  "白猿棒法": {
+    "Id": "白猿棒法",
+    "Taolu": 60049,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "太祖长拳": {
+    "Id": "太祖长拳",
+    "Taolu": 60050,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "昆吾剑法": {
+    "Id": "昆吾剑法",
+    "Taolu": 60051,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "开山刀": {
+    "Id": "开山刀",
+    "Taolu": 60052,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "吐纳术": {
+    "Id": "吐纳术",
+    "Taolu": 60053,
+    "Need": {"ZaoYi": ["内功修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "草上飞": {
+    "Id": "草上飞",
+    "Taolu": 60055,
+    "Need": {"ZaoYi": ["轻功修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "太祖棒法": {
+    "Id": "太祖棒法",
+    "Taolu": 60056,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "六合拳": {
+    "Id": "六合拳",
+    "Taolu": 60057,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "回春掌": {
+    "Id": "回春掌",
+    "Taolu": 60058,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "青萍剑法": {
+    "Id": "青萍剑法",
+    "Taolu": 60059,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "碎玉刀法": {
+    "Id": "碎玉刀法",
+    "Taolu": 60060,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "红颜绝": {
+    "Id": "红颜绝",
+    "Taolu": 60061,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "铁布衫": {
+    "Id": "铁布衫",
+    "Taolu": 60062,
+    "Need": {"ZaoYi": ["内功修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "玉壶心法": {
+    "Id": "玉壶心法",
+    "Taolu": 60063,
+    "Need": {"ZaoYi": ["内功修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "八步赶蝉": {
+    "Id": "八步赶蝉",
+    "Taolu": 60064,
+    "Need": {"ZaoYi": ["轻功修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "燕子三抄水": {
+    "Id": "燕子三抄水",
+    "Taolu": 60065,
+    "Need": {"ZaoYi": ["轻功修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "五郎八卦棍": {
+    "Id": "五郎八卦棍",
+    "Taolu": 60066,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "杨家枪法": {
+    "Id": "杨家枪法",
+    "Taolu": 60067,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "狼牙棒法": {
+    "Id": "狼牙棒法",
+    "Taolu": 60068,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "点苍棍法": {
+    "Id": "点苍棍法",
+    "Taolu": 60069,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "疯魔杖法": {
+    "Id": "疯魔杖法",
+    "Taolu": 60070,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "五禽戏": {
+    "Id": "五禽戏",
+    "Taolu": 60071,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "分花拂穴手": {
+    "Id": "分花拂穴手",
+    "Taolu": 60072,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "白莲掌": {
+    "Id": "白莲掌",
+    "Taolu": 60073,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "千夫指": {
+    "Id": "千夫指",
+    "Taolu": 60074,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "庖丁解牛": {
+    "Id": "庖丁解牛",
+    "Taolu": 60075,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "逆刃刀诀": {
+    "Id": "逆刃刀诀",
+    "Taolu": 60076,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "破风刀": {
+    "Id": "破风刀",
+    "Taolu": 60077,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "纵横刀法": {
+    "Id": "纵横刀法",
+    "Taolu": 60078,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "送客剑法": {
+    "Id": "送客剑法",
+    "Taolu": 60079,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "星月剑法": {
+    "Id": "星月剑法",
+    "Taolu": 60080,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "惊蛰剑诀": {
+    "Id": "惊蛰剑诀",
+    "Taolu": 60081,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "唐诗剑法": {
+    "Id": "唐诗剑法",
+    "Taolu": 60082,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "三元养气法": {
+    "Id": "三元养气法",
+    "Taolu": 60083,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "金鳞诀": {
+    "Id": "金鳞诀",
+    "Taolu": 60084,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "坤元心法": {
+    "Id": "坤元心法",
+    "Taolu": 60085,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "游丝悬命诀": {
+    "Id": "游丝悬命诀",
+    "Taolu": 60086,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "浩然正气": {
+    "Id": "浩然正气",
+    "Taolu": 60087,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "龙回首": {
+    "Id": "龙回首",
+    "Taolu": 60088,
+    "Need": {"ZaoYi": ["轻功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "跨鹤行云": {
+    "Id": "跨鹤行云",
+    "Taolu": 60089,
+    "Need": {"ZaoYi": ["轻功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "醉八仙步法": {
+    "Id": "醉八仙步法",
+    "Taolu": 60090,
+    "Need": {"ZaoYi": ["轻功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "蛇行狸翻": {
+    "Id": "蛇行狸翻",
+    "Taolu": 60091,
+    "Need": {"ZaoYi": ["轻功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "神仙索": {
+    "Id": "神仙索",
+    "Taolu": 60092,
+    "Need": {"ZaoYi": ["轻功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "樵歌": {
+    "Id": "樵歌",
+    "Taolu": 60093,
+    "Need": {"weapon": "琴", "ZaoYi": ["奇门修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "甩手箭": {
+    "Id": "甩手箭",
+    "Taolu": 60094,
+    "Need": {"weapon": "暗器", "ZaoYi": ["奇门修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "百戏图·机": {
+    "Id": "百戏图·机",
+    "Taolu": 60095,
+    "Need": {"weapon": "机关", "ZaoYi": ["奇门修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "御兽诀·忠": {
+    "Id": "御兽诀·忠",
+    "Taolu": 60096,
+    "Need": {"weapon": "御兽", "ZaoYi": ["奇门修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "五毒圣典·牵丝": {
+    "Id": "五毒圣典·牵丝",
+    "Taolu": 60097,
+    "Need": {"weapon": "御蛊", "ZaoYi": ["奇门修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "幽兰": {
+    "Id": "幽兰",
+    "Taolu": 60098,
+    "Need": {"weapon": "琴", "ZaoYi": ["奇门修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "连珠箭": {
+    "Id": "连珠箭",
+    "Taolu": 60099,
+    "Need": {"weapon": "暗器", "ZaoYi": ["奇门修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "百戏图·巧": {
+    "Id": "百戏图·巧",
+    "Taolu": 60100,
+    "Need": {"weapon": "机关", "ZaoYi": ["奇门修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "御兽诀·勇": {
+    "Id": "御兽诀·勇",
+    "Taolu": 60101,
+    "Need": {"weapon": "御兽", "ZaoYi": ["奇门修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "五毒圣典·百足": {
+    "Id": "五毒圣典·百足",
+    "Taolu": 60102,
+    "Need": {"weapon": "御蛊", "ZaoYi": ["奇门修为", 8]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "高山流水": {
+    "Id": "高山流水",
+    "Taolu": 60103,
+    "Need": {"weapon": "琴", "ZaoYi": ["奇门修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "乾坤一掷": {
+    "Id": "乾坤一掷",
+    "Taolu": 60104,
+    "Need": {"weapon": "暗器", "ZaoYi": ["奇门修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "机巧录": {
+    "Id": "机巧录",
+    "Taolu": 60105,
+    "Need": {"weapon": "机关", "ZaoYi": ["奇门修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "山珍谱": {
+    "Id": "山珍谱",
+    "Taolu": 60106,
+    "Need": {"weapon": "御兽", "ZaoYi": ["奇门修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "百虫谱": {
+    "Id": "百虫谱",
+    "Taolu": 60107,
+    "Need": {"weapon": "御蛊", "ZaoYi": ["奇门修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "锻刀诀": {
+    "Id": "锻刀诀",
+    "Taolu": 60108,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "玉衣心经": {
+    "Id": "玉衣心经",
+    "Taolu": 60109,
+    "Need": {"ZaoYi": ["内功修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "万蛊噬心爪": {
+    "Id": "万蛊噬心爪",
+    "Taolu": 60112,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 30]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "袁氏棍法": {
+    "Id": "袁氏棍法",
+    "Taolu": 60113,
+    "Need": {"weapon": "棍", "ZaoYi": ["枪棍修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "袁氏拳法": {
+    "Id": "袁氏拳法",
+    "Taolu": 60114,
+    "Need": {"weapon": "拳", "ZaoYi": ["拳掌修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "袁氏剑法": {
+    "Id": "袁氏剑法",
+    "Taolu": 60110,
+    "Need": {"weapon": "剑", "ZaoYi": ["剑法修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "袁氏刀法": {
+    "Id": "袁氏刀法",
+    "Taolu": 60115,
+    "Need": {"weapon": "刀", "ZaoYi": ["刀法修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  },
+  "测试轻功": {
+    "Id": "测试轻功",
+    "Taolu": 60666,
+    "Need": {"ZaoYi": ["轻功修为", 0]},
+    "Level": 0,
+    "MaxLevel": 39
+  }
+}

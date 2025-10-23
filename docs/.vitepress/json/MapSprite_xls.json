@@ -1,0 +1,25 @@
+{
+  "1005": {
+    "Id": 1005,
+    "Desc": "种植",
+    "ManuType": ["water", "fertilizer", "insects", "weed"]
+  },
+  "hunt": {
+    "Id": "hunt",
+    "Desc": "打猎",
+    "ManuType": ["peel", "cutmeet", "release"]
+  },
+  "egg": {"Id": "egg", "Desc": "鸡窝", "ManuType": ["kill", "egg", "leave"]},
+  "animal": {"Id": "animal", "Desc": "动物类", "ManuType": ["kill", "leave"]},
+  "MapNpc1": {
+    "Id": "MapNpc1",
+    "Desc": "NPC",
+    "ManuType": ["chat", "gift", "fight", "support", "team", "love"]
+  },
+  "fish": {"Id": "fish", "Desc": "钓鱼", "ManuType": ["fish", "leave"]},
+  "MapNpc2": {
+    "Id": "MapNpc2",
+    "Desc": "偷袭",
+    "ManuType": ["closesneak", "farsneak"]
+  }
+}

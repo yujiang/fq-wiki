@@ -1,0 +1,247 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "鹿",
+    "Shape": 5001,
+    "Speed": 3,
+    "Blood": 60,
+    "Reward": 1120,
+    "Double": 1
+  },
+  "2": {
+    "Id": 2,
+    "Name": "羚羊",
+    "Shape": 7008,
+    "Speed": 3,
+    "Blood": 60,
+    "Reward": 1121,
+    "Double": 1
+  },
+  "3": {
+    "Id": 3,
+    "Name": "稻草人",
+    "Shape": 1030,
+    "Speed": 3,
+    "Blood": 60,
+    "Reward": 10002,
+    "Double": 1
+  },
+  "4": {
+    "Id": 4,
+    "Name": "草鱼",
+    "Icon": 17657,
+    "Speed": [1, 2],
+    "Reward": 43003,
+    "Double": 1
+  },
+  "5": {
+    "Id": 5,
+    "Name": "青鱼",
+    "Icon": 17665,
+    "Speed": [1, 2],
+    "Reward": 43004,
+    "Double": 1
+  },
+  "6": {
+    "Id": 6,
+    "Name": "鳙鱼",
+    "Icon": 17658,
+    "Speed": [1, 2],
+    "Reward": 43005,
+    "Double": 1
+  },
+  "7": {
+    "Id": 7,
+    "Name": "鲢鱼",
+    "Icon": 17672,
+    "Speed": [1, 3],
+    "Reward": 43006,
+    "Double": 1
+  },
+  "8": {
+    "Id": 8,
+    "Name": "鲜虾",
+    "Icon": 17938,
+    "Speed": [2, 4],
+    "Reward": 43007,
+    "Double": 1
+  },
+  "9": {
+    "Id": 9,
+    "Name": "泥鳅",
+    "Icon": 34317,
+    "Speed": [2, 4],
+    "Reward": 43008,
+    "Double": 1
+  },
+  "10": {
+    "Id": 10,
+    "Name": "扁鱼",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43009,
+    "Double": 1
+  },
+  "11": {
+    "Id": 11,
+    "Name": "松花鲈",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43010,
+    "Double": 1
+  },
+  "12": {
+    "Id": 12,
+    "Name": "桃花鳜",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43013,
+    "Double": 1
+  },
+  "13": {
+    "Id": 13,
+    "Name": "大口鲶",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43014,
+    "Double": 1
+  },
+  "14": {
+    "Id": 14,
+    "Name": "黄尾金龙",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43015,
+    "Double": 1
+  },
+  "15": {
+    "Id": 15,
+    "Name": "星点鲷鱼",
+    "Icon": 17672,
+    "Speed": [3, 5],
+    "Reward": 43016,
+    "Double": 1
+  },
+  "16": {
+    "Id": 16,
+    "Name": "玳瑁龟",
+    "Icon": 17880,
+    "Speed": [3, 5],
+    "Reward": 43017,
+    "Double": 1
+  },
+  "17": {"Id": 17, "Name": "无奖励地鼠", "Icon": -1, "Speed": 10},
+  "18": {"Id": 18, "Name": "普通奖励地鼠", "Icon": 1, "Speed": 10, "Reward": 1120},
+  "19": {"Id": 19, "Name": "精品奖励地鼠", "Icon": 0, "Speed": 10, "Reward": 1121},
+  "20": {
+    "Id": 20,
+    "Name": "杏花村专用鹿",
+    "Shape": 5001,
+    "Speed": 3,
+    "Blood": 40,
+    "Reward": 1122
+  },
+  "21": {
+    "Id": 21,
+    "Name": "更夫的护身符",
+    "Icon": 1777,
+    "Reward": 12375,
+    "Double": 0
+  },
+  "22": {
+    "Id": 22,
+    "Name": "金兵",
+    "Icon": 2079,
+    "Shape": 2079,
+    "Speed": 1,
+    "Blood": 20,
+    "Double": 0
+  },
+  "23": {
+    "Id": 23,
+    "Name": "金兵",
+    "Icon": 2079,
+    "Shape": 2079,
+    "Speed": 1,
+    "Blood": 20,
+    "Double": 0
+  },
+  "24": {
+    "Id": 24,
+    "Name": "金兵",
+    "Icon": 2079,
+    "Shape": 2079,
+    "Speed": 1,
+    "Blood": 40,
+    "Double": 0
+  },
+  "25": {"Id": 25, "Name": "无奖励地鼠", "Icon": -1, "Speed": 10},
+  "26": {"Id": 26, "Name": "地鼠", "Icon": 1, "Speed": 10},
+  "27": {"Id": 27, "Name": "地鼠-兵书", "Icon": 0, "Speed": 10},
+  "28": {
+    "Id": 28,
+    "Name": "老鹰",
+    "Icon": 1050,
+    "Shape": 1050,
+    "Speed": 1,
+    "Blood": 100
+  },
+  "29": {
+    "Id": 29,
+    "Name": "静止靶子",
+    "Shape": 3162,
+    "Speed": " ",
+    "Blood": 0,
+    "Score": 10
+  },
+  "30": {
+    "Id": 30,
+    "Name": "左右移动靶子",
+    "Shape": 3163,
+    "Speed": 5000,
+    "Way": 1,
+    "Blood": 0,
+    "Score": 10
+  },
+  "31": {
+    "Id": 31,
+    "Name": "上下移动靶子",
+    "Shape": 3163,
+    "Speed": 5000,
+    "Way": 2,
+    "Blood": 0,
+    "Score": 10
+  },
+  "32": {
+    "Id": 32,
+    "Name": "湿漉漉的箱子",
+    "Icon": 5710,
+    "Reward": 12552,
+    "Double": 0
+  },
+  "33": {"Id": 33, "Name": "星星"},
+  "34": {
+    "Id": 34,
+    "Name": "鲫鱼",
+    "Icon": 17672,
+    "Speed": [2, 4],
+    "Reward": 43018,
+    "Double": 1
+  },
+  "35": {
+    "Id": 35,
+    "Name": "破衣裳",
+    "Icon": 1562,
+    "Speed": [1, 3],
+    "Reward": 12557,
+    "Double": 1
+  },
+  "36": {
+    "Id": 36,
+    "Name": "螃蟹",
+    "Icon": 17937,
+    "Speed": [2, 4],
+    "Reward": 50106,
+    "Double": 1
+  }
+}

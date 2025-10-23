@@ -1,0 +1,74 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 31065,
+    "Name": "小阅历丹",
+    "RestrType": 1,
+    "Count": 5,
+    "MoneyType": 5,
+    "Price": 200,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 1,
+    "Tag": "门贡商店"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 31021,
+    "Name": "小突破丹",
+    "RestrType": 1,
+    "Count": 4,
+    "MoneyType": 5,
+    "Price": 200,
+    "Needs": {"Level": 0, "SchoolLevel": 1},
+    "Sort": 2,
+    "Tag": "门贡商店"
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 31066,
+    "Name": "阅历丹",
+    "RestrType": 1,
+    "Count": 2,
+    "MoneyType": 5,
+    "Price": 1000,
+    "Needs": {"Level": 0, "SchoolLevel": 2},
+    "Sort": 3,
+    "Tag": "门贡商店"
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 31022,
+    "Name": "突破丹",
+    "RestrType": 1,
+    "Count": 2,
+    "MoneyType": 5,
+    "Price": 400,
+    "Needs": {"Level": 0, "SchoolLevel": 2},
+    "Sort": 4,
+    "Tag": "门贡商店"
+  },
+  "5": {
+    "Id": 5,
+    "ItemId": 31063,
+    "Name": "顺脉丹",
+    "RestrType": 1,
+    "Count": 2,
+    "MoneyType": 5,
+    "Price": 200,
+    "Needs": {"Level": 0, "SchoolLevel": 3},
+    "Sort": 5,
+    "Tag": "门贡商店"
+  },
+  "6": {
+    "Id": 6,
+    "ItemId": 31062,
+    "Name": "洗髓丹",
+    "RestrType": 1,
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 300,
+    "Needs": {"Level": 0, "SchoolLevel": 4},
+    "Sort": 6,
+    "Tag": "门贡商店"
+  }
+}

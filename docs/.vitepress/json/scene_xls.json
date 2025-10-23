@@ -1,0 +1,6337 @@
+{
+  "1002": {
+    "Id": 1002,
+    "Name": "七侠镇",
+    "MapId": 1005,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2960,
+    "Light": 1001,
+    "Desc": "测试：这是栖霞镇",
+    "showSmap": 1,
+    "MusicNo": 1015,
+    "x": 102,
+    "y": 55,
+    "traps": [
+      100230,
+      100231,
+      100232,
+      100233,
+      100234,
+      100235,
+      100236,
+      100237,
+      100238,
+      100239,
+      100240,
+      100241,
+      100242,
+      100243,
+      100244,
+      100245,
+      100246
+    ],
+    "Weather": 1002
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "汴京",
+    "MapId": 1001,
+    "Type": "主城",
+    "Grade": 0,
+    "Width": 13440,
+    "Height": 7360,
+    "Light": 1001,
+    "Desc": "汴京是南朝的京城，位于中原腹地，是天下最为雄伟的城池。北接雁门关以拒北国，南通武昌等经济重镇，是中原地带的交通枢纽。汴京汇集了全国各地的能人奇物。",
+    "showSmap": 1,
+    "MusicNo": 1001,
+    "x": 541,
+    "y": 244,
+    "Weather": 1003,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ],
+    "Enter": {
+      "trigger": {
+        "210096": 209915,
+        "539024": 539030
+      }
+    }
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "灵州",
+    "MapId": 1012,
+    "Type": "主城",
+    "Grade": 0,
+    "Width": 6869,
+    "Height": 4640,
+    "Light": 1001,
+    "Desc": "灵州地接中原与西域，是前往西域的最后一座大城，西域各国商人和使臣往来中原前，都会在灵州售卖西域特产，踏上返程时又会采购中原丝绸、瓷器、茶叶等货物满载而归。",
+    "showSmap": 1,
+    "MusicNo": 1020,
+    "x": 160,
+    "y": 119,
+    "Weather": 1004,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ]
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "武当山",
+    "MapId": 3087,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 7000,
+    "Height": 5000,
+    "Light": 1001,
+    "Desc": "武当山以“四大名山皆拱揖，五方仙岳共朝宗”的“五岳之冠”地位闻名于世。其上更有道家玄门正宗武当派，风头正盛。",
+    "showSmap": 1,
+    "MusicNo": 1006,
+    "x": 318,
+    "y": 197,
+    "traps": [
+      100501
+    ],
+    "Weather": 1005,
+    "Fightbg": 3087
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "白鹭书院",
+    "MapId": 1016,
+    "Grade": 0,
+    "Width": 3640,
+    "Height": 2280,
+    "Light": 1001,
+    "Desc": "门牌上写的是桃花坞，要改",
+    "showSmap": 1,
+    "MusicNo": "门牌上写的是桃花坞，要改",
+    "x": 36,
+    "y": 100,
+    "Weather": 1006
+  },
+  "1007": {
+    "Id": 1007,
+    "Name": "少林寺",
+    "MapId": 3086,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 5361,
+    "Height": 5815,
+    "Light": 1001,
+    "Desc": "中岳嵩山，由太室山与少室山组成，共七十二峰。少室山下的少林寺自古便是中原佛教的禅宗祖庭，亦是武林门派之魁首，千百年来，超然于世，无可撼动者。",
+    "showSmap": 1,
+    "MusicNo": 1017,
+    "x": 241,
+    "y": 256,
+    "Weather": 1007,
+    "Fightbg": 3086
+  },
+  "1008": {
+    "Id": 1008,
+    "Name": "天山",
+    "MapId": 3137,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 4600,
+    "Height": 6000,
+    "Light": 1001,
+    "Desc": "古名白山，又名雪山，因冬夏有雪，由此得名。天山之上坐落着天山派，天山派以剑闻名于天下。门下弟子，皆以剑侠自居。",
+    "showSmap": 1,
+    "MusicNo": 1011,
+    "x": 207,
+    "y": 277,
+    "Weather": 1008
+  },
+  "1009": {
+    "Id": 1009,
+    "Name": "华山",
+    "MapId": 1022,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 2880,
+    "Height": 3280,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 92,
+    "y": 32,
+    "Weather": 1009
+  },
+  "1011": {
+    "Id": 1011,
+    "Name": "唐门",
+    "MapId": 1024,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 3200,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 42,
+    "y": 56,
+    "Weather": 1011
+  },
+  "1012": {
+    "Id": 1012,
+    "Name": "修罗宫",
+    "MapId": 3119,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 6002,
+    "Height": 4007,
+    "Light": 1001,
+    "Desc": "修罗宫驻扎在西北荒漠，资源贫瘠，但位置险要，乃北朝、南朝、西域三国交汇之要冲。",
+    "showSmap": 1,
+    "MusicNo": 1015,
+    "x": 32,
+    "y": 190,
+    "Weather": 1012
+  },
+  "1013": {
+    "Id": 1013,
+    "Name": "凌霄塔",
+    "MapId": 1006,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "showSmap": 1,
+    "x": 38,
+    "y": 35,
+    "Weather": 1013
+  },
+  "1014": {
+    "Id": 1014,
+    "Name": "移花宫",
+    "MapId": 5001,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 2960,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 165,
+    "y": 96,
+    "Weather": 1014
+  },
+  "1015": {
+    "Id": 1015,
+    "Name": "丐帮总舵",
+    "MapId": 1057,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 5040,
+    "Height": 2960,
+    "Light": 1003,
+    "showSmap": 1,
+    "x": 158,
+    "y": 115,
+    "Weather": 1015
+  },
+  "1016": {
+    "Id": 1016,
+    "Name": "芦苇荡",
+    "MapId": 3131,
+    "Type": "临时，主线-杏花村",
+    "Grade": 10,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Desc": "风卷芦浪遮侠影，剑光破雾，恩怨情仇隐巨鲸。",
+    "showSmap": 1,
+    "MusicNo": 1004,
+    "x": 121,
+    "y": 35,
+    "Weather": 1016
+  },
+  "1017": {
+    "Id": 1017,
+    "Name": "快活林",
+    "MapId": 1004,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 2640,
+    "Height": 1280,
+    "showSmap": 0,
+    "x": 64,
+    "y": 74,
+    "Weather": 1017
+  },
+  "1018": {
+    "Id": 1018,
+    "Name": "昆仑",
+    "MapId": 1036,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3120,
+    "Height": 4640,
+    "showSmap": 1,
+    "x": 134,
+    "y": 39,
+    "Weather": 1018
+  },
+  "1019": {
+    "Id": 1019,
+    "Name": "边境",
+    "MapId": 1056,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 5280,
+    "Height": 3600,
+    "Light": 1001,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 249,
+    "y": 39,
+    "Weather": 1019
+  },
+  "1020": {
+    "Id": 1020,
+    "Name": "雁门关（旧版，弃用）",
+    "MapId": 1030,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3680,
+    "Light": 1001,
+    "Desc": "写了一堆宋字，大概得改成武",
+    "showSmap": 1,
+    "x": 140,
+    "y": 95,
+    "Weather": 1020
+  },
+  "1021": {
+    "Id": 1021,
+    "Name": "凉州",
+    "MapId": 1018,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2560,
+    "showSmap": 0,
+    "x": 91,
+    "y": 83,
+    "Weather": 1021
+  },
+  "1022": {
+    "Id": 1022,
+    "Name": "临安",
+    "MapId": 3124,
+    "SceneArea": 1022,
+    "Type": "主城",
+    "Grade": 0,
+    "Width": 12544,
+    "Height": 7819,
+    "Light": 1001,
+    "Desc": "临安城地处江南富庶之地，地通南北，万物所聚，应有尽有。兼之江南风景如画，由是引来众多文人墨客流连于此，留下了一干脍炙人口的诗篇。",
+    "showSmap": 1,
+    "MusicNo": 4009,
+    "x": 216,
+    "y": 186,
+    "Weather": 1022,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ],
+    "Fightbg": 3124,
+    "Enter": {
+      "trigger": 209910
+    }
+  },
+  "1023": {
+    "Id": 1023,
+    "Name": "杏花村",
+    "MapId": 3073,
+    "SceneArea": 1023,
+    "Type": "主线-杏花村",
+    "Grade": 10,
+    "Width": 4560,
+    "Height": " ",
+    "Light": 1001,
+    "Desc": "杏花村可以说是一个法外之地，无论你在江湖里做了什么，到了杏花村就无人能追究；同时你也必须遵循杏花村的规则。",
+    "showSmap": 1,
+    "MusicNo": 4010,
+    "x": 93,
+    "y": 215,
+    "Weather": 1023,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ],
+    "Fightbg": 3073,
+    "Enter": {
+      "trigger": 209918
+    }
+  },
+  "1024": {
+    "Id": 1024,
+    "Name": "大理",
+    "MapId": 1035,
+    "Type": "旧图",
+    "Grade": 50,
+    "Width": 8160,
+    "Height": 4240,
+    "Light": 1001,
+    "Desc": "大理城位于南疆腹地，为大理国国都。其地气候湿润，植物茂盛，相较中原别有一番风貌。市肆繁华，人烟稠密，百姓安居乐业，共享盛世升平。",
+    "showSmap": 1,
+    "x": 260,
+    "y": 134,
+    "Weather": 1024
+  },
+  "1025": {
+    "Id": 1025,
+    "Name": "青龙会",
+    "MapId": 1023,
+    "Type": "阵营",
+    "Grade": 0,
+    "Width": 2560,
+    "Height": 2880,
+    "Light": 1001,
+    "Desc": "青龙会盘踞衡山东南幽谷，以青龙为首，下设白龙、黑龙、紫龙三脉，遣“龙蛇”搅扰江湖。行事无常，既不图利，亦不争权，唯愿江湖波澜骤起。 ",
+    "showSmap": 1,
+    "MusicNo": 1099,
+    "x": 105,
+    "y": 132,
+    "Weather": 1025
+  },
+  "1026": {
+    "Id": 1026,
+    "Name": "阳明岛",
+    "MapId": 1016,
+    "Type": "阵营",
+    "Grade": 0,
+    "Width": 3640,
+    "Height": 2280,
+    "Light": 1001,
+    "Desc": "阳明岛踞东海近海，终年浪涌雾锁，礁石如刀丛林立。岛上人可踏浪而行，诛匪首悬首官道、斩恶霸曝尸荒野。又有言不知何意：「乌纱在首，江湖绝路」",
+    "showSmap": 1,
+    "MusicNo": 1016,
+    "x": 26,
+    "y": 104,
+    "Weather": 1026
+  },
+  "1027": {
+    "Id": 1027,
+    "Name": "莫干山",
+    "MapId": 1041,
+    "Type": "旧图",
+    "Grade": 20,
+    "Width": 7200,
+    "Height": 5120,
+    "Light": 1001,
+    "Desc": "莫干山因吴王阖闾派干将、莫邪在此铸成举世无双的雌雄双剑而得名，以绿荫如海的修竹、清澈不竭的山泉、四季各异的风光称秀于江南，享有“江南第一山”之美誉。",
+    "showSmap": 1,
+    "x": 117,
+    "y": 143,
+    "Weather": 1027
+  },
+  "1028": {
+    "Id": 1028,
+    "Name": "杏子林（旧）",
+    "MapId": 1044,
+    "Type": "旧图",
+    "Grade": 60,
+    "Width": 6400,
+    "Height": 4800,
+    "Light": 1001,
+    "Desc": "杏子林乃是“杏林神医”神医董延年隐居之所，此处依山傍水，四季如春，适合培植药材。董延年在其中开垦了一片苗圃，专门种植培养他从天南海北搜集回来的名贵药材。",
+    "showSmap": 1,
+    "x": 154,
+    "y": 120,
+    "Weather": 1028
+  },
+  "1029": {
+    "Id": 1029,
+    "Name": "武昌",
+    "MapId": 3054,
+    "Type": "城镇",
+    "Grade": 20,
+    "Width": 8426,
+    "Height": 6300,
+    "Light": 1001,
+    "Desc": "武昌是中原南方的军事和商业重镇，是重要的交通枢纽，被誉为“九省通衢”，商业发达，乃是“楚中第一繁盛处”、天下四聚之一。",
+    "showSmap": 1,
+    "MusicNo": 1003,
+    "x": 196,
+    "y": 90,
+    "Weather": 1029,
+    "Fightbg": 3087,
+    "Enter": {
+      "trigger": [
+        1102901,
+        209919
+      ]
+    }
+  },
+  "1030": {
+    "Id": 1030,
+    "Name": "鬼哭山",
+    "MapId": 1045,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "showSmap": 1,
+    "Weather": 1030
+  },
+  "1031": {
+    "Id": 1031,
+    "Name": "敦煌",
+    "MapId": 3125,
+    "Type": "村庄",
+    "Grade": 50,
+    "Width": 7500,
+    "Height": 7200,
+    "Light": 1001,
+    "Desc": "敦煌是一座位于茫茫沙漠中的小村镇，虽然处于不毛之地，但沙驼岭商队络绎不绝，使者往来不断，人喊马嘶，驼铃悠悠，故名沙驼岭。",
+    "showSmap": 1,
+    "x": 157,
+    "y": 155,
+    "Weather": 1031,
+    "Fightbg": 3125
+  },
+  "1032": {
+    "Id": 1032,
+    "Name": "秦岭",
+    "MapId": 3056,
+    "Type": "名山大川",
+    "Grade": 30,
+    "Width": 6900,
+    "Height": 5700,
+    "Light": 1001,
+    "Desc": "秦岭是中原地区东西向延伸的巨大山系，山体高大，西窄东宽，山高坡陡，谷深流急，成为南北交通的一大险阻，因而古代称秦岭为“天下之大阻”。",
+    "showSmap": 1,
+    "MusicNo": 3001,
+    "x": 234,
+    "y": 226,
+    "Weather": 1032
+  },
+  "1033": {
+    "Id": 1033,
+    "Name": "泰山",
+    "MapId": 1022,
+    "Type": "旧图",
+    "Grade": 30,
+    "Width": 2880,
+    "Height": 3280,
+    "Light": 1001,
+    "Desc": "五岳为群山之尊，泰山为五岳之长。泰山因其气势之磅礴，又有“天下名山第一”的美誉。",
+    "showSmap": 1,
+    "x": 56,
+    "y": 43,
+    "Weather": 1033
+  },
+  "1035": {
+    "Id": 1035,
+    "Name": "断桥镇",
+    "MapId": 1075,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4000,
+    "Light": 1001,
+    "Desc": "断桥镇得名于镇里的一座断桥，据说这座断桥曾有一段凄美的爱情故事，然而到了如今，却已无人知。",
+    "showSmap": 1,
+    "x": 93,
+    "y": 39,
+    "Weather": 1035
+  },
+  "1036": {
+    "Id": 1036,
+    "Name": "苍牙后山",
+    "MapId": 1120,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 3680,
+    "Light": 1001,
+    "Desc": "写了一堆宋字，大概得改成武",
+    "showSmap": 0,
+    "x": 140,
+    "y": 95,
+    "Weather": 1036
+  },
+  "1037": {
+    "Id": 1037,
+    "Name": "桃源乡",
+    "MapId": 1033,
+    "Type": "旧图",
+    "Grade": 40,
+    "Width": 3840,
+    "Height": 3680,
+    "Light": 1001,
+    "showSmap": 1,
+    "Weather": 1037
+  },
+  "1039": {
+    "Id": 1039,
+    "Name": "幽州",
+    "MapId": 3007,
+    "Type": "主城",
+    "Grade": 40,
+    "Width": 7840,
+    "Height": 4480,
+    "showSmap": 1,
+    "Weather": 1039,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ]
+  },
+  "1040": {
+    "Id": 1040,
+    "Name": "公输坊",
+    "showSmap": 0,
+    "Weather": 1040
+  },
+  "1041": {
+    "Id": 1041,
+    "Name": "泉州",
+    "MapId": 3007,
+    "Type": "主城",
+    "Grade": 20,
+    "Width": 7840,
+    "Height": 4480,
+    "showSmap": 1,
+    "Weather": 1041,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ]
+  },
+  "1042": {
+    "Id": 1042,
+    "Name": "成都",
+    "MapId": 3007,
+    "Type": "主城",
+    "Grade": 50,
+    "Width": 7840,
+    "Height": 4480,
+    "showSmap": 1,
+    "Weather": 1042,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ]
+  },
+  "1049": {
+    "Id": 1049,
+    "Name": "敦煌酒楼酒窖",
+    "MapId": 3013,
+    "Type": "室内，敦煌",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 21,
+    "y": 23,
+    "Weather": 4239
+  },
+  "1050": {
+    "Id": 1050,
+    "Name": "罗川家",
+    "MapId": 2001,
+    "Type": "室内，敦煌",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1040,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 50,
+    "y": 38,
+    "Weather": 4231
+  },
+  "1051": {
+    "Id": 1051,
+    "Name": "仙居",
+    "MapId": 3013,
+    "Type": "室内，沙驼岭",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 21,
+    "y": 23,
+    "Weather": 4239
+  },
+  "1065": {
+    "Id": 1065,
+    "Name": "白石洲",
+    "MapId": 1065,
+    "Type": "山洞",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1001,
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 8,
+    "y": 153,
+    "Weather": 1065
+  },
+  "1110": {
+    "Id": 1110,
+    "Name": "测试地图path",
+    "MapId": 1110,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1111
+  },
+  "1111": {
+    "Id": 1111,
+    "Name": "测试地图跳",
+    "MapId": 1111,
+    "SceneArea": 1111,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1111
+  },
+  "1112": {
+    "Id": 1112,
+    "Name": "测试地图",
+    "MapId": 1002,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Tags": [
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "Weather": 1112,
+    "Enter": {
+      "task": 6000
+    }
+  },
+  "1113": {
+    "Id": 1113,
+    "Name": "测试地图水",
+    "MapId": 1113,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1113,
+    "Enter": {
+      "group": 1000
+    },
+    "Leave": {
+      "task": 6000,
+      "group": 1000
+    }
+  },
+  "1114": {
+    "Id": 1114,
+    "Name": "杏花村",
+    "MapId": 3073,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1003,
+    "Tags": [
+      "未来"
+    ],
+    "Desc": "大战前夕",
+    "showSmap": 0,
+    "MusicNo": 2008,
+    "x": 97,
+    "y": 151,
+    "Weather": 1114
+  },
+  "1116": {
+    "Id": 1116,
+    "Name": "迷宫方形",
+    "MapId": 1116,
+    "Width": 3360,
+    "Height": 3360,
+    "Light": 1002,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1116
+  },
+  "1117": {
+    "Id": 1117,
+    "Name": "迷宫菱形",
+    "MapId": 1117,
+    "Width": 6720,
+    "Height": 3360,
+    "Light": 1002,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1117
+  },
+  "1118": {
+    "Id": 1118,
+    "Name": "迷宫大菱形",
+    "MapId": 1118,
+    "Width": 13440,
+    "Height": 6720,
+    "Light": 1002,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1118
+  },
+  "1119": {
+    "Id": 1119,
+    "Name": "迷宫大菱形",
+    "MapId": 1119,
+    "Width": 13440,
+    "Height": 6720,
+    "Light": 1002,
+    "Tags": [
+      "允跳"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 20,
+    "Weather": 1119
+  },
+  "1121": {
+    "Id": 1121,
+    "Name": "边境2",
+    "MapId": 1121,
+    "Type": "临时，关卡",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 3120,
+    "Light": 1001,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 69,
+    "y": 120,
+    "Weather": 2037
+  },
+  "1215": {
+    "Id": 1215,
+    "Name": "卧龙湖",
+    "MapId": 1064,
+    "Type": "支线小黄鸭",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi",
+      "未来"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 68,
+    "y": 122,
+    "Weather": 2040
+  },
+  "1234": {
+    "Id": 1234,
+    "Name": "test",
+    "MapId": 1234,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 26,
+    "y": 50,
+    "Weather": 1001,
+    "Enter": {
+      "buff": 50000
+    },
+    "Leave": {
+      "buff": 50000
+    }
+  },
+  "1235": {
+    "Id": 1235,
+    "Name": "test小游戏",
+    "MapId": 1234,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 26,
+    "y": 60,
+    "Weather": 1001,
+    "Enter": {
+      "group": 1000
+    },
+    "Leave": {
+      "group": 0
+    }
+  },
+  "2002": {
+    "Id": 2002,
+    "Name": "绝情堡",
+    "MapId": 1033,
+    "Type": "旧图",
+    "Grade": 20,
+    "Width": 3840,
+    "Height": 3680,
+    "showSmap": 0,
+    "x": 175,
+    "y": 123,
+    "Weather": 2002
+  },
+  "2003": {
+    "Id": 2003,
+    "Name": "红尘客栈",
+    "MapId": 1021,
+    "Type": "旧图",
+    "Grade": 30,
+    "Width": 4080,
+    "Height": 2560,
+    "showSmap": 0,
+    "x": 23,
+    "y": 106,
+    "Weather": 2003
+  },
+  "2004": {
+    "Id": 2004,
+    "Name": "五路追杀令",
+    "MapId": 1031,
+    "Type": "旧图",
+    "Grade": 40,
+    "Width": 4000,
+    "Height": 3120,
+    "showSmap": 0,
+    "x": 174,
+    "y": 135,
+    "Weather": 2004
+  },
+  "2005": {
+    "Id": 2005,
+    "Name": "决战前夕",
+    "MapId": 1028,
+    "Type": "旧图",
+    "Grade": 50,
+    "Width": 3280,
+    "Height": 2160,
+    "showSmap": 0,
+    "x": 125,
+    "y": 11,
+    "Weather": 2005
+  },
+  "2006": {
+    "Id": 2006,
+    "Name": "幽云谷",
+    "MapId": 1033,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 3840,
+    "Height": 3680,
+    "showSmap": 0,
+    "Weather": 2006
+  },
+  "2010": {
+    "Id": 2010,
+    "Name": "千叠岗",
+    "MapId": 1004,
+    "Type": "旧图",
+    "Grade": 0,
+    "Width": 2640,
+    "Height": 1280,
+    "showSmap": 0,
+    "x": 116,
+    "y": 48,
+    "Weather": 2010
+  },
+  "2037": {
+    "Id": 2037,
+    "Name": "太行山",
+    "MapId": 2032,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 3120,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 10,
+    "y": 144,
+    "Weather": 2037,
+    "Near": "newscene/near/recall"
+  },
+  "2038": {
+    "Id": 2038,
+    "Name": "天山",
+    "MapId": 1037,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 2240,
+    "Height": 3360,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 123,
+    "y": 204,
+    "Weather": 2038,
+    "Near": "newscene/near/recall"
+  },
+  "2039": {
+    "Id": 2039,
+    "Name": "丐帮",
+    "MapId": 3021,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 4080,
+    "Height": 2560,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 22,
+    "y": 107,
+    "Weather": 2039,
+    "Near": "newscene/near/recall"
+  },
+  "2040": {
+    "Id": 2040,
+    "Name": "卧龙湖",
+    "MapId": 1064,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 8,
+    "y": 153,
+    "Weather": 2040
+  },
+  "2041": {
+    "Id": 2041,
+    "Name": "藏剑密道",
+    "MapId": 1065,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "Tags": [
+      "禁传出",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "Desc": "吕倾侯剧情山洞",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 21,
+    "y": 146,
+    "Weather": 2041
+  },
+  "2042": {
+    "Id": 2042,
+    "Name": "藏剑门",
+    "MapId": 1067,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 5760,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi",
+      "未来",
+      "nofollow"
+    ],
+    "Desc": "吕倾侯剧情藏剑山",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 18,
+    "y": 144,
+    "Weather": 2042
+  },
+  "2047": {
+    "Id": 2047,
+    "Name": "藏剑门",
+    "MapId": 1067,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 5760,
+    "Height": 3200,
+    "Light": 1003,
+    "Desc": "吕倾侯剧情藏剑山（终）",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 18,
+    "y": 144,
+    "Weather": 2047
+  },
+  "2048": {
+    "Id": 2048,
+    "Name": "漕帮核心",
+    "MapId": 1080,
+    "Type": "关卡，少林门派",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 2400,
+    "Light": 1001,
+    "Desc": "少林剧情-漕帮核心",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 24,
+    "y": 13,
+    "Weather": 2048,
+    "Enter": {
+      "task": 1007010
+    }
+  },
+  "2049": {
+    "Id": 2049,
+    "Name": "漕帮外围",
+    "MapId": 1081,
+    "Type": "关卡，少林门派",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 2400,
+    "Light": 1001,
+    "Desc": "少林剧情-漕帮外围",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 19,
+    "y": 102,
+    "Weather": 2049,
+    "Enter": {
+      "task": 1007010
+    }
+  },
+  "2050": {
+    "Id": 2050,
+    "Name": "少林后山",
+    "MapId": 1003,
+    "Type": "附属， 少林",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 1800,
+    "Light": 1001,
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 20,
+    "y": 10,
+    "Weather": 2050
+  },
+  "2221": {
+    "Id": 2221,
+    "Name": "迷宫",
+    "MapId": 2221,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1002,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001
+  },
+  "2222": {
+    "Id": 2222,
+    "Name": "迷宫",
+    "MapId": 2222,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1002,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001
+  },
+  "2223": {
+    "Id": 2223,
+    "Name": "出了迷宫",
+    "MapId": 2221,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001
+  },
+  "3000": {
+    "Id": 3000,
+    "Name": "少林木人巷一层",
+    "MapId": 3000,
+    "Type": "关卡，少林门派",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 14,
+    "y": 155,
+    "Weather": 3000
+  },
+  "3001": {
+    "Id": 3001,
+    "Name": "少林木人巷二层",
+    "MapId": 3001,
+    "Type": "关卡，少林门派",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 220,
+    "y": 9,
+    "Weather": 3001
+  },
+  "3004": {
+    "Id": 3004,
+    "Name": "万毒谷",
+    "MapId": 3004,
+    "Type": "关卡，少林门派",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "Desc": "万毒谷",
+    "showSmap": 0,
+    "x": 14,
+    "y": 143,
+    "Weather": 3004
+  },
+  "3005": {
+    "Id": 3005,
+    "Name": "辽东",
+    "MapId": 3005,
+    "Type": "城镇",
+    "Grade": 0,
+    "Width": 6720,
+    "Height": 6720,
+    "Light": 1001,
+    "Desc": "沧州",
+    "showSmap": 1,
+    "x": 300,
+    "y": 14,
+    "Weather": 3005
+  },
+  "3008": {
+    "Id": 3008,
+    "Name": "JO桥乐园",
+    "MapId": 3008,
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Desc": "测试用",
+    "showSmap": 1,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "3009": {
+    "Id": 3009,
+    "Name": "幽都",
+    "MapId": 3009,
+    "Type": "附属，辽东",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 4000,
+    "Light": 1001,
+    "Desc": "幽都地穴",
+    "showSmap": 1,
+    "x": 15,
+    "y": 13,
+    "Weather": 3009
+  },
+  "3012": {
+    "Id": 3012,
+    "Name": "码头",
+    "MapId": 3012,
+    "Type": "不明",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Desc": "码头",
+    "showSmap": 1,
+    "x": 148,
+    "y": 6,
+    "Weather": 3012
+  },
+  "3014": {
+    "Id": 3014,
+    "Name": "得月楼",
+    "MapId": 3014,
+    "Type": "附属，临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "豪华酒楼",
+    "showSmap": 0,
+    "x": 59,
+    "y": 74,
+    "Weather": 3014
+  },
+  "3015": {
+    "Id": 3015,
+    "Name": "长乐帮",
+    "MapId": 3040,
+    "Type": "附属，临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 2400,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 100,
+    "y": 58,
+    "Weather": 3015
+  },
+  "3016": {
+    "Id": 3016,
+    "Name": "酒楼密室",
+    "MapId": 3071,
+    "Type": "临时，主线-临安",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 35,
+    "Weather": 3016
+  },
+  "3017": {
+    "Id": 3017,
+    "Name": "长乐帮密道",
+    "MapId": 3010,
+    "Type": "临时，主线-临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "长乐帮密道",
+    "showSmap": 0,
+    "x": 38,
+    "y": 143,
+    "Weather": 3017
+  },
+  "3018": {
+    "Id": 3018,
+    "Name": "青玉堂",
+    "MapId": 3026,
+    "Type": "附属，临安",
+    "Grade": 0,
+    "Width": 4080,
+    "Height": 4080,
+    "Desc": "青玉堂",
+    "showSmap": 1,
+    "x": 70,
+    "y": 174,
+    "Weather": 3018
+  },
+  "3019": {
+    "Id": 3019,
+    "Name": "青玉阁",
+    "MapId": 3023,
+    "Type": "临时，主线-临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉阁",
+    "showSmap": 0,
+    "x": 105,
+    "y": 100,
+    "Weather": 3019
+  },
+  "3020": {
+    "Id": 3020,
+    "Name": "旧鬼市",
+    "MapId": 3021,
+    "Type": "附属，临安",
+    "Grade": 0,
+    "Width": 4080,
+    "Height": 4080,
+    "Light": 1003,
+    "Desc": "旧鬼市",
+    "showSmap": 0,
+    "x": 148,
+    "y": 40,
+    "Weather": 3020
+  },
+  "3021": {
+    "Id": 3021,
+    "Name": "汴京武馆",
+    "MapId": 2002,
+    "Type": "附属，汴京",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "汴京武馆",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3022": {
+    "Id": 3022,
+    "Name": "武馆客房",
+    "MapId": 3071,
+    "Type": "临时，主线-汴京",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "汴京武馆客房",
+    "showSmap": 0,
+    "x": 53,
+    "y": 34,
+    "Weather": 3022
+  },
+  "3023": {
+    "Id": 3023,
+    "Name": "青玉堂关卡",
+    "MapId": 3023,
+    "Type": "副本，重复刷",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉堂关卡",
+    "showSmap": 0,
+    "x": 105,
+    "y": 100,
+    "Weather": 3023
+  },
+  "3024": {
+    "Id": 3024,
+    "Name": "太师府内",
+    "MapId": 2002,
+    "Type": "临时，主线-汴京",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "太师府内",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3024
+  },
+  "3025": {
+    "Id": 3025,
+    "Name": "青玉堂关卡",
+    "MapId": 3025,
+    "Type": "副本，重复刷",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉堂关卡",
+    "showSmap": 0,
+    "x": 56,
+    "y": 99,
+    "Weather": 3025
+  },
+  "3026": {
+    "Id": 3026,
+    "Name": "青玉堂院内",
+    "MapId": 3026,
+    "Type": "副本，重复刷",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉堂院内",
+    "showSmap": 0,
+    "x": 55,
+    "y": 99,
+    "Weather": 3026,
+    "Leave": {
+      "task": 302601
+    }
+  },
+  "3028": {
+    "Id": 3028,
+    "Name": "闺房",
+    "MapId": 3071,
+    "Type": "临时，主线-藏剑",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1002,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "汴京武馆客房",
+    "showSmap": 0,
+    "x": 53,
+    "y": 34,
+    "Weather": 3022
+  },
+  "3029": {
+    "Id": 3029,
+    "Name": "醉仙楼",
+    "MapId": 3029,
+    "Type": "临时，主线-汴京",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "豪华酒楼",
+    "showSmap": 0,
+    "x": 59,
+    "y": 74,
+    "Weather": 3029
+  },
+  "3030": {
+    "Id": 3030,
+    "Name": "太师府后院",
+    "MapId": 3041,
+    "Type": "临时，主线-临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1004,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "太师府后院",
+    "showSmap": 1,
+    "x": 71,
+    "y": 114,
+    "Weather": 3030
+  },
+  "3033": {
+    "Id": 3033,
+    "Name": "雁门关",
+    "MapId": 3033,
+    "Type": "城镇",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Desc": "雁门关为天下九塞之首，傍山而建，地处南朝与北朝、西域交汇处。雁门关现为南朝控制，近年南北对峙加剧，西域动向不甚明朗，守将修建外围城墙，随时准备开战。",
+    "showSmap": 1,
+    "x": 136,
+    "y": 98,
+    "Weather": 3031,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ]
+  },
+  "3034": {
+    "Id": 3034,
+    "Name": "二龙山",
+    "MapId": 3034,
+    "Type": "关卡，主线-临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Desc": "二龙山",
+    "showSmap": 0,
+    "x": 44,
+    "y": 170,
+    "Weather": 3034
+  },
+  "3035": {
+    "Id": 3035,
+    "Name": "雁门酒楼二楼",
+    "MapId": 3035,
+    "Type": "室内，雁门关",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "酒楼二楼",
+    "showSmap": 0,
+    "x": 84,
+    "y": 139,
+    "Weather": 3035
+  },
+  "3036": {
+    "Id": 3036,
+    "Name": "雁门酒楼",
+    "MapId": 3036,
+    "Type": "室内，雁门关",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "雁门酒楼",
+    "showSmap": 0,
+    "Weather": 3035
+  },
+  "3037": {
+    "Id": 3037,
+    "Name": "大营",
+    "MapId": 3037,
+    "Type": "城镇",
+    "Grade": 0,
+    "Width": 6000,
+    "Height": 6000,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋兵大营",
+    "showSmap": 1,
+    "x": 96,
+    "y": 240,
+    "Weather": 3027
+  },
+  "3038": {
+    "Id": 3038,
+    "Name": "前线战场",
+    "MapId": 3038,
+    "Type": "关卡，主线-雁门关",
+    "Grade": 40,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋金战场",
+    "showSmap": 1,
+    "MusicNo": 2004,
+    "x": 64,
+    "y": 153,
+    "Weather": 3028
+  },
+  "3039": {
+    "Id": 3039,
+    "Name": "燕王墓",
+    "MapId": 3039,
+    "Type": "关卡",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "燕王墓",
+    "showSmap": 0,
+    "Weather": 3032
+  },
+  "3041": {
+    "Id": 3041,
+    "Name": "太师府关卡",
+    "MapId": 3041,
+    "Type": "临时，主线-汴京",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1002,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "太师府关卡",
+    "showSmap": 0,
+    "x": 130,
+    "y": 96,
+    "Weather": 3030
+  },
+  "3042": {
+    "Id": 3042,
+    "Name": "棋馆",
+    "MapId": 3042,
+    "Type": "附属，主线-汴京",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 58,
+    "y": 44,
+    "Weather": 3030
+  },
+  "3043": {
+    "Id": 3043,
+    "Name": "太师府厢房",
+    "MapId": 3043,
+    "Type": "临时，主线-汴京",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1001,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "太师府关卡",
+    "showSmap": 0,
+    "x": 97,
+    "y": 121,
+    "Weather": 3016
+  },
+  "3044": {
+    "Id": 3044,
+    "Name": "燕王墓解谜",
+    "MapId": 3044,
+    "Type": "迷宫，副本",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1002,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "燕王墓",
+    "showSmap": 0,
+    "x": 85,
+    "y": 82,
+    "Weather": 3030
+  },
+  "3045": {
+    "Id": 3045,
+    "Name": "汴京小屋",
+    "MapId": 3045,
+    "Type": " 临时，室内，汴京",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1040,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 50,
+    "y": 38,
+    "Weather": 4231
+  },
+  "3046": {
+    "Id": 3046,
+    "Name": "青玉堂院内",
+    "MapId": 3026,
+    "Type": "关卡",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Light": 1002,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉堂院内",
+    "showSmap": 0,
+    "x": 56,
+    "y": 99,
+    "Weather": 3026
+  },
+  "3047": {
+    "Id": 3047,
+    "Name": "燕王墓",
+    "MapId": 3047,
+    "Type": "迷宫，副本",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1002,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "燕王墓",
+    "showSmap": 0,
+    "x": 208,
+    "y": 188,
+    "Weather": 3026
+  },
+  "3048": {
+    "Id": 3048,
+    "Name": "前线战场",
+    "MapId": 3048,
+    "Type": "关卡，主线-雁门关",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋金战场",
+    "showSmap": 0,
+    "x": 64,
+    "y": 153,
+    "Weather": 3028,
+    "Enter": {
+      "group": 1002
+    }
+  },
+  "3049": {
+    "Id": 3049,
+    "Name": "前线战场",
+    "MapId": 3049,
+    "Type": "副本，重复刷",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋金战场",
+    "showSmap": 0,
+    "x": 64,
+    "y": 153,
+    "Weather": 3028,
+    "Enter": {
+      "task": 8067
+    }
+  },
+  "3050": {
+    "Id": 3050,
+    "Name": "雁门关大营",
+    "MapId": 3050,
+    "Type": "逃脱关卡，主线-雁门关",
+    "Grade": 0,
+    "Width": 6000,
+    "Height": 6000,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋兵大营",
+    "showSmap": 0,
+    "x": 80,
+    "y": 148,
+    "Weather": 3027
+  },
+  "3051": {
+    "Id": 3051,
+    "Name": "雁门关大营",
+    "MapId": 3051,
+    "Type": "偷窃关卡，主线-雁门关",
+    "Grade": 0,
+    "Width": 6000,
+    "Height": 6000,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "宋兵大营",
+    "showSmap": 0,
+    "x": 27,
+    "y": 288,
+    "Weather": 3027
+  },
+  "3052": {
+    "Id": 3052,
+    "Name": "太行山",
+    "MapId": 2032,
+    "Type": "主线，雁门关",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 3120,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 10,
+    "y": 144,
+    "Weather": 2037
+  },
+  "3053": {
+    "Id": 3053,
+    "Name": "死亡循环",
+    "MapId": 3053,
+    "Grade": 0,
+    "Width": 9600,
+    "Height": 9600,
+    "Light": 1003,
+    "Desc": "测试用",
+    "showSmap": 0,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "3054": {
+    "Id": 3054,
+    "Name": "房间",
+    "MapId": 2002,
+    "Type": "临时，关卡",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 90,
+    "y": 57,
+    "Weather": 3024
+  },
+  "3055": {
+    "Id": 3055,
+    "Name": "地牢",
+    "MapId": 1079,
+    "Type": "临时，关卡",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 15,
+    "y": 77,
+    "Weather": 3055
+  },
+  "3056": {
+    "Id": 3056,
+    "Name": "新武昌",
+    "MapId": 3054,
+    "Type": "城镇",
+    "Grade": 20,
+    "Width": 6080,
+    "Height": 4800,
+    "Light": 1001,
+    "Desc": "武昌是中原南方的军事和商业重镇，是重要的交通枢纽，被誉为“九省通衢”，商业发达，乃是“楚中第一繁盛处”、天下四聚之一。",
+    "showSmap": 1,
+    "x": 222,
+    "y": 106,
+    "Weather": 1029
+  },
+  "3057": {
+    "Id": 3057,
+    "Name": "青玉堂",
+    "MapId": 3026,
+    "Type": "关卡",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3200,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "noAoi"
+    ],
+    "Desc": "青玉堂院内",
+    "showSmap": 0,
+    "x": 56,
+    "y": 99,
+    "Weather": 3026
+  },
+  "3058": {
+    "Id": 3058,
+    "Name": "山洞",
+    "MapId": 1079,
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 15,
+    "y": 77,
+    "Weather": 3055
+  },
+  "3059": {
+    "Id": 3059,
+    "Name": "琅琊阁",
+    "MapId": 1029,
+    "Grade": 0,
+    "Width": 3280,
+    "Height": 2400,
+    "Light": 1003,
+    "Desc": "琅琊阁",
+    "showSmap": 1,
+    "x": 286,
+    "y": 588,
+    "Weather": 3059
+  },
+  "3060": {
+    "Id": 3060,
+    "Name": "汴京郊外",
+    "MapId": 3055,
+    "Type": "城镇",
+    "Grade": 40,
+    "Width": 6100,
+    "Height": 3500,
+    "Light": 1001,
+    "Desc": "汴京郊外官道平整，绿柳成荫。路旁村落屋舍俨然，酒旗随风轻摆，农妇捣衣溪边，稚子放牧坡上，往来商贩与行人笑语不断，尽显市井烟火气。",
+    "showSmap": 1,
+    "x": 137,
+    "y": 113,
+    "Weather": 3055
+  },
+  "3061": {
+    "Id": 3061,
+    "Name": "秦岭",
+    "MapId": 3056,
+    "Type": "名山大川",
+    "Grade": 40,
+    "Width": 4640,
+    "Height": 4800,
+    "Light": 1001,
+    "Desc": "秦岭是中原地区东西向延伸的巨大山系，山体高大，西窄东宽，山高坡陡，谷深流急，成为南北交通的一大险阻，因而古代称秦岭为“天下之大阻”。",
+    "showSmap": 1,
+    "x": 303,
+    "y": 234,
+    "Weather": 1032
+  },
+  "3062": {
+    "Id": 3062,
+    "Name": "郊外",
+    "MapId": 3055,
+    "Type": "名山大川",
+    "Grade": 0,
+    "Width": 4640,
+    "Height": 4800,
+    "Light": 1001,
+    "Desc": "秦岭是中原地区东西向延伸的巨大山系，山体高大，西窄东宽，山高坡陡，谷深流急，成为南北交通的一大险阻，因而古代称秦岭为“天下之大阻”。",
+    "showSmap": 1,
+    "x": 95,
+    "y": 115,
+    "Weather": 1032
+  },
+  "3063": {
+    "Id": 3063,
+    "Name": "翠微楼",
+    "MapId": 3036,
+    "Type": "室内，翠微楼",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "翠微楼",
+    "showSmap": 0,
+    "x": 113,
+    "y": 133,
+    "Weather": 3035
+  },
+  "3064": {
+    "Id": 3064,
+    "Name": "甄府",
+    "MapId": 2002,
+    "Type": "甄府",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "甄府",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3065": {
+    "Id": 3065,
+    "Name": "石阵",
+    "MapId": 3053,
+    "Type": "石阵",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "x": 69,
+    "y": 74
+  },
+  "3066": {
+    "Id": 3066,
+    "Name": "杏花村后山",
+    "MapId": 3059,
+    "Type": "后山，杏花村",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 1600,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 153,
+    "y": 68,
+    "Weather": 1001
+  },
+  "3067": {
+    "Id": 3067,
+    "Name": "江南道",
+    "MapId": 3062,
+    "Type": "势力任务",
+    "Grade": 20,
+    "Width": 5000,
+    "Height": 3800,
+    "Light": 1001,
+    "Tags": [
+      "野外"
+    ],
+    "Desc": "江南道青石泛潮，垂柳拂檐。酒旗半掩深巷，忽闻山贼呼哨骤起，竹影摇晃处刀光乍现，烟雨蒙胧里杀机暗藏 。",
+    "showSmap": 1,
+    "x": 79,
+    "y": 25,
+    "Weather": 9645
+  },
+  "3068": {
+    "Id": 3068,
+    "Name": "二龙山",
+    "MapId": 3034,
+    "Type": "关卡，主线-临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "Desc": "二龙山",
+    "showSmap": 0,
+    "x": 24,
+    "y": 170,
+    "Weather": 3034
+  },
+  "3069": {
+    "Id": 3069,
+    "Name": "小石房",
+    "MapId": 2001,
+    "Type": "石屋",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "Weather": 3021
+  },
+  "3070": {
+    "Id": 3070,
+    "Name": "客厅",
+    "MapId": 2002,
+    "Type": "客厅",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "Weather": 3021
+  },
+  "3071": {
+    "Id": 3071,
+    "Name": "客房",
+    "MapId": 3071,
+    "Type": "客房",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "Weather": 3021
+  },
+  "3072": {
+    "Id": 3072,
+    "Name": "阵中",
+    "MapId": 3072,
+    "Type": "石阵",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 70,
+    "y": 60,
+    "Weather": 3021
+  },
+  "3074": {
+    "Id": 3074,
+    "Name": "临安",
+    "MapId": 3074,
+    "Type": "临安",
+    "Grade": 0,
+    "Width": 8000,
+    "Height": 7360,
+    "Light": 1001,
+    "showSmap": 1
+  },
+  "3075": {
+    "Id": 3075,
+    "Name": "杏子林",
+    "MapId": 3075,
+    "Type": "杏子林",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 10,
+    "y": 80
+  },
+  "3076": {
+    "Id": 3076,
+    "Name": "会场",
+    "MapId": 3076,
+    "Type": "会场",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 4000,
+    "Light": 1001,
+    "Tags": [
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 68,
+    "y": 11
+  },
+  "3077": {
+    "Id": 3077,
+    "Name": "XXX",
+    "MapId": 3077,
+    "Type": "XXX",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200
+  },
+  "3078": {
+    "Id": 3078,
+    "Name": "藏经阁首层",
+    "MapId": 3078,
+    "Type": "藏经阁首层",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 145,
+    "y": 120
+  },
+  "3079": {
+    "Id": 3079,
+    "Name": "藏经阁二层",
+    "MapId": 3079,
+    "Type": "藏经阁二层",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 145,
+    "y": 120
+  },
+  "3080": {
+    "Id": 3080,
+    "Name": "藏经阁三层",
+    "MapId": 3080,
+    "Type": "藏经阁三层",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 145,
+    "y": 120
+  },
+  "3081": {
+    "Id": 3081,
+    "Name": "藏经阁四层",
+    "MapId": 3081,
+    "Type": "藏经阁四层",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 145,
+    "y": 120
+  },
+  "3082": {
+    "Id": 3082,
+    "Name": "藏经阁五层",
+    "MapId": 3082,
+    "Type": "藏经阁五层",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 145,
+    "y": 120
+  },
+  "3083": {
+    "Id": 3083,
+    "Name": "XX",
+    "MapId": 3083,
+    "Type": "XX",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "showSmap": 0,
+    "x": 86,
+    "y": 46
+  },
+  "3084": {
+    "Id": 3084,
+    "Name": "地牢",
+    "MapId": 3084,
+    "Type": "地牢",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1002,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 30,
+    "y": 100
+  },
+  "3085": {
+    "Id": 3085,
+    "Name": "X",
+    "MapId": 3085,
+    "Type": "X",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200
+  },
+  "3086": {
+    "Id": 3086,
+    "Name": "嵩山",
+    "MapId": 3086,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 3760,
+    "Height": 2480,
+    "Light": 1001,
+    "Desc": "中岳嵩山，由太室山与少室山组成，共七十二峰。少室山下的少林寺自古便是中原佛教的禅宗祖庭，亦是武林门派之魁首，千百年来，超然于世，无可撼动者。",
+    "showSmap": 1,
+    "x": 168,
+    "y": 106,
+    "Weather": 1007
+  },
+  "3087": {
+    "Id": 3087,
+    "Name": "武当山",
+    "MapId": 3087,
+    "Type": "门派",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "Light": 1001,
+    "Desc": "武当山以“四大名山皆拱揖，五方仙岳共朝宗”的“五岳之冠”地位闻名于世。其上更有道家玄门正宗武当派，风头正盛。",
+    "showSmap": 1,
+    "x": 179,
+    "y": 111,
+    "traps": [
+      100501
+    ],
+    "Weather": 1005
+  },
+  "3088": {
+    "Id": 3088,
+    "Name": "敦煌迷宫3",
+    "MapId": 3088,
+    "Type": "敦煌迷宫",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 196,
+    "y": 191
+  },
+  "3089": {
+    "Id": 3089,
+    "Name": "客房",
+    "MapId": 3071,
+    "Type": "客房",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 44,
+    "y": 53,
+    "Weather": 3021
+  },
+  "3090": {
+    "Id": 3090,
+    "Name": "灵州驿站",
+    "MapId": 3029,
+    "Type": "驿站",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "驿站",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3091": {
+    "Id": 3091,
+    "Name": "敦煌迷宫2",
+    "MapId": 3091,
+    "Type": "敦煌迷宫",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 163,
+    "y": 181
+  },
+  "3092": {
+    "Id": 3092,
+    "Name": "敦煌迷宫1",
+    "MapId": 3092,
+    "Type": "敦煌迷宫",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 31,
+    "y": 71
+  },
+  "3093": {
+    "Id": 3093,
+    "Name": "灵州客栈后院",
+    "MapId": 3071,
+    "Type": "客栈",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 44,
+    "y": 53,
+    "Weather": 3021
+  },
+  "3094": {
+    "Id": 3094,
+    "Name": "文试",
+    "MapId": 3094,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "3095": {
+    "Id": 3095,
+    "Name": "武试",
+    "MapId": 3095,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1001,
+    "Frog": 400,
+    "Tags": [
+      "禁传出",
+      "禁缩放"
+    ],
+    "showSmap": 0,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "3096": {
+    "Id": 3096,
+    "Name": "山洞1",
+    "MapId": 3096,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 49,
+    "y": 41,
+    "Weather": 3008
+  },
+  "3097": {
+    "Id": 3097,
+    "Name": "山洞2",
+    "MapId": 3097,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 20,
+    "y": 38,
+    "Weather": 3008
+  },
+  "3098": {
+    "Id": 3098,
+    "Name": "高僧房间",
+    "MapId": 3071,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 44,
+    "y": 53,
+    "Weather": 3021
+  },
+  "3099": {
+    "Id": 3099,
+    "Name": "敦煌宫殿",
+    "MapId": 2002,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "敦煌宫殿",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3100": {
+    "Id": 3100,
+    "Name": "靶场",
+    "MapId": 3100,
+    "Type": "靶场",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3101": {
+    "Id": 3101,
+    "Name": "马场",
+    "MapId": 3101,
+    "Type": "马场",
+    "Grade": 0,
+    "Width": 10880,
+    "Height": 800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3102": {
+    "Id": 3102,
+    "Name": "山洞3",
+    "MapId": 3102,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "3103": {
+    "Id": 3103,
+    "Name": "机关房",
+    "MapId": 3072,
+    "Type": "机关",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 69,
+    "y": 57,
+    "Weather": 3021
+  },
+  "3104": {
+    "Id": 3104,
+    "Name": "兵营",
+    "MapId": 1018,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2560,
+    "Light": 1001,
+    "Desc": "修罗宫驻扎在西北荒漠，资源贫瘠，但位置险要，乃北朝、南朝、西域三国交汇之要冲。",
+    "showSmap": 1,
+    "x": 159,
+    "y": 107,
+    "Weather": 1012
+  },
+  "3106": {
+    "Id": 3106,
+    "Name": "流水河边",
+    "MapId": 1047,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "Light": 1001,
+    "Desc": "流水河边",
+    "showSmap": 0,
+    "x": 38,
+    "y": 35,
+    "Weather": 1013
+  },
+  "3107": {
+    "Id": 3107,
+    "Name": "山洞4",
+    "MapId": 3096,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 49,
+    "y": 41,
+    "Weather": 3008
+  },
+  "3108": {
+    "Id": 3108,
+    "Name": "山洞5",
+    "MapId": 3097,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 20,
+    "y": 38,
+    "Weather": 3008
+  },
+  "3109": {
+    "Id": 3109,
+    "Name": "山洞6",
+    "MapId": 3097,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 20,
+    "y": 38,
+    "Weather": 3008
+  },
+  "3110": {
+    "Id": 3110,
+    "Name": "皇宫",
+    "MapId": 3110,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 20,
+    "y": 38,
+    "Weather": 3008
+  },
+  "3111": {
+    "Id": 3111,
+    "Name": "温夫子房间",
+    "MapId": 3071,
+    "Type": "客房",
+    "Grade": 0,
+    "Psd": 1,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 44,
+    "y": 53
+  },
+  "3112": {
+    "Id": 3112,
+    "Name": "黑尸洞",
+    "MapId": 3112,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 19,
+    "y": 145,
+    "Weather": 3008
+  },
+  "3113": {
+    "Id": 3113,
+    "Name": "剑门关",
+    "MapId": 3113,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 3760,
+    "Height": 2480,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 168,
+    "y": 106,
+    "Weather": 1007
+  },
+  "3114": {
+    "Id": 3114,
+    "Name": "剑门关客栈",
+    "MapId": 3114,
+    "Type": "室内，剑门关",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47,
+    "Weather": 5016
+  },
+  "3115": {
+    "Id": 3115,
+    "Name": "草堂",
+    "MapId": 3043,
+    "Type": "临时，主线-侠之生",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 97,
+    "y": 123,
+    "Weather": 3016
+  },
+  "3116": {
+    "Id": 3116,
+    "Name": "黑尸洞（播放dram）",
+    "MapId": 3112,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 19,
+    "y": 145,
+    "Weather": 3008
+  },
+  "3117": {
+    "Id": 3117,
+    "Name": "泰山（空 播放dram）",
+    "MapId": 1022,
+    "Type": "名山大川",
+    "Grade": 30,
+    "Width": 2880,
+    "Height": 3280,
+    "showSmap": 1,
+    "x": 56,
+    "y": 43,
+    "Weather": 1033
+  },
+  "3118": {
+    "Id": 3118,
+    "Name": "沙驼岭",
+    "MapId": 3118,
+    "Type": "村庄",
+    "Grade": 50,
+    "Width": 9600,
+    "Height": 7200,
+    "Light": 1001,
+    "Desc": "敦煌是一座位于茫茫沙漠中的小村镇，虽然处于不毛之地，但沙驼岭商队络绎不绝，使者往来不断，人喊马嘶，驼铃悠悠，故名沙驼岭。",
+    "showSmap": 1,
+    "x": 347,
+    "y": 269,
+    "Weather": 1031
+  },
+  "3120": {
+    "Id": 3120,
+    "Name": "山洞",
+    "MapId": 3120,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 3600,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 220,
+    "y": 164,
+    "Weather": 3008
+  },
+  "3121": {
+    "Id": 3121,
+    "Name": "草堂",
+    "MapId": 3121,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 53,
+    "y": 33,
+    "Weather": 3008
+  },
+  "3122": {
+    "Id": 3122,
+    "Name": "迷宫",
+    "MapId": 3122,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 2400,
+    "Height": 2400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 220,
+    "y": 164,
+    "Weather": 3008
+  },
+  "3123": {
+    "Id": 3123,
+    "Name": "山洞",
+    "MapId": 3123,
+    "Type": "主线",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1002,
+    "showSmap": 0,
+    "x": 20,
+    "y": 38,
+    "Weather": 3008
+  },
+  "3126": {
+    "Id": 3126,
+    "Name": "后山山洞",
+    "MapId": 3126,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 62,
+    "y": 88,
+    "Weather": 3008
+  },
+  "3127": {
+    "Id": 3127,
+    "Name": "水寇巢穴",
+    "MapId": 3127,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3128": {
+    "Id": 3128,
+    "Name": "武昌山洞",
+    "MapId": 3128,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1000,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 21,
+    "y": 39,
+    "Weather": 3008
+  },
+  "3129": {
+    "Id": 3129,
+    "Name": "山匪巢穴",
+    "MapId": 3129,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 15,
+    "y": 31,
+    "Weather": 3008
+  },
+  "3130": {
+    "Id": 3130,
+    "Name": "大营山洞",
+    "MapId": 3130,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3132": {
+    "Id": 3132,
+    "Name": "江南道山洞",
+    "MapId": 3132,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3133": {
+    "Id": 3133,
+    "Name": "秦岭地牢",
+    "MapId": 3133,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3134": {
+    "Id": 3134,
+    "Name": "郊外洞穴",
+    "MapId": 3134,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3135": {
+    "Id": 3135,
+    "Name": "河边洞穴",
+    "MapId": 3135,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3136": {
+    "Id": 3136,
+    "Name": "湖边山洞",
+    "MapId": 3136,
+    "Type": "隐藏",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 800,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 64,
+    "y": 35,
+    "Weather": 3008
+  },
+  "3138": {
+    "Id": 3138,
+    "Name": "敦煌迷宫3",
+    "MapId": 3088,
+    "Type": "敦煌迷宫",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 196,
+    "y": 191
+  },
+  "3139": {
+    "Id": 3139,
+    "Name": "血煞狱",
+    "MapId": 3139,
+    "Type": "血煞狱",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳",
+      "禁传出",
+      "禁缩放",
+      "noAoi"
+    ],
+    "showSmap": 0,
+    "x": 194,
+    "y": 214
+  },
+  "3140": {
+    "Id": 3140,
+    "Name": "苏绣斋",
+    "MapId": 3140,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 4801,
+    "Height": 4801,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3141": {
+    "Id": 3141,
+    "Name": "仁寿坊",
+    "MapId": 3141,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 46,
+    "y": 46
+  },
+  "3142": {
+    "Id": 3142,
+    "Name": "巧匠阁",
+    "MapId": 3142,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3143": {
+    "Id": 3143,
+    "Name": "邻里杂货",
+    "MapId": 3143,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3144": {
+    "Id": 3144,
+    "Name": "雷氏武馆",
+    "MapId": 3144,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 33,
+    "y": 48
+  },
+  "3145": {
+    "Id": 3145,
+    "Name": "隔壁老王家",
+    "MapId": 3145,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 106,
+    "y": 91
+  },
+  "3146": {
+    "Id": 3146,
+    "Name": "隔壁老黑家",
+    "MapId": 3146,
+    "Type": "室内，临安",
+    "Grade": 2,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 22,
+    "y": 27
+  },
+  "3147": {
+    "Id": 3147,
+    "Name": "临安客栈",
+    "MapId": 3011,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3148": {
+    "Id": 3148,
+    "Name": "客栈客房",
+    "MapId": 3071,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 53,
+    "y": 34
+  },
+  "3149": {
+    "Id": 3149,
+    "Name": "锋墟堂",
+    "MapId": 3149,
+    "Type": "室内，修罗",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 40
+  },
+  "3150": {
+    "Id": 3150,
+    "Name": "孟津渡",
+    "MapId": 9644,
+    "Type": "关卡，主线-临安",
+    "Grade": 0,
+    "Width": 5600,
+    "Height": 4000,
+    "Light": 1001,
+    "Tags": [
+      "野外"
+    ],
+    "showSmap": 1,
+    "x": 50,
+    "y": 162,
+    "Weather": 9644
+  },
+  "3151": {
+    "Id": 3151,
+    "Name": "宋府内室",
+    "MapId": 3151,
+    "Type": "室内，临安",
+    "Grade": 1,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3152": {
+    "Id": 3152,
+    "Name": "黄山道",
+    "MapId": 3152,
+    "Type": "后山，杏花村",
+    "Grade": 20,
+    "Width": 3200,
+    "Height": 1600,
+    "Light": 1001,
+    "Tags": [
+      "野外"
+    ],
+    "Desc": "黄山道崎岖如肠，枯枝横斜，残碑倒卧。山道间贼旗猎猎，黑影蛰伏，过往商旅步步惊心，呼啸喝问声惊起寒鸦，杀机在腐叶荒草间暗涌。",
+    "showSmap": 1,
+    "MusicNo": 4008,
+    "x": 183,
+    "y": 210,
+    "Weather": 4236,
+    "Enter": {
+      "trigger": 211467
+    }
+  },
+  "3153": {
+    "Id": 3153,
+    "Name": "飞瀑轩",
+    "MapId": 3153,
+    "Type": "室内，天山",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3154": {
+    "Id": 3154,
+    "Name": "清风阁",
+    "MapId": 3154,
+    "Type": "室内，武当",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3155": {
+    "Id": 3155,
+    "Name": "淞刃间",
+    "MapId": 3155,
+    "Type": "室内，修罗",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3156": {
+    "Id": 3156,
+    "Name": "云松舍",
+    "MapId": 3156,
+    "Type": "室内，武当",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3157": {
+    "Id": 3157,
+    "Name": "雪麓斋",
+    "MapId": 3157,
+    "Type": "室内，天山",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3158": {
+    "Id": 3158,
+    "Name": "悟禅居",
+    "MapId": 3158,
+    "Type": "室内，少林",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3159": {
+    "Id": 3159,
+    "Name": "禅武堂",
+    "MapId": 3159,
+    "Type": "室内，少林",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3160": {
+    "Id": 3160,
+    "Name": "婉清闺房",
+    "MapId": 3160,
+    "Type": "室内，武昌",
+    "Grade": 1,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3161": {
+    "Id": 3161,
+    "Name": "百珍杂货",
+    "MapId": 3161,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3162": {
+    "Id": 3162,
+    "Name": "四方杂货",
+    "MapId": 3162,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3163": {
+    "Id": 3163,
+    "Name": "仁和堂",
+    "MapId": 3163,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 46,
+    "y": 46
+  },
+  "3164": {
+    "Id": 3164,
+    "Name": "纫秋坊",
+    "MapId": 3164,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3165": {
+    "Id": 3165,
+    "Name": "不工堂",
+    "MapId": 3165,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3166": {
+    "Id": 3166,
+    "Name": "云锦阁",
+    "MapId": 3166,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3168": {
+    "Id": 3168,
+    "Name": "灵隐寺仓库",
+    "MapId": 3168,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "3169": {
+    "Id": 3169,
+    "Name": "禅房",
+    "MapId": 3159,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "MusicNo": 1098,
+    "x": 40,
+    "y": 40
+  },
+  "3170": {
+    "Id": 3170,
+    "Name": "雁门关杂货店",
+    "MapId": 3170,
+    "Type": "室内，雁门关",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3171": {
+    "Id": 3171,
+    "Name": "雁门关裁缝铺",
+    "MapId": 3171,
+    "Type": "室内，雁门关",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3172": {
+    "Id": 3172,
+    "Name": "雁门关客栈",
+    "MapId": 3172,
+    "Type": "室内，雁门关",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3173": {
+    "Id": 3173,
+    "Name": "秦岭杂货铺",
+    "MapId": 3173,
+    "Type": "室内，秦岭",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3174": {
+    "Id": 3174,
+    "Name": "秦岭客栈",
+    "MapId": 3174,
+    "Type": "室内，秦岭",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 45,
+    "y": 55
+  },
+  "3175": {
+    "Id": 3175,
+    "Name": "灵州铁匠铺",
+    "MapId": 3175,
+    "Type": "室内，灵州",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3176": {
+    "Id": 3176,
+    "Name": "灵州裁缝铺",
+    "MapId": 3176,
+    "Type": "室内，灵州",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3177": {
+    "Id": 3177,
+    "Name": "敦煌裁缝铺",
+    "MapId": 3177,
+    "Type": "室内，敦煌",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 4800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 172,
+    "y": 100
+  },
+  "3178": {
+    "Id": 3178,
+    "Name": "永安堂",
+    "MapId": 3178,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 46,
+    "y": 46
+  },
+  "3179": {
+    "Id": 3179,
+    "Name": "武昌客栈",
+    "MapId": 3179,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3180": {
+    "Id": 3180,
+    "Name": "灵州客栈",
+    "MapId": 3180,
+    "Type": "室内，灵州",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3181": {
+    "Id": 3181,
+    "Name": "敦煌客栈",
+    "MapId": 3181,
+    "Type": "室内，敦煌",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3182": {
+    "Id": 3182,
+    "Name": "档案室",
+    "MapId": 4002,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3183": {
+    "Id": 3183,
+    "Name": "民居",
+    "MapId": 3170,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3184": {
+    "Id": 3184,
+    "Name": "敦煌杂货铺",
+    "MapId": 3184,
+    "Type": "室内，敦煌",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "3185": {
+    "Id": 3185,
+    "Name": "大雄宝殿",
+    "MapId": 4000,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3186": {
+    "Id": 3186,
+    "Name": "民居",
+    "MapId": 3186,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 22,
+    "y": 52
+  },
+  "3187": {
+    "Id": 3187,
+    "Name": "民居",
+    "MapId": 3187,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 22,
+    "y": 50
+  },
+  "3188": {
+    "Id": 3188,
+    "Name": "长乐帮库房",
+    "MapId": 3168,
+    "SceneArea": 1022,
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "3189": {
+    "Id": 3189,
+    "Name": "长乐帮大殿",
+    "MapId": 2002,
+    "SceneArea": 1022,
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "太师府内",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3024
+  },
+  "3190": {
+    "Id": 3190,
+    "Name": "长乐帮休息室",
+    "MapId": 4004,
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3191": {
+    "Id": 3191,
+    "Name": "青玉堂库房",
+    "MapId": 3168,
+    "SceneArea": 1022,
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "3192": {
+    "Id": 3192,
+    "Name": "青玉堂弟子室",
+    "MapId": 3159,
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "3193": {
+    "Id": 3193,
+    "Name": "逸飞武馆",
+    "MapId": 3193,
+    "Type": "室内，武昌",
+    "Grade": 1,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 33,
+    "y": 48
+  },
+  "3194": {
+    "Id": 3194,
+    "Name": "天山正气堂",
+    "MapId": 3194,
+    "Type": "室内，天山",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "天山正气堂",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "3195": {
+    "Id": 3195,
+    "Name": "村庄",
+    "MapId": 3195,
+    "Grade": 0,
+    "Width": 2196,
+    "Height": 1336,
+    "showSmap": 0,
+    "x": 6.5,
+    "y": 50.5,
+    "Weather": 5013
+  },
+  "3196": {
+    "Id": 3196,
+    "Name": "废铁斋",
+    "MapId": 3196,
+    "Type": "室内，武昌",
+    "Grade": 1,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 53,
+    "y": 32
+  },
+  "3197": {
+    "Id": 3197,
+    "Name": "韦陀堂",
+    "MapId": 7105,
+    "Type": "室内，少林",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1238,
+    "y": 1293
+  },
+  "3198": {
+    "Id": 3198,
+    "Name": "黄鹤楼",
+    "MapId": 3014,
+    "Type": "附属，临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "豪华酒楼",
+    "showSmap": 0,
+    "x": 59,
+    "y": 74,
+    "Weather": 3014
+  },
+  "3199": {
+    "Id": 3199,
+    "Name": "汴京客栈",
+    "MapId": 3199,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3201": {
+    "Id": 3201,
+    "Name": "芥子庙",
+    "MapId": 3201,
+    "SceneArea": 3060,
+    "Type": "室内，汴京郊外",
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "3202": {
+    "Id": 3202,
+    "Name": "吴雁的家",
+    "MapId": 3202,
+    "SceneArea": 3060,
+    "Type": "室内，汴京郊外",
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003
+  },
+  "3301": {
+    "Id": 3301,
+    "Name": "南湖",
+    "MapId": 3301,
+    "Type": "九曲",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1005,
+    "Tags": [
+      "nofollow"
+    ],
+    "showSmap": 1,
+    "x": 38,
+    "y": 310,
+    "Weather": 9645,
+    "Near": "newscene/near/recall"
+  },
+  "3302": {
+    "Id": 3302,
+    "Name": "九曲连环坞",
+    "MapId": 3302,
+    "Type": "九曲",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 6400,
+    "Light": 1001,
+    "Tags": [
+      "nofollow"
+    ],
+    "showSmap": 1,
+    "x": 31,
+    "y": 301,
+    "Weather": 9645,
+    "Enter": {
+      "trigger": {
+        "520010": 520010,
+        "520030": 520030,
+        "520040": 520040,
+        "520050": 520050,
+        "520060": 520060,
+        "520070": 523270
+      }
+    }
+  },
+  "3303": {
+    "Id": 3303,
+    "Name": "九曲客栈",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3304": {
+    "Id": 3304,
+    "Name": "木屋",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3305": {
+    "Id": 3305,
+    "Name": "布店",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3306": {
+    "Id": 3306,
+    "Name": "铁匠铺",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3307": {
+    "Id": 3307,
+    "Name": "木匠屋",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3308": {
+    "Id": 3308,
+    "Name": "药铺",
+    "MapId": 3011,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3311": {
+    "Id": 3311,
+    "Name": "白羽舷舱",
+    "MapId": 3311,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3312": {
+    "Id": 3312,
+    "Name": "白羽客舱",
+    "MapId": 3312,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3313": {
+    "Id": 3313,
+    "Name": "白羽仓库",
+    "MapId": 3313,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3315": {
+    "Id": 3315,
+    "Name": "赤焰舷舱",
+    "MapId": 3311,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47,
+    "Enter": {
+      "trigger": {
+        "524471": 520070
+      }
+    }
+  },
+  "3316": {
+    "Id": 3316,
+    "Name": "赤焰客舱",
+    "MapId": 3312,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47,
+    "Enter": {
+      "trigger": {
+        "524470": 520080
+      }
+    }
+  },
+  "3317": {
+    "Id": 3317,
+    "Name": "赤焰仓库",
+    "MapId": 3313,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47
+  },
+  "3321": {
+    "Id": 3321,
+    "Name": "临安钱公府",
+    "MapId": 3321,
+    "Type": "临安",
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 3200,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 21,
+    "y": 110,
+    "Weather": 1022,
+    "Timechange": [
+      [
+        307,
+        10
+      ]
+    ],
+    "Enter": {
+      "trigger": 209917
+    }
+  },
+  "4003": {
+    "Id": 4003,
+    "Name": "汴京大理寺档案室",
+    "MapId": 4003,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "4006": {
+    "Id": 4006,
+    "Name": "郭家卧室",
+    "MapId": 4006,
+    "Type": "室内，淮南道",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "4007": {
+    "Id": 4007,
+    "Name": "藏书阁",
+    "MapId": 4007,
+    "Type": "室内，秦岭",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 51,
+    "y": 46
+  },
+  "4008": {
+    "Id": 4008,
+    "Name": "衡山弟子居室",
+    "MapId": 4008,
+    "Type": "室内，衡山",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 12,
+    "y": 41
+  },
+  "4009": {
+    "Id": 4009,
+    "Name": "五味馆",
+    "MapId": 4009,
+    "Type": "室内，淮南道",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 21,
+    "y": 47
+  },
+  "4010": {
+    "Id": 4010,
+    "Name": "抱玉斋",
+    "MapId": 4010,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 1200,
+    "y": 1000
+  },
+  "4011": {
+    "Id": 4011,
+    "Name": "杏花村",
+    "MapId": 3073,
+    "Type": "杏花村，临时，主线",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "x": 93,
+    "y": 215
+  },
+  "4012": {
+    "Id": 4012,
+    "Name": "秤金府居室",
+    "MapId": 4012,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 295,
+    "y": 818
+  },
+  "4013": {
+    "Id": 4013,
+    "Name": "济安号舷舱",
+    "MapId": 4013,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0
+  },
+  "4014": {
+    "Id": 4014,
+    "Name": "济安号客舱",
+    "MapId": 4014,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0
+  },
+  "4015": {
+    "Id": 4015,
+    "Name": "南湖",
+    "MapId": 4015,
+    "Type": "室内，九曲",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 910,
+    "y": 900,
+    "Weather": 2040
+  },
+  "4016": {
+    "Id": 4016,
+    "Name": "武昌",
+    "MapId": 4016,
+    "Type": "临时，武昌",
+    "Grade": 0,
+    "Width": 8426,
+    "Height": 6300,
+    "Light": 1001,
+    "Tags": [
+      "nofollow"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1003,
+    "x": 414,
+    "y": 241,
+    "Weather": 1029,
+    "Fightbg": 3087
+  },
+  "4017": {
+    "Id": 4017,
+    "Name": "春风醉月楼一楼",
+    "MapId": 4017,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "雁门酒楼",
+    "showSmap": 0,
+    "x": 127,
+    "y": 138,
+    "Enter": {
+      "trigger": 209920
+    }
+  },
+  "4018": {
+    "Id": 4018,
+    "Name": "春风醉月楼二楼",
+    "MapId": 4018,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "雁门酒楼",
+    "showSmap": 0,
+    "x": 98,
+    "y": 140
+  },
+  "4019": {
+    "Id": 4019,
+    "Name": "窦南翁家",
+    "MapId": 4019,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "4020": {
+    "Id": 4020,
+    "Name": "清雅阁",
+    "MapId": 4020,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 40,
+    "y": 48
+  },
+  "4021": {
+    "Id": 4021,
+    "Name": "弄月厢房",
+    "MapId": 4021,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 53,
+    "y": 34
+  },
+  "4022": {
+    "Id": 4022,
+    "Name": "茅屋",
+    "MapId": 4022,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1600,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 40,
+    "y": 40
+  },
+  "4023": {
+    "Id": 4023,
+    "Name": "琳琅阁",
+    "MapId": 4023,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 1200,
+    "y": 1000
+  },
+  "4024": {
+    "Id": 4024,
+    "Name": "民居",
+    "MapId": 4024,
+    "Type": "室内，汴京郊外",
+    "Grade": 0,
+    "Width": 1280,
+    "Height": 1280,
+    "Indoor": 1,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 12,
+    "y": 41
+  },
+  "4037": {
+    "Id": 4037,
+    "Name": "旧宋兵大营",
+    "MapId": 4037,
+    "Grade": 0,
+    "Width": 9600,
+    "Height": 9600,
+    "Light": 1001,
+    "Desc": "旧宋兵大营",
+    "showSmap": 0,
+    "x": 76,
+    "y": 89,
+    "Weather": 3008
+  },
+  "4063": {
+    "Id": 4063,
+    "Name": "翠微楼二楼",
+    "MapId": 4063,
+    "Type": "室内，翠微楼",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "翠微楼",
+    "showSmap": 0,
+    "x": 113,
+    "y": 133,
+    "Weather": 3035
+  },
+  "4231": {
+    "Id": 4231,
+    "Name": "归远居",
+    "MapId": 2001,
+    "Type": "室内，杏花村",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1040,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 50,
+    "y": 38,
+    "Weather": 4231
+  },
+  "4232": {
+    "Id": 4232,
+    "Name": "巨鲸寨",
+    "MapId": 7777,
+    "Type": "临时，主线，杏花村",
+    "Grade": 0,
+    "Width": 3280,
+    "Height": 2160,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 67,
+    "y": 11,
+    "traps": [
+      423230
+    ],
+    "Weather": 4232
+  },
+  "4234": {
+    "Id": 4234,
+    "Name": "巨鲸寨外围",
+    "MapId": 4234,
+    "Type": "临时，主线，杏花村",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 17,
+    "y": 19,
+    "traps": [
+      423401
+    ],
+    "Weather": 4234
+  },
+  "4235": {
+    "Id": 4235,
+    "Name": "杏花村山洞",
+    "MapId": 6669,
+    "Type": "迷宫，主线-杏花村",
+    "Grade": 0,
+    "Width": 2400,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1002,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 10,
+    "y": 135,
+    "Weather": 4235,
+    "Enter": {
+      "trigger": 18000
+    },
+    "Leave": {
+      "trigger": 18010
+    }
+  },
+  "4236": {
+    "Id": 4236,
+    "Name": "杏花村后山",
+    "MapId": 1073,
+    "Type": "后山，杏花村",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 1600,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 101,
+    "y": 44,
+    "Weather": 4236
+  },
+  "4237": {
+    "Id": 4237,
+    "Name": "天山后山",
+    "MapId": 1037,
+    "Type": "附属，天山",
+    "Grade": 0,
+    "Width": 2240,
+    "Height": 3360,
+    "Light": 1001,
+    "showSmap": 0,
+    "Weather": 4237
+  },
+  "4238": {
+    "Id": 4238,
+    "Name": "武当后山",
+    "MapId": 1013,
+    "Type": "附属，武当",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 1920,
+    "Light": 1001,
+    "Desc": "左上角的牌匾写着聚义庄，要改",
+    "showSmap": 0,
+    "Weather": 4238
+  },
+  "4239": {
+    "Id": 4239,
+    "Name": "木匠屋",
+    "MapId": 3013,
+    "Type": "室内，杏花村",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 21,
+    "y": 23,
+    "Weather": 4239
+  },
+  "4240": {
+    "Id": 4240,
+    "Name": "客栈客房",
+    "MapId": 3071,
+    "Type": "临时，主线-杏花村",
+    "Grade": 0,
+    "Width": 1856,
+    "Height": 1303,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 35,
+    "Weather": 4240
+  },
+  "4444": {
+    "Id": 4444,
+    "Name": "test视野",
+    "MapId": 4444,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Frog": 300,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001,
+    "Enter": {
+      "trigger": 4444,
+      "group": 1000
+    },
+    "Leave": {
+      "group": 1000
+    }
+  },
+  "4445": {
+    "Id": 4445,
+    "Name": "上一百层地图",
+    "MapId": 4445,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001
+  },
+  "4446": {
+    "Id": 4446,
+    "Name": "秦岭悬崖",
+    "MapId": 4446,
+    "Grade": 0,
+    "Width": 960,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "jumpGame",
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "x": 35,
+    "y": 296,
+    "Weather": 4446
+  },
+  "4447": {
+    "Id": 4447,
+    "Name": "测试PS",
+    "MapId": 4447,
+    "Grade": 0,
+    "Width": 10000,
+    "Height": 720,
+    "Light": 1003,
+    "Tags": [
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "x": 29,
+    "y": 23,
+    "Weather": 4447
+  },
+  "4448": {
+    "Id": 4448,
+    "Name": "云朵",
+    "MapId": 4448,
+    "Grade": 0,
+    "Width": 960,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "x": 32,
+    "y": 297,
+    "Weather": 4448
+  },
+  "5011": {
+    "Id": 5011,
+    "Name": "杏花村迷宫",
+    "MapId": 1059,
+    "Grade": 0,
+    "Width": 7200,
+    "Height": 5600,
+    "Indoor": 1,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 236.25,
+    "y": 254.5,
+    "traps": [
+      501101,
+      501102,
+      501103,
+      501104,
+      501105,
+      501106,
+      501107,
+      501108,
+      501109,
+      501110,
+      501111,
+      501112
+    ],
+    "Weather": 5011
+  },
+  "5013": {
+    "Id": 5013,
+    "Name": "后山",
+    "MapId": 5016,
+    "Grade": 0,
+    "Width": 2196,
+    "Height": 1336,
+    "showSmap": 0,
+    "x": 6.5,
+    "y": 50.5,
+    "traps": [
+      100157
+    ],
+    "Weather": 5013
+  },
+  "5014": {
+    "Id": 5014,
+    "Name": "云中坞",
+    "MapId": 1019,
+    "Grade": 0,
+    "Width": 2240,
+    "Height": 2560,
+    "showSmap": 0,
+    "x": 27.75,
+    "y": 114,
+    "traps": [
+      100156
+    ],
+    "Weather": 5014
+  },
+  "5015": {
+    "Id": 5015,
+    "Name": "家园",
+    "MapId": 6001,
+    "Grade": 0,
+    "Width": 1760,
+    "Height": 1200,
+    "showSmap": 0,
+    "x": 55.5,
+    "y": 39.5,
+    "Weather": 5015
+  },
+  "5016": {
+    "Id": 5016,
+    "Name": "醉霄楼",
+    "MapId": 3011,
+    "Type": "室内，杏花村",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 48,
+    "y": 47,
+    "Weather": 5016
+  },
+  "5017": {
+    "Id": 5017,
+    "Name": "月老庙",
+    "MapId": 6002,
+    "Grade": 0,
+    "Width": 2304,
+    "Height": 1248,
+    "showSmap": 0,
+    "x": 77,
+    "y": 38,
+    "Weather": 5017
+  },
+  "5018": {
+    "Id": 5018,
+    "Name": "梦中局",
+    "MapId": 5019,
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1950,
+    "showSmap": 0,
+    "x": 40,
+    "y": 60,
+    "Weather": 5018
+  },
+  "5019": {
+    "Id": 5019,
+    "Name": "清酌观",
+    "MapId": 2001,
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1040,
+    "showSmap": 0,
+    "x": 50,
+    "y": 37,
+    "Weather": 5019
+  },
+  "5020": {
+    "Id": 5020,
+    "Name": "清酌观",
+    "MapId": 2001,
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1040,
+    "showSmap": 0,
+    "x": 50,
+    "y": 37,
+    "Weather": 5020
+  },
+  "5031": {
+    "Id": 5031,
+    "Name": "湛和园",
+    "MapId": 5001,
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 2960,
+    "showSmap": 0,
+    "Weather": 5031
+  },
+  "5032": {
+    "Id": 5032,
+    "Name": "汴京分舵",
+    "MapId": 3021,
+    "Type": "临时，主线-序章",
+    "Grade": 0,
+    "Width": 4080,
+    "Height": 2560,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 22,
+    "y": 107,
+    "Weather": 2039
+  },
+  "5038": {
+    "Id": 5038,
+    "Name": "江湖客栈",
+    "MapId": 1010,
+    "Grade": 0,
+    "Width": 2880,
+    "Height": 2000,
+    "showSmap": 0,
+    "Weather": 5038
+  },
+  "5041": {
+    "Id": 5041,
+    "Name": "普度寺",
+    "MapId": 1014,
+    "Grade": 0,
+    "Width": 2680,
+    "Height": 2640,
+    "Light": {
+      "morninghour": 5,
+      "eveninghour": 17,
+      "color0": 1,
+      "colorstart": 0.85,
+      "r0": 250,
+      "rstart": 500
+    },
+    "showSmap": 0,
+    "Weather": 5041
+  },
+  "5042": {
+    "Id": 5042,
+    "Name": "崇圣塔",
+    "MapId": 1006,
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "showSmap": 0,
+    "Weather": 5042
+  },
+  "5043": {
+    "Id": 5043,
+    "Name": "崇圣塔",
+    "MapId": 1007,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 5043
+  },
+  "5044": {
+    "Id": 5044,
+    "Name": "崇圣塔",
+    "MapId": 1008,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 5044
+  },
+  "5045": {
+    "Id": 5045,
+    "Name": "崇圣塔",
+    "MapId": 1009,
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 5045
+  },
+  "5046": {
+    "Id": 5046,
+    "Name": "崇圣塔",
+    "MapId": 1010,
+    "Grade": 0,
+    "Width": 2880,
+    "Height": 2000,
+    "showSmap": 0,
+    "Weather": 5046
+  },
+  "5091": {
+    "Id": 5091,
+    "Name": "华山论剑",
+    "MapId": 1054,
+    "Grade": 0,
+    "Width": 5520,
+    "Height": 3600,
+    "showSmap": 0,
+    "Weather": 5091
+  },
+  "5101": {
+    "Id": 5101,
+    "Name": "猛虎崖",
+    "MapId": 5101,
+    "Grade": 0,
+    "Width": 2196,
+    "Height": 1336,
+    "Tags": [
+      "卷轴"
+    ],
+    "showSmap": 1,
+    "x": 6.5,
+    "y": 50.5,
+    "traps": [
+      100157
+    ],
+    "Weather": 5013
+  },
+  "5102": {
+    "Id": 5102,
+    "Name": "绿源村",
+    "MapId": 5102,
+    "Grade": 0,
+    "Width": 2196,
+    "Height": 1336,
+    "showSmap": 0,
+    "x": 18,
+    "y": 86,
+    "traps": [
+      100157
+    ],
+    "Weather": 5013
+  },
+  "5103": {
+    "Id": 5103,
+    "Name": "临安客栈",
+    "MapId": 5103,
+    "Type": "室内，临安",
+    "Grade": 0,
+    "Width": 1600,
+    "Height": 1400,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 41,
+    "y": 47
+  },
+  "5181": {
+    "Id": 5181,
+    "Name": "秘境",
+    "MapId": 1046,
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2960,
+    "showSmap": 0,
+    "Weather": 5181
+  },
+  "5231": {
+    "Id": 5231,
+    "Name": "临沧",
+    "MapId": 1047,
+    "Grade": 0,
+    "Width": 4320,
+    "Height": 3120,
+    "showSmap": 0,
+    "Weather": 5231
+  },
+  "5301": {
+    "Id": 5301,
+    "Name": "鬼市入口",
+    "MapId": 5301,
+    "Grade": 0,
+    "Width": 1200,
+    "Height": 877,
+    "showSmap": 0,
+    "Weather": 5301
+  },
+  "5302": {
+    "Id": 5302,
+    "Name": "鬼市",
+    "MapId": 5302,
+    "Grade": 0,
+    "Light": 1002,
+    "showSmap": 1,
+    "Weather": 5302
+  },
+  "5303": {
+    "Id": 5303,
+    "Name": "轮回殿第一层上",
+    "MapId": 5303,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 40,
+    "y": 24,
+    "Weather": 5303
+  },
+  "5304": {
+    "Id": 5304,
+    "Name": "轮回殿第一层下",
+    "MapId": 5304,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "Weather": 5304
+  },
+  "5305": {
+    "Id": 5305,
+    "Name": "轮回殿第二层上",
+    "MapId": 5305,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "Weather": 5305
+  },
+  "5306": {
+    "Id": 5306,
+    "Name": "轮回殿第二层下",
+    "MapId": 5306,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "Weather": 5306
+  },
+  "5307": {
+    "Id": 5307,
+    "Name": "轮回殿第三层上",
+    "MapId": 5307,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "Weather": 5307
+  },
+  "5308": {
+    "Id": 5308,
+    "Name": "轮回殿第三层下",
+    "MapId": 5308,
+    "Grade": 0,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "Weather": 5308
+  },
+  "5555": {
+    "Id": 5555,
+    "Name": "test",
+    "MapId": 4444,
+    "Type": "村庄",
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1002,
+    "Frog": 300,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001,
+    "Enter": {
+      "trigger": 4444,
+      "group": 1000
+    },
+    "Leave": {
+      "group": 1000
+    }
+  },
+  "6001": {
+    "Id": 6001,
+    "Name": "凌霄塔一层",
+    "MapId": 1006,
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "showSmap": 0,
+    "Weather": 6001
+  },
+  "6002": {
+    "Id": 6002,
+    "Name": "凌霄塔二层",
+    "MapId": 1007,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6002
+  },
+  "6003": {
+    "Id": 6003,
+    "Name": "凌霄塔三层",
+    "MapId": 1008,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6003
+  },
+  "6004": {
+    "Id": 6004,
+    "Name": "凌霄塔四层",
+    "MapId": 1009,
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6004
+  },
+  "6005": {
+    "Id": 6005,
+    "Name": "凌霄塔五层",
+    "MapId": 1006,
+    "Grade": 0,
+    "Width": 4000,
+    "Height": 2480,
+    "showSmap": 0,
+    "Weather": 6005
+  },
+  "6006": {
+    "Id": 6006,
+    "Name": "凌霄塔六层",
+    "MapId": 1007,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6006
+  },
+  "6007": {
+    "Id": 6007,
+    "Name": "凌霄塔七层",
+    "MapId": 1008,
+    "Grade": 0,
+    "Width": 3600,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6007
+  },
+  "6008": {
+    "Id": 6008,
+    "Name": "凌霄塔八层",
+    "MapId": 1009,
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6008
+  },
+  "6009": {
+    "Id": 6009,
+    "Name": "凌霄塔九层",
+    "MapId": 1009,
+    "Grade": 0,
+    "Width": 3520,
+    "Height": 2240,
+    "showSmap": 0,
+    "Weather": 6009
+  },
+  "6010": {
+    "Id": 6010,
+    "Name": "凌霄塔十层",
+    "MapId": 1010,
+    "Grade": 0,
+    "Width": 2880,
+    "Height": 2000,
+    "showSmap": 0,
+    "Weather": 6010
+  },
+  "7000": {
+    "Id": 7000,
+    "Name": "放npc",
+    "MapId": 1001,
+    "Grade": 0,
+    "Width": 13440,
+    "Height": 7360,
+    "showSmap": 0,
+    "x": 315,
+    "y": 190,
+    "Weather": 7000
+  },
+  "7001": {
+    "Id": 7001,
+    "Name": "山洞",
+    "MapId": 6666,
+    "Grade": 0,
+    "Width": 2000,
+    "Height": 2000,
+    "showSmap": 0,
+    "Weather": 7001
+  },
+  "7019": {
+    "Id": 7019
+  },
+  "7101": {
+    "Id": 7101,
+    "Name": "淮南道",
+    "MapId": 7101,
+    "Type": "势力任务",
+    "Grade": 30,
+    "Width": 5000,
+    "Height": 3800,
+    "Light": 1001,
+    "Desc": "淮南道车辙交错，白杨夹道。路旁小镇炊烟袅袅，酒肆茶棚笑语喧天，孩童追逐戏闹，农人荷锄而归，一派祥和安宁。",
+    "showSmap": 1,
+    "x": 134,
+    "y": 214,
+    "Weather": 9645,
+    "Enter": {
+      "trigger": 209916
+    }
+  },
+  "7102": {
+    "Id": 7102,
+    "Name": "衡山",
+    "MapId": 7102,
+    "Type": "势力任务",
+    "Grade": 30,
+    "Width": 5000,
+    "Height": 3800,
+    "Light": 1001,
+    "Desc": "衡山翠峰叠嶂，溪流环绕。山顶处存一门派，青瓦白墙隐于林间，弟子习武耕种，自成一方清幽天地。",
+    "showSmap": 1,
+    "x": 247,
+    "y": 276,
+    "Weather": 9645
+  },
+  "7103": {
+    "Id": 7103,
+    "Name": "海州",
+    "MapId": 7103,
+    "Type": "附属，汴京",
+    "Grade": 0,
+    "Width": 5000,
+    "Height": 3800,
+    "Light": 1001,
+    "Tags": [
+      "禁传"
+    ],
+    "showSmap": 1,
+    "x": 210,
+    "y": 195,
+    "Weather": 9645
+  },
+  "7105": {
+    "Id": 7105,
+    "Name": "拈花堂",
+    "MapId": 7105,
+    "Type": "室内，少林",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1238,
+    "y": 1293
+  },
+  "7106": {
+    "Id": 7106,
+    "Name": "汴京乐坊",
+    "MapId": 7106,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1200,
+    "y": 1000
+  },
+  "7107": {
+    "Id": 7107,
+    "Name": "博古斋",
+    "MapId": 7107,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1200,
+    "y": 1000
+  },
+  "7108": {
+    "Id": 7108,
+    "Name": "绮罗坊",
+    "MapId": 7108,
+    "Type": "室内，汴京",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1200,
+    "y": 1000
+  },
+  "7109": {
+    "Id": 7109,
+    "Name": "藏书阁",
+    "MapId": 7109,
+    "Type": "室内，武当",
+    "Grade": 0,
+    "Width": 1920,
+    "Height": 1920,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 1512,
+    "y": 1119
+  },
+  "7110": {
+    "Id": 7110,
+    "Name": "大相国寺",
+    "MapId": 7110,
+    "Grade": 0,
+    "Width": 5361,
+    "Height": 5815,
+    "Light": 1001,
+    "Desc": "中岳嵩山，由太室山与少室山组成，共七十二峰。少室山下的少林寺自古便是中原佛教的禅宗祖庭，亦是武林门派之魁首，千百年来，超然于世，无可撼动者。",
+    "showSmap": 1,
+    "MusicNo": 1017,
+    "x": 241,
+    "y": 256,
+    "Weather": 1007,
+    "Fightbg": 3086
+  },
+  "7111": {
+    "Id": 7111,
+    "Name": "柴房",
+    "MapId": 3013,
+    "Type": "室内，杏花村",
+    "Grade": 0,
+    "Width": 3200,
+    "Height": 3200,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "showSmap": 0,
+    "x": 21,
+    "y": 23,
+    "Weather": 4239
+  },
+  "7112": {
+    "Id": 7112,
+    "Name": "比武台",
+    "MapId": 1054,
+    "Grade": 0,
+    "Width": 5520,
+    "Height": 3600,
+    "showSmap": 1,
+    "x": 221,
+    "y": 119,
+    "Weather": 5091
+  },
+  "7113": {
+    "Id": 7113,
+    "Name": "秦岭山洞",
+    "MapId": 1065,
+    "Type": "山洞",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1002,
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 30,
+    "y": 142,
+    "Weather": 1065
+  },
+  "7114": {
+    "Id": 7114,
+    "Name": "山洞二层",
+    "MapId": 1065,
+    "Type": "山洞",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1002,
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 30,
+    "y": 142,
+    "Weather": 1065
+  },
+  "7115": {
+    "Id": 7115,
+    "Name": "山洞三层",
+    "MapId": 1065,
+    "Type": "山洞",
+    "Grade": 0,
+    "Width": 5120,
+    "Height": 3200,
+    "Light": 1002,
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 30,
+    "y": 142,
+    "Weather": 1065
+  },
+  "8001": {
+    "Id": 8001,
+    "Name": "杏花村2",
+    "MapId": 1063,
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 100,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 1,
+    "MusicNo": 1015,
+    "x": 26,
+    "y": 192,
+    "traps": [
+      100131,
+      100132,
+      100133,
+      100134,
+      100135,
+      100136,
+      100137,
+      100138,
+      100139,
+      100141,
+      100142,
+      100143,
+      100144,
+      100145,
+      100147,
+      100148,
+      100149,
+      100150,
+      100151,
+      100152,
+      100153,
+      100154,
+      100155,
+      100158
+    ],
+    "Weather": 8001,
+    "Enter": {
+      "buff": 50000
+    },
+    "Leave": {
+      "buff": 50000
+    }
+  },
+  "9001": {
+    "Id": 9001,
+    "Name": "预览地图",
+    "MapId": 1003,
+    "showSmap": 1,
+    "Weather": 9001
+  },
+  "9002": {
+    "Id": 9002,
+    "Name": "预览地图",
+    "MapId": 1004,
+    "showSmap": 1,
+    "Weather": 9002
+  },
+  "9003": {
+    "Id": 9003,
+    "Name": "预览地图",
+    "MapId": 1013,
+    "showSmap": 1,
+    "Weather": 9003
+  },
+  "9004": {
+    "Id": 9004,
+    "Name": "预览地图",
+    "MapId": 1014,
+    "showSmap": 1,
+    "Weather": 9004
+  },
+  "9005": {
+    "Id": 9005,
+    "Name": "预览地图",
+    "MapId": 1018,
+    "showSmap": 1,
+    "Weather": 9005
+  },
+  "9006": {
+    "Id": 9006,
+    "Name": "预览地图",
+    "MapId": 1022,
+    "showSmap": 1,
+    "Weather": 9006
+  },
+  "9007": {
+    "Id": 9007,
+    "Name": "预览地图",
+    "MapId": 1023,
+    "showSmap": 1,
+    "Weather": 9007
+  },
+  "9008": {
+    "Id": 9008,
+    "Name": "预览地图",
+    "MapId": 1025,
+    "showSmap": 1,
+    "Weather": 9008
+  },
+  "9009": {
+    "Id": 9009,
+    "Name": "预览地图",
+    "MapId": 1028,
+    "showSmap": 1,
+    "Weather": 9009
+  },
+  "9012": {
+    "Id": 9012,
+    "Name": "预览地图",
+    "MapId": 1032,
+    "showSmap": 1,
+    "Weather": 9012
+  },
+  "9014": {
+    "Id": 9014,
+    "Name": "预览地图",
+    "MapId": 1034,
+    "showSmap": 1,
+    "Weather": 9014
+  },
+  "9015": {
+    "Id": 9015,
+    "Name": "预览地图",
+    "MapId": 1036,
+    "showSmap": 1,
+    "Weather": 9015
+  },
+  "9016": {
+    "Id": 9016,
+    "Name": "预览地图",
+    "MapId": 1038,
+    "showSmap": 1,
+    "Weather": 9016
+  },
+  "9017": {
+    "Id": 9017,
+    "Name": "预览地图",
+    "MapId": 1039,
+    "showSmap": 1,
+    "Weather": 9017
+  },
+  "9018": {
+    "Id": 9018,
+    "Name": "预览地图",
+    "MapId": 1046,
+    "showSmap": 1,
+    "Weather": 9018
+  },
+  "9019": {
+    "Id": 9019,
+    "Name": "预览地图",
+    "MapId": 1047,
+    "showSmap": 1,
+    "Weather": 9019
+  },
+  "9020": {
+    "Id": 9020,
+    "Name": "预览地图",
+    "MapId": 1053,
+    "showSmap": 1,
+    "Weather": 9020
+  },
+  "9021": {
+    "Id": 9021,
+    "Name": "预览地图",
+    "MapId": 1056,
+    "showSmap": 1,
+    "Weather": 9021
+  },
+  "9022": {
+    "Id": 9022,
+    "Name": "预览地图",
+    "MapId": 1057,
+    "showSmap": 1,
+    "Weather": 9022
+  },
+  "9023": {
+    "Id": 9023,
+    "Name": "预览地图",
+    "MapId": 1073,
+    "showSmap": 1,
+    "Weather": 9023
+  },
+  "9024": {
+    "Id": 9024,
+    "Name": "预览地图",
+    "MapId": 4234,
+    "showSmap": 1,
+    "Weather": 9024
+  },
+  "9025": {
+    "Id": 9025,
+    "Name": "预览地图",
+    "MapId": 5001,
+    "showSmap": 1,
+    "Weather": 9025
+  },
+  "9026": {
+    "Id": 9026,
+    "Name": "预览地图",
+    "MapId": 5002,
+    "showSmap": 1,
+    "Weather": 9026
+  },
+  "9027": {
+    "Id": 9027,
+    "Name": "预览地图",
+    "MapId": 1006,
+    "showSmap": 1,
+    "Weather": 9027
+  },
+  "9028": {
+    "Id": 9028,
+    "Name": "预览地图",
+    "MapId": 1007,
+    "showSmap": 1,
+    "Weather": 9028
+  },
+  "9029": {
+    "Id": 9029,
+    "Name": "预览地图",
+    "MapId": 1008,
+    "showSmap": 1,
+    "Weather": 9029
+  },
+  "9030": {
+    "Id": 9030,
+    "Name": "预览地图",
+    "MapId": 1009,
+    "showSmap": 1,
+    "Weather": 9030
+  },
+  "9031": {
+    "Id": 9031,
+    "Name": "预览地图",
+    "MapId": 1010,
+    "showSmap": 1,
+    "Weather": 9031
+  },
+  "9032": {
+    "Id": 9032,
+    "Name": "预览地图",
+    "MapId": 1021,
+    "showSmap": 1,
+    "Weather": 9032
+  },
+  "9033": {
+    "Id": 9033,
+    "Name": "预览地图",
+    "MapId": 2001,
+    "showSmap": 1,
+    "Weather": 9033
+  },
+  "9034": {
+    "Id": 9034,
+    "Name": "预览地图",
+    "MapId": 2002,
+    "showSmap": 1,
+    "Weather": 9034
+  },
+  "9035": {
+    "Id": 9035,
+    "Name": "预览地图",
+    "MapId": 5018,
+    "showSmap": 1,
+    "Weather": 9035
+  },
+  "9610": {
+    "Id": 9610,
+    "Name": "天山渡天河",
+    "MapId": 9610,
+    "Type": "关卡，天山门派",
+    "Grade": 0,
+    "Width": 6400,
+    "Height": 4800,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 15,
+    "y": 225,
+    "Weather": 9610
+  },
+  "9614": {
+    "Id": 9614,
+    "Name": "天山七剑台",
+    "MapId": 9614,
+    "Type": "关卡，天山门派",
+    "Grade": 0,
+    "Width": 4800,
+    "Height": 5600,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 8,
+    "y": 13,
+    "Weather": 9614
+  },
+  "9641": {
+    "Id": 9641,
+    "Name": "长白山顶",
+    "MapId": 9641,
+    "Type": "附属，长白山",
+    "Grade": 0,
+    "Width": 7200,
+    "Height": 5120,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 10,
+    "y": 200,
+    "Weather": 9641
+  },
+  "9642": {
+    "Id": 9642,
+    "Name": "长白山",
+    "MapId": 9642,
+    "Type": "名山大川",
+    "Grade": 80,
+    "Width": 9600,
+    "Height": 4800,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 10,
+    "y": 220,
+    "Weather": 9642
+  },
+  "9644": {
+    "Id": 9644,
+    "Name": "孟津渡",
+    "MapId": 9644,
+    "Type": "关卡，主线-临安",
+    "Grade": 0,
+    "Width": 5600,
+    "Height": 4000,
+    "Light": 1001,
+    "showSmap": 0,
+    "x": 13,
+    "y": 178,
+    "Weather": 9644
+  },
+  "9645": {
+    "Id": 9645,
+    "Name": "江南道",
+    "MapId": 9645,
+    "Type": "关卡，主线-临安",
+    "Grade": 0,
+    "Width": 5000,
+    "Height": 3800,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 75,
+    "y": 31,
+    "Weather": 9645
+  },
+  "9646": {
+    "Id": 9646,
+    "Name": "沙匪山寨",
+    "MapId": 9646,
+    "Type": "关卡，天山门派",
+    "Grade": 0,
+    "Width": 5600,
+    "Height": 4800,
+    "Light": 1001,
+    "showSmap": 0,
+    "Weather": 9646
+  },
+  "9647": {
+    "Id": 9647,
+    "Name": "沙匪山寨道中",
+    "MapId": 9647,
+    "Type": "关卡，天山门派",
+    "Grade": 0,
+    "Width": 7200,
+    "Height": 3680,
+    "Light": 1001,
+    "showSmap": 0,
+    "Weather": 9647
+  },
+  "9648": {
+    "Id": 9648,
+    "Name": "测试地图L",
+    "MapId": 1063,
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 1,
+    "MusicNo": 1015,
+    "x": 26,
+    "y": 192,
+    "traps": [
+      100131,
+      100132,
+      100133,
+      100134,
+      100135,
+      100136,
+      100137,
+      100138,
+      100139,
+      100141,
+      100142,
+      100143,
+      100144,
+      100145,
+      100147,
+      100148,
+      100149,
+      100150,
+      100151,
+      100152,
+      100153,
+      100154,
+      100155,
+      100158
+    ],
+    "Weather": 8001,
+    "Enter": {
+      "buff": 50000
+    },
+    "Leave": {
+      "buff": 50000
+    }
+  },
+  "9649": {
+    "Id": 9649,
+    "Name": "石府宅邸",
+    "MapId": 2002,
+    "Type": "室内，武昌",
+    "Grade": 0,
+    "Width": 2900,
+    "Height": 2800,
+    "Indoor": 1,
+    "Light": 1003,
+    "Tags": [
+      "禁跳"
+    ],
+    "Desc": "武昌城首富石崇光宅邸",
+    "showSmap": 0,
+    "x": 57,
+    "y": 40,
+    "Weather": 3021
+  },
+  "9999": {
+    "Id": 9999,
+    "Name": "新杏花村测试",
+    "MapId": 9999,
+    "Grade": 0,
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "showSmap": 1,
+    "x": 104,
+    "y": 34,
+    "traps": [
+      102330,
+      102331,
+      102332,
+      102333,
+      102334,
+      102335,
+      102336,
+      102337,
+      102338,
+      102339,
+      102340
+    ],
+    "Weather": 9999
+  },
+  "14232": {
+    "Id": 14232,
+    "Name": "巨鲸寨(副本)",
+    "MapId": 7777,
+    "Type": "副本",
+    "Grade": 0,
+    "Width": 3280,
+    "Height": 2160,
+    "Light": 1003,
+    "showSmap": 0,
+    "x": 67,
+    "y": 11,
+    "traps": [
+      423230
+    ],
+    "Weather": 4232
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "1001": {
+    "Id": 1001,
+    "Name": "1级锁1",
+    "Level": 1,
+    "BaseSpeed": 2500,
+    "BaseCurrect": 50,
+    "multiple": 1.5,
+    "times": 1
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "1级锁2",
+    "Level": 1,
+    "BaseSpeed": 2500,
+    "BaseCurrect": 50,
+    "multiple": 1.5,
+    "times": 2
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "1级锁3",
+    "Level": 1,
+    "BaseSpeed": 2500,
+    "BaseCurrect": 50,
+    "multiple": 1.5,
+    "times": 3
+  },
+  "2001": {
+    "Id": 2001,
+    "Name": "2级锁1",
+    "Level": 100,
+    "BaseSpeed": 2000,
+    "BaseCurrect": 40,
+    "multiple": 1.5,
+    "times": 2
+  },
+  "2002": {
+    "Id": 2002,
+    "Name": "2级锁2",
+    "Level": 100,
+    "BaseSpeed": 2000,
+    "BaseCurrect": 40,
+    "multiple": 1.5,
+    "times": 3
+  },
+  "2003": {
+    "Id": 2003,
+    "Name": "2级锁3",
+    "Level": 100,
+    "BaseSpeed": 2000,
+    "BaseCurrect": 40,
+    "multiple": 1.5,
+    "times": 4
+  },
+  "3001": {
+    "Id": 3001,
+    "Name": "3级锁1",
+    "Level": 200,
+    "BaseSpeed": 1500,
+    "BaseCurrect": 30,
+    "multiple": 1.5,
+    "times": 3
+  },
+  "3002": {
+    "Id": 3002,
+    "Name": "3级锁2",
+    "Level": 200,
+    "BaseSpeed": 1500,
+    "BaseCurrect": 30,
+    "multiple": 1.5,
+    "times": 4
+  },
+  "3003": {
+    "Id": 3003,
+    "Name": "3级锁3",
+    "Level": 200,
+    "BaseSpeed": 1500,
+    "BaseCurrect": 30,
+    "multiple": 1.5,
+    "times": 5
+  },
+  "3004": {
+    "Id": 3004,
+    "Name": "无解锁",
+    "Level": 1,
+    "BaseSpeed": 3500,
+    "BaseCurrect": 0,
+    "multiple": 1,
+    "times": 1
+  },
+  "4001": {
+    "Id": 4001,
+    "Name": "4级锁1",
+    "Level": 300,
+    "BaseSpeed": 1000,
+    "BaseCurrect": 20,
+    "multiple": 1.5,
+    "times": 4
+  },
+  "4002": {
+    "Id": 4002,
+    "Name": "4级锁1",
+    "Level": 300,
+    "BaseSpeed": 1000,
+    "BaseCurrect": 20,
+    "multiple": 1.5,
+    "times": 5
+  },
+  "4003": {
+    "Id": 4003,
+    "Name": "4级锁1",
+    "Level": 300,
+    "BaseSpeed": 1000,
+    "BaseCurrect": 20,
+    "multiple": 1.5,
+    "times": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "1": {
+    "Id": 1,
+    "PassRefresh": 240,
+    "Times": 3,
+    "MoneyType": 1,
+    "Price": 123,
+    "InitNum": 3,
+    "OpenNum": [20, 30, 40]
+  }
+}

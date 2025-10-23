@@ -1,0 +1,26 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 150003,
+    "Name": "苍龙拳劲",
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 5000,
+    "Needs": {"Level": 40, "SchoolLevel": 1},
+    "cond": 100006,
+    "Sort": 1,
+    "Tag": "秘技"
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 150004,
+    "Name": "玄冥剑意",
+    "Count": 1,
+    "MoneyType": 5,
+    "Price": 5000,
+    "Needs": {"Level": 40, "SchoolLevel": 1},
+    "cond": 100006,
+    "Sort": 2,
+    "Tag": "秘技"
+  }
+}

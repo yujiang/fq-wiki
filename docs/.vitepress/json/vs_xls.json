@@ -1,0 +1,129 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "猜拳",
+    "Menu": ["石头", "剪刀", "布"],
+    "Great": [[0, 1], [1, 2], [2, 0]],
+    "Choose": "vs/choose",
+    "Attacker": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    },
+    "Target": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    }
+  },
+  "2": {
+    "Id": 2,
+    "Name": "猜拳",
+    "Menu": ["石头", "剪刀", "布"],
+    "Great": [[0, 1], [1, 2], [2, 0]],
+    "Choose": "vs/choose",
+    "Attacker": {
+      "hp": 1,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    },
+    "Target": {
+      "hp": 1,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    }
+  },
+  "3": {
+    "Id": 3,
+    "Name": "杏花村猜拳",
+    "Desc": "醒酒丸",
+    "Menu": ["石头", "剪刀", "布"],
+    "Great": [[0, 1], [1, 2], [2, 0]],
+    "Choose": "vs/choose",
+    "Attacker": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    },
+    "Target": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    }
+  },
+  "4": {
+    "Id": 4,
+    "Name": "杏花村猜拳",
+    "Desc": "没有醒酒丸",
+    "Menu": ["石头", "剪刀", "布"],
+    "Great": [[0, 1], [1, 2], [2, 0]],
+    "Choose": "vs/choose",
+    "Attacker": {
+      "hp": 1,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    },
+    "Target": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    }
+  },
+  "5": {
+    "Id": 5,
+    "Name": "明荣猜拳",
+    "Menu": ["石头", "剪刀", "布"],
+    "Great": [[0, 1], [1, 2], [2, 0]],
+    "Choose": "vs/mingrong",
+    "Attacker": {
+      "hp": 5,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    },
+    "Target": {
+      "hp": 3,
+      "play": "vs/play",
+      "win": "vs/win",
+      "lost": "vs/lost",
+      "win1": "vs/win1",
+      "lost1": "vs/lost1",
+      "ping1": "vs/ping1"
+    }
+  }
+}

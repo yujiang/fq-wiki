@@ -1,0 +1,46 @@
+{
+  "1": {
+    "Id": 1,
+    "ItemId": 13001,
+    "Name": "甲级机关",
+    "RestrType": 1,
+    "Count": 999,
+    "Cost": [[53011, 1]],
+    "Sort": 1,
+    "Tag": "机关商店",
+    "Needs": {"Level": 0}
+  },
+  "2": {
+    "Id": 2,
+    "ItemId": 13002,
+    "Name": "乙级机关",
+    "RestrType": 1,
+    "Count": 999,
+    "Cost": [[53012, 1]],
+    "Sort": 2,
+    "Tag": "机关商店",
+    "Needs": {"Level": 0}
+  },
+  "3": {
+    "Id": 3,
+    "ItemId": 13003,
+    "Name": "丙级机关",
+    "RestrType": 1,
+    "Count": 999,
+    "Cost": [[53013, 1]],
+    "Sort": 3,
+    "Tag": "机关商店",
+    "Needs": {"Level": 0}
+  },
+  "4": {
+    "Id": 4,
+    "ItemId": 13004,
+    "Name": "丁级机关",
+    "RestrType": 1,
+    "Count": 999,
+    "Cost": [[53014, 1]],
+    "Sort": 4,
+    "Tag": "机关商店",
+    "Needs": {"Level": 0}
+  }
+}

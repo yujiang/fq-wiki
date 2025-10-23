@@ -1,0 +1,9 @@
+{
+  "1": {"Id": 1, "HurtRatio": 0.03, "AddSP": 0},
+  "2": {"Id": 2, "HurtRatio": 0.1, "AddSP": 0},
+  "3": {"Id": 3, "HurtRatio": 0.2, "AddSP": 0},
+  "4": {"Id": 4, "HurtRatio": 0.3, "AddSP": 0},
+  "5": {"Id": 5, "HurtRatio": 0.5, "AddSP": 0},
+  "6": {"Id": 6, "HurtRatio": 0.8, "AddSP": 0},
+  "7": {"Id": 7, "HurtRatio": 1, "AddSP": 0}
+}

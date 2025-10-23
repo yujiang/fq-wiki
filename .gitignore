@@ -8,8 +8,8 @@ docs/.vitepress/temp/
 docs/.vitepress/.vitepress/
 
 # docs/.vitepress/json/
-docs/.vitepress/json/xls.zip
-docs/.vitepress/json/say_xls.json
+docs/public/json/xls.zip
+docs/public/json/say_xls.json
 
 docs/public/images/icon/map/
 

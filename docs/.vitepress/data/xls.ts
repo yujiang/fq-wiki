@@ -37,7 +37,7 @@ export async function fetchXls(name: string): Promise<Bases> {
 
   // 启动新请求
   const p = (async () => {
-    const url = `/.vitepress/json/${name}_xls.json`
+    const url = `/json/${name}_xls.json`
     const res = await fetch(url)
 
     if (!res.ok) throw new Error(`fetchXls failed: ${url} (${res.status})`)

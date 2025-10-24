@@ -24,10 +24,10 @@ export async function getCollect(id: number) {
 }
 
 
-export async function getCollectsByScene(scene: number): Promise<XlsCollect[]> {
+export async function getCollectsTypeByScene(type:string, scene: number): Promise<XlsCollect[]> {
   const collects = await getCollects();
   const rt = Object.values(collects).filter(
-    (c) => c.Scene === scene && c.x && c.y && c.Type === "collect"
+    (c) => c.Scene === scene && c.Type === type
   ) ;
   console.log('getCollectsByScene', Object.keys(collects).length, scene, rt.length);
   return rt;

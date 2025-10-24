@@ -6,6 +6,7 @@ export function server2ClientPos(x: number, y: number){
 }
 
 export function formatClientPos(x: number, y: number){
+    if (!x || !y) return '不详'
     const [x2,y2] = server2ClientPos(x,y)
     return `${x2},${y2}`
 }

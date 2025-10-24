@@ -7,7 +7,7 @@
         <div class="icon-wrap">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" :style="backgroundStyle" />
           <span class="数目" v-if="count">{{ count }}</span>
-          <span class="几率" v-if="rand && rand>0 && rand<100">{{ rand }}</span>
+          <span class="几率" v-if="rand && rand>0 && rand<100">{{ rand+'%' }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
@@ -123,6 +123,7 @@ const backgroundStyle = computed(() => {
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .item-name {

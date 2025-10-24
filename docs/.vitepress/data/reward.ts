@@ -1,6 +1,7 @@
 // 游戏奖励
 import { getCollect, getCollects } from "./collect";
 import { ItemIdCount } from "./item";
+import { getMoney } from "./money";
 import { fetchXls, XlsBase } from "./xls";
 
 // type,num,
@@ -47,4 +48,15 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
     return rt;
   }
   return [];
+}
+
+export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
+  const r = await getReward(id);
+  if (!r?.Money) return [];
+  const rt = []
+  for (const m of r.Money){
+    const xls = await getMoney(m[0]);
+    if (xls) rt.push({ id: xls.ItemId, count: m[1] });
+  }
+  return rt;
 }

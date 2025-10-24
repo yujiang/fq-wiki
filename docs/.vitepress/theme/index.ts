@@ -4,16 +4,6 @@ import { watch } from 'vue'
 import type { Router } from 'vitepress'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
-import ItemCard from './components/ItemCard.vue'
-import ShopCard from './components/ShopCard.vue'
-import ShopTabs from './components/ShopTabs.vue'
-
-import ItemGrid from './components/ItemGrid.vue'
-import ItemList from './components/ItemList.vue'
-import SceneCollect from './components/SceneCollect.vue'
-import RewardCard from './components/RewardCard.vue'
-import ButtonWithTooltip from './components/ButtonWithTooltip.vue'
-
 import './style.css'
 import "./jianghu.css"
 import "./poem.css"
@@ -22,6 +12,7 @@ import "./person.css"
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css'; // 引入 Element Plus 的样式
 import NaiveUI from 'naive-ui'
+import { registerGameComponents } from './gameComponents'
 // import 'naive-ui/dist/naive-ui.css'  // 引入 Naive UI 的样式
 
 export default {
@@ -31,17 +22,7 @@ export default {
     if (typeof window === 'undefined') return;
 
     enhanceAppWithTabs(app)
-    app.component('ItemCard', ItemCard)
-    app.component('ShopCard', ShopCard)
-    app.component('ShopTabs', ShopTabs)
-
-    app.component('ItemGrid', ItemGrid)
-    app.component('ItemList', ItemList)
-
-    app.component('SceneCollect', SceneCollect)
-    app.component('RewardCard', RewardCard)
-
-    app.component('ButtonWithTooltip', ButtonWithTooltip)
+    registerGameComponents(app);
 
     // enableTips(app);
     app.use(ElementPlus);

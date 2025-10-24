@@ -12,3 +12,10 @@
 ```
 
 <RewardCard :rewardId="1204" />
+
+
+```vue
+<RewardCard :rewardId="990001" /> 
+```
+
+<RewardCard :rewardId="990001" />

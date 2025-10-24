@@ -31,6 +31,12 @@ export async function getReward(id: number) {
 }
 
 
+export async function getRewardAll(id: number): Promise<ItemIdCount[]> {
+  const items = await getRewardItems(id);
+  const moneys = await getRewardMoneys(id);
+  return [...items, ...moneys];
+}
+
 // 返回 {id: count:} 给ItemList使用
 export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
   const r = await getReward(id);
@@ -54,7 +60,8 @@ export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
   const r = await getReward(id);
   if (!r?.Money) return [];
   const rt = []
-  for (const m of r.Money){
+  const money: RewardMoney[] = typeof(r.Money[0]) === "number" ? [r.Money] as any: r.Money;
+  for (const m of money){
     const xls = await getMoney(m[0]);
     if (xls) rt.push({ id: xls.ItemId, count: m[1] });
   }

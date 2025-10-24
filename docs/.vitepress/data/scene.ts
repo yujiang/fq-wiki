@@ -1,7 +1,9 @@
 import { formatClientPos } from "./public";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
-export interface XlsScene extends XlsBase {};
+export interface XlsScene extends XlsBase {
+  Type: string;
+};
 
 
 export type Scenes = Record<number, XlsScene>;

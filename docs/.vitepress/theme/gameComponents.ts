@@ -7,6 +7,8 @@ import ItemList from './components/ItemList.vue'
 
 import SceneCollect from './components/SceneCollect.vue'
 import CollectTabs from './components/CollectTabs.vue'
+import SceneTele from './components/SceneTele.vue'
+import TeleTabs from './components/TeleTabs.vue'
 import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
 
@@ -23,6 +25,9 @@ export function registerGameComponents(app: any) {
 
   app.component('SceneCollect', SceneCollect)
   app.component('CollectTabs', CollectTabs)
+  app.component('SceneTele', SceneTele)
+  app.component('TeleTabs', TeleTabs)
+
   app.component('RewardCard', RewardCard)
   app.component('MoneyCard', MoneyCard)
 

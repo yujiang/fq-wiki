@@ -33,7 +33,7 @@ localItems.value = props.items || [];
 watch(
   () => props.items,
   (newItems) => {
-    console.log("ItemList: items changed", newItems);
+    // console.log("ItemList: items changed", newItems);
     localItems.value = newItems || [];
   },
   { deep: true } // 如果 items 是对象数组，deep 可以检测内部变化

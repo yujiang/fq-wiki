@@ -34,9 +34,11 @@ const currentReward = ref<XlsReward | null>(null)
 watch(() => props.rewardId, async (newShopId) => {
   const shop = await getReward(newShopId)
   currentReward.value = shop;
-  rewardItems.value = await getRewardItems(newShopId)
-  rewardMoneys.value = await getRewardMoneys(newShopId)
-  console.log("rewardItems.value", props.rewardId, rewardItems.value)
+  const items = await getRewardItems(newShopId)
+  const moneys = await getRewardMoneys(newShopId);
+  rewardItems.value = items;
+  rewardMoneys.value = moneys;
+  console.log("rewardItems.value", props.rewardId, items, moneys)
 }, { immediate: true })
 
 </script>

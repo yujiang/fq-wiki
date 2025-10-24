@@ -11,6 +11,7 @@
       </thead>
       <tbody>
         <tr v-for="collect in collects" :key="collect.Id">
+          <!-- <td>{{ collect.Id + ' ' + collect.Name }}</td> -->
           <td>{{ collect.Name }}</td>
           <td>{{ formatClientPos(collect.x, collect.y) }}</td>
           <td>{{ collect.TopLimit }}</td>
@@ -28,7 +29,7 @@
 import { defineProps, ref, onMounted, watch } from "vue";
 import { getCollectsTypeByScene, XlsCollect } from "../../data/collect";
 import { formatClientPos } from "../../data/public";
-import { getRewardItems } from "../../data/reward";
+import { getRewardAll, getRewardItems } from "../../data/reward";
 import { ItemIdCount } from "../../data/item";
 
 const props = defineProps<{
@@ -49,7 +50,7 @@ async function loadData() {
   // 2. 加载对应奖励
   const itemsMap: Record<number, ItemIdCount[]> = {};
   for (const collect of cs) {
-    itemsMap[collect.Id] = await getRewardItems(collect.Rewards);
+    itemsMap[collect.Id] = await getRewardAll(collect.Rewards);
   }
   rewardItemsMap.value = itemsMap;
 

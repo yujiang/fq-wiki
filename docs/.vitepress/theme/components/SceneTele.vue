@@ -3,13 +3,15 @@
     <table>
       <thead>
         <tr>
-          <th>位置</th>
+ <!-- 仅开发环境显示 ID -->
+          <th v-if="isDev">ID</th>     
+           <th>位置</th>
           <th>目的</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="tele in teles" :key="tele.Id">
-          <!-- <td>{{ tele.Id + ' ' + tele.Name }}</td> -->
+         <td v-if="isDev">{{ tele.Id  }}</td>
           <td>{{ formatClientPos(tele.x, tele.y) }}</td>
           <td>{{ tgtPos[tele.Id] }}</td>
         </tr>
@@ -60,6 +62,10 @@ watch(
     loadData();
   }
 );
+
+// ✅ 开发模式时为 true，生产构建后为 false
+const isDev = import.meta.env.DEV;
+
 </script>
 
 <style scoped>

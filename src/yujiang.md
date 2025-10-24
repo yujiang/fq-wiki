@@ -57,3 +57,10 @@
 ### 网站
 1. vercel.app国内无法访问, 必须绑定domain然后修改阿里云的cname解析
 2. 使用Supabase, 相当于托管数据库, 可以不租云服务器了.
+
+## 10.24
+1. 完成了collect + tele
+2. 还差 npc + task
+
+
+

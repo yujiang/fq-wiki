@@ -3,6 +3,7 @@
     <table>
       <thead>
         <tr>
+          <th v-if="isDev">ID</th>
           <th>名字</th>
           <th>位置</th>
           <th>数目</th>
@@ -11,7 +12,7 @@
       </thead>
       <tbody>
         <tr v-for="collect in collects" :key="collect.Id">
-          <!-- <td>{{ collect.Id + ' ' + collect.Name }}</td> -->
+          <td v-if="isDev">{{ collect.Id }}</td>
           <td>{{ collect.Name }}</td>
           <td>{{ formatClientPos(collect.x, collect.y) }}</td>
           <td>{{ collect.TopLimit }}</td>
@@ -55,6 +56,7 @@ async function loadData() {
   rewardItemsMap.value = itemsMap;
 
   console.log("Collect data reloaded:", props.collectType, cs.length, cs, itemsMap);
+
 }
 
 // --- 初次加载 ---
@@ -67,6 +69,8 @@ watch(
     loadData();
   }
 );
+
+const isDev = import.meta.env.DEV;
 </script>
 
 <style scoped>
@@ -74,15 +78,18 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 th,
 td {
   padding: 8px;
   border: 1px solid #ddd;
   text-align: left;
 }
+
 th {
   background-color: #f4f4f4;
 }
+
 .reward-cell {
   display: flex;
   justify-content: flex-start;

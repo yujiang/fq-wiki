@@ -1,15 +1,22 @@
 <template>
   <div class="item-card" v-if="cur">
-    <div class="icon-wrap" :class="['rank-' + (cur.item.Rank || 1)]">
-      <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
+    
+    <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
+      <template #trigger>
+        <div class="icon-wrap" :class="['rank-' + (cur.item.Rank || 1)]">
+          <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
+        </div>
+      </template>
+      <div>{{ cur.item.Detail }}</div>
+    </n-tooltip>
+
+  <div class="meta">
+    <div class="title">
+      <strong>{{ cur.item?.Name }}</strong>
+      <div class="stock">库存：{{ cur.good.Count }}</div>
     </div>
-    <div class="meta">
-      <div class="title">
-        <strong>{{ cur.item?.Name }}</strong>
-        <div class="stock">库存：{{ cur.good.Count }}</div>
-      </div>
-      <span class="price">￥{{ cur.good.Price }}</span>
-    </div>
+    <span class="price">￥{{ cur.good.Price }}</span>
+  </div>
   </div>
 </template>
 
@@ -74,8 +81,8 @@ const updateCurrentItem = (good: XlsShopItem) => {
   background: url("/images/ui/frame/frame_11_wide.png") no-repeat center / 100% 100%;
   border: 1px solid black;
   box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.4),
-    inset 0 -1px 0 rgba(0,0,0,0.08);
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.08);
 }
 
 .icon-wrap {
@@ -87,9 +94,9 @@ const updateCurrentItem = (good: XlsShopItem) => {
   justify-content: center;
   border: 2px solid #333;
   background:
-    radial-gradient(circle at 30% 25%, rgba(255,255,255,0.2), transparent 60%),
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.2), transparent 60%),
     linear-gradient(180deg, #76d28d, #4caf7a);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .icon {
@@ -97,32 +104,39 @@ const updateCurrentItem = (good: XlsShopItem) => {
   height: 48px;
   object-fit: contain;
 }
+
 /* 品质色 */
 /* 不同品质的背景样式 */
 .rank-0 {
   background: radial-gradient(circle at center, #ddd 0%, #999 100%);
   border-color: #ccc;
 }
+
 .rank-1 {
   background: radial-gradient(circle at center, #c8f7c5 0%, #27ae60 100%);
   border-color: #2ecc71;
 }
+
 .rank-2 {
   background: radial-gradient(circle at center, #a0c4ff 0%, #3498db 100%);
   border-color: #3498db;
 }
+
 .rank-3 {
   background: radial-gradient(circle at center, #e1bee7 0%, #9b59b6 100%);
   border-color: #9b59b6;
 }
+
 .rank-4 {
   background: radial-gradient(circle at center, #ffeaa7 0%, #f39c12 100%);
   border-color: #f1c40f;
 }
+
 .rank-5 {
   background: radial-gradient(circle at center, #ffb6c1 0%, #e74c3c 100%);
   border-color: #e74c3c;
 }
+
 .meta {
   flex: 1;
   display: flex;
@@ -141,7 +155,7 @@ const updateCurrentItem = (good: XlsShopItem) => {
   font-weight: 700;
   font-size: 18px;
   font-family: "Ma Shan Zheng", "LXGW WenKai", "KaiTi", sans-serif;
-  text-shadow: 0 1px 0 #fff, 0 0 1px rgba(0,0,0,.25);
+  text-shadow: 0 1px 0 #fff, 0 0 1px rgba(0, 0, 0, .25);
 }
 
 .stock {
@@ -159,5 +173,4 @@ const updateCurrentItem = (good: XlsShopItem) => {
   color: #1556c9;
   font-weight: 700;
 }
-
 </style>

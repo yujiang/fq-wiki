@@ -1,7 +1,7 @@
 <template>
   <div class="item-grid" v-if="item">
     <!-- 使用 NTooltip 包裹触发元素 -->
-    <n-tooltip :style="{ maxWidth: '200px' }" trigger="click">
+    <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
       <!-- 触发元素放在 #trigger 插槽中 -->
       <template #trigger>
         <div class="icon-wrap">
@@ -13,6 +13,7 @@
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
       <div>{{ item.Detail }}</div>
     </n-tooltip>
+    
     <div class="item-name" v-if="item?.Name">{{ item.Name }}</div> <!-- 物品名字 -->
   </div>
 </template>

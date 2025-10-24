@@ -4,6 +4,8 @@ import ShopTabs from './components/ShopTabs.vue'
 
 import ItemGrid from './components/ItemGrid.vue'
 import ItemList from './components/ItemList.vue'
+import SkillGrid from './components/SkillGrid.vue'
+import TaoluCard from './components/TaoluCard.vue'
 
 import SceneCollect from './components/SceneCollect.vue'
 import CollectTabs from './components/CollectTabs.vue'
@@ -22,6 +24,8 @@ export function registerGameComponents(app: any) {
   
   app.component('ItemGrid', ItemGrid)
   app.component('ItemList', ItemList)
+  app.component('SkillGrid', SkillGrid)
+  app.component('TaoluCard', TaoluCard)
 
   app.component('SceneCollect', SceneCollect)
   app.component('CollectTabs', CollectTabs)

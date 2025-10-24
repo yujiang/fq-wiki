@@ -1,7 +1,19 @@
 {
-  "1000": {"Id": 1000, "Name": "神秘商城", "DataName": "shop_mystery"},
-  "1001": {"Id": 1001, "Name": "元宝商城", "DataName": "shop_system"},
-  "1004": {"Id": 1004, "Name": "经验商店", "DataName": "shop_exp"},
+  "1000": {
+    "Id": 1000,
+    "Name": "神秘商城",
+    "DataName": "shop_mystery"
+  },
+  "1001": {
+    "Id": 1001,
+    "Name": "元宝商城",
+    "DataName": "shop_system"
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "经验商店",
+    "DataName": "shop_exp"
+  },
   "1006": {
     "Id": 1006,
     "Name": "争霸商店",
@@ -50,7 +62,12 @@
     "DataName": "shop_bianjing",
     "Tag": "窦记酒窖"
   },
-  "3014": {"Id": 3014, "Name": "菜摊", "DataName": "shop_bianjing", "Tag": "菜摊"},
+  "3014": {
+    "Id": 3014,
+    "Name": "菜摊",
+    "DataName": "shop_bianjing",
+    "Tag": "菜摊"
+  },
   "3061": {
     "Id": 3061,
     "Name": "辟雍书店",
@@ -63,15 +80,30 @@
     "DataName": "shop_bianjing",
     "Tag": "水果摊"
   },
-  "3071": {"Id": 3071, "Name": "肉铺", "DataName": "shop_bianjing", "Tag": "肉铺"},
+  "3071": {
+    "Id": 3071,
+    "Name": "肉铺",
+    "DataName": "shop_bianjing",
+    "Tag": "肉铺"
+  },
   "3072": {
     "Id": 3072,
     "Name": "种子店",
     "DataName": "shop_bianjing",
     "Tag": "种子店"
   },
-  "3081": {"Id": 3081, "Name": "武馆", "DataName": "shop_bianjing", "Tag": "武馆"},
-  "3091": {"Id": 3091, "Name": "乐坊", "DataName": "shop_bianjing", "Tag": "乐坊"},
+  "3081": {
+    "Id": 3081,
+    "Name": "武馆",
+    "DataName": "shop_bianjing",
+    "Tag": "武馆"
+  },
+  "3091": {
+    "Id": 3091,
+    "Name": "乐坊",
+    "DataName": "shop_bianjing",
+    "Tag": "乐坊"
+  },
   "3092": {
     "Id": 3092,
     "Name": "胭脂铺",
@@ -84,48 +116,228 @@
     "DataName": "shop_bianjing",
     "Tag": "古玩店"
   },
-  "3094": {"Id": 3094, "Name": "鱼摊", "DataName": "shop_bianjing", "Tag": "鱼摊"},
-  "3095": {"Id": 3095, "Name": "香烛店", "DataName": "shop_bianjing", "Tag": "香烛"},
-  "3101": {"Id": 3101, "Name": "杂货铺", "DataName": "shop_linzhou", "Tag": "杂货铺"},
-  "3102": {"Id": 3102, "Name": "药店", "DataName": "shop_linzhou", "Tag": "药店"},
-  "3103": {"Id": 3103, "Name": "武器店", "DataName": "shop_linzhou", "Tag": "铁匠铺"},
-  "3104": {"Id": 3104, "Name": "防具店", "DataName": "shop_linzhou", "Tag": "裁缝店"},
-  "3105": {"Id": 3105, "Name": "肉铺", "DataName": "shop_linzhou", "Tag": "肉铺"},
-  "3106": {"Id": 3106, "Name": "酒铺", "DataName": "shop_linzhou", "Tag": "酒铺"},
-  "3107": {"Id": 3107, "Name": "菜市", "DataName": "shop_linzhou", "Tag": "菜市"},
-  "3108": {"Id": 3108, "Name": "武馆", "DataName": "shop_linzhou", "Tag": "武馆"},
-  "3201": {"Id": 3201, "Name": "武馆", "DataName": "shop_linan", "Tag": "武馆"},
-  "3202": {"Id": 3202, "Name": "兵刃铺", "DataName": "shop_linan", "Tag": "铁匠铺"},
-  "3203": {"Id": 3203, "Name": "裁缝铺", "DataName": "shop_linan", "Tag": "裁缝店"},
-  "3204": {"Id": 3204, "Name": "菜摊", "DataName": "shop_linan", "Tag": "菜摊"},
-  "3205": {"Id": 3205, "Name": "种子店", "DataName": "shop_linan", "Tag": "种子店"},
-  "3206": {"Id": 3206, "Name": "临安杂货", "DataName": "shop_linan", "Tag": "临安杂货"},
-  "3207": {"Id": 3207, "Name": "临安药店", "DataName": "shop_linan", "Tag": "临安药店"},
-  "3208": {"Id": 3208, "Name": "肉铺", "DataName": "shop_linan", "Tag": "肉摊"},
-  "3209": {"Id": 3209, "Name": "得月楼", "DataName": "shop_linan", "Tag": "得月楼"},
-  "3210": {"Id": 3210, "Name": "鱼摊", "DataName": "shop_linan", "Tag": "鱼摊"},
-  "3211": {"Id": 3211, "Name": "书店", "DataName": "shop_linan", "Tag": "书店"},
-  "3212": {"Id": 3212, "Name": "酒摊", "DataName": "shop_linan", "Tag": "酒摊"},
-  "3213": {"Id": 3213, "Name": "水果", "DataName": "shop_linan", "Tag": "水果"},
-  "3214": {"Id": 3214, "Name": "灵隐香缘", "DataName": "shop_linan", "Tag": "灵隐寺"},
+  "3094": {
+    "Id": 3094,
+    "Name": "鱼摊",
+    "DataName": "shop_bianjing",
+    "Tag": "鱼摊"
+  },
+  "3095": {
+    "Id": 3095,
+    "Name": "香烛店",
+    "DataName": "shop_bianjing",
+    "Tag": "香烛"
+  },
+  "3101": {
+    "Id": 3101,
+    "Name": "杂货铺",
+    "DataName": "shop_linzhou",
+    "Tag": "杂货铺"
+  },
+  "3102": {
+    "Id": 3102,
+    "Name": "药店",
+    "DataName": "shop_linzhou",
+    "Tag": "药店"
+  },
+  "3103": {
+    "Id": 3103,
+    "Name": "武器店",
+    "DataName": "shop_linzhou",
+    "Tag": "铁匠铺"
+  },
+  "3104": {
+    "Id": 3104,
+    "Name": "防具店",
+    "DataName": "shop_linzhou",
+    "Tag": "裁缝店"
+  },
+  "3105": {
+    "Id": 3105,
+    "Name": "肉铺",
+    "DataName": "shop_linzhou",
+    "Tag": "肉铺"
+  },
+  "3106": {
+    "Id": 3106,
+    "Name": "酒铺",
+    "DataName": "shop_linzhou",
+    "Tag": "酒铺"
+  },
+  "3107": {
+    "Id": 3107,
+    "Name": "菜市",
+    "DataName": "shop_linzhou",
+    "Tag": "菜市"
+  },
+  "3108": {
+    "Id": 3108,
+    "Name": "武馆",
+    "DataName": "shop_linzhou",
+    "Tag": "武馆"
+  },
+  "3201": {
+    "Id": 3201,
+    "Name": "武馆",
+    "DataName": "shop_linan",
+    "Tag": "武馆"
+  },
+  "3202": {
+    "Id": 3202,
+    "Name": "兵刃铺",
+    "DataName": "shop_linan",
+    "Tag": "铁匠铺"
+  },
+  "3203": {
+    "Id": 3203,
+    "Name": "裁缝铺",
+    "DataName": "shop_linan",
+    "Tag": "裁缝店"
+  },
+  "3204": {
+    "Id": 3204,
+    "Name": "菜摊",
+    "DataName": "shop_linan",
+    "Tag": "菜摊"
+  },
+  "3205": {
+    "Id": 3205,
+    "Name": "种子店",
+    "DataName": "shop_linan",
+    "Tag": "种子店"
+  },
+  "3206": {
+    "Id": 3206,
+    "Name": "临安杂货",
+    "DataName": "shop_linan",
+    "Tag": "临安杂货"
+  },
+  "3207": {
+    "Id": 3207,
+    "Name": "临安药店",
+    "DataName": "shop_linan",
+    "Tag": "临安药店"
+  },
+  "3208": {
+    "Id": 3208,
+    "Name": "肉铺",
+    "DataName": "shop_linan",
+    "Tag": "肉摊"
+  },
+  "3209": {
+    "Id": 3209,
+    "Name": "得月楼",
+    "DataName": "shop_linan",
+    "Tag": "得月楼"
+  },
+  "3210": {
+    "Id": 3210,
+    "Name": "鱼摊",
+    "DataName": "shop_linan",
+    "Tag": "鱼摊"
+  },
+  "3211": {
+    "Id": 3211,
+    "Name": "书店",
+    "DataName": "shop_linan",
+    "Tag": "书店"
+  },
+  "3212": {
+    "Id": 3212,
+    "Name": "酒摊",
+    "DataName": "shop_linan",
+    "Tag": "酒摊"
+  },
+  "3213": {
+    "Id": 3213,
+    "Name": "水果",
+    "DataName": "shop_linan",
+    "Tag": "水果"
+  },
+  "3214": {
+    "Id": 3214,
+    "Name": "灵隐香缘",
+    "DataName": "shop_linan",
+    "Tag": "灵隐寺"
+  },
   "3215": {
     "Id": 3215,
     "Name": "聚义珍铺",
     "DataName": "shop_linan",
     "Tag": "长乐帮商店"
   },
-  "3301": {"Id": 3301, "Name": "大理杂货", "DataName": "shop_dali", "Tag": "大理杂货"},
-  "3302": {"Id": 3302, "Name": "大理药店", "DataName": "shop_dali", "Tag": "大理药店"},
-  "3303": {"Id": 3303, "Name": "武器店", "DataName": "shop_dali", "Tag": "武器店"},
-  "3304": {"Id": 3304, "Name": "防具店", "DataName": "shop_dali", "Tag": "防具店"},
-  "3305": {"Id": 3305, "Name": "书店", "DataName": "shop_dali", "Tag": "书店"},
-  "3306": {"Id": 3306, "Name": "武馆", "DataName": "shop_dali", "Tag": "武馆"},
-  "3307": {"Id": 3307, "Name": "菜市", "DataName": "shop_dali", "Tag": "菜市"},
-  "3308": {"Id": 3308, "Name": "种子店", "DataName": "shop_dali", "Tag": "种子店"},
-  "3309": {"Id": 3309, "Name": "肉铺", "DataName": "shop_dali", "Tag": "肉铺"},
-  "3310": {"Id": 3310, "Name": "水果店", "DataName": "shop_dali", "Tag": "水果店"},
-  "3311": {"Id": 3311, "Name": "鱼摊", "DataName": "shop_dali", "Tag": "鱼摊"},
-  "3312": {"Id": 3312, "Name": "酒铺", "DataName": "shop_dali", "Tag": "酒铺"},
+  "3301": {
+    "Id": 3301,
+    "Name": "大理杂货",
+    "DataName": "shop_dali",
+    "Tag": "大理杂货"
+  },
+  "3302": {
+    "Id": 3302,
+    "Name": "大理药店",
+    "DataName": "shop_dali",
+    "Tag": "大理药店"
+  },
+  "3303": {
+    "Id": 3303,
+    "Name": "武器店",
+    "DataName": "shop_dali",
+    "Tag": "武器店"
+  },
+  "3304": {
+    "Id": 3304,
+    "Name": "防具店",
+    "DataName": "shop_dali",
+    "Tag": "防具店"
+  },
+  "3305": {
+    "Id": 3305,
+    "Name": "书店",
+    "DataName": "shop_dali",
+    "Tag": "书店"
+  },
+  "3306": {
+    "Id": 3306,
+    "Name": "武馆",
+    "DataName": "shop_dali",
+    "Tag": "武馆"
+  },
+  "3307": {
+    "Id": 3307,
+    "Name": "菜市",
+    "DataName": "shop_dali",
+    "Tag": "菜市"
+  },
+  "3308": {
+    "Id": 3308,
+    "Name": "种子店",
+    "DataName": "shop_dali",
+    "Tag": "种子店"
+  },
+  "3309": {
+    "Id": 3309,
+    "Name": "肉铺",
+    "DataName": "shop_dali",
+    "Tag": "肉铺"
+  },
+  "3310": {
+    "Id": 3310,
+    "Name": "水果店",
+    "DataName": "shop_dali",
+    "Tag": "水果店"
+  },
+  "3311": {
+    "Id": 3311,
+    "Name": "鱼摊",
+    "DataName": "shop_dali",
+    "Tag": "鱼摊"
+  },
+  "3312": {
+    "Id": 3312,
+    "Name": "酒铺",
+    "DataName": "shop_dali",
+    "Tag": "酒铺"
+  },
   "3401": {
     "Id": 3401,
     "Name": "杂货店",
@@ -228,7 +440,12 @@
     "DataName": "shop_qixiazhen",
     "Tag": "栖霞客栈"
   },
-  "3504": {"Id": 3504, "Name": "茶摊", "DataName": "shop_qixiazhen", "Tag": "茶摊"},
+  "3504": {
+    "Id": 3504,
+    "Name": "茶摊",
+    "DataName": "shop_qixiazhen",
+    "Tag": "茶摊"
+  },
   "3505": {
     "Id": 3505,
     "Name": "农家小店",
@@ -337,14 +554,54 @@
     "DataName": "shop_xingzilin",
     "Tag": "杂货铺"
   },
-  "4001": {"Id": 4001, "Name": "武器店", "DataName": "shop_youzhou", "Tag": "武器店"},
-  "4002": {"Id": 4002, "Name": "裁缝铺", "DataName": "shop_youzhou", "Tag": "裁缝铺"},
-  "4003": {"Id": 4003, "Name": "首饰店", "DataName": "shop_youzhou", "Tag": "首饰店"},
-  "4004": {"Id": 4004, "Name": "菜市", "DataName": "shop_youzhou", "Tag": "菜市"},
-  "4005": {"Id": 4005, "Name": "种子店", "DataName": "shop_youzhou", "Tag": "种子店"},
-  "4006": {"Id": 4006, "Name": "杂货店", "DataName": "shop_youzhou", "Tag": "杂货店"},
-  "4007": {"Id": 4007, "Name": "药铺", "DataName": "shop_youzhou", "Tag": "药铺"},
-  "4008": {"Id": 4008, "Name": "肉铺", "DataName": "shop_youzhou", "Tag": "肉铺"},
+  "4001": {
+    "Id": 4001,
+    "Name": "武器店",
+    "DataName": "shop_youzhou",
+    "Tag": "武器店"
+  },
+  "4002": {
+    "Id": 4002,
+    "Name": "裁缝铺",
+    "DataName": "shop_youzhou",
+    "Tag": "裁缝铺"
+  },
+  "4003": {
+    "Id": 4003,
+    "Name": "首饰店",
+    "DataName": "shop_youzhou",
+    "Tag": "首饰店"
+  },
+  "4004": {
+    "Id": 4004,
+    "Name": "菜市",
+    "DataName": "shop_youzhou",
+    "Tag": "菜市"
+  },
+  "4005": {
+    "Id": 4005,
+    "Name": "种子店",
+    "DataName": "shop_youzhou",
+    "Tag": "种子店"
+  },
+  "4006": {
+    "Id": 4006,
+    "Name": "杂货店",
+    "DataName": "shop_youzhou",
+    "Tag": "杂货店"
+  },
+  "4007": {
+    "Id": 4007,
+    "Name": "药铺",
+    "DataName": "shop_youzhou",
+    "Tag": "药铺"
+  },
+  "4008": {
+    "Id": 4008,
+    "Name": "肉铺",
+    "DataName": "shop_youzhou",
+    "Tag": "肉铺"
+  },
   "4101": {
     "Id": 4101,
     "Name": "杂货摊",
@@ -399,20 +656,60 @@
     "Tag": "小庄菜摊",
     "Npc": 10035
   },
-  "4201": {"Id": 4201, "Name": "武器店", "DataName": "shop_wuchang", "Tag": "铁匠铺"},
-  "4202": {"Id": 4202, "Name": "杂货铺", "DataName": "shop_wuchang", "Tag": "杂货铺"},
-  "4203": {"Id": 4203, "Name": "防具店", "DataName": "shop_wuchang", "Tag": "裁缝店"},
-  "4204": {"Id": 4204, "Name": "酒铺", "DataName": "shop_wuchang", "Tag": "酒铺"},
-  "4205": {"Id": 4205, "Name": "药铺", "DataName": "shop_wuchang", "Tag": "药铺"},
-  "4206": {"Id": 4206, "Name": "武馆", "DataName": "shop_wuchang", "Tag": "武馆"},
+  "4201": {
+    "Id": 4201,
+    "Name": "武器店",
+    "DataName": "shop_wuchang",
+    "Tag": "铁匠铺"
+  },
+  "4202": {
+    "Id": 4202,
+    "Name": "杂货铺",
+    "DataName": "shop_wuchang",
+    "Tag": "杂货铺"
+  },
+  "4203": {
+    "Id": 4203,
+    "Name": "防具店",
+    "DataName": "shop_wuchang",
+    "Tag": "裁缝店"
+  },
+  "4204": {
+    "Id": 4204,
+    "Name": "酒铺",
+    "DataName": "shop_wuchang",
+    "Tag": "酒铺"
+  },
+  "4205": {
+    "Id": 4205,
+    "Name": "药铺",
+    "DataName": "shop_wuchang",
+    "Tag": "药铺"
+  },
+  "4206": {
+    "Id": 4206,
+    "Name": "武馆",
+    "DataName": "shop_wuchang",
+    "Tag": "武馆"
+  },
   "4207": {
     "Id": 4207,
     "Name": "神秘商店",
     "DataName": "shop_wuchang",
     "Tag": "神秘商店"
   },
-  "4208": {"Id": 4208, "Name": "鱼摊", "DataName": "shop_wuchang", "Tag": "鱼摊"},
-  "4209": {"Id": 4209, "Name": "肉铺", "DataName": "shop_wuchang", "Tag": "肉铺"},
+  "4208": {
+    "Id": 4208,
+    "Name": "鱼摊",
+    "DataName": "shop_wuchang",
+    "Tag": "鱼摊"
+  },
+  "4209": {
+    "Id": 4209,
+    "Name": "肉铺",
+    "DataName": "shop_wuchang",
+    "Tag": "肉铺"
+  },
   "4210": {
     "Id": 4210,
     "Name": "侠义宝阁",
@@ -437,8 +734,18 @@
     "DataName": "shop_dunhuang",
     "Tag": "杂货铺"
   },
-  "4304": {"Id": 4304, "Name": "酒铺", "DataName": "shop_dunhuang", "Tag": "酒铺"},
-  "4305": {"Id": 4305, "Name": "药铺", "DataName": "shop_dunhuang", "Tag": "药铺"},
+  "4304": {
+    "Id": 4304,
+    "Name": "酒铺",
+    "DataName": "shop_dunhuang",
+    "Tag": "酒铺"
+  },
+  "4305": {
+    "Id": 4305,
+    "Name": "药铺",
+    "DataName": "shop_dunhuang",
+    "Tag": "药铺"
+  },
   "4401": {
     "Id": 4401,
     "Name": "门贡商店",
@@ -505,8 +812,18 @@
     "DataName": "shop_duanqiaozhen",
     "Tag": "乐坊"
   },
-  "4701": {"Id": 4701, "Name": "杂货铺", "DataName": "shop_qinling", "Tag": "杂货铺"},
-  "4702": {"Id": 4702, "Name": "药铺", "DataName": "shop_qinling", "Tag": "药铺"},
+  "4701": {
+    "Id": 4701,
+    "Name": "杂货铺",
+    "DataName": "shop_qinling",
+    "Tag": "杂货铺"
+  },
+  "4702": {
+    "Id": 4702,
+    "Name": "药铺",
+    "DataName": "shop_qinling",
+    "Tag": "药铺"
+  },
   "4801": {
     "Id": 4801,
     "Name": "少林商店",
@@ -561,14 +878,24 @@
     "DataName": "shop_tianshan",
     "Tag": "天山门贡商店"
   },
-  "5201": {"Id": 5201, "Name": "爬塔商店", "DataName": "shop_tower", "Tag": "爬塔商店"},
+  "5201": {
+    "Id": 5201,
+    "Name": "爬塔商店",
+    "DataName": "shop_tower",
+    "Tag": "爬塔商店"
+  },
   "5202": {
     "Id": 5202,
     "Name": "商城",
     "DataName": "shop_mall",
     "Tag": "每日热卖|消耗|其他"
   },
-  "5203": {"Id": 5203, "Name": "轮回商店", "DataName": "shop_lunhui", "Tag": "轮回"},
+  "5203": {
+    "Id": 5203,
+    "Name": "轮回商店",
+    "DataName": "shop_lunhui",
+    "Tag": "轮回"
+  },
   "5301": {
     "Id": 5301,
     "Name": "九曲酒铺",

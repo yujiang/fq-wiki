@@ -5,13 +5,12 @@ export interface XlsBase {
   Desc?: string
   Icon: number
   Tags?: string | string[]
-  Detail?: string
 }
 
 export interface XlsSceneObj extends XlsBase {
-    Scene: number;
-    x: number;
-    y: number;
+  Scene: number;
+  x: number;
+  y: number;
 };
 
 
@@ -41,11 +40,17 @@ export async function fetchXls(name: string): Promise<Bases> {
     const res = await fetch(url)
 
     if (!res.ok) throw new Error(`fetchXls failed: ${url} (${res.status})`)
-    const data = (await res.json()) as Bases
+    try {
+      const data = (await res.json()) as Bases
 
-    xlsCache[name] = data
-    delete fetching[name]
-    return data
+      xlsCache[name] = data
+      delete fetching[name]
+      return data
+    }
+    catch (e) {
+      console.error(`fetchXls exception: ${url} `,e);
+      throw e
+    }
   })()
 
   // 暂存这个 Promise，防止重复加载

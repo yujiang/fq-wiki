@@ -85,26 +85,6 @@ const updateCurrentItem = (good: XlsShopItem) => {
     inset 0 -1px 0 rgba(0, 0, 0, 0.08);
 }
 
-.icon-wrap {
-  width: 64px;
-  height: 64px;
-  border-radius: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #333;
-  background:
-    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.2), transparent 60%),
-    linear-gradient(180deg, #76d28d, #4caf7a);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
-}
-
-.icon {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-}
-
 /* 品质色 */
 /* 不同品质的背景样式 */
 .rank-0 {

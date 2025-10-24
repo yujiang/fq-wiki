@@ -1,6 +1,8 @@
 <template>
   <div class="money-card">
-    <img v-if="moneyicon" :src="moneyicon" alt="" class="icon" />
+    <div class="icon-wrap">
+      <img v-if="moneyicon" :src="moneyicon" alt="" class="icon" />
+    </div>
     <div class="info">
       <span class="amount">{{ formatAmount(amount) }}</span>
     </div>
@@ -66,12 +68,6 @@ const formatAmount = (n: number) => {
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   white-space: nowrap;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
 }
 
 .info {

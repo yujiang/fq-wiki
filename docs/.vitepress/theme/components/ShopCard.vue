@@ -19,9 +19,9 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
-import { XlsShop, getShopById } from '../../data/shops'
+import { XlsShop, getShopById } from '../../data/shop'
 import ItemCard from './ItemCard.vue'
-import { getNpc, getNpcPosition } from '../../data/npcs';
+import { getNpc, getNpcPosition } from '../../data/npc';
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ shopId: number }>()

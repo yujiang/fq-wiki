@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watchEffect  } from 'vue'
-import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shops'
+import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shop'
 import ShopCard from './ShopCard.vue'
 
 const props = defineProps<{ ids: number[], name: string }>()

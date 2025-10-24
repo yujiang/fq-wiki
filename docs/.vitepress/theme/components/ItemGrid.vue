@@ -7,6 +7,7 @@
         <div class="icon-wrap">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" :style="backgroundStyle" />
           <span class="数目" v-if="count">{{ count }}</span>
+          <span class="几率" v-if="rand && rand>0 && rand<100">{{ rand }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
@@ -18,12 +19,13 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsItem, getItemIcon, getItemById } from "../../data/items";
+import { XlsItem, getItemIcon, getItemById } from "../../data/item";
 
 // 接收 props 数据
 const props = defineProps<{
   id: number; // 商品数据
   count?: number; // 商品数量
+  rand?: number; // 商品数量
 }>();
 
 // 异步加载所有 items
@@ -67,7 +69,7 @@ const backgroundStyle = computed(() => {
   flex-direction: column; /* 竖直排列 */
   align-items: center;
   gap: 8px;
-  height: 105px;
+  height: 90px;
   padding: 0px 0px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -113,9 +115,19 @@ const backgroundStyle = computed(() => {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
 }
 
+.几率 {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+}
+
 .item-name {
   position: absolute;
-  bottom: 0px; /* 物品名字距离卡片的底部 */
+  bottom: -12px; /* 物品名字距离卡片的底部 */
   width: 100%;
   font-weight: 700;
   font-size: 14px;

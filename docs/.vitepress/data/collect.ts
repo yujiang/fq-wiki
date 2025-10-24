@@ -2,10 +2,11 @@
 
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
-interface XlsCollect extends XlsSceneObj {
+export interface XlsCollect extends XlsSceneObj {
   Type: string;
   TopLimit: number;  
   Rewards: number;
+  PickupItem: number;
 }
 
 export type Collects = Record<number, XlsCollect>;
@@ -18,9 +19,16 @@ export async function getCollects() {
   return collects;
 }
 
+export async function getCollect(id: number) {
+  return (await getCollects())[id]
+}
+
+
 export async function getCollectsByScene(scene: number): Promise<XlsCollect[]> {
   const collects = await getCollects();
-  return Object.values(collects).filter(
-    (c) => c.Scene === scene && c.x && c.y && c.Type === "Collect"
-  ) as XlsCollect[];
+  const rt = Object.values(collects).filter(
+    (c) => c.Scene === scene && c.x && c.y && c.Type === "collect"
+  ) ;
+  console.log('getCollectsByScene', Object.keys(collects).length, scene, rt.length);
+  return rt;
 }

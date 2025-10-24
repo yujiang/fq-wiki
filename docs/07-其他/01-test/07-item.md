@@ -4,7 +4,7 @@
 <ItemGrid :id="1206" :count='2' />
 ```
 
-<ItemGrid :id="1206" :count='2' />
+<ItemGrid :id="1206" :count='2' :rand='0.3' />
 
 <ItemGrid :id="8005" :count='12' />
 

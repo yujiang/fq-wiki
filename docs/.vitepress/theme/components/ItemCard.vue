@@ -15,8 +15,8 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import { XlsItem, Items, getAllItems, getItemIcon } from "../../data/items";
-import { XlsShopItem } from "../../data/shops";
+import { XlsItem, Items, getAllItems, getItemIcon } from "../../data/item";
+import { XlsShopItem } from "../../data/shop";
 
 // 接收 props 数据
 const props = defineProps<{

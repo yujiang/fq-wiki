@@ -10,6 +10,8 @@ import ShopTabs from './components/ShopTabs.vue'
 
 import ItemGrid from './components/ItemGrid.vue'
 import ItemList from './components/ItemList.vue'
+import SceneCollect from './components/SceneCollect.vue'
+import RewardCard from './components/RewardCard.vue'
 import ButtonWithTooltip from './components/ButtonWithTooltip.vue'
 
 import './style.css'
@@ -35,6 +37,9 @@ export default {
 
     app.component('ItemGrid', ItemGrid)
     app.component('ItemList', ItemList)
+
+    app.component('SceneCollect', SceneCollect)
+    app.component('RewardCard', RewardCard)
 
     app.component('ButtonWithTooltip', ButtonWithTooltip)
 

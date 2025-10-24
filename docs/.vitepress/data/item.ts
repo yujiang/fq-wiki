@@ -60,13 +60,14 @@ export function getItemById(id: number) {
   return getAllItems().then(items => items[id]);
 }
 
-
 export function getItemIcon(icon: number) {
   //return `/images/icon/char/268x249/1013.png`;
   return `/images/icon/item/100x100/${icon}.png`;
 }
 
-export function getRankBg(rank: number) {
-  //return `/images/icon/char/268x249/1013.png`;
-  return `/images/icon/item/100x100/${icon}.png`;
+
+export interface ItemIdCount{
+  id: number;
+  count: number;
+  rand?: number;
 }

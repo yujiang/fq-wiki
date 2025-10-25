@@ -48,7 +48,7 @@ export function getSkillById(id: number) {
   return getAllSkills().then(items => items[id]);
 }
 
-export function getSkillIcon(icon: number) {
+export function getSkillIcon(icon: number|undefined) {
   //return `/images/icon/char/268x249/1013.png`;
   if (!icon) return "";
   return `/images/icon/skill/80x80/${icon}.png`;

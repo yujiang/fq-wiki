@@ -1,7 +1,5 @@
-import { defineConfig } from 'vitepress'
-import {withMermaid, MermaidPlugin, MermaidMarkdown} from 'vitepress-plugin-mermaid'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { setupContainers } from './jianghu';
-// import { generateSidebar } from 'vitepress-sidebar'
 import { generateSidebarRemoveNumber } from './sidebar';
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
@@ -18,14 +16,14 @@ export default withMermaid({
     // 必需，否则 vitepress-plugin-mermaid 无法正常工作
     // plugins: [MermaidPlugin()],
     optimizeDeps: {
-        include: ['mermaid'],
+      include: ['mermaid'],
     },
     ssr: {
-        noExternal: ['mermaid','naive-ui', 'date-fns', 'vueuc'],
+      noExternal: ['mermaid', 'naive-ui', 'date-fns', 'vueuc'],
     },
-  }, 
+  },
 
-    postRender(context) {
+  postRender(context) {
     const styleRegex = /<css-render-style>((.|\s)+)<\/css-render-style>/
     const vitepressPathRegex = /<vitepress-path>(.+)<\/vitepress-path>/
     const style = styleRegex.exec(context.content)?.[1]
@@ -36,6 +34,7 @@ export default withMermaid({
     context.content = context.content.replace(styleRegex, '')
     context.content = context.content.replace(vitepressPathRegex, '')
   },
+
   transformHtml(code, id) {
     const html = id.split('/').pop()
     if (!html) return
@@ -51,34 +50,15 @@ export default withMermaid({
       md.use(tabsMarkdownPlugin)
       setupContainers(md);
     }
-  },  
+  },
 
   themeConfig: {
     logo: '/logo.png',            // 可选：放 docs/public/logo.png
     nav: [
       { text: '首页', link: '/' },
     ],
-    // 需要配置,才有上一章和下一章
-    // sidebar: {
-    //   // 默认分组（其他路径）
-    //   '/': [
-    //     {
-    //       text: '总览',
-    //       items: [
-    //         { text: '快速开始', link: '/' },
-    //         { text: '世界观', link: '/世界观/index' },
-    //         { text: '地图', link: '/地图/index' },
-    //         { text: '伙伴', link: '/伙伴/index' },
-    //         { text: '武学', link: '/武学/index' },
-    //         { text: '技艺', link: '/技艺/index' },
-    //         { text: '任务', link: '/任务/index' },
-    //         { text: '其他', link: '/其他/index' },
-    //       ]
-    //     }
-    //   ]
-    // },
 
-    sidebar: generateSidebarRemoveNumber(),    
+    sidebar: generateSidebarRemoveNumber(),
 
     // 顶部搜索（内置本地搜索，开箱即用）
     search: {

@@ -60,7 +60,7 @@ export function getItemById(id: number) {
   return getAllItems().then(items => items[id]);
 }
 
-export function getItemIcon(icon: number) {
+export function getItemIcon(icon: number | undefined) {
   //return `/images/icon/char/268x249/1013.png`;
   if (!icon) return "";
   return `/images/icon/item/100x100/${icon}.png`;

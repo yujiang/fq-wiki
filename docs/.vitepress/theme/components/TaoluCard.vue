@@ -3,7 +3,7 @@
 <template>
   <div class="skill-list">
     <!-- 渲染每个 SkillGrid -->
-    <SkillGrid
+    <Skill
       v-for="(skill, index) in localSkills"
       :key="skill.id || index"
       :id="skill.id"
@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, watch, onMounted } from "vue";
-import SkillGrid from "./SkillGrid.vue";
+import Skill from "./Skill.vue";
 import { SkillIdLevel } from "../../data/skill";
 import { getTaoluSkills } from "../../data/taolu";
 

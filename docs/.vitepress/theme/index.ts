@@ -1,7 +1,6 @@
 // docs/.vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme'
 import { watch } from 'vue'
-import type { Router } from 'vitepress'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
 import './style.css'

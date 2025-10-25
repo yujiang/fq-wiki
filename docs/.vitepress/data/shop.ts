@@ -69,7 +69,7 @@ export async function getShopById(shopId: number): Promise<XlsShop | null> {
     }
   }
   shops[shopId] = s;
-  console.log('getShopById', shopId, Object.values(data).length, s.goods.length, xls.Tag);
+  // console.log('getShopById', shopId, Object.values(data).length, s.goods.length, xls.Tag);
   return s;
 }
 

@@ -1,5 +1,5 @@
 <template>
-    <ItemGrid :id="item.id" :count='item.count' />
+    <Item :id="item.id" :count='item.count' />
 </template>
 
 <script setup lang="ts">

@@ -25,7 +25,7 @@ import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } fr
 import ShopCard from './ShopCard.vue'
 
 const props = defineProps<{ ids?: number[], name?: string }>()
-console.log("ShopTabs props", props)
+// console.log("ShopTabs props", props)
 
 // Active tab index
 const active = ref(0)
@@ -42,7 +42,7 @@ onMounted(async () => {
     shopMap.value = await getShopsByIds(props.ids);
     localIds.value = props.ids // Directly use the prop ids if they exist
   }
-  else {
+  else if (props.name){
     const [ids,shops] = await getShopsByName(props.name);
     shopMap.value = shops;
     localIds.value = ids // Set ids dynamically based on the name search

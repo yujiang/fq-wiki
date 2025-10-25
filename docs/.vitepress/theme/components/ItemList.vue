@@ -2,8 +2,8 @@
 
 <template>
   <div class="item-list">
-    <!-- 渲染每个 ItemGrid -->
-    <ItemGrid
+    <!-- 渲染每个 Item -->
+    <Item
       v-for="(item, index) in localItems"
       :key="item.id || index"
       :id="item.id"
@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, watch } from "vue";
-import ItemGrid from "./ItemGrid.vue";
+import Item from "./Item.vue";
 import { ItemIdCount } from "../../data/item";
 
 // 接收从父组件传入的 items 数据

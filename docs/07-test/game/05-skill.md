@@ -1,17 +1,17 @@
 ## skill测试
 
 ```vue
-<SkillGrid :id="50001" :level='99' />
+<Skill :id="50001" :level='99' />
 ```
 
-<SkillGrid :id="50001" :level='99' />
+<Skill :id="50001" :level='99' />
 
 
 ```vue
-<SkillGrid :id="6005020" :level='2' />
+<Skill :id="6005020" :level='2' />
 ```
 
-<SkillGrid :id="6005020" :level='2' />
+<Skill :id="6005020" :level='2' />
 
 
 ```vue

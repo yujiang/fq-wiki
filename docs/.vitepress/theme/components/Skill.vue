@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-grid" v-if="skill">
+  <div class="skill-game" v-if="skill">
     <!-- 使用 NTooltip 包裹触发元素 -->
     <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
       <!-- 触发元素放在 #trigger 插槽中 -->
@@ -43,7 +43,7 @@ watch(
 
 const updateCurrentSkill = async (id: number) => {
   skill.value = await getSkillById(id);
-  skillicon.value = getSkillIcon(skill?.value?.Icon || 0);
+  skillicon.value = getSkillIcon(skill.value?.Icon);
 };
 
 // 根据 rank 动态计算背景图片
@@ -59,7 +59,7 @@ const backgroundStyle = computed(() => {
 </script>
 
 <style scoped>
-.skill-grid {
+.skill-game {
   width: 70px;
   display: flex;
   flex-direction: column; /* 竖直排列 */

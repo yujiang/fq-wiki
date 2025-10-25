@@ -1,7 +1,10 @@
 <template>
-  <div class="base-item-game skill-game">
+  <div class="base-item-game skill-game"
+    @mouseover="showPopover = !!skill?.Desc"
+    @mouseleave="showPopover = false"
+  >
     <!-- 使用 NTooltip 包裹触发元素 -->
-    <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
+    <n-tooltip :style="{ maxWidth: '200px' }" :show="showPopover" trigger="manual">
       <!-- 触发元素放在 #trigger 插槽中 -->
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
@@ -28,6 +31,7 @@ const props = defineProps<SkillIdLevel>();
 // 异步加载所有 skills
 let skill = ref<XlsSkill | null>(null);
 let skillicon = ref('');
+let showPopover = ref(false)
 
 // 初始化并加载数据
 onMounted(async () => {

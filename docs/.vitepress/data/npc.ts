@@ -1,7 +1,9 @@
 import { getScenePositionClient } from "./scene";
 import { fetchXls, XlsSceneObj } from "./xls";
 
-export interface XlsNpc extends XlsSceneObj {};
+export interface XlsNpc extends XlsSceneObj {
+  Display: {shape: number, icon: number};
+};
 
 
 export type Npcs = Record<number, XlsNpc>;
@@ -25,4 +27,9 @@ export async function getNpcPosition(id: number) {
     return getScenePositionClient(xls.Scene,xls.x,xls.y)
   }
   return '';
+}
+
+export async function getNpcAvater(icon: number|undefined) {
+   if (!icon) return "";
+   return `/images/icon/char/268x249/${icon}.png`;
 }

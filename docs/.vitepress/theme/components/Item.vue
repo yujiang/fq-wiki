@@ -67,7 +67,7 @@ const updateCurrentItem = async (id: number) => {
 
 
 // 根据 rank 动态计算背景图片
-const backgroundStyle = computed(() => {return getRankBgStyle(item.value?.Rank || 1)});
+const backgroundStyle = computed(() => {return getRankBgStyle(item.value?.Rank)});
 
 </script>
 

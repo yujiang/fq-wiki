@@ -1,3 +1,4 @@
+<!-- item在商店 -->
 <template>
   <div class="item-card" v-if="cur">
     

@@ -30,3 +30,16 @@ export async function getTaoluSkills(taolu: number) : Promise<SkillIdLevel[]> {
   if (!xls?.SkillLevelUnlock) return [];
   return xls.SkillLevelUnlock.map(x => {return {id:x[0], level:0, unlock:x[2]}});
 }
+
+interface XlsLearnTaolu extends XlsBase {
+	Taolu: number;
+	MaxLevel: number;
+	Level: number;
+	NpcId: number;
+	Say: string | number;
+}
+
+export async function getLearnTaoluInfo(name: string){
+    const learns = await fetchXls("learnTaolu") as Record<string, XlsLearnTaolu>;
+    return learns[name];
+}

@@ -20,6 +20,7 @@ import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
 import Money from './components/Money.vue'
 
+import NpcCard from './components/NpcCard.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -46,6 +47,8 @@ export function registerGameComponents(app: any) {
   app.component('RewardCard', RewardCard)
   app.component('MoneyCard', MoneyCard)
   app.component('Money', Money)
+
+  app.component('NpcCard', NpcCard)
 
   app.component('testTooltip', testTooltip)
 }

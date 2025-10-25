@@ -46,22 +46,27 @@ const actualCols = computed(() => {
   return props.cols;
 });
 
+const defaultGap = 2; // 默认网格间距
+function getGap() {
+    return props.gap || defaultGap;
+}
+
 // 网格容器样式
 const containerStyle = computed<CSSProperties>(() => ({
-  gap: `${props.gap || 8}px`,
+  gap: `${getGap()}px`,
   // 其他继承自 ItemGrid 的基础样式（通过共享CSS实现）
 }));
 
 // 行容器样式（继承边框等样式）
 const rowContainerStyle = computed<CSSProperties>(() => ({
-  padding: `${(props.gap || 8) + 2}px`,
+  padding: `${(getGap()) + 2}px`,
   // 边框等样式通过共享CSS定义
 }));
 
 // 行内布局样式
 const rowStyle = computed<CSSProperties>(() => ({
   gridTemplateColumns: `repeat(${actualCols.value}, 1fr)`,
-  gap: `${props.gap || 8}px`,
+  gap: `${getGap()}px`,
 }));
 
 // 生成网格数据（不传入cols时自动转为单行）

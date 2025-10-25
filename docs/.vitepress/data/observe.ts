@@ -1,0 +1,106 @@
+import { ItemIdCount } from "./item";
+import { getScenePositionClient } from "./scene";
+import { SkillIdLevel } from "./skill";
+import { getLearnTaoluInfo } from "./taolu";
+import { fetchXls, XlsSceneObj } from "./xls";
+
+//id ,num, rand, friendlevel, recovernum
+type ObserveItem = [number, number, number, number, number];
+
+//id,level,say,reward,friendlevel
+type ObserveSkillType = [number, number, number, number, number];
+type ObserveWillType = string | [string, number] | ObserveSkillType;
+
+interface TaskParamLike {
+	rand?: number; //默认0
+	tags: string | string[];
+	num: number;  // 默认1
+	grade?: number; // 等级
+	rank?: number; // rank品质
+}
+
+export interface XlsObserve extends XlsSceneObj {
+    Npc: number;
+    School: string;
+    Like: TaskParamLike;
+    Items: ObserveItem[];
+    Skills: ObserveWillType[];
+};
+
+
+export type Observes = Record<number, XlsObserve>;
+
+let observes: Observes;
+export async function getObserves() {
+  if (!observes) {
+    observes = (await fetchXls('observe')) as Observes 
+  }
+  return observes;
+}
+
+export async function getObserve(id: number) {
+  return (await getObserves())[id]
+}
+
+// 输出:(杏花村 100,100)
+export async function getObservePosition(id: number) {
+  const xls = await getObserve(id);
+  if (xls.Scene && xls.x && xls.y) {
+    return getScenePositionClient(xls.Scene,xls.x,xls.y)
+  }
+  return '';
+}
+
+
+async function mapSkill(_Skill: ObserveWillType, curLevel: number): Promise<SkillIdLevel> {
+	let Skill = _Skill;
+	if (typeof Skill === 'string') {
+		Skill = [Skill, 0];
+	}
+
+	if (typeof Skill[0] === 'string') {
+		const xls = await getLearnTaoluInfo(Skill[0]);
+		if (!xls) {
+			return {} as SkillIdLevel;
+		}
+		return {
+			id: xls.Taolu,
+			level: xls.MaxLevel,
+			unlock: Skill[1],
+		};
+	}
+	const [id, level, say, reward, needLevel] = Skill;
+	return { id, level, unlock:needLevel };
+}
+
+function mapItem(item: ObserveItem, curLevel: number, param: Object): ItemIdCount {
+	const [id, count, rand, needLevel] = item;
+	return {
+		id,
+		count,
+		rand: needLevel,
+	};
+}
+
+export function observe2Like(like: TaskParamLike): string{
+    const str = like?.tags;
+    if (!str) {
+        return '不详';
+    }
+    return Array.isArray(str) ? str.join(',')  : str;
+}
+
+export function observe2Items(items: ObserveItem[]): ItemIdCount[]{
+    if (!items){
+        return [];
+    }
+    return items.map(mapItem);
+}
+
+export async function observe2Skills(skills: ObserveWillType[]): Promise<SkillIdLevel[]>{
+    if (!skills){
+        return [];
+    }
+    return Promise.all(skills.map(mapSkill));
+
+}

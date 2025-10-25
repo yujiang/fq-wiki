@@ -1,7 +1,7 @@
 <!-- 套路下一排skill -->
 
 <template>
-  <div class="skill-list">
+  <div class="base-list skill-list">
     <!-- 渲染每个 SkillGrid -->
     <Skill
       v-for="(skill, index) in localSkills"
@@ -54,9 +54,6 @@ watch(
 
 <style scoped>
 .skill-list {
-  display: flex;
-  flex-wrap: wrap; /* 允许自动换行 */
-  gap: 4px;
-  padding: 6px;
+  
 }
 </style>

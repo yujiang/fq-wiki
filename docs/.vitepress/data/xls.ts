@@ -57,3 +57,14 @@ export async function fetchXls(name: string): Promise<Bases> {
   fetching[name] = p
   return p
 }
+
+
+export function getRankBgStyle(rank: number|undefined){
+  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${(rank||1) + 2}.png")`;
+  console.log('生成的背景图路径：', rank, bgImage); // 检查路径是否正确
+  return {
+    backgroundImage: bgImage,
+    backgroundSize: '100% 100%',
+    backgroundRepeat: 'no-repeat',
+  };
+}

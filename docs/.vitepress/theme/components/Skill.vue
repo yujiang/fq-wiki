@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-game" v-if="skill">
+  <div class="base-item-game skill-game">
     <!-- 使用 NTooltip 包裹触发元素 -->
     <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
       <!-- 触发元素放在 #trigger 插槽中 -->
@@ -11,15 +11,16 @@
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 skill.desc -->
-      <div>{{ skill.Desc }}</div>
+      <div>{{ skill?.Desc }}</div>
     </n-tooltip>
-      <div class="skill-name" v-if="skill?.Name">{{ skill.Name }}</div> <!-- 物品名字 -->
+      <div class="base-item-name skill-name" v-if="skill?.Name">{{ skill.Name }}</div> <!-- 物品名字 -->
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../data/skill";
+import { getRankBgStyle } from "../../data/xls";
 
 // 接收 props 数据
 const props = defineProps<SkillIdLevel>();
@@ -47,46 +48,11 @@ const updateCurrentSkill = async (id: number) => {
 };
 
 // 根据 rank 动态计算背景图片
-const backgroundStyle = computed(() => {
-  const rank = skill.value?.Rank || 1;
-  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${rank + 2}.png")`;
-  return {
-    backgroundImage: bgImage,
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-  };
-});
+const backgroundStyle = computed(() => getRankBgStyle(skill.value?.Rank));
 </script>
 
 <style scoped>
-.skill-game {
-  width: 70px;
-  display: flex;
-  flex-direction: column; /* 竖直排列 */
-  align-items: center;
-  gap: 8px;
-  height: 70px;
-  padding: 0px 0px;
-  box-sizing: border-box;
-  border-radius: 6px;
-  min-width: 0;
-  position: relative; /* 添加相对定位以支持绝对定位的子元素 */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡 */
-}
 
-.skill-grid:hover {
-  transform: scale(1.05); /* 鼠标 hover 时放大 */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* 增加阴影 */
-}
-
-.icon-wrap {
-  position: relative; /* 使得子元素可以相对定位 */
-  transition: transform 0.3s ease; /* 图标放大效果 */
-}
-
-.icon-wrap:hover {
-  transform: scale(1.1); /* 鼠标 hover 时图标放大 */
-}
 
 .等级 {
   position: absolute;
@@ -109,15 +75,6 @@ const backgroundStyle = computed(() => {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.skill-name {
-  position: absolute;
-  bottom: -15px; /* 物品名字距离卡片的底部 */
-  font-weight: 700;
-  font-size: 14px;
-  color: #333;
-  white-space: nowrap;
-  text-align: center;
-  font-family: "Ma Shan Zheng", "LXGW WenKai", "KaiTi", sans-serif;
-}
+.skill-name {}
 
 </style>

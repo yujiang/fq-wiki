@@ -3,9 +3,11 @@ import { SkillIdLevel } from "./skill";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsTaolu extends XlsBase {
+    Rank: number;
     TaoluSkill: number[];
     // [skill, level, unlock]
     SkillLevelUnlock: [number, number, number][];
+    Detail: string;
 };
 
 

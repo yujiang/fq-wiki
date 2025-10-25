@@ -44,7 +44,8 @@ export async function getAllSkills(): Promise<Skills> {
   }
 }
 
-export function getSkillById(id: number) {
+export function getSkillById(id: number | undefined) {
+  if (!id) return null;
   return getAllSkills().then(items => items[id]);
 }
 

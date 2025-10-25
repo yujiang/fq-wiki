@@ -6,6 +6,10 @@ import Item from './components/Item.vue'
 import ItemList from './components/ItemList.vue'
 import ItemGrid from './components/ItemGrid.vue'
 import Skill from './components/Skill.vue'
+import SkillList from './components/SkillList.vue'
+import SkillGrid from './components/SkillGrid.vue'
+import Taolu from './components/Taolu.vue'
+import TaoluSkillGrid from './components/TaoluSkillGrid.vue'
 import TaoluCard from './components/TaoluCard.vue'
 
 import SceneCollect from './components/SceneCollect.vue'
@@ -28,6 +32,10 @@ export function registerGameComponents(app: any) {
   app.component('ItemList', ItemList)
   app.component('ItemGrid', ItemGrid)
   app.component('Skill', Skill)
+  app.component('SkillList', SkillList)
+  app.component('SkillGrid', SkillGrid)
+  app.component('Taolu', Taolu)
+  app.component('TaoluSkillGrid', TaoluSkillGrid)
   app.component('TaoluCard', TaoluCard)
 
   app.component('SceneCollect', SceneCollect)

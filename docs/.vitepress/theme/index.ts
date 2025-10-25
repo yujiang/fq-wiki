@@ -3,10 +3,11 @@ import DefaultTheme from 'vitepress/theme'
 import { watch } from 'vue'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
-import './style.css'
-import "./jianghu.css"
-import "./poem.css"
-import "./person.css"
+import '../style/style.css'
+import "../style/jianghu.css"
+import "../style/poem.css"
+import "../style/person.css"
+import "../style/grid_shared.css"
 
 
 import ElementPlus from 'element-plus';

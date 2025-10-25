@@ -56,7 +56,8 @@ export async function getAllItems(): Promise<Items> {
   }
 }
 
-export function getItemById(id: number) {
+export function getItemById(id: number | undefined) {
+  if (!id) return null;
   return getAllItems().then(items => items[id]);
 }
 

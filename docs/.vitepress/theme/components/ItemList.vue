@@ -1,7 +1,7 @@
 <!-- 一排item 用于RewardCard, SceneCollect-->
 
 <template>
-  <div class="item-list">
+  <div class="base-list item-list">
     <!-- 渲染每个 Item -->
     <Item
       v-for="(item, index) in localItems"
@@ -42,9 +42,6 @@ watch(
 
 <style scoped>
 .item-list {
-  display: flex;
-  flex-wrap: wrap; /* 允许自动换行 */
-  gap: 4px;
-  padding: 6px;
+  
 }
 </style>

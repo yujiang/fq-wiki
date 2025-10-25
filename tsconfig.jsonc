@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    // ...其他配置
+    "types": ["vite/client"] // 确保包含 vite 的类型
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}

@@ -24,7 +24,7 @@ const { Layout } = DefaultTheme
 
 const CssRenderStyle = defineComponent({
   setup() {
-    const collect = inject('css-render-collect')
+    const collect: any = inject('css-render-collect')
     return {
       style: collect()
     }

@@ -32,7 +32,9 @@ export async function fetchXls(name: string): Promise<Bases> {
   if (xlsCache[name]) return xlsCache[name]
 
   // 已有正在加载的 Promise → 等待并返回
-  if (fetching[name]) return fetching[name]
+  if (fetching[name] !== undefined) {
+    return fetching[name];
+  }
 
   // 启动新请求
   const p = (async () => {
@@ -50,6 +52,8 @@ export async function fetchXls(name: string): Promise<Bases> {
     catch (e) {
       console.error(`fetchXls exception: ${url} `,e);
       throw e
+    } finally{
+      delete fetching[name]
     }
   })()
 

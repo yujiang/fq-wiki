@@ -19,6 +19,7 @@ import SkillGrid from "./SkillGrid.vue";
 import { SkillIdLevel } from "../../data/skill";
 import { getTaoluSkills } from "../../data/taolu";
 
+
 // 接收从父组件传入的 skills 数据
 const props = defineProps<{
   taolu?: number;
@@ -31,22 +32,24 @@ const localSkills = ref<SkillIdLevel[]>([]);
 // 初次同步
 localSkills.value = props.skills || [];
 
-onMounted(async () => {
+const loadData = async ()=>{
   if (props.taolu) {
     const skills = await getTaoluSkills(props.taolu);
     localSkills.value = skills;
   }
-});
+  else {
+    localSkills.value = props.skills || [];
+  }
+}
+
+onMounted(loadData);
 
 // 监听 props.skills 的变化
 watch(
-  () => props.skills,
-  (newSkills) => {
-    // console.log("SkillList: skills changed", newSkills);
-    localSkills.value = newSkills || [];
-  },
-  { deep: true } // 如果 skills 是对象数组，deep 可以检测内部变化
+  () => [props.skills,props.taolu],
+  loadData,
 );
+
 </script>
 
 <style scoped>

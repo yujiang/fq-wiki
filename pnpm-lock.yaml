@@ -18,6 +18,9 @@ importers:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
     devDependencies:
+      '@css-render/vue3-ssr':
+        specifier: ^0.15.14
+        version: 0.15.14(vue@3.5.22(typescript@5.9.3))
       markdown-it-container:
         specifier: ^4.0.0
         version: 4.0.0

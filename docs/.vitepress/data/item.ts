@@ -62,12 +62,13 @@ export function getItemById(id: number) {
 
 export function getItemIcon(icon: number) {
   //return `/images/icon/char/268x249/1013.png`;
+  if (!icon) return "";
   return `/images/icon/item/100x100/${icon}.png`;
 }
 
 
 export interface ItemIdCount{
   id: number;
-  count: number;
+  count?: number | string;
   rand?: number;
 }

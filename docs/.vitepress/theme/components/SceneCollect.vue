@@ -1,4 +1,6 @@
-<template>
+<!-- 场景下collect列表-->
+ 
+ <template>
   <div class="collect-list">
     <table>
       <thead>
@@ -30,7 +32,7 @@
 import { defineProps, ref, onMounted, watch } from "vue";
 import { getCollectsTypeByScene, XlsCollect } from "../../data/collect";
 import { formatClientPos } from "../../data/public";
-import { getRewardAll, getRewardItems } from "../../data/reward";
+import { getRewardAll } from "../../data/reward";
 import { ItemIdCount } from "../../data/item";
 
 const props = defineProps<{
@@ -65,9 +67,7 @@ onMounted(loadData);
 // --- 监听 collectType / scene 变化 ---
 watch(
   () => [props.collectType, props.scene],
-  () => {
-    loadData();
-  }
+  () => loadData
 );
 
 const isDev = import.meta.env.DEV;

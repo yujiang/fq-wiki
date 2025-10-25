@@ -1,4 +1,6 @@
-<template>
+<!-- 场景下tele列表-->
+ 
+ <template>
   <div class="tele-list">
     <table>
       <thead>
@@ -58,9 +60,7 @@ onMounted(loadData);
 // --- 监听 teleType / scene 变化 ---
 watch(
   () => [props.teleType, props.scene],
-  () => {
-    loadData();
-  }
+  () => loadData
 );
 
 // ✅ 开发模式时为 true，生产构建后为 false

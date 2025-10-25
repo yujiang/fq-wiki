@@ -1,7 +1,7 @@
 // 游戏奖励
 import { getCollect, getCollects } from "./collect";
 import { ItemIdCount } from "./item";
-import { getMoney } from "./money";
+import { getMoney, getMoneyGrid } from "./money";
 import { fetchXls, XlsBase } from "./xls";
 
 // type,num,
@@ -56,14 +56,16 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
   return [];
 }
 
+// 把money渲染为grid
 export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
   const r = await getReward(id);
   if (!r?.Money) return [];
   const rt = []
   const money: RewardMoney[] = typeof(r.Money[0]) === "number" ? [r.Money] as any: r.Money;
   for (const m of money){
-    const xls = await getMoney(m[0]);
-    if (xls) rt.push({ id: xls.ItemId, count: m[1] });
+    const g = await getMoneyGrid(m[0], m[1], true);
+    if (g) rt.push(g);
   }
   return rt;
 }
+

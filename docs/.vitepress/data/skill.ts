@@ -50,6 +50,7 @@ export function getSkillById(id: number) {
 
 export function getSkillIcon(icon: number) {
   //return `/images/icon/char/268x249/1013.png`;
+  if (!icon) return "";
   return `/images/icon/skill/80x80/${icon}.png`;
 }
 

@@ -1,19 +1,19 @@
 <template>
-  <div class="item-grid" v-if="item">
+  <div class="item-grid" @mouseover="showPopover = !!item?.Detail" @mouseleave="showPopover = false">
     <!-- 使用 NTooltip 包裹触发元素 -->
-    <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
+    <n-tooltip :style="{ maxWidth: '200px' }" :show="showPopover" trigger="manual">
       <!-- 触发元素放在 #trigger 插槽中 -->
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
-          <img v-if="itemicon" :src="itemicon" alt="" class="icon"  />
+          <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
           <span class="数目" v-if="count">{{ count }}</span>
-          <span class="几率" v-if="rand && rand>0 && rand<100">{{ rand+'%' }}</span>
+          <span class="几率" v-if="rand && rand > 0 && rand < 100">{{ rand + '%' }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
-      <div>{{ item.Detail }}</div>
+      <div>{{ item?.Detail }}</div>
     </n-tooltip>
-    
+
     <div class="item-name" v-if="item?.Name">{{ item.Name }}</div> <!-- 物品名字 -->
   </div>
 </template>
@@ -28,6 +28,7 @@ const props = defineProps<ItemIdCount>();
 // 异步加载所有 items
 let item = ref<XlsItem | null>(null);
 let itemicon = ref('');
+let showPopover = ref(false)
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -43,8 +44,10 @@ watch(
 );
 
 const updateCurrentItem = async (id: number) => {
-  item.value = await getItemById(id);
-  itemicon.value = getItemIcon(item?.value?.Icon || 0);
+  const xls = await getItemById(id);
+  item.value = xls; 
+  itemicon.value = getItemIcon(item?.value?.Icon);
+  // showPopover.value = !! xls?.Detail
 };
 
 // 根据 rank 动态计算背景图片

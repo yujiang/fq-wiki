@@ -3,7 +3,7 @@ export interface XlsBase {
   Id: number
   Name: string
   Desc?: string
-  Icon: number
+  Icon?: number
   Tags?: string | string[]
 }
 

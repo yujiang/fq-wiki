@@ -8,10 +8,10 @@
 
 
 ```vue
-<ItemGrid :id="8005" :count='12' />
+<ItemGrid :id="0"  />
 ```
 
-<ItemGrid :id="8005" :count='12' />
+<ItemGrid :id="0"  />
 
 
 ## 商店item测试

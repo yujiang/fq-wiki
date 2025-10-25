@@ -20,11 +20,11 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watchEffect  } from 'vue'
+import { ref, onMounted, watch, watchEffect  } from 'vue'
 import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shop'
 import ShopCard from './ShopCard.vue'
 
-const props = defineProps<{ ids: number[], name: string }>()
+const props = defineProps<{ ids?: number[], name?: string }>()
 console.log("ShopTabs props", props)
 
 // Active tab index
@@ -52,7 +52,9 @@ onMounted(async () => {
 })
 
 // 监听 active 的变化，每次切换时更新当前商店
-watchEffect(() => {
+watch(
+  () => active.value,
+  () => {
   const shopId = localIds.value[active.value]
   current.value = shopMap.value[shopId] || null  // 更新当前商店
 })

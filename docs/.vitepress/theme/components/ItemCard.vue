@@ -42,6 +42,7 @@ let items = ref<Items>({});
 
 // 初始化并加载数据
 onMounted(async () => {
+  // console.log("ItemCard.onMounted")
   items.value = await getAllItems();
   updateCurrentItem(props.good);
 });
@@ -50,6 +51,7 @@ onMounted(async () => {
 watch(
   () => props.good,
   (newGood) => {
+    // console.log("ItemCard.watch")
     updateCurrentItem(newGood);
   }
 );

@@ -1,4 +1,4 @@
-<!-- 一排item -->
+<!-- 一排item 用于RewardCard, SceneCollect-->
 
 <template>
   <div class="item-list">

@@ -13,6 +13,7 @@ import SceneTele from './components/SceneTele.vue'
 import TeleTabs from './components/TeleTabs.vue'
 import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
+import MoneyGrid from './components/MoneyGrid.vue'
 
 
 import ButtonWithTooltip from './components/ButtonWithTooltip.vue'  
@@ -34,6 +35,7 @@ export function registerGameComponents(app: any) {
 
   app.component('RewardCard', RewardCard)
   app.component('MoneyCard', MoneyCard)
+  app.component('MoneyGrid', MoneyGrid)
 
   app.component('ButtonWithTooltip', ButtonWithTooltip)
 }

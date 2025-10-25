@@ -5,29 +5,23 @@
     </div>
     <div class="info">
       <span class="amount">{{ formatAmount(amount) }}</span>
+      <span class="moneyname">{{ money?.Name }}</span>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { getMoney, getMoneyIcon, XlsMoney } from "../../data/money";
+import { getMoney, getMoneyIcon, MoneyNum, XlsMoney } from "../../data/money";
 
 // 单个货币数据
-const props = defineProps<{
-  /** 货币名称，例如 “元宝” */
-  type: number;
-  /** 货币数量 */
-  amount: number;
-  /** 是否紧凑显示（如 1.2k） */
-  compact?: boolean;
-}>();
+const props = defineProps<MoneyNum>();
 
 let money = ref<XlsMoney | null>(null);
 let moneyicon = ref('');
 
 // 初始化并加载数据
-onMounted(async () => {
+onMounted(() => {
   updateCurrentItem(props.type);
 });
 
@@ -36,7 +30,9 @@ watch(
   () => props.type,
   (newGood) => {
     updateCurrentItem(newGood);
-  }
+  },
+  // { immediate: true }
+  // Uncaught (in promise) ReferenceError: Cannot access 'updateCurrentItem' before initialization
 );
 
 const updateCurrentItem = async (id: number) => {

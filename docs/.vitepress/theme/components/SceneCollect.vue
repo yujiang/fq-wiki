@@ -67,7 +67,7 @@ onMounted(loadData);
 // --- 监听 collectType / scene 变化 ---
 watch(
   () => [props.collectType, props.scene],
-  () => loadData
+  loadData,
 );
 
 const isDev = import.meta.env.DEV;

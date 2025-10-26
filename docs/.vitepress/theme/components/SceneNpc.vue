@@ -34,8 +34,8 @@ import { getSoldiers } from "../../data/soldier";
 
 type NpcType = "soldier" | "skill" | "other";
 const tabs = [
-  { type: "soldier" as NpcType, label: "伙伴" },
-  { type: "skill" as NpcType, label: "师长" },
+  { type: "soldier" as NpcType, label: "益友" },
+  { type: "skill" as NpcType, label: "良师" },
   { type: "other" as NpcType, label: "其他" },
 ];
 

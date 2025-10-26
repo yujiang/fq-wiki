@@ -26,6 +26,10 @@ import NpcCard from './components/NpcCard.vue'
 import NpcCards from './components/NpcCards.vue'
 import SceneNpc from './components/SceneNpc.vue'
 
+import TaskCard from './components/TaskCard.vue'
+import TaskTabs from './components/TaskTabs.vue'
+import SceneTask from './components/SceneTask.vue'
+
 import testTooltip from './components/naive/Tooltip.vue'  
 
 export function registerGameComponents(app: any) {
@@ -57,6 +61,10 @@ export function registerGameComponents(app: any) {
   app.component('NpcIcon', NpcIcon)
   app.component('NpcList', NpcList)
   app.component('SceneNpc', SceneNpc)
+
+  app.component('TaskCard', TaskCard)
+  app.component('TaskTabs', TaskTabs)
+  app.component('SceneTask', SceneTask)
 
   app.component('testTooltip', testTooltip)
 }

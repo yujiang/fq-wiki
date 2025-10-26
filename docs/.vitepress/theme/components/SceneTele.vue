@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { defineProps, ref, onMounted, watch, watchEffect } from "vue";
 import { formatClientPos } from "../../data/public";
 import { getScenePositionClient } from "../../data/scene";
 import { XlsTeleport } from "../../data/tele";
@@ -58,9 +58,8 @@ async function loadData() {
 onMounted(loadData);
 
 // --- 监听 teleType / scene 变化 ---
-watch(
-  () => [props.teleType, props.scene],
-  () => loadData
+watchEffect(
+  loadData
 );
 
 // ✅ 开发模式时为 true，生产构建后为 false

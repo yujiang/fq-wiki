@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watch } from "vue";
+import { defineProps, ref, watch, watchEffect } from "vue";
 import Item from "./Item.vue";
 import { ItemIdCount } from "../../data/item";
 
@@ -31,13 +31,11 @@ const localItems = ref<ItemIdCount[]>([]);
 localItems.value = props.items || [];
 
 // 监听 props.items 的变化
-watch(
-  () => props.items,
-  (newItems) => {
+watchEffect(
+  () => {
     // console.log("ItemList: items changed", newItems);
-    localItems.value = newItems || [];
+    localItems.value = props.items || [];
   },
-  { deep: true } // 如果 items 是对象数组，deep 可以检测内部变化
 );
 </script>
 

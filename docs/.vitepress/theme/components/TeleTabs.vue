@@ -3,7 +3,7 @@
 
 <template>
   <div class="collect-tabs">
-    <!-- Tabs -->
+     <!-- Tabs -->
     <div class="tabs">
       <button
         v-for="(type, i) in tabs"

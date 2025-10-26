@@ -2901,6 +2901,7 @@
   },
   "11019": {
     "Id": 11019,
+    "AcceptDesc":"...",
     "Name": "顽童",
     "Tags": [
       "client",
@@ -2958,6 +2959,8 @@
   "11022": {
     "Id": 11022,
     "Name": "前往绿源村",
+    "AcceptDesc":"...",
+    "GradeSuggest":0,
     "Tags": [
       "client",
       "nogiveup"
@@ -3519,6 +3522,8 @@
   "11059": {
     "Id": 11059,
     "Name": "野猪皮",
+    "AcceptDesc":"...",
+    "GradeSuggest":40,
     "Tags": [
       "client",
       "nogiveup"

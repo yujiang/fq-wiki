@@ -31,6 +31,15 @@ export async function getNpcPosition(id: number) {
   return '';
 }
 
+export async function getNpcNameAndPosition(id: number) {
+  const xls = await getNpc(id);
+  if (xls.Scene && xls.x && xls.y) {
+    const desc = await getScenePositionClient(xls.Scene,xls.x,xls.y);
+    return `${xls.Name}(${desc})`
+  }
+  return '';
+}
+
 export function getNpcAvater(icon: number|undefined) {
    if (!icon) return "";
    return `/images/icon/char/268x249/${icon}.png`;

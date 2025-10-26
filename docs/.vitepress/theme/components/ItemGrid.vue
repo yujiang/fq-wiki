@@ -58,7 +58,7 @@ const gridItems = computed<ItemIdCount[][]>(() => {
   // 复制原始数据并填充空对象至总单元格数量
   const filledItems = [...props.items];
   while (filledItems.length < totalCells) {
-    filledItems.push({} as ItemIdCount); // 用空对象补齐
+    filledItems.push({id: 0}); // 用空对象补齐
   }
   
   // 按列数拆分数据为行（确保每行都有 cols 个元素）
@@ -67,7 +67,7 @@ const gridItems = computed<ItemIdCount[][]>(() => {
     const end = start + props.cols;
     result.push(filledItems.slice(start, end));
   }
-  
+  // console.log("itemGrid.vue",result);
   return result;
 });
 </script>

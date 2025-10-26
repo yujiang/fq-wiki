@@ -78,7 +78,7 @@ const gridSkills = computed<SkillIdLevel[][]>(() => {
   // 补齐空数据（仅在传入cols时需要，单行时不补齐）
   if (props.cols !== undefined) {
     while (filledSkills.length < totalCells) {
-      filledSkills.push({} as SkillIdLevel);
+      filledSkills.push({id: 0});
     }
   }
 

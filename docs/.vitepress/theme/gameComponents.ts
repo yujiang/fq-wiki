@@ -20,7 +20,11 @@ import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
 import Money from './components/Money.vue'
 
+import NpcIcon from './components/NpcIcon.vue'
+import NpcList from './components/NpcList.vue'
 import NpcCard from './components/NpcCard.vue'
+import NpcCards from './components/NpcCards.vue'
+import SceneNpc from './components/SceneNpc.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -49,6 +53,10 @@ export function registerGameComponents(app: any) {
   app.component('Money', Money)
 
   app.component('NpcCard', NpcCard)
+  app.component('NpcCards', NpcCards)
+  app.component('NpcIcon', NpcIcon)
+  app.component('NpcList', NpcList)
+  app.component('SceneNpc', SceneNpc)
 
   app.component('testTooltip', testTooltip)
 }

@@ -4,13 +4,13 @@
     <div class="npc-card__left-middle">
       <!-- 原左侧内容 -->
       <div class="npc-card__left">
-        <h3 class="npc-card__name">{{ observe?.Name || '未知NPC' }}</h3>
+        <h3 class="npc-card__name">{{ npcName }}</h3>
         <div class="npc-card__avatar-container">
           <img
             :src="npcicon"
             class="npc-card__avatar"
             @error="npcicon = '/images/default-avatar.png'"
-            :alt="observe?.Name"
+            :alt="npcName"
           />
         </div>
       </div>
@@ -25,8 +25,12 @@
           <span class="npc-card__info-label">喜好：</span>
           <span class="npc-card__info-value">{{ likedesc }}</span>
         </div>
+        <div class="npc-card__info-item">
+          <span class="npc-card__info-label">武功：</span>
+          <span class="npc-card__info-value">{{ observe?.Power }}</span>
+        </div>
         <div class="npc-card__info-item npc-card__info-story">
-          <span class="npc-card__info-label">背景故事：</span>
+          <div class="npc-card__info-label">背景故事：</div>
           <span class="npc-card__info-value">{{ observe?.Desc || '暂无背景故事' }}</span>
         </div>
       </div>
@@ -64,9 +68,8 @@ const likedesc = ref<string>('');
 const items = ref<ItemIdCount[]>([]);
 const skills = ref<SkillIdLevel[]>([]);
 
-const npcName = computed(() => observe.value?.Name || '未知NPC');
-const birthplace = computed(() => observe.value?.School || '未知');
-const backgroundStory = computed(() => observe.value?.Desc || '暂无背景故事');
+const isDev = import.meta.env.DEV;
+const npcName = ref("");
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -86,11 +89,15 @@ const updateCurrentObserve = async (id: number) => {
     const xls = await getObserve(id);
     observe.value = xls;
     if (xls) {
+      npcName.value = isDev ? `${xls.Name}(${xls.Id})` : xls.Name
       const info = await getNpc(xls.Npc || id);
-      npcicon.value = await getNpcAvater(info?.Display?.icon) || '/images/default-avatar.png';
+      npcicon.value = getNpcAvater(info?.Display?.icon) ;
       likedesc.value = observe2Like(xls.Like);
-      items.value = observe2Items(xls.Items);
-      skills.value = await observe2Skills(xls.Skills);
+      let items2 = observe2Items(xls.Items);
+      let skills2 = await observe2Skills(xls.Skills);
+      console.log('NpcCard.vue',id,items2,skills2);
+      items.value = items2;
+      skills.value = skills2;
     } else {
       npcicon.value = '/images/default-avatar.png';
       likedesc.value = '';
@@ -103,6 +110,7 @@ const updateCurrentObserve = async (id: number) => {
     loading.value = false;
   }
 };
+
 </script>
 
 <style scoped>
@@ -142,6 +150,10 @@ const updateCurrentObserve = async (id: number) => {
   width: 320px; /* 可根据需要调整 */
   flex-shrink: 0;
   /* 其他原有样式不变 */
+}
+
+.npc-card__info-label {
+  font-weight: bold;
 }
 
 /* 响应式适配：小屏幕下仍垂直堆叠 */

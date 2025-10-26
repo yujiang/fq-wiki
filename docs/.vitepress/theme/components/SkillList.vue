@@ -9,6 +9,7 @@
       :id="skill.id"
       :level="skill.level"
       :unlock="skill.unlock"
+      :fLevel="skill.fLevel"
     />
   </div>
 </template>

@@ -3,8 +3,10 @@ export interface XlsBase {
   Id: number
   Name: string
   Desc?: string
+  Detail?: string
   Icon?: number
   Tags?: string | string[]
+  Rank?: number
 }
 
 export interface XlsSceneObj extends XlsBase {

@@ -3,6 +3,8 @@ import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsNpc extends XlsSceneObj {
   Display: {shape: number, icon: number};
+  Scene: number;
+  Observe: number;
 };
 
 
@@ -29,7 +31,22 @@ export async function getNpcPosition(id: number) {
   return '';
 }
 
-export async function getNpcAvater(icon: number|undefined) {
+export function getNpcAvater(icon: number|undefined) {
    if (!icon) return "";
    return `/images/icon/char/268x249/${icon}.png`;
+}
+
+export function getNpcIcon(icon: number|undefined) {
+   if (!icon) return "";
+   return `/images/icon/char/80x80/${icon}.png`;
+}
+
+const fLevelDesc = ['', '普通','友好','挚友','知己'];
+export function getFriendLevelDesc(level: number) {
+  return fLevelDesc[level] || '未知';
+}
+
+export async function fillterNpcByScene(scene: number) {
+   const npcs = await getNpcs();
+   return Object.values(npcs).filter(npc => npc.Scene === scene);
 }

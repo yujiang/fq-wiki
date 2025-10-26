@@ -9,6 +9,7 @@
       :id="item.id"
       :count="item.count"
       :rand="item.rand"
+      :fLevel="item.fLevel"
     />
   </div>
 </template>

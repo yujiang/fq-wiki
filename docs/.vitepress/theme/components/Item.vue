@@ -15,9 +15,7 @@
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
           <span class="数目" v-if="count">{{ count }}</span>
-          <span class="几率" v-if="rand && rand > 0 && rand < 100">{{
-            rand + "%"
-          }}</span>
+          <span class="几率" v-if="randdesc">{{ randdesc }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
@@ -33,8 +31,14 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsItem, getItemIcon, getItemById, ItemIdCount } from "../../data/item";
+import {
+  XlsItem,
+  getItemIcon,
+  getItemById,
+  ItemIdCount,
+} from "../../data/item";
 import { getRankBgStyle } from "../../data/xls";
+import { getFriendLevelDesc } from "../../data/npc";
 // import { getRankBgStyle } from "../../data/xls";
 
 // 接收 props 数据
@@ -42,8 +46,10 @@ const props = defineProps<ItemIdCount>();
 
 // 异步加载所有 items
 let item = ref<XlsItem | null>(null);
-let itemicon = ref('');
-let showPopover = ref(false)
+let itemicon = ref("");
+let showPopover = ref(false);
+let randdesc = ref(props.rand ? props.rand + "%" : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
+// console.log("randdesc", props, randdesc.value);
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -61,14 +67,14 @@ watch(
 const updateCurrentItem = async (id: number) => {
   const xls = await getItemById(id);
   item.value = xls;
-  itemicon.value = getItemIcon(item.value?.Icon);
+  itemicon.value = getItemIcon(xls?.Icon);
   // showPopover.value = !! xls?.Detail
 };
 
-
 // 根据 rank 动态计算背景图片
-const backgroundStyle = computed(() => {return getRankBgStyle(item.value?.Rank)});
-
+const backgroundStyle = computed(() => {
+  return getRankBgStyle(item.value?.Rank);
+});
 </script>
 
 <style scoped>

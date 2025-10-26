@@ -8,7 +8,7 @@ export interface XlsSkill extends XlsBase {
 
 export type Skills = Record<number, XlsSkill>;
 
-type Kind = "activeskill" | "passiveskill" | "lifeskill";
+// type Kind = "activeskill" | "passiveskill" | "lifeskill";
 
 let skillsCache: Skills | null = null;
 // 正在加载时的单例 Promise（并发共享这一个）
@@ -19,7 +19,7 @@ export async function getAllSkills(): Promise<Skills> {
   if (skillsPromise) return skillsPromise;     // 正在加载：复用同一个 Promise
 
   skillsPromise = (async () => {
-    const kinds: Kind[] = ["activeskill", "passiveskill", "lifeskill"];
+    const kinds: string[] = ["activeskill", "passiveskill", "lifeskill", "taolu"];
     // 并行抓取
     const chunks = await Promise.all(kinds.map(k => fetchXls(k) as Promise<Skills>));
 
@@ -59,4 +59,5 @@ export interface SkillIdLevel{
   id: number;
   level?: number;
   unlock?: number;
+  fLevel?: number; // 友好级别
 }

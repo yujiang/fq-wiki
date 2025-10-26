@@ -22,9 +22,11 @@ interface TaskParamLike {
 export interface XlsObserve extends XlsSceneObj {
     Npc: number;
     School: string;
+    Power: string;
     Like: TaskParamLike;
     Items: ObserveItem[];
     Skills: ObserveWillType[];
+    Soldier: number;
 };
 
 
@@ -66,11 +68,11 @@ async function mapSkill(_Skill: ObserveWillType, curLevel: number): Promise<Skil
 		return {
 			id: xls.Taolu,
 			level: xls.MaxLevel,
-			unlock: Skill[1],
+			fLevel: Skill[1],
 		};
 	}
 	const [id, level, say, reward, needLevel] = Skill;
-	return { id, level, unlock:needLevel };
+	return { id, level, fLevel:needLevel };
 }
 
 function mapItem(item: ObserveItem, curLevel: number, param: Object): ItemIdCount {
@@ -78,7 +80,7 @@ function mapItem(item: ObserveItem, curLevel: number, param: Object): ItemIdCoun
 	return {
 		id,
 		count,
-		rand: needLevel,
+		fLevel: needLevel,
 	};
 }
 

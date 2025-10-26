@@ -1,6 +1,6 @@
 <template>
   <div class="base-item-game skill-game"
-    @mouseover="showPopover = !!skill?.Desc"
+    @mouseover="showPopover = !!skilldesc"
     @mouseleave="showPopover = false"
   >
     <!-- 使用 NTooltip 包裹触发元素 -->
@@ -10,11 +10,11 @@
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="skillicon" :src="skillicon" alt="" class="icon"  />
           <span class="等级" v-if="level">{{ level }}</span>
-          <span class="unlock" v-if="unlock">{{ unlock }}</span>
+          <span class="unlock" v-if="randdesc">{{ randdesc }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 skill.desc -->
-      <div>{{ skill?.Desc }}</div>
+      <div>{{ skilldesc }}</div>
     </n-tooltip>
       <div class="base-item-name skill-name" v-if="skill?.Name">{{ skill.Name }}</div> <!-- 物品名字 -->
   </div>
@@ -24,6 +24,7 @@
 import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../data/skill";
 import { getRankBgStyle } from "../../data/xls";
+import { getFriendLevelDesc } from "../../data/npc";
 
 // 接收 props 数据
 const props = defineProps<SkillIdLevel>();
@@ -32,6 +33,8 @@ const props = defineProps<SkillIdLevel>();
 let skill = ref<XlsSkill | null>(null);
 let skillicon = ref('');
 let showPopover = ref(false)
+let skilldesc = ref('');
+let randdesc = ref(props.unlock ? props.unlock : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -47,8 +50,10 @@ watch(
 );
 
 const updateCurrentSkill = async (id: number) => {
+  const xls = await getSkillById(id);
   skill.value = await getSkillById(id);
-  skillicon.value = getSkillIcon(skill.value?.Icon);
+  skillicon.value = getSkillIcon(xls?.Icon);
+  skilldesc.value = xls?.Desc || xls?.Detail || '';
 };
 
 // 根据 rank 动态计算背景图片

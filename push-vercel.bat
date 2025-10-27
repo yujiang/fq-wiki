@@ -3,7 +3,7 @@ chcp 65001 >nul
 echo =========================================
 echo 🚀  Vercel Wiki 一键推送脚本
 echo =========================================
-cd /d D:\coding\dao\web\fq-wiki
+REM cd /d D:\coding\dao\web\fq-wiki
 
 :: 1. 拉取最新（防止冲突）
 git pull origin main

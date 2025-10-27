@@ -19306,6 +19306,450 @@
     },
     "Reward": 210183
   },
+  "210380": {
+    "Id": 210380,
+    "Name": "春牛衔彩",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "cond",
+    "Desc": "前往汴京采购材料",
+    "Scene": 1003,
+    "finishDrama": 215130,
+    "NextTask": 210381
+  },
+  "210381": {
+    "Id": 210381,
+    "Name": "春牛衔彩",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "回到工坊看老匠人工作",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215145
+    },
+    "NextTask": 210382
+  },
+  "210382": {
+    "Id": 210382,
+    "Name": "春牛衔彩",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "稍事休息，继续开工",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215165
+    },
+    "NextTask": 210383
+  },
+  "210383": {
+    "Id": 210383,
+    "Name": "春牛衔彩",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "和老匠人交谈",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215185
+    },
+    "NextTask": 210384
+  },
+  "210384": {
+    "Id": 210384,
+    "Name": "春牛衔彩",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "明日卯时再到工坊看看",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215205
+    },
+    "NextTask": 210385
+  },
+  "210385": {
+    "Id": 210385,
+    "Name": "竹签寄愿",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "前往大相国寺询问情况",
+    "Scene": 7110,
+    "Des": {
+      "id": 542000,
+      "say": 215225
+    },
+    "NextTask": 210386
+  },
+  "210386": {
+    "Id": 210386,
+    "Name": "竹签寄愿",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "找老匠人问问吴蘅的消息",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215245
+    },
+    "NextTask": 210387
+  },
+  "210387": {
+    "Id": 210387,
+    "Name": "竹签寄愿",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "前往吴蘅家探望",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215265
+    },
+    "NextTask": 210388
+  },
+  "210388": {
+    "Id": 210388,
+    "Name": "竹签寄愿",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "询问吴蘅关于吴知夏的病情相关",
+    "Scene": 3060,
+    "Des": {
+      "id": 332001,
+      "say": 215280
+    },
+    "NextTask": 210389
+  },
+  "210389": {
+    "Id": 210389,
+    "Name": "竹签寄愿",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "询问吴蘅有关笛子",
+    "Scene": 3060,
+    "Des": {
+      "id": 332001,
+      "say": 215300
+    },
+    "NextTask": 210390
+  },
+  "210390": {
+    "Id": 210390,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "找老匠人看看笛子来历",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215325
+    },
+    "NextTask": 210391
+  },
+  "210391": {
+    "Id": 210391,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "dating",
+    "Desc": "到衡山打听笛子主人",
+    "Scene": 7102,
+    "finishDrama": 215350,
+    "NextTask": 210392
+  },
+  "210392": {
+    "Id": 210392,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "cond",
+    "Desc": "回头找吴蘅学习《月光晒被曲》",
+    "Scene": 7102,
+    "Des": {
+      "say": 215375
+    },
+    "NextTask": 210393
+  },
+  "210393": {
+    "Id": 210393,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "在衡山吹奏《月光晒被曲》",
+    "Scene": 7102,
+    "Des": {
+      "type": "trap",
+      "say": 215410
+    },
+    "NextTask": 210394
+  },
+  "210394": {
+    "Id": 210394,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "到山门再试试吧",
+    "Scene": 7102,
+    "Des": {
+      "type": "trap",
+      "say": 215435
+    },
+    "NextTask": 210395
+  },
+  "210395": {
+    "Id": 210395,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "fight",
+    "Desc": "和雁听蝉交谈",
+    "Scene": 7102,
+    "Des": {
+      "id": 365060,
+      "say": 215450
+    },
+    "finishDrama": 215460,
+    "Battle": {
+      "bid": 10002
+    },
+    "NextTask": 210396
+  },
+  "210396": {
+    "Id": 210396,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "带着雁听蝉前往吴蘅家",
+    "Scene": 3060,
+    "Des": {
+      "id": 332001,
+      "say": 215480
+    },
+    "NextTask": 210397
+  },
+  "210397": {
+    "Id": 210397,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "询问雁听蝉有关同心蛊",
+    "Scene": 3060,
+    "Des": {
+      "id": 332003,
+      "say": 215500
+    },
+    "NextTask": 210398
+  },
+  "210398": {
+    "Id": 210398,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "询问雁听蝉同心蛊如何治疗",
+    "Scene": 3060,
+    "Des": {
+      "id": 332003,
+      "say": 215520
+    },
+    "NextTask": 210399
+  },
+  "210399": {
+    "Id": 210399,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "time",
+    "Desc": "等待煎药",
+    "Scene": 3060,
+    "NextTask": 210400
+  },
+  "210400": {
+    "Id": 210400,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "等吴知夏醒来",
+    "Scene": 3060,
+    "Des": {
+      "id": 332001,
+      "say": 215540
+    },
+    "NextTask": 210401
+  },
+  "210401": {
+    "Id": 210401,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "离开吴家",
+    "Scene": 3060,
+    "Des": {
+      "type": "trap",
+      "say": 215570
+    },
+    "NextTask": 210402
+  },
+  "210402": {
+    "Id": 210402,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "fight",
+    "Desc": "卯时到吴家屋顶蹲守",
+    "Scene": 3060,
+    "Des": {
+      "type": "trap",
+      "say": 215585
+    },
+    "finishDrama": 215605,
+    "Battle": {
+      "bid": 10002
+    },
+    "NextTask": 210403
+  },
+  "210403": {
+    "Id": 210403,
+    "Name": "旧事作结",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "item",
+    "Desc": "把笛子交给吴知夏",
+    "Scene": 3060,
+    "Des": {
+      "id": 332004,
+      "say": 215620
+    },
+    "NextTask": 210404
+  },
+  "210404": {
+    "Id": 210404,
+    "Name": "旧事作结",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "和慕冬交谈",
+    "Scene": 3060,
+    "Des": {
+      "id": 332007,
+      "say": 215640
+    },
+    "NextTask": 210405
+  },
+  "210405": {
+    "Id": 210405,
+    "Name": "旧事作结",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "和雁听蝉交谈",
+    "Scene": 3060,
+    "Des": {
+      "id": 332005,
+      "say": 215660
+    },
+    "NextTask": 210406
+  },
+  "210406": {
+    "Id": 210406,
+    "Name": "新柳系春",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "和雁听蝉交谈",
+    "Scene": 3060,
+    "Des": {
+      "id": 332005,
+      "say": 215685
+    },
+    "NextTask": 210407
+  },
+  "210407": {
+    "Id": 210407,
+    "Name": "新柳系春",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "告知老匠人事情解决",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215710
+    }
+  },
   "240000": {
     "Id": 240000,
     "Name": "汴京学习做东坡肉",
@@ -51497,6 +51941,9 @@
   },
   "劫镖者谁": {
     "Id": "劫镖者谁"
+  },
+  "春牛": {
+    "Id": "春牛"
   },
   "东坡肉": {
     "Id": "东坡肉"

@@ -19,7 +19,7 @@ export async function getAllSkills(): Promise<Skills> {
   if (skillsPromise) return skillsPromise;     // 正在加载：复用同一个 Promise
 
   skillsPromise = (async () => {
-    const kinds: string[] = ["activeskill", "passiveskill", "lifeskill", "taolu"];
+    const kinds: string[] = ["activeskill", "passiveskill", "lifeskill", "taolu", "secretskill"];
     // 并行抓取
     const chunks = await Promise.all(kinds.map(k => fetchXls(k) as Promise<Skills>));
 

@@ -96,6 +96,9 @@ export function observe2Items(items: ObserveItem[]): ItemIdCount[]{
     if (!items){
         return [];
     }
+    if (typeof items[0] === "number"){
+      items = [items as any];
+    }
     return items.map(mapItem);
 }
 

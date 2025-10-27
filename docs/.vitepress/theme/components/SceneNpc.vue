@@ -66,9 +66,10 @@ async function updateSceneNpcs(sceneId: number) {
       const npcxls = allnpcs[npc.Id];
       // console.log("updateSceneNpcs", oid, npc.Id, npcxls.Display?.icon, xls?.Icon)
       if (xls ) {
-        const oicon = xls.Npc ? allnpcs[xls.Npc].Display?.icon : xls.Icon;
+        const npcid = xls.Npc || oid;
+        const oicon = xls.Icon || allnpcs[npcid].Display?.icon ;
         if (oicon === npcxls.Display?.icon) {
-          npcxls.Display?.icon === xls?.Icon
+          // npcxls.Display?.icon === xls?.Icon
           const sid = xls.Soldier || npc.Id;
           if (soldiers[sid]) soldierSet.add(xls.Id);
           else if (xls.Skills) skillSet.add(xls.Id);

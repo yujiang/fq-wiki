@@ -39,7 +39,7 @@ export async function getReward(id: number) {
 export async function getRewardAll(id: number): Promise<ItemIdCount[]> {
   const items = await getRewardItems(id);
   const moneys = await getRewardMoneys(id);
-  return [...items, ...moneys];
+  return [ ...moneys, ...items];
 }
 
 // 返回 {id: count:} 给ItemList使用

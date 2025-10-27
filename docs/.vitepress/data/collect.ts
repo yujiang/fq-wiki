@@ -1,5 +1,6 @@
 // 资源/采集点
 
+import { getReward } from "./reward";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsCollect extends XlsSceneObj {
@@ -8,6 +9,7 @@ export interface XlsCollect extends XlsSceneObj {
   Rewards: number;
   PickupItem: number;
   say: number;
+  CreateType: string;
 }
 
 export type Collects = Record<number, XlsCollect>;
@@ -25,11 +27,20 @@ export async function getCollect(id: number) {
 }
 
 
-export async function getCollectsTypeByScene(type:string, scene: number): Promise<XlsCollect[]> {
+export type CollectsType = 'box' | 'collect' | 'say';
+
+export async function getCollectsTypeByScene(type:CollectsType, scene: number): Promise<XlsCollect[]> {
   const collects = await getCollects();
-  const rt = Object.values(collects).filter(
-    (c) => c.Scene === scene && c.Type === type
+  let ctype = type;
+  if (type === 'say'){
+    ctype = 'box';
+  }
+  let rt = Object.values(collects).filter(
+    (c) => c.Scene === scene && c.Type === ctype && c.CreateType !== 'task'
   ) ;
-  console.log('getCollectsByScene', scene, Object.keys(collects).length, rt.length);
+  if (ctype === 'box'){
+    rt = rt.filter(c=>!!c.say == (type === 'say'));
+  }
+  console.log('getCollectsByScene', type, scene, Object.keys(collects).length, rt.length);
   return rt;
 }

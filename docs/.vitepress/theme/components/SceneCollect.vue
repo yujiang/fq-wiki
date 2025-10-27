@@ -2,7 +2,7 @@
  
  <template>
   <div class="collect-list">
-    <table>
+    <table  v-if="collects.length > 0">
       <thead>
         <tr>
           <th v-if="isDev">ID</th>
@@ -30,7 +30,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import { getCollectsTypeByScene, XlsCollect } from "../../data/collect";
+import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../data/collect";
 import { formatClientPos } from "../../data/public";
 import { getRewardAll } from "../../data/reward";
 import { ItemIdCount } from "../../data/item";
@@ -38,7 +38,7 @@ import { getSayReward } from "../../data/say";
 
 const props = defineProps<{
   sceneId: number;
-  collectType: string;
+  collectType: CollectsType;
 }>();
 
 // --- 状态 ---

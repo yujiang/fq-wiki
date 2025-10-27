@@ -20,7 +20,7 @@ export type Items = Record<number, XlsItem>;
 
 
 
-type Kind = "item" | "equip" | "material" | "drug" | "book" | "food";
+// type Kind = "item" | "equip" | "material" | "drug" | "book" | "food";
 
 let itemsCache: Items | null = null;
 // 正在加载时的单例 Promise（并发共享这一个）
@@ -31,7 +31,7 @@ export async function getAllItems(): Promise<Items> {
   if (itemsPromise) return itemsPromise;     // 正在加载：复用同一个 Promise
 
   itemsPromise = (async () => {
-    const kinds: Kind[] = ["item", "equip", "material", "drug", "book", "food"];
+    const kinds: string[] = ["item", "equip", "material", "drug", "book", "food","itemClass"];
     // 并行抓取
     const chunks = await Promise.all(kinds.map(k => fetchXls(k) as Promise<Items>));
 

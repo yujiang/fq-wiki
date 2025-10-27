@@ -4,7 +4,7 @@
     <div class="npc-card__left-middle">
       <!-- 原左侧内容 -->
       <div class="npc-card__left">
-        <h3 class="npc-card__name">{{ npcName }}</h3>
+        <h4 class="npc-card__name">{{ npcName }}</h4>
         <div class="npc-card__avatar-container">
           <img
             :src="npcicon"

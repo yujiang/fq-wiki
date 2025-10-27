@@ -32,8 +32,8 @@ const props = defineProps<{ sceneId: number }>()
 // 当前激活的 tab 下标
 const active = ref(0)
 
-const tabs = ['采集', '宝箱']
-const typeNames = ['collect', 'box']  // 和 tabs 一一对应
+const tabs = ['采集', '宝箱', '探索']
+const typeNames = ['collect', 'box', 'say']  // 和 tabs 一一对应
 
 // 根据 active 计算当前类型
 const current = computed(() => typeNames[active.value] ?? '')

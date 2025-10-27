@@ -65,13 +65,16 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
     return rt;
   }
 
-  const a = r.Item;
-  if (a) {
-    rt.push(...item2RewardItems(a));
+  if (r.Item) {
+    rt.push(...item2RewardItems(r.Item));
   }
-  if (r.ItemClass || r.ItemRand){
+  if (r.ItemRand){
     rt.push({id: 999, count: '???'});
   }
+  if (r.ItemClass) {
+    rt.push(...item2RewardItems(r.ItemClass));
+  }
+  
 
   return rt;
 }

@@ -28,7 +28,7 @@
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
 import NpcCards from "./NpcCards.vue";
-import { fillterNpcByScene } from "../../data/npc";
+import { fillterNpcByScene, getNpcs } from "../../data/npc";
 import { getObserves } from "../../data/observe";
 import { getSoldiers } from "../../data/soldier";
 
@@ -53,6 +53,7 @@ async function updateSceneNpcs(sceneId: number) {
   isLoading.value = true;
   try {
     const npcs = await fillterNpcByScene(sceneId);
+    const allnpcs = await getNpcs();
     const obs = await getObserves();
     const soldiers = await getSoldiers();
     const soldierSet = new Set<number>();
@@ -62,11 +63,17 @@ async function updateSceneNpcs(sceneId: number) {
     for (const npc of npcs) {
       const oid = npc.Observe || npc.Id;
       const xls = obs[oid];
-      if (xls) {
-        const sid = xls.Soldier || npc.Id;
-        if (soldiers[sid]) soldierSet.add(xls.Id);
-        else if (xls.Skills) skillSet.add(xls.Id);
-        else if (xls.Items) otherSet.add(xls.Id);
+      const npcxls = allnpcs[npc.Id];
+      // console.log("updateSceneNpcs", oid, npc.Id, npcxls.Display?.icon, xls?.Icon)
+      if (xls ) {
+        const oicon = xls.Npc ? allnpcs[xls.Npc].Display?.icon : xls.Icon;
+        if (oicon === npcxls.Display?.icon) {
+          npcxls.Display?.icon === xls?.Icon
+          const sid = xls.Soldier || npc.Id;
+          if (soldiers[sid]) soldierSet.add(xls.Id);
+          else if (xls.Skills) skillSet.add(xls.Id);
+          else if (xls.Items) otherSet.add(xls.Id);
+        }
       }
     }
 

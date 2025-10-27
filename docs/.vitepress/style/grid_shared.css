@@ -16,11 +16,11 @@
 .base-item-name {
   position: absolute;
   bottom: -5px; /* 物品名字距离卡片的底部 */
-  width: 100%;
   font-weight: 700;
   font-size: 14px;
   color: #333;
   text-align: center;
+  white-space: nowrap;
   font-family: "Ma Shan Zheng", "LXGW WenKai", "KaiTi", sans-serif;
 }
 

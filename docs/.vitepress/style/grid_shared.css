@@ -4,7 +4,7 @@
   flex-direction: column; /* 竖直排列 */
   align-items: center;
   gap: 8px;
-  height: 70px;
+  height: 80px;
   padding: 0px 0px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -15,7 +15,7 @@
 
 .base-item-name {
   position: absolute;
-  bottom: -15px; /* 物品名字距离卡片的底部 */
+  bottom: -5px; /* 物品名字距离卡片的底部 */
   width: 100%;
   font-weight: 700;
   font-size: 14px;
@@ -52,8 +52,8 @@
 .base-list {
   display: flex;
   flex-wrap: wrap; /* 允许自动换行 */
-  gap: 4px;
-  padding: 6px;
+  gap: 2px;
+  padding: 0px;
 }
 
 /* 统一设置所有 grid */

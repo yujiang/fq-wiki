@@ -46,7 +46,7 @@
     <div class="scene-section" id="shops">
       <h2 class="section-title">商店信息</h2>
       <div class="section-content">
-        <ShopTabs :name="xls?.ShopName || 'shop_xinshoucun'" />
+        <ShopTabs :name="xls?.Shop" />
       </div>
     </div>
 
@@ -108,7 +108,7 @@ watchEffect(updateContent);
 
 .header-content {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .scene-title {

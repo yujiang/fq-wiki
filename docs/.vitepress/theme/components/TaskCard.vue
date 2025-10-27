@@ -148,7 +148,7 @@ const updateCurrentTask = async (id: number) => {
   color: #f53f3f;
 }
 
-.difficulty-挑战 {
+.difficulty-危险 {
   background: #f0e6ff;
   color: #722ed1;
 }

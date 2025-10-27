@@ -2897,11 +2897,12 @@
       "id": 10018,
       "say": 13200
     },
-    "Reward": 11011
+    "Reward": 11011,
+    "GradeSuggest": 1,
+    "AcceptDesc": "..."
   },
   "11019": {
     "Id": 11019,
-    "AcceptDesc":"...",
     "Name": "顽童",
     "Tags": [
       "client",
@@ -2920,7 +2921,10 @@
       11021,
       11022
     ],
-    "NextTask": 11040
+    "NextTask": 11040,
+    "GradeSuggest": 1,
+    "AcceptDesc": "找村长",
+    "Diff": "容易"
   },
   "11020": {
     "Id": 11020,
@@ -2959,8 +2963,6 @@
   "11022": {
     "Id": 11022,
     "Name": "前往绿源村",
-    "AcceptDesc":"...",
-    "GradeSuggest":0,
     "Tags": [
       "client",
       "nogiveup"
@@ -3522,8 +3524,6 @@
   "11059": {
     "Id": 11059,
     "Name": "野猪皮",
-    "AcceptDesc":"...",
-    "GradeSuggest":40,
     "Tags": [
       "client",
       "nogiveup"
@@ -3540,7 +3540,10 @@
       "itemid": 50048,
       "num": 3
     },
-    "Reward": 11008
+    "Reward": 11008,
+    "GradeSuggest": 20,
+    "AcceptDesc": "路过苏真真",
+    "Diff": "危险"
   },
   "11065": {
     "Id": 11065,

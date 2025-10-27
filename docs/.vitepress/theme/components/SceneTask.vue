@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, computed, onMounted } from "vue";
+import { defineProps, ref, computed, onMounted, watchEffect } from "vue";
 import TaskTabs from "./TaskTabs.vue";
 import { getSceneBranchTasks, XlsTask } from "../../data/task";
 
@@ -49,20 +49,21 @@ const levelGroups = ref<Array<{
 }>>([]);
 const activeLevelKey = ref<number>(0); // 当前激活的等级组标识
 
-// 初始化加载资料库数据
-onMounted(async () => {
-  // 2. 加载该场景下所有支线任务（资料库需全量加载，方便分类）
+async function updateContent(){
   const branchTasks = await getSceneBranchTasks(props.sceneId);
   allBranchTasks.value = branchTasks;
 
   // 3. 按“最低接取等级”分组（核心分类逻辑）
   levelGroups.value = groupTasksByLevel(branchTasks);
+  console.log('SceneTask.updateContent:', branchTasks)
 
   // 4. 默认激活第一个等级组（若有）
   if (levelGroups.value.length > 0) {
     activeLevelKey.value = levelGroups.value[0].levelKey;
   }
-});
+}
+
+watchEffect(updateContent);
 
 // 核心逻辑：按等级区间分组（资料库友好的分组规则）
 const groupTasksByLevel = (tasks: XlsTask[]): typeof levelGroups.value => {

@@ -31,6 +31,7 @@ import TaskTabs from './components/TaskTabs.vue'
 import SceneTask from './components/SceneTask.vue'
 
 import Scene from './components/Scene.vue'
+import SceneTabs from './components/SceneTabs.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -67,7 +68,9 @@ export function registerGameComponents(app: any) {
   app.component('TaskCard', TaskCard)
   app.component('TaskTabs', TaskTabs)
   app.component('SceneTask', SceneTask)
+
   app.component('Scene', Scene)
+  app.component('SceneTabs', SceneTabs)
   
 
   app.component('testTooltip', testTooltip)

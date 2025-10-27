@@ -83,7 +83,7 @@ export async function getSceneBranchTasks(scene: number) : Promise<XlsTask[]> {
         // if (task.AcceptDesc){
         //     console.log(task,isMain(task),task.Scene===scene);
         // }
-        if (!isMain(task) && task.Scene === scene && task.AcceptDesc) {
+        if (!isMain(task) && task.Scene === scene && task.AcceptDesc && task.GradeSuggest) {
             rt.push(task)
         }
     }

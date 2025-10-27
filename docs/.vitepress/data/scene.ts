@@ -3,8 +3,8 @@ import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsScene extends XlsBase {
   Type: string;
-  ShopName: string;
   MapId: number;
+  Shop: string;
 };
 
 

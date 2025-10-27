@@ -25,13 +25,18 @@ export async function getTele(id: number) {
   return (await getTeles())[id]
 }
 
+//室内
+export function isIndoor(Type:string) {
+    return Type?.indexOf('室内') >= 0 || Type?.indexOf('山洞') >= 0
+}
+
 export async function getTelesTypeByScene(type: string, scene: number): Promise<XlsTeleport[]> {
     const teles = await getTeles();
     const rts = [];
     for (const tele of Object.values(teles)) {
         if (tele.ScenePrototype == scene) {
             const xls = await getScene(tele.tgtScene);
-            if (xls && type === '室内' === xls.Type?.indexOf('室内') >= 0){
+            if (xls && type === '室内' === isIndoor(xls.Type)){
                 rts.push(tele);
             }
         }

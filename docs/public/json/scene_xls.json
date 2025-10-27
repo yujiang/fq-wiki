@@ -378,7 +378,8 @@
     "Fightbg": 3073,
     "Enter": {
       "trigger": 209918
-    }
+    },
+    "Shop": "shop_xinshoucun"
   },
   "1024": {
     "Id": 1024,
@@ -5000,19 +5001,21 @@
   },
   "4445": {
     "Id": 4445,
-    "Name": "上一百层地图",
+    "Name": "云朵",
     "MapId": 4445,
-    "Type": "村庄",
     "Grade": 0,
-    "Width": 4560,
-    "Height": 6160,
-    "Light": 1001,
-    "Desc": "一座与世无争、人杰地灵的村庄。",
-    "showSmap": 0,
-    "MusicNo": 1015,
-    "x": 81,
-    "y": 57,
-    "Weather": 1001
+    "Width": 960,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "jumpGame",
+      "loop",
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 150,
+    "Weather": 4445
   },
   "4446": {
     "Id": 4446,

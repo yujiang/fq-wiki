@@ -54,7 +54,7 @@ async function loadData() {
   }
   tgtPos.value = itemsMap;
 
-  console.log("Tele data reloaded:", props.teleType, cs.length);
+  console.log("Tele data reloaded:", props.teleType, cs.length, cs);
 }
 
 // --- 初次加载 ---

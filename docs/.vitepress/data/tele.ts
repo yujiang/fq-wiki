@@ -27,7 +27,7 @@ export async function getTele(id: number) {
 
 //室内
 export function isIndoor(Type:string) {
-    return Type?.indexOf('室内') >= 0 || Type?.indexOf('山洞') >= 0
+    return Type?.indexOf('室内') >= 0 // || Type?.indexOf('山洞') >= 0
 }
 
 export async function getTelesTypeByScene(type: string, scene: number): Promise<XlsTeleport[]> {

@@ -7,6 +7,7 @@ export interface XlsCollect extends XlsSceneObj {
   TopLimit: number;  
   Rewards: number;
   PickupItem: number;
+  say: number;
 }
 
 export type Collects = Record<number, XlsCollect>;
@@ -29,6 +30,6 @@ export async function getCollectsTypeByScene(type:string, scene: number): Promis
   const rt = Object.values(collects).filter(
     (c) => c.Scene === scene && c.Type === type
   ) ;
-  console.log('getCollectsByScene', Object.keys(collects).length, scene, rt.length);
+  console.log('getCollectsByScene', scene, Object.keys(collects).length, rt.length);
   return rt;
 }

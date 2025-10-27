@@ -34,6 +34,7 @@ import { getCollectsTypeByScene, XlsCollect } from "../../data/collect";
 import { formatClientPos } from "../../data/public";
 import { getRewardAll } from "../../data/reward";
 import { ItemIdCount } from "../../data/item";
+import { getSayReward } from "../../data/say";
 
 const props = defineProps<{
   sceneId: number;
@@ -53,11 +54,15 @@ async function loadData() {
   // 2. 加载对应奖励
   const itemsMap: Record<number, ItemIdCount[]> = {};
   for (const collect of cs) {
-    itemsMap[collect.Id] = await getRewardAll(collect.Rewards);
+    let rw = collect.Rewards;
+    if (!rw && collect.say){
+      rw = await getSayReward(collect.say);
+    }
+    itemsMap[collect.Id] = await getRewardAll(rw);
   }
   rewardItemsMap.value = itemsMap;
 
-  console.log("Collect data reloaded:", props.collectType, cs.length, cs, itemsMap);
+  console.log("Collect data reloaded:", props.sceneId, props.collectType, cs.length, cs, itemsMap);
 
 }
 

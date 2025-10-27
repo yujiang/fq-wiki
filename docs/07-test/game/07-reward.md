@@ -15,7 +15,7 @@
 
 
 ```vue
-<RewardCard :rewardId="990001" /> 
+<RewardCard :rewardId="990007" /> 
 ```
 
-<RewardCard :rewardId="990001" />
+<RewardCard :rewardId="990007" />

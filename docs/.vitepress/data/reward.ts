@@ -10,10 +10,15 @@ type RewardMoney = [number, number];
 // item,num,rand
 type RewardItem = [number, number, number];
 
+export type RewardItemRand = [(number|number[])[], number, number, number]
+
 export interface XlsReward extends XlsBase {
   Money: RewardMoney[];
   Item: RewardItem[];
   Drop: RewardItem[];
+
+  ItemRand: RewardItemRand[];
+  ItemClass: RewardItem[];
 }
 
 export type Rewards = Record<number, XlsReward>;
@@ -38,13 +43,19 @@ export async function getRewardAll(id: number): Promise<ItemIdCount[]> {
 }
 
 // 返回 {id: count:} 给ItemList使用
+function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
+    if (typeof(a) === "number") {
+      return [{ id: a, count: 1, rand: 1 }];
+    }
+    return a.map((i) => { return { id: i[0], count: i[1], rand:i[2] } });
+}
+
 export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
   const r = await getReward(id);
   if (!r) return [];
-  const a = r.Item;
-  if (a) return a.map((i) => { return { id: i[0], count: i[1], rand:i[2] } });
+
+  let rt: ItemIdCount[] = [];
   if (r.Drop) {
-    let rt: ItemIdCount[] = [];
     for (const i of r.Drop) {
       const c = await getCollect(i[0]);
       if (c) {
@@ -53,7 +64,16 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
     }
     return rt;
   }
-  return [];
+
+  const a = r.Item;
+  if (a) {
+    rt.push(...item2RewardItems(a));
+  }
+  if (r.ItemClass || r.ItemRand){
+    rt.push({id: 999, count: '???'});
+  }
+
+  return rt;
 }
 
 // 把money渲染为grid

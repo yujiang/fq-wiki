@@ -17,7 +17,7 @@
     <!-- Active Tab Content -->
     <div class="panel" v-if="current">
       <!-- 用 :collectType 传递响应式值 -->
-      <SceneCollect :scene="sceneId" :collectType="current" />
+      <SceneCollect :sceneId="props.sceneId" :collectType="current" />
     </div>
   </div>
 </template>

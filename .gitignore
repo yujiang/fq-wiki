@@ -9,7 +9,7 @@ docs/.vitepress/.vitepress/
 
 # docs/.vitepress/json/
 docs/public/json/xls.zip
-docs/public/json/say_xls.json
+# docs/public/json/say_xls.json
 
 docs/public/images/icon/map/
 

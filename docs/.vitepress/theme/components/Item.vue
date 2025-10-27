@@ -48,7 +48,21 @@ const props = defineProps<ItemIdCount>();
 let item = ref<XlsItem | null>(null);
 let itemicon = ref("");
 let showPopover = ref(false);
-let randdesc = ref(props.rand ? props.rand + "%" : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
+
+function getRandDesc(){
+  if (props.rand){
+    if (props.rand >= 100){
+      return ''
+    }
+    return props.rand + "%"
+  }
+  if (props.fLevel){
+    return getFriendLevelDesc(props.fLevel)
+  }
+  return ""
+}
+
+let randdesc = ref(getRandDesc());
 // console.log("randdesc", props, randdesc.value);
 
 // 初始化并加载数据
@@ -69,6 +83,7 @@ const updateCurrentItem = async (id: number) => {
   item.value = xls;
   itemicon.value = getItemIcon(xls?.Icon);
   // showPopover.value = !! xls?.Detail
+   randdesc.value = getRandDesc();
 };
 
 // 根据 rank 动态计算背景图片

@@ -38,7 +38,7 @@
     <div class="scene-section" id="collects">
       <h2 class="section-title">采集点</h2>
       <div class="section-content">
-        <SceneCollect :sceneId="props.sceneId" />
+        <CollectTabs :sceneId="props.sceneId" />
       </div>
     </div>
 
@@ -65,7 +65,7 @@ import { defineProps, ref, onMounted, watchEffect } from "vue";
 import { getScene, getSceneSmap, XlsScene } from "../../data/scene"; // 场景数据接口
 import SceneTele from "./SceneTele.vue";
 import SceneNpc from "./SceneNpc.vue";
-import SceneCollect from "./SceneCollect.vue";
+import CollectTabs from "./CollectTabs.vue";
 import SceneTask from "./SceneTask.vue";
 import ShopTabs from "./ShopTabs.vue";
 

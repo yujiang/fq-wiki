@@ -3,6 +3,8 @@ import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsScene extends XlsBase {
   Type: string;
+  ShopName: string;
+  MapId: number;
 };
 
 
@@ -25,4 +27,9 @@ export async function getScenePositionClient(SceneId: number, x: number, y: numb
     const pos = formatClientPos(x, y);
     const scene = await getScene(SceneId);
     return scene ? `(${scene.Name} ${pos})` : `(${SceneId} ${pos})`;
+}
+
+export function getSceneSmap(xls: XlsScene){
+  if(xls.MapId) return `/images/map/${xls.MapId}.jpg` ;
+  return '';
 }

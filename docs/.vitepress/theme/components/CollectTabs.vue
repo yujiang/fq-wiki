@@ -17,7 +17,7 @@
     <!-- Active Tab Content -->
     <div class="panel" v-if="current">
       <!-- 用 :collectType 传递响应式值 -->
-      <SceneCollect :scene="scene" :collectType="current" />
+      <SceneCollect :scene="sceneId" :collectType="current" />
     </div>
   </div>
 </template>
@@ -27,7 +27,7 @@ import { ref, computed } from 'vue'
 // 按需引入你的组件路径
 // import SceneCollect from './SceneCollect.vue'
 
-const props = defineProps<{ scene: number }>()
+const props = defineProps<{ sceneId: number }>()
 
 // 当前激活的 tab 下标
 const active = ref(0)

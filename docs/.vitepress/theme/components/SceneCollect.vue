@@ -36,7 +36,7 @@ import { getRewardAll } from "../../data/reward";
 import { ItemIdCount } from "../../data/item";
 
 const props = defineProps<{
-  scene: number;
+  sceneId: number;
   collectType: string;
 }>();
 
@@ -47,7 +47,7 @@ const rewardItemsMap = ref<Record<number, ItemIdCount[]>>({});
 // --- 数据加载函数 ---
 async function loadData() {
   // 1. 加载 collect
-  const cs = (await getCollectsTypeByScene(props.collectType, props.scene)) || [];
+  const cs = (await getCollectsTypeByScene(props.collectType, props.sceneId)) || [];
   collects.value = cs;
 
   // 2. 加载对应奖励
@@ -66,7 +66,7 @@ onMounted(loadData);
 
 // --- 监听 collectType / scene 变化 ---
 watch(
-  () => [props.collectType, props.scene],
+  () => [props.collectType, props.sceneId],
   loadData,
 );
 

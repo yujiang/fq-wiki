@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, defineProps, onMounted, watch, computed, watchEffect } from "vue";
 import { getMoneyGrid, MoneyNum } from "../../data/money";
 import { ItemIdCount } from "../../data/item";
 
@@ -11,22 +11,12 @@ import { ItemIdCount } from "../../data/item";
 const props = defineProps<MoneyNum>();
 const item = ref<ItemIdCount>({id:0, count:0});
 
-// 初始化并加载数据
-onMounted(async () => {
-  updateCurrentMoney();
-});
-
-// 监听 good 变化
-watch(
-  () => [props.type, props.amount],
-  () => {
-    updateCurrentMoney();
-  }
-);
-
 const updateCurrentMoney = async () => {
   const xls = await getMoneyGrid(props.type, props.amount, props.compact);
   item.value = xls; 
 };
+// 初始化并加载数据
+watchEffect(updateCurrentMoney);
+
 </script>
 

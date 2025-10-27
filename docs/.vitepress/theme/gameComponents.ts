@@ -14,8 +14,8 @@ import TaoluCard from './components/TaoluCard.vue'
 
 import SceneCollect from './components/SceneCollect.vue'
 import CollectTabs from './components/CollectTabs.vue'
+import TeleList from './components/TeleList.vue'
 import SceneTele from './components/SceneTele.vue'
-import TeleTabs from './components/TeleTabs.vue'
 import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
 import Money from './components/Money.vue'
@@ -29,6 +29,8 @@ import SceneNpc from './components/SceneNpc.vue'
 import TaskCard from './components/TaskCard.vue'
 import TaskTabs from './components/TaskTabs.vue'
 import SceneTask from './components/SceneTask.vue'
+
+import Scene from './components/Scene.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -49,8 +51,8 @@ export function registerGameComponents(app: any) {
 
   app.component('SceneCollect', SceneCollect)
   app.component('CollectTabs', CollectTabs)
+  app.component('TeleList', TeleList)
   app.component('SceneTele', SceneTele)
-  app.component('TeleTabs', TeleTabs)
 
   app.component('RewardCard', RewardCard)
   app.component('MoneyCard', MoneyCard)
@@ -65,6 +67,8 @@ export function registerGameComponents(app: any) {
   app.component('TaskCard', TaskCard)
   app.component('TaskTabs', TaskTabs)
   app.component('SceneTask', SceneTask)
+  app.component('Scene', Scene)
+  
 
   app.component('testTooltip', testTooltip)
 }

@@ -1,13 +1,5 @@
 <template>
   <div class="scene-task-library">
-    <!-- 场景&任务类型标题栏 -->
-    <div class="scene-task-header">
-      <h1 class="scene-title"> 支线任务</h1>
-      <div class="task-meta">
-        <span class="total-count">共 {{ totalTaskCount }} 个支线任务</span>
-        <span class="tip-text">按最低接取等级分组，点击等级标签切换查看</span>
-      </div>
-    </div>
 
     <!-- 等级分组标签（核心分类导航） -->
     <div class="level-group-tabs">

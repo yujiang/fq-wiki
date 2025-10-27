@@ -1,89 +1,66 @@
-<!-- 场景下tele列表-->
- 
- <template>
-  <div class="tele-list">
-    <table>
-      <thead>
-        <tr>
- <!-- 仅开发环境显示 ID -->
-          <th v-if="isDev">ID</th>     
-           <th>位置</th>
-          <th>目的</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="tele in teles" :key="tele.Id">
-         <td v-if="isDev">{{ tele.Id  }}</td>
-          <td>{{ formatClientPos(tele.x, tele.y) }}</td>
-          <td>{{ tgtPos[tele.Id] }}</td>
-        </tr>
-      </tbody>
-    </table>
+
+<!-- 场景scene下的所有传送点 -->
+
+<template>
+  <div class="collect-tabs">
+     <!-- Tabs -->
+    <div class="tabs">
+      <button
+        v-for="(type, i) in tabs"
+        :key="type"
+        :class="['tab', { active: i === active }]"
+        @click="active = i"
+      >
+        {{ tabs[i] }}
+      </button>
+    </div>
+
+    <!-- Active Tab Content -->
+    <div class="panel" v-if="current">
+      <!-- 用 :collectType 传递响应式值 -->
+      <SceneTele :sceneId="sceneId" :teleType="current" />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch, watchEffect } from "vue";
-import { formatClientPos } from "../../data/public";
-import { getScenePositionClient } from "../../data/scene";
-import { XlsTeleport } from "../../data/tele";
-import { getTelesTypeByScene } from "../../data/tele";
+import { ref, computed } from 'vue'
+import SceneTele from './TeleList.vue';
+// 按需引入你的组件路径
+// import SceneCollect from './SceneCollect.vue'
 
-const props = defineProps<{
-  scene: number;
-  teleType: string;
-}>();
+const props = defineProps<{ sceneId: number }>()
 
+// 当前激活的 tab 下标
+const active = ref(0)
 
-// --- 状态 ---
-const teles = ref<XlsTeleport[]>([]);
-const tgtPos = ref<Record<number, string>>({});
+const tabs = ['室内', '野外']
 
-// --- 数据加载函数 ---
-async function loadData() {
-  // 1. 加载 tele
-  const cs = (await getTelesTypeByScene(props.teleType, props.scene)) || [];
-  teles.value = cs;
-
-  const itemsMap: Record<number, string> = {};
-  for (const tele of cs) {
-    itemsMap[tele.Id] = await getScenePositionClient(tele.tgtScene, tele.tgtX, tele.tgtY);
-  }
-  tgtPos.value = itemsMap;
-
-  console.log("Tele data reloaded:", props.teleType, cs.length);
-}
-
-// --- 初次加载 ---
-onMounted(loadData);
-
-// --- 监听 teleType / scene 变化 ---
-watchEffect(
-  loadData
-);
-
-// ✅ 开发模式时为 true，生产构建后为 false
-const isDev = import.meta.env.DEV;
-
+// 根据 active 计算当前类型
+const current = computed(() => tabs[active.value] ?? '')
 </script>
 
 <style scoped>
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-th,
-td {
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
-th {
-  background-color: #f4f4f4;
-}
-.reward-cell {
+.tabs {
   display: flex;
-  justify-content: flex-start;
+  gap: 8px;
   flex-wrap: wrap;
+  margin-bottom: 12px;
+  background: #f0f0f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.tab {
+  padding: 6px 12px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  cursor: pointer;
+}
+.tab.active {
+  background: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand);
+  color: var(--vp-c-brand-1);
+}
+.panel {
+  padding: 4px 0;
 }
 </style>

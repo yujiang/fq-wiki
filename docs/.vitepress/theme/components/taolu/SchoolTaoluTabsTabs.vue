@@ -1,7 +1,7 @@
 <template>
   <div class="school-taolu-tabs-tabs">
     <!-- 页面标题 -->
-    <h1 class="page-title">武学总览</h1>
+    <!-- <h1 class="page-title">武学总览</h1> -->
 
     <!-- 外层标签：门派切换 -->
     <div class="school-tabs-nav">

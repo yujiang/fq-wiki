@@ -8,6 +8,8 @@ import ItemGrid from './components/ItemGrid.vue'
 import Skill from './components/Skill.vue'
 import SkillList from './components/SkillList.vue'
 import SkillGrid from './components/SkillGrid.vue'
+import SkillGridType from './components/SkillGridType.vue'
+import SkillGridSecretSchoolTabs from './components/school/SkillGridSecretSchoolTabs.vue'
 
 import Taolu from './components/taolu/Taolu.vue'
 import TaoluSkillGrid from './components/taolu/TaoluSkillGrid.vue'
@@ -51,6 +53,8 @@ export function registerGameComponents(app: any) {
   app.component('Skill', Skill)
   app.component('SkillList', SkillList)
   app.component('SkillGrid', SkillGrid)
+  app.component('SkillGridType', SkillGridType)
+  app.component('SkillGridSecretSchoolTabs', SkillGridSecretSchoolTabs)
 
   app.component('Taolu', Taolu)
   app.component('TaoluSkillGrid', TaoluSkillGrid)

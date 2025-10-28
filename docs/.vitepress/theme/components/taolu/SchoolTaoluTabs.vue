@@ -1,7 +1,7 @@
 <template>
   <div class="school-taolu-tabs">
     <!-- 门派标题 -->
-    <h1 class="main-title">{{ school }} 武学总览</h1>
+    <!-- <h1 class="main-title">{{ school }} 武学总览</h1> -->
 
     <!-- 加载状态（获取武功类型时） -->
     <div class="loading" v-if="isLoadingTypes">加载门派武学类型中...</div>

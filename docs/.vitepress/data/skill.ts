@@ -3,6 +3,8 @@ import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsSkill extends XlsBase {
   Rank: number;
+  School?: string;
+  Type: string;
 };
 
 
@@ -60,4 +62,18 @@ export interface SkillIdLevel{
   level?: number;
   unlock?: number;
   fLevel?: number; // 友好级别
+}
+
+export async function getSkillsFileType(file: string, type?: string): Promise<Skills> {
+  const skills = await fetchXls(file) as Skills;
+  if (!type || type === "all") return skills;
+  return Object.values(skills).filter(item => item.Type === type);
+
+}
+
+export async function getSkillsFileSchool(file: string, school?: string): Promise<Skills> {
+  const skills = await fetchXls(file) as Skills;
+  if (!school || school === "all") return skills;
+  return Object.values(skills).filter(item => item.School === school);
+
 }

@@ -1,8 +1,8 @@
 import { getScenePositionClient } from "./scene";
-import { fetchXls, XlsSceneObj } from "./xls";
+import { DisplayStruct, fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsNpc extends XlsSceneObj {
-  Display: {shape: number, icon: number};
+  Display: DisplayStruct;
   Scene: number;
   Observe: number;
 };

@@ -36,7 +36,13 @@ const actualRows = computed(() => {
   // 不传入 cols 时强制为1行
   if (props.cols === undefined) return 1;
   // 传入 cols 时，行数默认1行（或使用传入的rows）
-  return props.rows || 1;
+  // return props.rows || 1;
+  // 传入 cols 时，根据总技能数和列数自动计算行数（向上取整）
+  const totalSkills = props.skills.length;
+  const cols = actualCols.value;
+  
+  // 计算逻辑：总技能数 ÷ 列数，不足1行按1行算
+  return Math.ceil(totalSkills / cols);  
 });
 
 const actualCols = computed(() => {

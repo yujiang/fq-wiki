@@ -15,7 +15,9 @@ export interface XlsSceneObj extends XlsBase {
   y: number;
 };
 
-
+export interface DisplayStruct{
+  shape: number, icon: number
+};
 
 export type Bases = Record<number, XlsBase>
 

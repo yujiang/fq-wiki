@@ -1,6 +1,25 @@
-import { fetchXls, XlsBase } from "./xls";
+import { SkillIdLevel, XlsSkill } from "./skill";
+import { DisplayStruct, fetchXls, XlsBase } from "./xls";
+
+
+interface TaoluInit{
+  wu: SkillIdLevel;
+  qing: SkillIdLevel;
+  nei: SkillIdLevel;
+}
 
 export interface XlsSoldier extends XlsBase {
+  display: DisplayStruct;
+  
+  pointdata: number;
+  basedata: number;
+  spcialdata: number;  
+  zizhidata: number;
+
+  weapon: string;
+  Taolu: TaoluInit;
+
+  MallClickTips: string;
 };
 
 

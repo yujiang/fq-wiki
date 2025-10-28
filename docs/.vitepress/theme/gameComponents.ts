@@ -29,6 +29,7 @@ import Money from './components/Money.vue'
 
 import NpcIcon from './components/NpcIcon.vue'
 import NpcList from './components/NpcList.vue'
+import NpcFriendList from './components/NpcFriendList.vue'
 import NpcCard from './components/NpcCard.vue'
 import NpcCards from './components/NpcCards.vue'
 import SceneNpc from './components/Scene/SceneNpc.vue'
@@ -77,6 +78,7 @@ export function registerGameComponents(app: any) {
   app.component('NpcCards', NpcCards)
   app.component('NpcIcon', NpcIcon)
   app.component('NpcList', NpcList)
+  app.component('NpcFriendList', NpcFriendList)
   app.component('SceneNpc', SceneNpc)
 
   app.component('TaskCard', TaskCard)

@@ -59,7 +59,7 @@ export function getSkillIcon(icon: number|undefined) {
 
 export interface SkillIdLevel{
   id: number;
-  level?: number;
+  level?: number|string;
   unlock?: number;
   fLevel?: number; // 友好级别
 }

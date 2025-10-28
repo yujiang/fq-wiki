@@ -68,4 +68,6 @@
 2. 过滤掉无效的id， 实际上天山小贼的observe必须填0
 3. collect allreward money放在item前面
 
+4. school SchoolTaoluTabsTabs
+5. RewardCard + secret,secretExp,
 

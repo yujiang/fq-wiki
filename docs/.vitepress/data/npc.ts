@@ -7,6 +7,10 @@ export interface XlsNpc extends XlsSceneObj {
   Observe: number;
 };
 
+export interface NpcFriend{
+  npcId: number;
+  friend: number; // 友好度
+}
 
 export type Npcs = Record<number, XlsNpc>;
 

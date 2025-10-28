@@ -6,7 +6,10 @@
   >
     <div class="icon-wrap" :style="backgroundStyle">
       <img v-if="npcicon" :src="npcicon" alt="" class="icon" />
-      <!-- 选中时显示的标记（可选，比如勾选图标） -->
+      <!-- 动态绑定友好度的样式 -->
+      <span class="friend" v-if="friend" :style="friendStyle">
+        {{ friend > 0 ? '+' + friend : friend }} <!-- 正数加+号更直观 -->
+      </span>      <!-- 选中时显示的标记（可选，比如勾选图标） -->
       <div class="select-marker" v-if="isSelected">✓</div>
     </div>
     <div class="base-item-name npc-name" v-if="npc?.Name">
@@ -27,6 +30,7 @@ import { getRankBgStyle } from "../../data/xls";
 // 1. 接收 props：新增 isSelected 控制选中状态
 const props = defineProps<{
   npcId: number;
+  friend?: number; // 友好度
   isSelected?: boolean; // 外部传入的选中状态（默认 false）
 }>();
 
@@ -53,6 +57,9 @@ const updateCurrentNpc = async (id: number) => {
 
 const backgroundStyle = computed(() => getRankBgStyle(npc.value?.Rank));
 
+const friendStyle = computed(() => ({
+  color: props.friend! > 0 ? '#4CAF50' : '#F44336', // 绿色/红色
+}));
 
 </script>
 
@@ -87,5 +94,15 @@ const backgroundStyle = computed(() => getRankBgStyle(npc.value?.Rank));
 /* 确保图标容器是相对定位，让选中标记能绝对定位 */
 .icon-wrap {
   position: relative;
+}
+
+
+.friend {
+  position: absolute;
+  bottom: -2px;
+  right: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
 }
 </style>

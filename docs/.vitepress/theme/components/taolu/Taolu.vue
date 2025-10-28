@@ -17,9 +17,9 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsTaolu,getTaolu  } from "../../data/taolu";
-import { getSkillIcon } from "../../data/skill";
-import { getRankBgStyle } from "../../data/xls";
+import { XlsTaolu,getTaolu  } from "../../../data/taolu";
+import { getSkillIcon } from "../../../data/skill";
+import { getRankBgStyle } from "../../../data/xls";
 
 // 接收 props 数据
 const props = defineProps<{id:number}>();

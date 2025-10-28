@@ -32,8 +32,8 @@
 
 <script setup lang="ts">
 import { defineProps, ref, computed, onMounted, watchEffect } from "vue";
-import TaskTabs from "./TaskTabs.vue";
-import { getSceneBranchTasks, XlsTask } from "../../data/task";
+import TaskTabs from "../TaskTabs.vue";
+import { getSceneBranchTasks, XlsTask } from "../../../data/task";
 
 // 接收父组件传入的场景ID（资料库核心参数）
 const props = defineProps<{

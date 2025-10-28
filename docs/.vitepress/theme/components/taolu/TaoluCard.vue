@@ -23,7 +23,7 @@
 <script setup lang="ts">
 // 数据逻辑不变
 import { ref, defineProps, onMounted, watch } from "vue";
-import { XlsTaolu, getTaolu } from "../../data/taolu";
+import { XlsTaolu, getTaolu } from "../../../data/taolu";
 import Taolu from "./Taolu.vue";
 import TaoluSkillGrid from "./TaoluSkillGrid.vue";
 
@@ -48,7 +48,7 @@ const updateCurrentTaolu = async (id: number) => {
 
 <style scoped>
 .taolu-card {
-  width: 700px;
+  width: 680px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background-color: #ffffff;
@@ -77,7 +77,7 @@ const updateCurrentTaolu = async (id: number) => {
 
 /* 2. 描述区域：固定宽度300px，自动换行且垂直居中 */
 .taolu-desc {
-  width: 270px;
+  width: 240px;
   flex-shrink: 0;
   font-size: 14px;
   color: #666666;

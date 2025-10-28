@@ -24,10 +24,10 @@
 
 <script setup lang="ts">
 import { defineProps, ref, watchEffect } from "vue";
-import { formatClientPos } from "../../data/public";
-import { getScenePositionClient } from "../../data/scene";
-import { XlsTeleport } from "../../data/tele";
-import { getTelesTypeByScene } from "../../data/tele";
+import { formatClientPos } from "../../../data/public";
+import { getScenePositionClient } from "../../../data/scene";
+import { XlsTeleport } from "../../../data/tele";
+import { getTelesTypeByScene } from "../../../data/tele";
 
 const props = defineProps<{
   sceneId: number;

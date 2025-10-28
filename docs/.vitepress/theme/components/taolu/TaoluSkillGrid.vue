@@ -10,9 +10,9 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import SkillGrid from "./SkillGrid.vue";
-import { SkillIdLevel } from "../../data/skill";
-import { getTaoluSkills } from "../../data/taolu";
+import SkillGrid from "../SkillGrid.vue";
+import { SkillIdLevel } from "../../../data/skill";
+import { getTaoluSkills } from "../../../data/taolu";
 
 // 仅保留核心属性
 const props = defineProps<{

@@ -30,11 +30,11 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../data/collect";
-import { formatClientPos } from "../../data/public";
-import { getRewardAll } from "../../data/reward";
-import { ItemIdCount } from "../../data/item";
-import { getSayReward } from "../../data/say";
+import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../../data/collect";
+import { formatClientPos } from "../../../data/public";
+import { getRewardAll } from "../../../data/reward";
+import { ItemIdCount } from "../../../data/item";
+import { getSayReward } from "../../../data/say";
 
 const props = defineProps<{
   sceneId: number;

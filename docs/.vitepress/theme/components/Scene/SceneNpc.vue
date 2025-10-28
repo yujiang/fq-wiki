@@ -27,10 +27,10 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import NpcCards from "./NpcCards.vue";
-import { fillterNpcByScene, getNpcs } from "../../data/npc";
-import { getObserves } from "../../data/observe";
-import { getSoldiers } from "../../data/soldier";
+import NpcCards from "../NpcCards.vue";
+import { fillterNpcByScene, getNpcs } from "../../../data/npc";
+import { getObserves } from "../../../data/observe";
+import { getSoldiers } from "../../../data/soldier";
 
 type NpcType = "soldier" | "skill" | "other";
 const tabs = [

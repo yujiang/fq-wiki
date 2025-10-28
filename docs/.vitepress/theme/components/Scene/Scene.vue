@@ -62,7 +62,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watchEffect } from "vue";
-import { getScene, getSceneSmap, XlsScene } from "../../data/scene"; // 场景数据接口
+import { getScene, getSceneSmap, XlsScene } from "../../../data/scene"; // 场景数据接口
 import SceneTele from "./SceneTele.vue";
 import SceneNpc from "./SceneNpc.vue";
 import CollectTabs from "./CollectTabs.vue";

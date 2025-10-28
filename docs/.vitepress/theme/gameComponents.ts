@@ -1,6 +1,6 @@
 import ItemCard from './components/ItemCard.vue'
 import ShopCard from './components/ShopCard.vue'
-import ShopTabs from './components/ShopTabs.vue'
+import ShopTabs from './components/Scene/ShopTabs.vue'
 
 import Item from './components/Item.vue'
 import ItemList from './components/ItemList.vue'
@@ -8,14 +8,19 @@ import ItemGrid from './components/ItemGrid.vue'
 import Skill from './components/Skill.vue'
 import SkillList from './components/SkillList.vue'
 import SkillGrid from './components/SkillGrid.vue'
-import Taolu from './components/Taolu.vue'
-import TaoluSkillGrid from './components/TaoluSkillGrid.vue'
-import TaoluCard from './components/TaoluCard.vue'
 
-import SceneCollect from './components/SceneCollect.vue'
-import CollectTabs from './components/CollectTabs.vue'
-import TeleList from './components/TeleList.vue'
-import SceneTele from './components/SceneTele.vue'
+import Taolu from './components/taolu/Taolu.vue'
+import TaoluSkillGrid from './components/taolu/TaoluSkillGrid.vue'
+import TaoluCard from './components/taolu/TaoluCard.vue'
+import TaoluCardList from './components/taolu/TaoluCardList.vue'
+import SchoolTaolu from './components/taolu/SchoolTaolu.vue'
+import SchoolTaoluTabs from './components/taolu/SchoolTaoluTabs.vue'
+import SchoolTaoluTabsTabs from './components/taolu/SchoolTaoluTabsTabs.vue'
+
+import SceneCollect from './components/Scene/SceneCollect.vue'
+import CollectTabs from './components/Scene/CollectTabs.vue'
+import TeleList from './components/Scene/TeleList.vue'
+import SceneTele from './components/Scene/SceneTele.vue'
 import RewardCard from './components/RewardCard.vue'
 import MoneyCard from './components/MoneyCard.vue'
 import Money from './components/Money.vue'
@@ -24,14 +29,14 @@ import NpcIcon from './components/NpcIcon.vue'
 import NpcList from './components/NpcList.vue'
 import NpcCard from './components/NpcCard.vue'
 import NpcCards from './components/NpcCards.vue'
-import SceneNpc from './components/SceneNpc.vue'
+import SceneNpc from './components/Scene/SceneNpc.vue'
 
 import TaskCard from './components/TaskCard.vue'
 import TaskTabs from './components/TaskTabs.vue'
-import SceneTask from './components/SceneTask.vue'
+import SceneTask from './components/Scene/SceneTask.vue'
 
-import Scene from './components/Scene.vue'
-import SceneTabs from './components/SceneTabs.vue'
+import Scene from './components/Scene/Scene.vue'
+import SceneTabs from './components/Scene/SceneTabs.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -46,9 +51,14 @@ export function registerGameComponents(app: any) {
   app.component('Skill', Skill)
   app.component('SkillList', SkillList)
   app.component('SkillGrid', SkillGrid)
+
   app.component('Taolu', Taolu)
   app.component('TaoluSkillGrid', TaoluSkillGrid)
   app.component('TaoluCard', TaoluCard)
+  app.component('TaoluCardList', TaoluCardList)
+  app.component('SchoolTaolu', SchoolTaolu)
+  app.component('SchoolTaoluTabs', SchoolTaoluTabs)
+  app.component('SchoolTaoluTabsTabs', SchoolTaoluTabsTabs)
 
   app.component('SceneCollect', SceneCollect)
   app.component('CollectTabs', CollectTabs)

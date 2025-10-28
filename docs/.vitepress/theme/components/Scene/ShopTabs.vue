@@ -21,8 +21,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watch, } from 'vue'
-import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../data/shop'
-import ShopCard from './ShopCard.vue'
+import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../../data/shop'
+import ShopCard from '../ShopCard.vue'
 
 const props = defineProps<{ ids?: number[], name?: string }>()
 // console.log("ShopTabs props", props)

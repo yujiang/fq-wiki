@@ -63,4 +63,9 @@
 2. 还差 npc + task
 
 
+## 10.28
+1. 少林 observe item 少了[]
+2. 过滤掉无效的id， 实际上天山小贼的observe必须填0
+3. collect allreward money放在item前面
+
 

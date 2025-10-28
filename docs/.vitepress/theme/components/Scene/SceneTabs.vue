@@ -55,7 +55,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, computed, watchEffect } from "vue";
-import { getScenes, Scenes } from "../../data/scene"; // 通过ID获取场景名称
+import { getScenes, Scenes } from "../../../data/scene"; // 通过ID获取场景名称
 import Scene from "./Scene.vue";
 
 // 接收三个分类的场景ID数组

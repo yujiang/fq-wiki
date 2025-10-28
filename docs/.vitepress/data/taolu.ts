@@ -2,12 +2,19 @@ import { getScenePositionClient } from "./scene";
 import { SkillIdLevel } from "./skill";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
+export type TaoluType = 'wu'|'nei'|'qing'
+export type TaoluClassType = '刀'|'剑'|'拳'|'棍'|'内功'|'轻功'
+
 export interface XlsTaolu extends XlsBase {
     Rank: number;
     TaoluSkill: number[];
     // [skill, level, unlock]
     SkillLevelUnlock: [number, number, number][];
     Detail: string;
+
+    School: string;
+    Type: TaoluType;
+    大类: TaoluClassType;
 };
 
 
@@ -42,4 +49,19 @@ interface XlsLearnTaolu extends XlsBase {
 export async function getLearnTaoluInfo(name: string){
     const learns = await fetchXls("learnTaolu") as Record<string, XlsLearnTaolu>;
     return learns[name];
+}
+
+export async function getTaolusBySchool(name: string, type: TaoluClassType): Promise<XlsTaolu[]>{
+    const taolus = await getTaolus();
+    return Object.values(taolus).filter(x => x.School === name && x.大类 === type);
+}
+
+//获取门派支持的武功类型（如 ['棍','内功']）
+export async function getSchoolTaoluTypes(name: string): Promise<TaoluClassType[]>{
+    const taolus = await getTaolus();
+    const types = new Set<TaoluClassType>();
+    Object.values(taolus).forEach(x => {
+        if(x.School === name) types.add(x.大类);
+    })
+    return Array.from(types);
 }

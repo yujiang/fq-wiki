@@ -62,6 +62,11 @@
 1. 完成了collect + tele
 2. 还差 npc + task
 
+## 10.27
+1. reward可以显示rewardClass
+2. collect添加探索
+3. observe双向检查下icon相等
+4. tele生成x,y
 
 ## 10.28
 1. 少林 observe item 少了[]

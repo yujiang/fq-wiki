@@ -10504,9 +10504,9 @@
       "id": 80030,
       "click": "tips",
       "tipsOrTrigger": "死者应该是附近村落的村民",
+      "sayReturn": 1,
       "say": 83070
     },
-    "sayReturn": 1,
     "NextTask": 83005
   },
   "83005": {
@@ -10908,61 +10908,180 @@
     "Desc": "本府广招天下英杰，到场者均可得白银五两，有意速来武昌城东北角石府宅邸",
     "Des": {
       "id": 80052,
-      "say": 83300
-    },
-    "sayReturn": 1,
-    "NextTask": 83053,
-    "Reward": 83050
+      "say": 84000
+    }
   },
   "83051": {
     "Id": 83051,
     "Name": "展露身手",
     "Tags": [
-      "client"
+      "client",
+      "nogiveup"
     ],
     "Type": "meet",
     "Scene": 1029,
     "Desc": "展露身手威慑门房",
     "Des": {
       "id": 80052,
-      "say": 83319
+      "sayReturn": 1,
+      "say": 84018
     },
-    "NextTask": 83053,
-    "Reward": 83051
+    "Reward": 83035
   },
   "83052": {
     "Id": 83052,
     "Name": "教训门房",
     "Tags": [
-      "client"
+      "client",
+      "nogiveup"
     ],
     "Type": "fight",
     "Scene": 1029,
     "Desc": "教训无礼的门房",
     "Des": {
       "id": 80052,
-      "say": 83324
+      "sayReturn": 1,
+      "say": 84023
     },
-    "sayReturn": 1,
     "Battle": {
       "bid": 83010
     },
-    "NextTask": 83053,
-    "Reward": 83052
+    "Reward": 83035
   },
   "83053": {
     "Id": 83053,
-    "Name": "石府风波",
+    "Name": "贿赂门房",
     "Tags": [
-      "client"
+      "client",
+      "nogiveup"
     ],
     "Type": "meet",
     "Scene": 1029,
+    "Desc": "拿出三两银子贿赂门房",
+    "Des": {
+      "id": 80052,
+      "sayReturn": 1,
+      "say": 84002
+    },
+    "Reward": 83035
+  },
+  "83054": {
+    "Id": 83054,
+    "Name": "拜访石翁",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 9649,
     "Desc": "进入石府面见石崇光",
     "Des": {
       "id": 80054,
-      "say": 83329
-    }
+      "say": 84028
+    },
+    "NextTask": 83055
+  },
+  "83055": {
+    "Id": 83055,
+    "Name": "白玉凤凰",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "sayed",
+    "Scene": 9649,
+    "Desc": "查看纸笺",
+    "Des": {
+      "id": 80054
+    },
+    "Sayed": [
+      84044
+    ],
+    "finishDrama": 84045,
+    "NextTask": 83056
+  },
+  "83056": {
+    "Id": 83056,
+    "Name": "石翁之请",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 9649,
+    "Desc": "接受石崇光的委托",
+    "Des": {
+      "id": 80054,
+      "sayReturn": 1,
+      "say": 84051
+    },
+    "NextTask": 83057
+  },
+  "83057": {
+    "Id": 83057,
+    "Name": "留宿石府",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 9649,
+    "Desc": "接受石崇光的邀请留宿石府",
+    "Des": {
+      "id": 80054,
+      "sayReturn": 1,
+      "say": 84055
+    },
+    "NextTask": 83058,
+    "Reward": 83034
+  },
+  "83058": {
+    "Id": 83058,
+    "Name": "江湖三杰",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "dating",
+    "Scene": 9649,
+    "AddNpcs": [
+      80055,
+      80057,
+      80058
+    ],
+    "Desc": "与徐聆、莫闻、段飞三人交谈",
+    "finishDrama": 84062,
+    "Dating": {
+      "ids": [
+        80130,
+        80131,
+        80132
+      ],
+      "num": 3
+    },
+    "NextTask": 83059
+  },
+  "83059": {
+    "Id": 83059,
+    "Name": "守株待兔",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "sayed",
+    "Scene": 9649,
+    "AddNpcs": [
+      80055,
+      80057,
+      80058
+    ],
+    "Desc": "听候石崇光指挥等待梅花盗现身",
+    "Des": {
+      "id": 80054
+    },
+    "Sayed": [
+      84063
+    ]
   },
   "83060": {
     "Id": 83060,
@@ -11112,9 +11231,9 @@
     "Desc": "有人看见匪徒出现在城门",
     "Des": {
       "id": 80043,
+      "sayReturn": 1,
       "say": 87070
     },
-    "sayReturn": 1,
     "Battle": {
       "bid": 89050,
       "times": 1

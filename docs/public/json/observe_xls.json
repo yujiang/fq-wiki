@@ -4617,6 +4617,57 @@
       ]
     ]
   },
+  "80055": {
+    "Id": 80055,
+    "Name": "徐聆",
+    "School": "出身：武昌",
+    "Desc": "听风辨器，无声不漏",
+    "Npc": 80055,
+    "Level": 0,
+    "GiveAdd": 10,
+    "Like": {
+      "rank": 1
+    },
+    "Liliang": 35,
+    "Minjie": 35,
+    "Gengu": 35,
+    "Neixi": 35,
+    "Power": "渐入佳境"
+  },
+  "80057": {
+    "Id": 80057,
+    "Name": "莫闻",
+    "School": "出身：武昌",
+    "Desc": "天生鬼鼻，嗅觉通神",
+    "Npc": 80056,
+    "Level": 0,
+    "GiveAdd": 10,
+    "Like": {
+      "rank": 1
+    },
+    "Liliang": 35,
+    "Minjie": 35,
+    "Gengu": 35,
+    "Neixi": 35,
+    "Power": "渐入佳境"
+  },
+  "80058": {
+    "Id": 80058,
+    "Name": "段飞",
+    "School": "出身：武昌",
+    "Desc": "轻功高绝，独行千里",
+    "Npc": 80057,
+    "Level": 0,
+    "GiveAdd": 10,
+    "Like": {
+      "rank": 1
+    },
+    "Liliang": 35,
+    "Minjie": 35,
+    "Gengu": 35,
+    "Neixi": 35,
+    "Power": "渐入佳境"
+  },
   "100001": {
     "Id": 100001,
     "Name": "端阳",

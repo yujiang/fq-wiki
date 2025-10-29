@@ -30,10 +30,32 @@ function getGap() {
 // 定义传入的属性
 const props = defineProps<{
   items: ItemIdCount[]; // 所有物品数据
-  rows: number; // 行数（如4）
-  cols: number; // 列数（如3）
+  rows?: number; // 行数（如4）
+  cols?: number; // 列数（如3）
   gap?: number; // 网格间距，默认4px
 }>();
+
+// 计算实际使用的行列数（核心逻辑）
+const actualRows = computed(() => {
+  // 不传入 cols 时强制为1行
+  if (props.cols === undefined) return 1;
+  // 传入 cols 时，行数默认1行（或使用传入的rows）
+  // return props.rows || 1;
+  // 传入 cols 时，根据总技能数和列数自动计算行数（向上取整）
+  const totalSkills = props.items.length;
+  const cols = actualCols.value;
+  
+  // 计算逻辑：总技能数 ÷ 列数，不足1行按1行算
+  return Math.ceil(totalSkills / cols);  
+});
+
+const actualCols = computed(() => {
+  // 不传入 cols 时，列数等于技能总数（单行展示）
+  if (props.cols === undefined) return props.items.length;
+  // 传入 cols 时使用指定列数
+  return props.cols;
+});
+
 
 // 计算网格容器样式（显式声明CSS类型）
 const containerStyle = computed<CSSProperties>(() => ({
@@ -47,14 +69,16 @@ const rowContainerStyle = computed<CSSProperties>(() => ({
 
 // 计算每行内部 ItemList 的样式
 const rowStyle = computed<CSSProperties>(() => ({
-  gridTemplateColumns: `repeat(${props.cols}, 1fr)`, // 平均分配列宽
+  gridTemplateColumns: `repeat(${actualCols.value}, 1fr)`, // 平均分配列宽
   gap: `${getGap()}px` // 列与列之间的间距
 }));
 
 // 将一维数组转换为二维网格数组（自动用空对象补齐每行）
 const gridItems = computed<ItemIdCount[][]>(() => {
   const result: ItemIdCount[][] = [];
-  const totalCells = props.rows * props.cols; // 总单元格数量
+  const rows = props.rows || actualRows.value;
+  const cols = props.cols || actualCols.value;
+  const totalCells = rows * cols; // 总单元格数量
   // 复制原始数据并填充空对象至总单元格数量
   const filledItems = [...props.items];
   while (filledItems.length < totalCells) {
@@ -62,9 +86,9 @@ const gridItems = computed<ItemIdCount[][]>(() => {
   }
   
   // 按列数拆分数据为行（确保每行都有 cols 个元素）
-  for (let i = 0; i < props.rows; i++) {
-    const start = i * props.cols;
-    const end = start + props.cols;
+  for (let i = 0; i < rows; i++) {
+    const start = i * cols;
+    const end = start + cols;
     result.push(filledItems.slice(start, end));
   }
   // console.log("itemGrid.vue",result);

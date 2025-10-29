@@ -101,4 +101,16 @@ watch(
   align-content: center; 
  }
 
+.scene {
+  font-size: 14px;
+  color: var(--vp-c-text-secondary);
+}
+
+.score {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--vp-c-text);
+  margin-top: 4px;
+}
+
 </style>

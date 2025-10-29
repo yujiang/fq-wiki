@@ -42,11 +42,11 @@ const props = defineProps<{
 
 // 核心状态
 const allBranchTasks = ref<XlsTask[]>([]); // 当前场景所有支线任务
-const levelGroups = ref<Array<{
+const levelGroups = ref<{
   levelKey: number; // 等级组标识（0,10,20...，用于逻辑判断）
   levelLabel: string; // 等级组显示文本（如“0-9级”“10-19级”）
   taskIds: number[]; // 该组下的任务ID列表
-}>>([]);
+}[]>([]);
 const activeLevelKey = ref<number>(0); // 当前激活的等级组标识
 
 async function updateContent(){

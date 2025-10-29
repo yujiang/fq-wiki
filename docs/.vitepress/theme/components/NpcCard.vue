@@ -117,8 +117,8 @@ const updateCurrentObserve = async (id: number) => {
 /* 整体卡片布局改为两栏 */
 .npc-card {
   display: flex;
-  gap: 24px; /* 左右两列的间距 */
-  padding: 20px;
+  gap: 4px; /* 左右两列的间距 */
+  padding: 0px;
   /* 其他原有样式不变 */
 }
 
@@ -133,7 +133,7 @@ const updateCurrentObserve = async (id: number) => {
 /* 左侧（姓名+立绘）保持居中，宽度自适应 */
 .npc-card__left {
   width: 100%; /* 适应合并列宽度 */
-  max-width: 240px; /* 限制最大宽度，避免立绘过宽 */
+  max-width: 340px; /* 限制最大宽度，避免立绘过宽 */
   margin: 0 auto; /* 居中显示 */
   /* 其他原有样式不变 */
 }
@@ -147,7 +147,7 @@ const updateCurrentObserve = async (id: number) => {
 
 /* 右侧保持固定宽度，与合并列形成两栏 */
 .npc-card__right {
-  width: 320px; /* 可根据需要调整 */
+  width: 260px; /* 可根据需要调整 */
   flex-shrink: 0;
   /* 其他原有样式不变 */
 }

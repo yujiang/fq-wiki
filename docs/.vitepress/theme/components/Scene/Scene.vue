@@ -94,7 +94,7 @@ watchEffect(updateContent);
 .scene-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px;
 }
 
 /* 头部：标题+小地图 */
@@ -154,7 +154,7 @@ watchEffect(updateContent);
 /* 通用区块样式 */
 .scene-section {
   margin-bottom: 40px;
-  padding: 20px;
+  padding: 0px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);

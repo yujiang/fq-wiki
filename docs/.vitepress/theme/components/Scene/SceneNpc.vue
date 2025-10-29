@@ -111,7 +111,7 @@ watch(() => props.sceneId, (newId) => updateSceneNpcs(newId));
 .scene-npc-container {
   max-width: 1200px;
   margin: 20px auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 /* 加载状态 */

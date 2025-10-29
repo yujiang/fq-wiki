@@ -197,8 +197,8 @@ const updateCurrentTask = async (id: number) => {
 
 .step-item {
   display: flex;
-  margin-bottom: 12px;
-  padding-bottom: 12px;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
   border-bottom: 1px solid #f5f5f5;
 }
 
@@ -224,7 +224,7 @@ const updateCurrentTask = async (id: number) => {
 }
 
 .step-content p {
-  margin: 0 0 4px;
+  margin: 0 0 1px;
   color: #333;
 }
 
@@ -239,11 +239,11 @@ const updateCurrentTask = async (id: number) => {
 .task-actions {
   display: flex;
   justify-content: center;
-  margin-top: 12px;
+  margin-top: 2px;
 }
 
 .btn-accept, .btn-complete, .btn-continue {
-  padding: 8px 24px;
+  padding: 8px 2px;
   border: none;
   border-radius: 4px;
   font-size: 14px;

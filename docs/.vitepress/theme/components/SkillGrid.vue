@@ -78,23 +78,22 @@ const rowStyle = computed<CSSProperties>(() => ({
 // 生成网格数据（不传入cols时自动转为单行）
 const gridSkills = computed<SkillIdLevel[][]>(() => {
   const result: SkillIdLevel[][] = [];
-  const totalCells = actualRows.value * actualCols.value;
-  const filledSkills = [...props.skills];
-
-  // 补齐空数据（仅在传入cols时需要，单行时不补齐）
-  if (props.cols !== undefined) {
-    while (filledSkills.length < totalCells) {
-      filledSkills.push({id: 0});
-    }
+  const rows = props.rows || actualRows.value;
+  const cols = props.cols || actualCols.value;
+  const totalCells = rows * cols; // 总单元格数量
+  // 复制原始数据并填充空对象至总单元格数量
+  const filledItems = [...props.skills];
+  while (filledItems.length < totalCells) {
+    filledItems.push({id: 0}); // 用空对象补齐
   }
-
-  // 拆分数据为行（单行时直接返回整个数组）
-  for (let i = 0; i < actualRows.value; i++) {
-    const start = i * actualCols.value;
-    const end = start + actualCols.value;
-    result.push(filledSkills.slice(start, end));
+  
+  // 按列数拆分数据为行（确保每行都有 cols 个元素）
+  for (let i = 0; i < rows; i++) {
+    const start = i * cols;
+    const end = start + cols;
+    result.push(filledItems.slice(start, end));
   }
-
+  // console.log("itemGrid.vue",result);
   return result;
 });
 </script>

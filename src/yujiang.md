@@ -76,3 +76,5 @@
 4. school SchoolTaoluTabsTabs
 5. RewardCard + secret,secretExp,
 
+我先总结下，组件要一层层的叠加，不可能一口吃个胖子；每一层都写个测试
+如果需要的数据是异步并且有相关性，用onMounted+watch，否则用watcheffect较简单

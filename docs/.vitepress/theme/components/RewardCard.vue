@@ -62,6 +62,7 @@ watch(
 
   const updateReward = async (newId: number) => {
     const xls = await getReward(newId);
+    if (!xls) return;
     currentReward.value = xls;
     const items = await getRewardItems(newId);
     const moneys = await getRewardMoneys(newId);

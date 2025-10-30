@@ -5,6 +5,7 @@
       class="scene-tab-group" 
       v-for="(sceneIds, categoryName, index) in props.scenes" 
       :key="categoryName"
+      v-if="sceneIds.length > 0"
     >
       <h3 class="tab-group-title">{{ categoryName }}</h3>
       <div class="tab-list">
@@ -123,7 +124,7 @@ const getSceneName = (id: number) => {
 }
 
 .scene-tab {
-  padding: 8px 20px;
+  padding: 0;
   min-width: 80px;
   background: #f8f9fa;
   border: 1px solid #e9ecef;

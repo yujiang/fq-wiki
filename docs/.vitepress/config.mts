@@ -56,6 +56,17 @@ export default withMermaid({
     }
   },
 
+
+  //  mermaid: {
+  //   // 关键配置 👇
+  //   securityLevel: 'loose',          // 允许 HTML 标签
+  //   flowchart: { htmlLabels: true }, // 启用 HTML label 渲染
+  //   themeVariables: {
+  //     fontSize: '14px',
+  //     fontFamily: 'PingFang SC, Microsoft YaHei, sans-serif'
+  //   }
+  // },
+
   themeConfig: {
     logo: '/logo.png',            // 可选：放 docs/public/logo.png
     nav: [

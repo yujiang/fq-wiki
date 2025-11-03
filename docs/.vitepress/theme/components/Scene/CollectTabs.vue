@@ -14,7 +14,7 @@
           :class="['tab', { active: i === active }]"
           @click="active = i"
           :disabled="counts[type] === 0"
-          :title="counts[type] === 0 ? '该分类为空' : ''"
+          :title="counts[type] === 0 ? '空' : ''"
         >
           {{ tabs[i] }} ({{ counts[type] ?? 0 }})
         </button>
@@ -89,6 +89,7 @@ async function refreshCounts(sceneId: number) {
     counts.value = datas;
 
     // 如果当前激活为空，则跳到第一个非空分类
+    active.value = 0;
     const curType = typeNames[active.value]
     if ((counts.value[curType] ?? 0) === 0) {
       const idx = typeNames.findIndex(t => (counts.value[t] ?? 0) > 0)

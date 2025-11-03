@@ -103,40 +103,75 @@ const getSceneName = (id: number) => {
 </script>
 
 <style scoped>
-/* 样式保持不变，省略重复代码 */
 .scene-tabs-container {
   max-width: 1400px;
-  margin: 0 auto;
-  padding: 0px;
+  padding: 0 8px;
 }
 
-.tab-group-title {
-  margin: 0 0 12px;
-  font-size: 18px;
+/* 外层卡片感 */
+.scene-area-tabs-wrapper {
+  border: 1px solid #e5e8ec;
+  border-radius: 10px;
+  background: #fff;
+  padding: 16px 18px 0px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+.scene-area-tabs-wrapper:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* 区块标题条 */
+.section-label {
+  display: block;                      /* ✅ 变成整行块 */
+  width: 100%;                         /* 铺满容器宽度 */
+  font-weight: 600;
+  font-size: 1.05rem;
   color: #2c3e50;
+  margin: -6px -18px 16px -18px;       /* 拉通边距，贴合外层卡片边界 */
+  padding: 10px 20px;
+  background: linear-gradient(to right, #f3f8ff, #ffffff);
+  border-bottom: 1px solid #dce6f2;    /* 增加下边界线 */
+  border-radius: 8px 8px 0 0;          /* 上边圆角，下边直角，像标题栏 */
+  box-shadow: inset 0 -1px 3px rgba(0,0,0,0.03);
+  border-left: 5px solid #0078d4;      /* 左侧强调色条 */
+}
+
+
+/* 分类标题 */
+.tab-group-title {
+  font-size: 17px;
+  color: #34495e;
   font-weight: 600;
   padding-left: 8px;
   border-left: 3px solid #3498db;
+  letter-spacing: 0.5px;
+  margin: 0 0 4px 0;
+
 }
 
+/* 分类标签组：减小组之间的上下间距 */
 .scene-tab-group {
-  margin-bottom: 20px;
+  padding: 8px 0; /* 原0px，增加内边距避免内容贴边，同时控制整体高度 */
+  margin: 0;
 }
 
+/* 按钮容器 */
 .tab-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
 
+/* 单个按钮 */
 .scene-tab {
-  padding: 0;
-  min-width: 80px;
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 4px;
+  min-width: 84px;
+  padding: 2px 14px;
+  background: #f8fafc;
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
   color: #34495e;
   transition: all 0.2s ease;
   text-align: center;
@@ -144,19 +179,21 @@ const getSceneName = (id: number) => {
 
 .scene-tab:hover:not(.active) {
   border-color: #3498db;
-  color: #3498db;
-  background: #f1f7fd;
+  background: #ecf5ff;
+  color: #0366d6;
 }
 
 .scene-tab.active {
   background: #3498db;
   border-color: #3498db;
   color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
 }
 
+/* 内容区分隔 */
 .scene-content {
-  margin-top: 20px;
-  border-top: 1px solid #e9ecef;
+  margin-top: 24px;
+  border-top: 1px dashed #dcdfe6;
   padding-top: 20px;
 }
 
@@ -165,25 +202,21 @@ const getSceneName = (id: number) => {
   text-align: center;
   color: #999;
   padding: 40px 0;
+  font-size: 14px;
+  background: #f9f9f9;
+  border-radius: 8px;
 }
 
-.scene-area-tabs-wrapper {
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  background: #fafafa;
-  padding: 12px 14px 0px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+/* 与上个模块的衔接感 */
+.scene-tabs-container + .scene-tabs-container {
+  margin-top: 32px; /* 两块之间留空 */
 }
 
-.section-label {
-  font-weight: bold;
-  font-size: 1.05rem;
-  color: #555;
-  margin: 4px 0 6px;
-  border-left: 4px solid #0078d4;
-  padding-left: 8px;
-  background: #f3f3f3;
-  border-radius: 4px;
+@media (max-width: 768px) {
+  .scene-tab {
+    flex: 1 1 45%;
+    min-width: 0;
+  }
 }
 
 </style>

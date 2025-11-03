@@ -1,4 +1,4 @@
-import { getScenePositionClient } from "./scene";
+import { getScenePositionClient, getScenes } from "./scene";
 import { DisplayStruct, fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsNpc extends XlsSceneObj {
@@ -61,5 +61,6 @@ export function getFriendLevelDesc(level: number) {
 
 export async function fillterNpcByScene(scene: number) {
    const npcs = await getNpcs();
-   return Object.values(npcs).filter(npc => npc.Scene === scene);
+   const scenes = await getScenes();
+   return Object.values(npcs).filter(npc => npc.Scene === scene || (npc.Scene && scenes[npc.Scene]?.Belong === scene));
 }

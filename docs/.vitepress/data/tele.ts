@@ -2,7 +2,7 @@ import { getScene, getScenePositionClient, isSceneType } from "./scene";
 import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsTeleport extends XlsSceneObj {
-    ScenePrototype: number;
+  ScenePrototype: number;
 
 	tgtScene: number;
 	// client pos
@@ -17,6 +17,9 @@ let teles: Teles;
 export async function getTeles() {
   if (!teles) {
     teles = (await fetchXls('teleport')) as Teles 
+    for (const tele of Object.values(teles)) {
+      
+    }
   }
   return teles;
 }

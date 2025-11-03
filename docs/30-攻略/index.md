@@ -17,3 +17,4 @@ title: 攻略索引
 
 ## FAQ
 ---
+[FAQ](FAQ)

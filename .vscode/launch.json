@@ -1,0 +1,44 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+    "configurations": [
+		{
+			"name": "tsnode Current ts File",
+			"type": "node",
+			"request": "launch",
+			//"program": "${workspaceFolder}/${relativeFile}",
+			"program": "${file}",
+			"runtimeArgs": [
+				"--nolazy",
+				"-r",
+				"ts-node/register"
+			  ],
+			"sourceMaps": true,			
+			"cwd": "${workspaceRoot}",
+			"protocol": "inspector",
+			"console": "integratedTerminal",
+		},
+
+        {
+            "name": "bin-debug Current js File",
+            "type": "node",
+			"request": "launch",
+			//"program": "${workspaceFolder}/${relativeFile}",
+			"program": "${file}",
+			"runtimeArgs": [
+				"--nolazy",
+				"-r",
+				"ts-node/register"
+			  ],
+			"sourceMaps": true,			
+			"cwd": "${workspaceRoot}",
+			"protocol": "inspector",
+			"console": "integratedTerminal",
+			"outFiles": ["${workspaceFolder}/bin-debug/**/*.js"],
+			"internalConsoleOptions": "neverOpen"
+		},
+		
+	]
+}

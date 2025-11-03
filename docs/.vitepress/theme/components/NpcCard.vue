@@ -15,6 +15,7 @@
         </div>
       </div>
 
+
       <!-- 原中间内容（放在左侧下方） -->
       <div class="npc-card__middle">
         <div class="npc-card__info-item">
@@ -22,8 +23,8 @@
           <span class="npc-card__info-value">{{ observe?.School || '未知' }}</span>
         </div>
         <div class="npc-card__info-item">
-          <span class="npc-card__info-label">位置</span>
-          <span class="npc-card__info-value">{{ observe?.School || '未知' }}</span>
+          <span class="npc-card__info-label">地点：</span>
+          <span class="npc-card__info-value">{{ posdesc }}</span>
         </div>
         <div class="npc-card__info-item">
           <span class="npc-card__info-label">喜好：</span>
@@ -60,7 +61,7 @@ import { ref, defineProps, watch, computed, onMounted } from "vue";
 import ItemGrid from "./ItemGrid.vue";
 import SkillGrid from "./SkillGrid.vue";
 import { getObserve, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../data/observe";
-import { getNpc, getNpcAvater } from "../../data/npc";
+import { getNpc, getNpcAvater, getNpcPosition } from "../../data/npc";
 import { ItemIdCount } from "../../data/item";
 import { SkillIdLevel } from "../../data/skill";
 
@@ -69,6 +70,7 @@ const loading = ref(true);
 const observe = ref<XlsObserve | null>(null);
 const npcicon = ref<string>('');
 const likedesc = ref<string>('');
+const posdesc = ref<string>('');
 const items = ref<ItemIdCount[]>([]);
 const skills = ref<SkillIdLevel[]>([]);
 
@@ -97,6 +99,7 @@ const updateCurrentObserve = async (id: number) => {
       const info = await getNpc(xls.Npc || id);
       npcicon.value = getNpcAvater(info?.Display?.icon) ;
       likedesc.value = observe2Like(xls.Like);
+      posdesc.value = info ? await getNpcPosition(info.Id) : '';
       let items2 = observe2Items(xls.Items);
       let skills2 = await observe2Skills(xls.Skills);
       console.log('NpcCard.vue',id,items2,skills2);

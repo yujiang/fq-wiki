@@ -6,6 +6,7 @@ export interface XlsScene extends XlsBase {
   MapId: number;
   Shop: string;
   SceneArea: number;
+  Belong: number; //属于哪个scene， 比如室内属于城市~
 };
 
 
@@ -27,7 +28,7 @@ export async function getScene(id: number) {
 export async function getScenePositionClient(SceneId: number, x: number, y: number) {
     const pos = formatClientPos(x, y);
     const scene = await getScene(SceneId);
-    return scene ? `(${scene.Name} ${pos})` : `(${SceneId} ${pos})`;
+    return scene ? `${scene.Name} (${pos})` : `${SceneId} (${pos})`;
 }
 
 export function getSceneSmap(xls: XlsScene){

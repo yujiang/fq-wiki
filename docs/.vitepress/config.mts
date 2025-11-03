@@ -1,9 +1,11 @@
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { setupContainers } from './jianghu';
-import { generateSidebarRemoveNumber } from './sidebar';
+import { generateSidebarRemoveNumber, SidebarAutoPlugin } from './sidebar';
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import sidebar from './sidebar.generated' 
 
 const fileAndStyles: Record<string, string> = {}
+
 
 export default withMermaid({
   lang: 'zh-CN',
@@ -15,6 +17,8 @@ export default withMermaid({
   vite: {
     // 必需，否则 vitepress-plugin-mermaid 无法正常工作
     // plugins: [MermaidPlugin()],
+    plugins: [SidebarAutoPlugin() as any],
+
     optimizeDeps: {
       include: ['mermaid'],
     },
@@ -58,7 +62,9 @@ export default withMermaid({
       { text: '首页', link: '/' },
     ],
 
-    sidebar: generateSidebarRemoveNumber(),
+    // sidebar: generateSidebarRemoveNumber(),
+    sidebar: sidebar,
+    
 
     // 顶部搜索（内置本地搜索，开箱即用）
     search: {

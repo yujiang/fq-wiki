@@ -1,8 +1,8 @@
 <!-- 场景下collect列表-->
- 
- <template>
+
+<template>
   <div class="collect-list">
-    <table  v-if="collects.length > 0">
+    <table v-if="collects.length > 0">
       <thead>
         <tr>
           <th v-if="isDev">ID</th>
@@ -55,7 +55,7 @@ async function loadData() {
   const itemsMap: Record<number, ItemIdCount[]> = {};
   for (const collect of cs) {
     let rw = collect.Rewards;
-    if (!rw && collect.say){
+    if (!rw && collect.say) {
       rw = await getSayReward(collect.say);
     }
     itemsMap[collect.Id] = await getRewardAll(rw);

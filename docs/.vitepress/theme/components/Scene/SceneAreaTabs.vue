@@ -2,24 +2,16 @@
   <div class="scene-area-tabs-container">
     <!-- 区域切换标签栏 -->
     <div class="scene-area-tabs-wrapper">
-    <div class="area-tab-bar">
-      <button
-        v-for="areaId in sceneAreas"
-        :key="areaId"
-        :class="['area-tab', { active: areaId === activeAreaId }]"
-        @click="activeAreaId = areaId"
-      >
-        {{ getAreaName(areaId) }}
-      </button>
-    </div>
+      <div class="area-tab-bar">
+        <button v-for="areaId in sceneAreas" :key="areaId" :class="['area-tab', { active: areaId === activeAreaId }]"
+          @click="activeAreaId = areaId">
+          {{ getAreaName(areaId) }}
+        </button>
+      </div>
     </div>
 
     <!-- 对应的 SceneArea 视图 -->
-    <SceneArea
-      v-if="activeAreaId !== null"
-      :sceneArea="activeAreaId"
-      class="area-content"
-    />
+    <SceneArea v-if="activeAreaId !== null" :sceneArea="activeAreaId" class="area-content" />
   </div>
 </template>
 
@@ -88,9 +80,11 @@ function getAreaName(id: number) {
   cursor: pointer;
   transition: 0.2s;
 }
+
 .area-tab:hover {
   background: #e8e8e8;
 }
+
 .area-tab.active {
   background: #0078d4;
   color: white;

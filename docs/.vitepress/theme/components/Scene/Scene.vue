@@ -8,12 +8,7 @@
       </div>
       <!-- 小地图 -->
       <div class="mini-map" v-if="urlSmap">
-        <img 
-          :src="urlSmap" 
-          :alt="`${xls?.Name}小地图`" 
-          class="map-img"
-          loading="lazy"
-        >
+        <img :src="urlSmap" :alt="`${xls?.Name}小地图`" class="map-img" loading="lazy">
         <p class="map-tip">点击查看全屏地图</p>
       </div>
     </div>
@@ -75,10 +70,10 @@ const props = defineProps<{
 }>();
 
 // 场景完整数据
-const xls = ref< XlsScene | null>(null);
+const xls = ref<XlsScene | null>(null);
 const urlSmap = ref('');
 
-async function updateContent(){
+async function updateContent() {
   const data = await getScene(props.sceneId);
   xls.value = data;
   const smap = getSceneSmap(data);

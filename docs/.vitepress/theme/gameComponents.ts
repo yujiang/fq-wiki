@@ -40,6 +40,9 @@ import SceneTask from './components/Scene/SceneTask.vue'
 
 import Scene from './components/Scene/Scene.vue'
 import SceneTabs from './components/Scene/SceneTabs.vue'
+import SceneArea from './components/Scene/SceneArea.vue'
+import SceneAreaTabs from './components/Scene/SceneAreaTabs.vue'
+import SceneAreaTabsGrouped from './components/Scene/SceneAreaTabsGrouped.vue'
 
 import testTooltip from './components/naive/Tooltip.vue'  
 
@@ -87,7 +90,10 @@ export function registerGameComponents(app: any) {
 
   app.component('Scene', Scene)
   app.component('SceneTabs', SceneTabs)
+  app.component('SceneArea', SceneArea)
+  app.component('SceneAreaTabs', SceneAreaTabs)
+  app.component('SceneAreaTabsGrouped', SceneAreaTabsGrouped)
+ 
   
-
   app.component('testTooltip', testTooltip)
 }

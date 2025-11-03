@@ -3985,7 +3985,13 @@
     "Icon": 1038,
     "CreateType": "task",
     "Shape": 1038,
-    "Type": "box"
+    "HideName": 1,
+    "Scene": 9649,
+    "x": 1007,
+    "y": 602,
+    "act": 5,
+    "dis": 100,
+    "clickDis": 100
   },
   "96100": {
     "Id": 96100,
@@ -17859,18 +17865,20 @@
   },
   "3060008": {
     "Id": 3060008,
-    "Name": "郊外镇宝箱",
+    "Name": "吴家",
     "Icon": 3102,
     "CreateType": "scene",
-    "Shape": 3102,
+    "Shape": 3904,
     "HideName": 1,
-    "Type": "lockbox",
+    "Type": "transfer",
     "Scene": 3060,
     "act": 7,
     "dis": 150,
     "TopLimit": 1,
     "RecoverHour": 0,
-    "Rewards": 1233
+    "Rewards": 1233,
+    "x": 2233,
+    "y": 1841
   },
   "3060009": {
     "Id": 3060009,

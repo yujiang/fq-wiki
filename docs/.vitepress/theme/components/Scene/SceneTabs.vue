@@ -1,11 +1,16 @@
 <template>
   <div class="scene-tabs-container">
     <!-- 动态渲染所有分类标签组 -->
+    <div class="scene-area-tabs-wrapper">
+      <div
+        class="section-label"
+      >
+        🗺️ 选择地图
+      </div>
     <div 
       class="scene-tab-group" 
       v-for="(sceneIds, categoryName, index) in props.scenes" 
       :key="categoryName"
-      v-if="sceneIds.length > 0"
     >
       <h3 class="tab-group-title">{{ categoryName }}</h3>
       <div class="tab-list">
@@ -18,6 +23,7 @@
           {{ getSceneName(id) }}
         </button>
       </div>
+    </div>
     </div>
 
     <!-- 选中场景的详情页 -->
@@ -160,4 +166,24 @@ const getSceneName = (id: number) => {
   color: #999;
   padding: 40px 0;
 }
+
+.scene-area-tabs-wrapper {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #fafafa;
+  padding: 12px 14px 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.section-label {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #555;
+  margin: 4px 0 6px;
+  border-left: 4px solid #0078d4;
+  padding-left: 8px;
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+
 </style>

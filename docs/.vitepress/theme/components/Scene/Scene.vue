@@ -7,7 +7,7 @@
         <p class="scene-desc">{{ xls?.Desc || '暂无场景描述' }}</p>
       </div>
       <!-- 小地图 -->
-      <div class="mini-map">
+      <div class="mini-map" v-if="urlSmap">
         <img 
           :src="urlSmap" 
           :alt="`${xls?.Name}小地图`" 

@@ -11075,6 +11075,9 @@
       80057,
       80058
     ],
+    "AddItems": [
+      90000
+    ],
     "Desc": "听候石崇光指挥等待梅花盗现身",
     "Des": {
       "id": 80054
@@ -19436,6 +19439,11 @@
     "Desc": "前往汴京采购材料",
     "Scene": 1003,
     "finishDrama": 215130,
+    "Condition": [
+      210254,
+      210255,
+      210256
+    ],
     "NextTask": 210381
   },
   "210381": {
@@ -19509,12 +19517,17 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "item",
     "Desc": "前往大相国寺询问情况",
     "Scene": 7110,
     "Des": {
       "id": 542000,
       "say": 215225
+    },
+    "finishDrama": 215226,
+    "Give": {
+      "itemid": 1023,
+      "num": 1
     },
     "NextTask": 210386
   },
@@ -19541,12 +19554,17 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "item",
     "Desc": "前往吴蘅家探望",
     "Scene": 3060,
     "Des": {
-      "id": 332000,
+      "id": 332001,
       "say": 215265
+    },
+    "finishDrama": 215269,
+    "Give": {
+      "itemid": 1023,
+      "num": 1
     },
     "NextTask": 210388
   },
@@ -19589,12 +19607,17 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "item",
     "Desc": "找老匠人看看笛子来历",
     "Scene": 3060,
     "Des": {
       "id": 332000,
       "say": 215325
+    },
+    "finishDrama": 215326,
+    "Give": {
+      "itemid": 1023,
+      "num": 1
     },
     "NextTask": 210391
   },
@@ -19609,7 +19632,19 @@
     "Desc": "到衡山打听笛子主人",
     "Scene": 7102,
     "finishDrama": 215350,
-    "NextTask": 210392
+    "Dating": {
+      "ids": [
+        360010,
+        360011,
+        360012,
+        360013,
+        360014,
+        360015,
+        360016,
+        360017
+      ],
+      "num": 5
+    }
   },
   "210392": {
     "Id": 210392,
@@ -19618,10 +19653,11 @@
       "client",
       "nogiveup"
     ],
-    "Type": "cond",
-    "Desc": "回头找吴蘅学习《月光晒被曲》",
-    "Scene": 7102,
+    "Type": "meet",
+    "Desc": "向吴蘅请教",
+    "Scene": 3060,
     "Des": {
+      "id": 332001,
       "say": 215375
     },
     "NextTask": 210393
@@ -19633,13 +19669,12 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
-    "Desc": "在衡山吹奏《月光晒被曲》",
-    "Scene": 7102,
-    "Des": {
-      "type": "trap",
-      "say": 215410
-    },
+    "Type": "cond",
+    "Desc": "向吴蘅请教",
+    "Scene": 3060,
+    "Condition": [
+      210258
+    ],
     "NextTask": 210394
   },
   "210394": {
@@ -19649,13 +19684,16 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
-    "Desc": "到山门再试试吧",
+    "Type": "sayed",
+    "Desc": "在衡山吹奏《月光晒被曲》",
     "Scene": 7102,
-    "Des": {
-      "type": "trap",
-      "say": 215435
-    },
+    "FlagTraps": [
+      369996,
+      369997
+    ],
+    "Sayed": [
+      215426
+    ],
     "NextTask": 210395
   },
   "210395": {
@@ -19665,37 +19703,60 @@
       "client",
       "nogiveup"
     ],
+    "Type": "meet",
+    "Desc": "到山门再试试吧",
+    "Scene": 7102,
+    "Des": {
+      "id": 369998,
+      "type": "trap",
+      "say": 215435
+    },
+    "NextTask": 210396
+  },
+  "210396": {
+    "Id": 210396,
+    "Name": "枫笛寻声",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
     "Type": "fight",
     "Desc": "和雁听蝉交谈",
     "Scene": 7102,
+    "AddNpcs": 362015,
     "Des": {
-      "id": 365060,
+      "id": 332003,
       "say": 215450
     },
     "finishDrama": 215460,
     "Battle": {
       "bid": 10002
     },
-    "NextTask": 210396
+    "NextTask": 210397
   },
-  "210396": {
-    "Id": 210396,
+  "210397": {
+    "Id": 210397,
     "Name": "南雁知夏",
     "Tags": [
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "item",
     "Desc": "带着雁听蝉前往吴蘅家",
     "Scene": 3060,
     "Des": {
       "id": 332001,
       "say": 215480
     },
-    "NextTask": 210397
+    "finishDrama": 215481,
+    "Give": {
+      "itemid": 1023,
+      "num": 1
+    },
+    "NextTask": 210398
   },
-  "210397": {
-    "Id": 210397,
+  "210398": {
+    "Id": 210398,
     "Name": "南雁知夏",
     "Tags": [
       "client",
@@ -19708,10 +19769,10 @@
       "id": 332003,
       "say": 215500
     },
-    "NextTask": 210398
+    "NextTask": 210399
   },
-  "210398": {
-    "Id": 210398,
+  "210399": {
+    "Id": 210399,
     "Name": "南雁知夏",
     "Tags": [
       "client",
@@ -19724,10 +19785,10 @@
       "id": 332003,
       "say": 215520
     },
-    "NextTask": 210399
+    "NextTask": 210400
   },
-  "210399": {
-    "Id": 210399,
+  "210400": {
+    "Id": 210400,
     "Name": "南雁知夏",
     "Tags": [
       "client",
@@ -19736,10 +19797,13 @@
     "Type": "time",
     "Desc": "等待煎药",
     "Scene": 3060,
-    "NextTask": 210400
+    "TimePass": {
+      "min": 0.1
+    },
+    "NextTask": 210401
   },
-  "210400": {
-    "Id": 210400,
+  "210401": {
+    "Id": 210401,
     "Name": "南雁知夏",
     "Tags": [
       "client",
@@ -19752,22 +19816,6 @@
       "id": 332001,
       "say": 215540
     },
-    "NextTask": 210401
-  },
-  "210401": {
-    "Id": 210401,
-    "Name": "南雁知夏",
-    "Tags": [
-      "client",
-      "nogiveup"
-    ],
-    "Type": "meet",
-    "Desc": "离开吴家",
-    "Scene": 3060,
-    "Des": {
-      "type": "trap",
-      "say": 215570
-    },
     "NextTask": 210402
   },
   "210402": {
@@ -19777,10 +19825,28 @@
       "client",
       "nogiveup"
     ],
+    "Type": "meet",
+    "Desc": "离开吴家",
+    "Scene": 3060,
+    "Des": {
+      "id": 339997,
+      "type": "trap",
+      "say": 215570
+    },
+    "NextTask": 210403
+  },
+  "210403": {
+    "Id": 210403,
+    "Name": "南雁知夏",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
     "Type": "fight",
     "Desc": "卯时到吴家屋顶蹲守",
     "Scene": 3060,
     "Des": {
+      "id": 339998,
       "type": "trap",
       "say": 215585
     },
@@ -19788,10 +19854,10 @@
     "Battle": {
       "bid": 10002
     },
-    "NextTask": 210403
+    "NextTask": 210404
   },
-  "210403": {
-    "Id": 210403,
+  "210404": {
+    "Id": 210404,
     "Name": "旧事作结",
     "Tags": [
       "client",
@@ -19804,10 +19870,15 @@
       "id": 332004,
       "say": 215620
     },
-    "NextTask": 210404
+    "finishDrama": 215621,
+    "Give": {
+      "itemid": 1023,
+      "num": 1
+    },
+    "NextTask": 210405
   },
-  "210404": {
-    "Id": 210404,
+  "210405": {
+    "Id": 210405,
     "Name": "旧事作结",
     "Tags": [
       "client",
@@ -19820,10 +19891,10 @@
       "id": 332007,
       "say": 215640
     },
-    "NextTask": 210405
+    "NextTask": 210406
   },
-  "210405": {
-    "Id": 210405,
+  "210406": {
+    "Id": 210406,
     "Name": "旧事作结",
     "Tags": [
       "client",
@@ -19836,10 +19907,10 @@
       "id": 332005,
       "say": 215660
     },
-    "NextTask": 210406
+    "NextTask": 210407
   },
-  "210406": {
-    "Id": 210406,
+  "210407": {
+    "Id": 210407,
     "Name": "新柳系春",
     "Tags": [
       "client",
@@ -19852,10 +19923,10 @@
       "id": 332005,
       "say": 215685
     },
-    "NextTask": 210407
+    "NextTask": 210408
   },
-  "210407": {
-    "Id": 210407,
+  "210408": {
+    "Id": 210408,
     "Name": "新柳系春",
     "Tags": [
       "client",

@@ -33167,50 +33167,110 @@
     "Id": 332000,
     "Name": "老匠人",
     "Desc": "春牛",
-    "CreateType": "scene"
+    "CreateType": "scene",
+    "Json": 338145,
+    "Scene": 3060,
+    "Display": {
+      "name": "老匠人",
+      "shape": 2106,
+      "icon": 2106
+    },
+    "act": 5,
+    "x": 5246,
+    "y": 3647
   },
   "332001": {
     "Id": 332001,
     "Name": "吴蘅",
     "Desc": "春牛",
-    "CreateType": "scene"
+    "CreateType": "scene",
+    "Json": 338150,
+    "Scene": 3060,
+    "Display": {
+      "name": "吴蘅",
+      "shape": 3021,
+      "icon": 3021
+    },
+    "act": 5
   },
   "332002": {
     "Id": 332002,
     "Name": "吴知夏",
     "Desc": "春牛",
-    "CreateType": "scene"
+    "CreateType": "scene",
+    "Json": 338155,
+    "Scene": 3060,
+    "Display": {
+      "name": "吴知夏",
+      "shape": 2073,
+      "icon": 2073
+    },
+    "act": 5
   },
   "332003": {
     "Id": 332003,
     "Name": "雁听蝉",
     "Desc": "春牛",
-    "CreateType": "scene"
+    "CreateType": "scene",
+    "Json": 338160,
+    "Scene": 3060,
+    "Display": {
+      "name": "雁听蝉",
+      "shape": 2159,
+      "icon": 2159
+    },
+    "act": 5
   },
   "332004": {
     "Id": 332004,
     "Name": "吴知夏",
     "Desc": "春牛-室外",
     "CreateType": "task",
-    "Scene": " "
+    "Scene": 3060,
+    "Display": {
+      "name": "吴知夏",
+      "shape": 2073,
+      "icon": 2073
+    },
+    "act": 5
   },
   "332005": {
     "Id": 332005,
     "Name": "雁听蝉",
     "Desc": "春牛-室外",
-    "CreateType": "task"
+    "CreateType": "task",
+    "Scene": 3060,
+    "Display": {
+      "name": "雁听蝉",
+      "shape": 2159,
+      "icon": 2159
+    },
+    "act": 5
   },
   "332006": {
     "Id": 332006,
-    "Name": "女子",
+    "Name": "妇人",
     "Desc": "春牛",
-    "CreateType": "task"
+    "CreateType": "task",
+    "Scene": 3060,
+    "Display": {
+      "name": "妇人",
+      "shape": 2072,
+      "icon": 2072
+    }
   },
   "332007": {
     "Id": 332007,
     "Name": "慕冬",
     "Desc": "春牛",
-    "CreateType": "task"
+    "CreateType": "task",
+    "Scene": 3060,
+    "Display": {
+      "name": "慕冬",
+      "shape": 3069,
+      "icon": 3069
+    },
+    "act": 5
   },
   "340001": {
     "Id": 340001,
@@ -34430,7 +34490,9 @@
       "shape": 2014,
       "icon": 2014
     },
-    "act": 5
+    "act": 5,
+    "x": 799,
+    "y": 395
   },
   "360011": {
     "Id": 360011,
@@ -34443,7 +34505,9 @@
       "shape": 2139,
       "icon": 2139
     },
-    "act": 5
+    "act": 5,
+    "x": 4456,
+    "y": 2377
   },
   "360012": {
     "Id": 360012,
@@ -34456,7 +34520,9 @@
       "shape": 2112,
       "icon": 2112
     },
-    "act": 5
+    "act": 5,
+    "x": 5351,
+    "y": 2742
   },
   "360013": {
     "Id": 360013,
@@ -34469,7 +34535,9 @@
       "shape": 2111,
       "icon": 2111
     },
-    "act": 5
+    "act": 5,
+    "x": 498,
+    "y": 593
   },
   "360014": {
     "Id": 360014,
@@ -34482,7 +34550,9 @@
       "shape": 2174,
       "icon": 2174
     },
-    "act": 5
+    "act": 5,
+    "x": 2388,
+    "y": 1092
   },
   "360015": {
     "Id": 360015,
@@ -34495,7 +34565,9 @@
       "shape": 2195,
       "icon": 2195
     },
-    "act": 5
+    "act": 5,
+    "x": 4505,
+    "y": 3054
   },
   "360016": {
     "Id": 360016,
@@ -34508,7 +34580,9 @@
       "shape": 2082,
       "icon": 2082
     },
-    "act": 5
+    "act": 5,
+    "x": 3593,
+    "y": 2406
   },
   "360017": {
     "Id": 360017,
@@ -38522,7 +38596,9 @@
     "Id": 542000,
     "Name": "禅师",
     "Desc": "春牛",
-    "Scene": 7110
+    "Scene": 7110,
+    "x": 830,
+    "y": 1200
   },
   "600190": {
     "Id": 600190,

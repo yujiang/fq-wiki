@@ -1,4 +1,4 @@
-import { getScene, getScenePositionClient } from "./scene";
+import { getScene, getScenePositionClient, isSceneType } from "./scene";
 import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsTeleport extends XlsSceneObj {
@@ -25,10 +25,6 @@ export async function getTele(id: number) {
   return (await getTeles())[id]
 }
 
-//室内
-export function isIndoor(Type:string) {
-    return Type?.indexOf('室内') >= 0 // || Type?.indexOf('山洞') >= 0
-}
 
 export async function getTelesTypeByScene(type: string, scene: number): Promise<XlsTeleport[]> {
     const teles = await getTeles();
@@ -36,7 +32,7 @@ export async function getTelesTypeByScene(type: string, scene: number): Promise<
     for (const tele of Object.values(teles)) {
         if (tele.ScenePrototype == scene) {
             const xls = await getScene(tele.tgtScene);
-            if (xls && type === '室内' === isIndoor(xls.Type)){
+            if (xls && isSceneType(xls.Type, type)){
                 rts.push(tele);
             }
         }

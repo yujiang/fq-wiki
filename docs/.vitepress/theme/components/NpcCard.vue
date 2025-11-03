@@ -22,6 +22,10 @@
           <span class="npc-card__info-value">{{ observe?.School || '未知' }}</span>
         </div>
         <div class="npc-card__info-item">
+          <span class="npc-card__info-label">位置</span>
+          <span class="npc-card__info-value">{{ observe?.School || '未知' }}</span>
+        </div>
+        <div class="npc-card__info-item">
           <span class="npc-card__info-label">喜好：</span>
           <span class="npc-card__info-value">{{ likedesc }}</span>
         </div>

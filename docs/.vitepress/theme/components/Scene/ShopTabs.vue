@@ -84,4 +84,5 @@ watch(
 .panel {
   padding: 4px 0;
 }
+
 </style>

@@ -1,42 +1,109 @@
-<!-- 场景scene下的所有collect的类型分组 -->
-
+<!-- CollectTabs.vue 场景scene下的所有collect的类型分组 -->
 <template>
   <div class="collect-tabs">
-    <!-- Tabs -->
-    <div class="tabs">
-      <button
-        v-for="(type, i) in typeNames"
-        :key="type"
-        :class="['tab', { active: i === active }]"
-        @click="active = i"
-      >
-        {{ tabs[i] }}
-      </button>
+    <!-- 加载态 -->
+    <div class="loading" v-if="isLoading">加载中...</div>
+
+    <!-- 有数据 -->
+    <div v-else-if="totalCount > 0">
+      <!-- Tabs（显示数量 & 空分类置灰） -->
+      <div class="tabs">
+        <button
+          v-for="(type, i) in typeNames"
+          :key="type"
+          :class="['tab', { active: i === active }]"
+          @click="active = i"
+          :disabled="counts[type] === 0"
+          :title="counts[type] === 0 ? '该分类为空' : ''"
+        >
+          {{ tabs[i] }} ({{ counts[type] ?? 0 }})
+        </button>
+      </div>
+
+      <!-- Active Tab Content -->
+      <div class="panel" v-if="current">
+        <SceneCollect
+          :sceneId="props.sceneId"
+          :collectType="current"
+          :key="current"
+        />
+      </div>
     </div>
 
-    <!-- Active Tab Content -->
-    <div class="panel" v-if="current">
-      <!-- 用 :collectType 传递响应式值 -->
-      <SceneCollect :sceneId="props.sceneId" :collectType="current" />
-    </div>
+    <!-- 无任何数据 -->
+    <div v-else class="no-data">无</div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
-// 按需引入你的组件路径
-// import SceneCollect from './SceneCollect.vue'
+import { ref, computed, watch, onMounted } from 'vue'
+// 按你的实际路径修改：
+import SceneCollect from './SceneCollect.vue'
+// import { getCollectCounts } from '../../../data/collect' 
+import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../../data/collect";
+// 期望 getCollectCounts(sceneId) => Promise<{ collect: number; box: number; say: number }>
 
 const props = defineProps<{ sceneId: number }>()
 
-// 当前激活的 tab 下标
+// tabs 配置
+const tabs = ['采集', '宝箱', '探索'] as const
+const typeNames = ['collect', 'box', 'say'] as const
+type CollectType = typeof typeNames[number]
+
+// 激活 tab
 const active = ref(0)
 
-const tabs = ['采集', '宝箱', '探索']
-const typeNames = ['collect', 'box', 'say']  // 和 tabs 一一对应
+// 计数 & 加载
+const counts = ref<Record<CollectType, number>>({
+  collect: 0,
+  box: 0,
+  say: 0,
+})
+const isLoading = ref(true)
 
-// 根据 active 计算当前类型
-const current = computed(() => typeNames[active.value] ?? '')
+// 总数
+const totalCount = computed(
+  () => (counts.value.collect || 0) + (counts.value.box || 0) + (counts.value.say || 0)
+)
+
+// 当前类型
+const current = computed<CollectType | ''>(() => typeNames[active.value] ?? '')
+
+// 防并发：请求 token
+let reqToken = 0
+
+async function refreshCounts(sceneId: number) {
+  const token = ++reqToken
+  isLoading.value = true
+  try {
+    const datas = {
+      collect: 0,
+      box:  0,
+      say:  0,
+    }
+    for (const key of ['box' , 'collect' , 'say']){
+      const data = await getCollectsTypeByScene(key as CollectsType, sceneId)
+      // if (token !== reqToken) return
+      datas[key as CollectType] = data ? data.length : 0
+    }
+    counts.value = datas;
+
+    // 如果当前激活为空，则跳到第一个非空分类
+    const curType = typeNames[active.value]
+    if ((counts.value[curType] ?? 0) === 0) {
+      const idx = typeNames.findIndex(t => (counts.value[t] ?? 0) > 0)
+      if (idx !== -1) active.value = idx
+    }
+  } catch (e) {
+    console.error('获取收集计数失败:', e)
+    counts.value = { collect: 0, box: 0, say: 0 }
+  } finally {
+    if (token === reqToken) isLoading.value = false
+  }
+}
+
+onMounted(() => refreshCounts(props.sceneId))
+watch(() => props.sceneId, (id) => refreshCounts(id))
 </script>
 
 <style scoped>
@@ -54,6 +121,10 @@ const current = computed(() => typeNames[active.value] ?? '')
   background: var(--vp-c-bg-soft);
   cursor: pointer;
 }
+.tab:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 .tab.active {
   background: var(--vp-c-brand-soft);
   border-color: var(--vp-c-brand);
@@ -61,5 +132,13 @@ const current = computed(() => typeNames[active.value] ?? '')
 }
 .panel {
   padding: 4px 0;
+}
+.loading,
+.no-data {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
 }
 </style>

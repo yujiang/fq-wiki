@@ -1,20 +1,26 @@
+<!-- Scene.vue 场景-->
+
 <template>
   <div class="scene-page">
     <!-- 场景头部：标题+小地图 -->
     <div class="scene-header">
       <div class="header-content">
-        <h1 class="scene-title">{{ xls?.Name || '未知场景' }}</h1>
-        <p class="scene-desc">{{ xls?.Desc || '暂无场景描述' }}</p>
+        <h1 class="scene-title">{{ xls?.Name || "未知场景" }}</h1>
+        <p class="scene-desc">{{ xls?.Desc || "暂无场景描述" }}</p>
       </div>
       <!-- 小地图 -->
-      <div class="mini-map" v-if="urlSmap">
-        <img :src="urlSmap" :alt="`${xls?.Name}小地图`" class="map-img" loading="lazy">
-        <p class="map-tip">点击查看全屏地图</p>
-      </div>
+      <a class="mini-map" v-if="urlSmap" :href="urlSmap" target="_blank">
+        <img
+          :src="urlSmap"
+          :alt="`${xls?.Name}小地图`"
+          class="map-img"
+          loading="lazy"
+        />
+      </a>
     </div>
 
     <!-- 传送点 -->
-    <div class="scene-section" id="teleports">
+    <div class="scene-section" id="teleports" v-if="!indoor">
       <h2 class="section-title">传送点</h2>
       <div class="section-content">
         <SceneTele :sceneId="props.sceneId" />
@@ -30,7 +36,7 @@
     </div>
 
     <!-- 采集点 -->
-    <div class="scene-section" id="collects">
+    <div class="scene-section" id="collects" v-if="!indoor">
       <h2 class="section-title">采集点</h2>
       <div class="section-content">
         <CollectTabs :sceneId="props.sceneId" />
@@ -38,7 +44,7 @@
     </div>
 
     <!-- 商店信息 -->
-    <div class="scene-section" id="shops">
+    <div class="scene-section" id="shops" v-if="!indoor && xls?.Shop">
       <h2 class="section-title">商店信息</h2>
       <div class="section-content">
         <ShopTabs :name="xls?.Shop" />
@@ -57,7 +63,12 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watchEffect } from "vue";
-import { getScene, getSceneSmap, XlsScene } from "../../../data/scene"; // 场景数据接口
+import {
+  getScene,
+  getSceneSmap,
+  XlsScene,
+  isIndoor,
+} from "../../../data/scene"; // 场景数据接口
 import SceneTele from "./SceneTele.vue";
 import SceneNpc from "./SceneNpc.vue";
 import CollectTabs from "./CollectTabs.vue";
@@ -71,18 +82,19 @@ const props = defineProps<{
 
 // 场景完整数据
 const xls = ref<XlsScene | null>(null);
-const urlSmap = ref('');
+const urlSmap = ref("");
+const indoor = ref(false);
 
 async function updateContent() {
   const data = await getScene(props.sceneId);
   xls.value = data;
-  const smap = getSceneSmap(data);
-  urlSmap.value = smap;
+  const url = getSceneSmap(data);
+  urlSmap.value = url;
+  indoor.value = data ? isIndoor(data.Type) : false;
 }
 // 加载场景数据
 
 watchEffect(updateContent);
-
 </script>
 
 <style scoped>
@@ -121,21 +133,24 @@ watchEffect(updateContent);
 
 .mini-map {
   width: 300px;
-  height: 300px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* 居中图像 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  background: #f5f7fa; /* 留白底色（letterbox）*/
 }
 
 .map-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  object-fit: contain; /* 关键：显示完整原图（等比）*/
+  object-position: center; /* 居中摆放 */
+  display: block;
 }
 
 .map-img:hover {
-  transform: scale(1.05);
+  transform: none; /* contain 模式下建议去掉放大，否则会被裁 */
 }
 
 .map-tip {

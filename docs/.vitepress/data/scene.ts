@@ -26,8 +26,12 @@ export async function getScene(id: number) {
 
 // x,y is client.
 export async function getScenePositionClient(SceneId: number, x: number, y: number) {
-    const pos = formatClientPos(x, y);
     const scene = await getScene(SceneId);
+    return formatPositionClient(scene, SceneId, x, y);
+}
+
+export function formatPositionClient(scene: XlsScene, SceneId: number, x: number, y: number) {
+    const pos = formatClientPos(x, y);
     return scene ? `${scene.Name} (${pos})` : `${SceneId} (${pos})`;
 }
 
@@ -59,6 +63,7 @@ export function isCity(Type:string) {
 }
 
 export function isSceneType(xlsType:string, type:string) {
+  if (!type) return true;
   switch (type) {
     case '野外':
       return isWilderness(xlsType);
@@ -71,6 +76,14 @@ export function isSceneType(xlsType:string, type:string) {
     default:
       return false;
   }
+}
+
+export function getSceneType(xlsType:string) {
+  if (isWilderness(xlsType)) return '野外';
+  if (isIndoor(xlsType)) return '室内';
+  if (isCave(xlsType)) return '山洞';
+  if (isCity(xlsType)) return '城市';
+  return '未知';
 }
 
 export async function getScenesArea(area: number) {

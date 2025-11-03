@@ -1,27 +1,30 @@
+<!-- SceneNpc.vue 场景npc分类显示-->
+
 <template>
   <div class="scene-npc-container">
     <!-- 加载状态 -->
     <div class="loading" v-if="isLoading">加载场景NPC中...</div>
 
-    <div v-else>
+    <!-- 如果没有任何 NPC，则整个模块不显示 -->
+    <div v-else-if="totalCount > 0">
       <!-- 标签页 -->
       <div class="scene-npc__tabs">
-        <button 
-          v-for="tab in tabs" 
+        <button
+          v-for="tab in tabs"
           :key="tab.type"
-          :class="{ 'active': currentTab === tab.type }"
+          :class="{ active: currentTab === tab.type }"
           @click="currentTab = tab.type"
-          :disabled="filteredNpcs(tab.type).length === 0"
+          :disabled="counts[tab.type] === 0"
         >
-          {{ tab.label }} ({{ filteredNpcs(tab.type).length }})
+          {{ tab.label }} ({{ counts[tab.type] }})
         </button>
       </div>
 
-      <!-- 直接传当前分类的「选中ID」和「列表」，不用v-model -->
-      <NpcCards 
-        :npcIds="filteredNpcs(currentTab)" 
-      />
-    </div>
+      <!-- 当前分类列表 -->
+      <NpcCards :npcIds="currentList" :key="currentTab" />
+    </div> <!-- totalCount === 0 时什么都不渲染（满足 #1） -->
+    <!-- 没有 NPC 时显示“无” -->
+    <div v-else class="no-npc">无</div>    
   </div>
 </template>
 
@@ -33,78 +36,96 @@ import { getObserves } from "../../../data/observe";
 import { getSoldiers } from "../../../data/soldier";
 
 type NpcType = "soldier" | "skill" | "other";
-const tabs = [
-  { type: "soldier" as NpcType, label: "益友" },
-  { type: "skill" as NpcType, label: "良师" },
-  { type: "other" as NpcType, label: "其他" },
+const tabs: Array<{ type: NpcType; label: string }> = [
+  { type: "soldier", label: "益友" },
+  { type: "skill", label: "良师" },
+  { type: "other", label: "其他" },
 ];
 
 const props = defineProps<{ sceneId: number }>();
 
-const allNpcs = ref<Record<NpcType, number[]>>({ soldier: [], skill: [], other: [] });
+const allNpcs = ref<Record<NpcType, number[]>>({
+  soldier: [],
+  skill: [],
+  other: [],
+});
 const currentTab = ref<NpcType>("soldier");
 const isLoading = ref(true);
 
-// 过滤当前分类的NPC列表
-const filteredNpcs = (type: NpcType) => {return allNpcs.value[type] || []};
+// 计数 & 总数（满足 #2）
+const counts = computed(() => ({
+  soldier: allNpcs.value.soldier.length,
+  skill: allNpcs.value.skill.length,
+  other: allNpcs.value.other.length,
+}));
+const totalCount = computed(
+  () => counts.value.soldier + counts.value.skill + counts.value.other
+);
 
-// 加载数据 + 初始化「未手动选择分类」的默认选中（第一个）
+// 当前 tab 的列表
+const currentList = computed(() => allNpcs.value[currentTab.value] ?? []);
+
+// 防并发
+let reqToken = 0;
+
 async function updateSceneNpcs(sceneId: number) {
+  const token = ++reqToken;
   isLoading.value = true;
   try {
-    const npcs = await fillterNpcByScene(sceneId);
-    const allnpcs = await getNpcs();
-    const obs = await getObserves();
-    const soldiers = await getSoldiers();
+    const [sceneNpcs, allnpcs, obs, soldiers] = await Promise.all([
+      fillterNpcByScene(sceneId),
+      getNpcs(),
+      getObserves(),
+      getSoldiers(),
+    ]);
+    if (token !== reqToken) return;
+
     const soldierSet = new Set<number>();
     const skillSet = new Set<number>();
     const otherSet = new Set<number>();
 
-    for (const npc of npcs) {
+    for (const npc of sceneNpcs) {
       const oid = npc.Observe || npc.Id;
-      const xls = obs[oid];
-      const npcxls = allnpcs[npc.Id];
-      // console.log("updateSceneNpcs", oid, npc.Id, npcxls.Display?.icon, xls?.Icon)
-      if (xls ) {
-        const npcid = xls.Npc || oid;
-        const oicon = xls.Icon || allnpcs[npcid].Display?.icon ;
-        if (oicon === npcxls.Display?.icon) {
-          // npcxls.Display?.icon === xls?.Icon
-          const sid = xls.Soldier || npc.Id;
-          if (soldiers[sid]) soldierSet.add(xls.Id);
-          else if (xls.Skills) skillSet.add(xls.Id);
-          else if (xls.Items) otherSet.add(xls.Id);
-        }
+      const ox = obs[oid];
+      if (!ox) continue;
+
+      const id = ox.Id;
+      const sid = ox.Soldier || id;
+
+      if (sid && soldiers[sid]) {
+        soldierSet.add(id);
+      } else if (ox.Skills && ox.Skills.length) {
+        skillSet.add(id);
+      } else if (ox.Items && ox.Items.length) {
+        otherSet.add(id);
+      } else if (allnpcs[npc.Id]) {
+        otherSet.add(id);
       }
     }
 
-    soldierSet.forEach(a => {
-        skillSet.delete(a);
-        otherSet.delete(a);
-    });
-
-    skillSet.forEach(a => {
-        otherSet.delete(a);
-    })
-
-    // 存分类列表
     allNpcs.value = {
       soldier: [...soldierSet],
       skill: [...skillSet],
-      other: [...otherSet]
+      other: [...otherSet],
     };
 
-
+    // 满足 #3：若当前（默认“益友”）为 0，则自动选中下一个非空
+    if ((allNpcs.value[currentTab.value] ?? []).length === 0) {
+      const next = (["soldier", "skill", "other"] as NpcType[]).find(
+        (t) => allNpcs.value[t].length > 0
+      );
+      if (next) currentTab.value = next;
+    }
   } catch (e) {
     console.error("加载失败:", e);
   } finally {
-    isLoading.value = false;
+    if (token === reqToken) isLoading.value = false;
   }
 }
 
-// 初始化 + 监听场景变化
+// 初始化 + 监听
 onMounted(() => updateSceneNpcs(props.sceneId));
-watch(() => props.sceneId, (newId) => updateSceneNpcs(newId));
+watch(() => props.sceneId, (id) => updateSceneNpcs(id));
 </script>
 
 <style scoped>

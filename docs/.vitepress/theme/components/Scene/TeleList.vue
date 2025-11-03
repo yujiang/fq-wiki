@@ -9,6 +9,7 @@
           <th v-if="isDev">ID</th>
           <th>位置</th>
           <th>目的</th>
+          <th>类型</th>
         </tr>
       </thead>
       <tbody>
@@ -16,6 +17,7 @@
           <td v-if="isDev">{{ tele.Id }}</td>
           <td>{{ formatClientPos(tele.x, tele.y) }}</td>
           <td>{{ tgtPos[tele.Id] }}</td>
+          <td>{{ tgtType[tele.Id] }}</td>
         </tr>
       </tbody>
     </table>
@@ -25,7 +27,7 @@
 <script setup lang="ts">
 import { defineProps, ref, watchEffect } from "vue";
 import { formatClientPos } from "../../../data/public";
-import { getScenePositionClient } from "../../../data/scene";
+import { formatPositionClient, getScene, getScenePositionClient, getSceneType } from "../../../data/scene";
 import { XlsTeleport } from "../../../data/tele";
 import { getTelesTypeByScene } from "../../../data/tele";
 
@@ -37,6 +39,7 @@ const props = defineProps<{
 // --- 状态 ---
 const teles = ref<XlsTeleport[]>([]);
 const tgtPos = ref<Record<number, string>>({});
+const tgtType = ref<Record<number, string>>({});
 
 // --- 数据加载函数 ---
 async function loadData() {
@@ -45,14 +48,19 @@ async function loadData() {
   teles.value = cs;
 
   const itemsMap: Record<number, string> = {};
+  const typeMap: Record<string, string> = {};
   for (const tele of cs) {
-    itemsMap[tele.Id] = await getScenePositionClient(
+    const scene = await getScene(tele.tgtScene);
+    itemsMap[tele.Id] = formatPositionClient(
+      scene,
       tele.tgtScene,
       tele.tgtX,
       tele.tgtY
     );
+    typeMap[tele.Id] = getSceneType(scene.Type);
   }
   tgtPos.value = itemsMap;
+  tgtType.value = typeMap;
 
   console.log("Tele data reloaded:", props.teleType, cs.length, cs);
 }

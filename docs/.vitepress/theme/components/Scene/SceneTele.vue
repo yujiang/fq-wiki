@@ -2,30 +2,18 @@
 <!-- 场景scene下的所有传送点 -->
 
 <template>
-  <div class="collect-tabs">
+  <div class="tele-tabs">
      <!-- Tabs -->
-    <div class="tabs">
-      <button
-        v-for="(type, i) in tabs"
-        :key="type"
-        :class="['tab', { active: i === active }]"
-        @click="active = i"
-      >
-        {{ tabs[i] }}
-      </button>
-    </div>
-
     <!-- Active Tab Content -->
-    <div class="panel" v-if="current">
-      <!-- 用 :collectType 传递响应式值 -->
-      <SceneTele :sceneId="sceneId" :teleType="current" />
+    <div class="panel">
+      <TeleList :sceneId="sceneId" :teleType="''" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import SceneTele from './TeleList.vue';
+import TeleList from './TeleList.vue';
 // 按需引入你的组件路径
 // import SceneCollect from './SceneCollect.vue'
 

@@ -11,3 +11,13 @@
 ```
 
 <CollectTabs :sceneId="1023" />
+
+```vue
+<CollectTabs :sceneId="3126"/>
+```
+<CollectTabs :sceneId="3126"/>
+
+```vue
+<CollectTabs :sceneId="4231"/>
+```
+<CollectTabs :sceneId="4231"/>

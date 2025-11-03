@@ -1,3 +1,5 @@
+<!-- SceneArea.vue 区域-->
+
 <template>
   <div class="scene-area-container">
     <!-- 数据有了才创建 SceneTabs -->

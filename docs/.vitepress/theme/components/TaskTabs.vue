@@ -1,5 +1,6 @@
 <template>
-  <div class="task-tabs">
+  <div v-if="taskIds.length === 0" class="empty">暂无任务</div>
+  <div v-else class="task-tabs">
     <!-- 标签栏：仅根据taskIds生成切换按钮 -->
     <div class="task-tabs__header">
       <button
@@ -17,9 +18,8 @@
     <!-- 内容区：渲染当前选中的TaskCard -->
     <div class="task-tabs__content">
       <!-- 空状态：无任务ID时显示 -->
-      <div v-if="taskIds.length === 0" class="empty">暂无任务</div>
       <!-- 任务卡片：仅传递当前选中的taskId -->
-      <TaskCard v-else :taskId="currentTaskId" />
+      <TaskCard :taskId="currentTaskId" />
     </div>
   </div>
 </template>
@@ -137,8 +137,6 @@ const handleTabClick = (taskId: number) => {
 
 /* 空状态 */
 .empty {
-  padding: 80px 0;
-  text-align: center;
   color: #666;
   font-size: 14px;
 }

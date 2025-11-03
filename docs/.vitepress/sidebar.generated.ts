@@ -417,6 +417,14 @@ export default [
             "text": "scene",
             "items": [
               {
+                "text": "scene",
+                "link": "/50-test/game/scene/01-scene"
+              },
+              {
+                "text": "scene2",
+                "link": "/50-test/game/scene/02-scene2"
+              },
+              {
                 "text": "collect",
                 "link": "/50-test/game/scene/05-collect"
               },
@@ -431,10 +439,6 @@ export default [
               {
                 "text": "tele",
                 "link": "/50-test/game/scene/12-tele"
-              },
-              {
-                "text": "scene",
-                "link": "/50-test/game/scene/13-scene"
               },
               {
                 "text": "sceneTabs",

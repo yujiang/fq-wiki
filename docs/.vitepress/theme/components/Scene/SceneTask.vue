@@ -1,6 +1,8 @@
-<template>
-  <div class="scene-task-library">
+<!-- SceneTask.vue 场景task分等级显示-->
 
+<template>
+  <div v-if="totalTaskCount === 0" class="no-npc">无</div>
+  <div v-else class="scene-task-library">
     <!-- 等级分组标签（核心分类导航） -->
     <div class="level-group-tabs">
       <button
@@ -17,15 +19,15 @@
     <!-- 当前等级组的任务详情（复用TaskTabs展示任务卡片） -->
     <div class="task-content">
       <!-- 空状态：当前等级组无任务 -->
-      <div v-if="currentGroupTaskIds.length === 0 && levelGroups.length > 0" class="group-empty">
+      <div
+        v-if="currentGroupTaskIds.length === 0 && levelGroups.length > 0"
+        class="group-empty"
+      >
         {{ activeLevelLabel }} 暂无支线任务
       </div>
 
       <!-- 任务切换容器 -->
-      <TaskTabs
-        v-else
-        :taskIds="currentGroupTaskIds"
-      />
+      <TaskTabs v-else :taskIds="currentGroupTaskIds" />
     </div>
   </div>
 </template>
@@ -42,20 +44,22 @@ const props = defineProps<{
 
 // 核心状态
 const allBranchTasks = ref<XlsTask[]>([]); // 当前场景所有支线任务
-const levelGroups = ref<{
-  levelKey: number; // 等级组标识（0,10,20...，用于逻辑判断）
-  levelLabel: string; // 等级组显示文本（如“0-9级”“10-19级”）
-  taskIds: number[]; // 该组下的任务ID列表
-}[]>([]);
+const levelGroups = ref<
+  {
+    levelKey: number; // 等级组标识（0,10,20...，用于逻辑判断）
+    levelLabel: string; // 等级组显示文本（如“0-9级”“10-19级”）
+    taskIds: number[]; // 该组下的任务ID列表
+  }[]
+>([]);
 const activeLevelKey = ref<number>(0); // 当前激活的等级组标识
 
-async function updateContent(){
+async function updateContent() {
   const branchTasks = await getSceneBranchTasks(props.sceneId);
   allBranchTasks.value = branchTasks;
 
   // 3. 按“最低接取等级”分组（核心分类逻辑）
   levelGroups.value = groupTasksByLevel(branchTasks);
-  console.log('SceneTask.updateContent:', branchTasks)
+  console.log("SceneTask.updateContent:", branchTasks);
 
   // 4. 默认激活第一个等级组（若有）
   if (levelGroups.value.length > 0) {
@@ -69,9 +73,9 @@ watchEffect(updateContent);
 const groupTasksByLevel = (tasks: XlsTask[]): typeof levelGroups.value => {
   const groupMap = new Map<number, number[]>();
 
-  tasks.forEach(task => {
+  tasks.forEach((task) => {
     // 计算等级组标识：0-9级→0，10-19级→10，以此类推
-    const levelKey = Math.floor((task.GradeSuggest||0) / 10) * 10;
+    const levelKey = Math.floor((task.GradeSuggest || 0) / 10) * 10;
     // 按标识分组收集任务ID
     if (!groupMap.has(levelKey)) {
       groupMap.set(levelKey, []);
@@ -85,20 +89,24 @@ const groupTasksByLevel = (tasks: XlsTask[]): typeof levelGroups.value => {
       levelKey: key,
       // 显示文本优化：0→“0-9级”，10→“10-19级”，更直观
       levelLabel: `${key}-${key + 9}级`,
-      taskIds
+      taskIds,
     }))
     .sort((a, b) => a.levelKey - b.levelKey);
 };
 
 // 计算当前激活等级组的任务ID列表
 const currentGroupTaskIds = computed<number[]>(() => {
-  const targetGroup = levelGroups.value.find(group => group.levelKey === activeLevelKey.value);
+  const targetGroup = levelGroups.value.find(
+    (group) => group.levelKey === activeLevelKey.value
+  );
   return targetGroup?.taskIds || [];
 });
 
 // 计算当前激活等级组的显示文本（用于空状态提示）
 const activeLevelLabel = computed<string>(() => {
-  const targetGroup = levelGroups.value.find(group => group.levelKey === activeLevelKey.value);
+  const targetGroup = levelGroups.value.find(
+    (group) => group.levelKey === activeLevelKey.value
+  );
   return targetGroup?.levelLabel || "当前等级组";
 });
 
@@ -112,7 +120,7 @@ const totalTaskCount = computed<number>(() => {
 .scene-task-library {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 24px 16px;
+  padding: 0px;
 }
 
 /* 标题栏：突出场景和任务类型 */
@@ -204,7 +212,7 @@ const totalTaskCount = computed<number>(() => {
 
 /* 内容区：适配资料库的展示风格 */
 .task-content {
-  padding: 16px;
+  padding: 0px;
   border-radius: 8px;
   background: #f8f9fa;
 }

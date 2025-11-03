@@ -176,7 +176,7 @@ export default [
             "link": "/05-任务/03-故事/02-背景故事3-——独怜梦中人"
           },
           {
-            "text": "第二天",
+            "text": "序章杏花村—前篇10",
             "link": "/05-任务/03-故事/10-序章杏花村—前篇10"
           },
           {
@@ -355,10 +355,6 @@ export default [
     "text": "其他",
     "items": [
       {
-        "text": "给 AI 写词",
-        "link": "/40-其他/01-给 AI 写词"
-      },
-      {
         "text": "其他",
         "link": "/40-其他/"
       }
@@ -531,6 +527,16 @@ export default [
           }
         ],
         "collapsed": true
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "text": "开发",
+    "items": [
+      {
+        "text": "给 AI 写词",
+        "link": "/60-开发/01-给 AI 写词"
       }
     ],
     "collapsed": false

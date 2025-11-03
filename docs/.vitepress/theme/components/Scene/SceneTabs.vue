@@ -5,7 +5,7 @@
       <div
         class="section-label"
       >
-        🗺️ 选择地图
+        🗺️ 选择<span class="area_name">[{{getAreaName}}]</span>下地图
       </div>
     <div 
       class="scene-tab-group" 
@@ -41,6 +41,7 @@ import Scene from "./Scene.vue";
 
 // 接收参数：分类场景映射（键为分类名，值为场景ID数组）+ 默认选中ID
 const props = defineProps<{
+  sceneAreas: number;
   scenes: Record<string, number[]>; // 灵活的分类场景，如 { "门派": [201,202], "城市": [101,102] }
   defaultSceneId?: number; // 默认激活的场景ID
 }>();
@@ -94,6 +95,11 @@ const sceneNameMap = computed<Record<number, string>>(() => {
     map[sceneId] = item.Name || `未知场景(${sceneId})`;
     return map;
   }, {} as Record<number, string>);
+});
+
+const getAreaName = computed<string>(() => {
+  const xls = scenesData.value[props.sceneAreas];
+  return xls?.Name || `${props.sceneAreas}`;  // fallback 名称
 });
 
 // 通过ID获取场景名称
@@ -210,6 +216,11 @@ const getSceneName = (id: number) => {
 /* 与上个模块的衔接感 */
 .scene-tabs-container + .scene-tabs-container {
   margin-top: 32px; /* 两块之间留空 */
+}
+
+.area_name{
+  font-weight: 700;
+  color: red;
 }
 
 @media (max-width: 768px) {

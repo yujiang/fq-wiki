@@ -8,6 +8,8 @@
     <!-- 如果没有任何 NPC，则整个模块不显示 -->
     <div v-else-if="totalCount > 0">
       <!-- 标签页 -->
+      <!-- <div> {{ currentTab }}</div> -->
+      
       <div class="scene-npc__tabs">
         <button
           v-for="tab in tabs"
@@ -108,6 +110,8 @@ async function updateSceneNpcs(sceneId: number) {
       skill: [...skillSet],
       other: [...otherSet],
     };
+
+    currentTab.value = "soldier";
 
     // 满足 #3：若当前（默认“益友”）为 0，则自动选中下一个非空
     if ((allNpcs.value[currentTab.value] ?? []).length === 0) {

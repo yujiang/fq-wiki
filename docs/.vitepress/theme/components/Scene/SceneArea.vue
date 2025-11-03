@@ -6,6 +6,7 @@
     <SceneTabs
       v-if="hasScenes"
       :scenes="classifiedScenes"
+      :sceneAreas="props.sceneArea"
       :defaultSceneId="defaultSceneId ?? undefined"
     />
     <div v-else class="loading">加载中...</div>

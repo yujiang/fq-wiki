@@ -46,6 +46,7 @@
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { XlsTask,getDesDesc,getTask  } from "../../../data/task";
+import RewardCard from "../reward/RewardCard.vue";
 
 // 接收 props 数据
 const props = defineProps<{taskId:number}>();

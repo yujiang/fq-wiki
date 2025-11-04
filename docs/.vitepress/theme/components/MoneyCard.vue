@@ -1,4 +1,4 @@
-<!-- MoneyCard.vue Money.vue来显示金钱以及info 
+<!-- MoneyCard.vue 左边icon, 右边货币+数目
 <MoneyCard name="银两" :type="3" :amount="567890" :compact="true" /> 
 -->
  

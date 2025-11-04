@@ -1,7 +1,7 @@
-<!-- CollectTabs.vue 
+<!-- SceneCollectTabs.vue 
  复用SceneCollect.vue，
  场景scene下的所有collect的类型分组 
-示例：<CollectTabs :sceneId="1023" />
+示例：<SceneCollectTabs :sceneId="1023" />
  -->
 
 <template>

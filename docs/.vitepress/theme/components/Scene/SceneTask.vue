@@ -1,4 +1,4 @@
-<!-- SceneTask.vue 场景task分等级显示
+<!-- SceneTask.vue 场景task分等级显示, tabs wrap TaskTabs
 <SceneTask :sceneId="3126"/> 
 -->
 

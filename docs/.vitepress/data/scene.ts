@@ -8,6 +8,8 @@ export interface XlsScene extends XlsBase {
   SceneArea: number;
   Belong: number; //属于哪个scene， 比如室内属于城市~
   showSmap: number;
+  wx: number; // 世界地图的x,y
+  wy: number;
 };
 
 
@@ -61,10 +63,28 @@ export function isWilderness(Type:string) {
 
 //城市
 export function isCity(Type:string) {
-    return Type?.includes('城市') || Type?.includes('门派') 
+    return Type?.includes('城市') 
 }
 
-export function isSceneType(xlsType:string, type:string) {
+
+//门派
+export function isSchool(Type:string) {
+    return Type?.includes('门派') 
+}
+
+//势力
+export function isShili(Type:string) {
+    return Type?.includes('势力') || Type?.includes('阵营')
+}
+
+
+//城市2
+export function isCityArea(Type:string) {
+    return isCity(Type) || isSchool(Type) || isShili(Type)
+}
+
+//Area下分类, 把门派+城市合并到城市
+export function isSceneTypeArea(xlsType:string, type:SceneTypeString) {
   if (!type) return true;
   switch (type) {
     case '野外':
@@ -74,19 +94,26 @@ export function isSceneType(xlsType:string, type:string) {
     case '山洞':
       return isCave(xlsType);
     case '城市':
-      return isCity(xlsType)
+      return isCityArea(xlsType)
     default:
       return false;
   }
 }
 
-export function getSceneType(xlsType:string) {
+export const SceneTypeStrings = ['野外', '室内', '山洞', '城市', '门派', '势力'];
+export type SceneTypeString = '野外' | '室内' | '山洞' | '城市' | '门派' | '势力' | '未知';
+
+export function getSceneType(xlsType:string) : SceneTypeString{
   if (isWilderness(xlsType)) return '野外';
   if (isIndoor(xlsType)) return '室内';
   if (isCave(xlsType)) return '山洞';
   if (isCity(xlsType)) return '城市';
+  if (isSchool(xlsType)) return '门派';
+  if (isShili(xlsType)) return '势力';
+  
   return '未知';
 }
+
 
 export async function getScenesArea(area: number) {
   const scenes = await getScenes();

@@ -1,4 +1,4 @@
-<!-- TaoluCardList.vue 多行 TaoluCard-
+<!-- TaoluCardList.vue 多行 TaoluCard.vue
 <TaoluCardList :taolus="[60056,60050]"  :title="'太祖'"/> 
 -->
  

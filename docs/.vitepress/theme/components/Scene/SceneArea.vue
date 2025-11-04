@@ -20,7 +20,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue'
 import SceneTabs from './SceneTabs.vue'
-import { getScenesArea, isSceneType, XlsScene } from '../../../data/scene'
+import { getScenesArea, isSceneTypeArea, XlsScene } from '../../../data/scene'
 
 const props = defineProps<{ sceneArea: number }>()
 
@@ -62,7 +62,7 @@ const classifiedScenes = computed<Record<Category, number[]>>(() => {
   }
   for (const category of CATEGORY_KEYS) {
     categories[category] = sceneList.value
-      .filter(xls => isSceneType(xls.Type, category))
+      .filter(xls => isSceneTypeArea(xls.Type, category))
       .map(xls => xls.Id)
   }
   return categories

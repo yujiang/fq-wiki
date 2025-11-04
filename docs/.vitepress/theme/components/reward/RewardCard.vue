@@ -38,6 +38,9 @@ import {
 import { SkillIdLevel } from "../../../data/skill";
 import { NpcFriend } from "../../../data/npc";
 import { getScene } from "../../../data/scene";
+import ItemList from "../ItemList.vue";
+import SkillList from "../SkillList.vue";
+import NpcFriendList from "./NpcFriendList.vue";
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ rewardId: number }>();

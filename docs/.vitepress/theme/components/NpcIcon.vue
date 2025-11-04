@@ -1,4 +1,4 @@
-<!-- NpcIcon.vue 显示npc 
+<!-- NpcIcon.vue 显示npc的icon
 <NpcIcon :npcId="10002"  /> 
 -->
 

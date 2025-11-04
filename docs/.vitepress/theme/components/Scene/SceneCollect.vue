@@ -1,5 +1,6 @@
 <!-- SceneCollect.vue 场景下collect列表 
-<SceneCollect :sceneId="4236" collectType="box" /> -->
+<SceneCollect :sceneId="4236" collectType="box" /> 
+-->
 
 <template>
   <div class="collect-list">

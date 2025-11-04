@@ -1,4 +1,4 @@
-<!-- SceneNpc.vue 场景npc分类显示
+<!-- SceneNpc.vue 场景npc分类显示, tabs wrap NpcCards.vue
  <SceneNpc :sceneId="1023"/>
  -->
 

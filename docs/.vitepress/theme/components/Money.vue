@@ -10,6 +10,7 @@
 import { ref, defineProps, onMounted, watch, computed, watchEffect } from "vue";
 import { getMoneyGrid, MoneyNum } from "../../data/money";
 import { ItemIdCount } from "../../data/item";
+import Item from "./Item.vue";
 
 // 接收 props 数据
 const props = defineProps<MoneyNum>();

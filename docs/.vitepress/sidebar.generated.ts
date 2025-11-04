@@ -480,6 +480,24 @@ export default [
               }
             ],
             "collapsed": true
+          },
+          {
+            "text": "world",
+            "items": [
+              {
+                "text": "wmapitem",
+                "link": "/50-test/game/world/01-wmapitem"
+              },
+              {
+                "text": "wmap",
+                "link": "/50-test/game/world/02-wmap"
+              },
+              {
+                "text": "wmapscenes",
+                "link": "/50-test/game/world/03-wmapscenes"
+              }
+            ],
+            "collapsed": true
           }
         ],
         "collapsed": true

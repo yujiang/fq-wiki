@@ -1,4 +1,4 @@
-<!-- TaoluSkillGrid.vue 套路下所有技能 
+<!-- TaoluSkillGrid.vue 套路下所有技能, 逻辑服用SkillGrid.vue
 <TaoluSkillGrid :taolu="60050"  /> 
 -->
 

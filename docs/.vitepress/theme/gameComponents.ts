@@ -20,7 +20,7 @@ import SchoolTaoluTabs from './components/taolu/SchoolTaoluTabs.vue'
 import SchoolTaoluTabsTabs from './components/taolu/SchoolTaoluTabsTabs.vue'
 
 import SceneCollect from './components/Scene/SceneCollect.vue'
-import CollectTabs from './components/Scene/CollectTabs.vue'
+import SceneCollectTabs from './components/Scene/SceneCollectTabs.vue'
 import TeleList from './components/Scene/TeleList.vue'
 import SceneTele from './components/Scene/SceneTele.vue'
 import RewardCard from './components/reward/RewardCard.vue'
@@ -44,7 +44,12 @@ import SceneArea from './components/Scene/SceneArea.vue'
 import SceneAreaTabs from './components/Scene/SceneAreaTabs.vue'
 import SceneAreaTabsGrouped from './components/Scene/SceneAreaTabsGrouped.vue'
 
-import testTooltip from './components/naive/Tooltip.vue'  
+import WorldMapItem from './components/world/WorldMapItem.vue'
+import WorldMap from './components/world/WorldMap.vue'
+import WorldMapScenes from './components/world/WorldMapScenes.vue'
+
+
+import testTooltip from './components/naiveUI/Tooltip.vue'  
 
 export function registerGameComponents(app: any) {
   app.component('ItemCard', ItemCard)
@@ -69,7 +74,7 @@ export function registerGameComponents(app: any) {
   app.component('SchoolTaoluTabsTabs', SchoolTaoluTabsTabs)
 
   app.component('SceneCollect', SceneCollect)
-  app.component('CollectTabs', CollectTabs)
+  app.component('SceneCollectTabs', SceneCollectTabs)
   app.component('TeleList', TeleList)
   app.component('SceneTele', SceneTele)
 
@@ -94,6 +99,10 @@ export function registerGameComponents(app: any) {
   app.component('SceneAreaTabs', SceneAreaTabs)
   app.component('SceneAreaTabsGrouped', SceneAreaTabsGrouped)
  
-  
+
+  app.component('WorldMapItem', WorldMapItem)
+  app.component('WorldMap', WorldMap)
+  app.component('WorldMapScenes', WorldMapScenes)
+
   app.component('testTooltip', testTooltip)
 }

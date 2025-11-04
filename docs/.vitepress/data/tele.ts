@@ -1,4 +1,4 @@
-import { getScene, getScenePositionClient, isSceneType } from "./scene";
+import { getScene, getScenePositionClient, isSceneTypeArea } from "./scene";
 import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsTeleport extends XlsSceneObj {
@@ -35,7 +35,7 @@ export async function getTelesTypeByScene(type: string, scene: number): Promise<
     for (const tele of Object.values(teles)) {
         if (tele.ScenePrototype == scene) {
             const xls = await getScene(tele.tgtScene);
-            if (xls && isSceneType(xls.Type, type)){
+            if (xls && isSceneTypeArea(xls.Type, type)){
                 rts.push(tele);
             }
         }

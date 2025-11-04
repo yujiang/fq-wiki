@@ -1,4 +1,4 @@
-<!-- SchoolTaoluTabsTabs.vue 多个门派下的SchoolTaoluTabs
+<!-- SchoolTaoluTabsTabs.vue 多个门派下的SchoolTaoluTabs, tabs wrap SchoolTaoluTabs
 <SchoolTaoluTabsTabs :schools="['少林', '武当', '天山', '修罗']"/>
 -->
 

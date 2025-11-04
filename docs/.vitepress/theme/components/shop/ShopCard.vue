@@ -1,4 +1,4 @@
-<!-- ShopCard.vue 商店 
+<!-- ShopCard.vue 商店 一列ItemCard.vue
 <ShopCard :shopId="4502" /> 
 -->
  

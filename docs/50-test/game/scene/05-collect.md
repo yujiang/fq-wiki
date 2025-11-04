@@ -7,17 +7,17 @@
 <SceneCollect :sceneId="4236" collectType="box" />
 
 ```vue
-<CollectTabs :sceneId="1023" />
+<SceneCollectTabs :sceneId="1023" />
 ```
 
-<CollectTabs :sceneId="1023" />
-
-```vue
-<CollectTabs :sceneId="3126"/>
-```
-<CollectTabs :sceneId="3126"/>
+<SceneCollectTabs :sceneId="1023" />
 
 ```vue
-<CollectTabs :sceneId="4231"/>
+<SceneCollectTabs :sceneId="3126"/>
 ```
-<CollectTabs :sceneId="4231"/>
+<SceneCollectTabs :sceneId="3126"/>
+
+```vue
+<SceneCollectTabs :sceneId="4231"/>
+```
+<SceneCollectTabs :sceneId="4231"/>

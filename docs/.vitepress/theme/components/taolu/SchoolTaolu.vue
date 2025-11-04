@@ -1,4 +1,4 @@
-<!-- SchoolTaolu.vue 门派下按rank来展示功法
+<!-- SchoolTaolu.vue 门派下按rank来展示功法 TaoluCardList.vue固定显示
 <SchoolTaolu :school="'天山'"  :type="'轻功'"/> 
 -->
 

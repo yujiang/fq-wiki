@@ -41,7 +41,7 @@
     <div class="scene-section" id="collects" v-if="!indoor">
       <h2 class="section-title">采集点</h2>
       <div class="section-content">
-        <CollectTabs :sceneId="props.sceneId" />
+        <SceneCollectTabs :sceneId="props.sceneId" />
       </div>
     </div>
 
@@ -73,7 +73,7 @@ import {
 } from "../../../data/scene"; // 场景数据接口
 import SceneTele from "./SceneTele.vue";
 import SceneNpc from "./SceneNpc.vue";
-import CollectTabs from "./CollectTabs.vue";
+import SceneCollectTabs from "./SceneCollectTabs.vue";
 import SceneTask from "./SceneTask.vue";
 import ShopTabs from "../shop/ShopTabs.vue";
 

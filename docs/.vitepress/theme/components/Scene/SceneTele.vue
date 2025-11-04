@@ -1,5 +1,5 @@
 
-<!-- SceneTele.vue 场景scene下的所有传送点
+<!-- SceneTele.vue 场景scene下的所有传送点 TeleList.vue
 <SceneTele :sceneId="1023"/> 
 -->
 

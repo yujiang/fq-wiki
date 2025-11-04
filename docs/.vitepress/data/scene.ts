@@ -7,7 +7,7 @@ export interface XlsScene extends XlsBase {
   Shop: string;
   SceneArea: number;
   Belong: number; //属于哪个scene， 比如室内属于城市~
-  showMap: number;
+  showSmap: number;
 };
 
 
@@ -37,8 +37,8 @@ export function formatPositionClient(scene: XlsScene, SceneId: number, x: number
 }
 
 export function getSceneSmap(xls: XlsScene){
+  if (xls.showSmap === 0) return '';
   if (isIndoor(xls.Type)) return '';
-  if (xls.showMap === 0) return '';
   if(xls?.MapId) return `/images/map/${xls.MapId}.jpg` ;
   return '';
 }

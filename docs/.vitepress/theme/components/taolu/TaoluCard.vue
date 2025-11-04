@@ -1,3 +1,7 @@
+<!-- TaoluCard.vue 套路icon + 其技能TaoluSkillGrid.vue 
+<TaoluCard :taolu="60056"  /> 
+-->
+
 <template>
   <div class="taolu-card">
     <!-- 容器：icon、desc、skills 横向并列且垂直居中 -->

@@ -1,4 +1,6 @@
-<!-- 显示reward -->
+<!-- RewardCard.vue 显示奖励reward 
+ 示例：<RewardCard :rewardId="1119" />
+ -->
 
 <template>
   <div class="reward-card" v-if="currentReward">
@@ -24,7 +26,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref, watch } from "vue";
-import { ItemIdCount } from "../../data/item";
+import { ItemIdCount } from "../../../data/item";
 import {
   getReward,
   getRewardFriends,
@@ -32,11 +34,10 @@ import {
   getRewardMoneys,
   getRewardSkills,
   XlsReward,
-} from "../../data/reward";
-import { SkillIdLevel } from "../../data/skill";
-import NpcList from "./NpcList.vue";
-import { NpcFriend } from "../../data/npc";
-import { getScene } from "../../data/scene";
+} from "../../../data/reward";
+import { SkillIdLevel } from "../../../data/skill";
+import { NpcFriend } from "../../../data/npc";
+import { getScene } from "../../../data/scene";
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ rewardId: number }>();

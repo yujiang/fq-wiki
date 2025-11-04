@@ -34,6 +34,7 @@ export function writeSidebarFile(): boolean {
     // 内容没变，不写盘 → 不触发重启/HMR
     return false
   }
+  console.log('SidebarAutoPlugin: generating sidebar...', GENERATED_FILE)
   fs.writeFileSync(GENERATED_FILE, next, 'utf8')
   return true
 }

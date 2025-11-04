@@ -1,4 +1,8 @@
-<template>
+<!-- MoneyCard.vue Money.vue来显示金钱以及info 
+<MoneyCard name="银两" :type="3" :amount="567890" :compact="true" /> 
+-->
+ 
+ <template>
   <div class="money-card">
     <div class="icon-wrap">
       <img v-if="moneyicon" :src="moneyicon" alt="" class="icon" />

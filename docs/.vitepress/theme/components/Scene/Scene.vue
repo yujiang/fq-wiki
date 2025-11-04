@@ -1,4 +1,6 @@
-<!-- Scene.vue 场景-->
+<!-- Scene.vue 场景
+ 示例：<Scene :sceneId="1023"/>
+ -->
 
 <template>
   <div class="scene-page">
@@ -73,7 +75,7 @@ import SceneTele from "./SceneTele.vue";
 import SceneNpc from "./SceneNpc.vue";
 import CollectTabs from "./CollectTabs.vue";
 import SceneTask from "./SceneTask.vue";
-import ShopTabs from "./ShopTabs.vue";
+import ShopTabs from "../shop/ShopTabs.vue";
 
 // 接收场景ID（核心参数）
 const props = defineProps<{

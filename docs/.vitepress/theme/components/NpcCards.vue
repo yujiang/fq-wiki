@@ -1,4 +1,8 @@
-<template>
+<!-- NpcCards.vue 一排NpcCard.vue 
+<NpcCards :npcIds="[10002,10004]"/> 
+-->
+ 
+ <template>
   <div class="npc-cards-container">
     <!-- 传选中ID + 点击事件 -->
     <NpcList 

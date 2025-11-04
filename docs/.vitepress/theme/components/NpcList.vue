@@ -1,4 +1,8 @@
-<template>
+<!-- NpcList.vue 一排NpcIcon.vue
+<NpcList :npcs=[10002,10004]  /> 
+-->
+ 
+ <template>
   <div class="base-list npc-list">
     <NpcIcon
       v-for="npcId in props.npcs"

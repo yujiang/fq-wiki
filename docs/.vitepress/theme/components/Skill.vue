@@ -1,4 +1,8 @@
-<template>
+<!-- Skill.vue 技能 
+<Skill :id="50001" :level='99' /> 
+-->
+ 
+ <template>
   <div class="base-item-game skill-game"
     @mouseover="showPopover = !!skilldesc"
     @mouseleave="showPopover = false"

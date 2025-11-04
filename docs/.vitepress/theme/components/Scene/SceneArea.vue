@@ -1,4 +1,8 @@
-<!-- SceneArea.vue 区域-->
+<!-- SceneArea.vue 区域，
+ 复用SceneTabs.vue 
+ 包含一系列SceneTabs.vue
+ <SceneArea :sceneArea="1023"/>
+ -->
 
 <template>
   <div class="scene-area-container">

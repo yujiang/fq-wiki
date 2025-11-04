@@ -1,4 +1,8 @@
-<template>
+<!-- ShopCard.vue 商店 
+<ShopCard :shopId="4502" /> 
+-->
+ 
+ <template>
   <div class="shop-card" v-if="currentShop">
     <div class="header">
       <div class="title">
@@ -16,9 +20,9 @@
 
 <script setup lang="ts">
 import { onMounted, ref, watch } from "vue";
-import { XlsShop, getShopById } from "../../data/shop";
+import { XlsShop, getShopById } from "../../../data/shop";
 import ItemCard from "./ItemCard.vue";
-import { getNpc, getNpcPosition } from "../../data/npc";
+import { getNpc, getNpcPosition } from "../../../data/npc";
 
 // 接收父组件传递的 shopId
 const props = defineProps<{ shopId: number }>();

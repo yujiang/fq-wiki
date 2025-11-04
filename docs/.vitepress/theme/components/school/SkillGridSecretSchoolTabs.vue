@@ -1,3 +1,7 @@
+<!-- SkillGridSecretSchoolTabs.vue wrap秘技 SkillGridType.vue
+<SkillGridSecretSchoolTabs :schools="['青龙会', '侠客岛' ]" :cols="8" /> 
+-->
+
 <template>
   <div class="secret-school-tabs">
     <!-- 标题 -->
@@ -36,7 +40,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, watch } from "vue";
-import SkillGridType from "../SkillGridType.vue";
+import SkillGridType from "./SkillGridType.vue";
 
 // 接收门派列表 props
 const props = defineProps<{

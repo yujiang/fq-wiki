@@ -1,3 +1,13 @@
+<!-- SceneAreaTabsGrouped.vue 场景， 用固定格式 wrap SceneArea.vue
+ <SceneAreaTabsGrouped
+  :sceneAreas="{
+    主城: [1023, 1003, 1004],
+    门派: [1007,1005,1008,1012],
+    势力: [1025, 1026],
+  }"
+/>
+-->
+
 <template>
     <div class="scene-area-tabs-wrapper">
         <div class="scene-area-tabs-container">

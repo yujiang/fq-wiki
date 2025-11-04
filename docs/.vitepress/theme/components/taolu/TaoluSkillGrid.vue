@@ -1,3 +1,7 @@
+<!-- TaoluSkillGrid.vue 套路下所有技能 
+<TaoluSkillGrid :taolu="60050"  /> 
+-->
+
 <template>
     <!-- 直接调用 SkillGrid 展示技能（依赖接口异步返回） -->
     <SkillGrid

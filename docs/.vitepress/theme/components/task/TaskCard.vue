@@ -1,4 +1,6 @@
-<!-- task包括 领取 步骤 奖励 -->
+<!-- TaskCard.vue 包括 领取 步骤 奖励 
+<TaskCard :taskId="11022"/> 
+-->
 
 <template>
   <div class="task-card">
@@ -43,7 +45,7 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsTask,getDesDesc,getTask  } from "../../data/task";
+import { XlsTask,getDesDesc,getTask  } from "../../../data/task";
 
 // 接收 props 数据
 const props = defineProps<{taskId:number}>();

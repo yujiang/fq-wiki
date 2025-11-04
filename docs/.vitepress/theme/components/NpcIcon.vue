@@ -1,3 +1,7 @@
+<!-- NpcIcon.vue 显示npc 
+<NpcIcon :npcId="10002"  /> 
+-->
+
 <template>
   <!-- 点击时触发选中事件，添加选中状态的样式类 -->
   <div 

@@ -1,4 +1,6 @@
-<!-- 一排item 用于RewardCard, SceneCollect-->
+<!--ItemList.vue 一行item 用于RewardCard, SceneCollect
+<ItemList :items="[{id:8889, count:10}, {id:2022, count:1}, {id:8005, count:1}, {}]"/>
+-->
 
 <template>
   <div class="base-list item-list">

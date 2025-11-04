@@ -1,3 +1,7 @@
+<!-- TaskTabs.vue Tabs wrap TaskCard
+<TaskTabs :taskIds="[11022,11059]"/>
+-->
+
 <template>
   <div v-if="taskIds.length === 0" class="empty">暂无任务</div>
   <div v-else class="task-tabs">
@@ -27,7 +31,7 @@
 <script setup lang="ts">
 import { defineProps, ref, computed, watch, onMounted } from "vue";
 import TaskCard from "./TaskCard.vue";
-import { getTasks } from "../../data/task";
+import { getTasks } from "../../../data/task";
 
 // 仅接收核心参数：任务ID列表 + 可选的任务名称映射（优化显示）
 const props = defineProps<{

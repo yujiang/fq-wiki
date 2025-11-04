@@ -1,5 +1,7 @@
 
-<!-- 场景scene下的所有传送点 -->
+<!-- SceneTele.vue 场景scene下的所有传送点
+<SceneTele :sceneId="1023"/> 
+-->
 
 <template>
   <div class="tele-tabs">

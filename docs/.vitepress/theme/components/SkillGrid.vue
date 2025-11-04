@@ -1,4 +1,8 @@
-<!-- SkillGrid.vue skill网格 / 单行布局封装，负责 “多行列布局” 逻辑 -->
+<!-- SkillGrid.vue skill网格 
+ 单行布局封装，
+ 负责 “多行列布局” 逻辑 
+ <SkillGrid :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
+ -->
 
 <template>
   <div class="grid-container" :style="containerStyle">

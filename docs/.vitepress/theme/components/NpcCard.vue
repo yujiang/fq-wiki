@@ -1,3 +1,7 @@
+<!-- NpcCard.vue 显示xlsObserve表格 
+<NpcCard :npcId="10002"  /> 
+-->
+
 <template>
   <div class="npc-card">
     <!-- 左中合并列：左侧（姓名+立绘）在上，中间（信息）在下 -->

@@ -1,3 +1,7 @@
+<!-- Taolu.vue 套路icon 
+<Taolu :id="60056"  /> 
+-->
+
 <template>
   <div class="base-item-game taolu-game">
     <!-- 使用 NTooltip 包裹触发元素 -->

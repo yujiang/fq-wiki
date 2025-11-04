@@ -1,4 +1,8 @@
-<!-- ItemGrid.vue item网格 / 单行布局封装，负责 “多行列布局” 逻辑 -->
+<!-- ItemGrid.vue item网格 
+对ItemList(单行)布局封装
+负责 “多行列布局” 逻辑 
+<ItemGrid :rows="2" :cols="3" :gap="2" :items="[{id:8889, count:10}, {id:2022, count:1}]"/>
+-->
 
 <template>
   <div class="grid-container" :style="containerStyle">

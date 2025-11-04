@@ -1,4 +1,6 @@
-<!-- SceneNpc.vue 场景npc分类显示-->
+<!-- SceneNpc.vue 场景npc分类显示
+ <SceneNpc :sceneId="1023"/>
+ -->
 
 <template>
   <div class="scene-npc-container">

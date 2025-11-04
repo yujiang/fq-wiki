@@ -1,3 +1,7 @@
+<!-- SceneAreaTabs.vue 场景， 用tabs wrap SceneArea.vue
+ <SceneAreaTabs :sceneAreas="[1023,1003,1004]"/>
+ -->
+
 <template>
   <div class="scene-area-tabs-container">
     <!-- 区域切换标签栏 -->

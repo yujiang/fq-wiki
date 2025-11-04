@@ -1,3 +1,7 @@
+<!-- SchoolTaoluTabsTabs.vue 多个门派下的SchoolTaoluTabs
+<SchoolTaoluTabsTabs :schools="['少林', '武当', '天山', '修罗']"/>
+-->
+
 <template>
   <div class="school-taolu-tabs-tabs">
     <!-- 页面标题 -->

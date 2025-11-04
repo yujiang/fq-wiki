@@ -1,4 +1,8 @@
-<template>
+<!-- TaoluCardList.vue 多行 TaoluCard-
+<TaoluCardList :taolus="[60056,60050]"  :title="'太祖'"/> 
+-->
+ 
+ <template>
   <div class="taolu-card-list">
     <!-- 列表标题（可选，根据需求决定是否保留） -->
     <h3 class="list-title" v-if="title">{{ props.title }}</h3>

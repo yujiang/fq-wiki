@@ -1,4 +1,8 @@
-<template>
+<!-- SchoolTaoluTabs.vue 用tabs wrap SchoolTaolu
+<SchoolTaoluTabs :school="'天山'"/> 
+-->
+ 
+ <template>
   <div class="school-taolu-tabs">
     <!-- 门派标题 -->
     <!-- <h1 class="main-title">{{ school }} 武学总览</h1> -->

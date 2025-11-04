@@ -1,5 +1,9 @@
+ <!-- SkillGridType.vue 复用 SkillGrid 组件，
+  传入计算后的技能数组和布局参数 
+  <SkillGridType :file="'lifeskill'" :type="'art'" :cols="8" />
+  -->
+
 <template>
-  <!-- 复用 SkillGrid 组件，传入计算后的技能数组和布局参数 -->
   <SkillGrid
     :skills="filteredSkills"
     :rows="rows"
@@ -19,8 +23,8 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import SkillGrid from "./SkillGrid.vue";
-import { getSkillsFileSchool, getSkillsFileType, SkillIdLevel, Skills } from "../../data/skill";
+import SkillGrid from "../SkillGrid.vue";
+import { getSkillsFileSchool, getSkillsFileType, SkillIdLevel, Skills } from "../../../data/skill";
 
 // 接收类型和布局参数
 const props = defineProps<{

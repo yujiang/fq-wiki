@@ -1,4 +1,6 @@
-<!-- SceneTask.vue 场景task分等级显示-->
+<!-- SceneTask.vue 场景task分等级显示
+<SceneTask :sceneId="3126"/> 
+-->
 
 <template>
   <div v-if="totalTaskCount === 0" class="no-npc">无</div>
@@ -34,7 +36,7 @@
 
 <script setup lang="ts">
 import { defineProps, ref, computed, onMounted, watchEffect } from "vue";
-import TaskTabs from "../TaskTabs.vue";
+import TaskTabs from "../task/TaskTabs.vue";
 import { getSceneBranchTasks, XlsTask } from "../../../data/task";
 
 // 接收父组件传入的场景ID（资料库核心参数）

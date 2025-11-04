@@ -1,4 +1,8 @@
-<template>
+<!-- Money.vue 用item.vue来显示金钱 
+<Money name="元宝" :type="2" :amount="1200" /> 
+-->
+
+ <template>
     <Item :id="item.id" :count='item.count' />
 </template>
 

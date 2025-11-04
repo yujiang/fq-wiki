@@ -1,4 +1,6 @@
-<!-- 场景下tele列表-->
+<!-- TeleList.vue 场景下某个类型tele列表
+ <TeleList :sceneId="1023" teleType="室内" />
+ -->
 
 <template>
   <div class="tele-list">

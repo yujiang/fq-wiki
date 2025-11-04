@@ -1,4 +1,7 @@
-<!-- item在商店 -->
+<!-- ItemCard.vue item在商店 
+<ItemCard :good="{ ItemId: 8889, Price: 10, Count: 100 }" /> 
+-->
+
 <template>
   <div class="item-card" v-if="cur">
     
@@ -23,8 +26,8 @@
 
 <script setup lang="ts">
 import { defineProps, ref, onMounted, watch } from "vue";
-import { XlsItem, Items, getAllItems, getItemIcon } from "../../data/item";
-import { XlsShopItem } from "../../data/shop";
+import { XlsItem, Items, getAllItems, getItemIcon } from "../../../data/item";
+import { XlsShopItem } from "../../../data/shop";
 
 // 接收 props 数据
 const props = defineProps<{

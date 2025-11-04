@@ -1,3 +1,5 @@
+<!-- NpcFriendList.vue 一排npcIcon.vue 显示npc的好感度 -->
+
 <template>
   <div class="base-list npc-list">
     <NpcIcon
@@ -13,8 +15,8 @@
 
 <script setup lang="ts">
 import { defineProps, defineEmits } from "vue";
-import NpcIcon from "./NpcIcon.vue";
-import { NpcFriend } from "../../data/npc";
+import NpcIcon from "../NpcIcon.vue";
+import { NpcFriend } from "../../../data/npc";
 
 // 只接收列表和选中ID，触发选择事件
 const props = defineProps<{ npcs?: NpcFriend[]; selectedId?: number | null }>();

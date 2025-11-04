@@ -1,4 +1,6 @@
-<!-- 套路下一排skill -->
+<!-- SkillList.vue 一排skill 
+<SkillList :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" /> 
+-->
 
 <template>
   <div class="base-list skill-list">

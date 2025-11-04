@@ -1,4 +1,15 @@
-<template>
+<!-- SceneTabs.vue 用tabs wrap Scene.vue
+<SceneTabs 
+  :scenes="{
+    '门派': [1007, 1005, 1008, 1012],
+    '城市': [1023, 1022], 
+    '野外': [3152, 4236]
+  }"
+  :defaultSceneId="1023" 
+/> 
+-->
+ 
+ <template>
   <div class="scene-tabs-container">
     <!-- 动态渲染所有分类标签组 -->
     <div class="scene-area-tabs-wrapper">
@@ -41,7 +52,7 @@ import Scene from "./Scene.vue";
 
 // 接收参数：分类场景映射（键为分类名，值为场景ID数组）+ 默认选中ID
 const props = defineProps<{
-  sceneAreas: number;
+  sceneAreas?: number;
   scenes: Record<string, number[]>; // 灵活的分类场景，如 { "门派": [201,202], "城市": [101,102] }
   defaultSceneId?: number; // 默认激活的场景ID
 }>();
@@ -98,6 +109,7 @@ const sceneNameMap = computed<Record<number, string>>(() => {
 });
 
 const getAreaName = computed<string>(() => {
+  if (!props.sceneAreas) return '';
   const xls = scenesData.value[props.sceneAreas];
   return xls?.Name || `${props.sceneAreas}`;  // fallback 名称
 });

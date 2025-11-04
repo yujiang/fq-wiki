@@ -1,3 +1,7 @@
+<!-- ShopTabs.vue 用tabs wrap ShopCard.vue
+<ShopTabs :ids="[4101, 4102, 4103, 4104, 4105, 4106]" />
+-->
+
 <template>
   <div class="shop-tabs">
     <!-- Tabs -->
@@ -22,7 +26,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, } from 'vue'
 import { XlsShop, Shops, getShopById,getShopsByIds,getShops, getShopsByName } from '../../../data/shop'
-import ShopCard from '../ShopCard.vue'
+import ShopCard from '../shop/ShopCard.vue'
 
 const props = defineProps<{ ids?: number[], name?: string }>()
 // console.log("ShopTabs props", props)

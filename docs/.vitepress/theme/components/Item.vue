@@ -1,3 +1,7 @@
+<!-- Item.vue 道具 
+ <Item :id="8889" :count='2' :rand='30' />
+ -->
+ 
 <template>
   <div
     class="base-item-game item-game"

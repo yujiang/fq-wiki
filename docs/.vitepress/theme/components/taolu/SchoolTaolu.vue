@@ -1,3 +1,7 @@
+<!-- SchoolTaolu.vue 门派下按rank来展示功法
+<SchoolTaolu :school="'天山'"  :type="'轻功'"/> 
+-->
+
 <template>
   <div class="school-taolu">
     <!-- 门派标题 -->

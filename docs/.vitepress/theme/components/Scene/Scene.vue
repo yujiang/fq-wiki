@@ -5,7 +5,7 @@
     <!-- 场景头部：标题+小地图 -->
     <div class="scene-header">
       <div class="header-content">
-        <h1 class="scene-title">{{ xls?.Name || "未知场景" }}</h1>
+        <h1 class="scene-title">{{ (xls?.Name || "未知场景") + (isDev?`(${xls?.Id})`:'') }}</h1>
         <p class="scene-desc">{{ xls?.Desc || "暂无场景描述" }}</p>
       </div>
       <!-- 小地图 -->
@@ -95,6 +95,9 @@ async function updateContent() {
 // 加载场景数据
 
 watchEffect(updateContent);
+
+const isDev = import.meta.env.DEV;
+
 </script>
 
 <style scoped>

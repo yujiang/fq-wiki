@@ -144,7 +144,7 @@ export default [
             "link": "/05-任务/01-主线剧情/00-序章-命运交汇"
           },
           {
-            "text": "第一章 · 杏花血雨（任务攻略）",
+            "text": "第一章 · 杏花血雨",
             "link": "/05-任务/01-主线剧情/01-第一章-杏花血雨"
           }
         ],
@@ -537,16 +537,16 @@ export default [
       {
         "text": "给 AI 写词",
         "link": "/60-开发/01-给 AI 写词"
+      },
+      {
+        "text": "Runtime API Examples",
+        "link": "/60-开发/api-examples"
+      },
+      {
+        "text": "Markdown Examples",
+        "link": "/60-开发/markdown-examples"
       }
     ],
     "collapsed": false
-  },
-  {
-    "text": "Runtime API Examples",
-    "link": "/api-examples"
-  },
-  {
-    "text": "Markdown Extension Examples",
-    "link": "/markdown-examples"
   }
 ]

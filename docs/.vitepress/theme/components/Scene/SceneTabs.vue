@@ -5,7 +5,7 @@
       <div
         class="section-label"
       >
-        🗺️ 选择<span class="area_name">[{{getAreaName}}]</span>下地图
+        🗺️ 选择<span class="area_name">[{{getAreaName}}]</span>的地图
       </div>
     <div 
       class="scene-tab-group" 
@@ -102,8 +102,13 @@ const getAreaName = computed<string>(() => {
   return xls?.Name || `${props.sceneAreas}`;  // fallback 名称
 });
 
+const isDev = import.meta.env.DEV;
+
 // 通过ID获取场景名称
 const getSceneName = (id: number) => {
+  if (isDev) {
+    return `${sceneNameMap.value[id] || '未知场景'}(${id})`;  
+  }
   return sceneNameMap.value[id] || `未知场景(${id})`;
 };
 </script>

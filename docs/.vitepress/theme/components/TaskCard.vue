@@ -4,7 +4,7 @@
   <div class="task-card">
     <!-- 任务标题栏 -->
     <div class="task-card__header">
-      <span class="task-title">{{ task?.Name }}</span>
+      <span class="task-title">{{ task?.Name + (isDev?`(${task?.Id})`:'') }}</span>
       <span class="task-difficulty" :class="`difficulty-${task?.Diff  || '普通'}`">
         难度：{{ task?.Diff || '普通' }}
       </span>
@@ -53,6 +53,7 @@ let task = ref<XlsTask | null>(null);
 let taskSteps= ref<XlsTask[]>([]);
 let last = ref<XlsTask | null>(null);
 let taskStepDescs= ref<string[]>([]);
+const isDev = import.meta.env.DEV;
 
 function getAcceptDesc(desc: string | undefined) {
   if (!desc) return "（无）";

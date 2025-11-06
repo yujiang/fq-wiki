@@ -11,6 +11,7 @@
     <div
       class="wm-text"
       :class="['type-' + item.type]"
+      :data-len="item.text?.length"
     >
       {{ item.text }}
     </div>
@@ -19,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watchEffect } from 'vue';
+import { computed, ref, watchEffect } from 'vue';
 import {  getScene, getSceneType } from '../../../data/scene';
 
 type itemType = { type: string; text: string }
@@ -59,7 +60,6 @@ watchEffect(async () => {
 })
 
 
-
 </script>
 
 <style scoped>
@@ -86,6 +86,7 @@ watchEffect(async () => {
   position: absolute;
   top: 35%;
   left: 50%;
+  height: 100%;
   transform: translate(-50%, -50%);
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -93,12 +94,14 @@ watchEffect(async () => {
   color: #fff;
   letter-spacing: 2px; /* ↑↑ 字距加大 */
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  text-align: center;         /* 让竖排文字在逻辑盒中居中 */
 }
-
+.wm-text[data-len="2"] { top: 32%; letter-spacing: 8px; }
+.wm-text[data-len="5"] { top: 40%;  }
 /* 不同类型字号与配色 */
 .wm-text.type-城市 {
   font-size: 20px;
-  top: 45%;
+  top: 52%;
 }
 
 .wm-text.type-野外 {

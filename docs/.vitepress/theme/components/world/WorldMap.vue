@@ -1,21 +1,8 @@
 <template>
-  <div class="world-map" ref="wrapEl">
-    <!-- 背景：简单 contain，浏览器负责 letterbox -->
+  <div class="world-map" ref="wrapEl" :class="{ 'dev-mode': isDev }">
     <img class="world-map__bg" :src="mapBg" alt="world" />
 
-<!-- 放在 stage 外层，避免缩放影响 -->
-<div
-  class="wm-dev-probe"
-  @click="(e) => {
-    const rect = wrapEl!.getBoundingClientRect()
-    const x = e.clientX - rect.left, y = e.clientY - rect.top
-    const ox = draw.ox, oy = draw.oy, s = draw.s
-    const sx = Math.round((x - ox) / s)  // ← 原图坐标
-    const sy = Math.round((y - oy) / s)
-    console.log('coord:', sx, sy)
-  }">   
-
-    <!-- 舞台：对 items 统一 left/top + scale(s) -->
+    <!-- 舞台：统一 scale -->
     <div
       class="world-map__stage"
       :style="{
@@ -40,7 +27,8 @@
       />
     </div>
 
-  </div>
+    <!-- ✅ 探针放在 stage 外层，作为兄弟节点；仅 dev 可见 -->
+    <div v-if="isDev" class="wm-dev-probe" @click="onProbeClick" />
   </div>
 </template>
 
@@ -54,8 +42,8 @@ const imgw = 1794
 const imgh = 1214
 
 interface MapPoint { sceneId: number; x: number; y: number }
-
 const props = defineProps<{ points: MapPoint[] }>()
+
 const wrapEl = ref<HTMLDivElement | null>(null)
 const box = ref({ w: 0, h: 0 })
 
@@ -70,7 +58,6 @@ onMounted(() => {
 })
 onBeforeUnmount(() => { ro?.disconnect(); ro = null })
 
-// contain 的缩放与偏移（与背景的 letterbox 对齐）
 const draw = computed(() => {
   const W = Math.max(1, box.value.w)
   const H = Math.max(1, box.value.h)
@@ -79,35 +66,55 @@ const draw = computed(() => {
   const ox = (W - dw) / 2, oy = (H - dh) / 2
   return { s, ox, oy }
 })
+
+const isDev = import.meta.env.DEV
+
+function onProbeClick(e: MouseEvent) {
+  if (!wrapEl.value) return
+  const rect = wrapEl.value.getBoundingClientRect()
+  const x = e.clientX - rect.left
+  const y = e.clientY - rect.top
+  const { ox, oy, s } = draw.value
+  const sx = Math.round((x - ox) / s)
+  const sy = Math.round((y - oy) / s)
+  console.log('coord:', sx, sy)
+}
 </script>
 
 <style scoped>
 .world-map {
   position: relative;
   width: 100%;
-  /* 给容器一个可见高度或用纵横比： */
   aspect-ratio: 1794 / 1214;
   min-height: 360px;
   overflow: hidden;
+  pointer-events: none;
+  user-select: none;
 }
+.world-map.dev-mode {
+  pointer-events: auto;
+  user-select: auto;
+}
+
 .world-map__bg {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain; /* 背景保持最简单：让浏览器完成 contain */
+  object-fit: contain;
   display: block;
   pointer-events: none;
 }
 .world-map__stage {
-  position: absolute; /* 我们用 draw.ox/oy 定位到 letterbox 内容区，再整体 scale(s) */
+  position: absolute;
 }
 
-.wm-dev-probe { 
-    position:absolute; inset:0; cursor: crosshair; 
-  width: 100%;
-  height: 100%;
-
+/* ✅ 探针浮在最上层，独立捕获点击，不受 stage scale 影响 */
+.wm-dev-probe {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  cursor: crosshair;
+  background: transparent;
 }
-
 </style>

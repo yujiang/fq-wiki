@@ -451,6 +451,10 @@ export default [
               {
                 "text": "sceneAreaTabsGrouped",
                 "link": "/50-test/game/scene/17-sceneAreaTabsGrouped"
+              },
+              {
+                "text": "SceneAreaTabsXls",
+                "link": "/50-test/game/scene/18-SceneAreaTabsXls"
               }
             ],
             "collapsed": true

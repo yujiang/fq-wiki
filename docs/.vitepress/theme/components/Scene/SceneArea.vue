@@ -29,8 +29,8 @@ const sceneList = ref<XlsScene[]>([])
 
 async function loadScenes(area: number) {
   try {
-    console.log('加载场景区域：', area)
     const response = await getScenesArea(area)
+    console.log('加载场景区域：', area, response);
     sceneList.value = response || []
   } catch (err) {
     console.error('获取场景区域列表失败：', err)

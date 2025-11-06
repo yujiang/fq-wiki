@@ -84,9 +84,10 @@ function getAreaName(id: number) {
 
 /* ---- 分组配色 ---- */
 const fixedColors: Record<string, string> = {
-    主城: '#0078d4', // 蓝
-    门派: '#2E8B57', // 绿
-    势力: '#A52A2A', // 红棕
+    城市: '#A52A2A', // 蓝
+    村庄: '#2E8B57', // 绿
+    门派: '#ffd76b', // 金色
+    势力: '#C8A951', // 红棕
 }
 const palette = ['#0078d4', '#2E8B57', '#A52A2A', '#8B4513', '#9932CC', '#FF8C00']
 const dynamicColors = new Map<string, string>()

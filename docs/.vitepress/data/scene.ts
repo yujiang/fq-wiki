@@ -77,6 +77,11 @@ export function isShili(Type:string) {
     return Type?.includes('势力') || Type?.includes('阵营')
 }
 
+//村庄
+export function isCun(Type:string) {
+    return Type?.includes('村庄');
+}
+
 
 //城市2
 export function isCityArea(Type:string) {
@@ -94,14 +99,14 @@ export function isSceneTypeArea(xlsType:string, type:SceneTypeString) {
     case '山洞':
       return isCave(xlsType);
     case '城市':
-      return isCityArea(xlsType)
+      return isCity(xlsType) || isSchool(xlsType) || isShili(xlsType) || isCun(xlsType);
     default:
       return false;
   }
 }
 
-export const SceneTypeStrings = ['野外', '室内', '山洞', '城市', '门派', '势力'];
-export type SceneTypeString = '野外' | '室内' | '山洞' | '城市' | '门派' | '势力' | '未知';
+export const SceneTypeStrings = ['野外', '室内', '山洞', '城市', '门派', '势力', '村庄'];
+export type SceneTypeString = '野外' | '室内' | '山洞' | '城市' | '门派' | '势力' | '村庄' | '未知';
 
 export function getSceneType(xlsType:string) : SceneTypeString{
   if (isWilderness(xlsType)) return '野外';
@@ -110,6 +115,7 @@ export function getSceneType(xlsType:string) : SceneTypeString{
   if (isCity(xlsType)) return '城市';
   if (isSchool(xlsType)) return '门派';
   if (isShili(xlsType)) return '势力';
+  if (isCun(xlsType)) return '村庄';
   
   return '未知';
 }
@@ -117,5 +123,5 @@ export function getSceneType(xlsType:string) : SceneTypeString{
 
 export async function getScenesArea(area: number) {
   const scenes = await getScenes();
-  return Object.values(scenes).filter(x => x.SceneArea == area);
+  return Object.values(scenes).filter(x => x.SceneArea === area || x.Id === area || x.Belong === area);
 }

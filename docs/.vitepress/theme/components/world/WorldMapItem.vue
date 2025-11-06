@@ -37,8 +37,9 @@ const MapUrls : any=
   {
     城市: 'img_bg_town_name_maincity.png',
     野外: 'img_bg_town_name_normal.png',
+    村庄: 'img_bg_town_name_normal.png',
     势力: 'img_bg_town_name_school.png',
-    门派: 'img_bg_town_name_school.png'
+    门派: 'img_bg_town_name_school.png'    
   }
 
 watchEffect(async () => {
@@ -83,24 +84,30 @@ watchEffect(async () => {
 }
 .wm-text {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-weight: bold;
   color: #fff;
+  letter-spacing: 2px; /* ↑↑ 字距加大 */
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
 }
 
 /* 不同类型字号与配色 */
 .wm-text.type-城市 {
   font-size: 20px;
-  top: 52%;
+  top: 45%;
 }
 
 .wm-text.type-野外 {
   font-size: 16px;
+}
+
+.wm-text.type-村庄 {
+  font-size: 16px;
+  color: #90d76b;
 }
 
 .wm-text.type-门派 {

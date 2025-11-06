@@ -3,6 +3,18 @@
     <!-- 背景：简单 contain，浏览器负责 letterbox -->
     <img class="world-map__bg" :src="mapBg" alt="world" />
 
+<!-- 放在 stage 外层，避免缩放影响 -->
+<div
+  class="wm-dev-probe"
+  @click="(e) => {
+    const rect = wrapEl!.getBoundingClientRect()
+    const x = e.clientX - rect.left, y = e.clientY - rect.top
+    const ox = draw.ox, oy = draw.oy, s = draw.s
+    const sx = Math.round((x - ox) / s)  // ← 原图坐标
+    const sy = Math.round((y - oy) / s)
+    console.log('coord:', sx, sy)
+  }">   
+
     <!-- 舞台：对 items 统一 left/top + scale(s) -->
     <div
       class="world-map__stage"
@@ -27,6 +39,8 @@
         }"
       />
     </div>
+
+  </div>
   </div>
 </template>
 
@@ -88,4 +102,12 @@ const draw = computed(() => {
 .world-map__stage {
   position: absolute; /* 我们用 draw.ox/oy 定位到 letterbox 内容区，再整体 scale(s) */
 }
+
+.wm-dev-probe { 
+    position:absolute; inset:0; cursor: crosshair; 
+  width: 100%;
+  height: 100%;
+
+}
+
 </style>

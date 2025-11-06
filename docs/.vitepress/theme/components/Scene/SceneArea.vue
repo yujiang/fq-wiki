@@ -61,23 +61,29 @@ const classifiedScenes = computed<Record<Category, number[]>>(() => {
     室内: []
   }
   for (const category of CATEGORY_KEYS) {
-    categories[category] = sceneList.value
+    const l = sceneList.value
       .filter(xls => isSceneTypeArea(xls.Type, category))
       .map(xls => xls.Id)
+    if (l.length > 0) {
+      categories[category] = l
+    }
+    else {
+      delete categories[category]
+    }
   }
   return categories
 })
 
 // 有至少一个非空分类 → 才创建 SceneTabs
 const hasScenes = computed(() => {
-  return CATEGORY_KEYS.some(cat => classifiedScenes.value[cat].length > 0)
+  return CATEGORY_KEYS.some(cat => classifiedScenes.value[cat]?.length > 0)
 })
 
 // 默认场景ID
 const defaultSceneId = computed<number | undefined>(() => {
   for (const cat of CATEGORY_KEYS) {
     const list = classifiedScenes.value[cat]
-    if (list.length > 0) return list[0]
+    if (list?.length > 0) return list[0]
   }
   return undefined
 })

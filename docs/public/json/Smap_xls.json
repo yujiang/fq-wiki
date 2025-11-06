@@ -297,7 +297,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [250, 250],
+    "IconSize": [
+      250,
+      250
+    ],
     "X": 11200,
     "Y": 2676,
     "Cond": 200300124
@@ -1956,7 +1959,10 @@
     "textcolor": 14992497,
     "size": 20,
     "showIcon": "img_minimap_helptips2",
-    "IconSize": [28, 32],
+    "IconSize": [
+      28,
+      32
+    ],
     "X": 4057,
     "Y": 3671,
     "Cond": 303300419
@@ -1969,7 +1975,10 @@
     "textcolor": 14992497,
     "size": 20,
     "showIcon": "img_minimap_helptips2",
-    "IconSize": [28, 32],
+    "IconSize": [
+      28,
+      32
+    ],
     "X": 2669,
     "Y": 6523,
     "Cond": 303300420
@@ -1982,7 +1991,10 @@
     "textcolor": 14992497,
     "size": 20,
     "showIcon": "img_minimap_helptips2",
-    "IconSize": [28, 32],
+    "IconSize": [
+      28,
+      32
+    ],
     "X": 3496,
     "Y": 4104,
     "Cond": 303300420
@@ -1995,7 +2007,10 @@
     "textcolor": 14992497,
     "size": 20,
     "showIcon": "img_minimap_helptips2",
-    "IconSize": [28, 32],
+    "IconSize": [
+      28,
+      32
+    ],
     "X": 4604,
     "Y": 2102,
     "Cond": 303300420
@@ -2008,7 +2023,10 @@
     "textcolor": 14992497,
     "size": 20,
     "showIcon": "img_minimap_helptips2",
-    "IconSize": [28, 32],
+    "IconSize": [
+      28,
+      32
+    ],
     "X": 6165,
     "Y": 3765,
     "Cond": 303300420
@@ -2021,7 +2039,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 4197,
     "Y": 4444,
     "Cond": 30030025
@@ -2034,7 +2055,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 8400,
     "Y": 3200,
     "Cond": 30030025
@@ -2047,7 +2071,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 1510,
     "Y": 3054,
     "Cond": 30030025
@@ -2060,7 +2087,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 1020,
     "Y": 6340,
     "Cond": 30030025
@@ -2073,7 +2103,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [200, 200],
+    "IconSize": [
+      200,
+      200
+    ],
     "X": 4200,
     "Y": 6200,
     "Cond": 300300702
@@ -2086,7 +2119,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 11593,
     "Y": 1006,
     "Cond": 30102010
@@ -2099,7 +2135,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [75, 75],
+    "IconSize": [
+      75,
+      75
+    ],
     "X": 12756,
     "Y": 1394,
     "Cond": 30102010
@@ -2112,7 +2151,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 100],
+    "IconSize": [
+      100,
+      100
+    ],
     "X": 11300,
     "Y": 4000,
     "Cond": 30102010
@@ -2136,7 +2178,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [100, 50],
+    "IconSize": [
+      100,
+      50
+    ],
     "X": 3536,
     "Y": 462,
     "Cond": 200200202
@@ -2159,7 +2204,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [300, 180],
+    "IconSize": [
+      300,
+      180
+    ],
     "X": 5919,
     "Y": 6655,
     "Cond": 50101017
@@ -2172,7 +2220,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [400, 220],
+    "IconSize": [
+      400,
+      220
+    ],
     "X": 3891,
     "Y": 6049,
     "Cond": 50101019
@@ -2215,7 +2266,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [400, 400],
+    "IconSize": [
+      400,
+      400
+    ],
     "X": 2448,
     "Y": 2922,
     "Cond": 50117020
@@ -2228,7 +2282,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [400, 400],
+    "IconSize": [
+      400,
+      400
+    ],
     "X": 2448,
     "Y": 2922,
     "Cond": 50118020
@@ -2241,7 +2298,10 @@
     "textcolor": 15724525,
     "size": 28,
     "showIcon": "img_minimap_aperture",
-    "IconSize": [400, 400],
+    "IconSize": [
+      400,
+      400
+    ],
     "X": 2448,
     "Y": 2922,
     "Cond": 50119020
@@ -3209,7 +3269,10 @@
     "Name": "鱼图",
     "Scene": 3060,
     "showIcon": "img_minimap_fish_point",
-    "IconSize": [70, 47],
+    "IconSize": [
+      70,
+      47
+    ],
     "X": 4387,
     "Y": 2187
   },
@@ -3368,7 +3431,10 @@
     "Name": "鱼图",
     "Scene": 1016,
     "showIcon": "img_minimap_fish_point",
-    "IconSize": [70, 47],
+    "IconSize": [
+      70,
+      47
+    ],
     "X": 1400,
     "Y": 1613
   },
@@ -3387,7 +3453,10 @@
     "Name": "鱼图",
     "Scene": 1016,
     "showIcon": "img_minimap_fish_point",
-    "IconSize": [70, 47],
+    "IconSize": [
+      70,
+      47
+    ],
     "X": 2816,
     "Y": 1791
   },
@@ -3406,7 +3475,10 @@
     "Name": "鱼图",
     "Scene": 1023,
     "showIcon": "img_minimap_fish_point",
-    "IconSize": [70, 47],
+    "IconSize": [
+      70,
+      47
+    ],
     "X": 1554,
     "Y": 4835
   },
@@ -3475,7 +3547,10 @@
     "Name": "鱼图",
     "Scene": 1022,
     "showIcon": "img_minimap_fish_point",
-    "IconSize": [70, 47],
+    "IconSize": [
+      70,
+      47
+    ],
     "X": 931,
     "Y": 2390
   },
@@ -3743,7 +3818,7 @@
     "Id": 371,
     "Name": "淮南道",
     "Scene": 7101,
-    "showName": "白马寺",
+    "showName": "大相国寺",
     "textcolor": 9163758,
     "size": 20,
     "X": 7700,

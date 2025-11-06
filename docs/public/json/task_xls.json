@@ -7571,6 +7571,9 @@
     "Type": "meet",
     "Scene": 1022,
     "Desc": "前往屋内和那人交谈",
+    "GradeSuggest": 35,
+    "AcceptDesc": "临安城北触发",
+    "Diff": "容易",
     "Des": {
       "id": 53031,
       "say": 54160
@@ -7825,6 +7828,9 @@
     "Type": "meet",
     "Scene": 4017,
     "Desc": "进入春风醉月楼一探究竟",
+    "GradeSuggest": 35,
+    "AcceptDesc": "临安贾逢春",
+    "Diff": "普通",
     "Des": {
       "id": 53045,
       "say": 54490
@@ -8012,6 +8018,9 @@
     "Type": "meet",
     "Scene": 3014,
     "Desc": "去得月楼看看发生何事",
+    "GradeSuggest": 35,
+    "AcceptDesc": "临安窦南翁",
+    "Diff": "困难",
     "Des": {
       "id": 50027,
       "say": 54710
@@ -8327,6 +8336,9 @@
     "Type": "meet",
     "Scene": 1022,
     "Desc": "询问许羡有关《白蛇传》结局",
+    "GradeSuggest": 20,
+    "AcceptDesc": "临安许羡",
+    "Diff": "容易",
     "Des": {
       "id": 50014,
       "say": 53050
@@ -10924,7 +10936,7 @@
     "Des": {
       "id": 80052,
       "sayReturn": 1,
-      "say": 84018
+      "say": 84019
     },
     "Reward": 83035
   },
@@ -10940,9 +10952,9 @@
     "Desc": "教训无礼的门房",
     "Des": {
       "id": 80052,
-      "sayReturn": 1,
-      "say": 84023
+      "say": 84024
     },
+    "finishDrama": 84026,
     "Battle": {
       "bid": 83010
     },
@@ -10957,11 +10969,11 @@
     ],
     "Type": "meet",
     "Scene": 1029,
-    "Desc": "拿出三两银子贿赂门房",
+    "Desc": "贿赂门房后进石府",
     "Des": {
       "id": 80052,
       "sayReturn": 1,
-      "say": 84002
+      "say": 84017
     },
     "Reward": 83035
   },
@@ -11063,12 +11075,12 @@
   },
   "83059": {
     "Id": 83059,
-    "Name": "守株待兔",
+    "Name": "突变",
     "Tags": [
       "client",
       "nogiveup"
     ],
-    "Type": "sayed",
+    "Type": "meet",
     "Scene": 9649,
     "AddNpcs": [
       80055,
@@ -11078,13 +11090,12 @@
     "AddItems": [
       90000
     ],
-    "Desc": "听候石崇光指挥等待梅花盗现身",
+    "Desc": "段飞似乎有话要说",
     "Des": {
-      "id": 80054
+      "id": 80058,
+      "say": 84067
     },
-    "Sayed": [
-      84063
-    ]
+    "NextTask": 83070
   },
   "83060": {
     "Id": 83060,
@@ -11120,6 +11131,200 @@
       "say": 83400
     },
     "Reward": 83019
+  },
+  "83070": {
+    "Id": 83070,
+    "Name": "大盗现身",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 9649,
+    "AddNpcs": [
+      80055,
+      80057
+    ],
+    "Desc": "询问石崇光有关段飞的来历",
+    "Des": {
+      "id": 80054,
+      "say": 84074
+    },
+    "NextTask": 83071,
+    "Reward": 83036
+  },
+  "83071": {
+    "Id": 83071,
+    "Name": "追击段飞",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 1029,
+    "AddNpcs": [
+      80055,
+      80057
+    ],
+    "AddItems": [
+      90001
+    ],
+    "Desc": "跟随闻香虫的指引找寻段飞",
+    "Des": {
+      "id": 90000,
+      "type": "trap",
+      "say": 84078
+    },
+    "NextTask": 83072
+  },
+  "83072": {
+    "Id": 83072,
+    "Name": "追击段飞",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 1029,
+    "AddNpcs": [
+      80055,
+      80057,
+      80059
+    ],
+    "AddItems": [
+      90001
+    ],
+    "Desc": "上前收取白玉凤凰",
+    "Des": {
+      "id": 90001,
+      "type": "item",
+      "say": 84085
+    }
+  },
+  "83073": {
+    "Id": 83073,
+    "Name": "对决段飞",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "fight",
+    "Scene": 1029,
+    "AddNpcs": [
+      80055,
+      80057,
+      80059
+    ],
+    "AddItems": [
+      90001
+    ],
+    "Desc": "击败段飞",
+    "Des": {
+      "id": 80059,
+      "say": 84091
+    },
+    "finishDrama": 84094,
+    "Battle": {
+      "bid": 83011
+    },
+    "NextTask": 83075
+  },
+  "83074": {
+    "Id": 83074,
+    "Name": "对决段飞",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "fight",
+    "Scene": 1029,
+    "AddNpcs": [
+      80055,
+      80057,
+      80059
+    ],
+    "AddItems": [
+      90001
+    ],
+    "Desc": "击败段飞",
+    "Des": {
+      "id": 80059,
+      "say": 84100
+    },
+    "finishDrama": 84103,
+    "Battle": {
+      "bid": 83012
+    },
+    "NextTask": 83075
+  },
+  "83075": {
+    "Id": 83075,
+    "Name": "人赃并获",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 1029,
+    "AddNpcs": [
+      80055,
+      80057,
+      80059
+    ],
+    "Desc": "段飞有话要说",
+    "Des": {
+      "id": 80059,
+      "say": 84104
+    },
+    "NextTask": 83076,
+    "Reward": 83039
+  },
+  "83076": {
+    "Id": 83076,
+    "Name": "大盗落网",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Scene": 9649,
+    "AddNpcs": [
+      80055,
+      80057
+    ],
+    "FollowNpcs": 80059,
+    "Desc": "押送段飞回石府",
+    "Des": {
+      "id": 80054,
+      "say": 84105
+    },
+    "NextTask": 83077
+  },
+  "83077": {
+    "Id": 83077,
+    "Name": "完璧归赵",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "item",
+    "Scene": 9649,
+    "AddNpcs": [
+      80055,
+      80057,
+      80058
+    ],
+    "Desc": "将白玉凤凰交还石崇光",
+    "Des": {
+      "id": 80054,
+      "say": 84107
+    },
+    "finishDrama": 84108,
+    "Give": {
+      "itemid": 30960,
+      "num": 1
+    },
+    "Reward": 83040
   },
   "87001": {
     "Id": 87001,
@@ -14201,6 +14406,9 @@
     ],
     "Type": "meet",
     "Desc": "前往汴京寻找杜金钩",
+    "GradeSuggest": 30,
+    "AcceptDesc": "武昌刘员外",
+    "Diff": "容易",
     "Scene": 1003,
     "Des": {
       "id": 62006,
@@ -14565,6 +14773,9 @@
     ],
     "Type": "cond",
     "Desc": "前往武昌排帮打听安平消息",
+    "GradeSuggest": 35,
+    "AcceptDesc": "武昌安大娘",
+    "Diff": "困难",
     "Scene": 1029,
     "Condition": [
       210030
@@ -14929,6 +15140,9 @@
     ],
     "Type": "item",
     "Desc": "帮张远把信交给乐坊宋玉章",
+    "GradeSuggest": 40,
+    "AcceptDesc": "武昌张远",
+    "Diff": "困难",
     "Scene": 1003,
     "Des": {
       "id": 62019,
@@ -15323,6 +15537,9 @@
     ],
     "Type": "fight",
     "Desc": "应战",
+    "GradeSuggest": 45,
+    "AcceptDesc": "汴京",
+    "Diff": "普通",
     "Scene": 1003,
     "AddSay": 210812,
     "finishDrama": 210820,
@@ -15760,6 +15977,9 @@
     ],
     "Type": "meet",
     "Desc": "向出手相助的侠客道谢",
+    "GradeSuggest": 40,
+    "AcceptDesc": "夜间城北小路触发",
+    "Diff": "危险",
     "Scene": 1022,
     "Des": {
       "id": 53004,
@@ -16234,6 +16454,9 @@
     ],
     "Type": "sayed",
     "Desc": "有人假冒身份，骗取汴京金玉堂大量现银，协助六扇门捕快破案有赏。",
+    "GradeSuggest": 45,
+    "AcceptDesc": "淮南道公告板",
+    "Diff": "容易",
     "Scene": 7101,
     "AddSay": 211700,
     "Sayed": [
@@ -16476,6 +16699,9 @@
     ],
     "Type": "event",
     "Desc": "睡一觉，明日#R卯时#n去小孟孟那",
+    "GradeSuggest": 25,
+    "AcceptDesc": "主线推进",
+    "Diff": "普通",
     "Scene": 1022,
     "AddSay": 211940,
     "ServerEvent": {
@@ -16688,6 +16914,9 @@
     ],
     "Type": "meet",
     "Desc": "坐船将鱼货送往武昌",
+    "GradeSuggest": 40,
+    "AcceptDesc": "九曲连环坞张满仓",
+    "Diff": "普通",
     "Scene": 3302,
     "Des": {
       "id": 522010,
@@ -16870,6 +17099,9 @@
     ],
     "Type": "meet",
     "Desc": "问问郑评讲的是什么故事",
+    "GradeSuggest": 45,
+    "AcceptDesc": "九曲连环坞客栈郑评",
+    "Diff": "危险",
     "Scene": 3303,
     "Des": {
       "id": 527001,
@@ -17136,6 +17368,9 @@
     ],
     "Type": "meet",
     "Desc": "请武昌仁和堂的邱先生前往诊治苏枕雪",
+    "GradeSuggest": 50,
+    "AcceptDesc": "完成暗潮风云一-武昌南码头张仲卿",
+    "Diff": "困难",
     "Scene": 1029,
     "Des": {
       "id": 80009,
@@ -17319,6 +17554,9 @@
     ],
     "Type": "meet",
     "Desc": "问问苏枕雪对出征的看法",
+    "GradeSuggest": 50,
+    "AcceptDesc": "完成暗潮风云二-九曲连环坞赤焰峰厉沧溟",
+    "Diff": "危险",
     "Scene": 3311,
     "Des": {
       "id": 522260,
@@ -17608,6 +17846,9 @@
     ],
     "Type": "meet",
     "Desc": "帮徐剑留意一下赵王孙的消息",
+    "GradeSuggest": 50,
+    "AcceptDesc": "九曲连环坞徐剑",
+    "Diff": "困难",
     "Scene": 3302,
     "Des": {
       "id": 527041
@@ -17980,6 +18221,9 @@
     ],
     "Type": "fight",
     "Desc": "出手帮云湘击退黑衣人",
+    "GradeSuggest": 40,
+    "AcceptDesc": "完成春风醉月楼一-黄山道南口触发",
+    "Diff": "危险",
     "Scene": 3152,
     "AddNpcs": [
       403015,
@@ -18329,6 +18573,9 @@
     ],
     "Type": "sayed",
     "Desc": "查看来信",
+    "GradeSuggest": 40,
+    "AcceptDesc": "完成春风醉月楼二",
+    "Diff": "危险",
     "Scene": 1022,
     "Sayed": [
       214016
@@ -19010,6 +19257,9 @@
     ],
     "Type": "sayed",
     "Desc": "先去客栈打听马市位置",
+    "GradeSuggest": 50,
+    "AcceptDesc": "汴京西城门触发",
+    "Diff": "普通",
     "Scene": 3199,
     "Des": {
       "id": 62089
@@ -19246,6 +19496,9 @@
     ],
     "Type": "fight",
     "Desc": "上前阻止二人",
+    "GradeSuggest": 50,
+    "AcceptDesc": "汴京镇远镖局",
+    "Diff": "危险",
     "Scene": 1003,
     "Des": {
       "id": 62190,
@@ -19437,6 +19690,9 @@
     ],
     "Type": "cond",
     "Desc": "前往汴京采购材料",
+    "GradeSuggest": 60,
+    "AcceptDesc": "汴京郊外老匠人",
+    "Diff": "危险",
     "Scene": 1003,
     "finishDrama": 215130,
     "Condition": [
@@ -19501,13 +19757,15 @@
       "client",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "sayed",
     "Desc": "明日卯时再到工坊看看",
     "Scene": 3060,
     "Des": {
-      "id": 332000,
-      "say": 215205
+      "id": 332000
     },
+    "Sayed": [
+      215216
+    ],
     "NextTask": 210385
   },
   "210385": {
@@ -19526,7 +19784,7 @@
     },
     "finishDrama": 215226,
     "Give": {
-      "itemid": 1023,
+      "itemid": 30954,
       "num": 1
     },
     "NextTask": 210386
@@ -19563,7 +19821,7 @@
     },
     "finishDrama": 215269,
     "Give": {
-      "itemid": 1023,
+      "itemid": 30955,
       "num": 1
     },
     "NextTask": 210388
@@ -19616,7 +19874,7 @@
     },
     "finishDrama": 215326,
     "Give": {
-      "itemid": 1023,
+      "itemid": 30956,
       "num": 1
     },
     "NextTask": 210391
@@ -19730,7 +19988,7 @@
     },
     "finishDrama": 215460,
     "Battle": {
-      "bid": 10002
+      "bid": 210080
     },
     "NextTask": 210397
   },
@@ -19750,7 +20008,7 @@
     },
     "finishDrama": 215481,
     "Give": {
-      "itemid": 1023,
+      "itemid": 30957,
       "num": 1
     },
     "NextTask": 210398
@@ -19852,7 +20110,7 @@
     },
     "finishDrama": 215605,
     "Battle": {
-      "bid": 10002
+      "bid": 210081
     },
     "NextTask": 210404
   },
@@ -19866,13 +20124,18 @@
     "Type": "item",
     "Desc": "把笛子交给吴知夏",
     "Scene": 3060,
+    "AddNpcs": [
+      332004,
+      332005,
+      332006
+    ],
     "Des": {
       "id": 332004,
       "say": 215620
     },
     "finishDrama": 215621,
     "Give": {
-      "itemid": 1023,
+      "itemid": 30958,
       "num": 1
     },
     "NextTask": 210405
@@ -19887,6 +20150,12 @@
     "Type": "meet",
     "Desc": "和慕冬交谈",
     "Scene": 3060,
+    "AddNpcs": [
+      332004,
+      332005,
+      332006,
+      332007
+    ],
     "Des": {
       "id": 332007,
       "say": 215640
@@ -19903,6 +20172,11 @@
     "Type": "meet",
     "Desc": "和雁听蝉交谈",
     "Scene": 3060,
+    "AddNpcs": [
+      332005,
+      332006,
+      332007
+    ],
     "Des": {
       "id": 332005,
       "say": 215660
@@ -19919,6 +20193,7 @@
     "Type": "meet",
     "Desc": "和雁听蝉交谈",
     "Scene": 3060,
+    "AddNpcs": 332005,
     "Des": {
       "id": 332005,
       "say": 215685

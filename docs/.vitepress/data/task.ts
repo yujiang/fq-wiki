@@ -41,11 +41,11 @@ export async function getTask(id: number) {
 }
 
 export async function getDesDesc(des: TaskParamDes) {
-    const type = des.type || 'npc'
-    const desid = des.id as number;
+    const desid = des?.id as number;
     if (!desid) {
         return '未知';
     }
+    const type = des.type || 'npc'
     let xls: XlsSceneObj
     switch (type) {
         case 'npc':

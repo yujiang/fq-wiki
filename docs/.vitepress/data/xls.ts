@@ -15,7 +15,7 @@ export interface XlsSceneObj extends XlsBase {
   y: number;
 };
 
-export interface DisplayStruct{
+export interface DisplayStruct {
   shape: number, icon: number
 };
 
@@ -45,7 +45,18 @@ export async function fetchXls(name: string): Promise<Bases> {
     const url = `/json/${name}_xls.json`
     const res = await fetch(url)
 
-    if (!res.ok) throw new Error(`fetchXls failed: ${url} (${res.status})`)
+    if (!res.ok ) {
+      // 这里当做文件不存在或服务端异常处理
+      throw new Error(`fetchXls failed: ${url} status:${res.status} `)
+    }
+    const ct = res.headers.get('Content-Type') || ''
+    if (!ct.includes('application/json')) {
+      // 找不到，dev会返回html
+      console.error(`fetchXls failed: ${url} not json Content-Type:${ct} status:${res.status}`)
+      return null;
+    }
+
+
     try {
       const data = (await res.json()) as Bases
 
@@ -54,9 +65,9 @@ export async function fetchXls(name: string): Promise<Bases> {
       return data
     }
     catch (e) {
-      console.error(`fetchXls exception: ${url} `,e);
+      console.error(`fetchXls exception: ${url} `, e, {status: res.status, "Content-Type":ct}, );
       throw e
-    } finally{
+    } finally {
       delete fetching[name]
     }
   })()
@@ -67,9 +78,9 @@ export async function fetchXls(name: string): Promise<Bases> {
 }
 
 
-export function getRankBgStyle(rank: number|undefined){
+export function getRankBgStyle(rank: number | undefined) {
   if (rank === undefined) rank = -1;
-  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${(rank||0) + 2}.png")`;
+  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${(rank || 0) + 2}.png")`;
   // console.log('生成的背景图路径：', rank, bgImage); // 检查路径是否正确
   return {
     backgroundImage: bgImage,

@@ -3,6 +3,7 @@ import { getCollect, getCollects } from "./collect";
 import { ItemIdCount } from "./item";
 import { getMoney, getMoneyGrid } from "./money";
 import { NpcFriend } from "./npc";
+import { getScene } from "./scene";
 import { SkillIdLevel } from "./skill";
 import { fetchXls, XlsBase } from "./xls";
 
@@ -25,11 +26,16 @@ export interface XlsReward extends XlsBase {
 
 	SkillExp: RewardMoney[]; // lifeskill
 	Secret: [number, number, number]; // 秘技
-	SecretExp: [number, number]; // 秘技经验
+	SecretExp: number | [number, number]; // 秘技经验
 
 	Scene: number;
 	SceneScore: number;
 	NpcFriend: RewardNpcFriend; // npc友好度！ 
+  subReward: number[]; // 额外奖励id
+
+  // 无法识别MoneyFunc/ItemFunc
+  //MoneyFunc: string; // 复杂money脚本
+  //ItemFunc: string; // 复杂item脚本
 }
 
 
@@ -48,7 +54,7 @@ export async function getReward(id: number) {
 }
 
 
-export async function getRewardAll(id: number): Promise<ItemIdCount[]> {
+export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
   const items = await getRewardItems(id);
   const moneys = await getRewardMoneys(id);
   return [ ...moneys, ...items];
@@ -110,8 +116,14 @@ export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
 export function getRewardSkills(xls: XlsReward): SkillIdLevel[] {
   const rt:SkillIdLevel[] = [];
   if (xls.SecretExp){
-    const [skill,exp] = xls.SecretExp;
-    rt.push({id: skill, level: exp+'exp'});
+    if (Array.isArray(xls.SecretExp)){
+      const [skill,exp] = xls.SecretExp;
+      rt.push({id: skill, level: exp+'exp'});
+    } else {
+      const skill = 20000; //通用战斗，取其icon使用
+      const exp = xls.SecretExp;
+      rt.push({id: skill, level: exp+'exp'});
+    }
   }
   if (xls.SkillExp){
     for(const m of xls.SkillExp){
@@ -131,4 +143,62 @@ export function getRewardFriends(xls: XlsReward): NpcFriend[] {
     return nf.map((i) => { return { npcId: i[0], friend: i[1] } });
   }
   return [];
+}
+
+export interface SceneScore {
+  Id: number;
+  Name: string;
+  Score: number;
+}
+
+export interface RewardAll {
+  items: ItemIdCount[];
+  moneys: ItemIdCount[];
+  lifeskills: SkillIdLevel[];
+  friend: NpcFriend[];
+  sceneScore: SceneScore | null;
+}
+
+// 获得所有可以显示的reward内容
+export async function getRewardA(newId: number): Promise<RewardAll | null> {
+  const xls = await getReward(newId);
+  if (!xls) return null;
+  const items = await getRewardItems(newId);
+  const moneys = await getRewardMoneys(newId);
+  const lifeskills = getRewardSkills(xls);
+  const friend = getRewardFriends(xls);
+  let sceneScore = null;
+  if (xls.Scene && xls.SceneScore) {
+    const info = await getScene(xls.Scene);
+    if (info) {
+      sceneScore = {
+        Id: xls.Scene,
+        Name: info.Name,
+        Score: xls.SceneScore,
+      }
+    }
+  }
+  return { items, moneys, lifeskills, friend, sceneScore };
+}
+
+export async function getRewardAll(newId: number): Promise<RewardAll | null> {
+  const xls = await getReward(newId);
+  if (!xls) return null;
+  const rt = await getRewardA(newId);
+  if (!rt) return null;
+  if (xls.subReward){
+    for (const r of xls.subReward)
+    {
+      const sub = await getRewardA(r);
+      if (sub){
+        rt.items.push(...sub.items);
+        rt.moneys.push(...sub.moneys);
+        rt.lifeskills.push(...sub.lifeskills);
+        if (sub.sceneScore && !rt.sceneScore){
+          rt.sceneScore = sub.sceneScore;
+        }
+      }
+    }
+  }
+  return rt;
 }

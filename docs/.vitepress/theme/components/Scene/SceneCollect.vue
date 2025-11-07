@@ -34,7 +34,7 @@
 import { defineProps, ref, onMounted, watch } from "vue";
 import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../../data/collect";
 import { formatClientPos } from "../../../data/public";
-import { getRewardAll } from "../../../data/reward";
+import { getRewardAll, getRewardItemMoney } from "../../../data/reward";
 import { ItemIdCount } from "../../../data/item";
 import { getSayReward } from "../../../data/say";
 
@@ -60,7 +60,7 @@ async function loadData() {
     if (!rw && collect.say) {
       rw = await getSayReward(collect.say);
     }
-    itemsMap[collect.Id] = await getRewardAll(rw);
+    itemsMap[collect.Id] = await getRewardItemMoney(rw);
   }
   rewardItemsMap.value = itemsMap;
 

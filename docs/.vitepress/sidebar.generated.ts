@@ -368,6 +368,10 @@ export default [
         "text": "game",
         "items": [
           {
+            "text": "RichText",
+            "link": "/50-test/game/01-RichText"
+          },
+          {
             "text": "shop",
             "link": "/50-test/game/06-shop"
           },

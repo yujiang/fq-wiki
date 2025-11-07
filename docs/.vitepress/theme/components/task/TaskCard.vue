@@ -29,7 +29,7 @@
             <div class="step-target">
               → {{ taskStepDescs[index] }} 
             </div>
-            <p>{{ step.Desc }}</p>
+            <p><RichText :text="step.Desc"></RichText></p>
           </div>
         </li>
       </ul>
@@ -47,6 +47,7 @@
 import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { XlsTask,getDesDesc,getTask  } from "../../../data/task";
 import RewardCard from "../reward/RewardCard.vue";
+import RichText from "../RichText.vue";
 
 // 接收 props 数据
 const props = defineProps<{taskId:number}>();

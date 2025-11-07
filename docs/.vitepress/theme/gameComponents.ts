@@ -2,6 +2,8 @@ import ItemCard from './components/shop/ItemCard.vue'
 import ShopCard from './components/shop/ShopCard.vue'
 import ShopTabs from './components/shop/ShopTabs.vue'
 
+import RichText from './components/RichText.vue'
+
 import Item from './components/Item.vue'
 import ItemList from './components/ItemList.vue'
 import ItemGrid from './components/ItemGrid.vue'
@@ -107,4 +109,7 @@ export function registerGameComponents(app: any) {
   app.component('WorldMapScenes', WorldMapScenes)
 
   app.component('testTooltip', testTooltip)
+  app.component('RichText', RichText)
+  
+
 }

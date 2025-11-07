@@ -384,6 +384,10 @@ export default [
             "link": "/50-test/game/10-task"
           },
           {
+            "text": "taskmain",
+            "link": "/50-test/game/11-taskmain"
+          },
+          {
             "text": "base",
             "items": [
               {
@@ -409,6 +413,10 @@ export default [
               {
                 "text": "reward",
                 "link": "/50-test/game/base/07-reward"
+              },
+              {
+                "text": "reward2",
+                "link": "/50-test/game/base/08-reward2"
               }
             ],
             "collapsed": true
@@ -571,6 +579,10 @@ export default [
       {
         "text": "Markdown Examples",
         "link": "/60-开发/markdown-examples"
+      },
+      {
+        "text": "从历史看清 CSR 与 SSR  ",
+        "link": "/60-开发/从历史看清_CSR与SSR"
       }
     ],
     "collapsed": false

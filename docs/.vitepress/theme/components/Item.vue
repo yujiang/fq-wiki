@@ -18,7 +18,7 @@
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
-          <span class="数目" v-if="count">{{ count }}</span>
+          <span class="数目" v-if="itemcount"  :style="{ color: itemcount < 0 ? 'red' : 'white' }" >{{ itemcount }}</span>
           <span class="几率" v-if="randdesc">{{ randdesc }}</span>
         </div>
       </template>
@@ -51,6 +51,7 @@ const props = defineProps<ItemIdCount>();
 // 异步加载所有 items
 let item = ref<XlsItem | null>(null);
 let itemicon = ref("");
+let itemcount = ref<string|number|undefined> (0);
 let showPopover = ref(false);
 
 function getRandDesc(){
@@ -82,10 +83,17 @@ watch(
   }
 );
 
-const updateCurrentItem = async (id: number) => {
+const updateCurrentItem = async (itemId: number) => {
+  const id = Math.abs(itemId);
   const xls = await getItemById(id);
   item.value = xls;
   itemicon.value = getItemIcon(xls?.Icon);
+  itemcount.value = props.count;
+  if (itemId < 0){
+    if (itemcount.value > 0){
+      itemcount.value = -itemcount.value
+    }
+  }
   // showPopover.value = !! xls?.Detail
    randdesc.value = getRandDesc();
 };

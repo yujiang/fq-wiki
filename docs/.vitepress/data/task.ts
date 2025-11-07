@@ -18,7 +18,7 @@ export interface XlsTask extends XlsBase {
     AcceptDesc: string; //接任务方法
 
     Type: string;
-    Diff: string; // 容易，普通，困难，挑战
+    Diff: string; // 容易，普通，困难，危险
     Des: TaskParamDes;
     Scene: number;
     NextTask?: number; // 完成自动添加下一个

@@ -31,13 +31,11 @@
             </div>
             <p><RichText :text="step.Desc"></RichText></p>
           </div>
+        <div class="step-reward" v-if="step.Reward>0">
+          <RewardCard title="no" :rewardId="step.Reward"  />
+        </div>
         </li>
       </ul>
-    </div>
-
-    <!-- 任务奖励 -->
-    <div class="task-section任务奖励">
-      <RewardCard :title="'任务奖励'" :rewardId="last?.Reward || 0"  />
     </div>
 
   </div>
@@ -83,15 +81,19 @@ const updateCurrentTask = async (id: number) => {
     const all = [xls];
     const desc = await getDesDesc(xls.Des);
     const alldesc = [desc];
-    let next = xls.NextTask
+    let next : number = xls.NextTask || 0;
     let l = xls;
     while(next){
         const nxls = await getTask(next);
+        if (!nxls) break;
         all.push(nxls);
         const desc = await getDesDesc(nxls.Des);
         alldesc.push(desc);
         l = nxls;;
-        next = nxls.NextTask;
+        next = nxls.NextTask || 0;
+        if (next < 0){
+          next = -next;
+        }
     }
     console.log("updateCurrentTask", id, all.length, l.Id);
     task.value = xls;
@@ -238,6 +240,9 @@ const updateCurrentTask = async (id: number) => {
   color: #666;
   padding-left: 4px;
   border-left: 2px solid #eee;
+}
+
+.step-reward {
 }
 
 /* 操作按钮 */

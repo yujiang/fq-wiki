@@ -59,6 +59,9 @@ function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
     if (typeof(a) === "number") {
       return [{ id: a, count: 1, rand: 1 }];
     }
+    if (typeof(a[0]) === "number") {
+      return a.map((i) => { return { id: i, count: 1, rand: 0 } });
+    }
     return a.map((i) => { return { id: i[0], count: i[1], rand:i[2] } });
 }
 

@@ -8,10 +8,10 @@
 
 
 ```vue
-<RewardCard :rewardId="1204" /> 有钱有道具
+<RewardCard :rewardId="1204" title="no" /> 有钱有道具
 ```
 
-<RewardCard :rewardId="1204" />
+<RewardCard :rewardId="1204" title="no" />
 
 
 ```vue

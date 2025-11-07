@@ -37,7 +37,7 @@
 
     <!-- 任务奖励 -->
     <div class="task-section任务奖励">
-      <RewardCard :rewardId="last?.Reward || 0" />
+      <RewardCard :title="'任务奖励'" :rewardId="last?.Reward || 0"  />
     </div>
 
   </div>

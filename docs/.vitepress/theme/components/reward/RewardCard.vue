@@ -5,7 +5,7 @@
 <template>
   <div class="reward-card" v-if="currentReward">
     <div class="header">
-      <strong>{{ currentReward.Name }}</strong>
+      <strong>{{ title||currentReward.Name }}</strong>
     </div>
 
     <!-- 显示该商店的所有商品 -->
@@ -43,7 +43,7 @@ import SkillList from "../SkillList.vue";
 import NpcFriendList from "./NpcFriendList.vue";
 
 // 接收父组件传递的 shopId
-const props = defineProps<{ rewardId: number }>();
+const props = defineProps<{ rewardId: number, title?: string }>();
 let rewardItems = ref<ItemIdCount[]>([]);
 let rewardMoneys = ref<ItemIdCount[]>([]);
 let rewardSkills = ref<SkillIdLevel[]>([]);
@@ -65,6 +65,7 @@ watch(
 );
 
   const updateReward = async (newId: number) => {
+    currentReward.value = null;
     const xls = await getReward(newId);
     if (!xls) return;
     currentReward.value = xls;
@@ -83,7 +84,7 @@ watch(
     rewardMoneys.value = moneys;
     rewardSkills.value = lifeskills;
     rewardFriends.value = friend;
-    console.log("rewardItems.value", props.rewardId, items, moneys, lifeskills, friend);
+    console.log("rewardItems.value", props.rewardId, xls.Name, items, moneys, lifeskills, friend);
   };
 </script>
 

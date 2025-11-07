@@ -5,7 +5,7 @@
 <template>
   <div class="task-card">
     <!-- 任务标题栏 -->
-    <div class="task-card__header">
+    <div class="task-card__header" v-if="!offHeader">
       <span class="task-title">{{ task?.Name + (isDev?`(${task?.Id})`:'') }}</span>
       <span class="task-difficulty" :class="`difficulty-${task?.Diff  || '普通'}`">
         难度：{{ task?.Diff || '普通' }}
@@ -13,7 +13,7 @@
     </div>
 
     <!-- 领取条件 -->
-    <div class="task-section领取条件">
+    <div class="task-section领取条件" v-if="!offHeader">
       <span class="section-title">领取条件：</span>
       <span class="label"> {{ getAcceptDesc(task?.AcceptDesc) }} </span>
     </div>
@@ -48,7 +48,8 @@ import RewardCard from "../reward/RewardCard.vue";
 import RichText from "../RichText.vue";
 
 // 接收 props 数据
-const props = defineProps<{taskId:number}>();
+// end 结束任务, 用于分段
+const props = defineProps<{taskId:number, end?: number,   offHeader?: boolean;}>();
 
 // 异步加载所有 tasks
 let task = ref<XlsTask | null>(null);
@@ -83,7 +84,7 @@ const updateCurrentTask = async (id: number) => {
     const alldesc = [desc];
     let next : number = xls.NextTask || 0;
     let l = xls;
-    while(next){
+    while(next && next !== props.end){
         const nxls = await getTask(next);
         if (!nxls) break;
         all.push(nxls);
@@ -108,7 +109,7 @@ const updateCurrentTask = async (id: number) => {
 
 <style scoped>
 .task-card {
-  max-width: 600px;
+  width: 640px;
   margin: 16px auto;
   padding: 20px;
   border-radius: 8px;

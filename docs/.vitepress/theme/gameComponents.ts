@@ -38,6 +38,7 @@ import SceneNpc from './components/Scene/SceneNpc.vue'
 
 import TaskCard from './components/task/TaskCard.vue'
 import TaskTabs from './components/task/TaskTabs.vue'
+import TaskMainTabs from './components/task/TaskMainTabs.vue'
 import SceneTask from './components/Scene/SceneTask.vue'
 
 import Scene from './components/Scene/Scene.vue'
@@ -95,6 +96,7 @@ export function registerGameComponents(app: any) {
 
   app.component('TaskCard', TaskCard)
   app.component('TaskTabs', TaskTabs)
+  app.component('TaskMainTabs', TaskMainTabs)
   app.component('SceneTask', SceneTask)
 
   app.component('Scene', Scene)

@@ -271,6 +271,10 @@ export default [
         "collapsed": true
       },
       {
+        "text": "主线任务",
+        "link": "/05-任务/04-主线任务"
+      },
+      {
         "text": "任务索引",
         "link": "/05-任务/"
       }

@@ -14,7 +14,9 @@
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="skillicon" :src="skillicon" alt="" class="icon"  />
           <span class="等级" v-if="level">{{ level }}</span>
-          <span class="unlock" v-if="randdesc">{{ randdesc }}</span>
+          <span class="exp" v-if="exp">{{ exp<0?'新':exp }}</span>
+          <span class="unlock" v-if="unlock">{{ unlock }}</span>
+          <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 skill.desc -->
@@ -38,7 +40,11 @@ let skill = ref<XlsSkill | null>(null);
 let skillicon = ref('');
 let showPopover = ref(false)
 let skilldesc = ref('');
-let randdesc = ref(props.unlock ? props.unlock : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
+
+let getFLevelDesc = computed(() => {
+  return props.fLevel ? getFriendLevelDesc(props.fLevel) : '';
+});
+// let randdesc = ref(props.unlock ? props.unlock : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -83,6 +89,26 @@ const backgroundStyle = computed(() => getRankBgStyle(skill.value?.Rank));
   right: 2px;
   font-size: 10px;
   color: white;
+  font-weight: bold;
+}
+
+.exp {
+  position: absolute;
+  bottom: -2px;
+  left: 2px;
+  font-size: 14px;
+  color: greenyellow;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+}
+
+
+.fLevel {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  font-size: 10px;
+  color: orange;
   font-weight: bold;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
   background: rgba(0, 0, 0, 0.5);

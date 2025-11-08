@@ -6,6 +6,29 @@
 
 <Skill :id="50001" :level='99' />
 
+```vue
+<Skill :id="50001" :level='99' :unlock='2' />
+```
+
+<Skill :id="50001" :level='99' :unlock='2' />
+
+```vue
+<Skill :id="50001" :level='99' :fLevel='1'/>
+```
+
+<Skill :id="50001" :level='99' :fLevel='1'/>
+
+```vue
+<Skill :id="50001" :exp='100'/>
+```
+
+<Skill :id="50001" :exp='100'/>
+
+```vue
+<Skill :id="50001" :exp='-1'/>
+```
+
+<Skill :id="50001" :exp='-1'/>
 
 ```vue
 <Skill :id="0" :level='2' />
@@ -13,18 +36,3 @@
 
 <Skill :id="0" :level='2' />
 
-
-```vue
-<SkillList :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
-```
-<SkillList :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
-
-```vue
-<SkillGrid :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
-```
-<SkillGrid :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
-
-```vue
-<SkillGrid :rows="2" :cols="3" :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
-```
-<SkillGrid :rows="2" :cols="3" :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />

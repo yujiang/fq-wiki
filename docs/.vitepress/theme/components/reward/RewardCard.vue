@@ -3,8 +3,8 @@
  -->
 
 <template>
-<!--   <div class="header"> {{ title }} </div> -->
-  <div class="reward-card" v-if="currentReward && haveReward" >
+  <!--   <div class="header"> {{ title }} </div> -->
+  <div class="reward-card" v-if="currentReward && haveReward">
     <div class="header" v-if="curtitle && curtitle !== 'no'">
       <strong>{{ curtitle }}</strong>
     </div>
@@ -14,15 +14,30 @@
     <!-- 显示该商店的所有商品 -->
 
     <div class="grid">
-      <ItemList :items="allReward?.moneys" v-if="allReward?.moneys?.length > 0" />
+      <ItemList
+        :items="allReward?.moneys"
+        v-if="allReward?.moneys?.length > 0"
+      />
       <ItemList :items="allReward?.items" v-if="allReward?.items?.length > 0" />
-      <SkillList :skills="allReward?.lifeskills" v-if="allReward?.lifeskills?.length > 0" />
-      <NpcFriendList :npcs="allReward?.friend" v-if="allReward?.friend.length > 0" />
-      <div class="声望" v-if="allReward?.sceneScore">
+      <SkillList
+        :skills="allReward?.lifeskills"
+        v-if="allReward?.lifeskills?.length > 0"
+      />
+      <NpcFriendList
+        :npcs="allReward?.friend"
+        v-if="allReward?.friend.length > 0"
+      />
+      <!--       <div class="声望" v-if="allReward?.sceneScore">
         <span class="scene">{{ allReward.sceneScore.Name }}</span>
         <span class="score">{{ "声望: " + allReward.sceneScore.Score }}</span>
       </div>
-
+ -->
+      <MoneyCard
+        v-if="allReward?.sceneScore"
+        :name="allReward.sceneScore.Name"
+        :type="14"
+        :amount="allReward.sceneScore.Score"
+      />
     </div>
   </div>
 </template>
@@ -38,11 +53,12 @@ import {
 } from "../../../data/reward";
 import ItemList from "../ItemList.vue";
 import SkillList from "../SkillList.vue";
+import MoneyCard from "../MoneyCard.vue";
 import NpcFriendList from "./NpcFriendList.vue";
 
 const isDev = import.meta.env.DEV;
 // 接收父组件传递的 shopId
-const props = defineProps<{ rewardId: number, title?: string }>();
+const props = defineProps<{ rewardId: number; title?: string }>();
 let allReward = ref<RewardAll | null>(null);
 // let rewardItems = ref<ItemIdCount[]>([]);
 // let rewardMoneys = ref<ItemIdCount[]>([]);
@@ -75,17 +91,21 @@ const updateReward = async (newId: number) => {
   const xls = await getReward(newId);
   if (!xls) return;
   currentReward.value = xls;
-  if (props.title !== 'no') curtitle.value = props.title || xls.Name;
+  if (props.title !== "no") curtitle.value = props.title || xls.Name;
   const all = await getRewardAll(newId);
   // 加载奖励内容
-  if (all){
-    const have = all.sceneScore?.Score || all.items.length || all.moneys.length || all.lifeskills.length || all.friend.length;
+  if (all) {
+    const have =
+      all.sceneScore?.Score ||
+      all.items.length ||
+      all.moneys.length ||
+      all.lifeskills.length ||
+      all.friend.length;
     haveReward.value = have > 0;
   }
   console.log("rewardItems.value", props.rewardId, xls.Name, all);
   allReward.value = all;
 };
-
 </script>
 
 <style scoped>

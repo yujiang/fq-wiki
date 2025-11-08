@@ -29,6 +29,7 @@ export async function getMoneyIcon(id: number) {
 }
 
 export interface MoneyNum{
+  name: string;
   /** 货币名称，例如 “元宝” */
   type: number;
   /** 货币数量 */

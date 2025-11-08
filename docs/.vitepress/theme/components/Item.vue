@@ -19,7 +19,8 @@
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
           <span class="数目" v-if="itemcount"  :style="{ color: itemcount < 0 ? 'red' : 'white' }" >{{ itemcount }}</span>
-          <span class="几率" v-if="randdesc">{{ randdesc }}</span>
+          <span class="几率" v-if="rand">{{ rand+"%" }}</span>
+          <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
@@ -54,20 +55,11 @@ let itemicon = ref("");
 let itemcount = ref<string|number|undefined> (0);
 let showPopover = ref(false);
 
-function getRandDesc(){
-  if (props.rand){
-    if (props.rand >= 100){
-      return ''
-    }
-    return props.rand + "%"
-  }
-  if (props.fLevel){
-    return getFriendLevelDesc(props.fLevel)
-  }
-  return ""
-}
+let getFLevelDesc = computed(() => {
+  return props.fLevel ? getFriendLevelDesc(props.fLevel) : '';
+});
 
-let randdesc = ref(getRandDesc());
+// let randdesc = ref(getRandDesc());
 // console.log("randdesc", props, randdesc.value);
 
 // 初始化并加载数据
@@ -95,7 +87,7 @@ const updateCurrentItem = async (itemId: number) => {
     }
   }
   // showPopover.value = !! xls?.Detail
-   randdesc.value = getRandDesc();
+   // randdesc.value = getRandDesc();
 };
 
 // 根据 rank 动态计算背景图片
@@ -125,4 +117,16 @@ const backgroundStyle = computed(() => {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
   background: rgba(0, 0, 0, 0.5);
 }
+
+.fLevel {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  font-size: 10px;
+  color: orange;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+  background: rgba(0, 0, 0, 0.5);
+}
+
 </style>

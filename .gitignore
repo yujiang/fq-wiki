@@ -17,4 +17,6 @@ docs/public/images/icon/map/
 .DS_Store
 *.log
 *.local
-"docs/.vitepress/sidebar.generated.ts" 
+
+docs/.vitepress/sidebar.generated.ts
+

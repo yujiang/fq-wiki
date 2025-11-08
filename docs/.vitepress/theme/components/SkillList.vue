@@ -12,6 +12,7 @@
       :level="skill.level"
       :unlock="skill.unlock"
       :fLevel="skill.fLevel"
+      :exp="skill.exp"
     />
   </div>
 </template>

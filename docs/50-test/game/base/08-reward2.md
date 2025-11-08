@@ -19,3 +19,14 @@
 
 <RewardCard :rewardId="81008" />
 
+```vue
+<RewardCard :rewardId="536679" />  subReward 
+```
+
+<RewardCard :rewardId="536679" />
+
+```vue
+<RewardCard :rewardId="62008" />  subReward 
+```
+
+<RewardCard :rewardId="62008" />

@@ -8,8 +8,8 @@
       <img v-if="moneyicon" :src="moneyicon" alt="" class="icon" />
     </div>
     <div class="info">
+      <span class="moneyname">{{ name || money?.Name }}</span>
       <span class="amount">{{ formatAmount(amount) }}</span>
-      <span class="moneyname">{{ money?.Name }}</span>
     </div>
   </div>
 </template>

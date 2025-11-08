@@ -40,6 +40,10 @@ export async function getTask(id: number) {
     return (await getTasks())[id]
 }
 
+export function getTaskSync(id: number) {
+    return tasks[id]
+}
+
 export async function getDesDesc(des: TaskParamDes) {
     const desid = des?.id as number;
     if (!desid) {

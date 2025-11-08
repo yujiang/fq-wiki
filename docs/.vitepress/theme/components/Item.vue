@@ -18,8 +18,8 @@
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
-          <span class="数目" v-if="itemcount"  :style="{ color: itemcount < 0 ? 'red' : 'white' }" >{{ itemcount }}</span>
-          <span class="几率" v-if="rand">{{ rand+"%" }}</span>
+          <span class="数目" v-if="itemcount > 1 || itemcount < 0"  :style="{ color: itemcount < 0 ? 'red' : 'white' }" >{{ itemcount }}</span>
+          <span class="几率" v-if="rand < 100 && rand > 0">{{ rand+"%" }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>

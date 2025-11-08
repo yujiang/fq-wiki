@@ -15,7 +15,7 @@
           <img v-if="skillicon" :src="skillicon" alt="" class="icon"  />
           <span class="等级" v-if="level">{{ level }}</span>
           <span class="exp" v-if="exp">{{ exp<0?'新':exp }}</span>
-          <span class="unlock" v-if="unlock">{{ unlock }}</span>
+          <span class="unlock" v-if="unlock">{{ unlock / 4 + 1 }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>
@@ -85,10 +85,10 @@ const backgroundStyle = computed(() => getRankBgStyle(skill.value?.Rank));
 
 .unlock {
   position: absolute;
-  top: 0px;
+  top: -2px;
   right: 2px;
-  font-size: 10px;
-  color: white;
+  font-size: 12px;
+  color: orange;
   font-weight: bold;
 }
 

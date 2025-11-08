@@ -70,7 +70,7 @@ export function getItemIcon(icon: number | undefined) {
 
 export interface ItemIdCount{
   id: number;
-  count?: number | string; // 数目
-  rand?: number; // 掉落几率 for reward
-  fLevel?: number; // 友好级别 for observe
+  count?: number | string; // 数目 右下角
+  rand?: number; // 掉落几率 for reward 右上角
+  fLevel?: number; // 友好级别 for observe 右上角
 }

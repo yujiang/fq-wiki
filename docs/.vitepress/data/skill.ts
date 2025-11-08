@@ -59,11 +59,11 @@ export function getSkillIcon(icon: number|undefined) {
 
 export interface SkillIdLevel{
   id: number;
-  level?: number|string;
+  level?: number|string; // 右下角
   // unlock,exp,flevel 只有其一！
-  unlock?: number; // for taolu 
-  exp?: number; // for reward -1 new skill
-  fLevel?: number; // 友好级别 for observe
+  unlock?: number; // for taolu 右上角
+  exp?: number; // for reward -1 new skill 左下角
+  fLevel?: number; // 友好级别 for observe 右上角
 }
 
 export async function getSkillsFileType(file: string, type?: string): Promise<Skills> {

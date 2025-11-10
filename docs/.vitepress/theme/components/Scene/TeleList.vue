@@ -11,15 +11,15 @@
           <th v-if="isDev">ID</th>
           <th>位置</th>
           <th>目的</th>
-          <th>类型</th>
+          <th v-if="!hideType">类型</th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="tele in teles" :key="tele.Id">
+        <tr v-for="tele in props.teles" :key="tele.Id">
           <td v-if="isDev">{{ tele.Id }}</td>
           <td>{{ formatClientPos(tele.x, tele.y) }}</td>
           <td>{{ tgtPos[tele.Id] }}</td>
-          <td>{{ tgtType[tele.Id] }}</td>
+          <td v-if="!hideType">{{ tgtType[tele.Id] }}</td>
         </tr>
       </tbody>
     </table>
@@ -31,27 +31,24 @@ import { defineProps, ref, watchEffect } from "vue";
 import { formatClientPos } from "../../../data/public";
 import { formatPositionClient, getScene, getScenePositionClient, getSceneType } from "../../../data/scene";
 import { XlsTeleport } from "../../../data/tele";
-import { getTelesTypeByScene } from "../../../data/tele";
+// import { getTelesTypeByScene } from "../../../data/tele";
 
-const props = defineProps<{
-  sceneId: number;
-  teleType: string;
-}>();
+const props = defineProps<{hideType?: boolean, teles: XlsTeleport[]}>();
 
 // --- 状态 ---
-const teles = ref<XlsTeleport[]>([]);
+// const teles = ref<XlsTeleport[]>([]);
 const tgtPos = ref<Record<number, string>>({});
 const tgtType = ref<Record<number, string>>({});
 
 // --- 数据加载函数 ---
 async function loadData() {
   // 1. 加载 tele
-  const cs = (await getTelesTypeByScene(props.teleType, props.sceneId)) || [];
-  teles.value = cs;
+  //const cs = (await getTelesTypeByScene(props.teleType, props.sceneId)) || [];
+  //teles.value = cs;
 
   const itemsMap: Record<number, string> = {};
   const typeMap: Record<string, string> = {};
-  for (const tele of cs) {
+  for (const tele of Object.values(props.teles)) {
     const scene = await getScene(tele.tgtScene);
     itemsMap[tele.Id] = formatPositionClient(
       scene,
@@ -64,7 +61,7 @@ async function loadData() {
   tgtPos.value = itemsMap;
   tgtType.value = typeMap;
 
-  console.log("Tele data reloaded:", props.teleType, cs.length, cs);
+  // console.log("Tele data reloaded:", props.teleType, cs.length, cs);
 }
 
 // --- 初次加载 ---
@@ -82,15 +79,18 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 th,
 td {
   padding: 8px;
   border: 1px solid #ddd;
   text-align: left;
 }
+
 th {
   background-color: #f4f4f4;
 }
+
 .reward-cell {
   display: flex;
   justify-content: flex-start;

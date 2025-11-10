@@ -1,16 +1,16 @@
 ## tele测试
 
 ```vue
-<TeleList :sceneId="1023" teleType="野外" />
+<SceneTeleType :sceneId="1023" teleType="野外" />
 ```
 
-<TeleList :sceneId="1023" teleType="野外" />
+<SceneTeleType :sceneId="1023" teleType="野外" />
 
 ```vue
-<TeleList :sceneId="1023" teleType="室内" />
+<SceneTeleType :sceneId="1023" teleType="室内" :hideType=true />
 ```
 
-<TeleList :sceneId="1023" teleType="室内" />
+<SceneTeleType :sceneId="1023" teleType="室内" :hideType=true />
 
 
 ```vue

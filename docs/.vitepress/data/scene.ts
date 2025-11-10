@@ -93,11 +93,11 @@ export function isSceneTypeArea(xlsType:string, type:SceneTypeString) {
   if (!type) return true;
   switch (type) {
     case '野外':
-      return isWilderness(xlsType);
+      return isWilderness(xlsType) || isCave(xlsType);
+    // case '山洞':
+    //   return isCave(xlsType);
     case '室内':
       return isIndoor(xlsType);
-    case '山洞':
-      return isCave(xlsType);
     case '城市':
       return isCity(xlsType) || isSchool(xlsType) || isShili(xlsType) || isCun(xlsType);
     default:

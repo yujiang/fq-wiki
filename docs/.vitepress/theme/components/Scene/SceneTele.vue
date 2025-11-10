@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watchEffect } from 'vue'
 import TeleList from './TeleList.vue';
 import { getTelesTypeByScene } from '../../../data/tele';
 import { SceneTypeString } from '../../../data/scene';
@@ -42,7 +42,8 @@ const props = defineProps<{ sceneId: number }>()
 // 原始 tabs 配置（包含所有可能的类型，可根据实际需求扩展）
 const allTabs: TabItem[] = [
   { type: '室内', count: 0 },
-  { type: '野外', count: 0 }
+  { type: '野外', count: 0 },
+  { type: '城市', count: 0 },
 ]
 
 // 过滤后的 tabs（只保留数量 > 0 的）
@@ -67,18 +68,23 @@ const fetchTeleCount = async () => {
 
   }
   // 更新数量
-  filteredTabs.value = allTabs.filter(tab => tab.count > 0) // 过滤数量为0的tab
+  const a = allTabs.filter(tab => tab.count > 0) // 过滤数量为0的tab
+  console.log("fetchTeleCount", props.sceneId, a);
 
   // 重置激活索引（避免过滤后索引越界）
-  if (filteredTabs.value.length > 0 && active.value >= filteredTabs.value.length) {
+  if (a.length > 0 && active.value >= a.length) {
     active.value = 0
   }
+  filteredTabs.value = a
 }
 
 // 初始化时获取数据
 onMounted(() => {
   fetchTeleCount()
 })
+
+watchEffect(fetchTeleCount);
+
 </script>
 
 <style scoped>

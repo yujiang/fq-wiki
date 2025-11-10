@@ -465,6 +465,10 @@ export default [
                 "link": "/50-test/game/scene/12-tele"
               },
               {
+                "text": "tele2",
+                "link": "/50-test/game/scene/12-tele2"
+              },
+              {
                 "text": "sceneTabs",
                 "link": "/50-test/game/scene/14-sceneTabs"
               },

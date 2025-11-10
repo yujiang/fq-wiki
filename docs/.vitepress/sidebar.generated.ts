@@ -461,12 +461,12 @@ export default [
                 "link": "/50-test/game/scene/11-sceneTask"
               },
               {
-                "text": "tele",
-                "link": "/50-test/game/scene/12-tele"
+                "text": "sceneTele",
+                "link": "/50-test/game/scene/12-sceneTele"
               },
               {
-                "text": "tele2",
-                "link": "/50-test/game/scene/12-tele2"
+                "text": "teleType",
+                "link": "/50-test/game/scene/12-teleType"
               },
               {
                 "text": "sceneTabs",

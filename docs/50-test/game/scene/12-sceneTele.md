@@ -9,3 +9,13 @@
 
 
 
+```vue
+<SceneTele :sceneId="1023"/>
+```
+
+<SceneTele :sceneId="1023"/>
+
+
+
+
+

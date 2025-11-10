@@ -49,7 +49,7 @@ import RichText from "../RichText.vue";
 
 // 接收 props 数据
 // end 结束任务, 用于分段
-const props = defineProps<{taskId:number, end?: number,   offHeader?: boolean;}>();
+const props = defineProps<{taskId:number, end?: number, offHeader?: boolean;}>();
 
 // 异步加载所有 tasks
 let task = ref<XlsTask | null>(null);

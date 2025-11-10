@@ -20,7 +20,7 @@
         <div class="panel" v-if="activeGroup">
             <TaskCard :taskId="activeGroup.id" 
             :end="activeGroup.end"
-            :offHeader="activeGroup.offHeader" />
+            :offHeader="true" />
         </div>
     </div>
 </template>
@@ -50,7 +50,6 @@ const groups = computed(() => {
             label: getChapterName(index + 1),
             id: taskId,
             end: props.taskIds[index + 1] ?? 0,
-            offHeader: true,
         }
     }
     )

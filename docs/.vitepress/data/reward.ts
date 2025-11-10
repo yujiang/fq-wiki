@@ -1,7 +1,7 @@
 // 游戏奖励
-import { getCollect, getCollects } from "./collect";
+import { getCollect } from "./collect";
 import { ItemIdCount } from "./item";
-import { getMoney, getMoneyGrid } from "./money";
+import { getMoneyGrid } from "./money";
 import { NpcFriend } from "./npc";
 import { getScene } from "./scene";
 import { SkillIdLevel } from "./skill";

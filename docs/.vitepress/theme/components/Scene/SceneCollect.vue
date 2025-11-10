@@ -64,8 +64,7 @@ async function loadData() {
   }
   rewardItemsMap.value = itemsMap;
 
-  console.log("Collect data reloaded:", props.sceneId, props.collectType, cs.length, cs, itemsMap);
-
+  // console.log("Collect data reloaded:", props.sceneId, props.collectType, cs.length, cs, itemsMap);
 }
 
 // --- 初次加载 ---

@@ -589,20 +589,38 @@ export default [
     "text": "开发",
     "items": [
       {
-        "text": "给 AI 写词",
-        "link": "/60-开发/01-给 AI 写词"
+        "text": "学习资料",
+        "items": [
+          {
+            "text": "Runtime API Examples",
+            "link": "/60-开发/01-学习资料/api-examples"
+          },
+          {
+            "text": "Markdown Examples",
+            "link": "/60-开发/01-学习资料/markdown-examples"
+          }
+        ],
+        "collapsed": true
       },
       {
-        "text": "Runtime API Examples",
-        "link": "/60-开发/api-examples"
+        "text": "ChatGPT 笔记革命  ",
+        "link": "/60-开发/ChatGPT记笔记"
       },
       {
-        "text": "Markdown Examples",
-        "link": "/60-开发/markdown-examples"
+        "text": "Vue 组件开发 — 阶段总结",
+        "link": "/60-开发/vue组件开发"
       },
       {
         "text": "从历史看清 CSR 与 SSR  ",
         "link": "/60-开发/从历史看清_CSR与SSR"
+      },
+      {
+        "text": "给 AI 写词",
+        "link": "/60-开发/给 AI 写词"
+      },
+      {
+        "text": "说UE渲染强是在说什么",
+        "link": "/60-开发/说UE渲染强是在说什么"
       }
     ],
     "collapsed": false

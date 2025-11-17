@@ -28,6 +28,39 @@ const xlsCache: Record<string, Bases> = {}
 const fetching: Record<string, Promise<Bases>> = {}
 
 /**
+ * 动态加载单个 xls 文件的内容
+ */
+async function loadXls(name: string): Promise<Bases> {
+  const url = `/json/${name}_xls.json`
+  const res = await fetch(url)
+
+  if (!res.ok ) {
+    // 这里当做文件不存在或服务端异常处理
+    throw new Error(`fetchXls failed: ${url} status:${res.status} `)
+  }
+  const ct = res.headers.get('Content-Type') || ''
+  if (!ct.includes('application/json')) {
+    // 找不到，dev会返回html
+    console.error(`fetchXls failed: ${url} not json Content-Type:${ct} status:${res.status}`)
+    throw new Error(`fetchXls failed: ${url} not json`)
+  }
+
+  try {
+    const data = (await res.json()) as Bases
+
+    xlsCache[name] = data
+    delete fetching[name]
+    return data
+  }
+  catch (e) {
+    console.error(`fetchXls exception: ${url} `, e, {status: res.status, "Content-Type":ct}, );
+    throw e
+  } finally {
+    delete fetching[name]
+  }
+}
+
+/**
  * 动态加载 .vitepress/json/{name}_xls.json
  * 带缓存与防重入
  */
@@ -41,38 +74,7 @@ export async function fetchXls(name: string): Promise<Bases> {
   }
 
   // 启动新请求
-  const p = (async () => {
-    const url = `/json/${name}_xls.json`
-    const res = await fetch(url)
-
-    if (!res.ok ) {
-      // 这里当做文件不存在或服务端异常处理
-      throw new Error(`fetchXls failed: ${url} status:${res.status} `)
-    }
-    const ct = res.headers.get('Content-Type') || ''
-    if (!ct.includes('application/json')) {
-      // 找不到，dev会返回html
-      console.error(`fetchXls failed: ${url} not json Content-Type:${ct} status:${res.status}`)
-      return null;
-    }
-
-
-    try {
-      const data = (await res.json()) as Bases
-
-      xlsCache[name] = data
-      delete fetching[name]
-      return data
-    }
-    catch (e) {
-      console.error(`fetchXls exception: ${url} `, e, {status: res.status, "Content-Type":ct}, );
-      throw e
-    } finally {
-      delete fetching[name]
-    }
-  })()
-
-  // 暂存这个 Promise，防止重复加载
+  const p = loadXls(name)
   fetching[name] = p
   return p
 }

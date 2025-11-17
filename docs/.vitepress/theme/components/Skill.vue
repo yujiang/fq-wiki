@@ -4,7 +4,7 @@
  
  <template>
   <div class="base-item-game skill-game"
-    @mouseover="showPopover = !!skilldesc"
+    @mouseover="showPopover = !!state.desc"
     @mouseleave="showPopover = false"
   >
     <!-- 使用 NTooltip 包裹触发元素 -->
@@ -12,22 +12,22 @@
       <!-- 触发元素放在 #trigger 插槽中 -->
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
-          <img v-if="skillicon" :src="skillicon" alt="" class="icon"  />
-          <span class="等级" v-if="level">{{ level }}</span>
-          <span class="exp" v-if="exp">{{ exp<0?'新':exp }}</span>
+          <img v-if="state.icon" :src="state.icon" alt="" class="icon"  />
+          <span class="level" v-if="level">{{ level }}</span>
+          <span class="exp" v-if="exp">{{ exp < 0 ? '新' : exp }}</span>
           <span class="unlock" v-if="unlock">{{ unlock / 4 + 1 }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>
       <!-- Tooltip 内容通过插槽传递，动态绑定 skill.desc -->
-      <div>{{ skilldesc }}</div>
+      <div>{{ state.desc }}</div>
     </n-tooltip>
-      <div class="base-item-name skill-name" v-if="skill?.Name">{{ skill.Name }}</div> <!-- 物品名字 -->
+      <div class="base-item-name skill-name" v-if="state.skill?.Name">{{ state.skill.Name }}</div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, defineProps, onMounted, watch, computed, reactive } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../data/skill";
 import { getRankBgStyle } from "../../data/xls";
 import { getFriendLevelDesc } from "../../data/npc";
@@ -35,45 +35,54 @@ import { getFriendLevelDesc } from "../../data/npc";
 // 接收 props 数据
 const props = defineProps<SkillIdLevel>();
 
-// 异步加载所有 skills
-let skill = ref<XlsSkill | null>(null);
-let skillicon = ref('');
-let showPopover = ref(false)
-let skilldesc = ref('');
-
-let getFLevelDesc = computed(() => {
-  return props.fLevel ? getFriendLevelDesc(props.fLevel) : '';
+// 内部状态：合并 skill、icon、desc
+const state = reactive({
+  skill: null as XlsSkill | null,
+  icon: '' as string,
+  desc: '' as string,
 });
+
+const showPopover = ref(false);
+
+const getFLevelDesc = computed(() => props.fLevel ? getFriendLevelDesc(props.fLevel) : '');
 // let randdesc = ref(props.unlock ? props.unlock : props.fLevel ? getFriendLevelDesc(props.fLevel) : "");
 
-// 初始化并加载数据
-onMounted(async () => {
+// 初始化并加载数据（保留 onMounted + watch，避免时序问题）
+onMounted(() => {
+  // 不 await 在 onMounted 中直接调用，确保页面挂载时触发加载
   updateCurrentSkill(props.id);
 });
 
-// 监听 good 变化
+// 监听 id 变化
 watch(
   () => props.id,
-  (newGood) => {
-    updateCurrentSkill(newGood);
+  (newId) => {
+    updateCurrentSkill(newId);
   }
 );
 
 const updateCurrentSkill = async (id: number) => {
-  const xls = await getSkillById(id);
-  skill.value = await getSkillById(id);
-  skillicon.value = getSkillIcon(xls?.Icon);
-  skilldesc.value = xls?.Desc || xls?.Detail || '';
+  try {
+    const xls = await getSkillById(id);
+    state.skill = xls;
+    state.icon = getSkillIcon(xls?.Icon);
+    state.desc = xls?.Detail || xls?.Desc || '';
+  } catch (e) {
+    console.error('updateCurrentSkill failed', e);
+    state.skill = null;
+    state.icon = '';
+    state.desc = '';
+  }
 };
 
 // 根据 rank 动态计算背景图片
-const backgroundStyle = computed(() => getRankBgStyle(skill.value?.Rank));
+const backgroundStyle = computed(() => getRankBgStyle(state.skill?.Rank));
 </script>
 
 <style scoped>
 
 
-.等级 {
+.level {
   position: absolute;
   bottom: -2px;
   right: 4px;
@@ -114,6 +123,6 @@ const backgroundStyle = computed(() => getRankBgStyle(skill.value?.Rank));
   background: rgba(0, 0, 0, 0.5);
 }
 
-.skill-name {}
+
 
 </style>

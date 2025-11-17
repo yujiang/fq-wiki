@@ -252,21 +252,6 @@
     "LevelupTips": "棋艺升级了",
     "ExpTips": "棋艺熟练度增加{0}"
   },
-  "50020": {
-    "Id": 50020,
-    "Name": "儒学",
-    "Icon": 50020,
-    "Type": "knowledge",
-    "Desc": "学问，升级方式读书",
-    "Detail": "儒者性服忠信，身行仁义，饰礼乐，选人伦，以上忠于世主，下以化于齐民。将以利天下。提升此技艺可学习更高深的武学。",
-    "UpgradeExp": 1006,
-    "Tags": "儒学",
-    "Effect": "永久",
-    "Leveltype": "level",
-    "GameData": "f",
-    "LevelupTips": "儒学升级了",
-    "ExpTips": "儒学熟练度增加{0}"
-  },
   "50021": {
     "Id": 50021,
     "Name": "书法",
@@ -390,21 +375,6 @@
     "Leveltype": "level",
     "LevelupTips": "射艺升级了",
     "ExpTips": "射艺熟练度增加{0}"
-  },
-  "50030": {
-    "Id": 50030,
-    "Name": "佛学",
-    "Icon": 50030,
-    "Type": "knowledge",
-    "Desc": "学问，升级方式读书",
-    "Detail": "佛家有函盖乾坤句，有随波逐流句，有截断众流句，将佛法流行人间，普度众生。提升此技艺可学习更高深的武学。",
-    "UpgradeExp": 1006,
-    "Tags": "佛学",
-    "Effect": "永久",
-    "Leveltype": "level",
-    "GameData": "f",
-    "LevelupTips": "佛学升级了",
-    "ExpTips": "佛学熟练度增加{0}"
   },
   "50031": {
     "Id": 50031,
@@ -663,21 +633,6 @@
   },
   "50054": {
     "Id": 50054,
-    "Name": "琴技",
-    "Icon": 50060,
-    "Type": "fight",
-    "Desc": "学问，升级方式读书",
-    "Detail": "琴者，金木之音。金，刀兵也；木，医药也。以琴入道，宫商破千军，角徵愈百疴。曲随意动，意由心生。提升此技艺可学习更高深的武学。",
-    "UpgradeExp": 1006,
-    "Tags": "琴技",
-    "Effect": "永久",
-    "Leveltype": "level",
-    "GameData": "f",
-    "LevelupTips": "琴技升级了",
-    "ExpTips": "琴技熟练度增加{0}"
-  },
-  "50060": {
-    "Id": 50060,
     "Name": "琴技",
     "Icon": 50060,
     "Type": "fight",

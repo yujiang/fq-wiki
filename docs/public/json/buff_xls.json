@@ -1,26 +1,63 @@
 {
   "1001": {
     "Id": 1001,
-    "Name": "无敌",
-    "Overlay": 1,
+    "Name": "buff1",
+    "Icon": 111,
     "Show": 1,
-    "Desc": "无敌",
-    "PSkill": 1001,
+    "PSkill": 20002,
     "Level": 1,
-    "Times": 100,
-    "Event": "win"
+    "LifeTime": 60,
+    "Status": "运镖"
   },
   "1002": {
     "Id": 1002,
-    "Name": "无敌status",
-    "Overlay": 1,
+    "Name": "易容123",
+    "Overlay": 0,
+    "Icon": 17514,
     "Show": 1,
-    "Desc": "无敌status",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [1001]],
-    "Level": 1,
-    "Times": 3,
-    "Event": "win"
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 10,
+    "OnAddType": "changeShape",
+    "OnAddParam": 2079,
+    "OnDelType": "restoreShape"
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "易容",
+    "Overlay": 0,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "时间到了就回到原来的样子",
+    "LifeTime": 10,
+    "OnDelType": "taskFail",
+    "OnDelParam": 1001
+  },
+  "1013": {
+    "Id": 1013,
+    "Name": "火折子",
+    "IconType": "item",
+    "Type": "照明",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "视野加100",
+    "Tags": 0,
+    "Level": 101,
+    "LifeTime": 120
+  },
+  "1014": {
+    "Id": 1014,
+    "Name": "照明弹",
+    "IconType": "item",
+    "Type": "照明",
+    "OverlayType": 1,
+    "Overlay": 1,
+    "Icon": 17514,
+    "Show": 1,
+    "Desc": "视野加200",
+    "Level": 200,
+    "LifeTime": 120
   },
   "10000": {
     "Id": 10000,
@@ -28,7 +65,9 @@
     "Icon": 1011,
     "Show": 1,
     "Desc": "禁止传送到别的场景",
-    "Tags": ["禁止传送"],
+    "Tags": [
+      "禁止传送"
+    ],
     "Status": "运镖"
   },
   "10001": {
@@ -53,7 +92,9 @@
     "Type": "禁疗",
     "Icon": 1011,
     "Desc": "禁疗",
-    "Tags": ["禁疗"]
+    "Tags": [
+      "禁疗"
+    ]
   },
   "10004": {
     "Id": 10004,
@@ -114,8 +155,15 @@
     "Id": 10014,
     "Name": "测试偷袭",
     "Desc": "测试偷袭，手动添加和删除",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [220011]],
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        220011
+      ]
+    ],
     "Level": 1
   },
   "10015": {
@@ -126,7 +174,9 @@
     "Icon": 1013,
     "Show": 1,
     "Desc": "背包的东西太多了，无法使用轻功",
-    "Tags": ["禁跳"],
+    "Tags": [
+      "禁跳"
+    ],
     "Level": 1
   },
   "10051": {
@@ -316,7 +366,9 @@
     "Overlay": 0,
     "Show": 1,
     "Desc": "冲冲冲1",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": -50,
     "LifeTime": 900
   },
@@ -337,7 +389,9 @@
     "Overlay": 2,
     "Show": 1,
     "Desc": "烂醉如泥，手脚不稳。",
-    "Tags": ["禁加速"],
+    "Tags": [
+      "禁加速"
+    ],
     "PSkill": 20001,
     "Level": 50,
     "LifeTime": 600,
@@ -483,57 +537,129 @@
     "Id": 40001,
     "Name": "外攻资质加强",
     "Desc": "增加外攻资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["god", [90001]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90001
+      ]
+    ]
   },
   "40002": {
     "Id": 40002,
     "Name": "内攻资质加强",
     "Desc": "增加内攻资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["god", [90002]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90002
+      ]
+    ]
   },
   "40003": {
     "Id": 40003,
     "Name": "治疗资质加强",
     "Desc": "增加治疗资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["defend", [90003]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "defend",
+      [
+        90003
+      ]
+    ]
   },
   "40004": {
     "Id": 40004,
     "Name": "外防资质加强",
     "Desc": "增加外防资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["attack", [90004]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        90004
+      ]
+    ]
   },
   "40005": {
     "Id": 40005,
     "Name": "内防资质加强",
     "Desc": "增加内防资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "紫色"],
-    "BattleStatus": ["attack", [91004]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "紫色"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        91004
+      ]
+    ]
   },
   "40006": {
     "Id": 40006,
     "Name": "速度资质加强",
     "Desc": "增加速度资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["god", [90001]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90001
+      ]
+    ]
   },
   "40007": {
     "Id": 40007,
     "Name": "内力资质加强",
     "Desc": "增加内力资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["god", [90002]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "god",
+      [
+        90002
+      ]
+    ]
   },
   "40008": {
     "Id": 40008,
     "Name": "气血资质加强",
     "Desc": "增加气血资质百分比",
-    "Tags": ["BattleStatus", "爬塔", "橙色"],
-    "BattleStatus": ["defend", [90003]]
+    "Tags": [
+      "BattleStatus",
+      "爬塔",
+      "橙色"
+    ],
+    "BattleStatus": [
+      "defend",
+      [
+        90003
+      ]
+    ]
   },
   "40009": {
     "Id": 40009,
@@ -564,7 +690,10 @@
     "LifeTime": 600,
     "Reward": 1127,
     "OnAddType": "addLifeSkillExp",
-    "OnAddParam": [50009, 400],
+    "OnAddParam": [
+      50009,
+      400
+    ],
     "OnDelType": "ClearWine"
   },
   "40012": {
@@ -655,14 +784,23 @@
     "Desc": "此任务失败了，需要等待一段时间后领取",
     "LifeTime": 600
   },
-  "40021": {"Id": 40021, "Name": "狩猎投食", "Desc": "狩猎投食必须要的buff"},
+  "40021": {
+    "Id": 40021,
+    "Name": "狩猎投食",
+    "Desc": "狩猎投食必须要的buff"
+  },
   "40022": {
     "Id": 40022,
     "Name": "狩猎食物存在的时间",
     "Desc": "狩猎投食食物存在的时间buff",
     "LifeTime": 20
   },
-  "40023": {"Id": 40023, "Name": "狩猎老虎投食", "Show": 1, "Desc": "狩猎老虎投食需要的buff"},
+  "40023": {
+    "Id": 40023,
+    "Name": "狩猎老虎投食",
+    "Show": 1,
+    "Desc": "狩猎老虎投食需要的buff"
+  },
   "40024": {
     "Id": 40024,
     "Name": "狩猎老虎食物存在的时间",
@@ -829,7 +967,9 @@
     "Type": "移动",
     "Show": 1,
     "Desc": "龟息术期间减速50%",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": 50
   },
   "50030": {
@@ -859,9 +999,18 @@
     "OnDelType": "taskFail",
     "OnDelParam": 200001
   },
-  "50033": {"Id": 50033, "Name": "韩复破绽-阮青丝之死"},
-  "50034": {"Id": 50034, "Name": "韩复破绽-复国无望"},
-  "50035": {"Id": 50035, "Name": "韩复破绽-谁要复国"},
+  "50033": {
+    "Id": 50033,
+    "Name": "韩复破绽-阮青丝之死"
+  },
+  "50034": {
+    "Id": 50034,
+    "Name": "韩复破绽-复国无望"
+  },
+  "50035": {
+    "Id": 50035,
+    "Name": "韩复破绽-谁要复国"
+  },
   "50036": {
     "Id": 50036,
     "Name": "毒气",
@@ -958,7 +1107,10 @@
     "MaxLevel": 5,
     "Times": 3,
     "Event": "move",
-    "MoveStep": [300, 400],
+    "MoveStep": [
+      300,
+      400
+    ],
     "Status": 1,
     "Do": 1002
   },
@@ -999,7 +1151,12 @@
     "Show": 1,
     "Desc": "中了劫匪的毒镖，全身无数蚂蚁啃噬般痛苦，攻防减半，移动速度减半。",
     "PSkill": 30109,
-    "BattleStatus": ["attack", [10017]],
+    "BattleStatus": [
+      "attack",
+      [
+        10017
+      ]
+    ],
     "Level": 1,
     "MaxLevel": 1,
     "LifeTime": 3600
@@ -1011,7 +1168,9 @@
     "Icon": 1000,
     "Show": 1,
     "Desc": "浓雾弥漫,危机四伏",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "Event": "move",
     "BuffCond": -80002,
     "MoveStep": 80,
@@ -1025,7 +1184,9 @@
     "Icon": 1001,
     "Show": 1,
     "Desc": "灯火照耀,驱散杀机",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "LifeTime": 60
   },
   "666666": {
@@ -1037,7 +1198,9 @@
     "Icon": 1005,
     "Show": 1,
     "Desc": "冲冲冲1",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": -20
   },
   "666667": {
@@ -1048,7 +1211,9 @@
     "Overlay": 0,
     "Show": 1,
     "Desc": "冲冲冲2",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": -200
   },
   "1007017": {
@@ -1057,7 +1222,10 @@
     "Type": "移动",
     "Show": 1,
     "Desc": "搬运重物，无法快步行走与使用轻功。",
-    "Tags": ["减速", "禁跳"],
+    "Tags": [
+      "减速",
+      "禁跳"
+    ],
     "Level": 60
   },
   "3001001": {
@@ -1066,7 +1234,9 @@
     "Type": "移动",
     "Show": 1,
     "Desc": "减速50%",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": 50,
     "LifeTime": 5
   },
@@ -1076,7 +1246,9 @@
     "Type": "移动",
     "Show": 1,
     "Desc": "减速100%",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": 100,
     "LifeTime": 5
   },
@@ -1086,7 +1258,9 @@
     "Type": "移动",
     "Show": 1,
     "Desc": "减速101%",
-    "Tags": ["减速"],
+    "Tags": [
+      "减速"
+    ],
     "Level": 100,
     "LifeTime": 2
   },
@@ -1098,8 +1272,15 @@
     "Overlay": 1,
     "Show": 1,
     "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [40000]]
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40000
+      ]
+    ]
   },
   "3003012": {
     "Id": 3003012,
@@ -1109,8 +1290,15 @@
     "Overlay": 1,
     "Show": 1,
     "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [40002]]
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40002
+      ]
+    ]
   },
   "3003013": {
     "Id": 3003013,
@@ -1120,8 +1308,15 @@
     "Overlay": 1,
     "Show": 1,
     "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [40001]]
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40001
+      ]
+    ]
   },
   "3003014": {
     "Id": 3003014,
@@ -1131,8 +1326,15 @@
     "Overlay": 1,
     "Show": 1,
     "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [40003]]
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40003
+      ]
+    ]
   },
   "3003015": {
     "Id": 3003015,
@@ -1142,8 +1344,15 @@
     "Overlay": 1,
     "Show": 1,
     "Desc": "相生：每回合回复气血3%；相克：提高伤害30%",
-    "Tags": ["BattleStatus"],
-    "BattleStatus": ["attack", [40004]]
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        40004
+      ]
+    ]
   },
   "200100411": {
     "Id": 200100411,

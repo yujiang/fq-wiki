@@ -5149,21 +5149,19 @@
   },
   "4445": {
     "Id": 4445,
-    "Name": "云朵",
+    "Name": "上一百层地图",
     "MapId": 4445,
+    "Type": "村庄",
     "Grade": 0,
-    "Width": 960,
-    "Height": 3200,
-    "Light": 1003,
-    "Tags": [
-      "jumpGame",
-      "loop",
-      "禁缩放"
-    ],
-    "showSmap": 1,
-    "x": 20,
-    "y": 150,
-    "Weather": 4445
+    "Width": 4560,
+    "Height": 6160,
+    "Light": 1001,
+    "Desc": "一座与世无争、人杰地灵的村庄。",
+    "showSmap": 0,
+    "MusicNo": 1015,
+    "x": 81,
+    "y": 57,
+    "Weather": 1001
   },
   "4446": {
     "Id": 4446,

@@ -2923,7 +2923,7 @@
     ],
     "NextTask": 11040,
     "GradeSuggest": 1,
-    "AcceptDesc": "找村长",
+    "AcceptDesc": "杏花村袁千手",
     "Diff": "容易"
   },
   "11020": {
@@ -2974,7 +2974,10 @@
       "id": 10050
     },
     "finishDrama": 13440,
-    "NextTask": 11023
+    "NextTask": 11023,
+    "GradeSuggest": 20,
+    "AcceptDesc": "杏花村南姗",
+    "Diff": "容易"
   },
   "11023": {
     "Id": 11023,
@@ -3337,7 +3340,10 @@
       "id": 10018,
       "say": 13700
     },
-    "NextTask": 11046
+    "NextTask": 11046,
+    "GradeSuggest": 30,
+    "AcceptDesc": "回杏花村",
+    "Diff": "容易"
   },
   "11046": {
     "Id": 11046,
@@ -3542,7 +3548,7 @@
     },
     "Reward": 11008,
     "GradeSuggest": 20,
-    "AcceptDesc": "路过苏真真",
+    "AcceptDesc": "杏花村苏真真",
     "Diff": "危险"
   },
   "11065": {
@@ -3557,7 +3563,10 @@
     "Scene": 1023,
     "Condition": [
       16045
-    ]
+    ],
+    "GradeSuggest": 10,
+    "AcceptDesc": "杏花村苏真真",
+    "Diff": "容易"
   },
   "11066": {
     "Id": 11066,
@@ -3714,7 +3723,10 @@
     ],
     "finishDrama": 11745,
     "NextTask": 11076,
-    "notShowNum": 1
+    "notShowNum": 1,
+    "GradeSuggest": 10,
+    "AcceptDesc": "杏花村后山山洞",
+    "Diff": "容易"
   },
   "11076": {
     "Id": 11076,
@@ -3910,7 +3922,10 @@
       "type": "trap",
       "say": 11990
     },
-    "NextTask": 11091
+    "NextTask": 11091,
+    "GradeSuggest": 15,
+    "AcceptDesc": "杏花村醉霄楼门口",
+    "Diff": "困难"
   },
   "11091": {
     "Id": 11091,
@@ -4232,6 +4247,9 @@
       "nogiveup"
     ],
     "Type": "item",
+    "GradeSuggest": 15,
+    "AcceptDesc": "芦苇荡柴乐",
+    "Diff": "容易",
     "Scene": 1016,
     "Desc": "砍伐栎木交给柴乐",
     "Des": {
@@ -4255,6 +4273,9 @@
       "nogiveup"
     ],
     "Type": "item",
+    "GradeSuggest": 15,
+    "AcceptDesc": "芦苇荡樊野",
+    "Diff": "容易",
     "Scene": 1016,
     "Desc": "帮樊野钓几条鱼",
     "Des": {
@@ -4278,6 +4299,9 @@
       "nogiveup"
     ],
     "Type": "fight",
+    "GradeSuggest": 15,
+    "AcceptDesc": "芦苇荡小鱼苗",
+    "Diff": "容易",
     "Scene": 1016,
     "Desc": "帮小鱼苗抓一条蛇",
     "Des": {
@@ -8500,6 +8524,9 @@
     ],
     "Type": "meet",
     "Desc": "跟踪那个行踪怪异的人",
+    "GradeSuggest": 50,
+    "AcceptDesc": "夜晚汴京城南大街",
+    "Diff": "容易",
     "Scene": 1003,
     "Des": {
       "id": 62002,
@@ -8595,6 +8622,9 @@
     ],
     "Type": "meet",
     "Desc": "前往小集南边的民居查看情况",
+    "GradeSuggest": 55,
+    "AcceptDesc": "汴京城南小集",
+    "Diff": "困难",
     "Scene": 1003,
     "Des": {
       "id": 62026,
@@ -8889,6 +8919,9 @@
     ],
     "Type": "meet",
     "Desc": "接着听书生往下说",
+    "GradeSuggest": 50,
+    "AcceptDesc": "汴京顾况",
+    "Diff": "容易",
     "Scene": 1003,
     "Des": {
       "id": 62042,
@@ -8954,6 +8987,9 @@
     ],
     "Type": "meet",
     "Desc": "去永安堂请医师来为男子医治",
+    "GradeSuggest": 65,
+    "AcceptDesc": "汴京城南小屋",
+    "Diff": "危险",
     "Scene": 3178,
     "Des": {
       "id": 62006,
@@ -9323,6 +9359,9 @@
     ],
     "Type": "event",
     "Desc": "无事发生，回客栈睡觉",
+    "GradeSuggest": 65,
+    "AcceptDesc": "汴京太师府墙外",
+    "Diff": "危险",
     "Scene": 1003,
     "finishDrama": 62765,
     "ServerEvent": {
@@ -9697,6 +9736,9 @@
     ],
     "Type": "item",
     "Desc": "找解玉师傅解玉",
+    "GradeSuggest": 55,
+    "AcceptDesc": "汴京甄佑乾",
+    "Diff": "普通",
     "Scene": 1003,
     "Des": {
       "id": 62163,
@@ -9885,6 +9927,9 @@
     ],
     "Type": "meet",
     "Desc": "听谢君棠说挥墨客的故事",
+    "GradeSuggest": 70,
+    "AcceptDesc": "完成妙手空空-汴京谢君棠",
+    "Diff": "危险",
     "Scene": 1003,
     "Des": {
       "id": 62170,
@@ -19292,16 +19337,18 @@
       "client",
       "nogiveup"
     ],
-    "Type": "sayed",
+    "Type": "dating",
     "Desc": "前往汴京镇远镖局打听打听",
     "Scene": 1003,
     "Des": {
       "id": 62029
     },
-    "Sayed": [
-      214633
-    ],
-    "NextTask": 210353
+    "NextTask": 210353,
+    "Dating": {
+      "ids": [
+        60021
+      ]
+    }
   },
   "210353": {
     "Id": 210353,
@@ -19506,7 +19553,7 @@
     },
     "finishDrama": 214845,
     "Battle": {
-      "bid": 10002
+      "bid": 210075
     },
     "NextTask": 210371
   },
@@ -19611,7 +19658,7 @@
     },
     "finishDrama": 214960,
     "Battle": {
-      "bid": 10002
+      "bid": 210076
     },
     "NextTask": 210376
   },
@@ -22054,6 +22101,9 @@
     ],
     "Type": "meet",
     "Desc": "追上在林间飞跃的人",
+    "GradeSuggest": 50,
+    "AcceptDesc": "淮南道东南森林触发",
+    "Diff": "危险",
     "Scene": 7101,
     "Des": {
       "id": 352003,
@@ -22468,6 +22518,9 @@
     ],
     "Type": "meet",
     "Desc": "上前调解两人矛盾",
+    "GradeSuggest": 40,
+    "AcceptDesc": "淮南道",
+    "Diff": "容易",
     "Scene": 7101,
     "Des": {
       "id": 352021,
@@ -23465,6 +23518,9 @@
     "Name": "峰间传信",
     "Desc": "前往西市寻找朱翠儿",
     "Type": "fight",
+    "GradeSuggest": 40,
+    "AcceptDesc": "九曲连环坞李小乙",
+    "Diff": "普通",
     "Tags": [
       "client",
       "nogiveup"
@@ -23574,6 +23630,9 @@
     "Name": "水中浮尸",
     "Desc": "拖着尸体去找孟婆婆",
     "Type": "meet",
+    "GradeSuggest": 50,
+    "AcceptDesc": "白天九曲连环坞南方湖面",
+    "Diff": "容易",
     "Tags": [
       "client",
       "nogiveup"

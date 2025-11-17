@@ -1,4 +1,3 @@
-import { de } from "element-plus/es/locales.mjs";
 import { getCollect } from "./collect";
 import { getNpc, getNpcNameAndPosition, getNpcPosition } from "./npc";
 import { getScenePositionClient } from "./scene";
@@ -82,7 +81,7 @@ function isMain(xls: XlsTask){
 // 获得场景下的所有支线任务！
 export async function getSceneBranchTasks(scene: number) : Promise<XlsTask[]> {
     const tasks = await getTasks();
-    const rt = [];
+    const rt: XlsTask[] = [];
     for (const task of Object.values(tasks)) {
         // if (task.AcceptDesc){
         //     console.log(task,isMain(task),task.Scene===scene);

@@ -1,7 +1,7 @@
 import { fetchXls, XlsBase } from "./xls";
 
 export interface XlsItem extends  XlsBase {
-  Desc?: string;
+  // Desc?: string;
   Rank: number; // 决定bg?
   Detail: string;
 }
@@ -70,7 +70,7 @@ export function getItemIcon(icon: number | undefined) {
 
 export interface ItemIdCount{
   id: number;
-  count?: number | string; // 数目 右下角
+  count?: number; // 数目 右下角
   rand?: number; // 掉落几率 for reward 右上角
   fLevel?: number; // 友好级别 for observe 右上角
 }

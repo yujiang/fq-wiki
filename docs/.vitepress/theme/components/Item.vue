@@ -1,7 +1,7 @@
 <!-- Item.vue 道具 
  <Item :id="8889" :count='2' :rand='30' />
  -->
- 
+
 <template>
   <div
     class="base-item-game item-game"
@@ -18,8 +18,15 @@
       <template #trigger>
         <div class="icon-wrap" :style="backgroundStyle">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
-          <span class="数目" v-if="itemcount > 1 || itemcount < 0"  :style="{ color: itemcount < 0 ? 'red' : 'white' }" >{{ itemcount }}</span>
-          <span class="几率" v-if="rand < 100 && rand > 0">{{ rand+"%" }}</span>
+          <span
+            class="数目"
+            v-if="itemcount > 1 || itemcount < 0"
+            :style="{ color: itemcount < 0 ? 'red' : 'white' }"
+            >{{ itemcount }}</span
+          >
+          <span class="几率" v-if="itemrand < 100 && itemrand > 0">{{
+            itemrand + "%"
+          }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
       </template>
@@ -52,11 +59,12 @@ const props = defineProps<ItemIdCount>();
 // 异步加载所有 items
 let item = ref<XlsItem | null>(null);
 let itemicon = ref("");
-let itemcount = ref<string|number|undefined> (0);
+let itemcount = ref<number>(0);
 let showPopover = ref(false);
+let itemrand = ref(0);
 
 let getFLevelDesc = computed(() => {
-  return props.fLevel ? getFriendLevelDesc(props.fLevel) : '';
+  return props.fLevel ? getFriendLevelDesc(props.fLevel) : "";
 });
 
 // let randdesc = ref(getRandDesc());
@@ -80,14 +88,15 @@ const updateCurrentItem = async (itemId: number) => {
   const xls = await getItemById(id);
   item.value = xls;
   itemicon.value = getItemIcon(xls?.Icon);
-  itemcount.value = props.count;
-  if (itemId < 0){
-    if (itemcount.value > 0){
-      itemcount.value = -itemcount.value
+  itemcount.value = props.count || 1;
+  itemrand.value = props.rand || 0;
+  if (itemId < 0) {
+    if (itemcount.value > 0) {
+      itemcount.value = -itemcount.value;
     }
   }
   // showPopover.value = !! xls?.Detail
-   // randdesc.value = getRandDesc();
+  // randdesc.value = getRandDesc();
 };
 
 // 根据 rank 动态计算背景图片
@@ -128,5 +137,4 @@ const backgroundStyle = computed(() => {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
   background: rgba(0, 0, 0, 0.5);
 }
-
 </style>

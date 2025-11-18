@@ -64,7 +64,7 @@ export function SidebarAutoPlugin() {
       // 启动时先生成一次，避免首次为空
       regen(server)
       const onMdChange = (op: string, p: string) => { 
-        if (p.endsWith('.md')) {
+        if (p.endsWith('.md') && op === 'add') {
           console.log('onChangeMd:',op, p);
           regen(server) 
         }

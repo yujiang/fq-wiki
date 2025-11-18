@@ -50,6 +50,7 @@ import SceneAreaTabs from './components/Scene/SceneAreaTabs.vue'
 import SceneAreaTabsGrouped from './components/Scene/SceneAreaTabsGrouped.vue'
 import SceneAreaTabsXls from './components/Scene/SceneAreaTabsXls.vue'
 
+import Discuss from './components/Discuss.vue'
 
 import WorldMapItem from './components/world/WorldMapItem.vue'
 import WorldMap from './components/world/WorldMap.vue'
@@ -108,6 +109,7 @@ export function registerGameComponents(app: any) {
   app.component('SceneAreaTabs', SceneAreaTabs)
   app.component('SceneAreaTabsGrouped', SceneAreaTabsGrouped)
   app.component('SceneAreaTabsXls', SceneAreaTabsXls)
+  app.component('Discuss', Discuss)
  
   app.component('WorldMapItem', WorldMapItem)
   app.component('WorldMap', WorldMap)

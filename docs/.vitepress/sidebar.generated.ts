@@ -564,6 +564,10 @@ export default [
           {
             "text": "tabs",
             "link": "/50-test/md/06-tabs"
+          },
+          {
+            "text": "Discuss 测试页",
+            "link": "/50-test/md/07-discuss"
           }
         ],
         "collapsed": true
@@ -605,6 +609,10 @@ export default [
       {
         "text": "ChatGPT 笔记革命  ",
         "link": "/60-开发/ChatGPT记笔记"
+      },
+      {
+        "text": "Discuss 评论组件",
+        "link": "/60-开发/Discuss评论组件"
       },
       {
         "text": "Vue 组件开发 — 阶段总结",

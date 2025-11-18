@@ -1,5 +1,6 @@
 # 依赖
 node_modules/
+.pnpm-store/
 
 # VitePress 工作目录（缓存、临时、构建产物）
 docs/.vitepress/cache/

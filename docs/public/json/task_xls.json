@@ -2140,7 +2140,7 @@
     "Scene": 4236,
     "Des": {
       "id": 10004,
-      "say": 11185
+      "say": 11155
     },
     "NextTask": 10109,
     "Reward": 10108
@@ -2159,9 +2159,8 @@
     "Des": {
       "id": 11000,
       "type": "trap",
-      "say": 11200
+      "say": 11175
     },
-    "NextTask": 10110,
     "Reward": 10109
   },
   "10110": {
@@ -2175,9 +2174,7 @@
     "Type": "event",
     "Desc": "阅读秘籍，学习轻功",
     "Scene": 4236,
-    "Des": {
-      "say": 11205
-    },
+    "finishDrama": 11205,
     "ServerEvent": {
       "event": "learntaolu",
       "name": 60055
@@ -20261,6 +20258,153 @@
       "id": 332000,
       "say": 215710
     }
+  },
+  "210410": {
+    "Id": 210410,
+    "Name": "有始有终",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "item",
+    "Desc": "将半块腰牌交给书院的陈先生",
+    "GradeSuggest": 60,
+    "AcceptDesc": "汴京郊外老匠人",
+    "Diff": "容易",
+    "Scene": 1003,
+    "Des": {
+      "id": 62018,
+      "say": 215755
+    },
+    "finishDrama": 215756,
+    "Give": {
+      "itemid": 30961,
+      "num": 1
+    },
+    "NextTask": 210411
+  },
+  "210411": {
+    "Id": 210411,
+    "Name": "有始有终",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "time",
+    "Desc": "等待陈先生的回复",
+    "Scene": 1003,
+    "TimePass": {
+      "min": 0.1
+    },
+    "NextTask": 210412
+  },
+  "210412": {
+    "Id": 210412,
+    "Name": "有始有终",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "询问结果如何",
+    "Scene": 1003,
+    "Des": {
+      "id": 62018,
+      "say": 215775
+    },
+    "NextTask": 210413
+  },
+  "210413": {
+    "Id": 210413,
+    "Name": "有始有终",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "回去见老匠人",
+    "Scene": 1003,
+    "Des": {
+      "id": 69985,
+      "type": "trap",
+      "say": 215790
+    },
+    "NextTask": 210414
+  },
+  "210414": {
+    "Id": 210414,
+    "Name": "后继有人",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "item",
+    "Desc": "带着季觉雪回去见老匠人",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215810
+    },
+    "finishDrama": 215811,
+    "Give": {
+      "itemid": [
+        30962,
+        30963
+      ],
+      "num": [
+        1,
+        1
+      ]
+    },
+    "NextTask": 210415
+  },
+  "210415": {
+    "Id": 210415,
+    "Name": "后继有人",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "看老匠人如何考校季觉雪",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215830
+    },
+    "NextTask": 210416
+  },
+  "210416": {
+    "Id": 210416,
+    "Name": "后继有人",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "和老匠人交谈",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215855
+    },
+    "NextTask": 210417
+  },
+  "210417": {
+    "Id": 210417,
+    "Name": "天工遗梦",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "看看老匠人的著作",
+    "Scene": 3060,
+    "Des": {
+      "id": 332000,
+      "say": 215880
+    },
+    "Reward": 210204
   },
   "240000": {
     "Id": 240000,
@@ -52483,5 +52627,8 @@
   },
   "暗潮风云(一)": {
     "Id": "暗潮风云(一)"
+  },
+  "天工遗梦": {
+    "Id": "天工遗梦"
   }
 }

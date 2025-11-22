@@ -607,6 +607,28 @@ export default [
         "collapsed": true
       },
       {
+        "text": "开发日志",
+        "items": [
+          {
+            "text": "Vue 组件开发 — 阶段总结",
+            "link": "/60-开发/09-开发日志/2025-10-10--vue组件开发"
+          },
+          {
+            "text": "从历史看清 CSR 与 SSR  ",
+            "link": "/60-开发/09-开发日志/2025-11-01--从历史看清_CSR与SSR"
+          },
+          {
+            "text": "说UE渲染强是在说什么",
+            "link": "/60-开发/09-开发日志/2025-11-05--说UE渲染强是在说什么"
+          },
+          {
+            "text": "📘 日志系统最佳实践：CLI、客户端、服务器的三层架构",
+            "link": "/60-开发/09-开发日志/2025-11-22--日志实践"
+          }
+        ],
+        "collapsed": true
+      },
+      {
         "text": "ChatGPT 笔记革命  ",
         "link": "/60-开发/ChatGPT记笔记"
       },
@@ -615,20 +637,8 @@ export default [
         "link": "/60-开发/Discuss评论组件"
       },
       {
-        "text": "Vue 组件开发 — 阶段总结",
-        "link": "/60-开发/vue组件开发"
-      },
-      {
-        "text": "从历史看清 CSR 与 SSR  ",
-        "link": "/60-开发/从历史看清_CSR与SSR"
-      },
-      {
         "text": "给 AI 写词",
         "link": "/60-开发/给 AI 写词"
-      },
-      {
-        "text": "说UE渲染强是在说什么",
-        "link": "/60-开发/说UE渲染强是在说什么"
       }
     ],
     "collapsed": false

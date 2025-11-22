@@ -4,14 +4,12 @@
 
 ## 1. 配置 Supabase Key
 
-1. 在项目根目录新增 `.env`（或 `.env.local`）并写入：
+1. 在 `docs` 目录新增 `.env`（或 `.env.local`）并写入（请在 Supabase 控制台中依次打开 `Settings -> Data API` 复制 `VITE_SUPABASE_URL`，以及 `Settings -> API Keys` 复制 `VITE_SUPABASE_ANON_KEY`）：
 
 ```bash
 VITE_SUPABASE_URL=https://xxxx.supabase.co
 VITE_SUPABASE_ANON_KEY=your-anon-key
 ```
-VITE_SUPABASE_URL 在 https://supabase.com/ -> Settings -> Data API
-VITE_SUPABASE_ANON_KEY 在 https://supabase.com/ -> Settings -> API Keys
 
 2. 部署到 Vercel 时，在 “Environment Variables” 中添加以上两项。
 3. 本地 `pnpm dev`/`pnpm build` 会自动读取 `import.meta.env.*`，无需额外引入。

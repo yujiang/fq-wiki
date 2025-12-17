@@ -32,7 +32,7 @@
             <p><RichText :text="step.Desc"></RichText></p>
           </div>
         <div class="step-reward" v-if="step.Reward>0">
-          <RewardCard title="no" :rewardId="step.Reward"  />
+          <RewardCard title="no" :rewardId="step.Reward==1?step.Id:step.Reward"  />
         </div>
         </li>
       </ul>
@@ -76,13 +76,31 @@ watch(
   }
 );
 
+const getReward = computed((xls: XlsTask) => {
+    if(xls.Reward === 1){
+      return xls.Id;
+    }
+    return xls.Reward || 0;
+});
+
+function getNext(xls: XlsTask): number {
+  let next = xls.NextTask || 0;
+  if (next < 0){
+    next = -next;
+  }
+  if (next === 1){
+    next = xls.Id + 1;
+  }
+  return next;
+}
+
 const updateCurrentTask = async (id: number) => {
   const xls  = await getTask(id);
   if (xls){
     const all = [xls];
     const desc = await getDesDesc(xls.Des);
     const alldesc = [desc];
-    let next : number = xls.NextTask || 0;
+    let next : number = getNext(xls);
     let l = xls;
     while(next && next !== props.end){
         const nxls = await getTask(next);
@@ -90,11 +108,11 @@ const updateCurrentTask = async (id: number) => {
         all.push(nxls);
         const desc = await getDesDesc(nxls.Des);
         alldesc.push(desc);
-        l = nxls;;
-        next = nxls.NextTask || 0;
-        if (next < 0){
-          next = -next;
+        l = nxls;
+        if (next === nxls.NextTask){
+          break;
         }
+        next = getNext(nxls)
     }
     console.log("updateCurrentTask", id, all.length, l.Id);
     task.value = xls;

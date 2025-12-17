@@ -10729,6 +10729,23 @@
       "nodrop"
     ]
   },
+  "12572": {
+    "Id": 12572,
+    "source": "02任务",
+    "Kind": "任务",
+    "Name": "英雄令",
+    "Icon": 18038,
+    "Detail": "天下英雄 云集景从",
+    "SalePrice": 0,
+    "Grade": 0,
+    "Rank": 1,
+    "Tags": [
+      "task",
+      "nodrop"
+    ],
+    "Page": "task",
+    "Overlay": 1
+  },
   "13001": {
     "Id": 13001,
     "source": "04商城",
@@ -11032,16 +11049,6 @@
     "UseText": "阅读",
     "UseParam": 2030,
     "Overlay": 1
-  },
-  "13020": {
-    "Id": 13020,
-    "Name": "西湖米酒",
-    "Icon": 4114,
-    "Detail": "西湖米酒",
-    "LikeTags": [
-      "临安特产",
-      "酒"
-    ]
   },
   "13021": {
     "Id": 13021,
@@ -12204,6 +12211,67 @@
     "UseText": "翻阅",
     "UseParam": 2051,
     "Page": "task"
+  },
+  "13572": {
+    "Id": 13572,
+    "source": "02任务",
+    "Kind": "任务",
+    "Name": "英雄令",
+    "Icon": 18038,
+    "Detail": "天下英雄 云集景从\n可凭此物加入四大门派!",
+    "SalePrice": 0,
+    "Grade": 0,
+    "Rank": 1,
+    "Tags": [
+      "task",
+      "nodrop"
+    ],
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13573": {
+    "Id": 13573,
+    "source": "02任务",
+    "Kind": "任务",
+    "Name": "迷香",
+    "Icon": 13554,
+    "Detail": "迷香",
+    "SalePrice": 300,
+    "Rank": 3,
+    "LikeTags": [
+      "胭脂"
+    ],
+    "Page": "normal",
+    "Overlay": 99
+  },
+  "13574": {
+    "Id": 13574,
+    "source": "02任务",
+    "Name": "藏宝图碎片",
+    "Icon": 17375,
+    "Detail": "钱王藏宝图的碎片，据说集齐四片可以找到钱王的宝藏",
+    "Grade": 0,
+    "Rank": 1,
+    "Use": "compose",
+    "UseText": "合成",
+    "UseParam": {
+      "num": 4,
+      "id": 13575
+    },
+    "Overlay": 4
+  },
+  "13575": {
+    "Id": 13575,
+    "source": "02任务",
+    "Name": "钱王藏宝图",
+    "Icon": 17376,
+    "Detail": "钱王藏宝图，可以探寻钱王宝藏的具体位置",
+    "Grade": 0,
+    "Rank": 1,
+    "Use": "jigsaw",
+    "UseText": "浏览",
+    "UseParam": 61,
+    "Overlay": 1
   },
   "13998": {
     "Id": 13998,

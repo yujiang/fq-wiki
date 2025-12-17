@@ -1,25 +1,33 @@
 {
   "1001": {
     "Id": 1001,
-    "Name": "buff1",
-    "Icon": 111,
+    "Name": "无敌",
+    "Overlay": 1,
     "Show": 1,
-    "PSkill": 20002,
+    "Desc": "无敌",
+    "PSkill": 1001,
     "Level": 1,
-    "LifeTime": 60,
-    "Status": "运镖"
+    "Times": 100,
+    "Event": "win"
   },
   "1002": {
     "Id": 1002,
-    "Name": "易容123",
-    "Overlay": 0,
-    "Icon": 17514,
+    "Name": "无敌status",
+    "Overlay": 1,
     "Show": 1,
-    "Desc": "时间到了就回到原来的样子",
-    "LifeTime": 10,
-    "OnAddType": "changeShape",
-    "OnAddParam": 2079,
-    "OnDelType": "restoreShape"
+    "Desc": "无敌status",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        1001
+      ]
+    ],
+    "Level": 1,
+    "Times": 3,
+    "Event": "win"
   },
   "1003": {
     "Id": 1003,
@@ -900,6 +908,15 @@
     "OnAddType": "changeShape",
     "OnAddParam": 2065,
     "OnDelType": "restoreShape"
+  },
+  "40033": {
+    "Id": 40033,
+    "Name": "监狱",
+    "Overlay": 0,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "监狱中···",
+    "Status": 21
   },
   "44461": {
     "Id": 44461,

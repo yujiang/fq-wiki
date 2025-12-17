@@ -1,10 +1,10 @@
 ## reward测试
 
 ```vue
-<RewardCard :rewardId="1119" /> 只有道具
+<RewardCard :rewardId="50221" /> 只有道具
 ```
 
-<RewardCard :rewardId="1119" />
+<RewardCard :rewardId="50221" />
 
 
 ```vue

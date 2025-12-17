@@ -4,6 +4,7 @@ import { watch } from 'vue'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
 import '../style/style.css'
+// import "../style/base.css"
 import "../style/jianghu.css"
 import "../style/poem.css"
 import "../style/person.css"
@@ -19,6 +20,7 @@ import { defineComponent, h, inject } from 'vue'
 import { NConfigProvider } from 'naive-ui'
 import { setup } from '@css-render/vue3-ssr'
 import { useRoute } from 'vitepress'
+import { tipsDirective } from '../ui/tipsDirective'
 
 const { Layout } = DefaultTheme
 
@@ -76,6 +78,8 @@ export default {
 
     enhanceAppWithTabs(app)
     registerGameComponents(app);
+
+    app.directive('tips', tipsDirective);
 
     // enableTips(app);
     app.use(ElementPlus);

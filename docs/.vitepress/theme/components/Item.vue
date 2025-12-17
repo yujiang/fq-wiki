@@ -3,21 +3,13 @@
  -->
 
 <template>
-  <div class="base-item-game item-game" @mouseover="showPopover = !!item?.Detail" @mouseleave="showPopover = false">
-    <!-- 使用 NTooltip 包裹触发元素 -->
-    <n-tooltip :style="{ maxWidth: '200px' }" :show="showPopover" trigger="manual">
-      <!-- 触发元素放在 #trigger 插槽中 -->
-      <template #trigger>
-        <div class="icon-wrap" :style="backgroundStyle">
+  <div class="base-item-game item-game">
+        <div class="icon-wrap" :style="backgroundStyle" v-tips="()=>item?.Detail">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
           <span class="item-count" v-if="itemDisplay" :style="{ color: itemColor }">{{ itemCount }}</span>
           <span class="item-chance" v-if="itemRand < 100 && itemRand > 0">{{ itemRand + "%" }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
         </div>
-      </template>
-      <!-- Tooltip 内容通过插槽传递，动态绑定 item.desc -->
-      <div>{{ item?.Detail }}</div>
-    </n-tooltip>
 
     <div class="base-item-name item-name" v-if="item?.Name">
       {{ item.Name }}

@@ -1,90 +1,220 @@
 {
   "1001": {
     "Id": 1001,
-    "InputSkill": {"id": 10102, "level": 10, "rank": 1},
+    "InputSkill": {
+      "id": 10102,
+      "level": 10,
+      "rank": 1
+    },
     "Say": 3180,
     "Bubble": "1001发动"
   },
-  "1002": {"Id": 1002, "Bubble": "我死了"},
-  "1003": {"Id": 1003, "Bubble": "我死了"},
-  "2002": {"Id": 2002, "Say": "a3190", "Bubble": "我受伤了"},
-  "2003": {"Id": 2003, "Say": "b3200"},
-  "10001": {"Id": 10001, "PlaySkill": {"id": 10001, "level": 1, "rank": 1}},
-  "10002": {"Id": 10002, "PlaySkill": {"id": 300400002, "level": 1, "rank": 1}},
+  "1002": {
+    "Id": 1002,
+    "Bubble": "我死了"
+  },
+  "1003": {
+    "Id": 1003,
+    "Bubble": "我死了"
+  },
+  "2002": {
+    "Id": 2002,
+    "Say": "a3190",
+    "Bubble": "我受伤了"
+  },
+  "2003": {
+    "Id": 2003,
+    "Say": "b3200"
+  },
+  "10001": {
+    "Id": 10001,
+    "PlaySkill": {
+      "id": 10001,
+      "level": 1,
+      "rank": 1
+    }
+  },
+  "10002": {
+    "Id": 10002,
+    "PlaySkill": {
+      "id": 300400002,
+      "level": 1,
+      "rank": 1
+    }
+  },
   "10003": {
     "Id": 10003,
     "actTimes": 1,
-    "PlaySkill": {"id": 300400002, "level": 1, "rank": 1},
+    "PlaySkill": {
+      "id": 300400002,
+      "level": 1,
+      "rank": 1
+    },
     "Trigger": 10004
   },
-  "10004": {"Id": 10004, "PlaySkill": {"id": 300400002, "level": 1, "rank": 1}},
-  "10005": {"Id": 10005, "PlaySkill": {"id": 900000003, "level": 1, "rank": 1}},
-  "10006": {"Id": 10006, "Trigger": 10004},
-  "10007": {"Id": 10007, "LeaveBattle": 1, "Trigger": 10007},
+  "10004": {
+    "Id": 10004,
+    "PlaySkill": {
+      "id": 300400002,
+      "level": 1,
+      "rank": 1
+    }
+  },
+  "10005": {
+    "Id": 10005,
+    "PlaySkill": {
+      "id": 900000003,
+      "level": 1,
+      "rank": 1
+    }
+  },
+  "10006": {
+    "Id": 10006,
+    "Trigger": 10004
+  },
+  "10007": {
+    "Id": 10007,
+    "LeaveBattle": 1,
+    "Trigger": 10007
+  },
   "10090": {
     "Id": 10090,
-    "PlaySkill": {"id": 7010090, "level": 1, "rank": 1},
+    "PlaySkill": {
+      "id": 7010090,
+      "level": 1,
+      "rank": 1
+    },
     "Bubble": "b见识一下我们的羁绊吧！"
   },
   "10100": {
     "Id": 10100,
     "Name": "主线-黑衣人偷袭-小梳子召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000100, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000100,
+      "level": 1,
+      "rank": 1
+    }
   },
   "10101": {
     "Id": 10101,
     "Name": "主线-黑衣人偷袭-胡秋侠大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 500115, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 500115,
+      "level": 1,
+      "rank": 1
+    }
   },
   "10102": {
     "Id": 10102,
     "Name": "主线-黑衣人偷袭-巫云鹏大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000102, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000102,
+      "level": 1,
+      "rank": 1
+    }
   },
-  "10103": {"Id": 10103, "Name": "小梳子教学开场白", "Say": 180002},
-  "10104": {"Id": 10104, "Name": "小梳子教学放技能", "Say": 180000},
+  "10103": {
+    "Id": 10103,
+    "Name": "小梳子教学开场白",
+    "Say": 180002
+  },
+  "10104": {
+    "Id": 10104,
+    "Name": "小梳子教学放技能",
+    "Say": 180000
+  },
   "12000": {
     "Id": 12000,
     "Name": "嫁衣-驱邪反杀",
     "Desc": "对话",
-    "PlaySkill": {"id": 910000098, "level": 1, "rank": 1},
+    "PlaySkill": {
+      "id": 910000098,
+      "level": 1,
+      "rank": 1
+    },
     "Say": "b210097"
   },
   "12001": {
     "Id": 12001,
     "Name": "嫁衣-婉清平A",
     "Desc": "AOE",
-    "PlaySkill": {"id": 910000099, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000099,
+      "level": 1,
+      "rank": 1
+    }
   },
-  "12002": {"Id": 12002, "Name": "风生水起-守卫结束战斗", "Win": 2},
-  "12003": {"Id": 12003, "Name": "棋馆烂柯-楼主结束战斗", "Win": 2},
+  "12002": {
+    "Id": 12002,
+    "Name": "风生水起-守卫结束战斗",
+    "Win": 2
+  },
+  "12003": {
+    "Id": 12003,
+    "Name": "棋馆烂柯-楼主结束战斗",
+    "Win": 2
+  },
   "50011": {
     "Id": 50011,
     "Name": "吊黄泉30%血，放大招",
     "Desc": "AOE",
     "actTimes": 1,
-    "PlaySkill": {"id": 500112, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 500112,
+      "level": 1,
+      "rank": 1
+    }
   },
-  "250001": {"Id": 250001, "Name": "寒凇剑意-夜访剑池 3个回合", "Win": 2},
+  "52007": {
+    "Id": 52007,
+    "Name": "混混头目",
+    "Desc": "跟小四对话",
+    "actTimes": 1,
+    "Say": 52200
+  },
+  "52009": {
+    "Id": 52009,
+    "Name": "小四",
+    "Desc": "只剩自己一个会逃跑",
+    "actTimes": 1,
+    "LeaveBattle": 1
+  },
+  "250001": {
+    "Id": 250001,
+    "Name": "寒凇剑意-夜访剑池 3个回合",
+    "Win": 2
+  },
   "500118": {
     "Id": 500118,
     "actTimes": 1,
-    "PlaySkill": {"id": 500118, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 500118,
+      "level": 1,
+      "rank": 1
+    }
   },
   "610120": {
     "Id": 610120,
     "Name": "主线-门派大比陈百强召唤宠物",
     "actTimes": 1,
-    "PlaySkill": {"id": 5610120, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 5610120,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900001": {
     "Id": 900001,
     "Desc": "曹无伤血量召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000053, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000053,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900011": {
     "Id": 900011,
@@ -96,46 +226,78 @@
     "Id": 900021,
     "Desc": "狄长秋召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 910030156, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910030156,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900022": {
     "Id": 900022,
     "Desc": "草人自爆",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000047, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000047,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900023": {
     "Id": 900023,
     "Desc": "武当大比",
     "actTimes": 1,
-    "PlaySkill": {"id": 700000003, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 700000003,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900024": {
     "Id": 900024,
     "Desc": "罗汉一式",
-    "PlaySkill": {"id": 700000004, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 700000004,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900025": {
     "Id": 900025,
     "Desc": "罗汉二式",
-    "PlaySkill": {"id": 700000005, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 700000005,
+      "level": 1,
+      "rank": 1
+    }
   },
   "900026": {
     "Id": 900026,
     "Desc": "罗汉三式",
-    "PlaySkill": {"id": 700000006, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 700000006,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047001": {
     "Id": 3047001,
     "Desc": "剑鬼秒杀",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000036, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000036,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047002": {
     "Id": 3047002,
     "Desc": "剑鬼入场",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000037, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000037,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047003": {
     "Id": 3047003,
@@ -143,129 +305,223 @@
     "actTimes": 1,
     "SpNormal": 10003,
     "InputSkill": 910000061,
-    "PlaySkill": {"id": 910000046, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000046,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047004": {
     "Id": 3047004,
     "Desc": "剑鬼大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000059, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000059,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047005": {
     "Id": 3047005,
     "Desc": "剑鬼大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000059, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000059,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047006": {
     "Id": 3047006,
     "Desc": "翩然入梦",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000069, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000069,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047007": {
     "Id": 3047007,
     "Desc": "醒梦",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000070, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000070,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047008": {
     "Id": 3047008,
     "Desc": "金刚架势",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000071, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000071,
+      "level": 1,
+      "rank": 1
+    }
   },
   "3047009": {
     "Id": 3047009,
     "Desc": "锋刃架势",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000072, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000072,
+      "level": 1,
+      "rank": 1
+    }
   },
   "5222361": {
     "Id": 5222361,
-    "PlaySkill": {"id": 5222361, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 5222361,
+      "level": 1,
+      "rank": 1
+    }
   },
   "5222362": {
     "Id": 5222362,
-    "PlaySkill": {"id": 5222362, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 5222362,
+      "level": 1,
+      "rank": 1
+    }
   },
   "5222363": {
     "Id": 5222363,
-    "PlaySkill": {"id": 5222363, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 5222363,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614001": {
     "Id": 9614001,
     "Name": "暂时没用上",
     "Desc": "林的单体攻击技能",
-    "PlaySkill": {"id": 750030001, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 750030001,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614002": {
     "Id": 9614002,
     "Name": "暂时没用上",
     "Desc": "鹰的群攻",
-    "PlaySkill": {"id": 730030201, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 730030201,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614003": {
     "Id": 9614003,
     "Desc": "鹰的每回合增伤",
-    "addStatus": {"id": 910000051, "odds": 1, "level": 1, "last": 99}
+    "addStatus": {
+      "id": 910000051,
+      "odds": 1,
+      "level": 1,
+      "last": 99
+    }
   },
   "9614004": {
     "Id": 9614004,
     "Desc": "林的每回合增伤",
-    "addStatus": {"id": 910000052, "odds": 1, "level": 1, "last": 99}
+    "addStatus": {
+      "id": 910000052,
+      "odds": 1,
+      "level": 1,
+      "last": 99
+    }
   },
   "9614005": {
     "Id": 9614005,
     "Desc": "鹰狂暴",
-    "PlaySkill": {"id": 910000016, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000016,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614006": {
     "Id": 9614006,
     "Desc": "林狂暴",
-    "PlaySkill": {"id": 910000017, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000017,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614007": {
     "Id": 9614007,
     "Desc": "山战时召唤雷助战",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000018, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000018,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614008": {
     "Id": 9614008,
     "Desc": "山雷机制1（山）",
     "actTimes": 1,
-    "PlaySkill": {"id": 720030201, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 720030201,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614009": {
     "Id": 9614009,
     "Desc": "山雷机制1（雷）",
     "actTimes": 1,
-    "PlaySkill": {"id": 730030201, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 730030201,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614015": {
     "Id": 9614015,
     "Desc": "火的血线大招1",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614016": {
     "Id": 9614016,
     "Desc": "火的血线大招2",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614017": {
     "Id": 9614017,
     "Desc": "火的血线大招3",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9614018": {
     "Id": 9614018,
     "Desc": "火的血线大招3",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "9644001": {
     "Id": 9644001,
@@ -296,19 +552,34 @@
     "Id": 9644011,
     "Desc": "谢龙吟断后兵",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000111, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000111,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "9644021": {
     "Id": 9644021,
     "Desc": "董南歌狂",
     "actTimes": 1,
-    "addStatus": {"id": 910000016, "odds": 1, "level": 1, "last": 3}
+    "addStatus": {
+      "id": 910000016,
+      "odds": 1,
+      "level": 1,
+      "last": 3
+    }
   },
   "9644022": {
     "Id": 9644022,
     "Desc": "董南歌虚",
     "actTimes": 1,
-    "addStatus": {"id": 910000017, "odds": 1, "level": 1, "last": 3}
+    "addStatus": {
+      "id": 910000017,
+      "odds": 1,
+      "level": 1,
+      "last": 3
+    }
   },
   "9644031": {
     "Id": 9644031,
@@ -320,19 +591,34 @@
     "Id": 9644032,
     "Desc": "厉江风30%",
     "actTimes": 1,
-    "PlaySkill": {"id": 900000010, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 900000010,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "9644033": {
     "Id": 9644033,
     "Desc": "谢龙吟断后兵",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000120, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000120,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "9644034": {
     "Id": 9644034,
     "Desc": "谢龙吟断后兵80",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000121, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000121,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "10030031": {
     "Id": 10030031,
@@ -345,30 +631,54 @@
     "Id": 10030032,
     "Desc": "家丁上buff",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000026, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000026,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30080012": {
     "Id": 30080012,
     "Desc": "噬血剑血线1",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000000, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000000,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30080013": {
     "Id": 30080013,
     "Desc": "噬血剑血线2",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000001, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000001,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30080014": {
     "Id": 30080014,
     "Desc": "噬血剑血线3",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000002, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000002,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30080015": {
     "Id": 30080015,
     "Desc": "召唤血卫1",
-    "PlaySkill": {"id": 910000011, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000011,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30080016": {
     "Id": 30080016,
@@ -376,12 +686,20 @@
     "actTimes": 1,
     "Trigger": 30080016
   },
-  "30340021": {"Id": 30340021, "Desc": "铁牛开场白", "Trigger": 30340021},
+  "30340021": {
+    "Id": 30340021,
+    "Desc": "铁牛开场白",
+    "Trigger": 30340021
+  },
   "30340022": {
     "Id": 30340022,
     "Desc": "铁牛第一次技能",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000023, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000023,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30340023": {
     "Id": 30340023,
@@ -393,19 +711,31 @@
     "Id": 30340024,
     "Desc": "铁牛第二次技能",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000025, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000025,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30340025": {
     "Id": 30340025,
     "Desc": "铁牛常规技能",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30370031": {
     "Id": 30370031,
     "Desc": "陈长老大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 910010024, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910010024,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30370041": {
     "Id": 30370041,
@@ -417,19 +747,31 @@
     "Id": 30370042,
     "Desc": "完颜洪涛召小兵",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000027, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000027,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30370043": {
     "Id": 30370043,
     "Desc": "完颜洪涛召小兵",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000028, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000028,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30370044": {
     "Id": 30370044,
     "Desc": "完颜洪涛召小兵",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000029, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000029,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30370045": {
     "Id": 30370045,
@@ -441,7 +783,11 @@
     "Id": 30370046,
     "Desc": "曹无伤血量召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000153, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000153,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30380011": {
     "Id": 30380011,
@@ -453,7 +799,12 @@
     "Id": 30380012,
     "Desc": "美子不鲁50%第一次大招",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000106, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000106,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30380013": {
     "Id": 30380013,
@@ -465,7 +816,11 @@
     "Id": 30381001,
     "Desc": "先锋统领秒杀",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000107, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000107,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490011": {
     "Id": 30490011,
@@ -490,12 +845,22 @@
     "Id": 30490022,
     "Desc": "亓木图50血",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000106, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 910000106,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30490023": {
     "Id": 30490023,
     "Desc": "亓木图回合技能",
-    "PlaySkill": {"id": 400000015, "level": 1, "taolu": 1000, "rank": 1}
+    "PlaySkill": {
+      "id": 400000015,
+      "level": 1,
+      "taolu": 1000,
+      "rank": 1
+    }
   },
   "30490031": {
     "Id": 30490031,
@@ -507,19 +872,31 @@
     "Id": 30490032,
     "Desc": "美子留单80%",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000117, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000117,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490033": {
     "Id": 30490033,
     "Desc": "美子留单50%",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000116, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000116,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490034": {
     "Id": 30490034,
     "Desc": "美子留单20%",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000119, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000119,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490041": {
     "Id": 30490041,
@@ -530,13 +907,21 @@
   "30490042": {
     "Id": 30490042,
     "Desc": "元忠技能",
-    "PlaySkill": {"id": 910000114, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000114,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490043": {
     "Id": 30490043,
     "Desc": "元忠50%血",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000118, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000118,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30490051": {
     "Id": 30490051,
@@ -613,18 +998,30 @@
   "40000011": {
     "Id": 40000011,
     "Desc": "龙息斩",
-    "PlaySkill": {"id": 400000001, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000001,
+      "level": 1,
+      "rank": 1
+    }
   },
   "40000012": {
     "Id": 40000012,
     "Desc": "龙涎斩",
-    "PlaySkill": {"id": 400000002, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000002,
+      "level": 1,
+      "rank": 1
+    }
   },
   "40000013": {
     "Id": 40000013,
     "Desc": "龙渊决",
     "actTimes": 1,
-    "PlaySkill": {"id": 400000003, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000003,
+      "level": 1,
+      "rank": 1
+    }
   },
   "41000010": {
     "Id": 41000010,
@@ -636,24 +1033,40 @@
     "Id": 41000011,
     "Desc": "赵先80%",
     "actTimes": 1,
-    "PlaySkill": {"id": 400000010, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000010,
+      "level": 1,
+      "rank": 1
+    }
   },
   "41000012": {
     "Id": 41000012,
     "Desc": "赵先50%",
     "actTimes": 1,
-    "PlaySkill": {"id": 400000011, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000011,
+      "level": 1,
+      "rank": 1
+    }
   },
   "41000013": {
     "Id": 41000013,
     "Desc": "赵先30%",
     "actTimes": 1,
-    "PlaySkill": {"id": 400000012, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000012,
+      "level": 1,
+      "rank": 1
+    }
   },
   "304900081": {
     "Id": 304900081,
     "Desc": "独狼阵起",
-    "PlaySkill": {"id": 400000013, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 400000013,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040101": {
     "Id": 501040101,
@@ -683,14 +1096,22 @@
     "Id": 501040105,
     "Name": "摘星子",
     "Desc": "全程毒",
-    "PlaySkill": {"id": 900021002, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 900021002,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040106": {
     "Id": 501040106,
     "Name": "完颜",
     "Desc": "aoe",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000081, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000081,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040107": {
     "Id": 501040107,
@@ -701,215 +1122,357 @@
   "501040108": {
     "Id": 501040108,
     "Desc": "召唤",
-    "PlaySkill": {"id": 910000084, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000084,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040109": {
     "Id": 501040109,
     "Desc": "自爆",
-    "PlaySkill": {"id": 910000086, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000086,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040110": {
     "Id": 501040110,
     "Desc": "召唤傀儡",
-    "PlaySkill": {"id": 910000087, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000087,
+      "level": 1,
+      "rank": 1
+    }
   },
-  "501040111": {"Id": 501040111, "Desc": "江玉雁技能中路"},
-  "501040112": {"Id": 501040112, "Desc": "江玉雁技能边路"},
+  "501040111": {
+    "Id": 501040111,
+    "Desc": "江玉雁技能中路"
+  },
+  "501040112": {
+    "Id": 501040112,
+    "Desc": "江玉雁技能边路"
+  },
   "501040113": {
     "Id": 501040113,
     "Name": "完颜小兵",
     "Desc": "狂暴增伤",
-    "addStatus": {"id": 910000051, "odds": 1, "level": 1, "last": 99},
+    "addStatus": {
+      "id": 910000051,
+      "odds": 1,
+      "level": 1,
+      "last": 99
+    },
     "Trigger": 501043
   },
   "501040114": {
     "Id": 501040114,
     "Name": "傀儡自爆",
-    "PlaySkill": {"id": 910000086, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000086,
+      "level": 1,
+      "rank": 1
+    }
   },
   "501040115": {
     "Id": 501040115,
     "Name": "江玉雁回血",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000078, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000078,
+      "level": 1,
+      "rank": 1
+    }
   },
   "2001003052": {
     "Id": 2001003052,
     "Desc": "鲸追3回合",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000015, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000015,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010101": {
     "Id": 13092010101,
     "Name": "杀勿净25%血线技能",
     "Desc": "贯穿200%",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201020, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201020,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010102": {
     "Id": 13092010102,
     "Name": "杀勿净25%血线技能2",
     "Desc": "贯穿200%",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010201": {
     "Id": 13092010201,
     "Name": "深沙1回合召唤",
     "Desc": "召唤1个浮丘",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010202": {
     "Id": 13092010202,
     "Name": "深沙3回合召唤",
     "Desc": "召唤2个浮丘",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201031, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201031,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010203": {
     "Id": 13092010203,
     "Name": "深沙5回合召唤",
     "Desc": "召唤3个浮丘",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201032, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201032,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092010204": {
     "Id": 13092010204,
     "Name": "深沙7回合召唤",
     "Desc": "召唤4个浮丘",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309201033, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309201033,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092020101": {
     "Id": 13092020101,
     "Name": "朱无能狂暴",
     "Desc": "攻击增加",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309202030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309202030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092020102": {
     "Id": 13092020102,
     "Name": "朱无能召唤烧鸡",
     "Desc": "30%血线狂暴结束，身后召唤1只烧鸡，下回合开始时吃掉，回血X%。",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309202040, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309202040,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092030101": {
     "Id": 13092030101,
     "Name": "孙五空七十二变1",
     "Desc": "2回合召唤2个分身（分身数值与孙五空相同，血量70%），3回合召唤3个分身（消耗10%血量）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309203020, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309203020,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092030102": {
     "Id": 13092030102,
     "Name": "孙五空七十二变2",
     "Desc": "2回合召唤2个分身（分身数值与孙五空相同，血量70%），3回合召唤3个分身（消耗10%血量）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309203021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309203021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092030103": {
     "Id": 13092030103,
     "Name": "孙五空七十二变2扣血",
     "Desc": "消耗10%血",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309203022, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309203022,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092030104": {
     "Id": 13092030104,
     "Name": "孙五空定海神针",
     "Desc": "定海神针：50%血量时，列2，并瘀伤（减命中，每回合掉血）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309203030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309203030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092040101": {
     "Id": 13092040101,
     "Name": "赤焰龙马80%血技能",
     "Desc": "80%血：中路列2（200%伤害），灼烧（BOSS不用通用BUFF，单独做，方便调数值。）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309204010, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309204010,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092040102": {
     "Id": 13092040102,
     "Name": "赤焰龙马50%血技能1",
     "Desc": "50%血：边路贯穿200%，灼烧（BOSS不用通用BUFF，单独做，方便调数值。）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309204020, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309204020,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092040103": {
     "Id": 13092040103,
     "Name": "赤焰龙马50%血技能2",
     "Desc": "50%血：边路贯穿200%，灼烧（BOSS不用通用BUFF，单独做，方便调数值。）",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309204021, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309204021,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092040104": {
     "Id": 13092040104,
     "Name": "赤焰龙马20%血技能",
     "Desc": "20%血，每回合对全体造成200%伤害并灼烧，如果有目标有灼烧debuff，则会造成200%额外伤害。",
     "actTimes": 1,
-    "PlaySkill": {"id": 1309204030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309204030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "13092040105": {
     "Id": 13092040105,
     "Name": "神速",
     "Desc": "3,6,9回合，使用神速，本回合闪避率提高80%，下回合随机目标造成伤害200%。",
-    "PlaySkill": {"id": 1309204040, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 1309204040,
+      "level": 1,
+      "rank": 1
+    }
   },
   "50109020101": {
     "Id": 50109020101,
     "Desc": "龙行年3回合",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000096, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000096,
+      "level": 1,
+      "rank": 1
+    }
   },
   "50110020101": {
     "Id": 50110020101,
     "Desc": "龙行年3回合",
     "actTimes": 1,
-    "PlaySkill": {"id": 910000097, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 910000097,
+      "level": 1,
+      "rank": 1
+    }
   },
-  "50104010501": {"Id": 50104010501, "Desc": "白飞尽必杀"},
+  "50104010501": {
+    "Id": 50104010501,
+    "Desc": "白飞尽必杀"
+  },
   "30103011001": {
     "Id": 30103011001,
     "Name": "明王三入地狱",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307010, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307010,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011002": {
     "Id": 30103011002,
     "Name": "明王燃木刀法",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307020, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307020,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011003": {
     "Id": 30103011003,
     "Name": "火焰刀",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307030, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307030,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011004": {
     "Id": 30103011004,
     "Name": "火焰刀第二次",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307040, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307040,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011005": {
     "Id": 30103011005,
     "Name": "明王第一次召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307050, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307050,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011006": {
     "Id": 30103011006,
     "Name": "明王第二次召唤",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307060, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307060,
+      "level": 1,
+      "rank": 1
+    }
   },
   "30103011007": {
     "Id": 30103011007,
     "Name": "明王引爆火法印",
     "actTimes": 1,
-    "PlaySkill": {"id": 3010307090, "level": 1, "rank": 1}
+    "PlaySkill": {
+      "id": 3010307090,
+      "level": 1,
+      "rank": 1
+    }
   }
 }

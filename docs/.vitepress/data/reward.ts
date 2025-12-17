@@ -63,7 +63,8 @@ export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
 // 返回 {id: count:} 给ItemList使用
 function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
   if (typeof (a) === "number") {
-    return [{ id: a, count: 1, rand: 0 }];
+    if (a > 0) return [{ id: a, count: 1, rand: 0 }];
+    return [{ id: -a, count: -1, rand: 0 }];
   }
   if (typeof(a[0]) === "number") {
     return a.map((i) => { return { id: i, count: 1, rand: 0 } });

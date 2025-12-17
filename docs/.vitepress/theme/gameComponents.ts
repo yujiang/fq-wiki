@@ -57,7 +57,9 @@ import WorldMap from './components/world/WorldMap.vue'
 import WorldMapScenes from './components/world/WorldMapScenes.vue'
 
 
-import testTooltip from './components/naiveUI/Tooltip.vue'  
+import naiveTooltip from './components/naiveUI/Tooltip.vue'  
+import tippyTooltip from './components/Tippy/Tooltip.vue'  
+
 
 export function registerGameComponents(app: any) {
   app.component('ItemCard', ItemCard)
@@ -115,7 +117,9 @@ export function registerGameComponents(app: any) {
   app.component('WorldMap', WorldMap)
   app.component('WorldMapScenes', WorldMapScenes)
 
-  app.component('testTooltip', testTooltip)
+  app.component('naiveTooltip', naiveTooltip)
+  app.component('tippyTooltip', tippyTooltip)
+
   app.component('RichText', RichText)
   
 

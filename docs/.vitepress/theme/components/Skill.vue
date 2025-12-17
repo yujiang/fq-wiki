@@ -1,28 +1,17 @@
 <!-- Skill.vue 技能 
 <Skill :id="50001" :level='99' /> 
 -->
- 
- <template>
-  <div class="base-item-game skill-game"
-    @mouseover="showPopover = !!state.desc"
-    @mouseleave="showPopover = false"
-  >
-    <!-- 使用 NTooltip 包裹触发元素 -->
-    <n-tooltip :style="{ maxWidth: '200px' }" :show="showPopover" trigger="manual">
-      <!-- 触发元素放在 #trigger 插槽中 -->
-      <template #trigger>
-        <div class="icon-wrap" :style="backgroundStyle">
-          <img v-if="state.icon" :src="state.icon" alt="" class="icon"  />
-          <span class="level" v-if="level">{{ level }}</span>
-          <span class="exp" v-if="exp">{{ exp < 0 ? '新' : exp }}</span>
+
+<template>
+  <div class="base-item-game skill-game">
+    <div class="icon-wrap" :style="backgroundStyle" v-tips="() => state.desc">
+      <img v-if="state.icon" :src="state.icon" alt="" class="icon" />
+      <span class="level" v-if="level">{{ level }}</span>
+      <span class="exp" v-if="exp">{{ exp < 0 ? '新' : exp }}</span>
           <span class="unlock" v-if="unlock">{{ unlock / 4 + 1 }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>
-        </div>
-      </template>
-      <!-- Tooltip 内容通过插槽传递，动态绑定 skill.desc -->
-      <div>{{ state.desc }}</div>
-    </n-tooltip>
-      <div class="base-item-name skill-name" v-if="state.skill?.Name">{{ state.skill.Name }}</div>
+    </div>
+    <div class="base-item-name skill-name" v-if="state.skill?.Name">{{ state.skill.Name }}</div>
   </div>
 </template>
 
@@ -80,8 +69,6 @@ const backgroundStyle = computed(() => getRankBgStyle(state.skill?.Rank));
 </script>
 
 <style scoped>
-
-
 .level {
   position: absolute;
   bottom: -2px;
@@ -89,7 +76,8 @@ const backgroundStyle = computed(() => getRankBgStyle(state.skill?.Rank));
   font-size: 14px;
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  /* 添加阴影使其更清晰 */
 }
 
 .unlock {
@@ -108,7 +96,8 @@ const backgroundStyle = computed(() => getRankBgStyle(state.skill?.Rank));
   font-size: 14px;
   color: greenyellow;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  /* 添加阴影使其更清晰 */
 }
 
 
@@ -119,10 +108,8 @@ const backgroundStyle = computed(() => getRankBgStyle(state.skill?.Rank));
   font-size: 10px;
   color: orange;
   font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* 添加阴影使其更清晰 */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  /* 添加阴影使其更清晰 */
   background: rgba(0, 0, 0, 0.5);
 }
-
-
-
 </style>

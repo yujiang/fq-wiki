@@ -1317,6 +1317,56 @@
       "HurtHp": 1
     }
   },
+  "50110": {
+    "Id": 50110,
+    "Name": "主线-对战混混",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterHp": 1,
+    "FriendData": 50001,
+    "UnitData": [
+      52007,
+      52008,
+      52009
+    ],
+    "Zhen": 1,
+    "Param": {
+      "HurtHp": 1
+    }
+  },
+  "50212": {
+    "Id": 50212,
+    "Name": "主线-埋伏",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterHp": 1,
+    "UnitData": [
+      52007,
+      52008,
+      52009
+    ],
+    "Zhen": 1,
+    "Param": {
+      "HurtHp": 1
+    }
+  },
+  "50225": {
+    "Id": 50225,
+    "Name": "主线-报仇",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterHp": 1,
+    "FriendData": 50001,
+    "UnitData": [
+      52012,
+      52010,
+      52010
+    ],
+    "Zhen": 3,
+    "Param": {
+      "HurtHp": 1
+    }
+  },
   "51001": {
     "Id": 51001,
     "Name": "采花贼",
@@ -5309,11 +5359,9 @@
     "Zhen": 6,
     "Param": {
       "LostPay": 2,
-      "HurtHp": 1,
-      "WinDrama": "3067/0_1"
+      "HurtHp": 1
     },
-    "SuzhanLevel": 20,
-    "WinReward": 202003
+    "SuzhanLevel": 20
   },
   "310002": {
     "Id": 310002,

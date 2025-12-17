@@ -1406,13 +1406,13 @@
   },
   "10007": {
     "Id": 10007,
-    "Name": "请教箭术",
+    "Name": "木弓",
     "Tags": [
       "client",
       "nogiveup"
     ],
     "Type": "buy",
-    "Desc": "向$npc(10004)请教箭术",
+    "Desc": "找一把木弓",
     "Scene": 4236,
     "Des": {
       "id": 10004,
@@ -2161,6 +2161,7 @@
       "type": "trap",
       "say": 11175
     },
+    "NextTask": 10110,
     "Reward": 10109
   },
   "10110": {
@@ -2296,7 +2297,7 @@
       "main",
       "nogiveup"
     ],
-    "Type": "meet",
+    "Type": "says",
     "Desc": "调查附近",
     "Scene": 1023,
     "AddNpcs": [
@@ -2305,7 +2306,10 @@
     ],
     "Des": {
       "id": 10034,
-      "say": 11311
+      "say": [
+        11311,
+        11320
+      ]
     },
     "AddSay": 11305,
     "NextTask": 10117,
@@ -2557,7 +2561,10 @@
       "num": 10
     },
     "NextTask": 11002,
-    "Reward": 11001
+    "Reward": 11001,
+    "GradeSuggest": 1,
+    "AcceptDesc": "杏花村南姗",
+    "Diff": "容易"
   },
   "11002": {
     "Id": 11002,
@@ -2697,7 +2704,10 @@
       "itemid": 50031,
       "num": 3
     },
-    "NextTask": 11009
+    "NextTask": 11009,
+    "GradeSuggest": 1,
+    "AcceptDesc": "杏花村铁匠",
+    "Diff": "容易"
   },
   "11009": {
     "Id": 11009,
@@ -2778,7 +2788,10 @@
       "num": 2
     },
     "NextTask": 11013,
-    "Reward": 18005
+    "Reward": 18005,
+    "GradeSuggest": 1,
+    "AcceptDesc": "醉霄楼客人",
+    "Diff": "容易"
   },
   "11013": {
     "Id": 11013,
@@ -2815,7 +2828,10 @@
       "id": 10018,
       "say": 13090
     },
-    "finishDrama": 13100
+    "finishDrama": 13100,
+    "GradeSuggest": 1,
+    "AcceptDesc": "醉霄楼黄四娘",
+    "Diff": "普通"
   },
   "11015": {
     "Id": 11015,
@@ -2894,9 +2910,7 @@
       "id": 10018,
       "say": 13200
     },
-    "Reward": 11011,
-    "GradeSuggest": 1,
-    "AcceptDesc": "..."
+    "Reward": 11011
   },
   "11019": {
     "Id": 11019,
@@ -3547,6 +3561,25 @@
     "GradeSuggest": 20,
     "AcceptDesc": "杏花村苏真真",
     "Diff": "危险"
+  },
+  "11060": {
+    "Id": 11060,
+    "Name": "鹿肉",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "meet",
+    "Desc": "去李勇取些鹿肉",
+    "Scene": 1023,
+    "Des": {
+      "id": 10004,
+      "say": 10670
+    },
+    "NextTask": 10006,
+    "GradeSuggest": 1,
+    "AcceptDesc": "杏花村客人",
+    "Diff": "容易"
   },
   "11065": {
     "Id": 11065,
@@ -5043,15 +5076,19 @@
       "id": 50002,
       "say": 50120
     },
-    "NextTask": 50011,
-    "Reward": 50010
+    "NextTask": 1,
+    "Reward": 1
   },
   "50011": {
     "Id": 50011,
     "Name": "游玩",
+    "Tags": [
+      "main"
+    ],
     "Type": "path",
     "Scene": 1022,
     "Desc": "跟小梳子在临安游玩一番",
+    "AddNpcs": 50013,
     "Des": {
       "id": 50013,
       "sayReturn": 1,
@@ -5059,20 +5096,23 @@
         50130,
         50140,
         50150,
-        50160,
         50170,
         50180,
-        50190
+        50190,
+        50200
       ]
     },
     "Path": 6006,
-    "NextTask": 50012,
-    "Reward": 50011,
+    "NextTask": 1,
+    "Reward": 1,
     "FinishTime": 1
   },
   "50012": {
     "Id": 50012,
     "Name": "心事",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "疏解小梳子的心事",
@@ -5082,11 +5122,14 @@
       "say": 50220
     },
     "NextTask": 50014,
-    "Reward": 50012
+    "Reward": 1
   },
   "50014": {
     "Id": 50014,
     "Name": "亲人",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "帮小梳子找父母亲",
@@ -5094,13 +5137,16 @@
       "id": 50004,
       "say": 50240
     },
-    "NextTask": 50015,
-    "Reward": 50014,
+    "NextTask": 1,
+    "Reward": 1,
     "FinishTime": 1
   },
   "50015": {
     "Id": 50015,
     "Name": "寻人",
+    "Tags": [
+      "main"
+    ],
     "Type": "say",
     "Scene": 1022,
     "Desc": "休息一天,次日去长顺镖局打听寻人",
@@ -5109,29 +5155,35 @@
       "cond": 56060,
       "tipsOrTrigger": "休息至次日去长顺镖局打听。"
     },
-    "Reward": 50015
+    "NextTask": 1,
+    "Reward": 1
   },
   "50016": {
     "Id": 50016,
     "Name": "腰牌",
+    "Tags": [
+      "main"
+    ],
     "Type": "buy",
     "Scene": 1022,
-    "Desc": "从小梳子获得腰牌.",
+    "Desc": "从小梳子获得腰牌.（好感>=100并切磋获胜）",
     "Des": {
-      "id": 50002,
-      "tipsOrTrigger": "把小梳子的好感提升到100以上,就可以看到腰牌了，随后与其切磋可获得腰牌。"
+      "id": 50002
     },
     "Give": {
       "itemid": 13021,
       "num": 1
     },
-    "NextTask": 50017,
-    "Reward": 50016,
+    "NextTask": 1,
+    "Reward": 1,
     "AutoFinish": 1
   },
   "50017": {
     "Id": 50017,
     "Name": "官府寻人",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "找临安的捕快帮忙.",
@@ -5140,12 +5192,15 @@
       "sayReturn": 1,
       "say": 50250
     },
-    "NextTask": 50018,
-    "Reward": 50017
+    "NextTask": 1,
+    "Reward": 1
   },
   "50018": {
     "Id": 50018,
     "Name": "胡秋侠其人",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "捕快和胡秋侠有什么渊源.",
@@ -5153,14 +5208,14 @@
       "id": 50022,
       "say": 50260
     },
-    "NextTask": 50019,
-    "Reward": 50018
+    "NextTask": 1,
+    "Reward": 1
   },
   "50019": {
     "Id": 50019,
     "Name": "告示牌",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "client",
     "Scene": 1022,
@@ -5180,7 +5235,7 @@
     "Id": 50020,
     "Name": "窃贼",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "event",
     "Scene": 1022,
@@ -5194,9 +5249,9 @@
   },
   "50021": {
     "Id": 50021,
-    "Name": "见袈裟",
+    "Name": "盗宝贼",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5212,9 +5267,9 @@
   },
   "50022": {
     "Id": 50022,
-    "Name": "见袈裟",
+    "Name": "展颜",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5232,9 +5287,9 @@
   },
   "50023": {
     "Id": 50023,
-    "Name": "见袈裟",
+    "Name": "袈裟",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5248,9 +5303,9 @@
   },
   "50024": {
     "Id": 50024,
-    "Name": "见袈裟",
+    "Name": "袈裟",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "sayed",
     "Scene": 1022,
@@ -5265,9 +5320,9 @@
   },
   "50025": {
     "Id": 50025,
-    "Name": "不见袈裟",
+    "Name": "袈裟",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5281,9 +5336,9 @@
   },
   "50026": {
     "Id": 50026,
-    "Name": "不见袈裟",
+    "Name": "袈裟",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "says",
     "Scene": 1022,
@@ -5302,9 +5357,9 @@
   },
   "50027": {
     "Id": 50027,
-    "Name": "不见袈裟",
+    "Name": "善恶",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5318,9 +5373,9 @@
   },
   "50028": {
     "Id": 50028,
-    "Name": "不见袈裟",
+    "Name": "邀请",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "script",
     "Scene": 1022,
@@ -5334,9 +5389,9 @@
   },
   "50029": {
     "Id": 50029,
-    "Name": "不见袈裟",
+    "Name": "离开灵隐寺",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5346,14 +5401,14 @@
       "type": "trap",
       "say": 50330
     },
-    "NextTask": 50044,
-    "Reward": 50029
+    "NextTask": 1,
+    "Reward": 1
   },
   "50030": {
     "Id": 50030,
     "Name": "告示牌",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "client",
     "Scene": 1022,
@@ -5373,19 +5428,19 @@
     "Id": 50031,
     "Name": "采花贼",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
-    "Type": "say",
+    "Type": "meet",
     "Scene": 1022,
     "Desc": "先前往得月楼附近踩点",
-    "NextTask": 50062,
-    "Reward": 50031
+    "NextTask": 1,
+    "Reward": 1
   },
   "50032": {
     "Id": 50032,
     "Name": "赴约",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "says",
     "Scene": 1022,
@@ -5406,7 +5461,7 @@
     "Id": 50033,
     "Name": "诱饵",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5423,7 +5478,7 @@
     "Id": 50034,
     "Name": "再捉采花贼",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "fight",
     "Scene": 1022,
@@ -5442,7 +5497,7 @@
     "Id": 50035,
     "Name": "押解",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5460,7 +5515,7 @@
     "Id": 50036,
     "Name": "展颜",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5470,12 +5525,15 @@
       "id": 50041,
       "say": 50360
     },
-    "NextTask": 50040,
-    "Reward": 50036
+    "NextTask": 1,
+    "Reward": 1
   },
   "50037": {
     "Id": 50037,
     "Name": "查档案",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "拿着手令进入档案室查档案",
@@ -5483,12 +5541,15 @@
       "id": 50055,
       "say": 50370
     },
-    "NextTask": 50038,
-    "Reward": 50037
+    "NextTask": 1,
+    "Reward": 1
   },
   "50038": {
     "Id": 50038,
     "Name": "查档案",
+    "Tags": [
+      "main"
+    ],
     "Type": "cond",
     "Scene": 1022,
     "Desc": "在档案室找寻元隆十二年的卷宗.",
@@ -5496,12 +5557,15 @@
       50039,
       50040
     ],
-    "NextTask": 50039,
-    "Reward": 50038
+    "NextTask": 1,
+    "Reward": 1
   },
   "50039": {
     "Id": 50039,
     "Name": "城南",
+    "Tags": [
+      "main"
+    ],
     "Type": "says",
     "Scene": 1022,
     "Desc": "去城南找房子的主人打探线索",
@@ -5512,14 +5576,14 @@
         50420
       ]
     },
-    "NextTask": 50040,
-    "Reward": 50039
+    "NextTask": 1,
+    "Reward": 1
   },
   "50040": {
     "Id": 50040,
     "Name": "战胜头目",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "fight",
     "Scene": 1022,
@@ -5532,14 +5596,14 @@
     "Battle": {
       "bid": 310002
     },
-    "NextTask": 50041,
-    "Reward": 50040
+    "NextTask": 1,
+    "Reward": 1
   },
   "50041": {
     "Id": 50041,
     "Name": "讨要失物",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "says",
     "Scene": 1022,
@@ -5552,11 +5616,15 @@
         50470
       ]
     },
-    "Reward": 50041
+    "NextTask": 1,
+    "Reward": 1
   },
   "50042": {
     "Id": 50042,
     "Name": "指点",
+    "Tags": [
+      "main"
+    ],
     "Type": "meet",
     "Scene": 1022,
     "Desc": "找展颜指点一二",
@@ -5564,12 +5632,15 @@
       "id": 50022,
       "say": 50480
     },
-    "NextTask": 50043,
-    "Reward": 50042
+    "NextTask": 1,
+    "Reward": 1
   },
   "50043": {
     "Id": 50043,
     "Name": "打听消息",
+    "Tags": [
+      "main"
+    ],
     "Type": "dating",
     "Scene": 1022,
     "Desc": "找周围的邻居打听消息.",
@@ -5583,29 +5654,38 @@
         50021
       ]
     },
-    "NextTask": 50044,
-    "Reward": 50043
+    "NextTask": 1,
+    "Reward": 1
   },
   "50044": {
     "Id": 50044,
-    "Name": "明心见性",
+    "Name": "和尚",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
-    "Type": "cond",
+    "Type": "says",
     "Scene": 1022,
-    "Desc": "带着慧深在临安历练",
+    "Desc": "不知道和尚的偈子做的如何了",
+    "Des": {
+      "id": 50045,
+      "say": [
+        50500,
+        50510,
+        50520
+      ]
+    },
+    "AddSay": 50490,
     "Condition": [
       50173
     ],
-    "NextTask": 50047,
-    "Reward": 50044
+    "NextTask": 1,
+    "Reward": 1
   },
   "50045": {
     "Id": 50045,
-    "Name": "弃用",
+    "Name": "招募",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "event",
     "Scene": 1022,
@@ -5617,14 +5697,14 @@
       "event": "addsoldier",
       "name": 50045
     },
-    "NextTask": 50046,
-    "Reward": 50045
+    "NextTask": 1,
+    "Reward": 1
   },
   "50046": {
     "Id": 50046,
-    "Name": "弃用",
+    "Name": "名声",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "scenescore",
     "Scene": 1022,
@@ -5637,14 +5717,14 @@
       "counter": 1022,
       "num": 50
     },
-    "NextTask": 50047,
-    "Reward": 50046
+    "NextTask": 1,
+    "Reward": 1
   },
   "50047": {
     "Id": 50047,
     "Name": "明心见性",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5653,14 +5733,14 @@
       "id": 50045,
       "say": 50540
     },
-    "NextTask": 50048,
-    "Reward": 50047
+    "NextTask": 1,
+    "Reward": 1
   },
   "50048": {
     "Id": 50048,
     "Name": "明心见性",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5669,14 +5749,14 @@
       "id": 50045,
       "say": 50550
     },
-    "NextTask": 50049,
-    "Reward": 50048
+    "NextTask": 1,
+    "Reward": 1
   },
   "50049": {
     "Id": 50049,
     "Name": "明心见性",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "sayed",
     "Scene": 1022,
@@ -5688,19 +5768,58 @@
       57530,
       57546
     ],
-    "Reward": 50049
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50050": {
+    "Id": 50050,
+    "Name": "和尚出山",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Scene": 1022,
+    "Desc": "回客栈聚餐恭喜和尚出山",
+    "AddNpcs": 59045,
+    "Des": {
+      "id": 59045,
+      "say": [
+        50570,
+        50580
+      ]
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50051": {
+    "Id": 50051,
+    "Name": "同行",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "带上灵儿去武昌找她的主人",
+    "Des": {
+      "id": 80001,
+      "cond": "trap",
+      "tipsOrTrigger": "从临安东北出口到黄山道坐船可到武昌",
+      "say": 81010
+    },
+    "NextTask": 80001,
+    "Reward": 1
   },
   "50060": {
     "Id": 50060,
-    "Name": "见袈裟",
+    "Name": "盗宝贼",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "time",
     "Scene": 1022,
     "Desc": "等待衙门断案",
     "TimePass": {
-      "min": 5
+      "min": 1
     },
     "NextTask": 50022
   },
@@ -5708,13 +5827,13 @@
     "Id": 50061,
     "Name": "采花贼落网",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "time",
     "Scene": 1022,
     "Desc": "等待衙门断案",
     "TimePass": {
-      "min": 5
+      "min": 1
     },
     "NextTask": 50036,
     "Reward": 50061
@@ -5723,7 +5842,7 @@
     "Id": 50062,
     "Name": "休息",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "meet",
     "Scene": 1022,
@@ -5740,7 +5859,7 @@
     "Id": 50063,
     "Name": "提升名气",
     "Tags": [
-      "nogiveup"
+      "main"
     ],
     "Type": "cond",
     "Scene": 1022,
@@ -5771,12 +5890,14 @@
     "Tags": [
       "main"
     ],
-    "Type": "sayed",
+    "Type": "event",
     "Scene": 1022,
     "Desc": "前往临安",
-    "Sayed": [
-      50654
-    ],
+    "finishDrama": 50650,
+    "ServerEvent": {
+      "event": "enterScene",
+      "name": 1022
+    },
     "NextTask": 50101,
     "Reward": 51100,
     "notShowNum": 1
@@ -5828,19 +5949,18 @@
       "id": 50004,
       "say": 50710
     },
-    "finishDrama": 50740,
     "NextTask": 50104,
     "Reward": 51103
   },
   "50104": {
     "Id": 50104,
-    "Name": "找寻玉匠",
+    "Name": "抱玉斋",
     "Tags": [
       "main"
     ],
     "Type": "meet",
     "Scene": 5103,
-    "Desc": "问问店小二关于玉匠的消息",
+    "Desc": "向店小二打听抱玉斋",
     "Des": {
       "id": 50001,
       "say": 50750
@@ -5850,23 +5970,23 @@
   },
   "50105": {
     "Id": 50105,
-    "Name": "找寻玉匠",
+    "Name": "抱玉斋",
     "Tags": [
       "main"
     ],
     "Type": "meet",
     "Scene": 1022,
-    "Desc": "前往明月阁找明月姑娘鉴玉",
+    "Desc": "前往抱玉斋",
     "Des": {
-      "id": 50080,
+      "id": 53098,
       "say": 50770
     },
-    "NextTask": 50106,
+    "NextTask": 50206,
     "Reward": 51105
   },
   "50106": {
     "Id": 50106,
-    "Name": "找寻玉匠",
+    "Name": "抱玉斋",
     "Tags": [
       "main"
     ],
@@ -6902,7 +7022,7 @@
   },
   "50165": {
     "Id": 50165,
-    "Name": "张咬金",
+    "Name": "尘埃落定",
     "Tags": [
       "main"
     ],
@@ -6918,7 +7038,7 @@
   },
   "50166": {
     "Id": 50166,
-    "Name": "张咬金",
+    "Name": "临安游玩",
     "Tags": [
       "main"
     ],
@@ -7057,6 +7177,517 @@
     ],
     "NextTask": 80001,
     "Reward": 51173
+  },
+  "50206": {
+    "Id": 50206,
+    "Name": "画摊",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "不妨在临安转转",
+    "Des": {
+      "id": 50206,
+      "type": "trap",
+      "say": 52140
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50207": {
+    "Id": 50207,
+    "Name": "拔刀相助",
+    "Tags": [
+      "main"
+    ],
+    "Type": "fight",
+    "Scene": 1022,
+    "Desc": "相助钱止薇",
+    "Des": {
+      "id": 50123,
+      "say": 52160
+    },
+    "Battle": {
+      "bid": 50110
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50208": {
+    "Id": 50208,
+    "Name": "询问缘由",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "对话钱止薇",
+    "Des": {
+      "id": 50121,
+      "say": 52170
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50209": {
+    "Id": 50209,
+    "Name": "小四",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "小四知道些什么",
+    "Des": {
+      "id": 50209,
+      "type": "trap",
+      "say": 52210
+    },
+    "AddSay": 52190,
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50210": {
+    "Id": 50210,
+    "Name": "抱玉斋",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "酉时前往抱玉斋",
+    "Des": {
+      "id": 50103,
+      "say": 52230
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50211": {
+    "Id": 50211,
+    "Name": "埋伏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "子时在钱公府埋伏",
+    "Des": {
+      "id": 50105,
+      "type": "trap",
+      "say": 51250
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50212": {
+    "Id": 50212,
+    "Name": "屋顶",
+    "Tags": [
+      "main"
+    ],
+    "Type": "fight",
+    "Scene": 1022,
+    "Desc": "上屋顶埋伏",
+    "Des": {
+      "id": 50106,
+      "type": "trap",
+      "say": 52250
+    },
+    "finishDrama": 52260,
+    "Battle": {
+      "bid": 50212
+    },
+    "NextTask": 1,
+    "Reward": 1,
+    "notShowNum": 1
+  },
+  "50213": {
+    "Id": 50213,
+    "Name": "小四",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Scene": 1022,
+    "Desc": "小四肯定知道些什么",
+    "Des": {
+      "id": 50128,
+      "say": [
+        52280,
+        52290,
+        52300,
+        52310
+      ]
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50214": {
+    "Id": 50214,
+    "Name": "四大门派",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "跟小梳子对话",
+    "Des": {
+      "id": 50002,
+      "say": 52320
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50215": {
+    "Id": 50215,
+    "Name": "回信",
+    "Tags": [
+      "main"
+    ],
+    "Type": "time",
+    "Scene": 1022,
+    "Desc": "等待抱玉斋主人的回信(可以考虑加入四大门派)",
+    "TimePass": {
+      "min": 15
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50216": {
+    "Id": 50216,
+    "Name": "抱玉斋",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "前往抱玉斋",
+    "Des": {
+      "id": 50103,
+      "say": 52340
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50217": {
+    "Id": 50217,
+    "Name": "钱王宝藏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "client",
+    "Scene": 1022,
+    "Desc": "查看地图碎片",
+    "ClientEvent": {
+      "event": "ui.bag.close",
+      "name": 0
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50218": {
+    "Id": 50218,
+    "Name": "钱王宝藏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "buy",
+    "Scene": 1022,
+    "Desc": "寻找钱王宝藏",
+    "AddSay": 52360,
+    "Give": {
+      "itemid": 13574,
+      "num": 4
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50219": {
+    "Id": 50219,
+    "Name": "钱王宝藏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "buy",
+    "Scene": 1022,
+    "Desc": "合成藏宝图",
+    "Give": {
+      "itemid": 13575,
+      "num": 1
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50220": {
+    "Id": 50220,
+    "Name": "钱王宝藏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "event",
+    "Scene": 1022,
+    "Desc": "破解藏宝图地点",
+    "ServerEvent": {
+      "event": "jigsaw",
+      "name": 13575
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50221": {
+    "Id": 50221,
+    "Name": "抱玉斋",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "回去找钱国栋",
+    "Des": {
+      "id": 50129,
+      "say": 52510
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50222": {
+    "Id": 50222,
+    "Name": "监牢",
+    "Tags": [
+      "main"
+    ],
+    "Type": "time",
+    "Scene": 1022,
+    "Desc": "你在监牢中,度日如年",
+    "finishDrama": 52540,
+    "TimePass": {
+      "min": 1
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50223": {
+    "Id": 50223,
+    "Name": "小薇",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "与钱止薇对话",
+    "AddNpcs": 50134,
+    "Des": {
+      "id": 50134,
+      "say": 52550
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50224": {
+    "Id": 50224,
+    "Name": "宝藏",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "前往宝藏处",
+    "Des": {
+      "id": 50130,
+      "say": 52580
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50225": {
+    "Id": 50225,
+    "Name": "复仇",
+    "Tags": [
+      "main"
+    ],
+    "Type": "fight",
+    "Scene": 1022,
+    "Desc": "夺回宝藏",
+    "Des": {
+      "id": 50133,
+      "say": 52590
+    },
+    "finishDrama": 52600,
+    "Battle": {
+      "bid": 50225
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "50226": {
+    "Id": 50226,
+    "Name": "小薇",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "跟小梳子对话",
+    "Des": {
+      "id": 50002,
+      "say": 52610
+    },
+    "NextTask": 50011,
+    "Reward": 1
+  },
+  "50300": {
+    "Id": 50300,
+    "Name": "天目山",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "去天目山寻找宝藏线索",
+    "Des": {
+      "id": 50210,
+      "type": "trap",
+      "say": 52390
+    },
+    "NextTask": 50301,
+    "Reward": 50300
+  },
+  "50301": {
+    "Id": 50301,
+    "Name": "天目山",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "进入洞穴探宝",
+    "Des": {
+      "id": 50211,
+      "type": "trap",
+      "sayReturn": 1,
+      "say": 52400
+    },
+    "Reward": 50301
+  },
+  "50310": {
+    "Id": 50310,
+    "Name": "三潭印月",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "去西湖三潭印月寻找宝藏线索",
+    "Des": {
+      "id": 50212,
+      "type": "trap",
+      "say": 52420
+    },
+    "NextTask": 50311,
+    "Reward": 50310
+  },
+  "50311": {
+    "Id": 50311,
+    "Name": "三潭印月",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "夜里来看三潭印月",
+    "Des": {
+      "id": 50212,
+      "type": "trap",
+      "sayReturn": 1,
+      "say": 52430
+    },
+    "Reward": 50311
+  },
+  "50320": {
+    "Id": 50320,
+    "Name": "灵隐寺",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "找灵隐寺方丈打听宝藏线索",
+    "Des": {
+      "id": 50038,
+      "say": 52450
+    },
+    "NextTask": 50321,
+    "Reward": 50320
+  },
+  "50321": {
+    "Id": 50321,
+    "Name": "灵隐寺",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "钟声响起,便见分晓.",
+    "Des": {
+      "id": 50213,
+      "type": "trap",
+      "say": 52460
+    },
+    "NextTask": 50322,
+    "Reward": 50321
+  },
+  "50322": {
+    "Id": 50322,
+    "Name": "钟声",
+    "Tags": [
+      "help"
+    ],
+    "Type": "dating",
+    "Scene": 1022,
+    "Desc": "找寺内弟子打听钟声.",
+    "Dating": {
+      "tag": "钟声",
+      "num": 4
+    },
+    "NextTask": 50323,
+    "Reward": 50322
+  },
+  "50323": {
+    "Id": 50323,
+    "Name": "灵隐寺",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "钟声响起,便见分晓.",
+    "Des": {
+      "id": 50213,
+      "type": "trap",
+      "sayReturn": 1,
+      "say": 52470
+    },
+    "NextTask": 50324,
+    "Reward": 50323
+  },
+  "50324": {
+    "Id": 50324,
+    "Name": "钟声",
+    "Tags": [
+      "help"
+    ],
+    "Type": "meet",
+    "Scene": 1022,
+    "Desc": "夜半钟声到客船",
+    "Des": {
+      "id": 50214,
+      "type": "trap",
+      "sayReturn": 1,
+      "say": 52490
+    },
+    "Reward": 50324
   },
   "51001": {
     "Id": 51001,

@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, defineProps, onMounted, watch } from "vue";
 import { getMoney, getMoneyIcon, MoneyNum, XlsMoney } from "../../data/money";
 
 // 单个货币数据

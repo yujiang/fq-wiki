@@ -4,23 +4,18 @@
 
 <template>
   <div class="item-card" v-if="cur">
-    
-    <n-tooltip :style="{ maxWidth: '200px' }" trigger="hover">
-      <template #trigger>
-        <div class="icon-wrap" :class="['rank-' + (cur.item.Rank || 1)]">
-          <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
-        </div>
-      </template>
-      <div>{{ cur.item.Detail }}</div>
-    </n-tooltip>
 
-  <div class="meta">
-    <div class="title">
-      <strong>{{ cur.item?.Name }}</strong>
-      <div class="stock">库存：{{ cur.good.Count }}</div>
+    <div class="icon-wrap" :class="['rank-' + (cur.item.Rank || 1)]" v-tips="cur.item.Detail">
+      <img v-if="cur.icon" :src="cur.icon" alt="" class="icon" />
     </div>
-    <span class="price">￥{{ cur.good.Price }}</span>
-  </div>
+
+    <div class="meta">
+      <div class="title">
+        <strong>{{ cur.item?.Name }}</strong>
+        <div class="stock">库存：{{ cur.good.Count }}</div>
+      </div>
+      <span class="price">￥{{ cur.good.Price }}</span>
+    </div>
   </div>
 </template>
 

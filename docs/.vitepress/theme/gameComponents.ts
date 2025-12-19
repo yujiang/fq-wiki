@@ -60,6 +60,7 @@ import WorldMapScenes from './components/world/WorldMapScenes.vue'
 import naiveTooltip from './components/naiveUI/Tooltip.vue'  
 import tippyTooltip from './components/Tippy/Tooltip.vue'  
 import CharImage from './components/CharImage.vue'  
+import ItemImage from './components/ItemImage.vue'  
 
 
 export function registerGameComponents(app: any) {
@@ -123,6 +124,7 @@ export function registerGameComponents(app: any) {
 
   app.component('RichText', RichText)
   app.component('CharImage', CharImage)
+  app.component('ItemImage', ItemImage)
   
 
 }

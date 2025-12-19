@@ -863,7 +863,7 @@
     "Shape": 3999,
     "HideName": 1,
     "Type": "dig",
-    "Scene": 5105,
+    "Scene": 4235,
     "x": 900,
     "y": 773,
     "dis": 150,
@@ -871,8 +871,7 @@
     "RecoverHour": 0,
     "Rewards": 18011,
     "Trigger": 13180,
-    "InitHide": 1,
-    "layerObs": 0
+    "InitHide": 1
   },
   "10012": {
     "Id": 10012,
@@ -884,7 +883,7 @@
     "Shape": 3999,
     "HideName": 1,
     "Type": "dig",
-    "Scene": 5105,
+    "Scene": 4235,
     "x": 1330,
     "y": 2739,
     "act": 7,
@@ -893,8 +892,7 @@
     "RecoverHour": 0,
     "Rewards": 18012,
     "Password": 27,
-    "InitHide": 1,
-    "layerObs": 0
+    "InitHide": 1
   },
   "10013": {
     "Id": 10013,
@@ -906,7 +904,7 @@
     "Shape": 3999,
     "HideName": 1,
     "Type": "dig",
-    "Scene": 5105,
+    "Scene": 4235,
     "x": 195,
     "y": 1600,
     "act": 7,
@@ -914,8 +912,7 @@
     "TopLimit": 1,
     "RecoverHour": 0,
     "Rewards": 18013,
-    "InitHide": 1,
-    "layerObs": 0
+    "InitHide": 1
   },
   "10014": {
     "Id": 10014,

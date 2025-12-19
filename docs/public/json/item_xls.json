@@ -12258,6 +12258,7 @@
       "num": 4,
       "id": 13575
     },
+    "Page": "task",
     "Overlay": 4
   },
   "13575": {
@@ -12271,6 +12272,109 @@
     "Use": "jigsaw",
     "UseText": "浏览",
     "UseParam": 61,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13576": {
+    "Id": 13576,
+    "source": "碎片1",
+    "Kind": "任务",
+    "Name": "玉的碎片",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从九儿得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13580": {
+    "Id": 13580,
+    "source": "碎片1",
+    "Kind": "任务",
+    "Name": "玉的碎片1",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从九儿得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13581": {
+    "Id": 13581,
+    "source": "碎片2",
+    "Kind": "任务",
+    "Name": "玉的碎片2",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从老五得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13582": {
+    "Id": 13582,
+    "source": "碎片3",
+    "Kind": "任务",
+    "Name": "玉的碎片3",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从二蛋得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13583": {
+    "Id": 13583,
+    "source": "碎片4",
+    "Kind": "任务",
+    "Name": "玉的碎片4",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从柒柒得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
+    "Overlay": 1
+  },
+  "13599": {
+    "Id": 13599,
+    "source": "占位碎片",
+    "Kind": "任务",
+    "Name": "玉的碎片",
+    "Icon": 16000,
+    "Desc": "神秘道具",
+    "Detail": "从xx得到的玉的碎片",
+    "Grade": 0,
+    "Rank": 5,
+    "Tags": [
+      "nodrop"
+    ],
+    "UseParam": 1,
+    "Page": "task",
     "Overlay": 1
   },
   "13998": {

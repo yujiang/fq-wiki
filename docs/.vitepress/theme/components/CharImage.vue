@@ -5,7 +5,8 @@ type SizePreset = "xs" | "sm" | "md" | "lg" | "xl";
 
 const props = withDefaults(
   defineProps<{
-    id: number | string;
+    id?: number | string;
+    icon?: number,
     alt?: string;
     caption?: string;
     // 你可以只用 size，也可以直接传 width/height 覆盖
@@ -54,7 +55,16 @@ const presetWidth = (size?: SizePreset) => {
   return find[0];
 };
 
-const src = computed(() => `${props.base}/${props.id}.${props.ext}`);
+
+function getSrc(){
+  if(props.icon){
+    return `/images/icon/char/268x249/${props.icon}.png`;
+  }
+  return `${props.base}/${props.id}.${props.ext}`;
+
+}
+
+const src = computed(() => getSrc());
 
 const displaySrc = computed(() => (failed.value ? props.fallback : src.value));
 

@@ -47,7 +47,10 @@
     "ResDirWield": "ui_skins/common/tile/wield/img_skill_wear_8.png",
     "ResDirStudy": "ui_skins/common/tile/learntaolu/img_lerantaolu_icon_6.png"
   },
-  "红色未达成": {"Id": "红色未达成", "Color": 16711680},
+  "红色未达成": {
+    "Id": "红色未达成",
+    "Color": 16711680
+  },
   "洗髓绿色": {
     "Id": "洗髓绿色",
     "Color": 116014,
@@ -73,18 +76,79 @@
     "Color": 15694398,
     "ResProgressBar": "ui_skins/ui_char/aptitude/img_aptitude_bar_cover_6.png"
   },
-  "PlayerName": {"Id": "PlayerName", "Desc": "玩家名字颜色", "Color": 15724525},
-  "Title": {"Id": "Title", "Desc": "头衔颜色", "Color": 65424},
-  "NpcName": {"Id": "NpcName", "Desc": "npc名字颜色", "Color": 15724525},
-  "MainName": {"Id": "MainName", "Desc": "主角名字颜色", "Color": 15724525},
-  "MouseOver": {"Id": "MouseOver", "Desc": "鼠标放上去颜色", "Color": 16711680},
-  "EnterMenu": {"Id": "EnterMenu", "Desc": "成为目标颜色", "Color": 16776960},
-  "TaskNpc": {"Id": "TaskNpc", "Desc": "任务栏Npc名字", "Color": 4824273},
-  "DramaNpc": {"Id": "DramaNpc", "Desc": "对话框Npc名字", "Color": 2975878},
-  "TaskItem": {"Id": "TaskItem", "Desc": "任务栏Item名字", "Color": 116030},
-  "DramaItem": {"Id": "DramaItem", "Desc": "对话框Item名字", "Color": 165419},
-  "WarSkillJuqi": {"Id": "WarSkillJuqi", "Desc": "人物聚气", "Color": 6934012},
-  "主线": {"Id": "主线", "Desc": "文字颜色", "Color": 15597806},
-  "支线": {"Id": "支线", "Desc": "文字颜色", "Color": 11141290},
-  "江湖": {"Id": "江湖", "Desc": "文字颜色", "Color": 43758}
+  "PlayerName": {
+    "Id": "PlayerName",
+    "Desc": "玩家名字颜色",
+    "Color": 15724525
+  },
+  "Title": {
+    "Id": "Title",
+    "Desc": "头衔颜色",
+    "Color": 65424
+  },
+  "NpcName": {
+    "Id": "NpcName",
+    "Desc": "npc名字颜色",
+    "Color": 15724525
+  },
+  "MainName": {
+    "Id": "MainName",
+    "Desc": "主角名字颜色",
+    "Color": 15724525
+  },
+  "MouseOver": {
+    "Id": "MouseOver",
+    "Desc": "鼠标放上去颜色",
+    "Color": 16711680
+  },
+  "EnterMenu": {
+    "Id": "EnterMenu",
+    "Desc": "成为目标颜色",
+    "Color": 16776960
+  },
+  "TaskNpc": {
+    "Id": "TaskNpc",
+    "Desc": "任务栏Npc名字",
+    "Color": 4824273
+  },
+  "DramaNpc": {
+    "Id": "DramaNpc",
+    "Desc": "对话框Npc名字",
+    "Color": 2975878
+  },
+  "TaskItem": {
+    "Id": "TaskItem",
+    "Desc": "任务栏Item名字",
+    "Color": 116030
+  },
+  "DramaItem": {
+    "Id": "DramaItem",
+    "Desc": "对话框Item名字",
+    "Color": 165419
+  },
+  "WarSkillJuqi": {
+    "Id": "WarSkillJuqi",
+    "Desc": "人物聚气",
+    "Color": 6934012
+  },
+  "主线": {
+    "Id": "主线",
+    "Desc": "文字颜色",
+    "Color": 15597806
+  },
+  "支线": {
+    "Id": "支线",
+    "Desc": "文字颜色",
+    "Color": 11141290
+  },
+  "江湖": {
+    "Id": "江湖",
+    "Desc": "文字颜色",
+    "Color": 43758
+  },
+  "轮回": {
+    "Id": "轮回",
+    "Desc": "文字颜色",
+    "Color": 116014
+  }
 }

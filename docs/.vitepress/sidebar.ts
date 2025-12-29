@@ -3,6 +3,8 @@ import { generateSidebar } from 'vitepress-sidebar'
 import fs from 'node:fs'
 import path from 'node:path'
 
+
+
 const GENERATED_FILE = path.resolve(__dirname, './sidebar.generated.ts')
 
 export function generateSidebarRemoveNumber() {
@@ -11,6 +13,7 @@ export function generateSidebarRemoveNumber() {
     collapseDepth: 2,
     useTitleFromFileHeading: true,
     includeFolderIndexFile: true,
+    followSymlinks: true,
   })
 
   // 仅去掉 text 的数字前缀，不动 link

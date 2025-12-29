@@ -15,6 +15,14 @@ export default withMermaid({
   // base: '/<repo>/',            // 若部署到 GitHub Pages 子路径，取消注释并填写
 
   vite: {
+    // resolve: {
+    //   alias: {
+    //     'vue/server-renderer': '@vue/server-renderer',
+    //   },
+    // },    
+    // resolve: {
+    //   preserveSymlinks: true,
+    // },    
     // 必需，否则 vitepress-plugin-mermaid 无法正常工作
     // plugins: [MermaidPlugin()],
     plugins: [SidebarAutoPlugin() as any],

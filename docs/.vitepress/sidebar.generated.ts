@@ -199,6 +199,10 @@ export default [
           }
         ],
         "collapsed": true
+      },
+      {
+        "text": "无名",
+        "link": "/01-人物列传/无名"
       }
     ],
     "collapsed": false
@@ -228,12 +232,8 @@ export default [
             "link": "/09-剧情/02-游戏剧情/00-序章-命运交汇"
           },
           {
-            "text": "第一章 对话",
-            "link": "/09-剧情/02-游戏剧情/01-第一章 对话"
-          },
-          {
-            "text": "第一章 · 杏花血雨",
-            "link": "/09-剧情/02-游戏剧情/01-第一章-杏花血雨"
+            "text": "第一章 杏花血雨",
+            "link": "/09-剧情/02-游戏剧情/第一章 杏花血雨"
           },
           {
             "text": "第三章-灵隐佛偈",
@@ -248,8 +248,28 @@ export default [
             "link": "/09-剧情/02-游戏剧情/第五章-武昌"
           },
           {
-            "text": "江湖绝路",
-            "link": "/09-剧情/02-游戏剧情/第四章-江湖绝路"
+            "text": "第四章-江湖追杀",
+            "link": "/09-剧情/02-游戏剧情/第四章-江湖追杀"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "chatgpt",
+        "items": [
+          {
+            "text": "陈玖 · 武昌故事线总结",
+            "link": "/09-剧情/03-chatgpt/第五章- 江湖绝路"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "gemini",
+        "items": [
+          {
+            "text": "陈玖 · 武昌故事线总结",
+            "link": "/09-剧情/04-gemini/第五章- 江湖绝路"
           }
         ],
         "collapsed": true
@@ -620,6 +640,16 @@ export default [
   {
     "text": "攻略",
     "items": [
+      {
+        "text": "游戏剧情",
+        "items": [
+          {
+            "text": "第一章 · 杏花血雨",
+            "link": "/30-攻略/01-游戏剧情/01-第一章-杏花血雨"
+          }
+        ],
+        "collapsed": true
+      },
       {
         "text": "FAQ",
         "link": "/30-攻略/FAQ"

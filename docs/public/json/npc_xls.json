@@ -28034,7 +28034,6 @@
   "80102": {
     "Id": 80102,
     "Name": "陈玖",
-    "Desc": "船夫",
     "CreateType": "scene",
     "Json": 88441,
     "Scene": 1029,
@@ -28044,162 +28043,201 @@
       "icon": 1029
     },
     "act": 5,
-    "x": 4986,
-    "y": 4223
+    "x": 3775,
+    "y": 677
   },
   "80103": {
     "Id": 80103,
-    "Name": "静海",
-    "CreateType": "drama",
+    "Name": "陈玖",
+    "CreateType": "scene",
+    "Json": 88441,
+    "Scene": 3198,
     "Display": {
-      "name": "静海",
-      "shape": 2110,
-      "icon": 2110,
-      "light": 3
-    }
+      "name": "陈玖",
+      "shape": 1029,
+      "icon": 1029
+    },
+    "act": 5,
+    "x": 1179,
+    "y": 682
   },
   "80104": {
     "Id": 80104,
-    "Name": "端玄",
-    "CreateType": "drama",
+    "Name": "小二",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "端玄",
-      "shape": 2127,
-      "icon": 2127,
-      "light": 3
-    }
+      "name": "小二",
+      "shape": 2057,
+      "icon": 2057
+    },
+    "act": 5,
+    "x": 1799,
+    "y": 683
   },
   "80105": {
     "Id": 80105,
-    "Name": "韩枭",
-    "CreateType": "drama",
+    "Name": "掌柜",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "韩枭",
-      "shape": 2175,
-      "icon": 2175,
-      "light": 3
-    }
+      "name": "掌柜",
+      "shape": 3015,
+      "icon": 3015
+    },
+    "act": 5,
+    "x": 2331,
+    "y": 837
   },
   "80106": {
     "Id": 80106,
-    "Name": "火1",
-    "CreateType": "drama",
+    "Name": "伙计",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "火",
-      "shape": 4000,
-      "icon": 4000,
-      "light": 3
-    }
+      "name": "伙计",
+      "shape": 2057,
+      "icon": 2057
+    },
+    "act": 5
   },
   "80107": {
     "Id": 80107,
-    "Name": "孔明灯1",
-    "CreateType": "drama",
+    "Name": "老板",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "孔明灯",
-      "shape": 3088,
-      "icon": 3088,
-      "light": 3
-    }
+      "name": "老板",
+      "shape": 3015,
+      "icon": 3015
+    },
+    "act": 5
   },
   "80108": {
     "Id": 80108,
-    "Name": "孔明灯2",
-    "CreateType": "drama",
+    "Name": "陈玖",
+    "CreateType": "scene",
+    "Json": 88441,
+    "Scene": 4022,
     "Display": {
-      "name": "孔明灯",
-      "shape": 3088,
-      "icon": 3088,
-      "light": 3
-    }
+      "name": "陈玖",
+      "shape": 1029,
+      "icon": 1029
+    },
+    "act": 5,
+    "x": 743,
+    "y": 452
   },
   "80109": {
     "Id": 80109,
-    "Name": "野猫",
-    "CreateType": "drama",
+    "Name": "老板",
+    "CreateType": "scene",
+    "Json": 88442,
+    "Scene": 3198,
     "Display": {
-      "name": "野猫",
-      "shape": 33953,
-      "icon": 33953,
-      "light": 3
-    }
+      "name": "老板",
+      "shape": 1048,
+      "icon": 1048
+    },
+    "act": 5
   },
   "80110": {
     "Id": 80110,
-    "Name": "船",
-    "CreateType": "drama",
+    "Name": "老板",
+    "CreateType": "task",
+    "Json": 88442,
+    "Scene": 1029,
     "Display": {
-      "name": "船",
-      "shape": 3148,
-      "icon": 3148,
-      "light": 3
-    }
+      "name": "老板",
+      "shape": 1048,
+      "icon": 1048
+    },
+    "act": 5,
+    "x": 3686,
+    "y": 637
   },
   "80111": {
     "Id": 80111,
-    "Name": "黄圈",
-    "CreateType": "drama",
+    "Name": "陈玖",
+    "CreateType": "scene",
+    "Json": 88441,
+    "Scene": 4027,
     "Display": {
-      "name": "黄圈",
-      "shape": 3911,
-      "icon": 3911,
-      "light": 3
-    }
+      "name": "陈玖",
+      "shape": 1029,
+      "icon": 1029
+    },
+    "act": 5,
+    "x": 1793,
+    "y": 1951
   },
   "80112": {
     "Id": 80112,
-    "Name": "黄圈",
-    "CreateType": "drama",
+    "Name": "李妈妈",
+    "CreateType": "scene",
+    "Scene": 4027,
     "Display": {
-      "name": "黄圈",
-      "shape": 3911,
-      "icon": 3911,
-      "light": 3
-    }
+      "name": "李妈妈",
+      "shape": 3125,
+      "icon": 3125
+    },
+    "act": 5,
+    "x": 2034,
+    "y": 2528
   },
   "80113": {
     "Id": 80113,
-    "Name": "火1",
-    "CreateType": "drama",
+    "Name": "春桃",
+    "CreateType": "scene",
+    "Scene": 4027,
     "Display": {
-      "name": "火1",
-      "shape": 4000,
-      "icon": 4000,
-      "light": 3
-    }
+      "name": "春桃",
+      "shape": 3005,
+      "icon": 3005
+    },
+    "act": 5,
+    "x": 2285,
+    "y": 2531
   },
   "80114": {
     "Id": 80114,
-    "Name": "火2",
-    "CreateType": "drama",
+    "Name": "苏小小",
+    "CreateType": "scene",
+    "Scene": 4027,
     "Display": {
-      "name": "火2",
-      "shape": 4000,
-      "icon": 4000,
-      "light": 3
-    }
+      "name": "苏小小",
+      "shape": 170,
+      "icon": 170
+    },
+    "act": 5
   },
   "80115": {
     "Id": 80115,
-    "Name": "火3",
-    "CreateType": "drama",
+    "Name": "客人",
+    "CreateType": "scene",
+    "Scene": 4027,
     "Display": {
-      "name": "火3",
-      "shape": 4000,
-      "icon": 4000,
-      "light": 3
-    }
+      "name": "客人",
+      "shape": 2103,
+      "icon": 2103
+    },
+    "act": 5,
+    "x": 756,
+    "y": 2155
   },
   "80116": {
     "Id": 80116,
-    "Name": "火4",
-    "CreateType": "drama",
+    "Name": "客人",
+    "CreateType": "scene",
+    "Scene": 4027,
     "Display": {
-      "name": "火4",
-      "shape": 4000,
-      "icon": 4000,
-      "light": 3
-    }
+      "name": "客人",
+      "shape": 3019,
+      "icon": 3019
+    },
+    "act": 5,
+    "x": 594,
+    "y": 2145
   },
   "80117": {
     "Id": 80117,
@@ -40327,8 +40365,8 @@
     "See": 10006,
     "Corpse": 429001,
     "Attract": 1003,
-    "x": 3430,
-    "y": 2129,
+    "x": 3398,
+    "y": 2131,
     "layerObs": 0
   },
   "971501": {

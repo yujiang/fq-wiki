@@ -5,11 +5,19 @@
     "Scene": 1114,
     "x": 96,
     "y": 144,
-    "AddTask": 700001
+    "AddTask": 700001,
+    "SleepScene": 1022
   },
   "2": {
     "Id": 2,
     "Name": "碎片2",
-    "AddTask": 700002
+    "AddTask": 700002,
+    "SleepScene": 1022
+  },
+  "3": {
+    "Id": 3,
+    "Name": "碎片3",
+    "AddTask": 700003,
+    "SleepScene": 1029
   }
 }

@@ -11051,7 +11051,7 @@
       "id": 80044,
       "say": 81030
     },
-    "NextTask": 80003,
+    "NextTask": 80101,
     "Reward": 81002
   },
   "80003": {
@@ -11061,7 +11061,7 @@
       "main"
     ],
     "Type": "dating",
-    "Desc": "等待起风,不妨打听下九曲连环坞的消息.",
+    "Desc": "等待起风,不妨在武昌走走",
     "Dating": {
       "tag": "九曲连环坞",
       "num": 10
@@ -11190,6 +11190,229 @@
     "Desc": "进入九曲连环坞,追上慧剑",
     "NextTask": 523010,
     "Reward": 81011
+  },
+  "80101": {
+    "Id": 80101,
+    "Name": "等待起风",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "等待起风,不妨在武昌走走",
+    "Des": {
+      "id": 80003,
+      "type": "trap",
+      "say": 81200
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80102": {
+    "Id": 80102,
+    "Name": "九爷",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Desc": "遇到九爷",
+    "Des": {
+      "id": 80102,
+      "say": [
+        81210,
+        81220,
+        81230
+      ]
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80103": {
+    "Id": 80103,
+    "Name": "黄鹤楼",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Desc": "去黄鹤楼喝酒",
+    "Des": {
+      "id": 80103,
+      "say": [
+        81240,
+        81250,
+        81260
+      ]
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80104": {
+    "Id": 80104,
+    "Name": "黄鹤楼",
+    "Tags": [
+      "main"
+    ],
+    "Type": "fight",
+    "Desc": "在黄鹤楼闹事",
+    "Des": {
+      "id": 80103,
+      "say": 81270
+    },
+    "finishDrama": 81290,
+    "Battle": {
+      "bid": 80104
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80105": {
+    "Id": 80105,
+    "Name": "霸王餐",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "跟陈玖对话",
+    "Des": {
+      "id": 80102,
+      "say": 81310
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80106": {
+    "Id": 80106,
+    "Name": "渔夫",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "跟渔夫对话",
+    "Des": {
+      "id": 80101,
+      "say": 81320
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80107": {
+    "Id": 80107,
+    "Name": "石屋",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "去石屋找陈玖",
+    "Des": {
+      "id": 80108,
+      "say": 81340
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80108": {
+    "Id": 80108,
+    "Name": "三胜",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Desc": "再赢三场",
+    "Des": {
+      "id": 80109,
+      "sayReturn": 1,
+      "say": [
+        81350,
+        81360,
+        81370
+      ]
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80109": {
+    "Id": 80109,
+    "Name": "继续",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "还继续吗",
+    "Des": {
+      "id": 80108,
+      "say": 81380
+    },
+    "finishDrama": 81400,
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80110": {
+    "Id": 80110,
+    "Name": "走不远",
+    "Tags": [
+      "main"
+    ],
+    "Type": "fight",
+    "AddNpcs": 80110,
+    "Desc": "被赌坊截住",
+    "Des": {
+      "id": 80110,
+      "say": 81410
+    },
+    "Battle": {
+      "bid": 80110
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80111": {
+    "Id": 80111,
+    "Name": "贪婪",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "跟陈玖对话",
+    "Des": {
+      "id": 80102,
+      "say": 81420
+    },
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80112": {
+    "Id": 80112,
+    "Name": "红楼",
+    "Tags": [
+      "main"
+    ],
+    "Type": "says",
+    "Desc": "去红楼找陈玖",
+    "Des": {
+      "id": 80111,
+      "say": [
+        81430,
+        81440,
+        81450
+      ]
+    },
+    "finishDrama": 81460,
+    "NextTask": 1,
+    "Reward": 1
+  },
+  "80113": {
+    "Id": 80113,
+    "Name": "告别",
+    "Tags": [
+      "main"
+    ],
+    "Type": "meet",
+    "Desc": "跟陈玖告别",
+    "Des": {
+      "id": 80102,
+      "say": 81470
+    },
+    "NextTask": 80003,
+    "Reward": 1
   },
   "83001": {
     "Id": 83001,

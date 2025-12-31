@@ -2406,6 +2406,44 @@
     },
     "WinReward": 81008
   },
+  "80104": {
+    "Id": 80104,
+    "Name": "黄鹤楼",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterHp": 1,
+    "UnitData": [
+      80104,
+      80104,
+      80104,
+      80104
+    ],
+    "Zhen": 1,
+    "Param": {
+      "LostPay": 1,
+      "HurtHp": 1
+    },
+    "WinReward": 81008
+  },
+  "80110": {
+    "Id": 80110,
+    "Name": "黄鹤楼",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterHp": 1,
+    "Boss": 80110,
+    "UnitData": [
+      80104,
+      80104,
+      80104
+    ],
+    "Zhen": 1,
+    "Param": {
+      "LostPay": 1,
+      "HurtHp": 1
+    },
+    "WinReward": 81008
+  },
   "83001": {
     "Id": 83001,
     "Name": "屠夫偷袭",

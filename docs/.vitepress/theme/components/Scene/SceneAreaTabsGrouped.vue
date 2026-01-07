@@ -37,7 +37,7 @@
 
     <!-- 当前区域显示 -->
     <div class="area-content-box" v-if="activeAreaId !== null && hasSceneNames">
-        <SceneArea :key="activeAreaId" :sceneArea="activeAreaId" class="area-content" />
+        <SceneArea :key="activeAreaId" :sceneArea="activeAreaId" :shows="props.shows" class="area-content" />
     </div>
     <div v-else class="loading">加载中...</div>
 
@@ -50,7 +50,8 @@ import { getScenes, type Scenes } from '../../../data/scene'
 
 // 传入示例：{ 主城:[1023,1003], 门派:[1007,1008], 势力:[1025,1026] }
 const props = defineProps<{
-    sceneAreas: Record<string, number[]>
+    sceneAreas: Record<string, number[]>;
+    shows?: string[];
 }>()
 
 const activeAreaId = ref<number | null>(null)

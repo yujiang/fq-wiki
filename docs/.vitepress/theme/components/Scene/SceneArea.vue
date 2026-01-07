@@ -11,6 +11,7 @@
       v-if="hasScenes"
       :scenes="classifiedScenes"
       :sceneAreas="props.sceneArea"
+      :shows="props.shows"
       :defaultSceneId="defaultSceneId ?? undefined"
     />
     <div v-else class="loading">加载中...</div>
@@ -22,8 +23,11 @@ import { ref, onMounted, computed, watch } from 'vue'
 import SceneTabs from './SceneTabs.vue'
 import { getScenesArea, isSceneTypeArea, XlsScene } from '../../../data/scene'
 
-const props = defineProps<{ sceneArea: number }>()
+const props = defineProps<{ sceneArea: number, shows?: string[]}>()
 
+function onlyTask() {
+  return props.shows?.length === 1 && props.shows[0] === 'task'
+}
 // 原始场景列表
 const sceneList = ref<XlsScene[]>([])
 
@@ -54,7 +58,7 @@ type Category = typeof CATEGORY_KEYS[number]
 
 // 分类计算
 const classifiedScenes = computed<Record<Category, number[]>>(() => {
-  const categories: Record<Category, number[]> = {
+  let categories: Record<Category, number[]> = {
     城市: [],
     野外: [],
     山洞: [],
@@ -70,6 +74,9 @@ const classifiedScenes = computed<Record<Category, number[]>>(() => {
     else {
       delete categories[category]
     }
+  }
+  if (onlyTask()){
+    delete categories['室内'];
   }
   return categories
 })

@@ -13,9 +13,9 @@ import { XlsTeleport } from "../../../data/tele";
 import { getTelesTypeByScene } from "../../../data/tele";
 
 const props = defineProps<{
-  sceneId: number;
-  teleType: SceneTypeString;
-  hideType?: boolean;
+  sceneId: number,
+  teleType: SceneTypeString,
+  hideType?: boolean,
 }>();
 
 // --- 状态 ---

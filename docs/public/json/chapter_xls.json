@@ -1,0 +1,68 @@
+{
+  "1": {
+    "Id": 1,
+    "Name": "杏花血雨",
+    "Scene": "杏花村",
+    "Grade": "0-10",
+    "TaskStart": 10100,
+    "TaskEnd": 50100
+  },
+  "2": {
+    "Id": 2,
+    "Name": "玉藏玄机",
+    "Scene": "临安",
+    "Grade": "10-15",
+    "TaskStart": 50100,
+    "TaskEnd": 50011
+  },
+  "3": {
+    "Id": 3,
+    "Name": "灵隐佛偈",
+    "Scene": "临安",
+    "Grade": "15-20",
+    "TaskStart": 50011,
+    "TaskEnd": 80001
+  },
+  "4": {
+    "Id": 4,
+    "Name": "赶尽杀绝",
+    "Scene": "临安",
+    "Grade": "20-30",
+    "TaskHead": [
+      54007,
+      54008
+    ],
+    "TaskStart": 54020
+  },
+  "5": {
+    "Id": 5,
+    "Name": "江湖绝路",
+    "Scene": "武昌",
+    "Grade": "30-35",
+    "TaskStart": 80001,
+    "TaskEnd": 80003
+  },
+  "6": {
+    "Id": 6,
+    "Name": "两峰之争",
+    "Scene": "武昌",
+    "Grade": "35-40",
+    "TaskStart": 80003,
+    "TaskEnd": 530000
+  },
+  "7": {
+    "Id": 7,
+    "Name": "天上人间",
+    "Scene": "汴京",
+    "Grade": "40-50",
+    "TaskStart": 530000,
+    "TaskEnd": 600010
+  },
+  "8": {
+    "Id": 8,
+    "Name": "门派大比",
+    "Scene": "秦岭",
+    "Grade": "50-60",
+    "TaskStart": 600010
+  }
+}

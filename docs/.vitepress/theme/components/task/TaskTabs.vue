@@ -35,8 +35,8 @@ import { getTasks } from "../../../data/task";
 
 // 仅接收核心参数：任务ID列表 + 可选的任务名称映射（优化显示）
 const props = defineProps<{
-  taskIds: number[]; // 传入的任务ID数组，用于生成标签
-  defaultTaskId?: number; // 可选：默认选中的任务ID
+  taskIds: number[], // 传入的任务ID数组，用于生成标签
+  defaultTaskId?: number, // 可选：默认选中的任务ID
 }>();
 
 const taskNames = ref<Record<number, string>>({});
@@ -50,7 +50,7 @@ async function updateContent() {
       names[id] = tasks[id].Name;
     }
   });
-  console.log("TaskTabs.updateContent", props.taskIds, names);
+  // console.log("TaskTabs.updateContent", props.taskIds, names);
   taskNames.value = names;
   const tid = props.defaultTaskId || props.taskIds[0] || 0;
   currentTaskId.value = tid;

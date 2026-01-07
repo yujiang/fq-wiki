@@ -5,13 +5,19 @@
 -->
   
 <template>
-  <SceneAreaTabsGrouped :scene-areas="sceneAreas" />
+  <SceneAreaTabsGrouped :scene-areas="sceneAreas" :shows="props.shows" />
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { defineProps, ref, onMounted } from 'vue'
 import SceneAreaTabsGrouped from './SceneAreaTabsGrouped.vue'
 import { XlsScene, getScenes, getSceneType } from '../../../data/scene'
+
+
+const props = defineProps<{
+  shows?: string[];
+}>()
+
 
 type GroupKey = '城市' | '村庄' | '门派' | '势力'
 

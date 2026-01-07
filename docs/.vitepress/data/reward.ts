@@ -13,7 +13,7 @@ type RewardMoney = [number, number];
 // item,num,rand
 type RewardItem = [number, number, number];
 
-export type RewardItemRand = [(number | number[])[], number, number, number]
+export type RewardItemRand = [(number | number[])[], number, number, number];
 export type RewardNpcFriend = RewardItem | RewardItem[];
 
 export interface XlsReward extends XlsBase {
@@ -30,14 +30,13 @@ export interface XlsReward extends XlsBase {
 
   Scene: number;
   SceneScore: number;
-  NpcFriend: RewardNpcFriend; // npc友好度！ 
+  NpcFriend: RewardNpcFriend; // npc友好度！
   subReward: number | number[]; // 额外奖励id
 
   // 无法识别MoneyFunc/ItemFunc
   //MoneyFunc: string; // 复杂money脚本
   //ItemFunc: string; // 复杂item脚本
 }
-
 
 export type Rewards = Record<number, XlsReward>;
 
@@ -50,9 +49,8 @@ export async function getRewards() {
 }
 
 export async function getReward(id: number) {
-  return (await getRewards())[id]
+  return (await getRewards())[id];
 }
-
 
 export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
   const items = await getRewardItems(id);
@@ -62,14 +60,19 @@ export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
 
 // 返回 {id: count:} 给ItemList使用
 function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
-  if (typeof (a) === "number") {
-    if (a > 0) return [{ id: a, count: 1, rand: 0 }];
-    return [{ id: -a, count: -1, rand: 0 }];
+  if (typeof a === "number") {
+    return a > 0
+      ? [{ id: a, count: 1, rand: 0 }]
+      : [{ id: -a, count: -1, rand: 0 }];
   }
-  if (typeof(a[0]) === "number") {
-    return a.map((i) => { return { id: i, count: 1, rand: 0 } });
+  if (typeof a[0] === "number") {
+    return a.map((i:any) => {
+      return i > 0 ? { id: i, count: 1, rand: 0 } : { id: -i, count: -1, rand: 0 };
+    });
   }
-  return a.map((i) => { return { id: i[0], count: i[1], rand: i[2] } });
+  return a.map((i) => {
+    return i[0] > 0 ? { id: i[0], count: i[1], rand: i[2] } : { id: -i[0], count: -i[1], rand: i[2] };
+  });
 }
 
 export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
@@ -91,12 +94,11 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
     rt.push(...item2RewardItems(r.Item));
   }
   if (r.ItemRand) {
-    rt.push({ id: 999, count: '???' });
+    rt.push({ id: 999, count: "???" });
   }
   if (r.ItemClass) {
     rt.push(...item2RewardItems(r.ItemClass));
   }
-
 
   return rt;
 }
@@ -105,8 +107,9 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
 export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
   const r = await getReward(id);
   if (!r?.Money) return [];
-  const rt = []
-  const money: RewardMoney[] = typeof (r.Money[0]) === "number" ? [r.Money] as any : r.Money;
+  const rt = [];
+  const money: RewardMoney[] =
+    typeof r.Money[0] === "number" ? ([r.Money] as any) : r.Money;
   for (const m of money) {
     const g = await getMoneyGrid(m[0], m[1], true);
     if (g) rt.push(g);
@@ -128,7 +131,7 @@ export function getRewardSkills(xls: XlsReward): SkillIdLevel[] {
   }
   if (xls.SkillExp) {
     for (const m of xls.SkillExp) {
-      rt.push({ id: m[0], exp: m[1] })
+      rt.push({ id: m[0], exp: m[1] });
     }
   }
   if (xls.Secret) {
@@ -140,8 +143,12 @@ export function getRewardSkills(xls: XlsReward): SkillIdLevel[] {
 
 export function getRewardFriends(xls: XlsReward): NpcFriend[] {
   if (xls.NpcFriend) {
-    const nf: RewardItem[] = (typeof xls.NpcFriend[0] === 'number' ? [xls.NpcFriend] : xls.NpcFriend) as any;
-    return nf.map((i) => { return { npcId: i[0], friend: i[1] } });
+    const nf: RewardItem[] = (
+      typeof xls.NpcFriend[0] === "number" ? [xls.NpcFriend] : xls.NpcFriend
+    ) as any;
+    return nf.map((i) => {
+      return { npcId: i[0], friend: i[1] };
+    });
   }
   return [];
 }
@@ -176,7 +183,7 @@ export async function getRewardA(newId: number): Promise<RewardAll | null> {
         Id: xls.Scene,
         Name: info.Name,
         Score: xls.SceneScore,
-      }
+      };
     }
   }
   return { items, moneys, lifeskills, friend, sceneScore };

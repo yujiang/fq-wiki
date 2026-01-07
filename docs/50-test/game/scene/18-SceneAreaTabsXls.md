@@ -1,9 +1,9 @@
 
 ```vue
-<SceneAreaTabsXls/>
+<SceneAreaTabsXls :shows="['task']"/>
 ```
 
-<SceneAreaTabsXls/>
+<SceneAreaTabsXls :shows="['task']"/>
 
 
 

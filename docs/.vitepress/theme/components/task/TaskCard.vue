@@ -5,15 +5,15 @@
 <template>
   <div class="task-card">
     <!-- 任务标题栏 -->
-    <div class="task-card__header" v-if="!offHeader">
-      <span class="task-title">{{ task?.Name + (isDev?`(${task?.Id})`:'') }}</span>
-      <span class="task-difficulty" :class="`difficulty-${task?.Diff  || '普通'}`">
+    <div class="task-card__header">
+      <span class="task-title">{{ label }}</span>
+      <span class="task-difficulty" :class="`difficulty-${task?.Diff || '普通'}`" v-if="!chapter">
         难度：{{ task?.Diff || '普通' }}
       </span>
     </div>
 
     <!-- 领取条件 -->
-    <div class="task-section领取条件" v-if="!offHeader">
+    <div class="task-section领取条件" v-if="!chapter">
       <span class="section-title">领取条件：</span>
       <span class="label"> {{ getAcceptDesc(task?.AcceptDesc) }} </span>
     </div>
@@ -27,13 +27,15 @@
           <div class="step-content">
             <!-- 步骤涉及的NPC/目标 -->
             <div class="step-target">
-              → {{ taskStepDescs[index] }} 
+              → {{ taskStepDescs[index] }}
             </div>
-            <p><RichText :text="step.Desc"></RichText></p>
+            <p>
+              <RichText :text="step.Desc"></RichText>
+            </p>
           </div>
-        <div class="step-reward" v-if="step.Reward>0">
-          <RewardCard title="no" :rewardId="step.Reward==1?step.Id:step.Reward"  />
-        </div>
+          <div class="step-reward" v-if="step.Reward > 0">
+            <RewardCard title="no" :rewardId="step.Reward == 1 ? step.Id : step.Reward" />
+          </div>
         </li>
       </ul>
     </div>
@@ -43,20 +45,29 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsTask,getDesDesc,getTask  } from "../../../data/task";
+import { XlsTask, getDesDesc, getNext, getTask, getTasks } from "../../../data/task";
 import RewardCard from "../reward/RewardCard.vue";
 import RichText from "../RichText.vue";
+import { getChapter, getChapterLabel } from "../../../data/chapter";
 
 // 接收 props 数据
 // end 结束任务, 用于分段
-const props = defineProps<{taskId:number, end?: number, offHeader?: boolean;}>();
+// chapter 是否主线?
+const props = defineProps<{ taskId: number, end?: number, chapter?: boolean; }>();
 
 // 异步加载所有 tasks
 let task = ref<XlsTask | null>(null);
-let taskSteps= ref<XlsTask[]>([]);
+let taskSteps = ref<XlsTask[]>([]);
 let last = ref<XlsTask | null>(null);
-let taskStepDescs= ref<string[]>([]);
+let taskStepDescs = ref<string[]>([]);
+let label = ref<string | null>(null);
 const isDev = import.meta.env.DEV;
+
+function getTaskLabel() {
+  if (!props.chapter) return task.value?.Name + (isDev ? `(${task.value?.Id})` : '');
+  // const xls = getChapter(props.taskId);
+  return getChapterLabel(props.taskId);
+}
 
 function getAcceptDesc(desc: string | undefined) {
   if (!desc) return "（无）";
@@ -65,61 +76,78 @@ function getAcceptDesc(desc: string | undefined) {
 
 // 初始化并加载数据
 onMounted(async () => {
-  updateCurrentTask(props.taskId);
+  await updateCurrentTask(props.taskId);
+  label.value = await getTaskLabel();
 });
 
 // 监听 good 变化
 watch(
   () => props.taskId,
-  (newGood) => {
-    updateCurrentTask(newGood);
+  async (newGood) => {
+    await updateCurrentTask(newGood);
+    label.value = await getTaskLabel();
   }
 );
 
-const getReward = computed((xls: XlsTask) => {
-    if(xls.Reward === 1){
-      return xls.Id;
-    }
-    return xls.Reward || 0;
-});
+// const getReward = computed((xls: XlsTask) => {
+//   if (xls.Reward === 1) {
+//     return xls.Id;
+//   }
+//   return xls.Reward || 0;
+// });
 
-function getNext(xls: XlsTask): number {
-  let next = xls.NextTask || 0;
-  if (next < 0){
-    next = -next;
+function updateCurrentTask(task: number) {
+  if (!props.chapter) {
+    return updateTask([], task, props.end);
   }
-  if (next === 1){
-    next = xls.Id + 1;
-  }
-  return next;
+  return updateChapter(task);
 }
 
-const updateCurrentTask = async (id: number) => {
-  const xls  = await getTask(id);
-  if (xls){
-    const all = [xls];
-    const desc = await getDesDesc(xls.Des);
-    const alldesc = [desc];
-    let next : number = getNext(xls);
-    let l = xls;
-    while(next && next !== props.end){
-        const nxls = await getTask(next);
-        if (!nxls) break;
-        all.push(nxls);
-        const desc = await getDesDesc(nxls.Des);
-        alldesc.push(desc);
-        l = nxls;
-        if (next === nxls.NextTask){
-          break;
-        }
-        next = getNext(nxls)
+async function updateChapter(id: number) {
+  const xls = await getChapter(id);
+  if (!xls) return;
+  return updateTask(xls.TaskHead, xls.TaskStart, xls.TaskEnd)
+}
+
+const updateTask = async (heads: number[], id: number, end?: number) => {
+  const datas = await getTasks();
+  const xls = datas[id];
+  if (!xls) return;
+
+  const all = [];
+  const alldesc = [];
+  if (heads) {
+    for (const h of heads) {
+      const nxls = datas[h];
+      all.push(nxls);
+      const desc = await getDesDesc(nxls.Des);
+      alldesc.push(desc);
     }
-    console.log("updateCurrentTask", id, all.length, l.Id);
-    task.value = xls;
-    taskSteps.value = all;
-    taskStepDescs.value = alldesc;
-    last.value = l;
   }
+
+  all.push(xls);
+  const desc = await getDesDesc(xls.Des);
+  alldesc.push(desc);
+
+  let next: number = getNext(xls);
+  let l = xls;
+  while (next && next !== end) {
+    const nxls = datas[next];
+    if (!nxls) break;
+    all.push(nxls);
+    const desc = await getDesDesc(nxls.Des);
+    alldesc.push(desc);
+    l = nxls;
+    if (next === nxls.NextTask) {
+      break;
+    }
+    next = getNext(nxls)
+  }
+  // console.log("updateCurrentTask", id, all.length, l.Id);
+  task.value = xls;
+  taskSteps.value = all;
+  taskStepDescs.value = alldesc;
+  last.value = l;
 };
 
 </script>
@@ -200,7 +228,9 @@ const updateCurrentTask = async (id: number) => {
   border-radius: 4px;
 }
 
-.npc-info, .npc-location, .level-require {
+.npc-info,
+.npc-location,
+.level-require {
   margin-bottom: 8px;
   font-size: 14px;
 }
@@ -261,8 +291,7 @@ const updateCurrentTask = async (id: number) => {
   border-left: 2px solid #eee;
 }
 
-.step-reward {
-}
+.step-reward {}
 
 /* 操作按钮 */
 .task-actions {
@@ -271,7 +300,9 @@ const updateCurrentTask = async (id: number) => {
   margin-top: 2px;
 }
 
-.btn-accept, .btn-complete, .btn-continue {
+.btn-accept,
+.btn-complete,
+.btn-continue {
   padding: 8px 2px;
   border: none;
   border-radius: 4px;
@@ -295,7 +326,9 @@ const updateCurrentTask = async (id: number) => {
   color: white;
 }
 
-.btn-accept:hover, .btn-complete:hover, .btn-continue:hover {
+.btn-accept:hover,
+.btn-complete:hover,
+.btn-continue:hover {
   opacity: 0.9;
   transform: translateY(-1px);
 }

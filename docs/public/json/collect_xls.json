@@ -650,12 +650,12 @@
     "Icon": 2157,
     "CreateType": "scene",
     "Shape": 3904,
-    "Scene": 1029,
+    "Scene": 6014,
     "dis": 200,
-    "x": 1751,
-    "y": 4951,
+    "x": 1290,
+    "y": 1409,
     "Type": "transfer",
-    "layerObs": 0
+    "layerObs": 0.1
   },
   "2001": {
     "Id": 2001,

@@ -15,7 +15,7 @@
     </div>
 
     <!-- 对应的 SceneArea 视图 -->
-    <SceneArea v-if="activeAreaId !== null" :sceneArea="activeAreaId" class="area-content" />
+    <SceneArea v-if="activeAreaId !== null" :sceneArea="activeAreaId" :shows="props.shows" class="area-content" />
   </div>
 </template>
 
@@ -26,7 +26,8 @@ import { getScenes, Scenes, XlsScene } from '../../../data/scene';
 
 // 接收父组件传入的区域 ID 列表
 const props = defineProps<{
-  sceneAreas: number[]
+  sceneAreas: number[];
+  shows?: string[];
 }>()
 
 // 当前激活的区域

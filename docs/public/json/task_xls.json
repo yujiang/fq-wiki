@@ -2850,6 +2850,7 @@
       "say": 13090
     },
     "finishDrama": 13100,
+    "NextWill": 1,
     "GradeSuggest": 1,
     "AcceptDesc": "醉霄楼黄四娘",
     "Diff": "普通"
@@ -2971,7 +2972,10 @@
     "Des": {
       "id": 10015,
       "say": 13320
-    }
+    },
+    "GradeSuggest": 1,
+    "AcceptDesc": "二蛋好感到友好",
+    "Diff": "困难"
   },
   "11021": {
     "Id": 11021,
@@ -3615,6 +3619,7 @@
     "Condition": [
       16045
     ],
+    "NextWill": 1,
     "GradeSuggest": 10,
     "AcceptDesc": "杏花村苏真真",
     "Diff": "容易"
@@ -3632,7 +3637,8 @@
     "Des": {
       "id": 10021,
       "say": 11620
-    }
+    },
+    "NextWill": 1
   },
   "11067": {
     "Id": 11067,
@@ -3649,7 +3655,8 @@
       "id": 10030,
       "type": "item",
       "say": 11640
-    }
+    },
+    "NextWill": 1
   },
   "11068": {
     "Id": 11068,
@@ -4289,7 +4296,10 @@
         13360
       ]
     },
-    "Reward": 1
+    "Reward": 1,
+    "GradeSuggest": 1,
+    "AcceptDesc": "柒柒",
+    "Diff": "容易"
   },
   "19000": {
     "Id": 19000,
@@ -11061,10 +11071,10 @@
       "main"
     ],
     "Type": "dating",
-    "Desc": "等待起风,不妨在武昌走走",
+    "Desc": "等待起风,不妨在武昌多打听",
     "Dating": {
       "tag": "九曲连环坞",
-      "num": 10
+      "num": 8
     },
     "NextTask": 80004,
     "Reward": 81003
@@ -11090,11 +11100,14 @@
     "Tags": [
       "main"
     ],
-    "Type": "meet",
+    "Type": "says",
     "Desc": "去黄鹤楼赴约",
     "Des": {
       "id": 80049,
-      "say": 81050
+      "say": [
+        81050,
+        81500
+      ]
     },
     "NextTask": 80006,
     "Reward": 81005
@@ -11233,6 +11246,7 @@
       "main"
     ],
     "Type": "says",
+    "AddNpcs": 80103,
     "Desc": "去黄鹤楼喝酒",
     "Des": {
       "id": 80103,
@@ -11252,6 +11266,7 @@
       "main"
     ],
     "Type": "fight",
+    "AddNpcs": 80103,
     "Desc": "在黄鹤楼闹事",
     "Des": {
       "id": 80103,
@@ -11301,6 +11316,7 @@
       "main"
     ],
     "Type": "meet",
+    "AddNpcs": 80108,
     "Desc": "去石屋找陈玖",
     "Des": {
       "id": 80108,
@@ -11316,6 +11332,7 @@
       "main"
     ],
     "Type": "says",
+    "AddNpcs": 80108,
     "Desc": "再赢三场",
     "Des": {
       "id": 80109,
@@ -11336,6 +11353,7 @@
       "main"
     ],
     "Type": "meet",
+    "AddNpcs": 80108,
     "Desc": "还继续吗",
     "Des": {
       "id": 80108,
@@ -11386,6 +11404,7 @@
       "main"
     ],
     "Type": "says",
+    "AddNpcs": 80111,
     "Desc": "去红楼找陈玖",
     "Des": {
       "id": 80111,
@@ -26612,7 +26631,7 @@
   },
   "700002": {
     "Id": 700002,
-    "Name": "生死之间",
+    "Name": "心事重重",
     "Desc": "跟破戒僧聊聊",
     "Tags": [
       "client",
@@ -26627,6 +26646,108 @@
         700080,
         700100,
         700110
+      ]
+    },
+    "Times": 1,
+    "Reward": 1
+  },
+  "700003": {
+    "Id": 700003,
+    "Name": "武昌-未来",
+    "Desc": "先到黄鹤楼,赌场,红楼打听",
+    "Tags": [
+      "client",
+      "main",
+      "nogiveup",
+      "未来"
+    ],
+    "Type": "dating",
+    "Dating": {
+      "tag": "排帮",
+      "num": 6
+    },
+    "NextTask": 1,
+    "Times": 1,
+    "Reward": 1
+  },
+  "700004": {
+    "Id": 700004,
+    "Name": "鲁大江",
+    "Desc": "找到鲁大江",
+    "Tags": [
+      "client",
+      "main",
+      "nogiveup",
+      "未来"
+    ],
+    "Type": "says",
+    "Des": {
+      "id": 701010,
+      "say": [
+        700120,
+        700130,
+        700140
+      ]
+    },
+    "NextTask": 1,
+    "Times": 1,
+    "Reward": 1
+  },
+  "700005": {
+    "Id": 700005,
+    "Name": "烧刀子",
+    "Desc": "打一壶烧刀子祭奠陈玖",
+    "Tags": [
+      "client",
+      "main",
+      "nogiveup",
+      "未来"
+    ],
+    "Type": "buy",
+    "Give": {
+      "itemid": 40044,
+      "num": 1
+    },
+    "NextTask": 1,
+    "Times": 1,
+    "Reward": 1
+  },
+  "700006": {
+    "Id": 700006,
+    "Name": "祭奠",
+    "Desc": "江边祭奠陈玖",
+    "Tags": [
+      "client",
+      "main",
+      "nogiveup",
+      "未来"
+    ],
+    "Type": "meet",
+    "Des": {
+      "id": 700001,
+      "type": "trap",
+      "say": 700150
+    },
+    "Times": 1,
+    "Reward": 1
+  },
+  "700010": {
+    "Id": 700010,
+    "Name": "浅吟低唱",
+    "Desc": "跟吕轻侯聊聊",
+    "Tags": [
+      "client",
+      "main",
+      "nogiveup",
+      "未来"
+    ],
+    "Type": "says",
+    "Des": {
+      "id": 700004,
+      "say": [
+        700160,
+        700170,
+        700180
       ]
     },
     "Times": 1,

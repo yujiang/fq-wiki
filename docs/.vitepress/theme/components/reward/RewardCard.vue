@@ -103,7 +103,7 @@ const updateReward = async (newId: number) => {
       all.friend.length;
     haveReward.value = have > 0;
   }
-  console.log("rewardItems.value", props.rewardId, xls.Name, all);
+  // console.log("rewardItems.value", props.rewardId, xls.Name, all);
   allReward.value = all;
 };
 </script>

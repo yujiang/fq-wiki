@@ -11,7 +11,7 @@
         <p class="scene-desc">{{ xls?.Desc || "暂无场景描述" }}</p>
       </div>
       <!-- 小地图 -->
-      <a class="mini-map" v-if="urlSmap" :href="urlSmap" target="_blank">
+      <a class="mini-map" v-if="urlSmap && isShow('smap')" :href="urlSmap" target="_blank">
         <img
           :src="urlSmap"
           :alt="`${xls?.Name}小地图`"
@@ -22,7 +22,7 @@
     </div>
 
     <!-- 传送点 -->
-    <div class="scene-section" id="teleports" v-if="!indoor">
+    <div class="scene-section" id="teleports" v-if="!indoor && isShow('tele')">
       <h2 class="section-title">传送点</h2>
       <div class="section-content">
         <SceneTele :sceneId="props.sceneId" />
@@ -30,7 +30,7 @@
     </div>
 
     <!-- 主要人物 -->
-    <div class="scene-section" id="npcs">
+    <div class="scene-section" id="npcs" v-if="isShow('npc')">
       <h2 class="section-title">主要人物</h2>
       <div class="section-content">
         <SceneNpc :sceneId="props.sceneId" />
@@ -38,7 +38,7 @@
     </div>
 
     <!-- 采集点 -->
-    <div class="scene-section" id="collects" v-if="!indoor">
+    <div class="scene-section" id="collects" v-if="!indoor && isShow('collect')">
       <h2 class="section-title">采集点</h2>
       <div class="section-content">
         <SceneCollectTabs :sceneId="props.sceneId" />
@@ -46,7 +46,7 @@
     </div>
 
     <!-- 商店信息 -->
-    <div class="scene-section" id="shops" v-if="!indoor && xls?.Shop">
+    <div class="scene-section" id="shops" v-if="!indoor && xls?.Shop && isShow('shop')">
       <h2 class="section-title">商店信息</h2>
       <div class="section-content">
         <ShopTabs :name="xls?.Shop" />
@@ -54,7 +54,7 @@
     </div>
 
     <!-- 任务信息 -->
-    <div class="scene-section" id="tasks">
+    <div class="scene-section" id="tasks" v-if="isShow('task')">
       <h2 class="section-title">支线任务</h2>
       <div class="section-content">
         <SceneTask :sceneId="props.sceneId" />
@@ -80,7 +80,16 @@ import ShopTabs from "../shop/ShopTabs.vue";
 // 接收场景ID（核心参数）
 const props = defineProps<{
   sceneId: number; // 场景唯一标识（如杏花村=101）
+  shows?: string[];
 }>();
+
+function isShow(show: string) {
+  console.log("isShow", show, props);
+    if (!props.shows) return true;
+    return props.shows.includes(show);
+}
+
+
 
 // 场景完整数据
 const xls = ref<XlsScene | null>(null);

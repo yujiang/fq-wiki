@@ -2,22 +2,39 @@
   "1": {
     "Id": 1,
     "Name": "碎片1",
-    "Scene": 1114,
-    "x": 96,
-    "y": 144,
-    "AddTask": 700001,
-    "SleepScene": 1022
+    "Desc": "九儿-陈玖",
+    "Scene": 6011,
+    "AddTask": 700003,
+    "FinishTask": 700006,
+    "SleepScene": 3179,
+    "Cond": "f_80113"
   },
   "2": {
     "Id": 2,
     "Name": "碎片2",
+    "Desc": "老五-西瓜-吕轻侯做偈子",
+    "Scene": 1114,
     "AddTask": 700002,
-    "SleepScene": 1022
+    "SleepScene": 5103,
+    "Cond": "f_50226"
   },
   "3": {
     "Id": 3,
     "Name": "碎片3",
-    "AddTask": 700003,
-    "SleepScene": 1029
+    "Desc": "二蛋-吕轻侯的故事",
+    "Scene": 1114,
+    "AddTask": 700010,
+    "SleepScene": 3179,
+    "Cond": "f_80113"
+  },
+  "4": {
+    "Id": 4,
+    "Name": "碎片4",
+    "Desc": "柒柒-接龙-杏花村大战前夕",
+    "Scene": 1114,
+    "x": 96,
+    "y": 144,
+    "AddTask": 700001,
+    "SleepScene": 5103
   }
 }

@@ -8,4 +8,6 @@ title: 地图索引
 
 <WorldMapScenes/>
 
-<SceneAreaTabsXls/>
+- [所有地图](01-maps)
+- [地图指引](02-地图流程/index)
+

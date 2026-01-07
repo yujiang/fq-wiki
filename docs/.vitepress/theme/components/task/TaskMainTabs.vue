@@ -7,10 +7,10 @@
     <div class="task-main-tabs">
         <!-- 顶部 Tabs -->
         <div class="tabs">
-            <template v-if="groups.length">
-                <button v-for="g in groups" :key="g.chapterNo" class="tab" :class="{ active: g.chapterNo === active }"
-                    @click="onSwitch(g.chapterNo)">
-                    <span class="label">{{ g.label }}</span>
+            <template v-if="chapters.length">
+                <button v-for="g in chapters" :key="g.Id" class="tab" :class="{ active: g.Id === active }"
+                    @click="onSwitch(g.Id)">
+                    <span class="label">{{ getChapterName(g.Id) }}</span>
                 </button>
             </template>
             <div v-else class="empty">暂无任务</div>
@@ -18,49 +18,37 @@
 
         <!-- 任务列表区域 -->
         <div class="panel" v-if="activeGroup">
-            <TaskCard :taskId="activeGroup.id" 
-            :end="activeGroup.end"
-            :offHeader="true" />
+            <TaskCard :taskId="activeGroup.Id" 
+            :chapter="true" />
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watchEffect } from 'vue'
+import { computed, ref, watchEffect, onMounted } from 'vue'
 import TaskCard from './TaskCard.vue'
 import { getChapterName } from '../../../Utils/text'
+import { getChapter, getChapters, XlsChapter } from '../../../data/chapter';
 
-/**
- * 约定：taskId 的万位表示章：
- *   10001 -> 第一章
- *   20023 -> 第二章
- *   300xx -> 第三章
- * 计算方式：Math.floor(taskId / 10000)
- */
-const props = defineProps<{
-    taskIds: number[],
-    /** 可选：外部控制默认激活章（1=第一章，2=第二章...） */
-}>()
+let chapters = ref<XlsChapter[]>([]);
 
-// 分组：{ chapterNo: number, label: string, id: number, end: number }[]
-const groups = computed(() => {
-    return props.taskIds.map((taskId, index) => {
-        return {
-            chapterNo: index + 1,
-            label: getChapterName(index + 1),
-            id: taskId,
-            end: props.taskIds[index + 1] ?? 0,
-        }
+onMounted(updateChapters);
+
+async function updateChapters(){
+    const datas = await getChapters();
+    const rt = [];
+    for (const data of Object.values(datas)) {
+        rt[data.Id - 1] = data;
     }
-    )
-})
+    chapters.value = rt;
+}
 
 // 当前激活章
 const active = ref<number | null>(null)
 
 watchEffect(() => {
     // 优先用 v-model 值；否则用第一个分组；没有则 null
-    active.value = groups.value[0]?.chapterNo ?? null
+    active.value = chapters.value[0]?.Id ?? null
 })
 
 function onSwitch(chapterNo: number) {
@@ -69,7 +57,7 @@ function onSwitch(chapterNo: number) {
 }
 
 const activeGroup = computed(() =>
-    groups.value.find(g => g.chapterNo === active.value)
+    chapters.value.find(g => g.Id === active.value)
 )
 </script>
 

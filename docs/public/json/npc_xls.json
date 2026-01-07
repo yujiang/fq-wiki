@@ -18792,11 +18792,11 @@
   },
   "50052": {
     "Id": 50052,
-    "Name": "吕轻侯",
+    "Name": "贵公子",
     "CreateType": "drama",
     "Scene": 3014,
     "Display": {
-      "name": "吕轻侯",
+      "name": "贵公子",
       "shape": 1102,
       "icon": 1102
     },
@@ -28034,9 +28034,11 @@
   "80102": {
     "Id": 80102,
     "Name": "陈玖",
+    "Desc": "路边",
     "CreateType": "scene",
     "Json": 88441,
     "Scene": 1029,
+    "ShowCond": 80102,
     "Display": {
       "name": "陈玖",
       "shape": 1029,
@@ -28049,7 +28051,8 @@
   "80103": {
     "Id": 80103,
     "Name": "陈玖",
-    "CreateType": "scene",
+    "Desc": "黄鹤楼",
+    "CreateType": "task",
     "Json": 88441,
     "Scene": 3198,
     "Display": {
@@ -28065,6 +28068,7 @@
     "Id": 80104,
     "Name": "小二",
     "CreateType": "scene",
+    "Json": 88444,
     "Scene": 3198,
     "Display": {
       "name": "小二",
@@ -28079,6 +28083,7 @@
     "Id": 80105,
     "Name": "掌柜",
     "CreateType": "scene",
+    "Json": 88443,
     "Scene": 3198,
     "Display": {
       "name": "掌柜",
@@ -28116,7 +28121,8 @@
   "80108": {
     "Id": 80108,
     "Name": "陈玖",
-    "CreateType": "scene",
+    "Desc": "赌场",
+    "CreateType": "task",
     "Json": 88441,
     "Scene": 4022,
     "Display": {
@@ -28130,12 +28136,12 @@
   },
   "80109": {
     "Id": 80109,
-    "Name": "老板",
+    "Name": "大当家",
     "CreateType": "scene",
     "Json": 88442,
     "Scene": 3198,
     "Display": {
-      "name": "老板",
+      "name": "大当家",
       "shape": 1048,
       "icon": 1048
     },
@@ -28143,12 +28149,12 @@
   },
   "80110": {
     "Id": 80110,
-    "Name": "老板",
+    "Name": "大当家",
     "CreateType": "task",
     "Json": 88442,
     "Scene": 1029,
     "Display": {
-      "name": "老板",
+      "name": "大当家",
       "shape": 1048,
       "icon": 1048
     },
@@ -28159,7 +28165,8 @@
   "80111": {
     "Id": 80111,
     "Name": "陈玖",
-    "CreateType": "scene",
+    "Desc": "红楼",
+    "CreateType": "task",
     "Json": 88441,
     "Scene": 4027,
     "Display": {
@@ -28175,6 +28182,7 @@
     "Id": 80112,
     "Name": "李妈妈",
     "CreateType": "scene",
+    "Json": 88445,
     "Scene": 4027,
     "Display": {
       "name": "李妈妈",
@@ -28189,6 +28197,7 @@
     "Id": 80113,
     "Name": "春桃",
     "CreateType": "scene",
+    "Json": 88446,
     "Scene": 4027,
     "Display": {
       "name": "春桃",
@@ -39888,7 +39897,7 @@
   "700001": {
     "Id": 700001,
     "Name": "段思思",
-    "Json": 750010,
+    "Json": 705010,
     "Scene": 1114,
     "Display": {
       "name": "段思思",
@@ -39902,7 +39911,7 @@
   "700002": {
     "Id": 700002,
     "Name": "慕容雪",
-    "Json": 750020,
+    "Json": 705020,
     "Scene": 1114,
     "Display": {
       "name": "慕容雪",
@@ -39916,7 +39925,7 @@
   "700003": {
     "Id": 700003,
     "Name": "破戒僧",
-    "Json": 750030,
+    "Json": 705030,
     "Scene": 1114,
     "Display": {
       "name": "破戒僧",
@@ -39930,7 +39939,7 @@
   "700004": {
     "Id": 700004,
     "Name": "吕轻侯",
-    "Json": 750040,
+    "Json": 705040,
     "Scene": 1114,
     "Display": {
       "name": "吕轻侯",
@@ -39940,6 +39949,131 @@
     "act": 5,
     "x": 1793,
     "y": 2975
+  },
+  "701001": {
+    "Id": 701001,
+    "Name": "掌柜",
+    "Json": 88443,
+    "Scene": 6012,
+    "Display": {
+      "name": "掌柜",
+      "shape": 3015,
+      "icon": 3015
+    },
+    "act": 5
+  },
+  "701002": {
+    "Id": 701002,
+    "Name": "大当家",
+    "Json": 88442,
+    "Scene": 6013,
+    "Display": {
+      "name": "大当家",
+      "shape": 1048,
+      "icon": 1048
+    },
+    "act": 5,
+    "x": 1448,
+    "y": 696
+  },
+  "701003": {
+    "Id": 701003,
+    "Name": "李妈妈",
+    "Json": 88445,
+    "Scene": 6014,
+    "Display": {
+      "name": "李妈妈",
+      "shape": 3125,
+      "icon": 3125
+    },
+    "act": 5
+  },
+  "701004": {
+    "Id": 701004,
+    "Name": "船夫",
+    "Json": 88440,
+    "Scene": 6011,
+    "Display": {
+      "name": "船夫",
+      "shape": 1028,
+      "icon": 1028
+    },
+    "act": 5,
+    "x": 2669,
+    "y": 4205
+  },
+  "701005": {
+    "Id": 701005,
+    "Name": "小二",
+    "Json": 88444,
+    "Scene": 6014,
+    "Display": {
+      "name": "小二",
+      "shape": 2057,
+      "icon": 2057
+    },
+    "act": 5,
+    "x": 1777,
+    "y": 694
+  },
+  "701006": {
+    "Id": 701006,
+    "Name": "店小二",
+    "Json": 57010,
+    "Scene": 6012,
+    "Display": {
+      "name": "店小二",
+      "title": "客栈",
+      "shape": 2057,
+      "icon": 2057
+    },
+    "act": 5,
+    "x": 979,
+    "y": 1027
+  },
+  "701007": {
+    "Id": 701007,
+    "Name": "厨倌",
+    "Json": 80001,
+    "Scene": 6012,
+    "Display": {
+      "name": "厨倌",
+      "title": "厨子",
+      "shape": 3118,
+      "icon": 3118,
+      "filter": 261
+    },
+    "act": 5,
+    "x": 1913,
+    "y": 863
+  },
+  "701008": {
+    "Id": 701008,
+    "Name": "春桃",
+    "Json": 88446,
+    "Scene": 6015,
+    "Display": {
+      "name": "春桃",
+      "shape": 3005,
+      "icon": 3005
+    },
+    "act": 5,
+    "x": 2281,
+    "y": 2508
+  },
+  "701010": {
+    "Id": 701010,
+    "Name": "鲁大江",
+    "Json": 705050,
+    "Scene": 6011,
+    "Display": {
+      "name": "鲁大江",
+      "shape": 2111,
+      "icon": 2111
+    },
+    "act": 5,
+    "x": 6757,
+    "y": 3596
   },
   "961021": {
     "Id": 961021,

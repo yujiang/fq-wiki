@@ -39,7 +39,7 @@
 
     <!-- 选中场景的详情页 -->
     <div class="scene-content" v-if="activeSceneId">
-      <Scene :sceneId="activeSceneId" />
+      <Scene :sceneId="activeSceneId" :shows="props.shows" />
     </div>
     <div class="empty-tip" v-else>请选择一个场景查看详情</div>
   </div>
@@ -55,6 +55,7 @@ const props = defineProps<{
   sceneAreas?: number;
   scenes: Record<string, number[]>; // 灵活的分类场景，如 { "门派": [201,202], "城市": [101,102] }
   defaultSceneId?: number; // 默认激活的场景ID
+  shows?: string[];
 }>();
 
 // 事件：通知父组件场景切换

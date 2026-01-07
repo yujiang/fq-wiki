@@ -48,6 +48,11 @@
     "rate": 10,
     "pitch": -10
   },
+  "10003": {
+    "Id": 10003,
+    "Name": "南姗",
+    "mmVoiceId": "Chinese (Mandarin)_Warm_Girl"
+  },
   "10031": {
     "Id": 10031,
     "Name": "小梳子",
@@ -89,8 +94,68 @@
     "Name": "廉贞",
     "Actor": "晓伊"
   },
+  "50051": {
+    "Id": 50051,
+    "Name": "乐小钗",
+    "mmVoiceId": "Chinese (Mandarin)_Mature_Woman"
+  },
+  "50121": {
+    "Id": 50121,
+    "Name": "钱芷薇",
+    "mmVoiceId": "Arrogant_Miss"
+  },
+  "80049": {
+    "Id": 80049,
+    "Name": "乐小钗",
+    "mmVoiceId": "Chinese (Mandarin)_Mature_Woman"
+  },
+  "80102": {
+    "Id": 80102,
+    "Name": "陈玖",
+    "mmVoiceId": "ttv-voice-2026010622251626-eKDlv9fe"
+  },
+  "522180": {
+    "Id": 522180,
+    "Name": "段思思",
+    "Actor": "晓甄"
+  },
+  "522190": {
+    "Id": 522190,
+    "Name": "乐小钗",
+    "mmVoiceId": "Chinese (Mandarin)_Mature_Woman"
+  },
+  "522260": {
+    "Id": 522260,
+    "Name": "苏枕雪",
+    "mmVoiceId": "Chinese (Mandarin)_Gentle_Senior"
+  },
   "522380": {
     "Id": 522380,
+    "Name": "段思思",
+    "Actor": "晓甄"
+  },
+  "530400": {
+    "Id": 530400,
+    "Name": "李师师",
+    "mmVoiceId": "Chinese (Mandarin)_Sweet_Lady"
+  },
+  "530500": {
+    "Id": 530500,
+    "Name": "乐小钗",
+    "mmVoiceId": "Chinese (Mandarin)_Mature_Woman"
+  },
+  "600240": {
+    "Id": 600240,
+    "Name": "南姗",
+    "mmVoiceId": "Chinese (Mandarin)_Warm_Girl"
+  },
+  "600250": {
+    "Id": 600250,
+    "Name": "阿紫",
+    "mmVoiceId": "Arrogant_Miss"
+  },
+  "610020": {
+    "Id": 610020,
     "Name": "段思思",
     "Actor": "晓甄"
   }

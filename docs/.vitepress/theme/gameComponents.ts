@@ -62,6 +62,7 @@ import tippyTooltip from './components/Tippy/Tooltip.vue'
 import CharImage from './components/CharImage.vue'  
 import ItemImage from './components/ItemImage.vue'  
 
+import ItemLike from './components/items/ItemLike.vue'
 
 export function registerGameComponents(app: any) {
   app.component('ItemCard', ItemCard)
@@ -126,5 +127,5 @@ export function registerGameComponents(app: any) {
   app.component('CharImage', CharImage)
   app.component('ItemImage', ItemImage)
   
-
+  app.component('ItemLike', ItemLike)
 }

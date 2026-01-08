@@ -6,6 +6,8 @@ import { fetchXls, XlsSceneObj } from "./xls";
 
 //id ,num, rand, friendlevel, recovernum
 type ObserveItem = [number, number, number, number, number];
+//id ,num, cond, !say
+type AskItem = [number, number, number, number, number];
 
 //id,level,say,reward,friendlevel
 type ObserveSkillType = [number, number, number, number, number];
@@ -25,6 +27,7 @@ export interface XlsObserve extends XlsSceneObj {
     Power: string;
     Like: TaskParamLike;
     Items: ObserveItem[];
+    AskItems: AskItem[];
     Skills: ObserveWillType[];
     Soldier: number;
 };
@@ -75,8 +78,18 @@ async function mapSkill(_Skill: ObserveWillType, curLevel: number): Promise<Skil
 	return { id, level, fLevel:needLevel };
 }
 
-function mapItem(item: ObserveItem, curLevel: number, param: Object): ItemIdCount {
+function mapItem(item: ObserveItem): ItemIdCount {
 	const [id, count, rand, needLevel] = item;
+	return {
+		id,
+		count,
+		fLevel: needLevel,
+	};
+}
+
+function mapAsk(item: AskItem): ItemIdCount {
+	const [id, count, cond, nsay] = item;
+  const needLevel = cond < 10 ? cond : 0;
 	return {
 		id,
 		count,
@@ -101,6 +114,18 @@ export function observe2Items(items: ObserveItem[]): ItemIdCount[]{
     }
     return items.map(mapItem);
 }
+
+export function observe2Asks(items: AskItem[]): ItemIdCount[]{
+    if (!items){
+        return [];
+    }
+    if (typeof items[0] === "number"){
+      items = [items as any];
+    }
+    return items.map(mapAsk);
+}
+
+
 
 export async function observe2Skills(skills: ObserveWillType[]): Promise<SkillIdLevel[]>{
     if (!skills){

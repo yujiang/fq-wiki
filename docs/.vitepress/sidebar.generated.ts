@@ -649,16 +649,6 @@ export default [
         "collapsed": true
       },
       {
-        "text": "攻略",
-        "items": [
-          {
-            "text": "🌸 杏花村 - 支线任务",
-            "link": "/15-任务/04-攻略/01-杏花村"
-          }
-        ],
-        "collapsed": true
-      },
-      {
         "text": "任务索引",
         "link": "/15-任务/"
       }
@@ -726,6 +716,24 @@ export default [
     "collapsed": false
   },
   {
+    "text": "道具",
+    "items": [
+      {
+        "text": "装备索引",
+        "link": "/22-道具/equip"
+      },
+      {
+        "text": "道具索引",
+        "link": "/22-道具/"
+      },
+      {
+        "text": "喜好索引",
+        "link": "/22-道具/like"
+      }
+    ],
+    "collapsed": false
+  },
+  {
     "text": "攻略",
     "items": [
       {
@@ -734,6 +742,16 @@ export default [
           {
             "text": "第一章 · 杏花血雨",
             "link": "/30-攻略/01-游戏剧情/01-第一章-杏花血雨"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "支线",
+        "items": [
+          {
+            "text": "🌸 杏花村 - 支线任务",
+            "link": "/30-攻略/02-支线/01-杏花村"
           }
         ],
         "collapsed": true
@@ -877,6 +895,10 @@ export default [
               {
                 "text": "reward2",
                 "link": "/50-test/game/base/08-reward2"
+              },
+              {
+                "text": "reward3",
+                "link": "/50-test/game/base/09-reward3"
               }
             ],
             "collapsed": true

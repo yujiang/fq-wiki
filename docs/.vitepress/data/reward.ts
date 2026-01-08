@@ -6,6 +6,7 @@ import { NpcFriend } from "./npc";
 import { getScene } from "./scene";
 import { SkillIdLevel } from "./skill";
 import { fetchXls, XlsBase } from "./xls";
+const isDev = import.meta.env.DEV;
 
 // type,num,
 type RewardMoney = [number, number];
@@ -33,6 +34,7 @@ export interface XlsReward extends XlsBase {
   NpcFriend: RewardNpcFriend; // npc友好度！
   subReward: number | number[]; // 额外奖励id
 
+  Remarks: string;
   // 无法识别MoneyFunc/ItemFunc
   //MoneyFunc: string; // 复杂money脚本
   //ItemFunc: string; // 复杂item脚本
@@ -66,12 +68,16 @@ function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
       : [{ id: -a, count: -1, rand: 0 }];
   }
   if (typeof a[0] === "number") {
-    return a.map((i:any) => {
-      return i > 0 ? { id: i, count: 1, rand: 0 } : { id: -i, count: -1, rand: 0 };
+    return a.map((i: any) => {
+      return i > 0
+        ? { id: i, count: 1, rand: 0 }
+        : { id: -i, count: -1, rand: 0 };
     });
   }
   return a.map((i) => {
-    return i[0] > 0 ? { id: i[0], count: i[1], rand: i[2] } : { id: -i[0], count: -i[1], rand: i[2] };
+    return i[0] > 0
+      ? { id: i[0], count: i[1], rand: i[2] }
+      : { id: -i[0], count: -i[1], rand: i[2] };
   });
 }
 
@@ -206,6 +212,34 @@ export async function getRewardAll(newId: number): Promise<RewardAll | null> {
           rt.sceneScore = sub.sceneScore;
         }
       }
+    }
+  }
+  return rt;
+}
+
+function getNpcFriendDesc(r: XlsReward, f: RewardItem) {
+  return isDev ? `[${r.Id}]${f[1]} ${r.Remarks}` : `${f[1]} ${r.Remarks}`;
+}
+
+export async function getFriendRewards(npc: number) {
+  const rt: string[] = [];
+  const rs = await getRewards();
+
+
+  for (const r of Object.values(rs)) {
+    const nf = r.NpcFriend;
+    if (nf) {
+        if (Array.isArray(nf[0])) {
+          for (const npc2 of nf as RewardItem[] ) {
+            if (npc2[0] === npc) {
+              rt.push(getNpcFriendDesc(r, npc2));
+              break;
+            }
+          }
+        }
+        else if (nf[0] === npc) {
+          rt.push(getNpcFriendDesc(r, nf as RewardItem));
+        }
     }
   }
   return rt;

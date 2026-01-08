@@ -42,6 +42,14 @@
           <div class="npc-card__info-label">背景故事：</div>
           <span class="npc-card__info-value">{{ observe?.Desc || '暂无背景故事' }}</span>
         </div>
+        <div class="npc-card__info-item npc-card__info-story" v-if="rewards.length>0">
+          <div class="npc-card__info-label">好感相关：</div>
+          <div class="npc-card__rewards">
+            <div v-for="reward in rewards" :key="reward" class="npc-card__reward-item">
+              {{ reward }}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -64,10 +72,11 @@
 import { ref, defineProps, watch, computed, onMounted } from "vue";
 import ItemGrid from "./ItemGrid.vue";
 import SkillGrid from "./SkillGrid.vue";
-import { getObserve, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../data/observe";
+import { getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../data/observe";
 import { getNpc, getNpcAvater, getNpcPosition } from "../../data/npc";
 import { ItemIdCount } from "../../data/item";
 import { SkillIdLevel } from "../../data/skill";
+import { getFriendRewards } from "../../data/reward";
 
 const props = defineProps<{ npcId: number }>();
 const loading = ref(true);
@@ -77,6 +86,8 @@ const likedesc = ref<string>('');
 const posdesc = ref<string>('');
 const items = ref<ItemIdCount[]>([]);
 const skills = ref<SkillIdLevel[]>([]);
+
+const rewards = ref<string[]>([]);
 
 const isDev = import.meta.env.DEV;
 const npcName = ref("");
@@ -104,16 +115,20 @@ const updateCurrentObserve = async (id: number) => {
       npcicon.value = getNpcAvater(info?.Display?.icon) ;
       likedesc.value = observe2Like(xls.Like);
       posdesc.value = info ? await getNpcPosition(info.Id) : '';
-      let items2 = observe2Items(xls.Items);
-      let skills2 = await observe2Skills(xls.Skills);
-      console.log('NpcCard.vue',id,items2,skills2);
+      const items2 = observe2Items(xls.Items).concat(observe2Asks(xls.AskItems));      
+      const skills2 = await observe2Skills(xls.Skills);
+      // console.log('NpcCard.vue',id,items2,skills2);
       items.value = items2;
       skills.value = skills2;
+      const rs = await getFriendRewards(xls.Id);
+      rewards.value = rs;
+
     } else {
       npcicon.value = '/images/default-avatar.png';
       likedesc.value = '';
       items.value = [];
       skills.value = [];
+      rewards.value = [];
     }
   } catch (e) {
     console.error('加载NPC数据失败', e);

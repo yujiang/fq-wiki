@@ -27,20 +27,6 @@
     "style": "新闻播报",
     "rate": -15
   },
-  "1235": {
-    "Id": 1235,
-    "Name": "老乞丐",
-    "Actor": "云泽",
-    "style": "抒情",
-    "pitch": -20
-  },
-  "10001": {
-    "Id": 10001,
-    "Name": "袁千手",
-    "Actor": "云泽",
-    "rate": -20,
-    "pitch": -20
-  },
   "10002": {
     "Id": 10002,
     "Name": "小梳子",
@@ -67,43 +53,13 @@
     "rate": 10,
     "pitch": -10
   },
-  "19995": {
-    "Id": 19995,
-    "Name": "护法",
-    "Actor": "云野",
-    "style": "严厉",
-    "rate": -10,
-    "pitch": -10
-  },
-  "19997": {
-    "Id": 19997,
-    "Name": "黑衣人",
-    "Actor": "云健",
-    "style": "serious",
-    "rate": 10,
-    "pitch": -10
-  },
-  "19998": {
-    "Id": 19998,
-    "Name": "武曲",
-    "Actor": "云希",
-    "style": "serious"
-  },
-  "19999": {
-    "Id": 19999,
-    "Name": "廉贞",
-    "Actor": "晓伊"
-  },
+  "19999": {"Id": 19999, "Name": "廉贞", "Actor": "晓伊"},
   "50051": {
     "Id": 50051,
     "Name": "乐小钗",
     "mmVoiceId": "Chinese (Mandarin)_Mature_Woman"
   },
-  "50121": {
-    "Id": 50121,
-    "Name": "钱芷薇",
-    "mmVoiceId": "Arrogant_Miss"
-  },
+  "50121": {"Id": 50121, "Name": "钱芷薇", "mmVoiceId": "Arrogant_Miss"},
   "80049": {
     "Id": 80049,
     "Name": "乐小钗",
@@ -114,11 +70,7 @@
     "Name": "陈玖",
     "mmVoiceId": "ttv-voice-2026010622251626-eKDlv9fe"
   },
-  "522180": {
-    "Id": 522180,
-    "Name": "段思思",
-    "Actor": "晓甄"
-  },
+  "522180": {"Id": 522180, "Name": "段思思", "Actor": "晓甄"},
   "522190": {
     "Id": 522190,
     "Name": "乐小钗",
@@ -129,11 +81,7 @@
     "Name": "苏枕雪",
     "mmVoiceId": "Chinese (Mandarin)_Gentle_Senior"
   },
-  "522380": {
-    "Id": 522380,
-    "Name": "段思思",
-    "Actor": "晓甄"
-  },
+  "522380": {"Id": 522380, "Name": "段思思", "Actor": "晓甄"},
   "530400": {
     "Id": 530400,
     "Name": "李师师",
@@ -149,14 +97,6 @@
     "Name": "南姗",
     "mmVoiceId": "Chinese (Mandarin)_Warm_Girl"
   },
-  "600250": {
-    "Id": 600250,
-    "Name": "阿紫",
-    "mmVoiceId": "Arrogant_Miss"
-  },
-  "610020": {
-    "Id": 610020,
-    "Name": "段思思",
-    "Actor": "晓甄"
-  }
+  "600250": {"Id": 600250, "Name": "阿紫", "mmVoiceId": "Arrogant_Miss"},
+  "610020": {"Id": 610020, "Name": "段思思", "Actor": "晓甄"}
 }

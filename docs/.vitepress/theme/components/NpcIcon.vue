@@ -57,6 +57,7 @@ const updateCurrentNpc = async (id: number) => {
   const xls = await getNpc(id);
   npc.value = xls;
   npcicon.value = getNpcIcon(xls?.Display?.icon);
+  console.log("updateCurrentNpc", id, xls?.Display?.icon, npcicon.value);
 };
 
 const backgroundStyle = computed(() => getRankBgStyle(npc.value?.Rank));

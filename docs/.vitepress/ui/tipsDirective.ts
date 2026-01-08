@@ -1,4 +1,6 @@
 // src/ui/tipsDirective.ts
+// 使用属性 v-tips 自动获得tips
+
 type TipsValue = string | (() => string)
 
 type TipsEl = HTMLElement & {

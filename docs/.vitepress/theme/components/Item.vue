@@ -4,7 +4,7 @@
 
 <template>
   <div class="base-item-game item-game">
-        <div class="icon-wrap" :style="backgroundStyle" v-tips="()=>item?.Detail">
+        <div class="icon-wrap" :style="backgroundStyle" v-tips="getTips">
           <img v-if="itemicon" :src="itemicon" alt="" class="icon" />
           <span class="item-count" v-if="itemDisplay" :style="{ color: itemColor }">{{ itemCount }}</span>
           <span class="item-chance" v-if="itemRand < 100 && itemRand > 0">{{ itemRand + "%" }}</span>
@@ -29,12 +29,19 @@ import {
 import { getRankBgStyle } from "../../data/xls";
 import { getFriendLevelDesc } from "../../data/npc";
 // import { getRankBgStyle } from "../../data/xls";
+const isDev = import.meta.env.DEV;
 
 // 接收 props 数据
 const props = defineProps<ItemIdCount>();
 
 // 异步加载所有 items
 let item = ref<XlsItem | null>(null);
+
+function getTips(){
+  const item2 = item.value;
+  return (isDev ? item2?.Id+' ' : '') + item2?.Detail
+} 
+
 let itemicon = ref("");
 let showPopover = ref(false);
 

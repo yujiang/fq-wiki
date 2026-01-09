@@ -34,7 +34,7 @@
             </p>
           </div>
           <div class="step-reward" v-if="step.Reward > 0">
-            <RewardCard title="no" :rewardId="step.Reward == 1 ? step.Id : step.Reward" />
+            <RewardCard title="no" :rewardId="getTaskReward(step)" />
           </div>
         </li>
       </ul>
@@ -45,7 +45,7 @@
 
 <script setup lang="ts">
 import { ref, defineProps, onMounted, watch, computed } from "vue";
-import { XlsTask, getDesDesc, getNext, getTask, getTasks } from "../../../data/task";
+import { XlsTask, getDesDesc, getTaskNext, getTask, getTasks, getTaskReward } from "../../../data/task";
 import RewardCard from "../reward/RewardCard.vue";
 import RichText from "../RichText.vue";
 import { getChapter, getChapterLabel } from "../../../data/chapter";
@@ -129,7 +129,7 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
   const desc = await getDesDesc(xls.Des);
   alldesc.push(desc);
 
-  let next: number = getNext(xls);
+  let next: number = getTaskNext(xls);
   let l = xls;
   while (next && next !== end && !props.nonext) {
     const nxls = datas[next];
@@ -141,7 +141,7 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
     if (next === nxls.NextTask) {
       break;
     }
-    next = getNext(nxls)
+    next = getTaskNext(nxls)
   }
   // console.log("updateCurrentTask", id, all.length, l.Id);
   task.value = xls;

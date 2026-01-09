@@ -23,7 +23,7 @@ export interface XlsTask extends XlsBase {
     NextTask?: number; // 完成自动添加下一个
     NextWill?: number; // 产生分支
 
-    Reward?: number;
+    Reward: number;
     WillReward?: number;
 };
 
@@ -97,7 +97,8 @@ export async function getSceneBranchTasks(scene: number) : Promise<XlsTask[]> {
     return rt;
 }
 
-export function getNext(xls: XlsTask): number {
+export function getTaskNext(xls: XlsTask): number {
+if (!xls) return 0;
   let next = xls.NextTask || xls.NextWill || 0;
   if (next < 0) {
     next = -next;
@@ -106,4 +107,9 @@ export function getNext(xls: XlsTask): number {
     next = xls.Id + 1;
   }
   return next;
+}
+
+export function getTaskReward(xls: XlsTask|null): number {
+    if (!xls) return 0;
+    return xls.Reward == 1 ? xls.Id : xls.Reward
 }

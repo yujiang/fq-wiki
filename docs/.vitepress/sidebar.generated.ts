@@ -649,7 +649,7 @@ export default [
         "collapsed": true
       },
       {
-        "text": "声望",
+        "text": "声望任务",
         "link": "/15-任务/03-声望"
       },
       {
@@ -876,18 +876,6 @@ export default [
             "link": "/50-test/game/08-npc"
           },
           {
-            "text": "task",
-            "link": "/50-test/game/10-task"
-          },
-          {
-            "text": "taskmain",
-            "link": "/50-test/game/11-taskmain"
-          },
-          {
-            "text": "chapter",
-            "link": "/50-test/game/12-chapter"
-          },
-          {
             "text": "base",
             "items": [
               {
@@ -1017,6 +1005,32 @@ export default [
               {
                 "text": "schooltaolutabstabs",
                 "link": "/50-test/game/taolu/08-schooltaolutabstabs"
+              }
+            ],
+            "collapsed": true
+          },
+          {
+            "text": "task",
+            "items": [
+              {
+                "text": "task",
+                "link": "/50-test/game/task/10-task"
+              },
+              {
+                "text": "taskmain",
+                "link": "/50-test/game/task/11-taskmain"
+              },
+              {
+                "text": "chapter",
+                "link": "/50-test/game/task/12-chapter"
+              },
+              {
+                "text": "taskitem",
+                "link": "/50-test/game/task/13-taskitem"
+              },
+              {
+                "text": "TaskList 测试",
+                "link": "/50-test/game/task/14-tasklist"
               }
             ],
             "collapsed": true

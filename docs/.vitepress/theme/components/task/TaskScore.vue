@@ -4,7 +4,7 @@
     <div v-else>
       <div v-for="(tasks, scene) in groupedTasks" :key=scene class=scene-group>
         <h3 class=scene-title>{{ getSceneName(Number(scene)) }}</h3>
-        <TaskTabs :taskIds=tasks :nonext="true" />
+        <TaskList :tasks=tasks />
       </div>
       <div v-if="Object.keys(groupedTasks).length === 0">未发现有场景积分的任务。</div>
     </div>
@@ -17,6 +17,7 @@ import TaskTabs from './TaskTabs.vue'
 import { getTasks, XlsTask } from '../../../data/task'
 import { getReward } from '../../../data/reward'
 import { getScene, getSceneName, getScenes } from '../../../data/scene'
+import TaskList from './TaskList.vue'
 
 const loaded = ref(false)
 const sceneTasks = ref<Record<number, number[]>>({})

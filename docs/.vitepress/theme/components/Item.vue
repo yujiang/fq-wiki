@@ -38,8 +38,9 @@ const props = defineProps<ItemIdCount>();
 let item = ref<XlsItem | null>(null);
 
 function getTips(){
-  const item2 = item.value;
-  return (isDev ? item2?.Id+' ' : '') + item2?.Detail
+  const xls = item.value;
+  if (!xls) return '';
+  return (isDev ? xls.Id+' ' : '') + xls.Detail
 } 
 
 let itemicon = ref("");

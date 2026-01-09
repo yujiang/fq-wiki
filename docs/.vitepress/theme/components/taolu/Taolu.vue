@@ -4,7 +4,7 @@
 
 <template>
   <div class="base-item-game taolu-game">
-    <div class="icon-wrap" :style="backgroundStyle" v-tips="() => taolu?.Detail">
+    <div class="icon-wrap" :style="backgroundStyle" v-tips="getTips">
       <img v-if="taoluicon" :src="taoluicon" alt="" class="icon" />
     </div>
     <div class="base-item-name taolu-name" v-if="taolu?.Name">{{ taolu.Name }}</div> <!-- 物品名字 -->
@@ -16,6 +16,7 @@ import { ref, defineProps, onMounted, watch, computed } from "vue";
 import { XlsTaolu, getTaolu } from "../../../data/taolu";
 import { getSkillIcon } from "../../../data/skill";
 import { getRankBgStyle } from "../../../data/xls";
+const isDev = import.meta.env.DEV;
 
 // 接收 props 数据
 const props = defineProps<{ id: number }>();
@@ -23,6 +24,12 @@ const props = defineProps<{ id: number }>();
 // 异步加载所有 taolus
 let taolu = ref<XlsTaolu | null>(null);
 let taoluicon = ref('');
+
+function getTips(){
+  const xls = taolu.value;
+  if (!xls) return '';
+  return (isDev ? xls.Id+' ' : '') + xls.Detail
+} 
 
 // 初始化并加载数据
 onMounted(async () => {

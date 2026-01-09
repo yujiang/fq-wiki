@@ -20,6 +20,7 @@ import { ref, defineProps, onMounted, watch, computed, reactive } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../data/skill";
 import { getRankBgStyle } from "../../data/xls";
 import { getFriendLevelDesc } from "../../data/npc";
+const isDev = import.meta.env.DEV;
 
 // 接收 props 数据
 const props = defineProps<SkillIdLevel>();
@@ -50,12 +51,17 @@ watch(
   }
 );
 
+function getTips(xls: XlsSkill) {
+  if (!xls) return '';
+  return (isDev ? xls.Id+' ' : '') + (xls.Detail || xls.Desc || '');
+}
+
 const updateCurrentSkill = async (id: number) => {
   try {
     const xls = await getSkillById(id);
     state.skill = xls;
     state.icon = getSkillIcon(xls?.Icon);
-    state.desc = xls?.Detail || xls?.Desc || '';
+    state.desc = getTips(xls)
   } catch (e) {
     console.error('updateCurrentSkill failed', e);
     state.skill = null;

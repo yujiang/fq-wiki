@@ -18,7 +18,7 @@ import NpcIcon from "../NpcIcon.vue";
 import { NpcFriend } from "../../../data/npc";
 
 // 只接收列表和选中ID，触发选择事件
-const props = defineProps<{ npcs?: NpcFriend[]; selectedId?: number | null }>();
+const props = defineProps<{ npcs: NpcFriend[]; selectedId?: number | null }>();
 const emit = defineEmits<{ (e: "select", id: number): void }>();
 // 统治NpcCard，list点中了！
 </script>

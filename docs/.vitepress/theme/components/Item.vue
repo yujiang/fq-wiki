@@ -44,7 +44,6 @@ function getTips(){
 } 
 
 let itemicon = ref("");
-let showPopover = ref(false);
 
 let getFLevelDesc = computed(() => {
   return props.fLevel ? getFriendLevelDesc(props.fLevel) : "";

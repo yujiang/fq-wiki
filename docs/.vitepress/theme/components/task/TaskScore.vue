@@ -13,10 +13,9 @@
 
 <script setup lang=ts>
 import { ref, computed, onMounted } from 'vue'
-import TaskTabs from './TaskTabs.vue'
-import { getTasks, XlsTask } from '../../../data/task'
+import { getTasks } from '../../../data/task'
 import { getReward } from '../../../data/reward'
-import { getScene, getSceneName, getScenes } from '../../../data/scene'
+import { getSceneName, getScenes } from '../../../data/scene'
 import TaskList from './TaskList.vue'
 
 const loaded = ref(false)

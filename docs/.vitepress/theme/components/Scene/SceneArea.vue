@@ -81,7 +81,7 @@ const classifiedScenes = computed<Record<Category, number[]>>(() => {
     }
   }
   if (onlyTask()){
-    delete categories['室内'];
+    delete categories['室内' as Category];
   }
   return categories
 })

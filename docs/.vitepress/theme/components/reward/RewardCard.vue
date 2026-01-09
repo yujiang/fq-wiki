@@ -15,17 +15,17 @@
 
     <div class="grid">
       <ItemList
-        :items="allReward?.moneys"
-        v-if="allReward?.moneys?.length > 0"
+        :items="allReward.moneys"
+        v-if="allReward?.moneys && allReward.moneys.length > 0"
       />
-      <ItemList :items="allReward?.items" v-if="allReward?.items?.length > 0" />
+      <ItemList :items="allReward?.items" v-if="allReward?.items && allReward.items?.length > 0" />
       <SkillList
-        :skills="allReward?.lifeskills"
-        v-if="allReward?.lifeskills?.length > 0"
+        :skills="allReward.lifeskills"
+        v-if="allReward?.lifeskills && allReward.lifeskills.length > 0"
       />
       <NpcFriendList
-        :npcs="allReward?.friend"
-        v-if="allReward?.friend.length > 0"
+        :npcs="allReward.friend"
+        v-if="allReward?.friend && allReward.friend.length > 0"
       />
       <!--       <div class="声望" v-if="allReward?.sceneScore">
         <span class="scene">{{ allReward.sceneScore.Name }}</span>

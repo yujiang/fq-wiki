@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, watch, computed, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 import { getMoneyGrid, MoneyNum } from "../../data/money";
 import { ItemIdCount } from "../../data/item";
 import Item from "./Item.vue";

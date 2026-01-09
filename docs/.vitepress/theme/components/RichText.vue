@@ -79,8 +79,7 @@ const segments = computed<Seg[]>(() => {
 
 <template>
   <span class="rich-desc">
-    <span
-      v-for="(seg, idx) in segments"
+    <span v-for="(seg, idx) in segments"
       :key="idx"
       :style="seg.style"
     >{{ seg.text }}</span>

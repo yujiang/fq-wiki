@@ -26,8 +26,8 @@ import { getTaoluSkills } from "../../data/taolu";
 
 // 接收从父组件传入的 skills 数据
 const props = defineProps<{
-taolu?: number;
-  skills?: SkillIdLevel[];
+  taolu?: number;
+  skills: SkillIdLevel[];
 }>();
 
 // 建立一个本地副本（确保 watch 能触发内部动画或更新）

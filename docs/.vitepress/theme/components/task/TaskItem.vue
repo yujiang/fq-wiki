@@ -30,14 +30,14 @@ let rid = ref<number | null>(null);
 const isDev = import.meta.env.DEV;
 
 function getTaskLabel() {
-  return task.value?.Name;
+  return task.value?.Name || '';
 }
 
 
 // 初始化并加载数据
 onMounted(async () => {
   await updateCurrentTask(props.taskId);
-  label.value = getTaskLabel();
+  label.value = getTaskLabel() ;
 });
 
 // 监听 good 变化

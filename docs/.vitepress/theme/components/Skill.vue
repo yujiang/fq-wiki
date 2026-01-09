@@ -60,8 +60,8 @@ const updateCurrentSkill = async (id: number) => {
   try {
     const xls = await getSkillById(id);
     state.skill = xls;
-    state.icon = getSkillIcon(xls?.Icon);
-    state.desc = getTips(xls)
+    state.icon = xls ? getSkillIcon(xls.Icon) : '';
+    state.desc = xls ? getTips(xls) : '';
   } catch (e) {
     console.error('updateCurrentSkill failed', e);
     state.skill = null;

@@ -44,7 +44,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import { XlsTask, getDesDesc, getTaskNext, getTask, getTasks, getTaskReward } from "../../../data/task";
 import RewardCard from "../reward/RewardCard.vue";
 import RichText from "../RichText.vue";
@@ -277,6 +277,7 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
 
 .step-content {
   flex-grow: 1;
+  max-width: 200px;
 }
 
 .step-content p {
@@ -291,7 +292,9 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
   border-left: 2px solid #eee;
 }
 
-.step-reward {}
+.step-reward {
+  margin-left: auto;
+}
 
 /* 操作按钮 */
 .task-actions {

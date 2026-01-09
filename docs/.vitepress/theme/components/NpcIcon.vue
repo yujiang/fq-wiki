@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import {
   XlsNpc,
   getNpc,

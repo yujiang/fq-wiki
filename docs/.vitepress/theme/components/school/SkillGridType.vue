@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 import SkillGrid from "../SkillGrid.vue";
 import { getSkillsFileSchool, getSkillsFileType, SkillIdLevel, Skills } from "../../../data/skill";
 

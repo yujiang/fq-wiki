@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, computed, onMounted, defineEmits } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { getScenes, type Scenes, type XlsScene } from "../../../data/scene";
 import Scene from "./Scene.vue";
 

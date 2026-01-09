@@ -64,7 +64,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watchEffect } from "vue";
+import { ref, onMounted, watchEffect } from "vue";
 import {
   getScene,
   getSceneSmap,

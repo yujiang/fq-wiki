@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 import { XlsItem, Items, getAllItems, getItemIcon } from "../../../data/item";
 import { XlsShopItem } from "../../../data/shop";
 

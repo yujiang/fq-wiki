@@ -22,7 +22,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from "vue";
 import TaoluCard from "./TaoluCard.vue"; // 引入单个套路卡片组件
 
 // 接收参数：套路ID数组 + 可选标题

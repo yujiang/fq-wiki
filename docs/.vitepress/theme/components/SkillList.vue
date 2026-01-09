@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watch, onMounted } from "vue";
+import { ref, watch, onMounted } from "vue";
 import Skill from "./Skill.vue";
 import { SkillIdLevel } from "../../data/skill";
 import { getTaoluSkills } from "../../data/taolu";

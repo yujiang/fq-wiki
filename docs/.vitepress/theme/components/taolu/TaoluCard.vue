@@ -26,7 +26,7 @@
 
 <script setup lang="ts">
 // 数据逻辑不变
-import { ref, defineProps, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 import { XlsTaolu, getTaolu } from "../../../data/taolu";
 import Taolu from "./Taolu.vue";
 import TaoluSkillGrid from "./TaoluSkillGrid.vue";

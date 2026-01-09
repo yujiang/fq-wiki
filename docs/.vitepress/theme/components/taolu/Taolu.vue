@@ -12,7 +12,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import { XlsTaolu, getTaolu } from "../../../data/taolu";
 import { getSkillIcon } from "../../../data/skill";
 import { getRankBgStyle } from "../../../data/xls";

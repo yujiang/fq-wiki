@@ -40,7 +40,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 import SchoolTaolu from "./SchoolTaolu.vue";
 import {
   getSchoolTaoluTypes, // 假设存在：获取门派支持的武功类型（如 ['棍','内功']）

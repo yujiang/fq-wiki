@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 import NpcList from "./NpcList.vue";
 import NpcCard from "./NpcCard.vue";
 

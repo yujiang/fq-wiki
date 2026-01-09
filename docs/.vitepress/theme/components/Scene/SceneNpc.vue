@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed } from "vue";
+import { ref, onMounted, watch, computed } from "vue";
 import NpcCards from "../NpcCards.vue";
 import { fillterNpcByScene, getNpcs } from "../../../data/npc";
 import { getObserves } from "../../../data/observe";

@@ -35,7 +35,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, computed, onMounted, watchEffect } from "vue";
+import { ref, computed, onMounted, watchEffect } from "vue";
 import TaskTabs from "../task/TaskTabs.vue";
 import { getSceneBranchTasks, XlsTask } from "../../../data/task";
 

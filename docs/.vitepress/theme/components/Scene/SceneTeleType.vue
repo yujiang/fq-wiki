@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 import { SceneTypeString } from "../../../data/scene";
 import { XlsTeleport } from "../../../data/tele";
 import { getTelesTypeByScene } from "../../../data/tele";

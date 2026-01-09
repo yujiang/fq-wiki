@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, watch } from "vue";
+import { ref, onMounted, watch } from "vue";
 import { CollectsType, getCollectsTypeByScene, XlsCollect } from "../../../data/collect";
 import { formatClientPos } from "../../../data/public";
 import { getRewardAll, getRewardItemMoney } from "../../../data/reward";

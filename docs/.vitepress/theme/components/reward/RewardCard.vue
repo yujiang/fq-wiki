@@ -110,9 +110,10 @@ const updateReward = async (newId: number) => {
 
 <style scoped>
 .reward-card {
+  display: inline-block;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 14px;
+  border-radius: 2px;
+  padding: 4px;
   background: var(--vp-c-bg);
 }
 

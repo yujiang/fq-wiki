@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 import { formatClientPos } from "../../../data/public";
 import { formatPositionClient, getScene, getScenePositionClient, getSceneType } from "../../../data/scene";
 import { XlsTeleport } from "../../../data/tele";

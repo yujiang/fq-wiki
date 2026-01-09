@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, onMounted, computed, watch } from "vue";
+import { ref, onMounted, computed, watch } from "vue";
 import TaoluCardList from "./TaoluCardList.vue";
 import { getTaolusBySchool, TaoluClassType, TaoluType, XlsTaolu } from "../../../data/taolu";
 

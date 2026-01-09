@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { computed } from "vue";
 import { CSSProperties } from "vue";
 import SkillList from "./SkillList.vue";
 import { SkillIdLevel } from "../../data/skill";

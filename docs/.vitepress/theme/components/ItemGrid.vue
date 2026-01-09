@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { computed } from "vue";
 import { CSSProperties } from "vue"; // 引入CSS类型定义
 import ItemList from "./ItemList.vue";
 import { ItemIdCount } from "../../data/item";

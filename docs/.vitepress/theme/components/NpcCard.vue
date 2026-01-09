@@ -69,7 +69,7 @@
 
 <script setup lang="ts">
 // 脚本逻辑完全不变，省略重复代码
-import { ref, defineProps, watch, computed, onMounted } from "vue";
+import { ref, watch, computed, onMounted } from "vue";
 import ItemGrid from "./ItemGrid.vue";
 import SkillGrid from "./SkillGrid.vue";
 import { getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../data/observe";

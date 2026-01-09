@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import SkillGridType from "./SkillGridType.vue";
 
 // 接收门派列表 props

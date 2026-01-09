@@ -29,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, computed, watch, onMounted } from "vue";
+import { ref, computed, watch, onMounted } from "vue";
 import TaskCard from "./TaskCard.vue";
 import { getTasks } from "../../../data/task";
 

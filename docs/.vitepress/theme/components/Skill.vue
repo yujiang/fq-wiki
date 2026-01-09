@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineProps, onMounted, watch, computed, reactive } from "vue";
+import { ref, onMounted, watch, computed, reactive } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../data/skill";
 import { getRankBgStyle } from "../../data/xls";
 import { getFriendLevelDesc } from "../../data/npc";

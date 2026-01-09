@@ -14,7 +14,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineEmits } from "vue";
 import NpcIcon from "../NpcIcon.vue";
 import { NpcFriend } from "../../../data/npc";
 

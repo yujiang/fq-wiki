@@ -36,7 +36,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watch } from "vue";
+import { ref, watch } from "vue";
 import SchoolTaoluTabs from "./SchoolTaoluTabs.vue";
 
 // 接收门派列表（如 ['少林', '天山', '武当']）

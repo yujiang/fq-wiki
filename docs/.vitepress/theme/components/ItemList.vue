@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps, ref, watch, watchEffect } from "vue";
+import { ref, watch, watchEffect } from "vue";
 import Item from "./Item.vue";
 import { ItemIdCount } from "../../data/item";
 

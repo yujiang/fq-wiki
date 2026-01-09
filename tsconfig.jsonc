@@ -3,7 +3,8 @@
     "jsx": "preserve",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,    
+    "isolatedModules": true,
+    "strictNullChecks": false,
     // ...其他配置
     "types": ["vite/client"] // 确保包含 vite 的类型
   },

@@ -42,6 +42,7 @@ import TaskCard from './components/task/TaskCard.vue'
 import TaskTabs from './components/task/TaskTabs.vue'
 import TaskMainTabs from './components/task/TaskMainTabs.vue'
 import SceneTask from './components/Scene/SceneTask.vue'
+import TaskScore from './components/task/TaskScore.vue'
 
 import Scene from './components/Scene/Scene.vue'
 import SceneTabs from './components/Scene/SceneTabs.vue'
@@ -62,7 +63,10 @@ import tippyTooltip from './components/Tippy/Tooltip.vue'
 import CharImage from './components/CharImage.vue'  
 import ItemImage from './components/ItemImage.vue'  
 
-import ItemLike from './components/items/ItemLike.vue'
+import ObsItemLike from './components/observe/ItemLike.vue'
+import ObsLifeSkill from './components/observe/LifeSkill.vue'
+import ObsAskItem from './components/observe/AskItem.vue'
+
 
 export function registerGameComponents(app: any) {
   app.component('ItemCard', ItemCard)
@@ -107,6 +111,7 @@ export function registerGameComponents(app: any) {
   app.component('TaskTabs', TaskTabs)
   app.component('TaskMainTabs', TaskMainTabs)
   app.component('SceneTask', SceneTask)
+  app.component('TaskScore', TaskScore)
 
   app.component('Scene', Scene)
   app.component('SceneTabs', SceneTabs)
@@ -127,5 +132,7 @@ export function registerGameComponents(app: any) {
   app.component('CharImage', CharImage)
   app.component('ItemImage', ItemImage)
   
-  app.component('ItemLike', ItemLike)
+  app.component('ObsItemLike', ObsItemLike)
+  app.component('ObsLifeSkill', ObsLifeSkill)
+  app.component('ObsAskItem', ObsAskItem)
 }

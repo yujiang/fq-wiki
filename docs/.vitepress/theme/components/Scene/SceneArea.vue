@@ -28,6 +28,11 @@ const props = defineProps<{ sceneArea: number, shows?: string[]}>()
 function onlyTask() {
   return props.shows?.length === 1 && props.shows[0] === 'task'
 }
+
+// function onlyNpc() {
+//   return props.shows?.length === 1 && props.shows[0] === 'npc'
+// }
+
 // 原始场景列表
 const sceneList = ref<XlsScene[]>([])
 

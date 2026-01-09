@@ -22,7 +22,9 @@ export interface XlsTask extends XlsBase {
     Scene: number;
     NextTask?: number; // 完成自动添加下一个
     NextWill?: number; // 产生分支
+
     Reward?: number;
+    WillReward?: number;
 };
 
 

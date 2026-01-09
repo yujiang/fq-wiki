@@ -649,6 +649,10 @@ export default [
         "collapsed": true
       },
       {
+        "text": "声望",
+        "link": "/15-任务/03-声望"
+      },
+      {
         "text": "任务索引",
         "link": "/15-任务/"
       }
@@ -725,10 +729,40 @@ export default [
       {
         "text": "道具索引",
         "link": "/22-道具/"
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "text": "观察",
+    "items": [
+      {
+        "text": "maps",
+        "link": "/23-观察/01-maps"
       },
       {
         "text": "喜好索引",
-        "link": "/22-道具/like"
+        "link": "/23-观察/02-like"
+      },
+      {
+        "text": "物品索引",
+        "link": "/23-观察/03-item"
+      },
+      {
+        "text": "特殊物品索引",
+        "link": "/23-观察/04-askitem"
+      },
+      {
+        "text": "生活技能索引",
+        "link": "/23-观察/05-lifeskill"
+      },
+      {
+        "text": "套路索引",
+        "link": "/23-观察/06-taolu"
+      },
+      {
+        "text": "观察索引",
+        "link": "/23-观察/"
       }
     ],
     "collapsed": false

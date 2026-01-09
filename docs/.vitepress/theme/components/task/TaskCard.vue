@@ -13,7 +13,7 @@
     </div>
 
     <!-- 领取条件 -->
-    <div class="task-section领取条件" v-if="!chapter">
+    <div class="task-section领取条件" v-if="!chapter && !nonext">
       <span class="section-title">领取条件：</span>
       <span class="label"> {{ getAcceptDesc(task?.AcceptDesc) }} </span>
     </div>
@@ -53,7 +53,7 @@ import { getChapter, getChapterLabel } from "../../../data/chapter";
 // 接收 props 数据
 // end 结束任务, 用于分段
 // chapter 是否主线?
-const props = defineProps<{ taskId: number, end?: number, chapter?: boolean; }>();
+const props = defineProps<{ taskId: number, end?: number, chapter?: boolean; nonext?: boolean}>();
 
 // 异步加载所有 tasks
 let task = ref<XlsTask | null>(null);
@@ -131,7 +131,7 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
 
   let next: number = getNext(xls);
   let l = xls;
-  while (next && next !== end) {
+  while (next && next !== end && !props.nonext) {
     const nxls = datas[next];
     if (!nxls) break;
     all.push(nxls);

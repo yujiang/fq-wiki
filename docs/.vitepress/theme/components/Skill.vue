@@ -6,7 +6,7 @@
   <div class="base-item-game skill-game">
     <div class="icon-wrap" :style="backgroundStyle" v-tips="() => state.desc">
       <img v-if="state.icon" :src="state.icon" alt="" class="icon" />
-      <span class="level" v-if="level">{{ level }}</span>
+      <span class="level" v-if="level !== 1">{{ level }}</span>
       <span class="exp" v-if="exp">{{ exp < 0 ? '新' : exp }}</span>
           <span class="unlock" v-if="unlock">{{ unlock / 4 + 1 }}</span>
           <span class="fLevel" v-if="fLevel">{{ getFLevelDesc }}</span>

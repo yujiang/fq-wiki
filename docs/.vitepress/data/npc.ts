@@ -1,4 +1,4 @@
-import { getScenePositionClient, getScenes } from "./scene";
+import { getScene, getScenePositionClient, getScenes } from "./scene";
 import { DisplayStruct, fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsNpc extends XlsSceneObj {
@@ -42,6 +42,13 @@ export async function getNpcNameAndPosition(id: number) {
     return `${xls.Name}(${desc})`
   }
   return '';
+}
+
+export async function getNpcArea(npcId: number) {
+  const xls = await getNpc(npcId);
+  if (!xls) return 0;
+  const xls2 =await getScene(xls.Scene);
+  return xls2?.SceneArea || xls.Scene || 0;
 }
 
 export function getNpcAvater(icon: number|undefined) {

@@ -4,12 +4,7 @@
       <div v-for="(items, category) in groupedTabs" :key="category" class="tab-group">
         <div class="tab-group-title">{{ category }}</div>
         <div class="tab-group-items">
-          <button
-            v-for="tag in items"
-            :key="tag"
-            :class="{ active: activeTag === tag }"
-            @click="activeTag = tag"
-          >
+          <button v-for="tag in items" :key="tag" :class="{ active: activeTag === tag }" @click="activeTag = tag">
             {{ tag }}
           </button>
         </div>
@@ -40,22 +35,23 @@ const allObserves = ref<Observes>({})
 // 定义 tag 分类
 const tagCategories = {
   琴棋书画: ['乐谱', '围棋', '棋具', '棋谱', '书法', '绘画', '文房四宝', '话本', '字画', '诗词', '书籍', '画'],
-  材料: ['矿石', '蔬菜', '肉类', '鱼类', '香料', '水果', '皮毛', '花', '奇虫', '草药', '木材', '金属', '宝石', '药材', '皮革', '布料', ],
-  食物: ['零食', '素菜', '荤菜', '酒水', '食物'],   
+  材料: ['矿石', '蔬菜', '香料', '水果', '花', '草药', '木材', '金属', '宝石', '药材', '皮革', '布料',],
+  狩猎: ['奇虫', '肉类', '鱼类', '皮毛',],
+  制造: ['零食', '素菜', '荤菜', '酒水', '食物','玩具', '木器', '药品', '伤药',],
   // 秘籍: ['刀法', '棍法', '拳法', '剑法', '武学秘籍', '经脉秘籍', '内功', '轻功'],
-  生活技能: ['玩具', '木器', '药品', '伤药', '武器', '防具','服装','首饰'],
+  装备: ['刀', '棍', '拳', '剑', '奇门', '防具', '首饰',],
 }
 
 // 计算分组后的 tabs
 const groupedTabs = computed(() => {
   const groups: Record<string, string[]> = {}
-  
+
   // 初始化分类
   Object.entries(tagCategories).forEach(([category, items]) => {
     groups[category] = []
   })
   groups['其他'] = []
-  
+
   // 对每个 tag 进行分类
   tags.value.forEach(tag => {
     let found = false
@@ -70,7 +66,7 @@ const groupedTabs = computed(() => {
       groups['其他'].push(tag)
     }
   })
-  
+
   return groups
 })
 
@@ -86,7 +82,7 @@ onMounted(async () => {
       })
     }
   })
-  
+
   // 过滤：只保留至少有一个NPC喜欢的tags
   const tagsWithNpc = Array.from(tagSet).filter(tag => {
     const hasNpc = Object.values(allObserves.value).some((obs: XlsObserve) => {
@@ -101,7 +97,7 @@ onMounted(async () => {
     })
     return hasNpc
   })
-  
+
   tags.value = tagsWithNpc.sort()
   if (tags.value.length > 0) {
     activeTag.value = tags.value[0]

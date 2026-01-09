@@ -23,7 +23,7 @@
     <div class="task-tabs__content">
       <!-- 空状态：无任务ID时显示 -->
       <!-- 任务卡片：仅传递当前选中的taskId -->
-      <TaskCard :taskId="currentTaskId" />
+      <TaskCard :taskId="currentTaskId" :nonext="props.nonext" />
     </div>
   </div>
 </template>
@@ -37,6 +37,7 @@ import { getTasks } from "../../../data/task";
 const props = defineProps<{
   taskIds: number[], // 传入的任务ID数组，用于生成标签
   defaultTaskId?: number, // 可选：默认选中的任务ID
+  nonext?: boolean;
 }>();
 
 const taskNames = ref<Record<number, string>>({});

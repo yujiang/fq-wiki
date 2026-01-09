@@ -24,7 +24,7 @@ export const tipsDirective = {
 
     el.__tippy__ = tippy(el, {
       content: text,
-      disabled: !text,
+      // disabled: !text,
 
       placement: 'top',
       delay: [250, 80],

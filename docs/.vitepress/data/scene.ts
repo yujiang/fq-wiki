@@ -27,6 +27,10 @@ export async function getScene(id: number) {
   return (await getScenes())[id]
 }
 
+export function getSceneName(id: number) {
+  return scenes[id]?.Name || '';
+}
+
 // x,y is client.
 export async function getScenePositionClient(SceneId: number, x: number, y: number) {
     const scene = await getScene(SceneId);

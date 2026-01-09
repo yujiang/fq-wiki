@@ -3588,6 +3588,25 @@
     "AcceptDesc": "杏花村客人",
     "Diff": "容易"
   },
+  "11061": {
+    "Id": 11061,
+    "Name": "消灭野猪",
+    "Tags": [
+      "client",
+      "nogiveup"
+    ],
+    "Type": "fight",
+    "Desc": "消灭后山山崖的野猪",
+    "Scene": 1023,
+    "Battle": {
+      "bid": 10021,
+      "times": 5
+    },
+    "Reward": 1,
+    "GradeSuggest": 20,
+    "AcceptDesc": "杏花村苏真真",
+    "Diff": "危险"
+  },
   "11065": {
     "Id": 11065,
     "Name": "绣魂针",

@@ -2689,7 +2689,13 @@
     "Id": 16031,
     "Name": "苏真真野猪皮支线trap触发条件：从后山回来",
     "HaveOrFinish": -11059,
-    "FinishTask": 10097
+    "FinishTask": 10120
+  },
+  "16032": {
+    "Id": 16032,
+    "Name": "李勇野猪trap触发条件：从后山回来",
+    "HaveOrFinish": -11061,
+    "FinishTask": 10120
   },
   "16040": {
     "Id": 16040,

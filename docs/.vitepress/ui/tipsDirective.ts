@@ -53,6 +53,7 @@ export const tipsDirective = {
   },
 
   updated(el: TipsEl, binding: { value: TipsValue }) {
+    if (typeof window === 'undefined') return     
     el.__tipsValue__ = binding.value
     const inst = el.__tippy__
     if (!inst) return
@@ -71,6 +72,7 @@ export const tipsDirective = {
   },
 
   unmounted(el: TipsEl) {
+    if (typeof window === 'undefined') return
     el.__tippy__?.destroy?.()
     delete el.__tippy__
     delete el.__tipsValue__

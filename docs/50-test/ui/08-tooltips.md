@@ -25,7 +25,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 
-const btn = ref<HTMLElement | null>(null)
 const count = ref(0)
 
 // tooltip 内容是动态的（computed / 函数都行）

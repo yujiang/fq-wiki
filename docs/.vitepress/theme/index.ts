@@ -32,6 +32,8 @@ export default {
   enhanceApp({ app, router }: any) {
 
     // SSR 守卫
+    app.directive('tips', tipsDirective);
+
     if (typeof window === 'undefined') return;
 
     // app.use(getVuetify());
@@ -39,8 +41,6 @@ export default {
 
     enhanceAppWithTabs(app)
     registerGameComponents(app);
-
-    app.directive('tips', tipsDirective);
 
     // enableTips(app);
     // app.use(ElementPlus);

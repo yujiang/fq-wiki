@@ -22,6 +22,7 @@ import { registerGameComponents } from './gameComponents'
 // import { useRoute } from 'vitepress'
 import { tipsDirective } from '../ui/tipsDirective'
 import { getVuetify } from './vuetify'
+import { getToastify } from './toast'
 
 export default {
   ...DefaultTheme,
@@ -34,6 +35,7 @@ export default {
     if (typeof window === 'undefined') return;
 
     app.use(getVuetify());
+    app.use(getToastify());
 
     enhanceAppWithTabs(app)
     registerGameComponents(app);

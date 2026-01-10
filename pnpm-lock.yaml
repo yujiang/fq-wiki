@@ -17,6 +17,9 @@ importers:
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
+      vue3-toastify:
+        specifier: ^0.2.1
+        version: 0.2.8(vue@3.5.22(typescript@5.9.3))
       vuetify:
         specifier: ^3.11.6
         version: 3.11.6(typescript@5.9.3)(vue@3.5.22(typescript@5.9.3))
@@ -1970,6 +1973,15 @@ packages:
 
   vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
+
+  vue3-toastify@0.2.8:
+    resolution: {integrity: sha512-8jDOqsJaBZEbGpCbhWDETJc11D1lZefvgFPq/IPdM+U7+qyXoVPDvK6uq/FIgyV7qV0NcNzvGBMEzjsLQqGROw==}
+    engines: {node: '>=20', npm: '>=9.0.0'}
+    peerDependencies:
+      vue: '>=3.2.0'
+    peerDependenciesMeta:
+      vue:
+        optional: true
 
   vue@3.5.22:
     resolution: {integrity: sha512-toaZjQ3a/G/mYaLSbV+QsQhIdMo9x5rrqIpYRObsJ6T/J+RyCSFwN2LHNVH9v8uIcljDNa3QzPVdv3Y6b9hAJQ==}
@@ -3939,6 +3951,10 @@ snapshots:
       vscode-languageserver-protocol: 3.17.5
 
   vscode-uri@3.0.8: {}
+
+  vue3-toastify@0.2.8(vue@3.5.22(typescript@5.9.3)):
+    optionalDependencies:
+      vue: 3.5.22(typescript@5.9.3)
 
   vue@3.5.22(typescript@5.9.3):
     dependencies:

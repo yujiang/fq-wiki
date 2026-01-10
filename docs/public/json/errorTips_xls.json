@@ -652,5 +652,10 @@
   "Collect_dropmachine": {
     "Id": "Collect_dropmachine",
     "Name": "此处已经安放了机关"
+  },
+  "Taolu_learn_lifehave": {
+    "Id": "Taolu_learn_lifehave",
+    "Name": "{0}已经学会这套技能了！",
+    "ArgType": "soldier"
   }
 }

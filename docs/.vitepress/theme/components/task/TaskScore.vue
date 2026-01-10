@@ -14,28 +14,45 @@
 <script setup lang=ts>
 import { ref, computed, onMounted } from 'vue'
 import { getTasks } from '../../../data/task'
-import { getReward, hasScore } from '../../../data/reward'
+import { getReward, hasScore, hasSliver } from '../../../data/reward'
 import { getSceneName, getScenes } from '../../../data/scene'
 import TaskList from './TaskList.vue'
+
+const props = defineProps<{
+  filter : string;
+}>()
 
 const loaded = ref(false)
 const sceneTasks = ref<Record<number, number[]>>({})
 
 const groupedTasks = computed(() => sceneTasks.value)
 
+const getFilter = (filter: string) => {
+  switch (filter) {
+    case '声望':
+      return hasScore;
+    case '银两':
+      return hasSliver;
+  }
+  return () => true;
+}
+
 onMounted(async () => {
   const ss = await getScenes();
   const tasks = await getTasks()
   const groups: Record<number, number[]> = {}
+
+  const func = getFilter(props.filter);
   
   for (const [taskId, xls] of Object.entries(tasks)) {
     if (!xls || !xls.Reward) continue
     
     const r = xls.Reward == 1 ? xls.Id : xls.Reward;
     const reward = await getReward(r);
-    if (! hasScore(reward)) continue
+    if (! func(reward)) continue
     
-    const sceneId = reward.Scene
+    const sceneId = reward.Scene || xls.Scene;
+    if (!sceneId) continue
     if (!groups[sceneId]) {
       groups[sceneId] = []
     }

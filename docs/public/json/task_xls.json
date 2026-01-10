@@ -3565,9 +3565,9 @@
       "num": 3
     },
     "Reward": 1,
-    "GradeSuggest": 20,
+    "GradeSuggest": 1,
     "AcceptDesc": "杏花村苏真真",
-    "Diff": "危险"
+    "Diff": "容易"
   },
   "11060": {
     "Id": 11060,
@@ -3603,9 +3603,9 @@
       "times": 5
     },
     "Reward": 1,
-    "GradeSuggest": 20,
-    "AcceptDesc": "杏花村苏真真",
-    "Diff": "危险"
+    "GradeSuggest": 1,
+    "AcceptDesc": "杏花村李勇",
+    "Diff": "容易"
   },
   "11065": {
     "Id": 11065,

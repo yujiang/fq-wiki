@@ -17,7 +17,7 @@
     "GiveAdd": 20,
     "Like": {
       "tags": [
-        "围棋"
+        "棋谱"
       ],
       "rank": 1
     },
@@ -27,36 +27,49 @@
     "Neixi": 5,
     "Power": "不会武功",
     "Sparring": 15200,
-    "SparringItem": 1,
     "SparringName": "下棋",
     "Give": 15210,
     "Invite": 15220,
     "Items": [
       [
-        13009,
+        13541,
+        5,
+        30,
         1,
-        100,
-        2
+        5
       ],
       [
-        30044,
+        13542,
+        3,
+        10,
         1,
-        100,
-        3
-      ],
-      [
-        2203,
-        1,
-        100,
         3
       ]
     ],
+    "AskItems": [
+      [
+        700066,
+        1,
+        1,
+        "多读点书好"
+      ],
+      [
+        700067,
+        1,
+        2,
+        "多读点书好"
+      ]
+    ],
+    "RecoverTime": 2,
     "Skills": [
       [
-        50010,
+        "读书识字",
         1,
-        15230,
-        15230
+        15240
+      ],
+      [
+        "棋艺",
+        2
       ]
     ]
   },
@@ -89,19 +102,26 @@
     "Invite": 15020,
     "Items": [
       [
-        40056,
-        10,
+        10003001,
+        5,
         100,
-        2
+        1,
+        3
       ]
     ],
+    "AskItems": [
+      [
+        160003,
+        1,
+        3,
+        "你想要这个啊"
+      ]
+    ],
+    "RecoverTime": 2,
     "Skills": [
       [
-        60051,
-        1,
-        15030,
-        15030,
-        3
+        "昆吾剑法",
+        2
       ]
     ]
   },
@@ -129,7 +149,6 @@
     "Neixi": 15,
     "Power": "粗通皮毛",
     "Sparring": 15100,
-    "SparringItem": 1,
     "SparringName": "五禽戏",
     "Give": 15110,
     "Invite": 15120,
@@ -180,7 +199,6 @@
     "Neixi": 25,
     "Power": "粗通拳脚",
     "Sparring": 15300,
-    "SparringItem": 1,
     "SparringName": "射箭",
     "Give": 15310,
     "Invite": 15320,
@@ -238,7 +256,6 @@
     "Neixi": 15,
     "Power": "粗通皮毛",
     "Sparring": 15400,
-    "SparringItem": 1,
     "SparringName": "演出",
     "Give": 15410,
     "Invite": 15420,
@@ -321,7 +338,6 @@
     "Neixi": 20,
     "Power": "粗通皮毛",
     "Sparring": 15500,
-    "SparringItem": 1,
     "SparringName": "猜拳",
     "Give": 15510,
     "Invite": 15520,
@@ -375,7 +391,6 @@
     "Neixi": 10,
     "Power": "不会武功",
     "Sparring": 15900,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 15910,
     "Invite": 15920,
@@ -455,7 +470,6 @@
     "Neixi": 10,
     "Power": "粗通皮毛",
     "Sparring": 16000,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16010,
     "Invite": 16020,
@@ -505,7 +519,6 @@
     "Neixi": 10,
     "Power": "粗通皮毛",
     "Sparring": 16100,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16110,
     "Invite": 16120,
@@ -643,7 +656,6 @@
     "Neixi": 20,
     "Power": "粗通皮毛",
     "Sparring": 16799,
-    "SparringItem": 1,
     "SparringName": "对诗",
     "Give": 16810,
     "Invite": 16820,
@@ -818,7 +830,6 @@
     "Neixi": 10,
     "Power": "不会武功",
     "Sparring": 16940,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16950,
     "Gived": 16970
@@ -847,7 +858,6 @@
     "Neixi": 5,
     "Power": "不会武功",
     "Sparring": 16400,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16410,
     "Invite": 16420,
@@ -856,7 +866,7 @@
         13583,
         1,
         2,
-        16405
+        16430
       ]
     ]
   },
@@ -884,7 +894,6 @@
     "Neixi": 5,
     "Power": "不会武功",
     "Sparring": 16500,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16510,
     "Invite": 16520,
@@ -892,8 +901,8 @@
       [
         13580,
         1,
-        "f_11110",
-        16505
+        1,
+        16530
       ]
     ]
   },
@@ -926,7 +935,6 @@
     "Neixi": 5,
     "Power": "不会武功",
     "Sparring": 16600,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16610,
     "Invite": 16620,
@@ -938,15 +946,15 @@
         2
       ]
     ],
-    "Gived": 16660,
     "AskItems": [
       [
         13581,
         1,
-        "s_16664",
-        16605
+        1,
+        16630
       ]
-    ]
+    ],
+    "Gived": 16660
   },
   "10024": {
     "Id": 10024,
@@ -972,7 +980,6 @@
     "Neixi": 5,
     "Power": "不会武功",
     "Sparring": 16700,
-    "SparringItem": 1,
     "SparringName": "讨要",
     "Give": 16710,
     "Invite": 16720,
@@ -989,12 +996,13 @@
         13582,
         1,
         2,
-        16705
+        16740
       ],
       [
         2013,
         1,
-        1
+        1,
+        16730
       ]
     ]
   },
@@ -1188,7 +1196,8 @@
       [
         13021,
         1,
-        2
+        2,
+        55040
       ]
     ],
     "Skills": [

@@ -302,6 +302,12 @@ export function hasScore(xls: XlsReward): boolean {
   return xls.Scene > 0 && xls.SceneScore > 0 ;
 }
 
+export function hasSliver(xls: XlsReward): boolean {
+  if (!xls) return false;
+  // return xls.Scene > 0 && xls.SceneScore > 0 || xls.Money?.some(m => m[0] === Monetype_Score);
+  return xls.Money && xls.Money.find(m => m[0] === MoneyTypeEnum.silver) != null ;
+}
+
 // export function getRewardMoney(rw: number, my: MoneyTypeEnum): number {
 //   const xls: XlsReward = getRewardSync(rw);
 //   const money = xls.Money;

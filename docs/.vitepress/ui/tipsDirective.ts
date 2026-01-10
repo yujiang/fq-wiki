@@ -15,6 +15,9 @@ function resolve(v: TipsValue | undefined) {
 }
 
 export const tipsDirective = {
+  getSSRProps() {
+    return {}
+  },
   async mounted(el: TipsEl, binding: { value: TipsValue }) {
     if (typeof window === 'undefined') return
     const { default: tippy } = await import('tippy.js')

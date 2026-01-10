@@ -8,14 +8,75 @@ Toast 通知组件提供多种类型的消息提示。
 pnpm add vue3-toastify
 ```
 
+## 基础用法
+
+### 默认 Toast
+
 <script setup lang="ts">
 import { toast } from 'vue3-toastify'
 
 const showDefault = () => toast('默认提示')
+</script>
+
+<template>
+  <button @click="showDefault">显示默认提示</button>
+</template>
+
+### 成功提示
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showSuccess = () => toast.success('操作成功！')
+</script>
+
+<template>
+  <Button variant="success" @click="showSuccess">成功</Button>
+</template>
+
+### 错误提示
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showError = () => toast.error('操作失败！')
+</script>
+
+<template>
+  <Button variant="danger" @click="showError">错误</Button>
+</template>
+
+### 警告提示
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showWarning = () => toast.warn('警告信息')
+</script>
+
+<template>
+  <Button variant="warning" @click="showWarning">警告</Button>
+</template>
+
+### 信息提示
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showInfo = () => toast.info('提示信息')
+</script>
+
+<template>
+  <Button variant="secondary" @click="showInfo">信息</Button>
+</template>
+
+## 加载状态
+
+### 加载中
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showLoading = () => {
   const id = toast.loading('加载中...')
   setTimeout(() => {
@@ -28,28 +89,88 @@ const showLoading = () => {
     toast.done(id)
   }, 2000)
 }
+</script>
+
+<template>
+  <button @click="showLoading">加载中...</button>
+</template>
+
+## 自定义配置
+
+### 自定义位置
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showTopRight = () => {
   toast('右上角提示', {
     position: toast.POSITION.TOP_RIGHT
   })
 }
+</script>
+
+<template>
+  <button @click="showTopRight">右上角提示</button>
+</template>
+
+### 自定义时间
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showLongToast = () => {
   toast('5秒后关闭', {
     autoClose: 5000
   })
 }
+</script>
+
+<template>
+  <button @click="showLongToast">5秒后关闭</button>
+</template>
+
+### 不自动关闭
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showNoAutoClose = () => {
   toast('需要手动关闭', {
     autoClose: false,
     closeOnClick: true
   })
 }
+</script>
+
+<template>
+  <button @click="showNoAutoClose">需要手动关闭</button>
+</template>
+
+### 暂停悬停
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 const showPauseOnHover = () => {
   toast('鼠标悬停时暂停', {
     pauseOnHover: true
   })
 }
+</script>
+
+<template>
+  <button @click="showPauseOnHover">鼠标悬停时暂停</button>
+</template>
+
+## 高级用法
+
+### 更新 Toast
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
 let toastId: any
+
 const updateToast = () => {
   if (toastId) {
     toast.update(toastId, {
@@ -63,81 +184,21 @@ const updateToast = () => {
     toastId = toast.loading('正在更新...')
   }
 }
-const removeToast = () => {
-  toast.clearAll()
-}
 </script>
-
-## 基础用法
-
-### 默认 Toast
-<template>
-  <button @click="showDefault">显示默认提示</button>
-</template>
-
-### 成功提示
-<template>
-  <Button variant="success" @click="showSuccess">成功</Button>
-</template>
-
-### 错误提示
-<template>
-  <Button variant="danger" @click="showError">错误</Button>
-</template>
-
-### 警告提示
-<template>
-  <Button variant="warning" @click="showWarning">警告</Button>
-</template>
-
-### 信息提示
-<template>
-  <Button variant="secondary" @click="showInfo">信息</Button>
-</template>
-
-## 加载状态
-
-### 加载中
-
-<template>
-  <button @click="showLoading">加载中...</button>
-</template>
-
-## 自定义配置
-
-### 自定义位置
-
-<template>
-  <button @click="showTopRight">右上角提示</button>
-</template>
-
-### 自定义时间
-
-<template>
-  <button @click="showLongToast">5秒后关闭</button>
-</template>
-
-### 不自动关闭
-
-<template>
-  <button @click="showNoAutoClose">需要手动关闭</button>
-</template>
-
-### 暂停悬停
-
-<template>
-  <button @click="showPauseOnHover">鼠标悬停时暂停</button>
-</template>
-
-## 高级用法
-
-### 更新 Toast
 
 <template>
   <Button variant="primary" @click="updateToast">更新 Toast</Button>
 </template>
 
 ### 关闭 Toast
+
+<script setup lang="ts">
+import { toast } from 'vue3-toastify'
+
+const removeToast = () => {
+  toast.clearAll()
+}
+</script>
 
 <template>
   <Button variant="danger" @click="removeToast">关闭所有</Button>

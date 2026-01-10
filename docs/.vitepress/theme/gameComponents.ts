@@ -2,14 +2,14 @@ import ItemCard from './components/shop/ItemCard.vue'
 import ShopCard from './components/shop/ShopCard.vue'
 import ShopTabs from './components/shop/ShopTabs.vue'
 
-import RichText from './components/RichText.vue'
+import RichText from './components/ui/RichText.vue'
 
-import Item from './components/Item.vue'
-import ItemList from './components/ItemList.vue'
-import ItemGrid from './components/ItemGrid.vue'
-import Skill from './components/Skill.vue'
-import SkillList from './components/SkillList.vue'
-import SkillGrid from './components/SkillGrid.vue'
+import Item from './components/base/Item.vue'
+import ItemList from './components/base/ItemList.vue'
+import ItemGrid from './components/base/ItemGrid.vue'
+import Skill from './components/base/Skill.vue'
+import SkillList from './components/base/SkillList.vue'
+import SkillGrid from './components/base/SkillGrid.vue'
 import SkillGridType from './components/school/SkillGridType.vue'
 import SkillGridSecretSchoolTabs from './components/school/SkillGridSecretSchoolTabs.vue'
 
@@ -28,14 +28,14 @@ import SceneTele from './components/Scene/SceneTele.vue'
 import SceneTeleType from './components/Scene/SceneTeleType.vue'
 
 import RewardCard from './components/reward/RewardCard.vue'
-import MoneyCard from './components/MoneyCard.vue'
-import Money from './components/Money.vue'
+import MoneyCard from './components/base/MoneyCard.vue'
+import Money from './components/base/Money.vue'
 
-import NpcIcon from './components/NpcIcon.vue'
-import NpcList from './components/NpcList.vue'
+import NpcIcon from './components/base/NpcIcon.vue'
+import NpcList from './components/base/NpcList.vue'
 import NpcFriendList from './components/reward/NpcFriendList.vue'
-import NpcCard from './components/NpcCard.vue'
-import NpcCards from './components/NpcCards.vue'
+import NpcCard from './components/base/NpcCard.vue'
+import NpcCards from './components/base/NpcCards.vue'
 import SceneNpc from './components/Scene/SceneNpc.vue'
 
 import TaskCard from './components/task/TaskCard.vue'
@@ -60,10 +60,10 @@ import WorldMap from './components/world/WorldMap.vue'
 import WorldMapScenes from './components/world/WorldMapScenes.vue'
 
 
-import naiveTooltip from './components/naiveUI/Tooltip.vue'  
-import tippyTooltip from './components/Tippy/Tooltip.vue'  
-import CharImage from './components/CharImage.vue'  
-import ItemImage from './components/ItemImage.vue'  
+import tippyTooltip from './components/Tippy/Tooltip.vue'
+import CharImage from './components/ui/CharImage.vue'
+import ItemImage from './components/ui/ItemImage.vue'
+import Button from './components/ui/Button.vue'
 
 import ObsItemLike from './components/observe/ItemLike.vue'
 import ObsLifeSkill from './components/observe/LifeSkill.vue'
@@ -129,12 +129,12 @@ export function registerGameComponents(app: any) {
   app.component('WorldMap', WorldMap)
   app.component('WorldMapScenes', WorldMapScenes)
 
-  app.component('naiveTooltip', naiveTooltip)
   app.component('tippyTooltip', tippyTooltip)
 
   app.component('RichText', RichText)
   app.component('CharImage', CharImage)
   app.component('ItemImage', ItemImage)
+  app.component('Button', Button)
   
   app.component('ObsItemLike', ObsItemLike)
   app.component('ObsLifeSkill', ObsLifeSkill)

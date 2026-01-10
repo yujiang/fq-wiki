@@ -60,7 +60,6 @@ import WorldMap from './components/world/WorldMap.vue'
 import WorldMapScenes from './components/world/WorldMapScenes.vue'
 
 
-import tippyTooltip from './components/Tippy/Tooltip.vue'
 import CharImage from './components/ui/CharImage.vue'
 import ItemImage from './components/ui/ItemImage.vue'
 import Button from './components/ui/Button.vue'
@@ -128,8 +127,6 @@ export function registerGameComponents(app: any) {
   app.component('WorldMapItem', WorldMapItem)
   app.component('WorldMap', WorldMap)
   app.component('WorldMapScenes', WorldMapScenes)
-
-  app.component('tippyTooltip', tippyTooltip)
 
   app.component('RichText', RichText)
   app.component('CharImage', CharImage)

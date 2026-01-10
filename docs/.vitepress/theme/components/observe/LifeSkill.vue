@@ -24,14 +24,14 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
-import NpcIcon from '../NpcIcon.vue'
+import NpcIcon from '../base/NpcIcon.vue'
 import { getObserves, observe2Skills, XlsObserve } from '../../../data/observe'
 import { getLifeskill } from '../../../data/lifeskill'
 import { SkillIdLevel } from '../../../data/skill'
 import { getTaolu } from '../../../data/taolu'
 import { getNpcArea } from '../../../data/npc'
 import { getSceneName } from '../../../data/scene'
-import SkillGrid from '../SkillGrid.vue'
+import SkillGrid from '../base/SkillGrid.vue'
 
 // 接收场景ID（核心参数）
 const props = defineProps<{

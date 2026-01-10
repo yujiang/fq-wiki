@@ -20,8 +20,8 @@
 <script setup lang="ts">
 import { ref, watch, onMounted } from "vue";
 import Skill from "./Skill.vue";
-import { SkillIdLevel } from "../../data/skill";
-import { getTaoluSkills } from "../../data/taolu";
+import { SkillIdLevel } from "../../../data/skill";
+import { getTaoluSkills } from "../../../data/taolu";
 
 
 // 接收从父组件传入的 skills 数据

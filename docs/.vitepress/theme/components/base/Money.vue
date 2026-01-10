@@ -8,8 +8,8 @@
 
 <script setup lang="ts">
 import { ref, watchEffect } from "vue";
-import { getMoneyGrid, MoneyNum } from "../../data/money";
-import { ItemIdCount } from "../../data/item";
+import { getMoneyGrid, MoneyNum } from "../../../data/money";
+import { ItemIdCount } from "../../../data/item";
 import Item from "./Item.vue";
 
 // 接收 props 数据

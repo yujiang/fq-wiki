@@ -1,20 +1,20 @@
-<!-- SkillGrid.vue skill网格 
- 单行布局封装，
- 负责 “多行列布局” 逻辑 
- <SkillGrid :skills="[{id:50001,level:99},{id:6005020,level:2},{}]" />
- -->
+<!-- ItemGrid.vue item网格 
+对ItemList(单行)布局封装
+负责 “多行列布局” 逻辑 
+<ItemGrid :rows="2" :cols="3" :gap="2" :items="[{id:8889, count:10}, {id:2022, count:1}]"/>
+-->
 
 <template>
   <div class="grid-container" :style="containerStyle">
+    <!-- 循环生成每行的 ItemList，外层包裹带边框的行容器 -->
     <div 
-      v-for="(row, rowIndex) in gridSkills" 
+      v-for="(row, rowIndex) in gridItems" 
       :key="rowIndex" 
       class="grid-row"
       :style="rowContainerStyle"
     >
-      <SkillList 
-        :skills="row" 
-        class="row-inner"
+      <ItemList 
+        :items="row" 
         :style="rowStyle"
       />
     </div>
@@ -23,16 +23,20 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { CSSProperties } from "vue";
-import SkillList from "./SkillList.vue";
-import { SkillIdLevel } from "../../data/skill";
+import { CSSProperties } from "vue"; // 引入CSS类型定义
+import ItemList from "./ItemList.vue";
+import { ItemIdCount } from "../../../data/item";
 
-// 定义传入的属性：cols 变为可选（不传入则单行展示）
+const defaultGap = 2; // 默认网格间距
+function getGap() {
+    return props.gap || defaultGap;
+}
+// 定义传入的属性
 const props = defineProps<{
-  skills: SkillIdLevel[];
-  rows?: number; // 行数：不传入时默认1行
-  cols?: number; // 列数：不传入时自动单行（不拆分）
-  gap?: number; // 网格间距，默认8px
+  items: ItemIdCount[]; // 所有物品数据
+  rows?: number; // 行数（如4）
+  cols?: number; // 列数（如3）
+  gap?: number; // 网格间距，默认4px
 }>();
 
 // 计算实际使用的行列数（核心逻辑）
@@ -42,7 +46,7 @@ const actualRows = computed(() => {
   // 传入 cols 时，行数默认1行（或使用传入的rows）
   // return props.rows || 1;
   // 传入 cols 时，根据总技能数和列数自动计算行数（向上取整）
-  const totalSkills = props.skills.length;
+  const totalSkills = props.items.length;
   const cols = actualCols.value;
   
   // 计算逻辑：总技能数 ÷ 列数，不足1行按1行算
@@ -51,42 +55,36 @@ const actualRows = computed(() => {
 
 const actualCols = computed(() => {
   // 不传入 cols 时，列数等于技能总数（单行展示）
-  if (props.cols === undefined) return props.skills.length;
+  if (props.cols === undefined) return props.items.length;
   // 传入 cols 时使用指定列数
   return props.cols;
 });
 
-const defaultGap = 2; // 默认网格间距
-function getGap() {
-    return props.gap || defaultGap;
-}
 
-// 网格容器样式
+// 计算网格容器样式（显式声明CSS类型）
 const containerStyle = computed<CSSProperties>(() => ({
-  gap: `${getGap()}px`,
-  // 其他继承自 ItemGrid 的基础样式（通过共享CSS实现）
+  gap: `${props.gap || defaultGap}px`, // 行与行之间的间距
 }));
 
-// 行容器样式（继承边框等样式）
+// 计算行容器样式（带边框，显式声明CSS类型）
 const rowContainerStyle = computed<CSSProperties>(() => ({
-  padding: `${(getGap()) + 2}px`,
-  // 边框等样式通过共享CSS定义
+  padding: `${getGap() + 2}px`, // 行内边距，与间距呼应
 }));
 
-// 行内布局样式
+// 计算每行内部 ItemList 的样式
 const rowStyle = computed<CSSProperties>(() => ({
-  gridTemplateColumns: `repeat(${actualCols.value}, 1fr)`,
-  gap: `${getGap()}px`,
+  gridTemplateColumns: `repeat(${actualCols.value}, 1fr)`, // 平均分配列宽
+  gap: `${getGap()}px` // 列与列之间的间距
 }));
 
-// 生成网格数据（不传入cols时自动转为单行）
-const gridSkills = computed<SkillIdLevel[][]>(() => {
-  const result: SkillIdLevel[][] = [];
+// 将一维数组转换为二维网格数组（自动用空对象补齐每行）
+const gridItems = computed<ItemIdCount[][]>(() => {
+  const result: ItemIdCount[][] = [];
   const rows = props.rows || actualRows.value;
   const cols = props.cols || actualCols.value;
   const totalCells = rows * cols; // 总单元格数量
   // 复制原始数据并填充空对象至总单元格数量
-  const filledItems = [...props.skills];
+  const filledItems = [...props.items];
   while (filledItems.length < totalCells) {
     filledItems.push({id: 0}); // 用空对象补齐
   }
@@ -103,5 +101,5 @@ const gridSkills = computed<SkillIdLevel[][]>(() => {
 </script>
 
 <style scoped>
-
+/* 网格整体容器样式 */
 </style>

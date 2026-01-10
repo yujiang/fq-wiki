@@ -44,7 +44,7 @@ export const tipsDirective = {
         instance.setContent(t)
         // 若内容变化导致尺寸变了，顺手更新定位
         instance.popperInstance?.update?.()
-        return true
+        return 
       },
     })
   },

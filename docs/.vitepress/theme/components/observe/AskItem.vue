@@ -24,12 +24,12 @@
 
 <script setup lang="ts">
 import { ref, onMounted, computed } from 'vue'
-import NpcIcon from '../NpcIcon.vue'
+import NpcIcon from '../base/NpcIcon.vue'
 import { getObserves, observe2Asks, observe2Items, XlsObserve } from '../../../data/observe'
 import { getNpcArea } from '../../../data/npc'
 import { getSceneName } from '../../../data/scene'
 import { ItemIdCount } from '../../../data/item'
-import ItemGrid from '../ItemGrid.vue'
+import ItemGrid from '../base/ItemGrid.vue'
 
 // 接收场景ID（核心参数）
 const props = defineProps<{

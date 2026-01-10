@@ -72,11 +72,11 @@
 import { ref, watch, computed, onMounted } from "vue";
 import ItemGrid from "./ItemGrid.vue";
 import SkillGrid from "./SkillGrid.vue";
-import { getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../data/observe";
-import { getNpc, getNpcAvater, getNpcPosition } from "../../data/npc";
-import { ItemIdCount } from "../../data/item";
-import { SkillIdLevel } from "../../data/skill";
-import { getFriendRewards } from "../../data/reward";
+import { getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../../data/observe";
+import { getNpc, getNpcAvater, getNpcPosition } from "../../../data/npc";
+import { ItemIdCount } from "../../../data/item";
+import { SkillIdLevel } from "../../../data/skill";
+import { getFriendRewards } from "../../../data/reward";
 
 const props = defineProps<{ npcId: number }>();
 const loading = ref(true);

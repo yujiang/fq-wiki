@@ -51,9 +51,9 @@ import {
   RewardAll,
   XlsReward,
 } from "../../../data/reward";
-import ItemList from "../ItemList.vue";
-import SkillList from "../SkillList.vue";
-import MoneyCard from "../MoneyCard.vue";
+import ItemList from "../base/ItemList.vue";
+import SkillList from "../base/SkillList.vue";
+import MoneyCard from "../base/MoneyCard.vue";
 import NpcFriendList from "./NpcFriendList.vue";
 
 const isDev = import.meta.env.DEV;

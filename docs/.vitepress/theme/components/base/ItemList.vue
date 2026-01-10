@@ -19,7 +19,7 @@
 <script setup lang="ts">
 import { ref, watch, watchEffect } from "vue";
 import Item from "./Item.vue";
-import { ItemIdCount } from "../../data/item";
+import { ItemIdCount } from "../../../data/item";
 
 // 接收从父组件传入的 items 数据
 const props = defineProps<{

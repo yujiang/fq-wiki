@@ -22,8 +22,8 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
-import ItemList from '../ItemList.vue'
-import NpcList from '../NpcList.vue'
+import ItemList from '../base/ItemList.vue'
+import NpcList from '../base/NpcList.vue'
 import { getAllItems, ItemIdCount, Items, XlsItem } from '../../../data/item'
 import { getObserves, Observes, XlsObserve } from '../../../data/observe'
 

@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watch } from "vue";
-import SkillGrid from "../SkillGrid.vue";
+import SkillGrid from "../base/SkillGrid.vue";
 import { getSkillsFileSchool, getSkillsFileType, SkillIdLevel, Skills } from "../../../data/skill";
 
 // 接收类型和布局参数

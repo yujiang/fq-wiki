@@ -47,7 +47,7 @@
 import { ref, onMounted, watch, computed } from "vue";
 import { XlsTask, getDesDesc, getTaskNext, getTask, getTasks, getTaskReward } from "../../../data/task";
 import RewardCard from "../reward/RewardCard.vue";
-import RichText from "../RichText.vue";
+import RichText from "../ui/RichText.vue";
 import { getChapter, getChapterLabel } from "../../../data/chapter";
 
 // 接收 props 数据

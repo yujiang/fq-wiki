@@ -1094,12 +1094,22 @@ export default [
         "text": "naive",
         "items": [
           {
-            "text": "测试 Message",
+            "text": "button",
             "link": "/50-test/naive/01-button"
-          },
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "ui",
+        "items": [
           {
             "text": "tooltips",
-            "link": "/50-test/naive/08-tooltips"
+            "link": "/50-test/ui/08-tooltips"
+          },
+          {
+            "text": "Button 组件测试",
+            "link": "/50-test/ui/button"
           }
         ],
         "collapsed": true

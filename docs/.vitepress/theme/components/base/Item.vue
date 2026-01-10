@@ -25,9 +25,9 @@ import {
   getItemIcon,
   getItemById,
   ItemIdCount,
-} from "../../data/item";
-import { getRankBgStyle } from "../../data/xls";
-import { getFriendLevelDesc } from "../../data/npc";
+} from "../../../data/item";
+import { getRankBgStyle } from "../../../data/xls";
+import { getFriendLevelDesc } from "../../../data/npc";
 // import { getRankBgStyle } from "../../data/xls";
 const isDev = import.meta.env.DEV;
 

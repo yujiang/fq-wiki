@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import NpcIcon from "../NpcIcon.vue";
+import NpcIcon from "../base/NpcIcon.vue";
 import { NpcFriend } from "../../../data/npc";
 
 // 只接收列表和选中ID，触发选择事件

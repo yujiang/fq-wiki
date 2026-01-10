@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watch, computed } from "vue";
-import NpcCards from "../NpcCards.vue";
+import NpcCards from "../base/NpcCards.vue";
 import { fillterNpcByScene, getNpcs } from "../../../data/npc";
 import { getObserves } from "../../../data/observe";
 import { getSoldiers } from "../../../data/soldier";

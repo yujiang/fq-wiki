@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watch } from "vue";
-import SkillGrid from "../SkillGrid.vue";
+import SkillGrid from "../base/SkillGrid.vue";
 import { SkillIdLevel } from "../../../data/skill";
 import { getTaoluSkills } from "../../../data/taolu";
 

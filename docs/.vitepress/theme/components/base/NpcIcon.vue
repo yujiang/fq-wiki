@@ -28,8 +28,8 @@ import {
   XlsNpc,
   getNpc,
   getNpcIcon,
-} from "../../data/npc";
-import { getRankBgStyle } from "../../data/xls";
+} from "../../../data/npc";
+import { getRankBgStyle } from "../../../data/xls";
 
 // 1. 接收 props：新增 isSelected 控制选中状态
 const props = defineProps<{

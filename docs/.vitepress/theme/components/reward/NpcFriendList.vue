@@ -4,11 +4,11 @@
   <div class="base-list npc-list">
     <NpcIcon
       v-for="npc in props.npcs"
-      :key="npc.npcId"
-      :npcId="npc.npcId"
+      :key="npc.id"
+      :npcId="npc.id"
       :friend="npc.friend"
-      :isSelected="npc.npcId === props.selectedId" 
-      @click="$emit('select', npc.npcId)"  
+      :isSelected="npc.id === props.selectedId" 
+      @click="$emit('select', npc.id)"  
     />
   </div>
 </template>

@@ -1,3 +1,5 @@
+import { getRewardMoney, MoneyTypeEnum } from "./reward";
+import { getTaskNext, getTasks } from "./task";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsChapter extends XlsBase {
@@ -27,3 +29,17 @@ export async function getChapterLabel(id: number) {
   const xls = await getChapter(id);
   return `${xls.Name} - ${xls.Scene}(${xls.Grade})`;
 }
+
+// export async function chapterExp(xls: XlsChapter) {
+//   const tasks = await getTasks();
+//   const grade = parseInt(xls.Grade);
+//   let task = xls.TaskStart;
+//   let exp = 0;
+//   while (task && task !== xls.TaskEnd) {
+//     const tb = tasks[task];
+//     const rw = tb.Reward || tb.WillReward || 0;
+//     exp += getRewardMoney(rw, MoneyTypeEnum.exp);
+//     task = getTaskNext(tb);
+//   }
+//   return exp;
+// }

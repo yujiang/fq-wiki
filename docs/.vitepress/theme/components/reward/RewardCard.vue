@@ -20,8 +20,8 @@
       />
       <ItemList :items="allReward?.items" v-if="allReward?.items && allReward.items?.length > 0" />
       <SkillList
-        :skills="allReward.lifeskills"
-        v-if="allReward?.lifeskills && allReward.lifeskills.length > 0"
+        :skills="allReward.skills"
+        v-if="allReward?.skills && allReward.skills.length > 0"
       />
       <NpcFriendList
         :npcs="allReward.friend"
@@ -99,7 +99,7 @@ const updateReward = async (newId: number) => {
       all.sceneScore?.Score ||
       all.items.length ||
       all.moneys.length ||
-      all.lifeskills.length ||
+      all.skills.length ||
       all.friend.length;
     haveReward.value = have > 0;
   }

@@ -10,6 +10,9 @@
       <span class="task-difficulty" :class="`difficulty-${task?.Diff || '普通'}`" v-if="!chapter">
         难度：{{ task?.Diff || '普通' }}
       </span>
+      <span class="wiil-grade" v-if="chapter">
+        {{ willGrade() }}
+      </span>
     </div>
 
     <!-- 领取条件 -->
@@ -49,11 +52,14 @@ import { XlsTask, getDesDesc, getTaskNext, getTask, getTasks, getTaskReward } fr
 import RewardCard from "../reward/RewardCard.vue";
 import RichText from "../ui/RichText.vue";
 import { getChapter, getChapterLabel } from "../../../data/chapter";
+import { MoneyTypeEnum, RewardAll, sumRewards, XlsReward } from "../../../data/reward";
+import { getMoney, getMoneyIcon } from "../../../data/money";
+import { heroWillLevelup, willLevelup } from "../../../data/formula";
 
 // 接收 props 数据
 // end 结束任务, 用于分段
 // chapter 是否主线?
-const props = defineProps<{ taskId: number, end?: number, chapter?: boolean; nonext?: boolean}>();
+const props = defineProps<{ taskId: number, end?: number, chapter?: boolean; nonext?: boolean }>();
 
 // 异步加载所有 tasks
 let task = ref<XlsTask | null>(null);
@@ -61,12 +67,21 @@ let taskSteps = ref<XlsTask[]>([]);
 let last = ref<XlsTask | null>(null);
 let taskStepDescs = ref<string[]>([]);
 let label = ref<string | null>(null);
+
+// let sumReward = ref<RewardAll | null>(null);
+let allexp = ref<number>(0);
+let upgrade = ref<number>(0);
+
 const isDev = import.meta.env.DEV;
 
 function getTaskLabel() {
   if (!props.chapter) return task.value?.Name + (isDev ? `(${task.value?.Id})` : '');
   // const xls = getChapter(props.taskId);
   return getChapterLabel(props.taskId);
+}
+
+function willGrade() {
+  return `经验总计:${allexp.value} 升至等级:${upgrade.value}`;
 }
 
 function getAcceptDesc(desc: string | undefined) {
@@ -148,6 +163,34 @@ const updateTask = async (heads: number[], id: number, end?: number) => {
   taskSteps.value = all;
   taskStepDescs.value = alldesc;
   last.value = l;
+  const sum = await sumRewards(
+    all.map((t) => {
+      const rw = getTaskReward(t);
+      return rw > 0 ? rw : 0;
+    })
+  );
+
+  const mxls = await getMoney(MoneyTypeEnum.exp);
+  allexp.value = 0;
+  if (sum) {
+    const find = sum.moneys.find(m => m.id === mxls?.ItemId);
+    if (find) {
+      allexp.value = Number(find.count || 0);
+    }
+    // console.log("exp", sum?.moneys, mxls?.ItemId, find, allexp.value);
+  }
+
+    if (props.chapter) {
+      // if (!allexp.value) return '';
+      const chapter = await getChapter(props.taskId);
+      // if(!task.value) return 0;
+      if (!chapter) return '';
+      const start = parseInt(chapter.Grade) || 0;
+
+      const grade = await heroWillLevelup(start, allexp.value);
+      upgrade.value = grade;
+    }
+
 };
 
 </script>

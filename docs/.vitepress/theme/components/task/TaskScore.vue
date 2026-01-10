@@ -14,7 +14,7 @@
 <script setup lang=ts>
 import { ref, computed, onMounted } from 'vue'
 import { getTasks } from '../../../data/task'
-import { getReward } from '../../../data/reward'
+import { getReward, hasScore } from '../../../data/reward'
 import { getSceneName, getScenes } from '../../../data/scene'
 import TaskList from './TaskList.vue'
 
@@ -33,7 +33,7 @@ onMounted(async () => {
     
     const r = xls.Reward == 1 ? xls.Id : xls.Reward;
     const reward = await getReward(r);
-    if (!reward || !reward.Scene || !reward.SceneScore) continue
+    if (! hasScore(reward)) continue
     
     const sceneId = reward.Scene
     if (!groups[sceneId]) {

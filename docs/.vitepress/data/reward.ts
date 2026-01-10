@@ -54,6 +54,11 @@ export async function getReward(id: number) {
   return (await getRewards())[id];
 }
 
+export function getRewardSync(id: number) {
+  return rewards[id];
+}
+
+
 export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
   const items = await getRewardItems(id);
   const moneys = await getRewardMoneys(id);
@@ -61,7 +66,7 @@ export async function getRewardItemMoney(id: number): Promise<ItemIdCount[]> {
 }
 
 // 返回 {id: count:} 给ItemList使用
-function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
+function item2RewardItems(a: number | number[] | RewardItem[]): ItemIdCount[] {
   if (typeof a === "number") {
     return a > 0
       ? [{ id: a, count: 1, rand: 0 }]
@@ -74,7 +79,7 @@ function item2RewardItems(a: RewardItem[]): ItemIdCount[] {
         : { id: -i, count: -1, rand: 0 };
     });
   }
-  return a.map((i) => {
+  return (a as RewardItem[]).map((i) => {
     return i[0] > 0
       ? { id: i[0], count: i[1], rand: i[2] }
       : { id: -i[0], count: -i[1], rand: i[2] };
@@ -110,7 +115,7 @@ export async function getRewardItems(id: number): Promise<ItemIdCount[]> {
 }
 
 // 把money渲染为grid
-export async function getRewardMoneys(id: number): Promise<ItemIdCount[]> {
+export async function getRewardMoneys(id: number): Promise<MoneyCount[]> {
   const r = await getReward(id);
   if (!r?.Money) return [];
   const rt = [];
@@ -130,9 +135,9 @@ export function getRewardSkills(xls: XlsReward): SkillIdLevel[] {
       const [skill, exp] = xls.SecretExp;
       rt.push({ id: skill, exp });
     } else {
-      const skill = 20000; //通用战斗，取其icon使用
-      const exp = xls.SecretExp;
-      rt.push({ id: skill, exp });
+      // const skill = 20000; //通用战斗，取其icon使用
+      // const exp = xls.SecretExp;
+      rt.push({ id: 20000, exp: xls.SecretExp });
     }
   }
   if (xls.SkillExp) {
@@ -140,6 +145,7 @@ export function getRewardSkills(xls: XlsReward): SkillIdLevel[] {
       rt.push({ id: m[0], exp: m[1] });
     }
   }
+  // -1 获得秘技!
   if (xls.Secret) {
     const [skill, level, maxlv] = xls.Secret;
     rt.push({ id: skill, exp: -1 });
@@ -153,7 +159,7 @@ export function getRewardFriends(xls: XlsReward): NpcFriend[] {
       typeof xls.NpcFriend[0] === "number" ? [xls.NpcFriend] : xls.NpcFriend
     ) as any;
     return nf.map((i) => {
-      return { npcId: i[0], friend: i[1] };
+      return { id: i[0], friend: i[1] };
     });
   }
   return [];
@@ -165,10 +171,15 @@ export interface SceneScore {
   Score: number;
 }
 
+export interface MoneyCount{
+  id: number;
+  count?: number|string;
+}
+
 export interface RewardAll {
   items: ItemIdCount[];
-  moneys: ItemIdCount[];
-  lifeskills: SkillIdLevel[];
+  moneys: MoneyCount[];
+  skills: SkillIdLevel[]; //包括,秘技
   friend: NpcFriend[];
   sceneScore: SceneScore | null;
 }
@@ -179,7 +190,7 @@ export async function getRewardA(newId: number): Promise<RewardAll | null> {
   if (!xls) return null;
   const items = await getRewardItems(newId);
   const moneys = await getRewardMoneys(newId);
-  const lifeskills = getRewardSkills(xls);
+  const skills = getRewardSkills(xls);
   const friend = getRewardFriends(xls);
   let sceneScore = null;
   if (xls.Scene && xls.SceneScore) {
@@ -192,7 +203,7 @@ export async function getRewardA(newId: number): Promise<RewardAll | null> {
       };
     }
   }
-  return { items, moneys, lifeskills, friend, sceneScore };
+  return { items, moneys, skills, friend, sceneScore };
 }
 
 export async function getRewardAll(newId: number): Promise<RewardAll | null> {
@@ -207,10 +218,10 @@ export async function getRewardAll(newId: number): Promise<RewardAll | null> {
       if (sub) {
         rt.items.push(...sub.items);
         rt.moneys.push(...sub.moneys);
-        rt.lifeskills.push(...sub.lifeskills);
-        if (sub.sceneScore && !rt.sceneScore) {
-          rt.sceneScore = sub.sceneScore;
-        }
+        rt.skills.push(...sub.skills);
+        // if (sub.sceneScore && !rt.sceneScore) {
+        //   rt.sceneScore = sub.sceneScore;
+        // }
       }
     }
   }
@@ -243,4 +254,102 @@ export async function getFriendRewards(npc: number) {
     }
   }
   return rt;
+}
+
+export enum MoneyTypeEnum {
+	null,
+	gold,// 元宝
+	silver,// 银两
+	exp,// 经验
+	yueli,// 阅历
+	school,// 门贡
+	camp,// 势力贡献
+	imperial,// 皇宫声望
+	u1,// lakeprestige, // 江湖声望
+	u2,// athleticglory, // 竞技荣誉
+	strength,// 10 当前体力
+	morals,// 道德值
+	antique,// 古董升星石
+	u4,// strengthMax, // 最大体力值
+	prestige,// 声望
+	zhenqi,// 真气
+	Satiety,// 饱食度
+	u5,// item, // 道具 for cost use
+
+	u6,// hunterBlood, // 打猎血量
+	u7,// rod, // 鱼竿
+	u8,// 20 bait, // 鱼饵
+	u9,// seaRod, // 海鱼竿
+	u10,// seaBait, // 海鱼饵
+	u11,// meat, // 肉
+
+	lotteryMoney,// 抽奖代币
+	lotteryTicket,// 抽奖券
+	tower,//爬塔
+	memory,// 记忆碎片 没有用到,用的是counter 8127
+	shaolinSin,// 少林破戒
+
+	Shilian,//试炼
+
+	MaxNum,
+	voucher
+}
+
+// 有声望吗?
+export function hasScore(xls: XlsReward): boolean {
+  if (!xls) return false;
+  // return xls.Scene > 0 && xls.SceneScore > 0 || xls.Money?.some(m => m[0] === Monetype_Score);
+  return xls.Scene > 0 && xls.SceneScore > 0 ;
+}
+
+// export function getRewardMoney(rw: number, my: MoneyTypeEnum): number {
+//   const xls: XlsReward = getRewardSync(rw);
+//   const money = xls.Money;
+//   if (!money) return 0;
+//   return money.find((m) => m[0] === my)?.[1] || 0;
+// }
+
+export async function sumRewards(rws: number[]) {
+  const rewards = await getRewards();
+  let rt: RewardAll|null = null;
+  for (const rw of rws) {
+    const xls = rewards[rw];
+    if (!xls) continue;
+    if (!rt) {
+      rt = await getRewardAll(rw) ;
+    }
+    else {
+      const r2 = await getRewardAll(rw) ;
+      if (r2) {
+        MergeRerwardAll(rt, r2);
+      }
+    }
+  }
+  // console.log('sumRewards', rws, rt);
+  return rt;
+}
+
+export function MergeRerwardAll(rt: RewardAll, r2: RewardAll) {
+  MergeArray(rt.items, r2.items);
+  MergeArray(rt.moneys, r2.moneys);
+  MergeArray(rt.skills, r2.skills, 'exp');
+  MergeArray(rt.friend, r2.friend, 'friend'); 
+  if (!rt.sceneScore){
+    rt.sceneScore = r2.sceneScore;
+  } 
+  else if (r2.sceneScore && rt.sceneScore.Id === r2.sceneScore.Id) {
+    rt.sceneScore.Score += r2.sceneScore.Score;
+  }
+}
+
+function MergeArray<T extends { id: number }>(a1: T[], a2: T[], key: string = 'count') {
+  for (const a of a2) {
+    const find = a1.find(i => i.id === a.id);
+    if (find) {
+      (find as any)[key] += (a as any)[key] || 0;
+    }
+    else {
+      a1.push(a);
+    }
+  }
 }

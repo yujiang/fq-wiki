@@ -8,7 +8,7 @@ export interface XlsNpc extends XlsSceneObj {
 };
 
 export interface NpcFriend{
-  npcId: number;
+  id: number;
   friend: number; // 友好度
 }
 

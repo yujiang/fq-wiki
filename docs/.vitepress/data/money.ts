@@ -1,4 +1,5 @@
 import { getItemById, getItemIcon, ItemIdCount } from "./item";
+import { MoneyCount } from "./reward";
 import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsMoney extends XlsBase {
@@ -38,7 +39,7 @@ export interface MoneyNum{
   compact?: boolean;
 }
 
-export async function getMoneyGrid(moneytype: number, num: number, compact: boolean) : Promise<ItemIdCount> {
+export async function getMoneyGrid(moneytype: number, num: number, compact: boolean) : Promise<MoneyCount> {
     const xls = await getMoney(moneytype);
     if (xls) return { id: xls.ItemId, count: compact ? formatAmount(num) : num };
     return {id: 0, count: 0};

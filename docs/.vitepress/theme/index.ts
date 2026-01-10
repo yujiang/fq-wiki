@@ -21,7 +21,7 @@ import { registerGameComponents } from './gameComponents'
 // import { setup } from '@css-render/vue3-ssr'
 // import { useRoute } from 'vitepress'
 import { tipsDirective } from '../ui/tipsDirective'
-import { getVuetify } from './vuetify'
+// import { getVuetify } from './vuetify'
 import { getToastify } from './toast'
 
 export default {
@@ -34,7 +34,7 @@ export default {
     // SSR 守卫
     if (typeof window === 'undefined') return;
 
-    app.use(getVuetify());
+    // app.use(getVuetify());
     app.use(getToastify());
 
     enhanceAppWithTabs(app)

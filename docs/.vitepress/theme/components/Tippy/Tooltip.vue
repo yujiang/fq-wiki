@@ -1,8 +1,8 @@
 <template>
   <div style="padding: 60px">
-    <button ref="btn" @click="count++" >
+    <Button ref="btn" @click="count++" >
       点击我
-    </button>
+    </Button>
 
     <p style="margin-top: 12px; color: #888">
       已点击：{{ count }} 次（tooltip 内容会变化）
@@ -10,15 +10,15 @@
   </div>
 
   <div >
-    <button v-tips="'hello world!'" >
-      button(hello world)
-    </button>
+    <Button v-tips="'hello world!'" >
+      Button(hello world)
+    </Button>
 </div>
 
   <div >
-    <button v-tips="() => `次数 ${count}`">
+    <Button v-tips="() => `次数 ${count}`">
     函数 tooltip
-    </button>
+    </Button>
 </div>
 
 </template>

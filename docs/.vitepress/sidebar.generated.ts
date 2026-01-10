@@ -1091,18 +1091,12 @@ export default [
         "collapsed": true
       },
       {
-        "text": "naive",
+        "text": "ui",
         "items": [
           {
             "text": "button",
-            "link": "/50-test/naive/01-button"
-          }
-        ],
-        "collapsed": true
-      },
-      {
-        "text": "ui",
-        "items": [
+            "link": "/50-test/ui/01-button"
+          },
           {
             "text": "tooltips",
             "link": "/50-test/ui/08-tooltips"
@@ -1110,6 +1104,14 @@ export default [
           {
             "text": "Button 组件测试",
             "link": "/50-test/ui/button"
+          },
+          {
+            "text": "Toast 组件测试",
+            "link": "/50-test/ui/toast"
+          },
+          {
+            "text": "toast2",
+            "link": "/50-test/ui/toast2"
           }
         ],
         "collapsed": true

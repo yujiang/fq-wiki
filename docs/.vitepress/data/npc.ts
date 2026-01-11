@@ -7,7 +7,7 @@ export interface XlsNpc extends XlsSceneObj {
   Observe: number;
 };
 
-export interface NpcFriend{
+export interface NpcFriend {
   id: number;
   friend: number; // 友好度
 }
@@ -17,7 +17,7 @@ export type Npcs = Record<number, XlsNpc>;
 let npcs: Npcs;
 export async function getNpcs() {
   if (!npcs) {
-    npcs = (await fetchXls('npc')) as Npcs 
+    npcs = (await fetchXls('npc')) as Npcs
   }
   return npcs;
 }
@@ -30,7 +30,7 @@ export async function getNpc(id: number) {
 export async function getNpcPosition(id: number) {
   const xls = await getNpc(id);
   if (xls.Scene && xls.x && xls.y) {
-    return getScenePositionClient(xls.Scene,xls.x,xls.y)
+    return getScenePositionClient(xls.Scene, xls.x, xls.y)
   }
   return '';
 }
@@ -38,7 +38,7 @@ export async function getNpcPosition(id: number) {
 export async function getNpcNameAndPosition(id: number) {
   const xls = await getNpc(id);
   if (xls.Scene && xls.x && xls.y) {
-    const desc = await getScenePositionClient(xls.Scene,xls.x,xls.y);
+    const desc = await getScenePositionClient(xls.Scene, xls.x, xls.y);
     return `${xls.Name}(${desc})`
   }
   return '';
@@ -47,27 +47,38 @@ export async function getNpcNameAndPosition(id: number) {
 export async function getNpcArea(npcId: number) {
   const xls = await getNpc(npcId);
   if (!xls) return 0;
-  const xls2 =await getScene(xls.Scene);
+  const xls2 = await getScene(xls.Scene);
   return xls2?.SceneArea || xls.Scene || 0;
 }
 
-export function getNpcAvater(icon: number|undefined) {
-   if (!icon) return "";
-   return `/images/icon/char/268x249/${icon}.png`;
+export function getNpcAvater(icon: number | undefined) {
+  if (!icon) return "";
+  return `/images/icon/char/268x249/${icon}.png`;
 }
 
-export function getNpcIcon(icon: number|undefined) {
-   if (!icon) return "";
-   return `/images/icon/char/80x80/${icon}.png`;
+export function getNpcIcon(icon: number | undefined) {
+  if (!icon) return "";
+  return `/images/icon/char/80x80/${icon}.png`;
 }
 
-const fLevelDesc = ['', '普通','友好','挚友','知己'];
+const fLevelDesc = ['', '普通', '友好', '挚友', '知己'];
 export function getFriendLevelDesc(level: number) {
   return fLevelDesc[level] || '未知';
 }
 
 export async function fillterNpcByScene(scene: number) {
-   const npcs = await getNpcs();
-   const scenes = await getScenes();
-   return Object.values(npcs).filter(npc => npc.Scene === scene || (npc.Scene && scenes[npc.Scene]?.Belong === scene));
+  const npcs = await getNpcs();
+  const scenes = await getScenes();
+  return Object.values(npcs).filter(
+    npc => npc.Scene === scene 
+    || (npc.Scene && scenes[npc.Scene]?.Belong === scene));
+}
+
+export async function fillterNpcByArea(scene: number) {
+  const npcs = await getNpcs();
+  const scenes = await getScenes();
+  return Object.values(npcs).filter(
+    npc => npc.Scene === scene 
+    || (scenes[npc.Scene]?.Belong === scene)
+    || (scenes[npc.Scene]?.SceneArea === scene));
 }

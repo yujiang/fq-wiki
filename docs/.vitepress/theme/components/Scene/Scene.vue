@@ -33,7 +33,7 @@
     <div class="scene-section" id="npcs" v-if="isShow('npc')">
       <h2 class="section-title">主要人物</h2>
       <div class="section-content">
-        <SceneNpc :sceneId="props.sceneId" />
+        <SceneNpc :sceneId="props.sceneId" :asArea="props.asArea" />
       </div>
     </div>
 
@@ -81,6 +81,7 @@ import ShopTabs from "../shop/ShopTabs.vue";
 const props = defineProps<{
   sceneId: number; // 场景唯一标识（如杏花村=101）
   shows?: string[];
+  asArea?: boolean;
 }>();
 
 function isShow(show: string) {
@@ -88,8 +89,6 @@ function isShow(show: string) {
     if (!props.shows) return true;
     return props.shows.includes(show);
 }
-
-
 
 // 场景完整数据
 const xls = ref<XlsScene | null>(null);

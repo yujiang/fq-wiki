@@ -61,7 +61,7 @@
       </div>
       <div class="npc-card__grid-section">
         <h4 class="npc-card__grid-title">掌握技能</h4>
-        <SkillGrid :skills="skills" :cols="3" :rows="2" />
+        <SkillGrid :skills="skills" :cols="3" :rows="1" />
       </div>
     </div>
   </div>
@@ -115,7 +115,17 @@ const updateCurrentObserve = async (id: number) => {
       npcicon.value = getNpcAvater(info?.Display?.icon) ;
       likedesc.value = observe2Like(xls.Like);
       posdesc.value = info ? await getNpcPosition(info.Id) : '';
-      const items2 = observe2Items(xls.Items).concat(observe2Asks(xls.AskItems));      
+      
+      const items2 = observe2Items(xls.Items)
+      const len2 = items2.length;
+      const ask2 = observe2Asks(xls.AskItems); 
+      if (items2.length > 0 && items2.length < 3 && ask2.length > 0) {
+        for (let i = 0; i < 3 - len2; i++) {
+          items2.push({id:0,count:0});
+        }
+      }
+      items2.push(...ask2);
+
       const skills2 = await observe2Skills(xls.Skills);
       // console.log('NpcCard.vue',id,items2,skills2);
       items.value = items2;

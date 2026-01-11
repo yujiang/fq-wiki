@@ -35,7 +35,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed } from "vue";
 import NpcCards from "../base/NpcCards.vue";
-import { fillterNpcByScene, getNpcs } from "../../../data/npc";
+import { fillterNpcByArea, fillterNpcByScene, getNpcs } from "../../../data/npc";
 import { getObserves } from "../../../data/observe";
 import { getSoldiers } from "../../../data/soldier";
 
@@ -46,7 +46,7 @@ const tabs: Array<{ type: NpcType; label: string }> = [
   { type: "other", label: "其他" },
 ];
 
-const props = defineProps<{ sceneId: number }>();
+const props = defineProps<{ sceneId: number, asArea?: boolean }>();
 
 const allNpcs = ref<Record<NpcType, number[]>>({
   soldier: [],
@@ -76,8 +76,9 @@ async function updateSceneNpcs(sceneId: number) {
   const token = ++reqToken;
   isLoading.value = true;
   try {
+    const func = props.asArea ? fillterNpcByArea : fillterNpcByScene;
     const [sceneNpcs, allnpcs, obs, soldiers] = await Promise.all([
-      fillterNpcByScene(sceneId),
+      func(sceneId),
       getNpcs(),
       getObserves(),
       getSoldiers(),

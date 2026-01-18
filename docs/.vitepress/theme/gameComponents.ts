@@ -27,6 +27,7 @@ import TeleList from './components/Scene/TeleList.vue'
 import SceneTele from './components/Scene/SceneTele.vue'
 import SceneTeleType from './components/Scene/SceneTeleType.vue'
 
+import RewardDemo from './components/demo/RewardDemo.vue'
 import RewardCard from './components/reward/RewardCard.vue'
 import MoneyCard from './components/base/MoneyCard.vue'
 import Money from './components/base/Money.vue'
@@ -97,6 +98,7 @@ export function registerGameComponents(app: any) {
   app.component('SceneTeleType', SceneTeleType)
   app.component('SceneTele', SceneTele)
 
+  app.component('RewardDemo', RewardDemo)
   app.component('RewardCard', RewardCard)
   app.component('MoneyCard', MoneyCard)
   app.component('Money', Money)

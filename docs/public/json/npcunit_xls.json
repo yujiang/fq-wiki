@@ -5345,6 +5345,7 @@
     "Dif": "易",
     "Major": "均衡型",
     "Rank": 1,
+    "FightData": 10001,
     "Power": 2,
     "MoveRange": 1,
     "AttackRange": 2
@@ -5362,16 +5363,17 @@
     "Dif": "易",
     "Major": "均衡型",
     "Rank": 2,
+    "FightData": 10001,
     "Power": 2,
     "MoveRange": 1,
     "AttackRange": 1
   },
   "202038": {
     "Id": 202038,
-    "Name": "骑兵",
+    "Name": "刀兵",
     "Shape": 6007,
     "RandName": [
-      "骑兵"
+      "刀兵"
     ],
     "Info": {
       "sex": "男"
@@ -5379,6 +5381,7 @@
     "Dif": "易",
     "Major": "均衡型",
     "Rank": 3,
+    "FightData": 10001,
     "Power": 4,
     "MoveRange": 2,
     "AttackRange": 1

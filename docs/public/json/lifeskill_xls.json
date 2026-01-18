@@ -213,12 +213,15 @@
   "50017": {
     "Id": 50017,
     "Name": "公输",
-    "Icon": 50001,
+    "Icon": 51040,
     "Type": "produce",
     "Desc": "公输家",
     "Detail": "制造机关人采集物品",
+    "MaxLevel": 300,
+    "UpgradeExp": 50018,
     "Tags": "公输家",
     "Effect": "永久",
+    "Leveltype": "level",
     "LevelupTips": "公输升级了",
     "ExpTips": "公输熟练度增加{0}"
   },
@@ -649,7 +652,7 @@
   "50055": {
     "Id": 50055,
     "Name": "读书识字",
-    "Icon": 51010,
+    "Icon": 51042,
     "Type": "knowledge",
     "Desc": "学问，升级方式读书",
     "Detail": "学会读书识字才能学其他经典.",

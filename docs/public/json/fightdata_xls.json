@@ -6,7 +6,6 @@
       "monster_生命百分比": 0,
       "monster_免伤": 0,
       "monster_增伤": 0,
-      "monster_聚气": 0,
       "臂力加成": 0,
       "身法加成": 0,
       "根骨加成": 0,
@@ -21,11 +20,7 @@
       "monster_速度百分比": 0,
       "monster_治疗加成": 0,
       "monster_恢复加成": 0,
-      "other_连击率": 0,
-      "other_追击率": 0,
-      "other_反击率": 0,
       "monster_反伤": 0,
-      "other_反震率": 0,
       "monster_吸血": 0
     }
   },

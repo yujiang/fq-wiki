@@ -1,4 +1,4 @@
-import { ItemIdCount } from "./item";
+import { getAllItems, getItemIcon, ItemIdCount } from "./item";
 import { getScenePositionClient } from "./scene";
 import { SkillIdLevel } from "./skill";
 import { getLearnTaoluInfo } from "./taolu";
@@ -21,11 +21,21 @@ interface TaskParamLike {
 	rank?: number; // rank品质
 }
 
+export interface TaskParamGiveSay {
+	rand?: number; //默认0
+	itemid: number | number[];
+	// tag?: string;
+	num: number | number[];
+	// tips: number; // 是否提示他！
+	say?: number;
+}
+
 export interface XlsObserve extends XlsSceneObj {
     Npc: number;
     School: string;
     Power: string;
     Like: TaskParamLike;
+    Item: TaskParamGiveSay;
     Items: ObserveItem[];
     AskItems: AskItem[];
     Skills: ObserveWillType[];
@@ -69,7 +79,7 @@ async function mapSkill(_Skill: ObserveWillType, curLevel: number): Promise<Skil
 			return {} as SkillIdLevel;
 		}
 		return {
-			id: xls.Taolu,
+			id: xls.Taolu || xls.LifeSkill || xls.Secret,
 			level: xls.MaxLevel,
 			fLevel: Skill[1],
 		};
@@ -82,7 +92,7 @@ function mapItem(item: ObserveItem): ItemIdCount {
 	const [id, count, rand, needLevel] = item;
 	return {
 		id,
-		count,
+		count: count || 1,
 		fLevel: needLevel,
 	};
 }
@@ -97,10 +107,22 @@ function mapAsk(item: AskItem): ItemIdCount {
 	};
 }
 
+export async function getLikeDesc(xls: XlsObserve): Promise<string> {
+  const like = observe2Like(xls.Like);
+  if (xls.Item) {
+    const allitems = await getAllItems();
+    const items = Array.isArray(xls.Item.itemid) ? xls.Item.itemid : [xls.Item.itemid];
+    const names = items.map((id) => allitems[id]?.Name);
+    names.unshift(like);
+    return names.join(' ');
+  }
+  return like;
+}
+
 export function observe2Like(like: TaskParamLike): string{
     const str = like?.tags;
     if (!str) {
-        return '不详';
+        return '';
     }
     return Array.isArray(str) ? str.join(',')  : str;
 }

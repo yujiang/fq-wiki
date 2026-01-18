@@ -1158,6 +1158,16 @@ export default [
     "collapsed": false
   },
   {
+    "text": "tool",
+    "items": [
+      {
+        "text": "reward",
+        "link": "/51-tool/01-reward"
+      }
+    ],
+    "collapsed": false
+  },
+  {
     "text": "开发",
     "items": [
       {

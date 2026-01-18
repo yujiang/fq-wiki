@@ -3,42 +3,113 @@
     "Id": 1,
     "Name": "第一关",
     "Tips": "提子：俗称吃子，将对方棋子周围所有交叉点占住，使其无“气”，则可提取，将无气之子提出棋盘外。",
-    "InitPlayer": ["c5", "d4", "d6"],
-    "InitNpc": ["d5"],
-    "playerList": ["e5"],
-    "PlayerKill": [["d5"]],
+    "InitPlayer": [
+      "c5",
+      "d4",
+      "d6"
+    ],
+    "InitNpc": [
+      "d5"
+    ],
+    "playerList": [
+      "e5"
+    ],
+    "PlayerKill": [
+      [
+        "d5"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "2": {
     "Id": 2,
     "Name": "第二关",
     "Tips": "气：棋子于棋盘，直线紧连的所有空交叉点，称为其“气”，同色棋子直线紧密相连，则视为一体，其气会共有。",
-    "InitPlayer": ["c5", "c6", "d4", "d7", "e5"],
-    "InitNpc": ["d5", "d6"],
-    "playerList": ["e6"],
-    "PlayerKill": [["d5", "d6"]],
+    "InitPlayer": [
+      "c5",
+      "c6",
+      "d4",
+      "d7",
+      "e5"
+    ],
+    "InitNpc": [
+      "d5",
+      "d6"
+    ],
+    "playerList": [
+      "e6"
+    ],
+    "PlayerKill": [
+      [
+        "d5",
+        "d6"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "3": {
     "Id": 3,
     "Name": "第三关",
     "Tips": "虎口：以折角的样式形成对方棋子下入会只剩下一口气的地方,尝试构建虎口",
-    "InitPlayer": ["h3", "g4", "f5"],
-    "InitNpc": ["g2", "g3", "f3", "f4", "e4", "h6", "g7", "h8"],
-    "playerList": ["h5", "g6"],
-    "PlayerKill": [[], ["g5"]],
-    "npcList": ["g5"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "h3",
+      "g4",
+      "f5"
+    ],
+    "InitNpc": [
+      "g2",
+      "g3",
+      "f3",
+      "f4",
+      "e4",
+      "h6",
+      "g7",
+      "h8"
+    ],
+    "playerList": [
+      "h5",
+      "g6"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g5"
+      ]
+    ],
+    "npcList": [
+      "g5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "4": {
     "Id": 4,
     "Name": "第四关",
     "Tips": "征子：俗称扭羊头，一种常见的提子方法，将对方棋子以包夹之势引向棋盘边界，最终绝路。",
-    "InitPlayer": ["g6", "f5", "e5"],
-    "InitNpc": ["f6"],
-    "playerList": ["f7", "d6", "e8", "c7", "d9", "b8", "b9"],
+    "InitPlayer": [
+      "g6",
+      "f5",
+      "e5"
+    ],
+    "InitNpc": [
+      "f6"
+    ],
+    "playerList": [
+      "f7",
+      "d6",
+      "e8",
+      "c7",
+      "d9",
+      "b8",
+      "b9"
+    ],
     "PlayerKill": [
       [],
       [],
@@ -46,10 +117,27 @@
       [],
       [],
       [],
-      ["f6", "e6", "e7", "d7", "d8", "c8", "c9"]
+      [
+        "f6",
+        "e6",
+        "e7",
+        "d7",
+        "d8",
+        "c8",
+        "c9"
+      ]
     ],
-    "npcList": ["e6", "e7", "d7", "d8", "c8", "c9"],
-    "NpcKill": [[]]
+    "npcList": [
+      "e6",
+      "e7",
+      "d7",
+      "d8",
+      "c8",
+      "c9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "5": {
     "Id": 5,
@@ -90,32 +178,81 @@
       "d8",
       "d9"
     ],
-    "playerList": ["d1"],
-    "PlayerKill": [["b1", "b2", "c1", "c2", "d2", "e1", "e2"]],
+    "playerList": [
+      "d1"
+    ],
+    "PlayerKill": [
+      [
+        "b1",
+        "b2",
+        "c1",
+        "c2",
+        "d2",
+        "e1",
+        "e2"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "6": {
     "Id": 6,
     "Name": "第六关",
     "Tips": "断子，进攻时请考虑尽量断绝棋子与棋子间的联系，避免两子联合后气加。",
-    "InitPlayer": ["b1", "c2", "d3"],
-    "InitNpc": ["d2", "f2"],
-    "playerList": ["e2", "e1"],
-    "PlayerKill": [[]],
-    "npcList": ["d1"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "b1",
+      "c2",
+      "d3"
+    ],
+    "InitNpc": [
+      "d2",
+      "f2"
+    ],
+    "playerList": [
+      "e2",
+      "e1"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "d1"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "7": {
     "Id": 7,
     "Name": "第七关",
     "Tips": "劫争破眼",
-    "InitPlayer": ["d5", "e4", "f5", "g6"],
-    "InitNpc": ["d6", "e5", "e7", "f6", "g5"],
-    "playerList": ["e6"],
-    "PlayerKill": [["e5"]],
+    "InitPlayer": [
+      "d5",
+      "e4",
+      "f5",
+      "g6"
+    ],
+    "InitNpc": [
+      "d6",
+      "e5",
+      "e7",
+      "f6",
+      "g5"
+    ],
+    "playerList": [
+      "e6"
+    ],
+    "PlayerKill": [
+      [
+        "e5"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "8": {
     "Id": 8,
@@ -153,52 +290,191 @@
       "h6",
       "h7"
     ],
-    "playerList": ["f5"],
-    "PlayerKill": [[]],
+    "playerList": [
+      "f5"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "9": {
     "Id": 9,
     "Name": "第九关",
     "Tips": "扑：就是把棋子放进对方的虎口作为诱饵，扑的目的有时是提子，有时是为了使对方的气减少。",
-    "InitPlayer": ["d4", "e3", "f3", "f6", "g4", "g5"],
-    "InitNpc": ["c5", "d5", "e4", "e6", "f4", "g2", "g3"],
-    "playerList": ["e5", "e5"],
-    "PlayerKill": [[], ["e4", "f4", "f5"]],
-    "npcList": ["f5"],
-    "NpcKill": [["e5"]]
+    "InitPlayer": [
+      "d4",
+      "e3",
+      "f3",
+      "f6",
+      "g4",
+      "g5"
+    ],
+    "InitNpc": [
+      "c5",
+      "d5",
+      "e4",
+      "e6",
+      "f4",
+      "g2",
+      "g3"
+    ],
+    "playerList": [
+      "e5",
+      "e5"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "e4",
+        "f4",
+        "f5"
+      ]
+    ],
+    "npcList": [
+      "f5"
+    ],
+    "NpcKill": [
+      [
+        "e5"
+      ]
+    ]
   },
   "10": {
     "Id": 10,
     "Name": "第十关",
     "Tips": "杀棋，让对方做不成眼的前提下断气",
-    "InitPlayer": ["b3,", "b5", "c5", "c6", "c7", "d7", "d8", "d9"],
-    "InitNpc": ["a8", "b6", "b7", "c8", "c9"],
-    "playerList": ["b9", "a6", "a9"],
-    "PlayerKill": [[], [], ["a7", "a8", "b6", "b7", "b8", "c8", "c9"]],
-    "npcList": ["b8", "a7"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "b3,",
+      "b5",
+      "c5",
+      "c6",
+      "c7",
+      "d7",
+      "d8",
+      "d9"
+    ],
+    "InitNpc": [
+      "a8",
+      "b6",
+      "b7",
+      "c8",
+      "c9"
+    ],
+    "playerList": [
+      "b9",
+      "a6",
+      "a9"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "a7",
+        "a8",
+        "b6",
+        "b7",
+        "b8",
+        "c8",
+        "c9"
+      ]
+    ],
+    "npcList": [
+      "b8",
+      "a7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "11": {
     "Id": 11,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c5", "c6", "c7", "d4", "e5", "e7", "d8"],
-    "InitNpc": ["c4", "c8", "d3", "d5", "d6", "d7", "e8"],
-    "playerList": ["e6"],
-    "PlayerKill": [["d5", "d6", "d7"]],
+    "InitPlayer": [
+      "c5",
+      "c6",
+      "c7",
+      "d4",
+      "e5",
+      "e7",
+      "d8"
+    ],
+    "InitNpc": [
+      "c4",
+      "c8",
+      "d3",
+      "d5",
+      "d6",
+      "d7",
+      "e8"
+    ],
+    "playerList": [
+      "e6"
+    ],
+    "PlayerKill": [
+      [
+        "d5",
+        "d6",
+        "d7"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "12": {
     "Id": 12,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["b6", "c6", "d6", "d5", "e4", "f4", "f5", "g6", "h7"],
-    "InitNpc": ["a6", "b5", "b7", "c4", "c7", "d4", "e5", "e6", "f6", "d8"],
-    "playerList": ["e7", "f8", "g8"],
-    "PlayerKill": [[], [], ["e5", "e6", "f6", "f7", "g7"]],
-    "npcList": ["f7", "g7"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "b6",
+      "c6",
+      "d6",
+      "d5",
+      "e4",
+      "f4",
+      "f5",
+      "g6",
+      "h7"
+    ],
+    "InitNpc": [
+      "a6",
+      "b5",
+      "b7",
+      "c4",
+      "c7",
+      "d4",
+      "e5",
+      "e6",
+      "f6",
+      "d8"
+    ],
+    "playerList": [
+      "e7",
+      "f8",
+      "g8"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "e5",
+        "e6",
+        "f6",
+        "f7",
+        "g7"
+      ]
+    ],
+    "npcList": [
+      "f7",
+      "g7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "13": {
     "Id": 13,
@@ -229,20 +505,66 @@
       "f3",
       "f4"
     ],
-    "playerList": ["d2"],
-    "PlayerKill": [["d3", "d4", "e4", "f3", "f4"]],
-    "npcList": ["e6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "d2"
+    ],
+    "PlayerKill": [
+      [
+        "d3",
+        "d4",
+        "e4",
+        "f3",
+        "f4"
+      ]
+    ],
+    "npcList": [
+      "e6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "14": {
     "Id": 14,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["b7", "b8", "b9", "c6", "d7", "d8", "e7", "f8"],
-    "InitNpc": ["c7", "c8", "c9", "d9", "e9", "e8", "f7", "g8", "g9"],
-    "playerList": ["f9"],
-    "PlayerKill": [["c7", "c8", "c9", "d9", "e9", "e8"]],
+    "InitPlayer": [
+      "b7",
+      "b8",
+      "b9",
+      "c6",
+      "d7",
+      "d8",
+      "e7",
+      "f8"
+    ],
+    "InitNpc": [
+      "c7",
+      "c8",
+      "c9",
+      "d9",
+      "e9",
+      "e8",
+      "f7",
+      "g8",
+      "g9"
+    ],
+    "playerList": [
+      "f9"
+    ],
+    "PlayerKill": [
+      [
+        "c7",
+        "c8",
+        "c9",
+        "d9",
+        "e9",
+        "e8"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "15": {
     "Id": 15,
@@ -276,20 +598,68 @@
       "g8",
       "c6"
     ],
-    "playerList": ["a6"],
-    "PlayerKill": [["a7", "b7", "c7", "d7", "c6"]],
+    "playerList": [
+      "a6"
+    ],
+    "PlayerKill": [
+      [
+        "a7",
+        "b7",
+        "c7",
+        "d7",
+        "c6"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "16": {
     "Id": 16,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["d5", "d6", "e4", "e6", "f6", "g6", "h5", "h7", "i4", "i5"],
-    "InitNpc": ["d3", "d4", "e5", "f2", "f5", "g5", "h3", "h4", "i3"],
-    "playerList": ["g4", "f3"],
-    "PlayerKill": [[], ["f4", "f5", "e5", "g5"]],
-    "npcList": ["f4"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "d5",
+      "d6",
+      "e4",
+      "e6",
+      "f6",
+      "g6",
+      "h5",
+      "h7",
+      "i4",
+      "i5"
+    ],
+    "InitNpc": [
+      "d3",
+      "d4",
+      "e5",
+      "f2",
+      "f5",
+      "g5",
+      "h3",
+      "h4",
+      "i3"
+    ],
+    "playerList": [
+      "g4",
+      "f3"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "f4",
+        "f5",
+        "e5",
+        "g5"
+      ]
+    ],
+    "npcList": [
+      "f4"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "17": {
     "Id": 17,
@@ -307,36 +677,135 @@
       "h8",
       "g8"
     ],
-    "InitNpc": ["g2", "g3", "f4", "f5", "g5", "g6", "g7", "f8", "f9"],
-    "playerList": ["f7", "e6"],
-    "PlayerKill": [[], ["f4", "f5", "f6", "g6", "g5", "g7"]],
-    "npcList": ["f6"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "g2",
+      "g3",
+      "f4",
+      "f5",
+      "g5",
+      "g6",
+      "g7",
+      "f8",
+      "f9"
+    ],
+    "playerList": [
+      "f7",
+      "e6"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "f4",
+        "f5",
+        "f6",
+        "g6",
+        "g5",
+        "g7"
+      ]
+    ],
+    "npcList": [
+      "f6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "18": {
     "Id": 18,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["e4", "d5", "c6", "c7", "d7", "e8", "f8", "f7", "f6"],
-    "InitNpc": ["c3", "c5", "b7", "c8", "d8", "d6", "e6", "e7"],
-    "playerList": ["e5"],
-    "PlayerKill": [["d6", "e6", "e7"]],
+    "InitPlayer": [
+      "e4",
+      "d5",
+      "c6",
+      "c7",
+      "d7",
+      "e8",
+      "f8",
+      "f7",
+      "f6"
+    ],
+    "InitNpc": [
+      "c3",
+      "c5",
+      "b7",
+      "c8",
+      "d8",
+      "d6",
+      "e6",
+      "e7"
+    ],
+    "playerList": [
+      "e5"
+    ],
+    "PlayerKill": [
+      [
+        "d6",
+        "e6",
+        "e7"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "19": {
     "Id": 19,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["f5", "f6", "g6", "h6", "i6", "g4", "i3"],
-    "InitNpc": ["f2", "f3", "f4", "g5", "i5", "h5", "i2", "h2", "h3"],
-    "playerList": ["h4", "i3"],
-    "PlayerKill": [[], ["i4", "i5", "h5", "g5"]],
-    "npcList": ["i4"],
-    "NpcKill": [["i3"]]
+    "InitPlayer": [
+      "f5",
+      "f6",
+      "g6",
+      "h6",
+      "i6",
+      "g4",
+      "i3"
+    ],
+    "InitNpc": [
+      "f2",
+      "f3",
+      "f4",
+      "g5",
+      "i5",
+      "h5",
+      "i2",
+      "h2",
+      "h3"
+    ],
+    "playerList": [
+      "h4",
+      "i3"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "i4",
+        "i5",
+        "h5",
+        "g5"
+      ]
+    ],
+    "npcList": [
+      "i4"
+    ],
+    "NpcKill": [
+      [
+        "i3"
+      ]
+    ]
   },
   "20": {
     "Id": 20,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["e2", "e3", "f3", "e7", "f6", "g4", "g5"],
+    "InitPlayer": [
+      "e2",
+      "e3",
+      "f3",
+      "e7",
+      "f6",
+      "g4",
+      "g5"
+    ],
     "InitNpc": [
       "b3",
       "b5",
@@ -351,45 +820,157 @@
       "g6",
       "g7"
     ],
-    "playerList": ["e4", "d5", "d6"],
-    "PlayerKill": [[], [], ["e5", "e6", "f4", "f5"]],
-    "npcList": ["e5", "e6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "e4",
+      "d5",
+      "d6"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "e5",
+        "e6",
+        "f4",
+        "f5"
+      ]
+    ],
+    "npcList": [
+      "e5",
+      "e6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "21": {
     "Id": 21,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["g2", "f3", "e4", "d5", "c6", "d7", "e7", "f6", "g5"],
-    "InitNpc": ["d6", "e6", "e5", "f5", "f4", "g4"],
-    "playerList": ["h4", "h3"],
-    "PlayerKill": [[], ["g4", "g3", "f5", "f4", "e5", "e6", "d6"]],
-    "npcList": ["g3"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "g2",
+      "f3",
+      "e4",
+      "d5",
+      "c6",
+      "d7",
+      "e7",
+      "f6",
+      "g5"
+    ],
+    "InitNpc": [
+      "d6",
+      "e6",
+      "e5",
+      "f5",
+      "f4",
+      "g4"
+    ],
+    "playerList": [
+      "h4",
+      "h3"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g4",
+        "g3",
+        "f5",
+        "f4",
+        "e5",
+        "e6",
+        "d6"
+      ]
+    ],
+    "npcList": [
+      "g3"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "22": {
     "Id": 22,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a7", "b7", "c7", "c8", "b9"],
-    "InitNpc": ["a6", "b6", "c6", "d7", "d8", "d9"],
-    "playerList": ["a8"],
-    "PlayerKill": [[]],
+    "InitPlayer": [
+      "a7",
+      "b7",
+      "c7",
+      "c8",
+      "b9"
+    ],
+    "InitNpc": [
+      "a6",
+      "b6",
+      "c6",
+      "d7",
+      "d8",
+      "d9"
+    ],
+    "playerList": [
+      "a8"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "23": {
     "Id": 23,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["g3", "g4", "f5", "f6", "g7", "h7"],
-    "InitNpc": ["f2", "f3", "e4", "g5", "g6", "h2", "h3", "h4"],
-    "playerList": ["h5", "i6"],
-    "PlayerKill": [[], ["g5", "g6", "h6"]],
-    "npcList": ["h6"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "g3",
+      "g4",
+      "f5",
+      "f6",
+      "g7",
+      "h7"
+    ],
+    "InitNpc": [
+      "f2",
+      "f3",
+      "e4",
+      "g5",
+      "g6",
+      "h2",
+      "h3",
+      "h4"
+    ],
+    "playerList": [
+      "h5",
+      "i6"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g5",
+        "g6",
+        "h6"
+      ]
+    ],
+    "npcList": [
+      "h6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "24": {
     "Id": 24,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a5", "a8", "b5", "b6", "b8", "c5", "c7", "d6", "d7"],
+    "InitPlayer": [
+      "a5",
+      "a8",
+      "b5",
+      "b6",
+      "b8",
+      "c5",
+      "c7",
+      "d6",
+      "d7"
+    ],
     "InitNpc": [
       "a4",
       "a6",
@@ -404,25 +985,79 @@
       "e6",
       "e7"
     ],
-    "playerList": ["a7"],
-    "PlayerKill": [["a6", "b7"]],
+    "playerList": [
+      "a7"
+    ],
+    "PlayerKill": [
+      [
+        "a6",
+        "b7"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "25": {
     "Id": 25,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["b5", "c5", "c6", "c7", "c8", "a8", "b9", "f7"],
-    "InitNpc": ["a4 ", "a5", "b4", "c4", "b6", "b7", "b8"],
-    "playerList": ["a6", "a6"],
-    "PlayerKill": [[], ["b6", "b7", "b8", "a7"]],
-    "npcList": ["a7"],
-    "NpcKill": [["a6"]]
+    "InitPlayer": [
+      "b5",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "a8",
+      "b9",
+      "f7"
+    ],
+    "InitNpc": [
+      "a4 ",
+      "a5",
+      "b4",
+      "c4",
+      "b6",
+      "b7",
+      "b8"
+    ],
+    "playerList": [
+      "a6",
+      "a6"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "b6",
+        "b7",
+        "b8",
+        "a7"
+      ]
+    ],
+    "npcList": [
+      "a7"
+    ],
+    "NpcKill": [
+      [
+        "a6"
+      ]
+    ]
   },
   "26": {
     "Id": 26,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["f1", "f2", "e4", "f4", "g1", "g5", "h4", "h5", "i3", "i4"],
+    "InitPlayer": [
+      "f1",
+      "f2",
+      "e4",
+      "f4",
+      "g1",
+      "g5",
+      "h4",
+      "h5",
+      "i3",
+      "i4"
+    ],
     "InitNpc": [
       "f5",
       "f6",
@@ -436,15 +1071,34 @@
       "i1",
       "i2"
     ],
-    "playerList": ["h2"],
-    "PlayerKill": [["h1", "i1", "i2"]],
+    "playerList": [
+      "h2"
+    ],
+    "PlayerKill": [
+      [
+        "h1",
+        "i1",
+        "i2"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "27": {
     "Id": 27,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["g2", "h2", "i2", "f3", "g4", "g5", "g6", "h4"],
+    "InitPlayer": [
+      "g2",
+      "h2",
+      "i2",
+      "f3",
+      "g4",
+      "g5",
+      "g6",
+      "h4"
+    ],
     "InitNpc": [
       "g3",
       "h3",
@@ -458,10 +1112,27 @@
       "i8",
       "e8"
     ],
-    "playerList": ["h6", "i6"],
-    "PlayerKill": [[], ["g3", "h3", "i3", "i4", "i5", "h5"]],
-    "npcList": ["h5"],
-    "NpcKill": [[]]
+    "playerList": [
+      "h6",
+      "i6"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g3",
+        "h3",
+        "i3",
+        "i4",
+        "i5",
+        "h5"
+      ]
+    ],
+    "npcList": [
+      "h5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "28": {
     "Id": 28,
@@ -495,15 +1166,47 @@
       "g3",
       "g5"
     ],
-    "playerList": ["d4", "d4"],
-    "PlayerKill": [[], ["b3", "c3", "d3", "b4", "b5", "c4", "c5", "d5", "d6"]],
-    "npcList": ["c4"],
-    "NpcKill": [["d4"]]
+    "playerList": [
+      "d4",
+      "d4"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "b3",
+        "c3",
+        "d3",
+        "b4",
+        "b5",
+        "c4",
+        "c5",
+        "d5",
+        "d6"
+      ]
+    ],
+    "npcList": [
+      "c4"
+    ],
+    "NpcKill": [
+      [
+        "d4"
+      ]
+    ]
   },
   "29": {
     "Id": 29,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a8", "a9", "b7", "b8", "c6", "d8", "c9", "d7", "d8"],
+    "InitPlayer": [
+      "a8",
+      "a9",
+      "b7",
+      "b8",
+      "c6",
+      "d8",
+      "c9",
+      "d7",
+      "d8"
+    ],
     "InitNpc": [
       "a6",
       "a7",
@@ -517,20 +1220,59 @@
       "e8",
       "e9"
     ],
-    "playerList": ["d6"],
-    "PlayerKill": [[]],
+    "playerList": [
+      "d6"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "30": {
     "Id": 30,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c5", "c6", "c7", "d7", "d8", "e5", "e9", "f9", "f8"],
-    "InitNpc": ["c4", "d3", "d5", "d6", "e7", "e8", "f6", "g5", "h6"],
-    "playerList": ["e6", "f7"],
-    "PlayerKill": [[], ["e7", "e8"]],
-    "npcList": ["d4"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "c5",
+      "c6",
+      "c7",
+      "d7",
+      "d8",
+      "e5",
+      "e9",
+      "f9",
+      "f8"
+    ],
+    "InitNpc": [
+      "c4",
+      "d3",
+      "d5",
+      "d6",
+      "e7",
+      "e8",
+      "f6",
+      "g5",
+      "h6"
+    ],
+    "playerList": [
+      "e6",
+      "f7"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "e7",
+        "e8"
+      ]
+    ],
+    "npcList": [
+      "d4"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "31": {
     "Id": 31,
@@ -562,70 +1304,262 @@
       "b9",
       "a8"
     ],
-    "playerList": ["b6", "a7"],
-    "PlayerKill": [[], ["d4", "d5", "c5", "c6", "c7", "b7"]],
-    "npcList": ["c7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "b6",
+      "a7"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "d4",
+        "d5",
+        "c5",
+        "c6",
+        "c7",
+        "b7"
+      ]
+    ],
+    "npcList": [
+      "c7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "32": {
     "Id": 32,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["g5", "g6", "g7", "g8", "h5", "h7", "i6"],
-    "InitNpc": ["f6", "f7", "f8", "f9", "g9", "h8", "i7", "i8"],
-    "playerList": ["h9"],
-    "PlayerKill": [[], ["h8", "i7", "i8", "i9"]],
-    "npcList": ["i9"],
-    "NpcKill": [["h9"]]
+    "InitPlayer": [
+      "g5",
+      "g6",
+      "g7",
+      "g8",
+      "h5",
+      "h7",
+      "i6"
+    ],
+    "InitNpc": [
+      "f6",
+      "f7",
+      "f8",
+      "f9",
+      "g9",
+      "h8",
+      "i7",
+      "i8"
+    ],
+    "playerList": [
+      "h9"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "h8",
+        "i7",
+        "i8",
+        "i9"
+      ]
+    ],
+    "npcList": [
+      "i9"
+    ],
+    "NpcKill": [
+      [
+        "h9"
+      ]
+    ]
   },
   "33": {
     "Id": 33,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a6", "b6", "c6", "c7", "d7", "e7", "e8", "e9"],
-    "InitNpc": ["a7", "a8", "b7", "c8", "d8", "d9"],
-    "playerList": ["b9"],
-    "PlayerKill": [[]],
+    "InitPlayer": [
+      "a6",
+      "b6",
+      "c6",
+      "c7",
+      "d7",
+      "e7",
+      "e8",
+      "e9"
+    ],
+    "InitNpc": [
+      "a7",
+      "a8",
+      "b7",
+      "c8",
+      "d8",
+      "d9"
+    ],
+    "playerList": [
+      "b9"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "34": {
     "Id": 34,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["a4", "b3", "c3", "c7", "d4", "e6", "b5", "b6"],
-    "InitNpc": ["b4", "c4", "c5", "c6", "d6", "e8", "f5", "f6", "f7"],
-    "playerList": ["d7", "e5"],
-    "PlayerKill": [[], ["b4", "c4", "c5", "c6", "d6", "d5"]],
-    "npcList": ["d5"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "a4",
+      "b3",
+      "c3",
+      "c7",
+      "d4",
+      "e6",
+      "b5",
+      "b6"
+    ],
+    "InitNpc": [
+      "b4",
+      "c4",
+      "c5",
+      "c6",
+      "d6",
+      "e8",
+      "f5",
+      "f6",
+      "f7"
+    ],
+    "playerList": [
+      "d7",
+      "e5"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "b4",
+        "c4",
+        "c5",
+        "c6",
+        "d6",
+        "d5"
+      ]
+    ],
+    "npcList": [
+      "d5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "35": {
     "Id": 35,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c7", "c8", "d6", "d8", "e7", "e9"],
-    "InitNpc": ["a7", "a9", "b6", "b8", "b9", "c4", "c6", "c9", "d9"],
-    "playerList": ["b7", "a8"],
-    "PlayerKill": [[], ["b8", "a9", "b9", "c9", "d9"]],
-    "npcList": ["a6"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "c7",
+      "c8",
+      "d6",
+      "d8",
+      "e7",
+      "e9"
+    ],
+    "InitNpc": [
+      "a7",
+      "a9",
+      "b6",
+      "b8",
+      "b9",
+      "c4",
+      "c6",
+      "c9",
+      "d9"
+    ],
+    "playerList": [
+      "b7",
+      "a8"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "b8",
+        "a9",
+        "b9",
+        "c9",
+        "d9"
+      ]
+    ],
+    "npcList": [
+      "a6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "36": {
     "Id": 36,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a7", "a9", "b7", "b8", "c9"],
-    "InitNpc": ["a6", "b6", "c7", "c5", "d6", "d8", "d9"],
-    "playerList": ["c8"],
-    "PlayerKill": [[]],
+    "InitPlayer": [
+      "a7",
+      "a9",
+      "b7",
+      "b8",
+      "c9"
+    ],
+    "InitNpc": [
+      "a6",
+      "b6",
+      "c7",
+      "c5",
+      "d6",
+      "d8",
+      "d9"
+    ],
+    "playerList": [
+      "c8"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "37": {
     "Id": 37,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a5", "b4", "b5", "b6", "b7", "b8", "b9"],
-    "InitNpc": ["a4", "a8", "b1", "b3", "c3", "c4", "c5", "c6", "c7", "c8"],
-    "playerList": ["a7", "a9"],
-    "PlayerKill": [[], ["a8"]],
-    "npcList": ["c9"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "a5",
+      "b4",
+      "b5",
+      "b6",
+      "b7",
+      "b8",
+      "b9"
+    ],
+    "InitNpc": [
+      "a4",
+      "a8",
+      "b1",
+      "b3",
+      "c3",
+      "c4",
+      "c5",
+      "c6",
+      "c7",
+      "c8"
+    ],
+    "playerList": [
+      "a7",
+      "a9"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "a8"
+      ]
+    ],
+    "npcList": [
+      "c9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "38": {
     "Id": 38,
@@ -666,25 +1600,72 @@
       "h6",
       "h7"
     ],
-    "playerList": ["e5"],
-    "PlayerKill": [[]],
+    "playerList": [
+      "e5"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "39": {
     "Id": 39,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c4", "c6", "c7", "d3", "d7", "e4", "e6"],
-    "InitNpc": ["d4", "d5", "d6", "e3", "e7", "f7", "g6", "i6"],
-    "playerList": ["e5", "b5"],
-    "PlayerKill": [[], ["c5", "d4", "d5", "d6"]],
-    "npcList": ["c5"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "c4",
+      "c6",
+      "c7",
+      "d3",
+      "d7",
+      "e4",
+      "e6"
+    ],
+    "InitNpc": [
+      "d4",
+      "d5",
+      "d6",
+      "e3",
+      "e7",
+      "f7",
+      "g6",
+      "i6"
+    ],
+    "playerList": [
+      "e5",
+      "b5"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "c5",
+        "d4",
+        "d5",
+        "d6"
+      ]
+    ],
+    "npcList": [
+      "c5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "40": {
     "Id": 40,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["c6", "c7", "a8", "b5", "b6", "b7", "b8", "b9"],
+    "InitPlayer": [
+      "c6",
+      "c7",
+      "a8",
+      "b5",
+      "b6",
+      "b7",
+      "b8",
+      "b9"
+    ],
     "InitNpc": [
       "a4",
       "a5",
@@ -698,25 +1679,78 @@
       "d7",
       "d9"
     ],
-    "playerList": ["a6"],
-    "PlayerKill": [["a7"]],
+    "playerList": [
+      "a6"
+    ],
+    "PlayerKill": [
+      [
+        "a7"
+      ]
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "41": {
     "Id": 41,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["i3", "g4", "f5", "f6", "g6", "h6", "i6"],
-    "InitNpc": ["i2", "g2", "h3", "f2", "f3", "f4", "g5", "h5", "i5"],
-    "playerList": ["h4", "i3"],
-    "PlayerKill": [[], ["g5", "h5", "i5", "i4"]],
-    "npcList": ["i4"],
-    "NpcKill": [["i3"]]
+    "InitPlayer": [
+      "i3",
+      "g4",
+      "f5",
+      "f6",
+      "g6",
+      "h6",
+      "i6"
+    ],
+    "InitNpc": [
+      "i2",
+      "g2",
+      "h3",
+      "f2",
+      "f3",
+      "f4",
+      "g5",
+      "h5",
+      "i5"
+    ],
+    "playerList": [
+      "h4",
+      "i3"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g5",
+        "h5",
+        "i5",
+        "i4"
+      ]
+    ],
+    "npcList": [
+      "i4"
+    ],
+    "NpcKill": [
+      [
+        "i3"
+      ]
+    ]
   },
   "42": {
     "Id": 42,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c3", "c4", "d2", "d5", "e5", "f5", "g5", "h4", "i4"],
+    "InitPlayer": [
+      "c3",
+      "c4",
+      "d2",
+      "d5",
+      "e5",
+      "f5",
+      "g5",
+      "h4",
+      "i4"
+    ],
     "InitNpc": [
       "b2",
       "b3",
@@ -732,20 +1766,66 @@
       "h2",
       "i2"
     ],
-    "playerList": ["e3", "f3", "g3"],
-    "PlayerKill": [[]],
-    "npcList": ["f4", "g4"],
-    "NpcKill": [[]]
+    "playerList": [
+      "e3",
+      "f3",
+      "g3"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "f4",
+      "g4"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "43": {
     "Id": 43,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["f5", "f6", "g4", "g6", "h6", "i3", "i6"],
-    "InitNpc": ["f2", "f3", "f4", "g5", "h2", "h3", "h5", "i2", "i5"],
-    "playerList": ["h4", "i3"],
-    "PlayerKill": [[], ["g5", "h5", "i4", "i5"]],
-    "npcList": ["i4"],
-    "NpcKill": [["i3"]]
+    "InitPlayer": [
+      "f5",
+      "f6",
+      "g4",
+      "g6",
+      "h6",
+      "i3",
+      "i6"
+    ],
+    "InitNpc": [
+      "f2",
+      "f3",
+      "f4",
+      "g5",
+      "h2",
+      "h3",
+      "h5",
+      "i2",
+      "i5"
+    ],
+    "playerList": [
+      "h4",
+      "i3"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "g5",
+        "h5",
+        "i4",
+        "i5"
+      ]
+    ],
+    "npcList": [
+      "i4"
+    ],
+    "NpcKill": [
+      [
+        "i3"
+      ]
+    ]
   },
   "44": {
     "Id": 44,
@@ -785,10 +1865,19 @@
       "g4",
       "g5"
     ],
-    "playerList": ["e5", "d5"],
-    "PlayerKill": [[]],
-    "npcList": ["e6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "e5",
+      "d5"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "e6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "45": {
     "Id": 45,
@@ -827,10 +1916,21 @@
       "g8",
       "g9"
     ],
-    "playerList": ["b9"],
-    "PlayerKill": [[]],
-    "npcList": ["d8"],
-    "NpcKill": [["d9", "e9"]]
+    "playerList": [
+      "b9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "d8"
+    ],
+    "NpcKill": [
+      [
+        "d9",
+        "e9"
+      ]
+    ]
   },
   "46": {
     "Id": 46,
@@ -869,19 +1969,51 @@
       "g8",
       "g9"
     ],
-    "playerList": ["b9", "e9", "e9"],
+    "playerList": [
+      "b9",
+      "e9",
+      "e9"
+    ],
     "PlayerKill": [
       [],
       [],
-      ["c6", "c7", "c8", "c9", "d7", "d8", "d9", "e7", "e8"]
+      [
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "d7",
+        "d8",
+        "d9",
+        "e7",
+        "e8"
+      ]
     ],
-    "npcList": ["d8", "d9"],
-    "NpcKill": [["d9", "e9"], ["e9"]]
+    "npcList": [
+      "d8",
+      "d9"
+    ],
+    "NpcKill": [
+      [
+        "d9",
+        "e9"
+      ],
+      [
+        "e9"
+      ]
+    ]
   },
   "47": {
     "Id": 47,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["b5", "b7", "c5", "c6", "c7", "c8"],
+    "InitPlayer": [
+      "b5",
+      "b7",
+      "c5",
+      "c6",
+      "c7",
+      "c8"
+    ],
     "InitNpc": [
       "a4",
       "a5",
@@ -895,10 +2027,19 @@
       "d7",
       "d8"
     ],
-    "playerList": ["a8", "a9"],
-    "PlayerKill": [[]],
-    "npcList": ["a6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "a8",
+      "a9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "48": {
     "Id": 48,
@@ -917,16 +2058,44 @@
       "d8",
       "d9"
     ],
-    "InitNpc": ["a6", "a8", "b4", "b5", "c6", "c7", "c8", "c9"],
-    "playerList": ["b7", "a4"],
-    "PlayerKill": [[]],
-    "npcList": ["b6"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "a6",
+      "a8",
+      "b4",
+      "b5",
+      "c6",
+      "c7",
+      "c8",
+      "c9"
+    ],
+    "playerList": [
+      "b7",
+      "a4"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "b6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "49": {
     "Id": 49,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["a6", "a8", "b6", "b9", "c5", "d5", "d6", "d7", "d8"],
+    "InitPlayer": [
+      "a6",
+      "a8",
+      "b6",
+      "b9",
+      "c5",
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ],
     "InitNpc": [
       "a5",
       "b4",
@@ -940,10 +2109,25 @@
       "f5",
       "f7"
     ],
-    "playerList": ["c9", "a7"],
-    "PlayerKill": [[], ["b7", "c6", "c7", "c8"]],
-    "npcList": ["b7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "c9",
+      "a7"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "b7",
+        "c6",
+        "c7",
+        "c8"
+      ]
+    ],
+    "npcList": [
+      "b7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "50": {
     "Id": 50,
@@ -979,10 +2163,19 @@
       "e7",
       "e8"
     ],
-    "playerList": ["a6", "b7"],
-    "PlayerKill": [[]],
-    "npcList": ["a5"],
-    "NpcKill": [[]]
+    "playerList": [
+      "a6",
+      "b7"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "51": {
     "Id": 51,
@@ -1000,16 +2193,43 @@
       "e8",
       "e9"
     ],
-    "InitNpc": ["a5", "b6", "b8", "c7", "d7", "d8", "d9"],
-    "playerList": ["a7", "a4"],
-    "PlayerKill": [[]],
-    "npcList": ["b7"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "a5",
+      "b6",
+      "b8",
+      "c7",
+      "d7",
+      "d8",
+      "d9"
+    ],
+    "playerList": [
+      "a7",
+      "a4"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "b7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "52": {
     "Id": 52,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a6", "a8", "b6", "b7", "c7", "d7", "d8", "e7", "e9"],
+    "InitPlayer": [
+      "a6",
+      "a8",
+      "b6",
+      "b7",
+      "c7",
+      "d7",
+      "d8",
+      "e7",
+      "e9"
+    ],
     "InitNpc": [
       "a9",
       "b5",
@@ -1024,10 +2244,21 @@
       "f8",
       "g8"
     ],
-    "playerList": ["c8", "d9"],
-    "PlayerKill": [[]],
-    "npcList": ["a7"],
-    "NpcKill": [["a8"]]
+    "playerList": [
+      "c8",
+      "d9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a7"
+    ],
+    "NpcKill": [
+      [
+        "a8"
+      ]
+    ]
   },
   "53": {
     "Id": 53,
@@ -1061,10 +2292,19 @@
       "c6",
       "c8"
     ],
-    "playerList": ["a4", "b4"],
-    "PlayerKill": [[]],
-    "npcList": ["a7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "a4",
+      "b4"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "54": {
     "Id": 54,
@@ -1101,10 +2341,19 @@
       "g7",
       "g8"
     ],
-    "playerList": ["d8", "c9"],
-    "PlayerKill": [[]],
-    "npcList": ["d7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "d8",
+      "c9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "d7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "55": {
     "Id": 55,
@@ -1124,11 +2373,32 @@
       "f8",
       "f9"
     ],
-    "InitNpc": ["a7", "b7", "c6", "c7", "c9", "d6", "e6", "e7", "e9"],
-    "playerList": ["d8", "c8", "a6"],
-    "PlayerKill": [[]],
-    "npcList": ["e8", "d9"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "a7",
+      "b7",
+      "c6",
+      "c7",
+      "c9",
+      "d6",
+      "e6",
+      "e7",
+      "e9"
+    ],
+    "playerList": [
+      "d8",
+      "c8",
+      "a6"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "e8",
+      "d9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "56": {
     "Id": 56,
@@ -1161,10 +2431,19 @@
       "d4",
       "d5"
     ],
-    "playerList": ["a4", "b4"],
-    "PlayerKill": [[]],
-    "npcList": ["a3"],
-    "NpcKill": [[]]
+    "playerList": [
+      "a4",
+      "b4"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a3"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "57": {
     "Id": 57,
@@ -1196,10 +2475,19 @@
       "d8",
       "d9"
     ],
-    "playerList": ["b9", "c8"],
-    "PlayerKill": [[]],
-    "npcList": ["a8"],
-    "NpcKill": [[]]
+    "playerList": [
+      "b9",
+      "c8"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a8"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "58": {
     "Id": 58,
@@ -1240,15 +2528,41 @@
       "h1",
       "h2"
     ],
-    "playerList": ["e1", "g1"],
-    "PlayerKill": [[], ["f1", "f2", "g2", "h1", "h2"]],
-    "npcList": ["f1"],
-    "NpcKill": [[]]
+    "playerList": [
+      "e1",
+      "g1"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "f1",
+        "f2",
+        "g2",
+        "h1",
+        "h2"
+      ]
+    ],
+    "npcList": [
+      "f1"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "59": {
     "Id": 59,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["b6", "c7", "d4", "d7", "e4", "e7", "f5", "f7", "g6"],
+    "InitPlayer": [
+      "b6",
+      "c7",
+      "d4",
+      "d7",
+      "e4",
+      "e7",
+      "f5",
+      "f7",
+      "g6"
+    ],
     "InitNpc": [
       "a7",
       "b7",
@@ -1263,7 +2577,15 @@
       "h7",
       "i6"
     ],
-    "playerList": ["e5", "c6", "b5", "c3", "a4", "b2", "a2"],
+    "playerList": [
+      "e5",
+      "c6",
+      "b5",
+      "c3",
+      "a4",
+      "b2",
+      "a2"
+    ],
     "PlayerKill": [
       [],
       [],
@@ -1271,20 +2593,83 @@
       [],
       [],
       [],
-      ["a3", "b3", "b4", "c4", "c5", "d5", "d6", "e6", "f6"]
+      [
+        "a3",
+        "b3",
+        "b4",
+        "c4",
+        "c5",
+        "d5",
+        "d6",
+        "e6",
+        "f6"
+      ]
     ],
-    "npcList": ["d6", "c5", "c4", "b4", "b3", "a3"],
-    "NpcKill": [[]]
+    "npcList": [
+      "d6",
+      "c5",
+      "c4",
+      "b4",
+      "b3",
+      "a3"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "60": {
     "Id": 60,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a5", "b5", "c5", "c6", "c7", "c8", "c9"],
-    "InitNpc": ["a6", "b4", "b7", "b8", "c4", "d4", "d5", "d6", "d7", "d8"],
-    "playerList": ["a8", "b9", "b6", "a8"],
-    "PlayerKill": [[], [], [], ["a6", "a7", "a9", "b7", "b8"]],
-    "npcList": ["a7", "a9", "a4"],
-    "NpcKill": [[], ["a8"]]
+    "InitPlayer": [
+      "a5",
+      "b5",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "c9"
+    ],
+    "InitNpc": [
+      "a6",
+      "b4",
+      "b7",
+      "b8",
+      "c4",
+      "d4",
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ],
+    "playerList": [
+      "a8",
+      "b9",
+      "b6",
+      "a8"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [],
+      [
+        "a6",
+        "a7",
+        "a9",
+        "b7",
+        "b8"
+      ]
+    ],
+    "npcList": [
+      "a7",
+      "a9",
+      "a4"
+    ],
+    "NpcKill": [
+      [],
+      [
+        "a8"
+      ]
+    ]
   },
   "61": {
     "Id": 61,
@@ -1320,30 +2705,100 @@
       "e5",
       "e6"
     ],
-    "playerList": ["f5", "d4"],
-    "PlayerKill": [[], ["d5", "d6", "e4", "e5", "e6"]],
-    "npcList": ["d5"],
-    "NpcKill": [["d4"]]
+    "playerList": [
+      "f5",
+      "d4"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "d5",
+        "d6",
+        "e4",
+        "e5",
+        "e6"
+      ]
+    ],
+    "npcList": [
+      "d5"
+    ],
+    "NpcKill": [
+      [
+        "d4"
+      ]
+    ]
   },
   "62": {
     "Id": 62,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["a6", "b6", "c5", "c7", "d5", "d7", "e5", "e8", "f5", "g6"],
-    "InitNpc": ["b5", "b7", "c6", "d6", "e6", "e7", "f6", "f7", "g5", "h7"],
-    "playerList": ["g7", "g8", "g9", "d9"],
+    "InitPlayer": [
+      "a6",
+      "b6",
+      "c5",
+      "c7",
+      "d5",
+      "d7",
+      "e5",
+      "e8",
+      "f5",
+      "g6"
+    ],
+    "InitNpc": [
+      "b5",
+      "b7",
+      "c6",
+      "d6",
+      "e6",
+      "e7",
+      "f6",
+      "f7",
+      "g5",
+      "h7"
+    ],
+    "playerList": [
+      "g7",
+      "g8",
+      "g9",
+      "d9"
+    ],
     "PlayerKill": [
       [],
       [],
       [],
-      ["c6", "d6", "e6", "e7", "e9", "f6", "f7", "f8", "f9"]
+      [
+        "c6",
+        "d6",
+        "e6",
+        "e7",
+        "e9",
+        "f6",
+        "f7",
+        "f8",
+        "f9"
+      ]
     ],
-    "npcList": ["f8", "f9", "e9"],
-    "NpcKill": [[]]
+    "npcList": [
+      "f8",
+      "f9",
+      "e9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "63": {
     "Id": 63,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["a2", "a8", "b3", "b7", "c3", "c5", "c7", "d6"],
+    "InitPlayer": [
+      "a2",
+      "a8",
+      "b3",
+      "b7",
+      "c3",
+      "c5",
+      "c7",
+      "d6"
+    ],
     "InitNpc": [
       "a3",
       "a4",
@@ -1359,13 +2814,33 @@
       "f4",
       "f6"
     ],
-    "playerList": ["d4", "c5"],
+    "playerList": [
+      "d4",
+      "c5"
+    ],
     "PlayerKill": [
       [],
-      ["a3", "a4", "a5", "a6", "a7", "b4", "b5", "b6", "c4", "c6"]
+      [
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "b4",
+        "b5",
+        "b6",
+        "c4",
+        "c6"
+      ]
     ],
-    "npcList": ["b5"],
-    "NpcKill": [["c5"]]
+    "npcList": [
+      "b5"
+    ],
+    "NpcKill": [
+      [
+        "c5"
+      ]
+    ]
   },
   "64": {
     "Id": 64,
@@ -1403,10 +2878,22 @@
       "g7",
       "g8"
     ],
-    "playerList": ["d8", "c9"],
-    "PlayerKill": [[], ["d9"]],
-    "npcList": ["d7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "d8",
+      "c9"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "d9"
+      ]
+    ],
+    "npcList": [
+      "d7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "65": {
     "Id": 65,
@@ -1442,10 +2929,30 @@
       "g8",
       "h7"
     ],
-    "playerList": ["c6", "f8"],
-    "PlayerKill": [[], ["c7", "c8", "d5", "d6", "d7", "d8", "e6", "e8", "f6"]],
-    "npcList": ["d7"],
-    "NpcKill": [[]]
+    "playerList": [
+      "c6",
+      "f8"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "c7",
+        "c8",
+        "d5",
+        "d6",
+        "d7",
+        "d8",
+        "e6",
+        "e8",
+        "f6"
+      ]
+    ],
+    "npcList": [
+      "d7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "66": {
     "Id": 66,
@@ -1463,16 +2970,57 @@
       "e5",
       "e6"
     ],
-    "InitNpc": ["a3", "b3", "b5", "c3", "c6", "c7", "d3", "d4", "d5", "d7"],
-    "playerList": ["a2", "c5"],
-    "PlayerKill": [[], ["a3", "b3", "c3", "c4", "d3", "d4", "d5"]],
-    "npcList": ["c4"],
-    "NpcKill": [["c5"]]
+    "InitNpc": [
+      "a3",
+      "b3",
+      "b5",
+      "c3",
+      "c6",
+      "c7",
+      "d3",
+      "d4",
+      "d5",
+      "d7"
+    ],
+    "playerList": [
+      "a2",
+      "c5"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "a3",
+        "b3",
+        "c3",
+        "c4",
+        "d3",
+        "d4",
+        "d5"
+      ]
+    ],
+    "npcList": [
+      "c4"
+    ],
+    "NpcKill": [
+      [
+        "c5"
+      ]
+    ]
   },
   "67": {
     "Id": 67,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a4", "b4", "b5", "c5", "c8", "d5", "d6", "d7", "d8"],
+    "InitPlayer": [
+      "a4",
+      "b4",
+      "b5",
+      "c5",
+      "c8",
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ],
     "InitNpc": [
       "a3",
       "a5",
@@ -1492,10 +3040,16 @@
       "e8",
       "e9"
     ],
-    "playerList": ["b7"],
-    "PlayerKill": [[]],
+    "playerList": [
+      "b7"
+    ],
+    "PlayerKill": [
+      []
+    ],
     "npcList": [],
-    "NpcKill": [[]]
+    "NpcKill": [
+      []
+    ]
   },
   "68": {
     "Id": 68,
@@ -1527,15 +3081,51 @@
       "f5",
       "f6"
     ],
-    "playerList": ["e5", "d4", "d6", "e5"],
-    "PlayerKill": [[], [], [], ["e4", "e6", "f4", "f5", "f6"]],
-    "npcList": ["e4", "e6", "c5"],
-    "NpcKill": [[], ["e5"], []]
+    "playerList": [
+      "e5",
+      "d4",
+      "d6",
+      "e5"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [],
+      [
+        "e4",
+        "e6",
+        "f4",
+        "f5",
+        "f6"
+      ]
+    ],
+    "npcList": [
+      "e4",
+      "e6",
+      "c5"
+    ],
+    "NpcKill": [
+      [],
+      [
+        "e5"
+      ],
+      []
+    ]
   },
   "69": {
     "Id": 69,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["b5", "b6", "c4", "c7", "d4", "d7", "d8", "e8", "f7"],
+    "InitPlayer": [
+      "b5",
+      "b6",
+      "c4",
+      "c7",
+      "d4",
+      "d7",
+      "d8",
+      "e8",
+      "f7"
+    ],
     "InitNpc": [
       "a8",
       "b3",
@@ -1551,10 +3141,24 @@
       "e6",
       "e7"
     ],
-    "playerList": ["d6", "e5"],
-    "PlayerKill": [[], ["c5", "c6", "d5"]],
-    "npcList": ["d5"],
-    "NpcKill": [[]]
+    "playerList": [
+      "d6",
+      "e5"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "c5",
+        "c6",
+        "d5"
+      ]
+    ],
+    "npcList": [
+      "d5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "70": {
     "Id": 70,
@@ -1573,11 +3177,48 @@
       "d7",
       "e8"
     ],
-    "InitNpc": ["a5", "a6", "b5", "b8", "b9", "c5", "c6", "c7"],
-    "playerList": ["b7", "b7", "b7"],
-    "PlayerKill": [[], [], ["a5", "a6", "a7", "b5", "b6", "c5", "c6", "c7"]],
-    "npcList": ["a7", "b6"],
-    "NpcKill": [["b6", "b7"], ["b7"]]
+    "InitNpc": [
+      "a5",
+      "a6",
+      "b5",
+      "b8",
+      "b9",
+      "c5",
+      "c6",
+      "c7"
+    ],
+    "playerList": [
+      "b7",
+      "b7",
+      "b7"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "a5",
+        "a6",
+        "a7",
+        "b5",
+        "b6",
+        "c5",
+        "c6",
+        "c7"
+      ]
+    ],
+    "npcList": [
+      "a7",
+      "b6"
+    ],
+    "NpcKill": [
+      [
+        "b6",
+        "b7"
+      ],
+      [
+        "b7"
+      ]
+    ]
   },
   "71": {
     "Id": 71,
@@ -1613,20 +3254,75 @@
       "h8",
       "i7"
     ],
-    "playerList": ["e6", "f6", "g9"],
-    "PlayerKill": [[]],
-    "npcList": ["f9", "b9"],
-    "NpcKill": [["e9", "c9"]]
+    "playerList": [
+      "e6",
+      "f6",
+      "g9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "f9",
+      "b9"
+    ],
+    "NpcKill": [
+      [
+        "e9",
+        "c9"
+      ]
+    ]
   },
   "72": {
     "Id": 72,
     "Tips": "执黑先行，吃子题",
-    "InitPlayer": ["c7", "c8", "c9", "d5", "d6", "e9", "f7"],
-    "InitNpc": ["b6", "c6", "d7", "d8", "d9", "e8", "f8"],
-    "playerList": ["g8", "e7", "g9", "e9"],
-    "PlayerKill": [[], [], [], ["d7", "d8", "d9", "e8", "f8", "f9"]],
-    "npcList": ["f9", "b9", "b8"],
-    "NpcKill": [["e9"]]
+    "InitPlayer": [
+      "c7",
+      "c8",
+      "c9",
+      "d5",
+      "d6",
+      "e9",
+      "f7"
+    ],
+    "InitNpc": [
+      "b6",
+      "c6",
+      "d7",
+      "d8",
+      "d9",
+      "e8",
+      "f8"
+    ],
+    "playerList": [
+      "g8",
+      "e7",
+      "g9",
+      "e9"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [],
+      [
+        "d7",
+        "d8",
+        "d9",
+        "e8",
+        "f8",
+        "f9"
+      ]
+    ],
+    "npcList": [
+      "f9",
+      "b9",
+      "b8"
+    ],
+    "NpcKill": [
+      [
+        "e9"
+      ]
+    ]
   },
   "73": {
     "Id": 73,
@@ -1644,11 +3340,33 @@
       "g8",
       "g9"
     ],
-    "InitNpc": ["b9", "c7", "c9", "d8", "e7", "e9", "f7", "f8", "f9"],
-    "playerList": ["b8", "b7"],
-    "PlayerKill": [[], ["c7"]],
-    "npcList": ["a8"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "b9",
+      "c7",
+      "c9",
+      "d8",
+      "e7",
+      "e9",
+      "f7",
+      "f8",
+      "f9"
+    ],
+    "playerList": [
+      "b8",
+      "b7"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "c7"
+      ]
+    ],
+    "npcList": [
+      "a8"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "74": {
     "Id": 74,
@@ -1668,21 +3386,79 @@
       "f7",
       "f8"
     ],
-    "InitNpc": ["a7", "a8", "b7", "c6", "c7", "c9", "d6", "d8", "e6", "e7"],
-    "playerList": ["c8", "d7"],
-    "PlayerKill": [["c9"], ["d8"]],
-    "npcList": ["a9"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "a7",
+      "a8",
+      "b7",
+      "c6",
+      "c7",
+      "c9",
+      "d6",
+      "d8",
+      "e6",
+      "e7"
+    ],
+    "playerList": [
+      "c8",
+      "d7"
+    ],
+    "PlayerKill": [
+      [
+        "c9"
+      ],
+      [
+        "d8"
+      ]
+    ],
+    "npcList": [
+      "a9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "75": {
     "Id": 75,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a5", "a7", "b5", "b7", "c5", "c7", "d5", "d6", "d7"],
-    "InitNpc": ["a8", "b4", "b6", "c4", "c8", "d4", "d8", "e4", "e6", "e7"],
-    "playerList": ["b8", "a9"],
-    "PlayerKill": [[], ["a8"]],
-    "npcList": ["b9"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "a5",
+      "a7",
+      "b5",
+      "b7",
+      "c5",
+      "c7",
+      "d5",
+      "d6",
+      "d7"
+    ],
+    "InitNpc": [
+      "a8",
+      "b4",
+      "b6",
+      "c4",
+      "c8",
+      "d4",
+      "d8",
+      "e4",
+      "e6",
+      "e7"
+    ],
+    "playerList": [
+      "b8",
+      "a9"
+    ],
+    "PlayerKill": [
+      [],
+      [
+        "a8"
+      ]
+    ],
+    "npcList": [
+      "b9"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "76": {
     "Id": 76,
@@ -1717,30 +3493,96 @@
       "g7",
       "g8"
     ],
-    "playerList": ["e7", "d5"],
-    "PlayerKill": [[]],
-    "npcList": ["h9"],
-    "NpcKill": [["g9"]]
+    "playerList": [
+      "e7",
+      "d5"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "h9"
+    ],
+    "NpcKill": [
+      [
+        "g9"
+      ]
+    ]
   },
   "77": {
     "Id": 77,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a7", "a8", "b3", "c4", "c8", "d3", "d5", "d6", "d7", "d8"],
-    "InitNpc": ["a4", "a6", "b7", "b8", "c5", "c6", "c7", "c9"],
-    "playerList": ["b5", "a3"],
-    "PlayerKill": [[]],
-    "npcList": ["b4"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "a7",
+      "a8",
+      "b3",
+      "c4",
+      "c8",
+      "d3",
+      "d5",
+      "d6",
+      "d7",
+      "d8"
+    ],
+    "InitNpc": [
+      "a4",
+      "a6",
+      "b7",
+      "b8",
+      "c5",
+      "c6",
+      "c7",
+      "c9"
+    ],
+    "playerList": [
+      "b5",
+      "a3"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "b4"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "78": {
     "Id": 78,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["f2", "f3", "f4", "f5", "f6", "g2", "g6", "h6", "h8"],
-    "InitNpc": ["g3", "g4", "g5", "h1", "h2", "h5"],
-    "playerList": ["i4", "h3"],
-    "PlayerKill": [[]],
-    "npcList": ["i5"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "g2",
+      "g6",
+      "h6",
+      "h8"
+    ],
+    "InitNpc": [
+      "g3",
+      "g4",
+      "g5",
+      "h1",
+      "h2",
+      "h5"
+    ],
+    "playerList": [
+      "i4",
+      "h3"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "i5"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "79": {
     "Id": 79,
@@ -1775,20 +3617,69 @@
       "h7",
       "h8"
     ],
-    "playerList": ["d8", "e9", "d8"],
-    "PlayerKill": [[], [], ["d7", "e7", "e8"]],
-    "npcList": ["d9", "a8"],
-    "NpcKill": [["d8"], ["b8"]]
+    "playerList": [
+      "d8",
+      "e9",
+      "d8"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "d7",
+        "e7",
+        "e8"
+      ]
+    ],
+    "npcList": [
+      "d9",
+      "a8"
+    ],
+    "NpcKill": [
+      [
+        "d8"
+      ],
+      [
+        "b8"
+      ]
+    ]
   },
   "80": {
     "Id": 80,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["f5", "f6", "f7", "f8", "g3", "g4", "g8", "h3"],
-    "InitNpc": ["g5", "g6", "g7", "h4", "h8", "h9"],
-    "playerList": ["i6", "i5", "h7"],
-    "PlayerKill": [[]],
-    "npcList": ["h5", "i4"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "g3",
+      "g4",
+      "g8",
+      "h3"
+    ],
+    "InitNpc": [
+      "g5",
+      "g6",
+      "g7",
+      "h4",
+      "h8",
+      "h9"
+    ],
+    "playerList": [
+      "i6",
+      "i5",
+      "h7"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "h5",
+      "i4"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "81": {
     "Id": 81,
@@ -1823,20 +3714,62 @@
       "f8",
       "g9"
     ],
-    "playerList": ["d9", "c9"],
-    "PlayerKill": [[]],
-    "npcList": ["d8"],
-    "NpcKill": [[]]
+    "playerList": [
+      "d9",
+      "c9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "d8"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "82": {
     "Id": 82,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["b6", "b7", "c5", "d5", "e5", "e8", "e9", "f5", "f6", "f7"],
-    "InitNpc": ["a8", "b8", "c7", "d6", "d8", "d9", "e6"],
-    "playerList": ["b9", "d7", "c6"],
-    "PlayerKill": [[]],
-    "npcList": ["c9", "e7"],
-    "NpcKill": [[], ["d7"]]
+    "InitPlayer": [
+      "b6",
+      "b7",
+      "c5",
+      "d5",
+      "e5",
+      "e8",
+      "e9",
+      "f5",
+      "f6",
+      "f7"
+    ],
+    "InitNpc": [
+      "a8",
+      "b8",
+      "c7",
+      "d6",
+      "d8",
+      "d9",
+      "e6"
+    ],
+    "playerList": [
+      "b9",
+      "d7",
+      "c6"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "c9",
+      "e7"
+    ],
+    "NpcKill": [
+      [],
+      [
+        "d7"
+      ]
+    ]
   },
   "83": {
     "Id": 83,
@@ -1855,11 +3788,35 @@
       "i8",
       "i9"
     ],
-    "InitNpc": ["c8", "c9", "d7", "e7", "e8", "f7", "g7", "g9", "h8"],
-    "playerList": ["d9", "g8", "h9"],
-    "PlayerKill": [[]],
-    "npcList": ["f9", "f8"],
-    "NpcKill": [[], ["g8"]]
+    "InitNpc": [
+      "c8",
+      "c9",
+      "d7",
+      "e7",
+      "e8",
+      "f7",
+      "g7",
+      "g9",
+      "h8"
+    ],
+    "playerList": [
+      "d9",
+      "g8",
+      "h9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "f9",
+      "f8"
+    ],
+    "NpcKill": [
+      [],
+      [
+        "g8"
+      ]
+    ]
   },
   "84": {
     "Id": 84,
@@ -1877,16 +3834,51 @@
       "g8",
       "g9"
     ],
-    "InitNpc": ["a7", "b7", "c8", "d8", "f6", "f7", "f8", "f9"],
-    "playerList": ["d9", "e6", "e9"],
-    "PlayerKill": [[], [], ["e7", "f6", "f7", "f8", "f9"]],
-    "npcList": ["e7", "c7"],
-    "NpcKill": [[]]
+    "InitNpc": [
+      "a7",
+      "b7",
+      "c8",
+      "d8",
+      "f6",
+      "f7",
+      "f8",
+      "f9"
+    ],
+    "playerList": [
+      "d9",
+      "e6",
+      "e9"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "e7",
+        "f6",
+        "f7",
+        "f8",
+        "f9"
+      ]
+    ],
+    "npcList": [
+      "e7",
+      "c7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "85": {
     "Id": 85,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a7", "b6", "b9", "c7", "d7", "d8"],
+    "InitPlayer": [
+      "a7",
+      "b6",
+      "b9",
+      "c7",
+      "d7",
+      "d8"
+    ],
     "InitNpc": [
       "a5",
       "a6",
@@ -1900,10 +3892,19 @@
       "f8",
       "f9"
     ],
-    "playerList": ["a8", "c8"],
-    "PlayerKill": [[]],
-    "npcList": ["b8"],
-    "NpcKill": [[]]
+    "playerList": [
+      "a8",
+      "c8"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "b8"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "86": {
     "Id": 86,
@@ -1950,15 +3951,36 @@
       "g4",
       "g5"
     ],
-    "playerList": ["e3", "d5", "f5"],
-    "PlayerKill": [[]],
-    "npcList": ["e4", "g3"],
-    "NpcKill": [[]]
+    "playerList": [
+      "e3",
+      "d5",
+      "f5"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "e4",
+      "g3"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "87": {
     "Id": 87,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["b6", "b7", "b9", "c5", "c6", "c8", "d7", "e7", "e8"],
+    "InitPlayer": [
+      "b6",
+      "b7",
+      "b9",
+      "c5",
+      "c6",
+      "c8",
+      "d7",
+      "e7",
+      "e8"
+    ],
     "InitNpc": [
       "a8",
       "b4",
@@ -1975,15 +3997,33 @@
       "f8",
       "f9"
     ],
-    "playerList": ["c9", "a9"],
-    "PlayerKill": [[]],
-    "npcList": ["a6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "c9",
+      "a9"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "88": {
     "Id": 88,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["b8", "b9", "c6", "c7", "d5", "d7", "e5", "e6"],
+    "InitPlayer": [
+      "b8",
+      "b9",
+      "c6",
+      "c7",
+      "d5",
+      "d7",
+      "e5",
+      "e6"
+    ],
     "InitNpc": [
       "a7",
       "b5",
@@ -1998,10 +4038,19 @@
       "f6",
       "f7"
     ],
-    "playerList": ["b6", "a8"],
-    "PlayerKill": [[]],
-    "npcList": ["a6"],
-    "NpcKill": [[]]
+    "playerList": [
+      "b6",
+      "a8"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "a6"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "89": {
     "Id": 89,
@@ -2019,27 +4068,84 @@
       "f7",
       "f8"
     ],
-    "InitNpc": ["a7", "b6", "b8", "b9", "c7", "d7", "d8", "e7"],
-    "playerList": ["a8", "c6", "b7"],
-    "PlayerKill": [[], [], ["b6"]],
-    "npcList": ["a9", "d9"],
-    "NpcKill": [["a8"]]
+    "InitNpc": [
+      "a7",
+      "b6",
+      "b8",
+      "b9",
+      "c7",
+      "d7",
+      "d8",
+      "e7"
+    ],
+    "playerList": [
+      "a8",
+      "c6",
+      "b7"
+    ],
+    "PlayerKill": [
+      [],
+      [],
+      [
+        "b6"
+      ]
+    ],
+    "npcList": [
+      "a9",
+      "d9"
+    ],
+    "NpcKill": [
+      [
+        "a8"
+      ]
+    ]
   },
   "90": {
     "Id": 90,
     "Tips": "执黑先行，死活题",
-    "InitPlayer": ["a8", "c6", "c8", "d6", "d7"],
-    "InitNpc": ["b5", "c4", "c7", "d8", "d9", "e5", "e6", "e7", "f8"],
-    "playerList": ["b9", "b6"],
-    "PlayerKill": [[]],
-    "npcList": ["b7"],
-    "NpcKill": [[]]
+    "InitPlayer": [
+      "a8",
+      "c6",
+      "c8",
+      "d6",
+      "d7"
+    ],
+    "InitNpc": [
+      "b5",
+      "c4",
+      "c7",
+      "d8",
+      "d9",
+      "e5",
+      "e6",
+      "e7",
+      "f8"
+    ],
+    "playerList": [
+      "b9",
+      "b6"
+    ],
+    "PlayerKill": [
+      []
+    ],
+    "npcList": [
+      "b7"
+    ],
+    "NpcKill": [
+      []
+    ]
   },
   "91": {
     "Id": 91,
     "Tips": 111,
-    "InitPlayer": ["g6", "f5", "e5"],
-    "InitNpc": ["f6"],
+    "InitPlayer": [
+      "g6",
+      "f5",
+      "e5"
+    ],
+    "InitNpc": [
+      "f6"
+    ],
     "PlayerKill": [
       [],
       [],
@@ -2047,9 +4153,29 @@
       [],
       [],
       [],
-      ["f6", "e6", "e7", "d7", "d8", "c8", "c9"]
+      [
+        "f6",
+        "e6",
+        "e7",
+        "d7",
+        "d8",
+        "c8",
+        "c9"
+      ]
     ],
-    "npcList": ["e6", "e7", "d7", "d8", "c8", "c9"],
-    "NpcKill": [[]]
+    "npcList": [
+      "e6",
+      "e7",
+      "d7",
+      "d8",
+      "c8",
+      "c9"
+    ],
+    "NpcKill": [
+      []
+    ]
+  },
+  "日常三十题": {
+    "Id": "日常三十题"
   }
 }

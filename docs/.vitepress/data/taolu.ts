@@ -40,6 +40,9 @@ export async function getTaoluSkills(taolu: number) : Promise<SkillIdLevel[]> {
 
 interface XlsLearnTaolu extends XlsBase {
 	Taolu: number;
+  LifeSkill: number;
+  Secret: number; //秘技
+  
 	MaxLevel: number;
 	Level: number;
 	NpcId: number;

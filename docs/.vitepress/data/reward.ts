@@ -81,8 +81,8 @@ function item2RewardItems(a: number | number[] | RewardItem[]): ItemIdCount[] {
   }
   return (a as RewardItem[]).map((i) => {
     return i[0] > 0
-      ? { id: i[0], count: i[1], rand: i[2] }
-      : { id: -i[0], count: -i[1], rand: i[2] };
+      ? { id: i[0], count: i[1], rand: i[2] || 0 }
+      : { id: -i[0], count: -i[1], rand: i[2] || 0};
   });
 }
 

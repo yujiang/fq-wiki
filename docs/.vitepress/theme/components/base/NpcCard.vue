@@ -72,7 +72,7 @@
 import { ref, watch, computed, onMounted } from "vue";
 import ItemGrid from "./ItemGrid.vue";
 import SkillGrid from "./SkillGrid.vue";
-import { getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../../data/observe";
+import { getLikeDesc, getObserve, observe2Asks, observe2Items, observe2Like, observe2Skills, XlsObserve } from "../../../data/observe";
 import { getNpc, getNpcAvater, getNpcPosition } from "../../../data/npc";
 import { ItemIdCount } from "../../../data/item";
 import { SkillIdLevel } from "../../../data/skill";
@@ -113,13 +113,13 @@ const updateCurrentObserve = async (id: number) => {
       npcName.value = isDev ? `${xls.Name}(${xls.Id})` : xls.Name
       const info = await getNpc(xls.Npc || id);
       npcicon.value = getNpcAvater(info?.Display?.icon) ;
-      likedesc.value = observe2Like(xls.Like);
+      likedesc.value = await getLikeDesc(xls);
       posdesc.value = info ? await getNpcPosition(info.Id) : '';
       
       const items2 = observe2Items(xls.Items)
       const len2 = items2.length;
       const ask2 = observe2Asks(xls.AskItems); 
-      if (items2.length > 0 && items2.length < 3 && ask2.length > 0) {
+      if (items2.length < 3 && ask2.length > 0) {
         for (let i = 0; i < 3 - len2; i++) {
           items2.push({id:0,count:0});
         }

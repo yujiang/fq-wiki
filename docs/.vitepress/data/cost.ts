@@ -21,6 +21,7 @@ export async function getCost(id: number) {
   return (await getCosts())[id];
 }
 
+//计算可能升到多少级
 export function getCostUpgrade(soldier?: boolean) {
   return getCost(soldier ? 20100 : 20101);
 }

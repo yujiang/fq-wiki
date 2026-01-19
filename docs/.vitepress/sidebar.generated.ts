@@ -276,16 +276,16 @@ export default [
         "text": "故事",
         "items": [
           {
-            "text": "背景故事1——南北擂台",
-            "link": "/09-剧情/01-故事/00-背景故事1——南北擂台"
+            "text": "背景故事1-南北擂台",
+            "link": "/09-剧情/01-故事/00-背景故事1-南北擂台"
           },
           {
-            "text": "背景故事2-——衡山",
-            "link": "/09-剧情/01-故事/01-背景故事2-——衡山"
+            "text": "背景故事2-衡山",
+            "link": "/09-剧情/01-故事/01-背景故事2-衡山"
           },
           {
-            "text": "背景故事3-——独怜梦中人",
-            "link": "/09-剧情/01-故事/02-背景故事3-——独怜梦中人"
+            "text": "背景故事3-独怜梦中人",
+            "link": "/09-剧情/01-故事/02-背景故事3-独怜梦中人"
           },
           {
             "text": "序章杏花村—前篇10",
@@ -556,6 +556,26 @@ export default [
               }
             ],
             "collapsed": true
+          },
+          {
+            "text": "minimax",
+            "items": [
+              {
+                "text": "衡山",
+                "link": "/09-剧情/03-AI/minimax/01-背景故事2-——衡山"
+              }
+            ],
+            "collapsed": true
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "opencode",
+        "items": [
+          {
+            "text": "衡山风云",
+            "link": "/09-剧情/opencode/01-背景故事2-衡山"
           }
         ],
         "collapsed": true
@@ -801,6 +821,16 @@ export default [
       {
         "text": "观察索引",
         "link": "/23-观察/"
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "text": "奖励",
+    "items": [
+      {
+        "text": "对话奖励",
+        "link": "/24-奖励/01-对话奖励"
       }
     ],
     "collapsed": false

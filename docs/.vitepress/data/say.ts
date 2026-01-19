@@ -2,6 +2,7 @@ import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsSay extends XlsSceneObj {
     Reward: number;
+    Say: string;
 };
 
 

@@ -229,7 +229,8 @@ export async function getRewardAll(newId: number): Promise<RewardAll | null> {
 }
 
 function getNpcFriendDesc(r: XlsReward, f: RewardItem) {
-  return isDev ? `[${r.Id}]${f[1]} ${r.Remarks}` : `${f[1]} ${r.Remarks}`;
+  const desc = f[1] + " " + (r.Remarks || r.Name);
+  return isDev ? `[${r.Id}]${desc}` : desc;
 }
 
 export async function getFriendRewards(npc: number) {

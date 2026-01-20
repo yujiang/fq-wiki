@@ -1,7 +1,6 @@
 // 资源/采集点
 
-import { getReward } from "./reward";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, XlsSceneObj } from "./xls";
 
 export interface XlsCollect extends XlsSceneObj {
   Type: string;

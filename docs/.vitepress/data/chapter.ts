@@ -1,6 +1,4 @@
-import { getRewardMoney, MoneyTypeEnum } from "./reward";
-import { getTaskNext, getTasks } from "./task";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, XlsBase } from "./xls";
 
 export interface XlsChapter extends XlsBase {
     Scene: string;

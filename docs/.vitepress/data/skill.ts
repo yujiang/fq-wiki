@@ -1,5 +1,4 @@
-import { getScenePositionClient } from "./scene";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, XlsBase } from "./xls";
 
 export interface XlsSkill extends XlsBase {
   Rank: number;

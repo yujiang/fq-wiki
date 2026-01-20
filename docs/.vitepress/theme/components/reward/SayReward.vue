@@ -2,6 +2,7 @@
   遍历say.ts的GetSays(), 如果reward非空
   显示Name, Say, reward(用RewardCard.vue)
   用tab页，id按照万位单位分组 1w，2w ...
+  如果tab下的say数目 <5， 统一归入组other
   不用传入参数。
 -->
 <template>
@@ -46,12 +47,23 @@ const groups = ref<Record<string, XlsSay[]>>({})
 const currentGroup = ref<string>('')
 
 const groupKeys = computed(() => {
-  return Object.keys(groups.value).sort((a, b) => {
+  const keys = Object.keys(groups.value)
+  return keys.sort((a, b) => {
+    if (a === 'other') return 1
+    if (b === 'other') return -1
     const numA = parseInt(a.replace('w', ''))
     const numB = parseInt(b.replace('w', ''))
     return numA - numB
   })
 })
+
+const key2scene:Record<number,string> = {
+    1: '杏花村',
+    2: '芦苇荡',
+    5: '临安',
+    6: '汴京',
+    8: '武昌',
+}
 
 const currentSays = computed(() => {
   if (!currentGroup.value) return []
@@ -67,13 +79,25 @@ onMounted(async () => {
     const say = all[id]
     if (say.Reward) {
       const w = Math.floor(say.Id / 10000)
-      const key = `${w}w`
+      const key = `${w}w` + (key2scene[w] || '')
       if (!grouped[key]) grouped[key] = []
       grouped[key].push(say)
     }
   }
-  groups.value = grouped
 
+  const other: XlsSay[] = []
+  for (const key in grouped) {
+    if (grouped[key].length < 5) {
+      other.push(...grouped[key])
+      delete grouped[key]
+    }
+  }
+
+  if (other.length > 0) {
+    grouped['other'] = other
+  }
+
+  groups.value = grouped
   if (groupKeys.value.length > 0) {
     currentGroup.value = groupKeys.value[0]
   }

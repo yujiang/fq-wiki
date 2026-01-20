@@ -1,6 +1,6 @@
-import { getItemById, getItemIcon, ItemIdCount } from "./item";
+import { getItemById, getItemIcon } from "./item";
 import { MoneyCount } from "./reward";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, XlsBase } from "./xls";
 
 export interface XlsMoney extends XlsBase {
     ItemId: number;

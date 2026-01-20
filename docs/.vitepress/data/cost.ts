@@ -1,6 +1,6 @@
 // cost
 
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, XlsBase, } from "./xls";
 
 export interface XlsCost extends XlsBase {
 	Money: number;

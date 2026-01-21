@@ -15,7 +15,7 @@
     </div>
 
     <!-- 对应的 SceneArea 视图 -->
-    <SceneArea v-if="activeAreaId !== null" :sceneArea="activeAreaId" :shows="props.shows" class="area-content" />
+    <SceneArea :key="activeAreaId" v-if="activeAreaId !== null" :sceneArea="activeAreaId" :shows="props.shows" class="area-content" />
   </div>
 </template>
 

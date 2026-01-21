@@ -1,8 +1,8 @@
 
 ```vue
-<SceneArea :sceneArea="1023"/>
+<SceneArea :sceneArea="3067"/>
 ```
 
-<SceneArea :sceneArea="1023"/>
+<SceneArea :sceneArea="3067"/>
 
 

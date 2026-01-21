@@ -7,9 +7,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 180,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "裁缝店"
   },
@@ -21,9 +19,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 180,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "裁缝店"
   },
@@ -35,9 +31,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "裁缝店"
   },
@@ -49,9 +43,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 160,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "裁缝店"
   },
@@ -63,9 +55,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 160,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 5,
     "Tag": "裁缝店"
   },
@@ -77,9 +67,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "铁匠铺"
   },
@@ -91,9 +79,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "铁匠铺"
   },
@@ -105,9 +91,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "铁匠铺"
   },
@@ -119,9 +103,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "铁匠铺"
   },
@@ -133,9 +115,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 5,
     "Tag": "铁匠铺"
   },
@@ -147,9 +127,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "武馆"
   },
@@ -161,9 +139,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "武馆"
   },
@@ -175,9 +151,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "武馆"
   },
@@ -189,9 +163,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "武馆"
   },
@@ -203,9 +175,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "武馆"
   },
@@ -217,9 +187,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 5,
     "Tag": "武馆"
   },
@@ -231,9 +199,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "杂货铺"
   },
@@ -245,9 +211,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "杂货铺"
   },
@@ -259,9 +223,7 @@
     "Count": 10,
     "MoneyType": 2,
     "Price": 20,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "杂货铺"
   },
@@ -273,9 +235,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "杂货铺"
   },
@@ -287,9 +247,7 @@
     "Count": 3,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 5,
     "Tag": "杂货铺"
   },
@@ -301,9 +259,7 @@
     "Count": 10,
     "MoneyType": 2,
     "Price": 20,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "张氏杂货"
   },
@@ -315,9 +271,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "张氏杂货"
   },
@@ -329,9 +283,7 @@
     "Count": 1,
     "MoneyType": 2,
     "Price": 1000,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "张氏杂货"
   },
@@ -343,9 +295,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 4,
     "Tag": "张氏杂货"
   },
@@ -357,9 +307,7 @@
     "Count": 3,
     "MoneyType": 2,
     "Price": 200,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "醉霄楼"
   },
@@ -371,9 +319,7 @@
     "Count": 3,
     "MoneyType": 2,
     "Price": 400,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "醉霄楼"
   },
@@ -385,9 +331,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "醉霄楼"
   },
@@ -399,9 +343,7 @@
     "Count": 2,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 1,
     "Tag": "小庄菜摊"
   },
@@ -413,9 +355,7 @@
     "Count": 2,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "小庄菜摊"
   },
@@ -427,9 +367,7 @@
     "Count": 2,
     "MoneyType": 2,
     "Price": 100,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "醉霄楼"
   },
@@ -441,9 +379,7 @@
     "Count": 5,
     "MoneyType": 2,
     "Price": 50,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 2,
     "Tag": "小庄菜摊"
   },
@@ -455,9 +391,7 @@
     "Count": 2,
     "MoneyType": 2,
     "Price": 250,
-    "Needs": {
-      "Level": 0
-    },
+    "Needs": {"Level": 0},
     "Sort": 3,
     "Tag": "醉霄楼"
   }

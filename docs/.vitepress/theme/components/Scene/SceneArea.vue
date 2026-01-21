@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import { ref, onMounted, computed, watch } from 'vue'
 import SceneTabs from './SceneTabs.vue'
-import { getScenesArea, isSceneTypeArea, XlsScene } from '../../../data/scene'
+import { getScenesArea, isFuture, isSceneTypeArea, XlsScene } from '../../../data/scene'
 
 const props = defineProps<{ sceneArea: number, shows?: string[]}>()
 

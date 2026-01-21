@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import SceneAreaTabsGrouped from './SceneAreaTabsGrouped.vue'
-import { XlsScene, getScenes, getSceneType } from '../../../data/scene'
+import { XlsScene, getScenes, getSceneType, isFuture } from '../../../data/scene'
 
 
 const props = defineProps<{
@@ -19,13 +19,14 @@ const props = defineProps<{
 }>()
 
 
-type GroupKey = '城市' | '村庄' | '门派' | '势力'
+type GroupKey = '城市' | '村庄' | '道路' | '门派' | '势力'
 
 
 /** 最终喂给子组件的接口 */
 const sceneAreas = ref<Record<GroupKey, number[]>>({
   城市: [],
   村庄: [],
+  道路: [],
   门派: [],
   势力: [],
 })
@@ -42,11 +43,13 @@ onMounted(async () => {
   const buckets: Record<string, number[]> = {
     城市: [],
     村庄: [],
+    道路: [],
     门派: [],
     势力: [],
   }
 
   for (const sc of Object.values(scenes)) {
+    if (isFuture(sc.Tags)) continue;
     const g = classifyToGroup(sc)
     if (!g) continue
     buckets[g]?.push(sc.Id)

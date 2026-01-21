@@ -9,24 +9,15 @@
     "Type": "类型：食物",
     "SalePrice": 50,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "零食"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["零食"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "品尝",
     "UseParam": 204004,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "13020": {
     "Id": 13020,
@@ -39,12 +30,8 @@
     "Detail": "西湖米酒",
     "Type": "类型：酒",
     "Rank": 2,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -53,10 +40,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40001": {
     "Id": 40001,
@@ -69,24 +53,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 204001,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40002": {
     "Id": 40002,
@@ -99,24 +74,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 204001,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40003": {
     "Id": 40003,
@@ -129,24 +95,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40004": {
     "Id": 40004,
@@ -159,24 +116,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40005": {
     "Id": 40005,
@@ -189,24 +137,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40006": {
     "Id": 40006,
@@ -219,25 +158,15 @@
     "Type": "类型：料理",
     "SalePrice": 24,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 204005,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40007": {
     "Id": 40007,
@@ -250,15 +179,8 @@
     "Type": "类型：料理",
     "SalePrice": 100,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -267,10 +189,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40008": {
     "Id": 40008,
@@ -283,11 +202,7 @@
     "Type": "类型：料理",
     "SalePrice": 100,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -296,10 +211,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40009": {
     "Id": 40009,
@@ -312,15 +224,8 @@
     "Type": "类型：料理",
     "SalePrice": 50,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -328,10 +233,7 @@
     "Page": "food",
     "Overlay": 99,
     "Credit": 5,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40010": {
     "Id": 40010,
@@ -344,11 +246,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -357,10 +255,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40011": {
     "Id": 40011,
@@ -373,25 +268,15 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 204009,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40012": {
     "Id": 40012,
@@ -404,11 +289,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -417,10 +298,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40013": {
     "Id": 40013,
@@ -433,11 +311,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -446,10 +320,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40014": {
     "Id": 40014,
@@ -462,11 +333,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -475,10 +342,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40015": {
     "Id": 40015,
@@ -491,15 +355,8 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -508,10 +365,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40016": {
     "Id": 40016,
@@ -524,11 +378,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -537,10 +387,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40017": {
     "Id": 40017,
@@ -553,11 +400,7 @@
     "Type": "类型：料理",
     "SalePrice": 200,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -566,10 +409,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40018": {
     "Id": 40018,
@@ -582,11 +422,7 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -595,10 +431,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40019": {
     "Id": 40019,
@@ -611,11 +444,7 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -624,10 +453,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40020": {
     "Id": 40020,
@@ -640,15 +466,8 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -657,10 +476,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40021": {
     "Id": 40021,
@@ -673,15 +489,8 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -690,10 +499,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40022": {
     "Id": 40022,
@@ -706,11 +512,7 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -719,10 +521,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40023": {
     "Id": 40023,
@@ -735,11 +534,7 @@
     "Type": "类型：料理",
     "SalePrice": 300,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -748,10 +543,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40024": {
     "Id": 40024,
@@ -764,15 +556,8 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -780,10 +565,7 @@
     "Page": "food",
     "Overlay": 99,
     "Credit": 5,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40025": {
     "Id": 40025,
@@ -796,15 +578,8 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -813,10 +588,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40026": {
     "Id": 40026,
@@ -829,11 +601,7 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -842,10 +610,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40027": {
     "Id": 40027,
@@ -858,11 +623,7 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -871,10 +632,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40028": {
     "Id": 40028,
@@ -887,15 +645,8 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -904,10 +655,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40029": {
     "Id": 40029,
@@ -920,11 +668,7 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -933,10 +677,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40030": {
     "Id": 40030,
@@ -949,11 +690,7 @@
     "Type": "类型：料理",
     "SalePrice": 100,
     "Rank": 3,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -962,10 +699,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40040": {
     "Id": 40040,
@@ -978,12 +712,8 @@
     "Detail": "女儿酒色如琥珀，馥郁芳香，为旧时富家生女、嫁女必备之物。",
     "Type": "类型：酒",
     "Rank": 2,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -992,10 +722,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40041": {
     "Id": 40041,
@@ -1008,12 +735,8 @@
     "Detail": "杜康酒味甜质纯，一口三香，古来便有“何以解忧，唯有杜康”之名。",
     "Type": "类型：酒",
     "Rank": 3,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1022,10 +745,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40042": {
     "Id": 40042,
@@ -1038,12 +758,8 @@
     "Detail": "“兰陵美酒郁金香，玉碗盛来琥珀光。”连诗仙李白都赞不绝口的极品黄酒",
     "Type": "类型：酒",
     "Rank": 4,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1052,10 +768,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40043": {
     "Id": 40043,
@@ -1068,12 +781,8 @@
     "Detail": "烈酒的一种。请谨慎饮用，喝完了也不会让你变身。",
     "Type": "类型：酒",
     "Rank": 3,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1082,10 +791,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40044": {
     "Id": 40044,
@@ -1098,13 +804,8 @@
     "Detail": "烧刀子酒味浓烈，入口有如一条火线直入脏腑，最受江湖人士喜爱。",
     "Type": "类型：酒",
     "Rank": 2,
-    "Tags": [
-      "酒水",
-      "凝炼"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水", "凝炼"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1113,10 +814,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40045": {
     "Id": 40045,
@@ -1129,12 +827,8 @@
     "Detail": "自唐代以来，连皇帝都爱不释手的蜀中美酒。",
     "Type": "类型：酒",
     "Rank": 4,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1143,10 +837,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40046": {
     "Id": 40046,
@@ -1159,12 +850,8 @@
     "Detail": "用山楂为原料酿制成的果酒，晶莹剔透、保留天然果香。",
     "Type": "类型：酒",
     "Rank": 1,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1173,10 +860,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40047": {
     "Id": 40047,
@@ -1189,12 +873,8 @@
     "Detail": "以青梅为原料酿造而成的果酒，清热解暑，生津和胃。",
     "Type": "类型：酒",
     "Rank": 1,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1203,10 +883,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40048": {
     "Id": 40048,
@@ -1219,12 +896,8 @@
     "Detail": "“葡萄美酒夜光杯，欲饮琵琶马上催。醉卧沙场君莫笑，古来征战几人回？”塞上的极品葡萄酒",
     "Type": "类型：酒",
     "Rank": 5,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1233,10 +906,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40049": {
     "Id": 40049,
@@ -1248,13 +918,8 @@
     "Detail": "少林独家斋饭，菜色丰富，菌类的软嫩、爽脆与蔬菜的清甜、脆嫩相得益彰，味道咸鲜可口，是一道色香味俱全的健康佳肴。食用后增加18点体力。",
     "Type": "类型：料理",
     "Rank": 3,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1273,13 +938,8 @@
     "Detail": "少林独家斋饭，烹饪技巧以蒸菜为主，食时鲜嫩滑爽，清香四溢，乃素菜上品。食用后增加20点体力。",
     "Type": "类型：料理",
     "Rank": 3,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1298,13 +958,8 @@
     "Detail": "少林独家斋饭，外形似菠萝咕噜肉，让人误以为这不是一道素菜，但咬下你会发现，实际上面粉里裹的并不是肉。食用后增加26点体力。",
     "Type": "类型：料理",
     "Rank": 4,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1323,13 +978,8 @@
     "Detail": "少林独家斋饭，把每种代表颜色的食材都放在一起炖煮成粥，暖暖的一碗下肚，不仅增强食欲，而且吃起来更有营养。食用后增加21点体力。",
     "Type": "类型：料理",
     "Rank": 4,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1348,13 +998,8 @@
     "Detail": "少林独家斋饭，外形饱满，轮廓分明，色呈黄色或金黄色，饼馅软而不绵，饼皮松而不脆，两相结合，芳香甘醇。食用后增加22点体力。",
     "Type": "类型：料理",
     "Rank": 4,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1373,13 +1018,8 @@
     "Detail": "少林独家斋饭，因做工讲究才造就了它独特优美的外形，半边香菇半边面筋色泽分明，如一道完美的半月沉江。食用后增加15点体力。",
     "Type": "类型：料理",
     "Rank": 3,
-    "Tags": [
-      "Satiety"
-    ],
-    "LikeTags": [
-      "食物",
-      "素菜"
-    ],
+    "Tags": ["Satiety"],
+    "LikeTags": ["食物", "素菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1399,9 +1039,7 @@
     "Detail": "杏花村的特色美酒",
     "Type": "类型：酒",
     "Rank": 3,
-    "LikeTags": [
-      "酒水"
-    ],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1410,10 +1048,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40056": {
     "Id": 40056,
@@ -1426,24 +1061,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "烹饪",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "烹饪", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40057": {
     "Id": 40057,
@@ -1456,24 +1082,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "烹饪",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "烹饪", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40058": {
     "Id": 40058,
@@ -1486,12 +1103,8 @@
     "Detail": "只有汴京本地人才知道名号的特色烧酒，名带“梅花”，却是烈酒，窦记酒窖独家酿造。",
     "Type": "类型：酒",
     "Rank": 2,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1500,10 +1113,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40059": {
     "Id": 40059,
@@ -1515,24 +1125,15 @@
     "Type": "类型：食物",
     "SalePrice": 50,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "素菜"
-    ],
-    "LikeTags": [
-      "零食"
-    ],
+    "Tags": ["Satiety", "食物", "素菜"],
+    "LikeTags": ["零食"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 204004,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40060": {
     "Id": 40060,
@@ -1545,24 +1146,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40061": {
     "Id": 40061,
@@ -1575,24 +1167,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40062": {
     "Id": 40062,
@@ -1605,15 +1188,8 @@
     "Type": "类型：料理",
     "SalePrice": 500,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1622,10 +1198,7 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40063": {
     "Id": 40063,
@@ -1637,22 +1210,14 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果",
-      "材料"
-    ],
+    "Tags": ["Satiety", "食物", "水果", "材料"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40064": {
     "Id": 40064,
@@ -1665,24 +1230,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "烹饪",
-      "水果"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "烹饪", "水果"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40065": {
     "Id": 40065,
@@ -1695,12 +1251,8 @@
     "Detail": "九曲连环坞的特色酒",
     "Type": "类型：酒",
     "Rank": 2,
-    "Tags": [
-      "酒水"
-    ],
-    "LikeTags": [
-      "酒水"
-    ],
+    "Tags": ["酒水"],
+    "LikeTags": ["酒水"],
     "Kind": "酒食",
     "Use": "drink",
     "UseText": "享用",
@@ -1709,10 +1261,7 @@
     "noTips": 1,
     "Credit": 5,
     "CreditTip": "你破了酒戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40066": {
     "Id": 40066,
@@ -1725,25 +1274,15 @@
     "Type": "类型：水果",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "水果",
-      "材料"
-    ],
-    "LikeTags": [
-      "水果"
-    ],
+    "Tags": ["Satiety", "食物", "水果", "材料"],
+    "LikeTags": ["水果"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
     "UseParam": 10063,
     "Page": "food",
     "Overlay": 99,
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   },
   "40067": {
     "Id": 40067,
@@ -1756,15 +1295,8 @@
     "Type": "类型：食物",
     "SalePrice": 500,
     "Rank": 4,
-    "Tags": [
-      "Satiety",
-      "食物",
-      "荤菜"
-    ],
-    "LikeTags": [
-      "食物",
-      "荤菜"
-    ],
+    "Tags": ["Satiety", "食物", "荤菜"],
+    "LikeTags": ["食物", "荤菜"],
     "Kind": "酒食",
     "Use": "reward",
     "UseText": "享用",
@@ -1773,9 +1305,6 @@
     "Overlay": 99,
     "Credit": 5,
     "CreditTip": "你破了荤戒",
-    "NoFood": [
-      200001,
-      50032
-    ]
+    "NoFood": [200001, 50032]
   }
 }

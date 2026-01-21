@@ -9,12 +9,8 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武林秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -34,12 +30,8 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武林秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -59,12 +51,8 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武林秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -81,20 +69,13 @@
     "Detail": "一本记载了手少阴经走向和通脉方法的秘籍，使用后可解锁手少阴经。",
     "SalePrice": 1000,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 1,
-      "level": 0
-    },
+    "UseParam": {"channel": 1, "level": 0},
     "Page": "book",
     "Say": 200001
   },
@@ -105,20 +86,13 @@
     "Detail": "一本记载了手厥阴经走向和通脉方法的秘籍，使用后可解锁手厥阴经。",
     "SalePrice": 1000,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 2,
-      "level": 0
-    },
+    "UseParam": {"channel": 2, "level": 0},
     "Page": "book",
     "Say": 200003
   },
@@ -129,20 +103,13 @@
     "Detail": "一本记载了手太阴经走向和通脉方法的秘籍，使用后可解锁手太阴经。",
     "SalePrice": 1000,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 3,
-      "level": 0
-    },
+    "UseParam": {"channel": 3, "level": 0},
     "Page": "book",
     "Say": 200005
   },
@@ -153,20 +120,13 @@
     "Detail": "一本记载了手少阳经走向和通脉方法的秘籍，使用后可解锁手少阳经。",
     "SalePrice": 1000,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 4,
-      "level": 0
-    },
+    "UseParam": {"channel": 4, "level": 0},
     "Page": "book",
     "Say": 200007
   },
@@ -177,20 +137,13 @@
     "Detail": "一本记载了手阳明经走向和通脉方法的秘籍，使用后可解锁手阳明经。",
     "SalePrice": 1000,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 5,
-      "level": 0
-    },
+    "UseParam": {"channel": 5, "level": 0},
     "Page": "book",
     "Say": 200009
   },
@@ -201,20 +154,13 @@
     "Detail": "一本记载了手太阳经走向和通脉方法的秘籍，使用后可解锁手太阳经。",
     "SalePrice": 1000,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 6,
-      "level": 0
-    },
+    "UseParam": {"channel": 6, "level": 0},
     "Page": "book",
     "Say": 200011
   },
@@ -225,20 +171,13 @@
     "Detail": "一本记载了足少阴经走向和通脉方法的秘籍，使用后可解锁足少阴经。",
     "SalePrice": 1000,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 7,
-      "level": 0
-    },
+    "UseParam": {"channel": 7, "level": 0},
     "Page": "book",
     "Say": 200013
   },
@@ -249,20 +188,13 @@
     "Detail": "一本记载了足厥阴经走向和通脉方法的秘籍，使用后可解锁足厥阴经。",
     "SalePrice": 1000,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 8,
-      "level": 0
-    },
+    "UseParam": {"channel": 8, "level": 0},
     "Page": "book",
     "Say": 200015
   },
@@ -273,20 +205,13 @@
     "Detail": "一本记载了足太阴经走向和通脉方法的秘籍，使用后可解锁足太阴经。",
     "SalePrice": 1000,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 9,
-      "level": 0
-    },
+    "UseParam": {"channel": 9, "level": 0},
     "Page": "book",
     "Say": 200017
   },
@@ -297,20 +222,13 @@
     "Detail": "一本记载了足少阳经走向和通脉方法的秘籍，使用后可解锁足少阳经。",
     "SalePrice": 1000,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 10,
-      "level": 0
-    },
+    "UseParam": {"channel": 10, "level": 0},
     "Page": "book",
     "Say": 200019
   },
@@ -321,20 +239,13 @@
     "Detail": "一本记载了足阳明经走向和通脉方法的秘籍，使用后可解锁足阳明经。",
     "SalePrice": 1000,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 11,
-      "level": 0
-    },
+    "UseParam": {"channel": 11, "level": 0},
     "Page": "book",
     "Say": 200021
   },
@@ -345,20 +256,13 @@
     "Detail": "一本记载了足太阳经走向和通脉方法的秘籍，使用后可解锁足太阳经。",
     "SalePrice": 1000,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 12,
-      "level": 0
-    },
+    "UseParam": {"channel": 12, "level": 0},
     "Page": "book",
     "Say": 200023
   },
@@ -369,20 +273,13 @@
     "Detail": "一本记载了任脉走向和通脉方法的秘籍，使用后可解锁任脉。",
     "SalePrice": 1000,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 13,
-      "level": 0
-    },
+    "UseParam": {"channel": 13, "level": 0},
     "Page": "book",
     "Say": 200025
   },
@@ -393,20 +290,13 @@
     "Detail": "一本记载了督脉走向和通脉方法的秘籍，使用后可解锁督脉。",
     "SalePrice": 1000,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 14,
-      "level": 0
-    },
+    "UseParam": {"channel": 14, "level": 0},
     "Page": "book",
     "Say": 200027
   },
@@ -417,20 +307,13 @@
     "Detail": "一本记载了冲脉走向和通脉方法的秘籍，使用后可解锁冲脉。",
     "SalePrice": 1000,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 15,
-      "level": 0
-    },
+    "UseParam": {"channel": 15, "level": 0},
     "Page": "book",
     "Say": 200029
   },
@@ -441,20 +324,13 @@
     "Detail": "一本记载了带脉走向和通脉方法的秘籍，使用后可解锁带脉。",
     "SalePrice": 1000,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 16,
-      "level": 0
-    },
+    "UseParam": {"channel": 16, "level": 0},
     "Page": "book",
     "Say": 200031
   },
@@ -465,20 +341,13 @@
     "Detail": "一本记载了阴跷脉走向和通脉方法的秘籍，使用后可解锁阴跷脉。",
     "SalePrice": 1000,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 17,
-      "level": 0
-    },
+    "UseParam": {"channel": 17, "level": 0},
     "Page": "book",
     "Say": 200033
   },
@@ -489,20 +358,13 @@
     "Detail": "一本记载了阳跷脉走向和通脉方法的秘籍，使用后可解锁阳跷脉。",
     "SalePrice": 1000,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 18,
-      "level": 0
-    },
+    "UseParam": {"channel": 18, "level": 0},
     "Page": "book",
     "Say": 200035
   },
@@ -513,20 +375,13 @@
     "Detail": "一本记载了阴维脉走向和通脉方法的秘籍，使用后可解锁阴维脉。",
     "SalePrice": 1000,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 19,
-      "level": 0
-    },
+    "UseParam": {"channel": 19, "level": 0},
     "Page": "book",
     "Say": 200037
   },
@@ -537,20 +392,13 @@
     "Detail": "一本记载了阳维脉走向和通脉方法的秘籍，使用后可解锁阳维脉。",
     "SalePrice": 1000,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "经脉秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["经脉秘籍"],
     "Kind": "经脉秘籍",
     "Use": "channel",
     "UseSoldier": 2,
     "UseText": "参悟",
-    "UseParam": {
-      "channel": 20,
-      "level": 0
-    },
+    "UseParam": {"channel": 20, "level": 0},
     "Page": "book",
     "Say": 200039
   },
@@ -564,34 +412,11 @@
     "Desc2": "棋艺",
     "Detail": "阅读这本书可以学会棋艺，并且能够升到50级。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "翻阅",
     "UseParam": 12325,
-    "Reddot": 14,
-    "Page": "book",
-    "Overlay": 1
-  },
-  "13006": {
-    "Id": 13006,
-    "大类": "01技艺",
-    "SptId": 11,
-    "Name": "玄玄棋经",
-    "Icon": 5086,
-    "Desc": "书籍",
-    "Desc2": "棋艺",
-    "Detail": "阅读这本书可以学会棋艺，并且能够升到50级。",
-    "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
-    "Kind": "书籍",
-    "Use": "read",
-    "UseText": "翻阅",
-    "UseParam": 13006,
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -606,9 +431,7 @@
     "Desc2": "驾驭",
     "Detail": "这本书中记录了不少实用的驾驭技巧，对学习驾驭术大有裨益。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -627,9 +450,7 @@
     "Desc2": "炼丹",
     "Detail": "这本书中详细记述了炼丹术的精要，对学习炼丹术大有帮助。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -648,9 +469,7 @@
     "Desc2": "烹饪",
     "Detail": "这是一位名厨撰写的烹饪术教程，深入浅出地讲解了烹饪术的要点。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -669,9 +488,7 @@
     "Desc2": "酿酒",
     "Detail": "这本书中记录了不少酿酒的配方，可以循序渐进地学习酿酒术。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -690,9 +507,7 @@
     "Desc2": "钓鱼",
     "Detail": "这本书详细记述了钓鱼的各种技巧，似乎真的想要教人学会钓鱼。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -711,9 +526,7 @@
     "Desc2": "酒意",
     "Detail": "这本书详细记录了对天下美酒的点评，对提升酒意大有裨益。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -732,9 +545,7 @@
     "Desc2": "锻造",
     "Detail": "这本书是一位名匠呕心沥血之作，可以在学习锻造术的过程中少走不少弯路。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -753,9 +564,7 @@
     "Desc2": "裁缝",
     "Detail": "这本书中记录了不少裁衣的样式，对学习裁缝术非常有帮助。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -774,9 +583,7 @@
     "Desc2": "射艺",
     "Detail": "这本书记录了习练射箭之艺的途径，学会后能使用弓箭射鹿捕猎。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -795,9 +602,7 @@
     "Desc2": "棋艺",
     "Detail": "阅读这本书可以学会棋艺，并且能够升到100级。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "翻阅",
@@ -816,9 +621,7 @@
     "Desc2": "书法",
     "Detail": "阅读这本书可以学会书法，并且能够升到100级。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "翻阅",
@@ -837,9 +640,7 @@
     "Desc2": "丹青",
     "Detail": "阅读这本书可以学会丹青，并且能够升到100级。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "翻阅",
@@ -858,9 +659,7 @@
     "Desc2": "茶道",
     "Detail": "阅读这本书可以学会茶道，并且能够升到100级。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "翻阅",
@@ -879,9 +678,7 @@
     "Desc2": "炼丹",
     "Detail": "这本书中详细记述了符箓书的精要，对学习符箓术大有帮助。",
     "SalePrice": 10,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "lifeSkill",
     "UseText": "翻阅",
@@ -902,16 +699,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30037,
-      30012
-    ],
+    "UseParam": [30037, 30012],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -928,16 +720,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30051,
-      30053
-    ],
+    "UseParam": [30051, 30053],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -954,16 +741,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30046,
-      30049
-    ],
+    "UseParam": [30046, 30049],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -980,15 +762,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30042
-    ],
+    "UseParam": [30042],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1005,15 +783,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30045
-    ],
+    "UseParam": [30045],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1031,9 +805,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1055,9 +827,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1079,9 +849,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1103,9 +871,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1127,9 +893,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1151,9 +915,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "json",
     "UseText": "学 习",
@@ -1174,15 +936,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30055
-    ],
+    "UseParam": [30055],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1199,15 +957,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30038
-    ],
+    "UseParam": [30038],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1224,18 +978,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      2033,
-      2034,
-      2035,
-      2036
-    ],
+    "UseParam": [2033, 2034, 2035, 2036],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1252,9 +999,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1291,9 +1036,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1330,9 +1073,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1369,9 +1110,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1408,9 +1147,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1447,9 +1184,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1486,9 +1221,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1525,9 +1258,7 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1563,9 +1294,7 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1601,9 +1330,7 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1639,18 +1366,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30032,
-      30033,
-      30034,
-      30035
-    ],
+    "UseParam": [30032, 30033, 30034, 30035],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1667,16 +1387,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30001,
-      30002
-    ],
+    "UseParam": [30001, 30002],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1693,15 +1408,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30017
-    ],
+    "UseParam": [30017],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1718,16 +1429,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30003,
-      30004
-    ],
+    "UseParam": [30003, 30004],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1744,17 +1450,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30019,
-      30020,
-      30021
-    ],
+    "UseParam": [30019, 30020, 30021],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1771,9 +1471,7 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
@@ -1809,21 +1507,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      210140,
-      270140,
-      280140,
-      290140,
-      300140,
-      220140,
-      230140
-    ],
+    "UseParam": [210140, 270140, 280140, 290140, 300140, 220140, 230140],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1840,21 +1528,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      210150,
-      270150,
-      280150,
-      290150,
-      300150,
-      220150,
-      230150
-    ],
+    "UseParam": [210150, 270150, 280150, 290150, 300150, 220150, 230150],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1871,21 +1549,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      210160,
-      270160,
-      280160,
-      290160,
-      300160,
-      220160,
-      230160
-    ],
+    "UseParam": [210160, 270160, 280160, 290160, 300160, 220160, 230160],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1902,21 +1570,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      210170,
-      270170,
-      280170,
-      290170,
-      300170,
-      220170,
-      230170
-    ],
+    "UseParam": [210170, 270170, 280170, 290170, 300170, 220170, 230170],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1933,16 +1591,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      210180,
-      290180
-    ],
+    "UseParam": [210180, 290180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1959,15 +1612,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      270180
-    ],
+    "UseParam": [270180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -1984,16 +1633,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      280180,
-      300180
-    ],
+    "UseParam": [280180, 300180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2010,16 +1654,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      220180,
-      230180
-    ],
+    "UseParam": [220180, 230180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2036,20 +1675,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240120,
-      240130,
-      250120,
-      250130,
-      260120,
-      260130
-    ],
+    "UseParam": [240120, 240130, 250120, 250130, 260120, 260130],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2066,17 +1696,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240140,
-      250140,
-      260140
-    ],
+    "UseParam": [240140, 250140, 260140],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2093,17 +1717,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240150,
-      250150,
-      260150
-    ],
+    "UseParam": [240150, 250150, 260150],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2120,17 +1738,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240160,
-      250160,
-      260160
-    ],
+    "UseParam": [240160, 250160, 260160],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2147,17 +1759,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240170,
-      250170,
-      260170
-    ],
+    "UseParam": [240170, 250170, 260170],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2174,15 +1780,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      240180
-    ],
+    "UseParam": [240180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2199,15 +1801,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      250180
-    ],
+    "UseParam": [250180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2224,15 +1822,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      260180
-    ],
+    "UseParam": [260180],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2249,16 +1843,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40006,
-      40011
-    ],
+    "UseParam": [40006, 40011],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2275,17 +1864,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40059,
-      40009,
-      40024
-    ],
+    "UseParam": [40059, 40009, 40024],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2302,17 +1885,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40007,
-      40008,
-      40017
-    ],
+    "UseParam": [40007, 40008, 40017],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2329,17 +1906,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40010,
-      40015,
-      40029
-    ],
+    "UseParam": [40010, 40015, 40029],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2356,17 +1927,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40012,
-      40013,
-      40014
-    ],
+    "UseParam": [40012, 40013, 40014],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2383,16 +1948,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40016,
-      40027
-    ],
+    "UseParam": [40016, 40027],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2409,17 +1969,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40023,
-      40028,
-      40026
-    ],
+    "UseParam": [40023, 40028, 40026],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2436,16 +1990,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40025,
-      40022
-    ],
+    "UseParam": [40025, 40022],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2462,17 +2011,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40020,
-      40021,
-      40019
-    ],
+    "UseParam": [40020, 40021, 40019],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2489,16 +2032,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍",
-      "nodrop"
-    ],
+    "Tags": ["书籍", "nodrop"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40062
-    ],
+    "UseParam": [40062],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2515,16 +2053,11 @@
     "SalePrice": 10,
     "Grade": 100,
     "Rank": 2,
-    "Tags": [
-      "书籍",
-      "nodrop"
-    ],
+    "Tags": ["书籍", "nodrop"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40018
-    ],
+    "UseParam": [40018],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2541,16 +2074,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍",
-      "nodrop"
-    ],
+    "Tags": ["书籍", "nodrop"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40067
-    ],
+    "UseParam": [40067],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2567,16 +2095,11 @@
     "SalePrice": 10,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍",
-      "nodrop"
-    ],
+    "Tags": ["书籍", "nodrop"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40030
-    ],
+    "UseParam": [40030],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -2593,13 +2116,8 @@
     "SalePrice": 250,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "书籍",
-      "乐谱"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["书籍", "乐谱"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "Reddot": 14,
@@ -2618,13 +2136,8 @@
     "SalePrice": 250,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "书籍",
-      "乐谱"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["书籍", "乐谱"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "Reddot": 14,
@@ -2643,13 +2156,8 @@
     "SalePrice": 250,
     "Grade": 200,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "书籍",
-      "乐谱"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["书籍", "乐谱"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "Reddot": 14,
@@ -2668,9 +2176,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2690,9 +2196,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2712,9 +2216,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2734,9 +2236,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2756,9 +2256,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2778,9 +2276,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2800,9 +2296,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2822,9 +2316,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2844,9 +2336,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2866,9 +2356,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2888,9 +2376,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2910,9 +2396,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2932,9 +2416,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2954,9 +2436,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2976,9 +2456,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -2998,9 +2476,7 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "formation",
     "UseText": "激 活",
@@ -3020,15 +2496,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30067
-    ],
+    "UseParam": [30067],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -3045,15 +2517,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      30068
-    ],
+    "UseParam": [30068],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -3068,12 +2536,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3091,12 +2555,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3114,12 +2574,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3135,12 +2591,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3156,12 +2608,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3177,12 +2625,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "secretskill",
     "UseText": "学 习",
@@ -3198,12 +2642,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3219,12 +2659,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3240,12 +2676,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3261,12 +2693,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "read",
     "UseText": "研习",
@@ -3283,9 +2711,7 @@
     "Desc": "镇派剑法",
     "Desc2": "学习武学",
     "Detail": "此乃云漠天观雷所悟出的绝世剑法。一雷惊蛰始，乃是以极强的内力倾注于剑锋之上，凝聚五雷剑气。一旦敌人中招便会真气逆行、血脉贲张，宛如受万剑穿心之苦。",
-    "Tags": [
-      "nodrop"
-    ],
+    "Tags": ["nodrop"],
     "UseSoldier": 2,
     "Reddot": 14,
     "Page": "book",
@@ -3303,12 +2729,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3330,12 +2752,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3357,12 +2775,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3384,12 +2798,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3411,12 +2821,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3438,12 +2844,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3465,12 +2867,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3492,12 +2890,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3519,12 +2913,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3546,12 +2936,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3573,12 +2959,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3600,12 +2982,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3627,12 +3005,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3654,12 +3028,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3681,12 +3051,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3708,12 +3074,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3735,12 +3097,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3762,12 +3120,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3789,12 +3143,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3816,12 +3166,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3843,12 +3189,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3870,12 +3212,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3897,12 +3235,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3924,12 +3258,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3951,12 +3281,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -3978,12 +3304,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4005,12 +3327,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4032,12 +3350,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4059,12 +3373,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4086,12 +3396,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4113,12 +3419,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4140,12 +3442,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4167,12 +3465,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4194,12 +3488,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4221,12 +3511,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4248,12 +3534,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4275,12 +3557,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4302,12 +3580,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4329,12 +3603,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4356,12 +3626,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4383,12 +3649,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4410,12 +3672,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4437,12 +3695,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4463,12 +3717,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4489,12 +3739,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4515,12 +3761,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4541,12 +3783,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4567,12 +3805,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4593,12 +3827,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4619,12 +3849,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4645,12 +3871,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4671,12 +3893,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4697,12 +3915,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4723,12 +3937,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4749,12 +3959,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4775,12 +3981,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4801,12 +4003,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4827,12 +4025,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4854,12 +4048,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4881,12 +4071,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4908,12 +4094,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4935,12 +4117,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4962,12 +4140,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -4989,12 +4163,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -5016,12 +4186,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -5043,12 +4209,8 @@
     "SalePrice": 50,
     "Grade": 0,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
-    "LikeTags": [
-      "武学秘籍"
-    ],
+    "Tags": ["书籍"],
+    "LikeTags": ["武学秘籍"],
     "Kind": "武学秘籍",
     "Use": "taolu",
     "UseSoldier": 2,
@@ -5069,9 +4231,7 @@
     "Detail": "此书可提升0至60级的道学修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5091,9 +4251,7 @@
     "Detail": "此书可提升60至120级的道学修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5113,9 +4271,7 @@
     "Detail": "此书可提升120至180级的道学修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5135,9 +4291,7 @@
     "Detail": "此书可提升180至240级的道学修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5157,9 +4311,7 @@
     "Detail": "此书可提升240至300级的道学修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5179,9 +4331,7 @@
     "Detail": "此书可提升0至60级的儒学修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5201,9 +4351,7 @@
     "Detail": "此书可提升60至120级的儒学修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5223,9 +4371,7 @@
     "Detail": "此书可提升120至180级的儒学修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5245,9 +4391,7 @@
     "Detail": "此书可提升180至240级的儒学修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5267,9 +4411,7 @@
     "Detail": "此书可提升240至300级的儒学修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5289,9 +4431,7 @@
     "Detail": "从少林寺藏经阁内借来的一部佛经。“观自在菩萨，行深般若波罗蜜多时...”【此书可提升0至60级的佛学修为】，切勿随意丢弃与买卖",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5311,9 +4451,7 @@
     "Detail": "此书可提升60至120级的佛学修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5333,9 +4471,7 @@
     "Detail": "此书可提升120至180级的佛学修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5355,9 +4491,7 @@
     "Detail": "此书可提升180至240级的佛学修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5377,9 +4511,7 @@
     "Detail": "此书可提升240至300级的佛学修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5399,9 +4531,7 @@
     "Detail": "此书可提升0至60级的刀法修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5421,9 +4551,7 @@
     "Detail": "此书可提升60至120级的刀法修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5443,9 +4571,7 @@
     "Detail": "此书可提升120至180级的刀法修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5465,9 +4591,7 @@
     "Detail": "此书可提升180至240级的刀法修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5487,9 +4611,7 @@
     "Detail": "此书可提升240至300级的刀法修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5509,9 +4631,7 @@
     "Detail": "此书可提升0至60级的剑术修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5531,9 +4651,7 @@
     "Detail": "此书可提升60至120级的剑术修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5553,9 +4671,7 @@
     "Detail": "此书可提升120至180级的剑术修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5575,9 +4691,7 @@
     "Detail": "此书可提升180至240级的剑术修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5597,9 +4711,7 @@
     "Detail": "此书可提升240至300级的剑术修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5619,9 +4731,7 @@
     "Detail": "此书可提升0至60级的琴技修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5641,9 +4751,7 @@
     "Detail": "此书可提升60至120级的琴技修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5663,9 +4771,7 @@
     "Detail": "此书可提升120至180级的琴技修为。",
     "SalePrice": 10,
     "Rank": 3,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5685,9 +4791,7 @@
     "Detail": "此书可提升180至240级的琴技修为。",
     "SalePrice": 10,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5707,9 +4811,7 @@
     "Detail": "此书可提升240至300级的琴技修为。",
     "SalePrice": 10,
     "Rank": 5,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5729,9 +4831,7 @@
     "Detail": "此书可提升0至100级的开锁修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5751,9 +4851,7 @@
     "Detail": "此书可提升0至50级的读书识字修为。",
     "SalePrice": 10,
     "Rank": 1,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5773,9 +4871,7 @@
     "Detail": "此书可提升50至100级的读书识字修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5795,9 +4891,7 @@
     "Detail": "此书可提升0至50级的公输修为。",
     "SalePrice": 10,
     "Rank": 2,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "read",
     "UseText": "参悟",
@@ -5819,15 +4913,11 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40024
-    ],
+    "UseParam": [40024],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -5845,15 +4935,11 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40025
-    ],
+    "UseParam": [40025],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -5871,15 +4957,11 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40026
-    ],
+    "UseParam": [40026],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -5897,15 +4979,11 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40027
-    ],
+    "UseParam": [40027],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -5923,15 +5001,11 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40028
-    ],
+    "UseParam": [40028],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1
@@ -5949,41 +5023,11 @@
     "SalePrice": 10,
     "Grade": 300,
     "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
+    "Tags": ["书籍"],
     "Kind": "书籍",
     "Use": "unlockmake",
     "UseText": "学 习",
-    "UseParam": [
-      40029
-    ],
-    "Reddot": 14,
-    "Page": "book",
-    "Overlay": 1
-  },
-  "710007": {
-    "Id": 710007,
-    "大类": "04菜谱",
-    "SptId": 13,
-    "Name": "炒青菜",
-    "Icon": 17399,
-    "备注不导出": "旧的，不用了",
-    "Desc": "配方",
-    "Desc2": "解锁料理制作",
-    "Detail": "这是一张菜谱，上面记载了炒青菜的烹饪方法",
-    "SalePrice": 10,
-    "Grade": 0,
-    "Rank": 4,
-    "Tags": [
-      "书籍"
-    ],
-    "Kind": "书籍",
-    "Use": "unlockmake",
-    "UseText": "学 习",
-    "UseParam": [
-      40030
-    ],
+    "UseParam": [40029],
     "Reddot": 14,
     "Page": "book",
     "Overlay": 1

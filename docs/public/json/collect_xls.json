@@ -650,12 +650,11 @@
     "Icon": 2157,
     "CreateType": "scene",
     "Shape": 2157,
-    "Scene": 1216,
+    "Scene": 9603,
     "dis": 200,
-    "x": 6834,
-    "y": 3774,
-    "layerObs": 0,
-    "Type": "box"
+    "x": 1366,
+    "y": 1872,
+    "Type": ""
   },
   "2001": {
     "Id": 2001,
@@ -664,26 +663,23 @@
     "CreateType": "scene",
     "Shape": 7037,
     "HideName": 1,
-    "Scene": 1216,
-    "x": 8483,
-    "y": 3299,
-    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。",
-    "layerObs": 0,
-    "Type": "box"
+    "Scene": 1029,
+    "x": 1609,
+    "y": 4804,
+    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。"
   },
   "2002": {
     "Id": 2002,
-    "Name": "",
+    "Name": "武昌菜地",
     "Icon": 6014,
     "CreateType": "scene",
-    "Shape": 1020,
+    "Shape": 6014,
     "HideName": 1,
-    "Type": "box",
-    "Scene": 1216,
-    "x": 2761,
-    "y": 2011,
-    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。",
-    "layerObs": 0
+    "Type": "field",
+    "Scene": 1029,
+    "x": 178,
+    "y": 28,
+    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。"
   },
   "2003": {
     "Id": 2003,
@@ -692,26 +688,24 @@
     "CreateType": "scene",
     "Shape": 6014,
     "HideName": 1,
-    "Type": "transfer",
-    "Scene": 1216,
-    "x": 6559,
-    "y": 4716,
-    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。",
-    "layerObs": 0
+    "Type": "field",
+    "Scene": 1029,
+    "x": 178,
+    "y": 28,
+    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。"
   },
   "2004": {
     "Id": 2004,
-    "Name": "",
+    "Name": "武昌菜地",
     "Icon": 6014,
     "CreateType": "scene",
-    "Shape": 1020,
+    "Shape": 6014,
     "HideName": 1,
-    "Type": "transfer",
-    "Scene": 1216,
-    "x": 3351,
-    "y": 234,
-    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。",
-    "layerObs": 0
+    "Type": "field",
+    "Scene": 1029,
+    "x": 178,
+    "y": 28,
+    "Desc": "这是一块肥沃的菜地，土质疏松，种下种子、悉心照料就能够丰收。"
   },
   "2006": {
     "Id": 2006,
@@ -3239,8 +3233,7 @@
     "RecoverHour": 0,
     "Rewards": 12321,
     "x": 385,
-    "y": 646,
-    "layerObs": 0
+    "y": 646
   },
   "52401": {
     "Id": 52401,
@@ -7944,8 +7937,7 @@
     "Param": 1,
     "x": 2902,
     "y": 1772,
-    "Type": "box",
-    "layerObs": 0
+    "Type": "box"
   },
   "310102": {
     "Id": 310102,
@@ -7963,8 +7955,7 @@
     "Param": 1,
     "x": 3441,
     "y": 3028,
-    "Type": "box",
-    "layerObs": 0
+    "Type": "box"
   },
   "310103": {
     "Id": 310103,
@@ -7982,8 +7973,7 @@
     "Param": 1,
     "x": 1380,
     "y": 1842,
-    "Type": "box",
-    "layerObs": 0
+    "Type": "box"
   },
   "330001": {
     "Id": 330001,
@@ -13004,8 +12994,7 @@
     "RecoverHour": 0,
     "Rewards": 18015,
     "x": 562,
-    "y": 513,
-    "layerObs": 0
+    "y": 513
   },
   "990510": {
     "Id": 990510,
@@ -18766,60 +18755,6 @@
     "x": 129,
     "y": 3843,
     "Type": ""
-  },
-  "3100101": {
-    "Id": 3100101,
-    "Name": "",
-    "Desc": "钱王迷宫宝箱1",
-    "Icon": 3101,
-    "CreateType": "scene",
-    "Shape": 3101,
-    "HideName": 1,
-    "Scene": 1117,
-    "act": 7,
-    "dis": 150,
-    "TopLimit": 1,
-    "Rewards": 3100101,
-    "Param": 1,
-    "x": 2902,
-    "y": 1772,
-    "Type": "box"
-  },
-  "3100102": {
-    "Id": 3100102,
-    "Name": "",
-    "Desc": "钱王迷宫宝箱2",
-    "Icon": 3101,
-    "CreateType": "scene",
-    "Shape": 3101,
-    "HideName": 1,
-    "Scene": 1117,
-    "act": 7,
-    "dis": 150,
-    "TopLimit": 1,
-    "Rewards": 3100102,
-    "Param": 1,
-    "x": 3441,
-    "y": 3028,
-    "Type": "box"
-  },
-  "3100103": {
-    "Id": 3100103,
-    "Name": "",
-    "Desc": "钱王迷宫宝箱3",
-    "Icon": 3101,
-    "CreateType": "scene",
-    "Shape": 3101,
-    "HideName": 1,
-    "Scene": 1117,
-    "act": 7,
-    "dis": 150,
-    "TopLimit": 1,
-    "Rewards": 3100103,
-    "Param": 1,
-    "x": 1380,
-    "y": 1842,
-    "Type": "box"
   },
   "3102001": {
     "Id": 3102001,

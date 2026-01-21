@@ -12397,6 +12397,25 @@
     "UseParam": 2029,
     "Overlay": 1
   },
+  "13603": {
+    "Id": 13603,
+    "source": "02任务",
+    "SptId": 720,
+    "Kind": "道具",
+    "Name": "机关钥匙",
+    "Icon": 5042,
+    "Desc": "机关钥匙",
+    "Desc2": "钥匙",
+    "Detail": "燕王墓迷宫的钥匙",
+    "SalePrice": 0,
+    "Grade": 0,
+    "Rank": 1,
+    "Tags": [
+      "nodrop"
+    ],
+    "Page": "normal",
+    "Overlay": 99
+  },
   "13998": {
     "Id": 13998,
     "source": "03任务",

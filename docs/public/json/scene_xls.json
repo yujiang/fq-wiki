@@ -829,15 +829,14 @@
   },
   "1117": {
     "Id": 1117,
-    "Name": "迷宫菱形",
+    "Name": "钱王迷宫",
     "MapId": 1117,
     "Width": 6720,
     "Height": 3360,
     "Light": 1002,
     "Tags": [
-      "允跳"
+      "禁跳"
     ],
-    "showSmap": 1,
     "x": 20,
     "y": 20,
     "Weather": 1117
@@ -852,7 +851,6 @@
     "Tags": [
       "允跳"
     ],
-    "showSmap": 1,
     "x": 20,
     "y": 20,
     "Weather": 1118
@@ -867,10 +865,23 @@
     "Tags": [
       "允跳"
     ],
-    "showSmap": 1,
     "x": 20,
     "y": 20,
     "Weather": 1119
+  },
+  "1120": {
+    "Id": 1120,
+    "Name": "黄山迷宫",
+    "MapId": 1120,
+    "Width": 6720,
+    "Height": 3360,
+    "Light": 1002,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 20,
+    "y": 20,
+    "Weather": 1117
   },
   "1121": {
     "Id": 1121,
@@ -886,7 +897,6 @@
       "禁传出",
       "noAoi"
     ],
-    "showSmap": 0,
     "x": 69,
     "y": 120,
     "Weather": 2037
@@ -905,11 +915,24 @@
       "noAoi",
       "未来"
     ],
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 68,
     "y": 122,
     "Weather": 2040
+  },
+  "1216": {
+    "Id": 1216,
+    "Name": "黄山密林",
+    "MapId": 1216,
+    "Width": 6720,
+    "Height": 3360,
+    "Light": 1002,
+    "Tags": [
+      "禁跳"
+    ],
+    "x": 20,
+    "y": 20,
+    "Weather": 1117
   },
   "1234": {
     "Id": 1234,
@@ -963,7 +986,6 @@
     "Grade": 20,
     "Width": 3840,
     "Height": 3680,
-    "showSmap": 0,
     "x": 175,
     "y": 123,
     "Weather": 2002
@@ -976,7 +998,6 @@
     "Grade": 30,
     "Width": 4080,
     "Height": 2560,
-    "showSmap": 0,
     "x": 23,
     "y": 106,
     "Weather": 2003
@@ -989,7 +1010,6 @@
     "Grade": 40,
     "Width": 4000,
     "Height": 3120,
-    "showSmap": 0,
     "x": 174,
     "y": 135,
     "Weather": 2004
@@ -1002,7 +1022,6 @@
     "Grade": 50,
     "Width": 3280,
     "Height": 2160,
-    "showSmap": 0,
     "x": 125,
     "y": 11,
     "Weather": 2005
@@ -1015,7 +1034,6 @@
     "Grade": 0,
     "Width": 3840,
     "Height": 3680,
-    "showSmap": 0,
     "Weather": 2006
   },
   "2010": {
@@ -1026,7 +1044,6 @@
     "Grade": 0,
     "Width": 2640,
     "Height": 1280,
-    "showSmap": 0,
     "x": 116,
     "y": 48,
     "Weather": 2010
@@ -1048,7 +1065,6 @@
       "未来",
       "nofollow"
     ],
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 10,
     "y": 144,
@@ -1070,7 +1086,6 @@
       "未来",
       "nofollow"
     ],
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 123,
     "y": 204,
@@ -1093,7 +1108,6 @@
       "未来",
       "nofollow"
     ],
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 22,
     "y": 107,
@@ -1115,7 +1129,6 @@
       "未来",
       "nofollow"
     ],
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 8,
     "y": 153,
@@ -1137,7 +1150,6 @@
       "nofollow"
     ],
     "Desc": "吕倾侯剧情山洞",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 21,
     "y": 146,
@@ -1159,7 +1171,6 @@
       "nofollow"
     ],
     "Desc": "吕倾侯剧情藏剑山",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 18,
     "y": 144,
@@ -1175,7 +1186,6 @@
     "Height": 3200,
     "Light": 1003,
     "Desc": "吕倾侯剧情藏剑山（终）",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 18,
     "y": 144,
@@ -1191,7 +1201,6 @@
     "Height": 2400,
     "Light": 1001,
     "Desc": "少林剧情-漕帮核心",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 24,
     "y": 13,
@@ -1210,7 +1219,6 @@
     "Height": 2400,
     "Light": 1001,
     "Desc": "少林剧情-漕帮外围",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 19,
     "y": 102,
@@ -1228,7 +1236,6 @@
     "Width": 3200,
     "Height": 1800,
     "Light": 1001,
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 20,
     "y": 10,
@@ -1244,7 +1251,6 @@
     "Height": 6160,
     "Light": 1002,
     "Desc": "一座与世无争、人杰地灵的村庄。",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 81,
     "y": 57,
@@ -1260,7 +1266,6 @@
     "Height": 6160,
     "Light": 1002,
     "Desc": "一座与世无争、人杰地灵的村庄。",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 81,
     "y": 57,
@@ -1276,7 +1281,6 @@
     "Height": 6160,
     "Light": 1001,
     "Desc": "一座与世无争、人杰地灵的村庄。",
-    "showSmap": 0,
     "MusicNo": 1015,
     "x": 81,
     "y": 57,
@@ -1294,7 +1298,6 @@
     "Tags": [
       "禁跳"
     ],
-    "showSmap": 0,
     "x": 14,
     "y": 155,
     "Weather": 3000
@@ -1311,7 +1314,6 @@
     "Tags": [
       "禁跳"
     ],
-    "showSmap": 0,
     "x": 220,
     "y": 9,
     "Weather": 3001
@@ -1326,7 +1328,6 @@
     "Height": 3200,
     "Light": 1002,
     "Desc": "万毒谷",
-    "showSmap": 0,
     "x": 14,
     "y": 143,
     "Weather": 3004
@@ -5140,19 +5141,21 @@
   },
   "4445": {
     "Id": 4445,
-    "Name": "上一百层地图",
+    "Name": "云朵",
     "MapId": 4445,
-    "Type": "村庄",
     "Grade": 0,
-    "Width": 4560,
-    "Height": 6160,
-    "Light": 1001,
-    "Desc": "一座与世无争、人杰地灵的村庄。",
-    "showSmap": 0,
-    "MusicNo": 1015,
-    "x": 81,
-    "y": 57,
-    "Weather": 1001
+    "Width": 960,
+    "Height": 3200,
+    "Light": 1003,
+    "Tags": [
+      "jumpGame",
+      "loop",
+      "禁缩放"
+    ],
+    "showSmap": 1,
+    "x": 20,
+    "y": 150,
+    "Weather": 4445
   },
   "4446": {
     "Id": 4446,

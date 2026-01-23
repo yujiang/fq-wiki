@@ -16,7 +16,8 @@ export interface XlsSceneObj extends XlsBase {
 };
 
 export interface DisplayStruct {
-  shape: number, icon: number
+  shape: number, 
+  icon: number,
 };
 
 export type Bases = Record<number, XlsBase>
@@ -89,4 +90,13 @@ export function getRankBgStyle(rank: number | undefined) {
     backgroundSize: '100% 100%',
     backgroundRepeat: 'no-repeat',
   };
+}
+
+const rankDesc = [
+  '一般','普通','优秀','稀有','史诗','传说'
+]
+
+export function getRankDesc(rank: number | undefined) {
+  const r = rank || 0;
+  return rankDesc[r];
 }

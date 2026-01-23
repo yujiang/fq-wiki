@@ -1119,6 +1119,10 @@ export default [
       {
         "text": "item",
         "link": "/51-tool/05-item"
+      },
+      {
+        "text": "soldier",
+        "link": "/51-tool/06-soldier"
       }
     ],
     "collapsed": false

@@ -39,7 +39,6 @@
     "Desc": "后排剑",
     "display": {
       "name": "小梳子",
-      "类型tag": "剑",
       "shape": 2093,
       "icon": 2093,
       "draw": 2093,
@@ -83,6 +82,7 @@
       260110
     ],
     "UnlockCondition": 285,
+    "biography": "古灵精怪的小姑娘，一心想要去江湖上闯荡,做个行侠仗义的女侠.\n却被爷爷约束着,哪里也去不了",
     "NameIcon": 20001,
     "Origin": 1,
     "MallClickTips": "完成剧情后可招募",
@@ -99,7 +99,6 @@
     "Desc": "后排治疗",
     "display": {
       "name": "南姗",
-      "类型tag": "琴",
       "shape": 2200,
       "icon": 2200,
       "draw": 2200,
@@ -143,6 +142,7 @@
       260110
     ],
     "UnlockCondition": 285,
+    "biography": "幼时体弱多病,药王云游路过杏花村时救治了她,并教了她几手医术.\n虽然没有正式拜师, 心中认药王为自己的师父,药王对此不置可否,也许她需要点什么来证明自己吧",
     "NameIcon": 20014,
     "Origin": 1,
     "MallClickTips": "完成剧情后可招募",
@@ -153,9 +153,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "机关",
     "display": {
       "name": "傀戏人",
-      "类型tag": "机关",
       "shape": 2143,
       "icon": 2143,
       "draw": 2143,
@@ -165,7 +165,6 @@
     "basedata": 7,
     "zizhidata": 21000006,
     "grade": 1,
-    "weapon": "机关",
     "Taolu": {
       "Wu": {
         "id": 60095,
@@ -208,7 +207,6 @@
     "Desc": "前排拳",
     "display": {
       "name": "张富贵",
-      "类型tag": "拳",
       "shape": 2003,
       "icon": 2003,
       "draw": 2003,
@@ -251,6 +249,7 @@
       260110
     ],
     "UnlockCondition": 285,
+    "biography": "从不干什么正事，总是在杏花树下喝得醉嘘嘘的,东倒西歪,摇头晃脑。\n也曾有人劝过他，你们什么都不懂，葫芦里面有乾坤呐。",
     "NameIcon": 20019,
     "Origin": 1,
     "MallClickTips": "完成剧情后可招募",
@@ -262,9 +261,9 @@
       "client"
     ],
     "Desc": "前排棍",
+    "weapon": "棍",
     "display": {
       "name": "破戒僧",
-      "类型tag": "棍",
       "shape": 1103,
       "icon": 1103,
       "draw": 1103,
@@ -276,7 +275,6 @@
     "zizhidata": 21000002,
     "talentdata": 10006,
     "grade": 1,
-    "weapon": "棍",
     "Taolu": {
       "Wu": {
         "id": 60049,
@@ -319,9 +317,9 @@
       "client"
     ],
     "Desc": "后排暗器",
+    "weapon": "暗器",
     "display": {
       "name": "骊珠",
-      "类型tag": "暗器",
       "shape": 2206,
       "icon": 2206,
       "draw": 2206,
@@ -332,7 +330,6 @@
     "zizhidata": 21000002,
     "talentdata": 10005,
     "grade": 1,
-    "weapon": "暗器",
     "Taolu": {
       "Wu": {
         "id": 60094,
@@ -424,9 +421,9 @@
       "client"
     ],
     "Desc": "前排刀",
+    "weapon": "刀",
     "display": {
       "name": "狄去邪",
-      "类型tag": "刀",
       "shape": 2192,
       "icon": 2192,
       "draw": 2192,
@@ -437,7 +434,6 @@
     "zizhidata": 21000013,
     "talentdata": 10007,
     "grade": 1,
-    "weapon": "刀",
     "Taolu": {
       "Wu": {
         "id": 60052,
@@ -479,9 +475,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "剑",
     "display": {
       "name": "暮成雪",
-      "类型tag": "剑",
       "shape": 2096,
       "icon": 2096,
       "draw": 2096,
@@ -491,7 +487,6 @@
     "basedata": 9,
     "zizhidata": 21000008,
     "grade": 1,
-    "weapon": "剑",
     "Taolu": {
       "Wu": {
         "id": 60051,
@@ -536,9 +531,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "棍",
     "display": {
       "name": "祁衍",
-      "类型tag": "棍",
       "shape": 2097,
       "icon": 2097,
       "draw": 2097,
@@ -548,7 +543,6 @@
     "basedata": 11,
     "zizhidata": 21000010,
     "grade": 1,
-    "weapon": "棍",
     "Taolu": {
       "Wu": {
         "id": 60049,
@@ -593,9 +587,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "拳",
     "display": {
       "name": "岑小婉",
-      "类型tag": "拳",
       "shape": 2092,
       "icon": 2092,
       "draw": 2092,
@@ -605,7 +599,6 @@
     "basedata": 12,
     "zizhidata": 21000011,
     "grade": 1,
-    "weapon": "拳",
     "Taolu": {
       "Wu": {
         "id": 60050,
@@ -650,9 +643,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "刀",
     "display": {
       "name": "雷雳",
-      "类型tag": "刀",
       "shape": 2083,
       "icon": 2083,
       "draw": 2083,
@@ -662,7 +655,6 @@
     "basedata": 13,
     "zizhidata": 21000012,
     "grade": 1,
-    "weapon": "刀",
     "Taolu": {
       "Wu": {
         "id": 60052,
@@ -707,9 +699,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "拳",
     "display": {
       "name": "云中阁主",
-      "类型tag": "拳",
       "shape": 2177,
       "icon": 2177,
       "draw": 2177,
@@ -719,7 +711,6 @@
     "basedata": 4,
     "zizhidata": 21000003,
     "grade": 1,
-    "weapon": "拳",
     "Taolu": {
       "Wu": {
         "id": 60050,
@@ -758,9 +749,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "刀",
     "display": {
       "name": "萨二娘",
-      "类型tag": "刀",
       "shape": 2114,
       "icon": 2114,
       "draw": 2114,
@@ -770,7 +761,6 @@
     "basedata": 5,
     "zizhidata": 21000004,
     "grade": 1,
-    "weapon": "刀",
     "Taolu": {
       "Wu": {
         "id": 60052,
@@ -809,9 +799,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "拳",
     "display": {
       "name": "胡秋侠",
-      "类型tag": "拳",
       "shape": 2133,
       "icon": 2133,
       "draw": 2133,
@@ -821,7 +811,6 @@
     "basedata": 6,
     "zizhidata": 21000005,
     "grade": 1,
-    "weapon": "拳",
     "Taolu": {
       "Wu": {
         "id": 60050,
@@ -860,9 +849,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "剑",
     "display": {
       "name": "吕轻侯",
-      "类型tag": "剑",
       "shape": 1102,
       "icon": 1102,
       "draw": 1102,
@@ -872,7 +861,6 @@
     "basedata": 8,
     "zizhidata": 21000007,
     "grade": 1,
-    "weapon": "剑",
     "Taolu": {
       "Wu": {
         "id": 60051,
@@ -911,9 +899,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "棍",
     "display": {
       "name": "持戒",
-      "类型tag": "棍",
       "shape": 2094,
       "icon": 2094,
       "draw": 2094,
@@ -923,7 +911,6 @@
     "basedata": 10,
     "zizhidata": 21000009,
     "grade": 1,
-    "weapon": "棍",
     "Taolu": {
       "Wu": {
         "id": 60049,
@@ -962,9 +949,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "暗器",
     "display": {
       "name": "唐七",
-      "类型tag": "暗器",
       "shape": 2175,
       "icon": 2175,
       "draw": 2175,
@@ -974,7 +961,6 @@
     "basedata": 16,
     "zizhidata": 21000015,
     "grade": 1,
-    "weapon": "暗器",
     "Taolu": {
       "Wu": {
         "id": 60094,
@@ -1016,9 +1002,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "御兽",
     "display": {
       "name": "巩霄",
-      "类型tag": "御兽",
       "shape": 2090,
       "icon": 2090,
       "draw": 2090,
@@ -1028,7 +1014,6 @@
     "basedata": 17,
     "zizhidata": 21000016,
     "grade": 1,
-    "weapon": "御兽",
     "Taolu": {
       "Wu": {
         "id": 60096,
@@ -1071,9 +1056,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "御蛊",
     "display": {
       "name": "阿紫",
-      "类型tag": "御蛊",
       "shape": 6004,
       "icon": 6004,
       "draw": 6004,
@@ -1083,7 +1068,6 @@
     "basedata": 18,
     "zizhidata": 21000017,
     "grade": 1,
-    "weapon": "御蛊",
     "Taolu": {
       "Wu": {
         "id": 60097,
@@ -1123,9 +1107,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "剑",
     "display": {
       "name": "苏真真",
-      "类型tag": "剑",
       "shape": 2073,
       "icon": 2073,
       "draw": 2073,
@@ -1135,7 +1119,6 @@
     "basedata": 19,
     "zizhidata": 21000018,
     "grade": 1,
-    "weapon": "剑",
     "Taolu": {
       "Wu": {
         "id": 60051,
@@ -1174,9 +1157,9 @@
     "Tags": [
       "client"
     ],
+    "weapon": "暗器",
     "display": {
       "name": "王大勇",
-      "类型tag": "暗器",
       "shape": 1040,
       "icon": 1040,
       "draw": 1040,
@@ -1186,7 +1169,6 @@
     "basedata": 21,
     "zizhidata": 21000020,
     "grade": 1,
-    "weapon": "暗器",
     "Taolu": {
       "Wu": {
         "id": 60094,

@@ -8,7 +8,7 @@
     <div class="soldier-card__left-middle">
       <!-- 原左侧内容 -->
       <div class="soldier-card__left">
-        <h4 class="soldier-card__name">{{ soldier?.Name }}</h4>
+        <h4 class="soldier-card__name">{{ npcName }}</h4>
         <div class="soldier-card__avatar-container">
           <img
             :src="soldierIcon"
@@ -78,6 +78,8 @@ const soldierIcon = ref<string>('');
 const equipItems = ref<any[]>([]);
 const taoluSkills = ref<any[]>([]);
 const talentSkills = ref<any[]>([]);
+const isDev = import.meta.env.DEV;
+const npcName = ref("");
 
 // 初始化并加载数据
 onMounted(async () => {
@@ -96,6 +98,8 @@ const updateCurrentSoldier = async (id: number) => {
     const xls = await getSoldier(id);
     soldier.value = xls;
     if (xls) {
+      const name = xls.display.name;
+      npcName.value = isDev ? `${name}(${xls.Id})` : name;
       soldierIcon.value = getSoldierAvater(xls.display?.icon);
       equipItems.value = soldier2EquipItems(xls.equip || []);
       taoluSkills.value = soldier2TaoluSkills(xls.Taolu);

@@ -5,9 +5,7 @@
 
 <template>
   <div class="all-soldier">
-    <div class="all-soldier__loading" v-if="isLoading">
-      加载中...
-    </div>
+    <div class="all-soldier__loading" v-if="isLoading">加载中...</div>
 
     <div class="all-soldier__content" v-else>
       <!-- Tabs 导航 -->
@@ -29,99 +27,92 @@
           :soldierIds="activeSoldiers"
           :selectedId="activeSoldiers[0]"
         />
-        <div class="empty-state" v-else>
-          该武器类型暂无士兵
-        </div>
+        <div class="empty-state" v-else>该武器类型暂无士兵</div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
-import { getSoldiers, XlsSoldier } from '../../../data/soldier'
-import SoldierCards from './SoldierCards.vue'
-
-// 武器类型映射（可根据实际数据调整）
-const weaponLabels: Record<string, string> = {
-  sword: '剑',
-  spear: '枪',
-  knife: '刀',
-  stick: '棍',
-  fist: '拳',
-  palm: '掌',
-  finger: '指',
-  leg: '腿',
-  hidden: '暗器',
-  other: '其他'
-}
+import { ref, computed, onMounted } from "vue";
+import { getSoldiers, XlsSoldier } from "../../../data/soldier";
+import SoldierCards from "./SoldierCards.vue";
 
 interface WeaponGroup {
-  key: string
-  label: string
-  soldiers: XlsSoldier[]
-  count: number
+  key: string;
+  label: string;
+  soldiers: XlsSoldier[];
+  count: number;
 }
 
-const isLoading = ref(true)
-const soldiers = ref<XlsSoldier[]>([])
-const activeWeapon = ref<string>('')
+const isLoading = ref(true);
+const soldiers = ref<XlsSoldier[]>([]);
+const activeWeapon = ref<string>("");
 
 // 按武器分组的士兵数据
 const groupedSoldiers = computed(() => {
-  const groups: Record<string, XlsSoldier[]> = {}
+  const groups: Record<string, XlsSoldier[]> = {
+    "刀":[],
+    "剑":[],
+    "拳":[],
+    "棍":[],
+    "暗器":[],
+    "其他":[],
+  };
 
-  soldiers.value.forEach(soldier => {
-    const weapon = soldier.weapon || 'other'
-    if (!groups[weapon]) {
-      groups[weapon] = []
+  soldiers.value.forEach((soldier) => {
+    const weapon = soldier.weapon;
+    if (weapon) {
+      (groups[weapon]||groups['其他']).push(soldier);
     }
-    groups[weapon].push(soldier)
-  })
+  });
 
-  return groups
-})
+  return groups;
+});
 
 // 武器标签页数据
 const weaponTabs = computed(() => {
-  const tabs: WeaponGroup[] = []
+  const tabs: WeaponGroup[] = [];
 
   Object.entries(groupedSoldiers.value).forEach(([weapon, soldierList]) => {
+    if (!weapon) return;
     tabs.push({
       key: weapon,
-      label: weaponLabels[weapon] || weapon,
+      label: weapon,
       soldiers: soldierList,
-      count: soldierList.length
-    })
-  })
+      count: soldierList.length,
+    });
+  });
 
   // 按士兵数量降序排序
-  tabs.sort((a, b) => b.count - a.count)
+  // tabs.sort((a, b) => b.count - a.count);
 
-  return tabs
-})
+  return tabs;
+});
 
 // 当前激活的士兵ID列表
 const activeSoldiers = computed(() => {
-  const activeGroup = weaponTabs.value.find(tab => tab.key === activeWeapon.value)
-  return activeGroup ? activeGroup.soldiers.map(s => s.Id) : []
-})
+  const activeGroup = weaponTabs.value.find(
+    (tab) => tab.key === activeWeapon.value,
+  );
+  return activeGroup ? activeGroup.soldiers.map((s) => s.Id) : [];
+});
 
 // 加载士兵数据
 onMounted(async () => {
   try {
-    const allSoldiers = await getSoldiers()
-    soldiers.value = Object.values(allSoldiers)
+    const allSoldiers = await getSoldiers();
+    soldiers.value = Object.values(allSoldiers);
     // 设置默认激活的武器类型（第一个有士兵的）
     if (weaponTabs.value.length > 0) {
-      activeWeapon.value = weaponTabs.value[0].key
+      activeWeapon.value = weaponTabs.value[0].key;
     }
   } catch (error) {
-    console.error('Failed to load soldiers:', error)
+    console.error("Failed to load soldiers:", error);
   } finally {
-    isLoading.value = false
+    isLoading.value = false;
   }
-})
+});
 </script>
 
 <style scoped>

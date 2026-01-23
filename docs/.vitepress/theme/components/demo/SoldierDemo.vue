@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import SoldierCard from '../base/SoldierCard.vue'
+import SoldierCard from '../soldier/SoldierCard.vue'
 
 const props = defineProps<{ defaultId?: number }>()
 

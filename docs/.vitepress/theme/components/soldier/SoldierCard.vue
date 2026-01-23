@@ -60,8 +60,8 @@
 
 <script setup lang="ts">
 import { ref, watch, onMounted } from "vue";
-import ItemGrid from "./ItemGrid.vue";
-import SkillGrid from "./SkillGrid.vue";
+import ItemGrid from "../base/ItemGrid.vue";
+import SkillGrid from "../base/SkillGrid.vue";
 import {
   getSoldier,
   XlsSoldier,

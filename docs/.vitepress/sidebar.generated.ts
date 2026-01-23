@@ -1109,6 +1109,10 @@ export default [
         "link": "/51-tool/01-reward"
       },
       {
+        "text": "scene",
+        "link": "/51-tool/02-scene"
+      },
+      {
         "text": "npc",
         "link": "/51-tool/03-npc"
       },
@@ -1123,6 +1127,10 @@ export default [
       {
         "text": "soldier",
         "link": "/51-tool/06-soldier"
+      },
+      {
+        "text": "allsoldier",
+        "link": "/51-tool/07-allsoldier"
       },
       {
         "text": "数据",

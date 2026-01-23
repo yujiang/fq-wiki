@@ -899,6 +899,10 @@ export default [
               {
                 "text": "reward3",
                 "link": "/50-test/game/base/09-reward3"
+              },
+              {
+                "text": "soldier",
+                "link": "/50-test/game/base/09-soldier"
               }
             ],
             "collapsed": true

@@ -1348,6 +1348,21 @@
       "HurtHp": 1
     }
   },
+  "50121": {
+    "Id": 50121,
+    "Name": "钱止薇切磋战斗",
+    "Tags": "client",
+    "RunClient": 1,
+    "EnterWay": 1,
+    "EnterHp": 1,
+    "Boss": 50001,
+    "Zhen": 1,
+    "Param": {
+      "SoldierNum": 0,
+      "LostPay": 0,
+      "HurtHp": 1
+    }
+  },
   "50212": {
     "Id": 50212,
     "Name": "主线-埋伏",

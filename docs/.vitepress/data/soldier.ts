@@ -69,5 +69,10 @@ export async function soldier2TalentSkills(talentdata: number): Promise<SkillIdL
 
 export function getSoldierIcon(icon: number | undefined) {
   if (!icon) return "";
-  return `/images/icon/char/268x249/${icon}.png`; // Same as NPC for now
+  return `/images/icon/char/80x80/${icon}.png`; // Same as NPC for now
+}
+
+export function getSoldierAvater(icon: number | undefined) {
+  if (!icon) return "";
+  return `/images/icon/char/268x249/${icon}.png`;
 }

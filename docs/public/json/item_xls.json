@@ -12416,6 +12416,21 @@
     "Page": "normal",
     "Overlay": 99
   },
+  "13604": {
+    "Id": 13604,
+    "source": "02任务",
+    "SptId": 408,
+    "Kind": "任务",
+    "Name": "祖传字条",
+    "Icon": 5766,
+    "Detail": "孤峰问道天目上\n双鹤分光照三潭\n云水深处闻钟起\n一卷尘心付后人",
+    "Grade": 0,
+    "Rank": 1,
+    "UseText": "查看",
+    "Reddot": 1,
+    "Page": "normal",
+    "Overlay": 1
+  },
   "13998": {
     "Id": 13998,
     "source": "03任务",

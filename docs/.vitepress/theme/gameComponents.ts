@@ -40,9 +40,13 @@ import Money from './components/base/Money.vue'
 
 import NpcIcon from './components/base/NpcIcon.vue'
 import NpcList from './components/base/NpcList.vue'
+import SoldierIcon from './components/base/SoldierIcon.vue'
+import SoldierList from './components/base/SoldierList.vue'
 import NpcFriendList from './components/reward/NpcFriendList.vue'
 import NpcCard from './components/base/NpcCard.vue'
 import NpcCards from './components/base/NpcCards.vue'
+import SoldierCard from './components/base/SoldierCard.vue'
+import SoldierCards from './components/base/SoldierCards.vue'
 import SceneNpc from './components/Scene/SceneNpc.vue'
 
 import TaskCard from './components/task/TaskCard.vue'
@@ -115,10 +119,14 @@ export function registerGameComponents(app: any) {
   app.component('MoneyCard', MoneyCard)
   app.component('Money', Money)
 
-  app.component('NpcCard', NpcCard)
-  app.component('NpcCards', NpcCards)
-  app.component('NpcIcon', NpcIcon)
-  app.component('NpcList', NpcList)
+   app.component('NpcCard', NpcCard)
+   app.component('NpcCards', NpcCards)
+   app.component('SoldierCard', SoldierCard)
+   app.component('SoldierCards', SoldierCards)
+   app.component('NpcIcon', NpcIcon)
+   app.component('NpcList', NpcList)
+   app.component('SoldierIcon', SoldierIcon)
+   app.component('SoldierList', SoldierList)
   app.component('NpcFriendList', NpcFriendList)
   app.component('SceneNpc', SceneNpc)
 

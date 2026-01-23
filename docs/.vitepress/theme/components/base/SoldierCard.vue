@@ -68,7 +68,7 @@ import {
   soldier2EquipItems,
   soldier2TaoluSkills,
   soldier2TalentSkills,
-  getSoldierIcon
+  getSoldierAvater
 } from "../../../data/soldier";
 import { getRankDesc } from "../../../data/xls";
 
@@ -96,7 +96,7 @@ const updateCurrentSoldier = async (id: number) => {
     const xls = await getSoldier(id);
     soldier.value = xls;
     if (xls) {
-      soldierIcon.value = getSoldierIcon(xls.display?.icon);
+      soldierIcon.value = getSoldierAvater(xls.display?.icon);
       equipItems.value = soldier2EquipItems(xls.equip || []);
       taoluSkills.value = soldier2TaoluSkills(xls.Taolu);
       talentSkills.value = await soldier2TalentSkills(xls.talentdata);

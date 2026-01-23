@@ -366,6 +366,55 @@
     "MallClickTips": "完成剧情后可招募",
     "Rank": 3
   },
+  "50081": {
+    "Id": 50081,
+    "Tags": [
+      "client"
+    ],
+    "display": {
+      "name": "钱芷薇",
+      "shape": 2091,
+      "icon": 2091,
+      "draw": 2091,
+      "sex": 1
+    },
+    "pointdata": 101,
+    "basedata": 1,
+    "zizhidata": 1,
+    "grade": 20,
+    "Taolu": {
+      "Wu": {
+        "id": 60037,
+        "level": 20,
+        "rank": 2
+      },
+      "Nei": {
+        "id": 60053,
+        "level": 39,
+        "rank": 1
+      },
+      "Qing": {
+        "id": 60055,
+        "level": 39,
+        "rank": 1
+      }
+    },
+    "position": [
+      7,
+      8,
+      9
+    ],
+    "equip": [
+      250110,
+      220110,
+      240110,
+      230110,
+      260110
+    ],
+    "UnlockCondition": 285,
+    "DisableTrain": 1,
+    "AutoFight": 1
+  },
   "50093": {
     "Id": 50093,
     "Tags": [
@@ -413,6 +462,57 @@
     ],
     "UnlockCondition": 285,
     "DisableTrain": 1,
+    "AutoFight": 1
+  },
+  "50121": {
+    "Id": 50121,
+    "Tags": [
+      "client"
+    ],
+    "display": {
+      "name": "钱芷薇",
+      "shape": 2074,
+      "icon": 2074,
+      "draw": 2074,
+      "sex": 1
+    },
+    "pointdata": 101,
+    "basedata": 1,
+    "zizhidata": 1,
+    "grade": 20,
+    "weapon": "剑",
+    "Taolu": {
+      "Wu": {
+        "id": 60037,
+        "level": 20,
+        "rank": 2
+      },
+      "Nei": {
+        "id": 60053,
+        "level": 39,
+        "rank": 1
+      },
+      "Qing": {
+        "id": 60055,
+        "level": 39,
+        "rank": 1
+      }
+    },
+    "position": [
+      7,
+      8,
+      9
+    ],
+    "equip": [
+      210110,
+      250110,
+      220110,
+      240110,
+      230110,
+      260110
+    ],
+    "UnlockCondition": 285,
+    "biography": "识得两三拳脚的富家千金,却不识得江湖的暗面,也识不得人心.",
     "AutoFight": 1
   },
   "53004": {

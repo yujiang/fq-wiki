@@ -1111,6 +1111,14 @@ export default [
       {
         "text": "npc",
         "link": "/51-tool/03-npc"
+      },
+      {
+        "text": "skill",
+        "link": "/51-tool/04-skill"
+      },
+      {
+        "text": "item",
+        "link": "/51-tool/05-item"
       }
     ],
     "collapsed": false

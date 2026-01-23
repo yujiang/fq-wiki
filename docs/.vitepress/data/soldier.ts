@@ -11,15 +11,17 @@ interface TaoluInit{
 export interface XlsSoldier extends XlsBase {
   display: DisplayStruct;
   
-  pointdata: number;
-  basedata: number;
-  spcialdata: number;  
-  zizhidata: number;
+  //pointdata: number;
+  //basedata: number;
+  //spcialdata: number;  
+  //zizhidata: number;
+  talentdata: number; //指向talent表
 
-  weapon: string;
-  Taolu: TaoluInit;
+  //weapon: string;
+  Taolu: TaoluInit; //初始武学
+  equip: number[]; //装备,6个
 
-  MallClickTips: string;
+  // MallClickTips: string;
 };
 
 

@@ -32,6 +32,7 @@ import NpcDemo from './components/demo/NpcDemo.vue'
 import SkillDemo from './components/demo/SkillDemo.vue'
 import ItemDemo from './components/demo/ItemDemo.vue'
 import SoldierDemo from './components/demo/SoldierDemo.vue'
+import SceneDemo from './components/demo/SceneDemo.vue'
 import TeleCheck from './components/tool/TeleCheck.vue'
 import RewardCard from './components/reward/RewardCard.vue'
 import SayReward from './components/reward/SayReward.vue'
@@ -113,6 +114,7 @@ export function registerGameComponents(app: any) {
    app.component('SkillDemo', SkillDemo)
    app.component('ItemDemo', ItemDemo)
    app.component('SoldierDemo', SoldierDemo)
+   app.component('SceneDemo', SceneDemo)
    app.component('TeleCheck', TeleCheck)
   app.component('RewardCard', RewardCard)
   app.component('SayReward', SayReward)

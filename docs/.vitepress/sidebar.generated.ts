@@ -854,6 +854,10 @@ export default [
             "link": "/50-test/game/08-npc"
           },
           {
+            "text": "soldier",
+            "link": "/50-test/game/09-soldier"
+          },
+          {
             "text": "base",
             "items": [
               {
@@ -899,10 +903,6 @@ export default [
               {
                 "text": "reward3",
                 "link": "/50-test/game/base/09-reward3"
-              },
-              {
-                "text": "soldier",
-                "link": "/50-test/game/base/09-soldier"
               }
             ],
             "collapsed": true
@@ -1109,10 +1109,6 @@ export default [
         "link": "/51-tool/01-reward"
       },
       {
-        "text": "checkTele",
-        "link": "/51-tool/02-checkTele"
-      },
-      {
         "text": "npc",
         "link": "/51-tool/03-npc"
       },
@@ -1127,6 +1123,16 @@ export default [
       {
         "text": "soldier",
         "link": "/51-tool/06-soldier"
+      },
+      {
+        "text": "数据",
+        "items": [
+          {
+            "text": "checkTele",
+            "link": "/51-tool/数据/02-checkTele"
+          }
+        ],
+        "collapsed": true
       }
     ],
     "collapsed": false

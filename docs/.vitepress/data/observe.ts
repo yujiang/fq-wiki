@@ -76,7 +76,7 @@ async function mapSkill(_Skill: ObserveWillType, curLevel: number): Promise<Skil
 	if (typeof Skill[0] === 'string') {
 		const xls = await getLearnTaoluInfo(Skill[0]);
 		if (!xls) {
-			return {} as SkillIdLevel;
+			return null as any;
 		}
 		return {
 			id: xls.Taolu || xls.LifeSkill || xls.Secret,
@@ -93,7 +93,7 @@ function mapItem(item: ObserveItem): ItemIdCount {
 	return {
 		id,
 		count: count || 1,
-		fLevel: needLevel,
+		fLevel: needLevel || 1,
 	};
 }
 

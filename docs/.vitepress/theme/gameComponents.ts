@@ -28,6 +28,8 @@ import SceneTele from './components/Scene/SceneTele.vue'
 import SceneTeleType from './components/Scene/SceneTeleType.vue'
 
 import RewardDemo from './components/demo/RewardDemo.vue'
+import NpcDemo from './components/demo/NpcDemo.vue'
+import TeleCheck from './components/tool/TeleCheck.vue'
 import RewardCard from './components/reward/RewardCard.vue'
 import SayReward from './components/reward/SayReward.vue'
 import MoneyCard from './components/base/MoneyCard.vue'
@@ -100,6 +102,8 @@ export function registerGameComponents(app: any) {
   app.component('SceneTele', SceneTele)
 
   app.component('RewardDemo', RewardDemo)
+  app.component('NpcDemo', NpcDemo)
+  app.component('TeleCheck', TeleCheck)
   app.component('RewardCard', RewardCard)
   app.component('SayReward', SayReward)
   app.component('MoneyCard', MoneyCard)

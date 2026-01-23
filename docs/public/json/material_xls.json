@@ -12,7 +12,9 @@
     "SalePrice": 1,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["炼丹"],
+    "Tags": [
+      "炼丹"
+    ],
     "Kind": "通用材料",
     "Page": "material",
     "Overlay": 999
@@ -30,8 +32,16 @@
     "SalePrice": 10,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "药材", "炼丹", "凝炼", "酿酒"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹",
+      "凝炼",
+      "酿酒"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -49,8 +59,14 @@
     "SalePrice": 25,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -68,8 +84,14 @@
     "SalePrice": 25,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -87,8 +109,15 @@
     "SalePrice": 30,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["炼丹", "烹饪", "材料", "药材"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "炼丹",
+      "烹饪",
+      "材料",
+      "药材"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -106,8 +135,14 @@
     "SalePrice": 20,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -125,8 +160,14 @@
     "SalePrice": 25,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -144,8 +185,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -163,8 +210,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -182,8 +235,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -201,8 +260,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["炼丹", "凝炼"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "炼丹",
+      "凝炼"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -220,8 +284,13 @@
     "SalePrice": 300,
     "Grade": 0,
     "Rank": 5,
-    "Tags": ["炼丹", "烹饪"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "炼丹",
+      "烹饪"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -239,8 +308,13 @@
     "SalePrice": 300,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["炼丹", "凝炼"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "炼丹",
+      "凝炼"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -258,8 +332,14 @@
     "SalePrice": 500,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -277,8 +357,14 @@
     "SalePrice": 500,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -296,8 +382,14 @@
     "SalePrice": 400,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -315,8 +407,14 @@
     "SalePrice": 250,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -334,8 +432,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["炼丹", "凝炼"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "炼丹",
+      "凝炼"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -384,8 +487,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -402,8 +511,14 @@
     "SalePrice": 20,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -420,8 +535,14 @@
     "SalePrice": 20,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "药材", "炼丹"],
-    "LikeTags": ["药材"],
+    "Tags": [
+      "材料",
+      "药材",
+      "炼丹"
+    ],
+    "LikeTags": [
+      "药材"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 999
@@ -439,7 +560,11 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "矿石", "专属"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
     "Kind": "通用材料",
     "Page": "material",
     "Overlay": 999,
@@ -458,8 +583,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "矿石", "专属"],
-    "LikeTags": ["矿石"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
+    "LikeTags": [
+      "矿石"
+    ],
     "Kind": "矿石",
     "Page": "material",
     "Overlay": 999,
@@ -478,8 +609,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "矿石", "专属"],
-    "LikeTags": ["矿石"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
+    "LikeTags": [
+      "矿石"
+    ],
     "Kind": "矿石",
     "Page": "material",
     "Overlay": 999,
@@ -498,8 +635,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "矿石", "专属"],
-    "LikeTags": ["矿石"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
+    "LikeTags": [
+      "矿石"
+    ],
     "Kind": "矿石",
     "Page": "material",
     "Overlay": 999,
@@ -518,8 +661,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "矿石", "专属"],
-    "LikeTags": ["矿石"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
+    "LikeTags": [
+      "矿石"
+    ],
     "Kind": "矿石",
     "Page": "material",
     "Overlay": 999,
@@ -538,8 +687,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 5,
-    "Tags": ["材料", "矿石", "专属"],
-    "LikeTags": ["矿石"],
+    "Tags": [
+      "材料",
+      "矿石",
+      "专属"
+    ],
+    "LikeTags": [
+      "矿石"
+    ],
     "Kind": "矿石",
     "Page": "material",
     "Overlay": 999,
@@ -558,8 +713,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "布料"],
-    "LikeTags": ["布料"],
+    "Tags": [
+      "材料",
+      "布料"
+    ],
+    "LikeTags": [
+      "布料"
+    ],
     "Kind": "布料",
     "Page": "material",
     "Overlay": 999
@@ -577,8 +737,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "布料"],
-    "LikeTags": ["布料"],
+    "Tags": [
+      "材料",
+      "布料"
+    ],
+    "LikeTags": [
+      "布料"
+    ],
     "Kind": "布料",
     "Page": "material",
     "Overlay": 999
@@ -596,8 +761,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "布料"],
-    "LikeTags": ["布料"],
+    "Tags": [
+      "材料",
+      "布料"
+    ],
+    "LikeTags": [
+      "布料"
+    ],
     "Kind": "布料",
     "Page": "material",
     "Overlay": 999
@@ -615,8 +785,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "布料"],
-    "LikeTags": ["布料"],
+    "Tags": [
+      "材料",
+      "布料"
+    ],
+    "LikeTags": [
+      "布料"
+    ],
     "Kind": "布料",
     "Page": "material",
     "Overlay": 999
@@ -633,8 +808,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "皮毛"],
-    "LikeTags": ["皮毛"],
+    "Tags": [
+      "材料",
+      "皮毛"
+    ],
+    "LikeTags": [
+      "皮毛"
+    ],
     "Kind": "皮毛",
     "Page": "material",
     "Overlay": 999
@@ -651,8 +831,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "皮毛"],
-    "LikeTags": ["皮毛"],
+    "Tags": [
+      "材料",
+      "皮毛"
+    ],
+    "LikeTags": [
+      "皮毛"
+    ],
     "Kind": "皮毛",
     "Page": "material",
     "Overlay": 999
@@ -670,8 +855,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "皮毛"],
-    "LikeTags": ["皮毛"],
+    "Tags": [
+      "材料",
+      "皮毛"
+    ],
+    "LikeTags": [
+      "皮毛"
+    ],
     "Kind": "皮毛",
     "Page": "material",
     "Overlay": 999
@@ -689,8 +879,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "皮毛"],
-    "LikeTags": ["皮毛"],
+    "Tags": [
+      "材料",
+      "皮毛"
+    ],
+    "LikeTags": [
+      "皮毛"
+    ],
     "Kind": "皮毛",
     "Page": "material",
     "Overlay": 999
@@ -708,8 +903,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "皮毛"],
-    "LikeTags": ["皮毛"],
+    "Tags": [
+      "材料",
+      "皮毛"
+    ],
+    "LikeTags": [
+      "皮毛"
+    ],
     "Kind": "皮毛",
     "Page": "material",
     "Overlay": 999
@@ -727,7 +927,10 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "木材"],
+    "Tags": [
+      "材料",
+      "木材"
+    ],
     "Kind": "通用材料",
     "Page": "material",
     "Overlay": 999
@@ -745,8 +948,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "木材"],
-    "LikeTags": ["木材"],
+    "Tags": [
+      "材料",
+      "木材"
+    ],
+    "LikeTags": [
+      "木材"
+    ],
     "Kind": "木材",
     "Page": "material",
     "Overlay": 999
@@ -764,8 +972,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "木材"],
-    "LikeTags": ["木材"],
+    "Tags": [
+      "材料",
+      "木材"
+    ],
+    "LikeTags": [
+      "木材"
+    ],
     "Kind": "木材",
     "Page": "material",
     "Overlay": 999
@@ -783,8 +996,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "木材"],
-    "LikeTags": ["木材"],
+    "Tags": [
+      "材料",
+      "木材"
+    ],
+    "LikeTags": [
+      "木材"
+    ],
     "Kind": "木材",
     "Page": "material",
     "Overlay": 999
@@ -802,8 +1020,13 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "木材"],
-    "LikeTags": ["木材"],
+    "Tags": [
+      "材料",
+      "木材"
+    ],
+    "LikeTags": [
+      "木材"
+    ],
     "Kind": "木材",
     "Page": "material",
     "Overlay": 999
@@ -821,13 +1044,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50076,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -844,13 +1076,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50077,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -867,13 +1108,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50078,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -890,13 +1140,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50079,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -913,13 +1172,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50080,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -936,13 +1204,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50081,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -959,13 +1236,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50082,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -982,13 +1268,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50083,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -1005,13 +1300,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50084,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -1028,13 +1332,22 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "篝火", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "篝火",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Use": "addCollect",
     "UseText": "放置",
     "UseParam": 50085,
-    "CostParam": [23, 1],
+    "CostParam": [
+      23,
+      1
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -1051,8 +1364,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["烹饪", "凝炼", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "凝炼",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Page": "material",
     "Overlay": 999
@@ -1070,8 +1389,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["烹饪", "凝炼", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "凝炼",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Page": "material",
     "Overlay": 999
@@ -1089,8 +1414,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "凝炼", "肉类"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪",
+      "凝炼",
+      "肉类"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "肉类",
     "Page": "material",
     "Overlay": 999
@@ -1108,8 +1439,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -1127,7 +1464,11 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "材料", "调料"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "调料"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -1145,8 +1486,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -1164,8 +1511,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -1183,8 +1536,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -1202,8 +1561,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1221,8 +1586,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1240,8 +1611,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1259,8 +1636,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1278,8 +1661,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1297,8 +1686,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1316,8 +1711,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "鱼类",
     "Page": "material",
     "Overlay": 999
@@ -1336,8 +1737,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1356,8 +1763,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1376,7 +1789,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1395,8 +1810,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1415,7 +1836,10 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "临安特产"],
+    "Tags": [
+      "烹饪",
+      "临安特产"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1434,7 +1858,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1453,8 +1879,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 4,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1472,8 +1904,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪", "材料", "蔬菜"],
-    "LikeTags": ["蔬菜"],
+    "Tags": [
+      "烹饪",
+      "材料",
+      "蔬菜"
+    ],
+    "LikeTags": [
+      "蔬菜"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1491,7 +1929,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1509,7 +1949,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Use": "addCollect",
     "UseText": "放置",
@@ -1530,7 +1972,12 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "佐料"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1547,8 +1994,13 @@
     "Value": 1,
     "SalePrice": 200,
     "Grade": 0,
-    "Rank": 1,
-    "Tags": ["烹饪"],
+    "Rank": 2,
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "佐料"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1565,8 +2017,13 @@
     "Value": 1,
     "SalePrice": 200,
     "Grade": 0,
-    "Rank": 1,
-    "Tags": ["烹饪"],
+    "Rank": 2,
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "佐料"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1584,7 +2041,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1602,8 +2061,14 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["材料", "烹饪", "鱼类"],
-    "LikeTags": ["鱼类"],
+    "Tags": [
+      "材料",
+      "烹饪",
+      "鱼类"
+    ],
+    "LikeTags": [
+      "鱼类"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1621,7 +2086,12 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "佐料"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1638,8 +2108,13 @@
     "Value": 1,
     "SalePrice": 200,
     "Grade": 0,
-    "Rank": 1,
-    "Tags": ["烹饪"],
+    "Rank": 3,
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "佐料"
+    ],
     "Kind": "食材",
     "Page": "material",
     "Overlay": 999
@@ -1703,8 +2178,12 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 2,
-    "Tags": ["烹饪"],
-    "LikeTags": ["肉类"],
+    "Tags": [
+      "烹饪"
+    ],
+    "LikeTags": [
+      "肉类"
+    ],
     "Kind": "通用材料",
     "Page": "material",
     "Overlay": 999
@@ -1752,7 +2231,9 @@
     "SalePrice": 16,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Page": "material",
     "Overlay": 999
   },
@@ -1766,7 +2247,10 @@
     "Detail": "今人地藏古人骨，古人花为今人发。\n地藏花需十年育种，二十年长成，三十年抽苞，总计六十年方得开花，宛如人生一个甲子一般，是炼制回天固命丹所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1781,7 +2265,10 @@
     "Detail": "执明王怒焰，摧伏外道心。\n佛焰根色泽金黄，香气炽烈，宛如一团盛开的火焰。佛焰根成熟前药性凶猛，若在此时采摘服用，必然经脉尽断而死。是炼制明王怒焰丹所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1796,7 +2283,10 @@
     "Detail": "采金中髓，入药中玄。\n金髓晶乃是金铁之精华，一整条矿脉都不见得能出产一块。用之入药有伐毛洗髓，成就铁骨金髓之功，是炼制铁骨嶙峋膏所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1811,7 +2301,10 @@
     "Detail": "生死魂难聚，幽明路已歧。\n还幽寒水产自远隔天日的地下寒潭之中，朝不见光夜不见明暝，有如堕入幽明之界一般。因此还幽寒水冰寒彻骨，三伏天气将之置于室内也有通室清凉之感，是炼制青崖白鹿饮所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1826,7 +2319,10 @@
     "Detail": "碧血塞沧海，清气满乾坤。\n相传若世间有忠臣良将惨遭奸人屠戮时，便有凤凰泣血于墓前，血泪洒落之处便会凝成凰血赤金。虽然只是民间传闻，但凰血赤金金光夺目中隐藏着一丝殷红，当真就如一颗赤子之心一般。炼制四圣归元散所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1841,7 +2337,10 @@
     "Detail": "绝壑生孤秀，青岩依碧虚。\n青岩木生长在悬崖绝壁之上，受千年寒霜雨雪而不凋。一身精华融入树皮之中，致使树皮坚韧无比堪比犀甲鲛皮，刀劈斧斫都难以留下痕迹，是炼制鲛革兕甲丹所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1856,7 +2355,10 @@
     "Detail": "蝉蜕尘埃外，百年新叶生。\n金蝉生于雪域，成虫后便向南飞，直至海边方死。而天蝉灵叶便是长于金蝉体内，乃是冬虫夏草中的仙品。据说以天蝉灵叶的汁液洗眼，有令失明者复明的神奇功效，是炼制天蝉宁心丹所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -1871,7 +2373,10 @@
     "Detail": "山骨净如玉，飞崖百丈冰。\n雪玉髓产自于至洁至纯的雪峰之巅，此处冰川历千年而不化，采集后化冰为水便是最为纯净之物，最适合用来炼丹、酿酒，是炼制雪玉护元饮所需要的主料。",
     "Prescription": 1,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -2103,7 +2608,10 @@
     "SalePrice": 83,
     "Grade": 0,
     "Rank": 5,
-    "Tags": ["炼丹", "天材地宝"],
+    "Tags": [
+      "炼丹",
+      "天材地宝"
+    ],
     "Kind": "药材",
     "Page": "material",
     "Overlay": 99
@@ -2134,7 +2642,9 @@
     "SalePrice": 16,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["专属"],
+    "Tags": [
+      "专属"
+    ],
     "Page": "material",
     "Overlay": 99,
     "Experience": 100
@@ -2150,7 +2660,9 @@
     "SalePrice": 16,
     "Grade": 0,
     "Rank": 3,
-    "Tags": ["专属"],
+    "Tags": [
+      "专属"
+    ],
     "Page": "material",
     "Overlay": 99,
     "Experience": 100
@@ -2167,7 +2679,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2183,7 +2697,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2199,7 +2715,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2215,7 +2733,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2231,7 +2751,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2247,7 +2769,9 @@
     "Value": 0,
     "SalePrice": 1,
     "Rank": 0,
-    "Tags": ["凝炼"],
+    "Tags": [
+      "凝炼"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2296,7 +2820,10 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪", "毒药"],
+    "Tags": [
+      "烹饪",
+      "毒药"
+    ],
     "Kind": "蔬菜",
     "Page": "material",
     "Overlay": 999
@@ -2620,7 +3147,9 @@
     "SalePrice": 200,
     "Grade": 0,
     "Rank": 1,
-    "Tags": ["烹饪"],
+    "Tags": [
+      "烹饪"
+    ],
     "Kind": "食材",
     "Use": "addCollect",
     "UseText": "放置",
@@ -2707,7 +3236,9 @@
     "Icon": 54009,
     "Detail": "常作为主花",
     "Rank": 1,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2718,7 +3249,9 @@
     "Icon": 18107,
     "Detail": "常作为主花",
     "Rank": 1,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2729,7 +3262,9 @@
     "Icon": 54010,
     "Detail": "常作为主花",
     "Rank": 1,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2740,7 +3275,9 @@
     "Icon": 54011,
     "Detail": "常作为主花",
     "Rank": 2,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2751,7 +3288,9 @@
     "Icon": 5618,
     "Detail": "常作为主花",
     "Rank": 2,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2762,7 +3301,9 @@
     "Icon": 54012,
     "Detail": "常作为主花",
     "Rank": 2,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2773,7 +3314,9 @@
     "Icon": 5627,
     "Detail": "常作为主花",
     "Rank": 3,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2784,7 +3327,9 @@
     "Icon": 5631,
     "Detail": "常作为主花",
     "Rank": 3,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2795,7 +3340,9 @@
     "Icon": 5617,
     "Detail": "常作为主花",
     "Rank": 3,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2837,7 +3384,10 @@
     "Detail": "人淡如菊",
     "Use": "makeflower",
     "UseText": "插花",
-    "UseParam": [3, 4]
+    "UseParam": [
+      3,
+      4
+    ]
   },
   "54024": {
     "Id": 54024,
@@ -2846,7 +3396,9 @@
     "Icon": 54010,
     "Detail": "常作为主花",
     "Rank": 1,
-    "LikeTags": ["花"],
+    "LikeTags": [
+      "花"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2857,8 +3409,12 @@
     "Icon": 55001,
     "Detail": "奇虫1",
     "Rank": 1,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2869,8 +3425,12 @@
     "Icon": 55002,
     "Detail": "奇虫2",
     "Rank": 1,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2881,8 +3441,12 @@
     "Icon": 55003,
     "Detail": "奇虫3",
     "Rank": 2,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2893,8 +3457,12 @@
     "Icon": 55004,
     "Detail": "奇虫4",
     "Rank": 2,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2905,8 +3473,12 @@
     "Icon": 55005,
     "Detail": "奇虫5",
     "Rank": 3,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2917,8 +3489,12 @@
     "Icon": 55006,
     "Detail": "奇虫6",
     "Rank": 3,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2929,8 +3505,12 @@
     "Icon": 55007,
     "Detail": "奇虫7",
     "Rank": 4,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2941,8 +3521,12 @@
     "Icon": 55008,
     "Detail": "奇虫8",
     "Rank": 4,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2953,8 +3537,12 @@
     "Icon": 319028,
     "Detail": "从鱼怪身上掉落的鳞片，似乎是有什么用处。",
     "Rank": 4,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },
@@ -2965,8 +3553,12 @@
     "Icon": 319029,
     "Detail": "鱼怪的眼珠，留着应当还是有些用处的。",
     "Rank": 4,
-    "Tags": ["凝炼"],
-    "LikeTags": ["奇虫"],
+    "Tags": [
+      "凝炼"
+    ],
+    "LikeTags": [
+      "奇虫"
+    ],
     "Page": "material",
     "Overlay": 99
   },

@@ -127,7 +127,7 @@ const updateCurrentObserve = async (id: number) => {
       items2.push(...ask2);
 
       const skills2 = await observe2Skills(xls.Skills);
-      // console.log('NpcCard.vue',id,items2,skills2);
+      console.log('NpcCard.vue',id,xls.Skills,skills2);
       items.value = items2;
       skills.value = skills2;
       const rs = await getFriendRewards(xls.Id);

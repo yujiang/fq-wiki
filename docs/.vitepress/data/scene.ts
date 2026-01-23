@@ -181,3 +181,10 @@ export function isFuture(tags: string|string[]|undefined): boolean {
   if (!tags) return false;
   return tags.includes("未来");
 }
+
+// export function getScenesByName(name: string): number[]{
+//   if (name === '流程') {
+//     return [1023,1016,1022,3152,3067,1029,3302,1003,7101,7110,1032]
+//   }
+//   return [];
+// }

@@ -39,6 +39,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { getSays, XlsSay } from '../../../data/say'
 import RewardCard from './RewardCard.vue'
+import { getMapidName, getMapids } from '../../../data/mapid'
 
 const isDev = import.meta.env.DEV
 
@@ -71,6 +72,7 @@ const currentSays = computed(() => {
 })
 
 onMounted(async () => {
+  const mapids = await getMapids();
   const all = await getSays()
   says.value = all
 
@@ -79,7 +81,8 @@ onMounted(async () => {
     const say = all[id]
     if (say.Reward) {
       const w = Math.floor(say.Id / 10000)
-      const key = `${w}w` + (key2scene[w] || '')
+      // const key = `${w}w` + (key2scene[w] || '')
+      const key = getMapidName(w);
       if (!grouped[key]) grouped[key] = []
       grouped[key].push(say)
     }

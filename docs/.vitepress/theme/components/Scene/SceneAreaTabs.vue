@@ -7,7 +7,7 @@
     <!-- 区域切换标签栏 -->
     <div class="scene-area-tabs-wrapper">
       <div class="area-tab-bar">
-        <button v-for="areaId in sceneAreas" :key="areaId" :class="['area-tab', { active: areaId === activeAreaId }]"
+        <button v-for="areaId in realSceneAreas" :key="areaId" :class="['area-tab', { active: areaId === activeAreaId }]"
           @click="activeAreaId = areaId">
           {{ getAreaName(areaId) }}
         </button>
@@ -23,12 +23,15 @@
 import { ref, watch, onMounted } from 'vue'
 import SceneArea from './SceneArea.vue'
 import { getScenes, Scenes, XlsScene } from '../../../data/scene';
+import { getSettingValue } from '../../../data/setting';
 
 // 接收父组件传入的区域 ID 列表
 const props = defineProps<{
-  sceneAreas: number[];
+  sceneAreas: number[]|string;
   shows?: string[];
 }>()
+
+const realSceneAreas = ref<number[]>([]);
 
 // 当前激活的区域
 const activeAreaId = ref<number | null>(null)
@@ -36,20 +39,26 @@ const activeAreaId = ref<number | null>(null)
 const scenesNames = ref<Scenes>({})
 // 初始化默认区域
 onMounted(async () => {
+  const v = props.sceneAreas;
+  const names = typeof v === 'string' ? (await getSettingValue(v)) : v;
   const scenes = await getScenes();
   scenesNames.value = scenes;
+  realSceneAreas.value = names;
   // 如果父组件没有传入 sceneAreas，则默认选择第一个区域
-  if (props.sceneAreas.length > 0) {
-    activeAreaId.value = props.sceneAreas[0]
+  if (names.length > 0) {
+    activeAreaId.value = names[0]
   }
 })
 
 // 如果父组件更新 sceneAreas，重置当前区域
 watch(
   () => props.sceneAreas,
-  (newVal) => {
-    if (newVal.length > 0 && !newVal.includes(activeAreaId.value!)) {
-      activeAreaId.value = newVal[0]
+  async (newVal) => {
+    const v = props.sceneAreas;
+    const names = typeof v === 'string' ? (await getSettingValue(v)) : v;
+    realSceneAreas.value = names;
+    if (names.length > 0 && !names.includes(activeAreaId.value!)) {
+      activeAreaId.value = names[0]
     }
   },
   { deep: true }

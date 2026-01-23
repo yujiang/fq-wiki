@@ -709,40 +709,6 @@ export default [
         "link": "/23-观察/02-like"
       },
       {
-        "text": "区域",
-        "items": [
-          {
-            "text": "杏花村",
-            "link": "/23-观察/02-区域/01-杏花村"
-          },
-          {
-            "text": "临安",
-            "link": "/23-观察/02-区域/02-临安"
-          },
-          {
-            "text": "武昌",
-            "link": "/23-观察/02-区域/03-武昌"
-          },
-          {
-            "text": "九曲",
-            "link": "/23-观察/02-区域/04-九曲"
-          },
-          {
-            "text": "汴京",
-            "link": "/23-观察/02-区域/05-汴京"
-          },
-          {
-            "text": "秦岭",
-            "link": "/23-观察/02-区域/06-秦岭"
-          },
-          {
-            "text": "index",
-            "link": "/23-观察/02-区域/"
-          }
-        ],
-        "collapsed": true
-      },
-      {
         "text": "流程",
         "link": "/23-观察/02-流程"
       },
@@ -1137,6 +1103,14 @@ export default [
       {
         "text": "reward",
         "link": "/51-tool/01-reward"
+      },
+      {
+        "text": "checkTele",
+        "link": "/51-tool/02-checkTele"
+      },
+      {
+        "text": "npc",
+        "link": "/51-tool/03-npc"
       }
     ],
     "collapsed": false

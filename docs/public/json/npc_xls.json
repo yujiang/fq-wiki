@@ -19130,6 +19130,22 @@
     "x": 9307,
     "y": 7433
   },
+  "50075": {
+    "Id": 50075,
+    "Name": "客人",
+    "CreateType": "scene",
+    "Json": 14090,
+    "Scene": 3014,
+    "Display": {
+      "name": "客人",
+      "shape": 2087,
+      "icon": 2087
+    },
+    "act": 5,
+    "Observe": 10009,
+    "x": 1342,
+    "y": 1013
+  },
   "50080": {
     "Id": 50080,
     "Name": "明月",
@@ -28330,25 +28346,31 @@
   },
   "80117": {
     "Id": 80117,
-    "Name": "玉娥",
-    "CreateType": "drama",
+    "Name": "贵公子",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "西夏女孩",
-      "shape": 2156,
-      "icon": 2156,
-      "light": 3
-    }
+      "name": "贵公子",
+      "shape": 1102,
+      "icon": 1102
+    },
+    "act": 5,
+    "x": 1211,
+    "y": 1004
   },
   "80118": {
     "Id": 80118,
-    "Name": "神秘你破了杀戒...手",
-    "CreateType": "drama",
+    "Name": "请多多",
+    "CreateType": "scene",
+    "Scene": 3198,
     "Display": {
-      "name": "神秘你破了杀戒...手",
-      "shape": 2104,
-      "icon": 2104,
-      "light": 3
-    }
+      "name": "请多多",
+      "shape": 2103,
+      "icon": 2103
+    },
+    "act": 5,
+    "x": 1348,
+    "y": 1008
   },
   "80119": {
     "Id": 80119,

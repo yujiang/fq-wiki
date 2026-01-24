@@ -1,4 +1,4 @@
-import { fetchXls, XlsBase } from "./xls";
+import { fetchXls, findXlsesByName, XlsBase } from "./xls";
 
 export interface XlsSkill extends XlsBase {
   Rank: number;
@@ -76,5 +76,9 @@ export async function getSkillsFileSchool(file: string, school?: string): Promis
   const skills = await fetchXls(file) as Skills;
   if (!school || school === "all") return skills;
   return Object.values(skills).filter(item => item.School === school);
+}
 
+export async function findSkillsByName(name: string): Promise<XlsSkill[]> {
+  const datas = await getAllSkills();
+  return findXlsesByName(name, datas) as XlsSkill[];
 }

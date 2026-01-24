@@ -1129,10 +1129,6 @@ export default [
         "link": "/51-tool/06-soldier"
       },
       {
-        "text": "allsoldier",
-        "link": "/51-tool/07-allsoldier"
-      },
-      {
         "text": "数据",
         "items": [
           {

@@ -1,5 +1,5 @@
 import { SkillIdLevel, XlsSkill } from "./skill";
-import { DisplayStruct, fetchXls, XlsBase } from "./xls";
+import { DisplayStruct, fetchXls, findXlsesByName, XlsBase } from "./xls";
 import { ItemIdCount } from "./item";
 import { getTalent, XlsTalent } from "./talent";
 
@@ -75,4 +75,10 @@ export function getSoldierIcon(icon: number | undefined) {
 export function getSoldierAvater(icon: number | undefined) {
   if (!icon) return "";
   return `/images/icon/char/268x249/${icon}.png`;
+}
+
+
+export async function findSoldiersByName(name: string): Promise<XlsSoldier[]> {
+  const datas = await getSoldiers();
+  return findXlsesByName(name, datas) as XlsSoldier[];
 }

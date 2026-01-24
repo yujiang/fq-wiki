@@ -101,3 +101,30 @@ export function getRankDesc(rank: number | undefined) {
   const r = rank || 0;
   return rankDesc[r];
 }
+
+export function findNameEqual(name: string, datas: Bases) {
+  const finds = [];
+  for (const data of Object.values(datas)) {
+    if (data.Name === name) finds.push(data);
+  }
+  return finds;
+}
+
+export function findNameInclude(name: string, datas: Bases) {
+  const finds = [];
+  for (const data of Object.values(datas)) {
+    if (data.Name?.includes(name)) finds.push(data);
+  }
+  return finds;
+}
+
+export function findXlsesByName(name: string, datas: Bases) {
+  const finds = findNameEqual(name, datas);
+  if (finds.length > 0) return finds;
+  return findNameInclude(name, datas);
+}
+
+export async function fetchItemsByName(name: string, xls: string): Promise<XlsBase[]> {
+  const datas = await fetchXls(xls);
+  return findXlsesByName(name, datas);
+}

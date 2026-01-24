@@ -2,7 +2,7 @@ import { getAllItems, getItemIcon, ItemIdCount } from "./item";
 import { getScenePositionClient } from "./scene";
 import { SkillIdLevel } from "./skill";
 import { getLearnTaoluInfo } from "./taolu";
-import { fetchXls, XlsSceneObj } from "./xls";
+import { fetchXls, findXlsesByName, XlsSceneObj } from "./xls";
 
 //id ,num, rand, friendlevel, recovernum
 type ObserveItem = [number, number, number, number, number];
@@ -155,4 +155,9 @@ export async function observe2Skills(skills: ObserveWillType[]): Promise<SkillId
     }
     return Promise.all(skills.map(mapSkill));
 
+}
+
+export async function findObservesByName(name: string): Promise<XlsObserve[]> {
+  const datas = await getObserves();
+  return findXlsesByName(name, datas) as XlsObserve[];
 }

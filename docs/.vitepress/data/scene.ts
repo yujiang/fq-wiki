@@ -1,5 +1,5 @@
 import { formatClientPos } from "./public";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, findXlsesByName, XlsBase, XlsSceneObj } from "./xls";
 
 export interface XlsScene extends XlsBase {
   Type: string;
@@ -188,3 +188,8 @@ export function isFuture(tags: string|string[]|undefined): boolean {
 //   }
 //   return [];
 // }
+
+export async function findScenesByName(name: string): Promise<XlsScene[]> {
+  const datas = await getScenes();
+  return findXlsesByName(name, datas) as XlsScene[];
+}

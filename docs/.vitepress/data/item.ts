@@ -1,4 +1,4 @@
-import { fetchXls, XlsBase } from "./xls";
+import { fetchXls, findXlsesByName, XlsBase } from "./xls";
 
 export interface XlsItem extends  XlsBase {
   // Desc?: string;
@@ -68,6 +68,10 @@ export function getItemIcon(icon: number | undefined) {
   return `/images/icon/item/100x100/${icon}.png`;
 }
 
+export async function findItemsByName(name: string): Promise<XlsItem[]> {
+  const datas = await getAllItems();
+  return findXlsesByName(name, datas) as XlsItem[];
+}
 
 export interface ItemIdCount{
   id: number;

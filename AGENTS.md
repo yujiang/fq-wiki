@@ -9,6 +9,10 @@ This guide provides essential information for agentic coding agents working on t
 3. 写作的成果放在 docs/09-剧情/对应的AI下，以便我相互比较AI的效果
 4. 用中文交互
 
+## 程序员的说明
+
+1. 不需要npm run build来验证，时间太长了。
+
 ## Build Commands
 
 ```bash

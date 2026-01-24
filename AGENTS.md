@@ -11,7 +11,8 @@ This guide provides essential information for agentic coding agents working on t
 
 ## 程序员的说明
 
-1. 不需要npm run build来验证，时间太长了。
+1. 不需要npm run build来验证，时间太长了
+2. 不要自动commit
 
 ## Build Commands
 

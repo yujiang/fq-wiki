@@ -564,7 +564,7 @@ export default [
     "items": [
       {
         "text": "伙伴索引",
-        "link": "/13-伙伴/"
+        "link": "/12-伙伴/"
       }
     ],
     "collapsed": false
@@ -574,11 +574,33 @@ export default [
     "items": [
       {
         "text": "门派",
-        "link": "/14-武学/01-门派"
+        "link": "/13-武学/01-门派"
       },
       {
         "text": "势力",
-        "link": "/14-武学/02-势力"
+        "link": "/13-武学/02-势力"
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "text": "技艺",
+    "items": [
+      {
+        "text": "生活技能",
+        "link": "/14-技艺/01-生活技能"
+      },
+      {
+        "text": "秘技",
+        "link": "/14-技艺/02-秘技"
+      },
+      {
+        "text": "天赋",
+        "link": "/14-技艺/03-天赋"
+      },
+      {
+        "text": "技艺索引",
+        "link": "/14-技艺/"
       }
     ],
     "collapsed": false
@@ -615,28 +637,6 @@ export default [
       {
         "text": "任务索引",
         "link": "/15-任务/"
-      }
-    ],
-    "collapsed": false
-  },
-  {
-    "text": "技艺",
-    "items": [
-      {
-        "text": "生活技能",
-        "link": "/16-技艺/01-生活技能"
-      },
-      {
-        "text": "秘技",
-        "link": "/16-技艺/02-秘技"
-      },
-      {
-        "text": "天赋",
-        "link": "/16-技艺/03-天赋"
-      },
-      {
-        "text": "技艺索引",
-        "link": "/16-技艺/"
       }
     ],
     "collapsed": false

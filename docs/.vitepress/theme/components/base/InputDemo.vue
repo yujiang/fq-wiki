@@ -73,6 +73,7 @@ const handleInput = async () => {
     if (found.length === 1) {
       const id = found[0].id
       currentId.value = id
+      inputValue.value = id.toString()
       localStorage.setItem(props.storageKey, id.toString())
       emit('select', id)
       showSelection.value = false
@@ -94,6 +95,7 @@ const handleInput = async () => {
 
 const selectItem = (id: number) => {
   currentId.value = id
+  inputValue.value = id.toString()
   localStorage.setItem(props.storageKey, id.toString())
   emit('select', id)
   showSelection.value = false

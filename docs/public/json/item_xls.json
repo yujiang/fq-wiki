@@ -5511,7 +5511,7 @@
       "nodrop"
     ],
     "LikeTags": [
-      "线香"
+      "法器"
     ],
     "Use": "json",
     "UseText": "点火",
@@ -12431,6 +12431,45 @@
     "Page": "normal",
     "Overlay": 1
   },
+  "13605": {
+    "Id": 13605,
+    "Name": "佛珠",
+    "Icon": 13560,
+    "Detail": "佛珠",
+    "SalePrice": 200,
+    "Rank": 2,
+    "LikeTags": [
+      "法器"
+    ],
+    "Page": "normal",
+    "Overlay": 99
+  },
+  "13606": {
+    "Id": 13606,
+    "Name": "佛像",
+    "Icon": 13560,
+    "Detail": "佛像",
+    "SalePrice": 300,
+    "Rank": 3,
+    "LikeTags": [
+      "法器"
+    ],
+    "Page": "normal",
+    "Overlay": 1
+  },
+  "13607": {
+    "Id": 13607,
+    "Name": "咪咪",
+    "Icon": 13560,
+    "Detail": "一只猫",
+    "SalePrice": 300,
+    "Rank": 3,
+    "LikeTags": [
+      "猫"
+    ],
+    "Page": "normal",
+    "Overlay": 1
+  },
   "13998": {
     "Id": 13998,
     "source": "03任务",
@@ -14012,6 +14051,9 @@
     "Detail": "日常照明的工具，点燃后可照亮一丈见方的区域。",
     "Grade": 0,
     "Rank": 1,
+    "LikeTags": [
+      "法器"
+    ],
     "Use": "buff",
     "UseText": "使用",
     "UseParam": 10010,

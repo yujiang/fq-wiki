@@ -12,7 +12,15 @@
     "Id": 11,
     "Name": "太息术",
     "Num": 7,
-    "Questions": [900, 900, 900, 900, 900, 900, 901],
+    "Questions": [
+      900,
+      900,
+      900,
+      900,
+      900,
+      900,
+      901
+    ],
     "FixOrder": 1,
     "Time": 5,
     "WrongQuit": 1
@@ -21,16 +29,32 @@
     "Id": 12,
     "Name": "探花1",
     "Num": 3,
-    "Questions": [902, 903, 904],
+    "Questions": [
+      902,
+      903,
+      904
+    ],
     "Time": 3,
     "WrongQuit": 1
   },
-  "13": {"Id": 13, "Name": "探花2", "Num": 1, "Questions": [905], "Time": 3},
+  "13": {
+    "Id": 13,
+    "Name": "探花2",
+    "Num": 1,
+    "Questions": [
+      905
+    ],
+    "Time": 3
+  },
   "14": {
     "Id": 14,
     "Name": "祭拜",
     "Num": 3,
-    "Questions": [906, 907, 908],
+    "Questions": [
+      906,
+      907,
+      908
+    ],
     "FixOrder": 1,
     "Time": 5,
     "WrongQuit": 1
@@ -39,7 +63,12 @@
     "Id": 15,
     "Name": "宣誓",
     "Num": 4,
-    "Questions": [909, 910, 911, 912],
+    "Questions": [
+      909,
+      910,
+      911,
+      912
+    ],
     "FixOrder": 1,
     "Time": 5,
     "WrongQuit": 1,
@@ -49,7 +78,13 @@
     "Id": 16,
     "Name": "南门诗歌",
     "Num": 5,
-    "Questions": [913, 914, 915, 916, 917],
+    "Questions": [
+      913,
+      914,
+      915,
+      916,
+      917
+    ],
     "FixOrder": 1,
     "Time": 8,
     "WrongQuit": 1,
@@ -59,7 +94,9 @@
     "Id": 17,
     "Name": "挂饰之谜",
     "Num": 1,
-    "Questions": [918],
+    "Questions": [
+      918
+    ],
     "FixOrder": 1,
     "Time": 5,
     "WrongQuit": 1
@@ -68,7 +105,12 @@
     "Id": 18,
     "Name": "西夏读信",
     "Num": 4,
-    "Questions": [933, 934, 935, 936],
+    "Questions": [
+      933,
+      934,
+      935,
+      936
+    ],
     "FixOrder": 1,
     "Time": 10,
     "WrongQuit": 1,
@@ -78,7 +120,12 @@
     "Id": 19,
     "Name": "修罗宫地宫",
     "Num": 4,
-    "Questions": [937, 938, 939, 940],
+    "Questions": [
+      937,
+      938,
+      939,
+      940
+    ],
     "FixOrder": 1,
     "Time": 20,
     "WrongQuit": 1,
@@ -88,7 +135,9 @@
     "Id": 20,
     "Name": "风花雪月",
     "Num": 1,
-    "Questions": [977],
+    "Questions": [
+      977
+    ],
     "Time": 15,
     "WrongQuit": 1,
     "WrongTips": "真的是这个城市吗？"
@@ -97,7 +146,10 @@
     "Id": 21,
     "Name": "修罗侦探1",
     "Num": 2,
-    "Questions": [978, 979],
+    "Questions": [
+      978,
+      979
+    ],
     "FixOrder": 1,
     "Time": 15,
     "WrongQuit": 1,
@@ -107,7 +159,11 @@
     "Id": 22,
     "Name": "修罗侦探2",
     "Num": 3,
-    "Questions": [980, 981, 982],
+    "Questions": [
+      980,
+      981,
+      982
+    ],
     "FixOrder": 1,
     "Time": 15,
     "WrongQuit": 1,
@@ -117,7 +173,9 @@
     "Id": 23,
     "Name": "修罗侦探3",
     "Num": 1,
-    "Questions": [983],
+    "Questions": [
+      983
+    ],
     "FixOrder": 1,
     "Time": 15,
     "WrongQuit": 1,
@@ -127,7 +185,9 @@
     "Id": 24,
     "Name": "修罗侦探4",
     "Num": 1,
-    "Questions": [984],
+    "Questions": [
+      984
+    ],
     "FixOrder": 1,
     "Time": 15,
     "WrongQuit": 1,
@@ -137,7 +197,9 @@
     "Id": 25,
     "Name": "花艺（困难",
     "Num": 1,
-    "Questions": [1045],
+    "Questions": [
+      1045
+    ],
     "FixOrder": 0,
     "RandomAnswer": " ",
     "Tag": "花艺",
@@ -147,7 +209,9 @@
     "Id": 26,
     "Name": "花艺（一般",
     "Num": 1,
-    "Questions": [1046],
+    "Questions": [
+      1046
+    ],
     "FixOrder": 0,
     "Tag": "花艺",
     "WrongQuit": 8
@@ -156,7 +220,9 @@
     "Id": 27,
     "Name": "花艺（简单",
     "Num": 1,
-    "Questions": [1047],
+    "Questions": [
+      1047
+    ],
     "FixOrder": 0,
     "Tag": "花艺",
     "WrongQuit": 6
@@ -165,7 +231,12 @@
     "Id": 28,
     "Name": "武当风筝",
     "Num": 4,
-    "Questions": [1056, 1056, 1057, 1058],
+    "Questions": [
+      1056,
+      1056,
+      1057,
+      1058
+    ],
     "FixOrder": 0,
     "Time": 6,
     "WrongQuit": 1,
@@ -175,7 +246,14 @@
     "Id": 29,
     "Name": "武当吐纳",
     "Num": 6,
-    "Questions": [1059, 1060, 1061, 1062, 1063, 1064],
+    "Questions": [
+      1059,
+      1060,
+      1061,
+      1062,
+      1063,
+      1064
+    ],
     "FixOrder": 1,
     "Time": 10,
     "WrongQuit": 1,
@@ -185,12 +263,23 @@
     "Id": 30,
     "Name": 9527,
     "Num": 4,
-    "Questions": [1083, 1084, 1085, 1086],
+    "Questions": [
+      1083,
+      1084,
+      1085,
+      1086
+    ],
     "FixOrder": 1,
     "RandomAnswer": 1,
     "WrongQuit": 1
   },
-  "31": {"Id": 31, "Name": "诗词", "Num": 3, "Tag": "诗词", "WrongQuit": 1},
+  "31": {
+    "Id": 31,
+    "Name": "诗词",
+    "Num": 3,
+    "Tag": "诗词",
+    "WrongQuit": 1
+  },
   "32": {
     "Id": 32,
     "Name": "对诗",
@@ -199,11 +288,27 @@
     "Tag": "对诗",
     "WrongQuit": 1
   },
+  "33": {
+    "Id": 33,
+    "Name": "佛法",
+    "Num": 3,
+    "Tag": "佛法",
+    "WrongQuit": 1
+  },
   "100": {
     "Id": 100,
     "Name": "修行佛法",
     "Num": 3,
-    "Questions": [925, 926, 927, 928, 929, 930, 931, 932],
+    "Questions": [
+      925,
+      926,
+      927,
+      928,
+      929,
+      930,
+      931,
+      932
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "WrongQuit": 1,
@@ -213,7 +318,12 @@
     "Id": 101,
     "Name": "锻锋砺刃",
     "Num": 4,
-    "Questions": [943, 944, 945, 946],
+    "Questions": [
+      943,
+      944,
+      945,
+      946
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "WrongQuit": 3,
@@ -223,7 +333,17 @@
     "Id": 102,
     "Name": "观星望月",
     "Num": 3,
-    "Questions": [957, 958, 959, 960, 961, 962, 963, 964, 965],
+    "Questions": [
+      957,
+      958,
+      959,
+      960,
+      961,
+      962,
+      963,
+      964,
+      965
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "WrongQuit": 1,
@@ -233,7 +353,11 @@
     "Id": 103,
     "Name": "天山折梅1",
     "Num": 3,
-    "Questions": [966, 967, 968],
+    "Questions": [
+      966,
+      967,
+      968
+    ],
     "FixOrder": 1,
     "WrongQuit": 1
   },
@@ -241,7 +365,10 @@
     "Id": 104,
     "Name": "天山折梅2",
     "Num": 2,
-    "Questions": [969, 970],
+    "Questions": [
+      969,
+      970
+    ],
     "FixOrder": 1,
     "WrongQuit": 1
   },
@@ -249,7 +376,10 @@
     "Id": 105,
     "Name": "天山折梅3",
     "Num": 2,
-    "Questions": [971, 972],
+    "Questions": [
+      971,
+      972
+    ],
     "FixOrder": 1,
     "WrongQuit": 1
   },
@@ -257,7 +387,9 @@
     "Id": 106,
     "Name": "天山折梅4",
     "Num": 1,
-    "Questions": [973],
+    "Questions": [
+      973
+    ],
     "FixOrder": 1,
     "WrongQuit": 1
   },
@@ -265,7 +397,16 @@
     "Id": 107,
     "Name": "冰瀑打坐",
     "Num": 8,
-    "Questions": [1016, 1017, 1016, 1017, 1018, 974, 975, 976],
+    "Questions": [
+      1016,
+      1017,
+      1016,
+      1017,
+      1018,
+      974,
+      975,
+      976
+    ],
     "FixOrder": 1,
     "Time": 5,
     "WrongQuit": 1,
@@ -283,7 +424,11 @@
     "Id": 101103,
     "Name": "杏花村炼丹",
     "Num": 3,
-    "Questions": [922, 923, 924],
+    "Questions": [
+      922,
+      923,
+      924
+    ],
     "FixOrder": 0,
     "Time": 10,
     "WrongQuit": 1,
@@ -304,7 +449,10 @@
     "Id": 1007009,
     "Name": "白蛇通天散",
     "Num": 2,
-    "Questions": [941, 942],
+    "Questions": [
+      941,
+      942
+    ],
     "FixOrder": 0,
     "Time": 10,
     "WrongQuit": 1
@@ -313,7 +461,11 @@
     "Id": 1080014,
     "Name": "天山入门",
     "Num": 3,
-    "Questions": [919, 920, 921],
+    "Questions": [
+      919,
+      920,
+      921
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 10,
@@ -324,7 +476,12 @@
     "Id": 2001002,
     "Name": "杏花村序章-接龙",
     "Num": 4,
-    "Questions": [991, 992, 993, 994],
+    "Questions": [
+      991,
+      992,
+      993,
+      994
+    ],
     "FixOrder": 1,
     "Time": 15,
     "WrongQuit": 1,
@@ -334,7 +491,11 @@
     "Id": 3003002,
     "Name": "追悔莫及-赌局",
     "Num": 3,
-    "Questions": [985, 986, 987],
+    "Questions": [
+      985,
+      986,
+      987
+    ],
     "FixOrder": 0,
     "WrongQuit": 1
   },
@@ -342,7 +503,11 @@
     "Id": 3003003,
     "Name": "汴中拾遗录",
     "Num": 3,
-    "Questions": [988, 989, 990],
+    "Questions": [
+      988,
+      989,
+      990
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1
   },
@@ -350,7 +515,13 @@
     "Id": 3003007,
     "Name": "帷卷镇魂/阿松",
     "Num": 3,
-    "Questions": [1011, 1012, 1013, 1014, 1015],
+    "Questions": [
+      1011,
+      1012,
+      1013,
+      1014,
+      1015
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 15,
@@ -360,7 +531,11 @@
     "Id": 3010601,
     "Name": "问罪（普通",
     "Num": 3,
-    "Questions": [1022, 1023, 1024],
+    "Questions": [
+      1022,
+      1023,
+      1024
+    ],
     "FixOrder": 0,
     "WrongQuit": 1
   },
@@ -368,7 +543,11 @@
     "Id": 3010602,
     "Name": "问罪（隐藏",
     "Num": 3,
-    "Questions": [1025, 1023, 1024],
+    "Questions": [
+      1025,
+      1023,
+      1024
+    ],
     "FixOrder": 0,
     "WrongQuit": 1
   },
@@ -376,7 +555,11 @@
     "Id": 3010801,
     "Name": "侠之情-赵张扬",
     "Num": 3,
-    "Questions": [1033, 1031, 1032],
+    "Questions": [
+      1033,
+      1031,
+      1032
+    ],
     "FixOrder": 1,
     "RandomAnswer": 1,
     "WrongQuit": 1
@@ -385,7 +568,9 @@
     "Id": 3010901,
     "Name": "文试诗词简单",
     "Num": 5,
-    "Questions": [1048],
+    "Questions": [
+      1048
+    ],
     "FixOrder": 0,
     "Time": 15,
     "WrongQuit": 1
@@ -394,7 +579,9 @@
     "Id": 3010902,
     "Name": "文试诗词一般",
     "Num": 5,
-    "Questions": [1049],
+    "Questions": [
+      1049
+    ],
     "FixOrder": 0,
     "Time": 15,
     "WrongQuit": 1
@@ -403,7 +590,9 @@
     "Id": 3010903,
     "Name": "文试诗词难",
     "Num": 5,
-    "Questions": [1050],
+    "Questions": [
+      1050
+    ],
     "FixOrder": 0,
     "Time": 15,
     "WrongQuit": 1
@@ -412,7 +601,13 @@
     "Id": 3011301,
     "Name": "讲故事",
     "Num": 5,
-    "Questions": [1075, 1076, 1077, 1078, 1079],
+    "Questions": [
+      1075,
+      1076,
+      1077,
+      1078,
+      1079
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 10,
@@ -423,7 +618,13 @@
     "Id": 5010401,
     "Name": "一朝制胜-监督",
     "Num": 5,
-    "Questions": [1019, 1020, 1021, 1020, 1021],
+    "Questions": [
+      1019,
+      1020,
+      1021,
+      1020,
+      1021
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 10,
@@ -433,7 +634,12 @@
     "Id": 5011101,
     "Name": "推论",
     "Num": 4,
-    "Questions": [1027, 1028, 1029, 1030],
+    "Questions": [
+      1027,
+      1028,
+      1029,
+      1030
+    ],
     "FixOrder": 0,
     "WrongQuit": 1
   },
@@ -449,7 +655,12 @@
     "Id": 5011801,
     "Name": "推销",
     "Num": 4,
-    "Questions": [1051, 1052, 1053, 1054],
+    "Questions": [
+      1051,
+      1052,
+      1053,
+      1054
+    ],
     "FixOrder": 0,
     "Time": 10,
     "WrongQuit": 1
@@ -476,7 +687,11 @@
     "Id": 5014701,
     "Name": "汴京特色菜-菜谱",
     "Num": 3,
-    "Questions": [1080, 1081, 1082],
+    "Questions": [
+      1080,
+      1081,
+      1082
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 10,
@@ -486,7 +701,11 @@
     "Id": 5015901,
     "Name": "武当挖宝-照看丹炉",
     "Num": 5,
-    "Questions": [922, 923, 924],
+    "Questions": [
+      922,
+      923,
+      924
+    ],
     "FixOrder": 0,
     "Time": 10,
     "WrongQuit": 1
@@ -495,14 +714,24 @@
     "Id": 100801801,
     "Name": "算卦",
     "Num": 1,
-    "Questions": [1003, 1004, 1005],
+    "Questions": [
+      1003,
+      1004,
+      1005
+    ],
     "FixOrder": 0
   },
   "200100103": {
     "Id": 200100103,
     "Name": "杏花村序章-品酒",
     "Num": 3,
-    "Questions": [1006, 1007, 1008, 1009, 1010],
+    "Questions": [
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 15,
@@ -512,7 +741,11 @@
     "Id": 200702603,
     "Name": "再战疯头陀",
     "Num": 3,
-    "Questions": [1000, 1001, 1002],
+    "Questions": [
+      1000,
+      1001,
+      1002
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1
   },
@@ -520,7 +753,13 @@
     "Id": 300300302,
     "Name": "汴中拾遗录",
     "Num": 5,
-    "Questions": [995, 996, 997, 998, 999],
+    "Questions": [
+      995,
+      996,
+      997,
+      998,
+      999
+    ],
     "FixOrder": 0,
     "RandomAnswer": 1,
     "Time": 10,

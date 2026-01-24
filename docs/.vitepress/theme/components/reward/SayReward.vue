@@ -111,6 +111,8 @@ onMounted(async () => {
 .say-reward {
   max-width: 800px;
   margin: 0 auto;
+  padding-top: 12px;
+
 }
 
 .say-reward__tabs {

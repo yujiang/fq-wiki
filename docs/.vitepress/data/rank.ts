@@ -31,3 +31,9 @@ export function getRankTextcolor(rank: number | undefined) {
   const r = rank || 0;
   return rankColor[r];
 }
+
+export function getRankTextcolor2(rank: number | undefined) {
+  const r = rank || 0;
+  if (r === 0) return '#000000';
+  return rankColor[r];
+}

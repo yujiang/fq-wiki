@@ -2,19 +2,57 @@
   "13561": {
     "Id": 13561,
     "Name": "风车",
-    "MoneyType": 2,
-    "Cost": 0,
-    "Material": [[50064, 2]],
+    "Material": [
+      [
+        50064,
+        2
+      ]
+    ],
     "Mastery": 50,
     "OpenLevel": 1
   },
   "13563": {
     "Id": 13563,
     "Name": "孔明灯",
-    "MoneyType": 2,
-    "Cost": 0,
-    "Material": [[50064, 1], [55011, 1]],
+    "Material": [
+      [
+        50064,
+        1
+      ],
+      [
+        55011,
+        1
+      ]
+    ],
     "Mastery": 50,
     "OpenLevel": 10
+  },
+  "13605": {
+    "Id": 13605,
+    "Name": "佛珠",
+    "Material": [
+      [
+        50064,
+        2
+      ]
+    ],
+    "Mastery": 50,
+    "OpenLevel": 20
+  },
+  "13606": {
+    "Id": 13606,
+    "Name": "佛像",
+    "Material": [
+      [
+        50064,
+        1
+      ],
+      [
+        55011,
+        1
+      ]
+    ],
+    "Mastery": 50,
+    "OpenLevel": 30
   }
 }

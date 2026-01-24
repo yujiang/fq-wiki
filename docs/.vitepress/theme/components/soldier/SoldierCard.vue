@@ -8,7 +8,7 @@
     <div class="soldier-card__left-middle">
       <!-- 原左侧内容 -->
       <div class="soldier-card__left">
-        <h4 class="soldier-card__name">{{ npcName }}</h4>
+        <h4 class="soldier-card__name" :style="nameStyle">{{ npcName }}</h4>
         <div class="soldier-card__avatar-container">
           <img
             :src="soldierIcon"
@@ -21,10 +21,6 @@
 
       <!-- 原中间内容（放在左侧下方） -->
       <div class="soldier-card__middle">
-        <div class="soldier-card__info-item">
-          <span class="soldier-card__info-label">品质：</span>
-          <span class="soldier-card__info-value">{{ getRankDesc(soldier?.Rank) }}</span>
-        </div>
         <div class="soldier-card__info-item">
           <span class="soldier-card__info-label">类型：</span>
           <span class="soldier-card__info-value">{{ soldier?.weapon || '未知' }}</span>
@@ -61,7 +57,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, watch, onMounted } from "vue";
+import { ref, watch, onMounted, computed } from "vue";
 import ItemGrid from "../base/ItemGrid.vue";
 import SkillGrid from "../base/SkillGrid.vue";
 import TalentList from "../talent/TalentList.vue";
@@ -73,7 +69,7 @@ import {
   soldier2TalentSkills,
   getSoldierAvater
 } from "../../../data/soldier";
-import { getRankDesc } from "../../../data/rank";
+import { getRankDesc, getRankTextcolor2 } from "../../../data/rank";
 
 const props = defineProps<{ soldierId: number }>();
 const soldier = ref<XlsSoldier | undefined>(undefined);
@@ -83,6 +79,9 @@ const taoluSkills = ref<any[]>([]);
 const talentIds = ref<number[]>([]);
 const isDev = import.meta.env.DEV;
 const npcName = ref("");
+const nameStyle = computed(() => ({
+  color: getRankTextcolor2(soldier.value?.Rank),
+}));
 
 // 初始化并加载数据
 onMounted(async () => {

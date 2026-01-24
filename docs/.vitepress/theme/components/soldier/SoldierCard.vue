@@ -52,7 +52,9 @@
       </div>
       <div class="soldier-card__grid-section">
         <h4 class="soldier-card__grid-title">天赋</h4>
-        <SkillGrid :skills="talentSkills" :cols="3" :rows="1" />
+        <div class="soldier-card__talent-list">
+          <TalentList :talents="talentIds" />
+        </div>
       </div>
     </div>
   </div>
@@ -62,6 +64,7 @@
 import { ref, watch, onMounted } from "vue";
 import ItemGrid from "../base/ItemGrid.vue";
 import SkillGrid from "../base/SkillGrid.vue";
+import TalentList from "../talent/TalentList.vue";
 import {
   getSoldier,
   XlsSoldier,
@@ -70,14 +73,14 @@ import {
   soldier2TalentSkills,
   getSoldierAvater
 } from "../../../data/soldier";
-import { getRankDesc } from "../../../data/xls";
+import { getRankDesc } from "../../../data/rank";
 
 const props = defineProps<{ soldierId: number }>();
 const soldier = ref<XlsSoldier | undefined>(undefined);
 const soldierIcon = ref<string>('');
 const equipItems = ref<any[]>([]);
 const taoluSkills = ref<any[]>([]);
-const talentSkills = ref<any[]>([]);
+const talentIds = ref<number[]>([]);
 const isDev = import.meta.env.DEV;
 const npcName = ref("");
 
@@ -103,19 +106,20 @@ const updateCurrentSoldier = async (id: number) => {
       soldierIcon.value = getSoldierAvater(xls.display?.icon);
       equipItems.value = soldier2EquipItems(xls.equip || []);
       taoluSkills.value = soldier2TaoluSkills(xls.Taolu);
-      talentSkills.value = await soldier2TalentSkills(xls.talentdata);
+      const talents = await soldier2TalentSkills(xls.talentdata);
+      talentIds.value = talents.map(talent => talent.id).filter(id => id > 0);
     } else {
       soldierIcon.value = '/images/default-avatar.png';
       equipItems.value = [];
       taoluSkills.value = [];
-      talentSkills.value = [];
+      talentIds.value = [];
     }
   } catch (e) {
     console.error('加载士兵数据失败', e);
     soldier.value = undefined;
     equipItems.value = [];
     taoluSkills.value = [];
-    talentSkills.value = [];
+    talentIds.value = [];
   }
 };
 </script>
@@ -192,6 +196,10 @@ const updateCurrentSoldier = async (id: number) => {
   margin: 0 0 0px 0;
   font-size: 16px;
   font-weight: bold;
+}
+
+.soldier-card__talent-list {
+  margin-top: 8px;
 }
 
 /* 响应式适配：小屏幕下仍垂直堆叠 */

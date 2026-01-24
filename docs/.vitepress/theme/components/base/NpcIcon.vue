@@ -29,7 +29,7 @@ import {
   getNpc,
   getNpcIcon,
 } from "../../../data/npc";
-import { getRankBgStyle } from "../../../data/xls";
+import { getRankBgStyle } from "../../../data/rank";
 
 // 1. 接收 props：新增 isSelected 控制选中状态
 const props = defineProps<{

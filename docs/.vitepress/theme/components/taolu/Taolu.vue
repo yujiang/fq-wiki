@@ -15,7 +15,7 @@
 import { ref, onMounted, watch, computed } from "vue";
 import { XlsTaolu, getTaolu } from "../../../data/taolu";
 import { getSkillIcon } from "../../../data/skill";
-import { getRankBgStyle } from "../../../data/xls";
+import { getRankBgStyle } from "../../../data/rank";
 const isDev = import.meta.env.DEV;
 
 // 接收 props 数据

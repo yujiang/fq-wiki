@@ -18,7 +18,7 @@
 <script setup lang="ts">
 import { ref, onMounted, watch, computed, reactive } from "vue";
 import { SkillIdLevel, XlsSkill, getSkillById, getSkillIcon } from "../../../data/skill";
-import { getRankBgStyle } from "../../../data/xls";
+import { getRankBgStyle } from "../../../data/rank";
 import { getFriendLevelDesc } from "../../../data/npc";
 const isDev = import.meta.env.DEV;
 

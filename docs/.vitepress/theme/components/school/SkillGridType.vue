@@ -4,21 +4,20 @@
   -->
 
 <template>
-  <SkillGrid
-    :skills="filteredSkills"
-    :rows="rows"
-    :cols="cols"
-    :gap="gap"
-    v-if="!isLoading"
-  />
+  <div class="skill-grid-type" :class="{ 'skill-grid-type--inline': showType }">
+    <span v-if="showType" class="skill-grid-type__label">{{ type || school }}</span>
+    <SkillGrid
+      :skills="filteredSkills"
+      :rows="rows"
+      :cols="cols"
+      :gap="gap"
+      v-if="!isLoading"
+    />
+  </div>
 
   <!-- 加载状态 -->
   <div class="loading" v-if="isLoading">加载技能中...</div>
 
-  <!-- 空状态 -->
-  <div class="empty" v-if="!isLoading && filteredSkills.length === 0">
-    暂无 {{ type || school }} 类型的技能
-  </div>
 </template>
 
 <script setup lang="ts">
@@ -32,6 +31,8 @@ const props = defineProps<{
 
   type?: string; // 子类
   school?: string; // 门派
+
+  showType?: boolean; // 是否显示类型标签
 
   rows?: number; // 传递给 SkillGrid 的行数
   cols?: number; // 传递给 SkillGrid 的列数
@@ -76,6 +77,22 @@ watch(() => [props.file, props.type, props.school], updateContent);
 </script>
 
 <style scoped>
+.skill-grid-type {
+  display: block;
+}
+
+.skill-grid-type--inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skill-grid-type__label {
+  min-width: 24px;
+  font-weight: bold;
+  color: var(--vp-c-text-1);
+}
+
 /* 加载状态样式 */
 .loading {
   padding: 40px 0;

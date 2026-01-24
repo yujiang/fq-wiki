@@ -82,25 +82,6 @@ export async function fetchXls(name: string): Promise<Bases> {
 }
 
 
-export function getRankBgStyle(rank: number | undefined) {
-  if (rank === undefined) rank = -1;
-  let bgImage = `url("/images/ui/tile/bag/img_skill_bar_${(rank || 0) + 2}.png")`;
-  // console.log('生成的背景图路径：', rank, bgImage); // 检查路径是否正确
-  return {
-    backgroundImage: bgImage,
-    backgroundSize: '100% 100%',
-    backgroundRepeat: 'no-repeat',
-  };
-}
-
-const rankDesc = [
-  '一般','普通','优秀','稀有','史诗','传说'
-]
-
-export function getRankDesc(rank: number | undefined) {
-  const r = rank || 0;
-  return rankDesc[r];
-}
 
 export function findNameEqual(name: string, datas: Bases) {
   const finds = [];

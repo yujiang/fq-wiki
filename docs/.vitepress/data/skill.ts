@@ -65,6 +65,8 @@ export interface SkillIdLevel{
   fLevel?: number; // 友好级别 for observe 右上角
 }
 
+//lifeskill和secretSkill有type
+
 export async function getSkillsFileType(file: string, type?: string): Promise<Skills> {
   const skills = await fetchXls(file) as Skills;
   if (!type || type === "all") return skills;

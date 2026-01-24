@@ -701,36 +701,46 @@ export default [
     "text": "观察",
     "items": [
       {
-        "text": "maps",
-        "link": "/23-观察/01-maps"
-      },
-      {
-        "text": "喜好索引",
-        "link": "/23-观察/02-like"
-      },
-      {
         "text": "流程",
         "link": "/23-观察/02-流程"
       },
       {
-        "text": "物品索引",
-        "link": "/23-观察/03-item"
-      },
-      {
-        "text": "特殊物品索引",
-        "link": "/23-观察/04-askitem"
-      },
-      {
-        "text": "生活技能索引",
-        "link": "/23-观察/05-lifeskill"
-      },
-      {
-        "text": "套路索引",
-        "link": "/23-观察/06-taolu"
-      },
-      {
         "text": "观察索引",
         "link": "/23-观察/"
+      },
+      {
+        "text": "索引",
+        "items": [
+          {
+            "text": "maps",
+            "link": "/23-观察/索引/01-maps"
+          },
+          {
+            "text": "喜好索引",
+            "link": "/23-观察/索引/02-like"
+          },
+          {
+            "text": "物品索引",
+            "link": "/23-观察/索引/03-item"
+          },
+          {
+            "text": "特殊物品索引",
+            "link": "/23-观察/索引/04-askitem"
+          },
+          {
+            "text": "生活技能索引",
+            "link": "/23-观察/索引/05-lifeskill"
+          },
+          {
+            "text": "套路索引",
+            "link": "/23-观察/索引/06-taolu"
+          },
+          {
+            "text": "生活技能索引",
+            "link": "/23-观察/索引/07-secret"
+          }
+        ],
+        "collapsed": true
       }
     ],
     "collapsed": false
@@ -1105,35 +1115,45 @@ export default [
     "text": "tool",
     "items": [
       {
-        "text": "reward",
-        "link": "/51-tool/01-reward"
-      },
-      {
-        "text": "scene",
-        "link": "/51-tool/02-scene"
-      },
-      {
-        "text": "npc",
-        "link": "/51-tool/03-npc"
-      },
-      {
-        "text": "skill",
-        "link": "/51-tool/04-skill"
-      },
-      {
-        "text": "item",
-        "link": "/51-tool/05-item"
-      },
-      {
-        "text": "soldier",
-        "link": "/51-tool/06-soldier"
-      },
-      {
         "text": "数据",
         "items": [
           {
             "text": "checkTele",
             "link": "/51-tool/数据/02-checkTele"
+          }
+        ],
+        "collapsed": true
+      },
+      {
+        "text": "查看",
+        "items": [
+          {
+            "text": "reward",
+            "link": "/51-tool/查看/01-reward"
+          },
+          {
+            "text": "scene",
+            "link": "/51-tool/查看/02-scene"
+          },
+          {
+            "text": "npc",
+            "link": "/51-tool/查看/03-npc"
+          },
+          {
+            "text": "skill",
+            "link": "/51-tool/查看/04-skill"
+          },
+          {
+            "text": "item",
+            "link": "/51-tool/查看/05-item"
+          },
+          {
+            "text": "soldier",
+            "link": "/51-tool/查看/06-soldier"
+          },
+          {
+            "text": "taolu",
+            "link": "/51-tool/查看/07-taolu"
           }
         ],
         "collapsed": true

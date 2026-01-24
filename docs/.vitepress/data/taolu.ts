@@ -1,6 +1,6 @@
 import { getScenePositionClient } from "./scene";
 import { SkillIdLevel } from "./skill";
-import { fetchXls, XlsBase, XlsSceneObj } from "./xls";
+import { fetchXls, findXlsesByName, XlsBase, XlsSceneObj } from "./xls";
 
 export type TaoluType = 'wu'|'nei'|'qing'
 export type TaoluClassType = '刀'|'剑'|'拳'|'棍'|'内功'|'轻功'
@@ -36,6 +36,20 @@ export async function getTaoluSkills(taolu: number) : Promise<SkillIdLevel[]> {
   const xls = await getTaolu(taolu);
   if (!xls?.SkillLevelUnlock) return [];
   return xls.SkillLevelUnlock.map(x => {return {id:x[0], level:0, unlock:x[2]}});
+}
+
+export async function findTaolusByName(name: string): Promise<XlsTaolu[]> {
+  const datas = await getTaolus();
+  return findXlsesByName(name, datas) as XlsTaolu[];
+}
+
+export async function searchTaolus(name: string): Promise<{id: number, display: string}[]> {
+  const found = await findTaolusByName(name);
+  
+  return found.map(item => ({
+    id: item.Id,
+    display: `${item.Id}: ${item.Name} - ${item.Desc || item.Detail}`
+  }))
 }
 
 interface XlsLearnTaolu extends XlsBase {

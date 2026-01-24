@@ -98,7 +98,7 @@ const updateCurrentSoldier = async (id: number) => {
     const xls = await getSoldier(id);
     soldier.value = xls;
     if (xls) {
-      const name = xls.display.name;
+      const name = xls.Name;
       npcName.value = isDev ? `${name}(${xls.Id})` : name;
       soldierIcon.value = getSoldierAvater(xls.display?.icon);
       equipItems.value = soldier2EquipItems(xls.equip || []);

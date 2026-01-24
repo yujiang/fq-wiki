@@ -18,7 +18,7 @@ export interface XlsSceneObj extends XlsBase {
 export interface DisplayStruct {
   shape: number, 
   icon: number,
-  name?: string;
+  // name?: string;
 };
 
 export type Bases = Record<number, XlsBase>

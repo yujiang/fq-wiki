@@ -32,10 +32,11 @@ import { getTaolu } from '../../../data/taolu'
 import { getNpcArea } from '../../../data/npc'
 import { getSceneName } from '../../../data/scene'
 import SkillGrid from '../base/SkillGrid.vue'
+import { getSecretskill } from '../../../data/secretskill'
 
 // 接收场景ID（核心参数）
 const props = defineProps<{
-  lifeskill?: boolean; // 场景唯一标识（如杏花村=101）
+  type?: string; // 场景唯一标识（如杏花村=101）
 }>();
 
 type SkillEntry = Record<number, SkillIdLevel[]>;
@@ -54,9 +55,16 @@ const sortedEntries = computed(() => {
   return obj
 })
 
+const funcs = {
+  taolu: getTaolu,
+  lifeskill: getLifeskill,
+  secret: getSecretskill,
+}
+
 onMounted(async () => {
   const observes = await getObserves()
-  const checkfunc = (props.lifeskill) ? getLifeskill : getTaolu
+  const type = props.type || 'taolu';
+  const checkfunc = funcs[type] || getTaolu;
   for (const o of Object.values(observes) as XlsObserve[]) {
     if (!o || !o.Skills) continue
     const skills = await observe2Skills(o.Skills)

@@ -1,10 +1,34 @@
 {
-  "1001": {"Id": 1001, "Name": "achievement_total", "Desc": "总成就点数"},
-  "1002": {"Id": 1002, "Name": "level_mainchar", "Desc": "成就-等级"},
-  "1003": {"Id": 1003, "Name": "taolu_wu_counts", "Desc": "成就-套路数量"},
-  "1004": {"Id": 1004, "Name": "taolu_nei_counts", "Desc": "成就-内功数量"},
-  "1005": {"Id": 1005, "Name": "taolu_qing_counts", "Desc": "成就_轻功数量"},
-  "1006": {"Id": 1006, "Name": "taolu_max_counts", "Desc": "成就-武学满级数量"},
+  "1001": {
+    "Id": 1001,
+    "Name": "achievement_total",
+    "Desc": "总成就点数"
+  },
+  "1002": {
+    "Id": 1002,
+    "Name": "level_mainchar",
+    "Desc": "成就-等级"
+  },
+  "1003": {
+    "Id": 1003,
+    "Name": "taolu_wu_counts",
+    "Desc": "成就-套路数量"
+  },
+  "1004": {
+    "Id": 1004,
+    "Name": "taolu_nei_counts",
+    "Desc": "成就-内功数量"
+  },
+  "1005": {
+    "Id": 1005,
+    "Name": "taolu_qing_counts",
+    "Desc": "成就_轻功数量"
+  },
+  "1006": {
+    "Id": 1006,
+    "Name": "taolu_max_counts",
+    "Desc": "成就-武学满级数量"
+  },
   "1007": {
     "Id": 1007,
     "Name": "power_mainchar_max_history",
@@ -45,13 +69,17 @@
     "Id": 1013,
     "Name": "schooltask",
     "Desc": "门派任务接取",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "1014": {
     "Id": 1014,
     "Name": "menditation",
     "Desc": "禅修",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1,
     "Tips": "今日已进行过禅修了"
   },
@@ -59,654 +87,1164 @@
     "Id": 1015,
     "Name": "alms1",
     "Desc": "化缘1",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "1016": {
     "Id": 1016,
     "Name": "worship",
     "Desc": "拜佛",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "1017": {
     "Id": 1017,
     "Name": "exchange_book",
     "Desc": "兑换经书",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
-  "1018": {"Id": 1018, "Name": "shilian", "Desc": "试炼", "MaxToday": 1},
-  "1019": {"Id": 1019, "Name": "paytoday", "Desc": "今日付费"},
-  "1020": {"Id": 1020, "Name": "bbs", "Desc": "悬赏公告牌", "Tags": ["client"]},
-  "1021": {"Id": 1021, "Name": "rumor", "Desc": "大厅消息", "Tags": ["client"]},
-  "1101": {"Id": 1101, "Name": "lifeskill_equip_total_counts", "Desc": "成就 锻造"},
-  "1102": {"Id": 1102, "Name": "lifeskill_drug_total_counts", "Desc": "成就 炼丹"},
-  "1103": {"Id": 1103, "Name": "lifeskill_food_total_counts", "Desc": "成就 烹饪"},
-  "1104": {"Id": 1104, "Name": "lifeskill_wine_total_counts", "Desc": "成就 酿酒"},
+  "1018": {
+    "Id": 1018,
+    "Name": "shilian",
+    "Desc": "试炼",
+    "MaxToday": 1
+  },
+  "1019": {
+    "Id": 1019,
+    "Name": "paytoday",
+    "Desc": "今日付费"
+  },
+  "1020": {
+    "Id": 1020,
+    "Name": "bbs",
+    "Desc": "悬赏公告牌",
+    "Tags": [
+      "client"
+    ]
+  },
+  "1021": {
+    "Id": 1021,
+    "Name": "rumor",
+    "Desc": "大厅消息",
+    "Tags": [
+      "client"
+    ]
+  },
+  "1101": {
+    "Id": 1101,
+    "Name": "lifeskill_equip_total_counts",
+    "Desc": "成就 锻造"
+  },
+  "1102": {
+    "Id": 1102,
+    "Name": "lifeskill_drug_total_counts",
+    "Desc": "成就 炼丹"
+  },
+  "1103": {
+    "Id": 1103,
+    "Name": "lifeskill_food_total_counts",
+    "Desc": "成就 烹饪"
+  },
+  "1104": {
+    "Id": 1104,
+    "Name": "lifeskill_wine_total_counts",
+    "Desc": "成就 酿酒"
+  },
   "1105": {
     "Id": 1105,
     "Name": "lifeskill_clothes_total_counts",
     "Desc": "成就 裁缝"
   },
-  "1111": {"Id": 1111, "Name": "Counter_LadderWeekReward"},
-  "1112": {"Id": 1112, "Name": "wuguan_battle"},
-  "1113": {"Id": 1113, "Name": "wuguan_ticket", "Desc": "武馆挑战次数"},
-  "1202": {"Id": 1202, "Name": "map_box_get_counts", "Desc": "成就 宝箱打开次数"},
-  "1203": {"Id": 1203, "Name": "escort_total_counts", "Desc": "成就-运镖总次数"},
-  "1204": {"Id": 1204, "Name": "fishing_total_counts", "Desc": "成就-钓上鱼的数量"},
+  "1111": {
+    "Id": 1111,
+    "Name": "Counter_LadderWeekReward"
+  },
+  "1112": {
+    "Id": 1112,
+    "Name": "wuguan_battle"
+  },
+  "1113": {
+    "Id": 1113,
+    "Name": "wuguan_ticket",
+    "Desc": "武馆挑战次数"
+  },
+  "1202": {
+    "Id": 1202,
+    "Name": "map_box_get_counts",
+    "Desc": "成就 宝箱打开次数"
+  },
+  "1203": {
+    "Id": 1203,
+    "Name": "escort_total_counts",
+    "Desc": "成就-运镖总次数"
+  },
+  "1204": {
+    "Id": 1204,
+    "Name": "fishing_total_counts",
+    "Desc": "成就-钓上鱼的数量"
+  },
   "2001": {
     "Id": 2001,
     "Name": "daily_fuben",
     "Desc": "日常副本的总次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "2002": {
     "Id": 2002,
     "Name": "daily_fuben_qiandiegang",
     "Desc": "日常副本千叠岗的总次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "2003": {
     "Id": 2003,
     "Name": "daily_shiliTask_counter",
     "Desc": "势力任务总次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "2004": {
     "Id": 2004,
     "Name": "daily_fuben_qingyutang",
     "Desc": "日常副本青玉堂的总次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "2005": {
     "Id": 2005,
     "Name": "daily_fuben_anyezhanchang",
     "Desc": "日常副本暗夜战场总次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "2006": {"Id": 2006, "Desc": "副本次数", "Tags": ["client"]},
-  "2007": {"Id": 2007, "Desc": "副本次数", "Tags": ["client"]},
-  "2008": {"Id": 2008, "Desc": "副本次数", "Tags": ["client"]},
-  "2009": {"Id": 2009, "Desc": "副本次数", "Tags": ["client"]},
-  "2017": {"Id": 2017, "Name": "十面埋伏", "Desc": "记录弹琴的完美次数"},
-  "2018": {"Id": 2018, "Name": "高山流水", "Desc": "记录弹琴的完美次数"},
-  "2019": {"Id": 2019, "Name": "小鸟朝凤", "Desc": "记录弹琴的完美次数"},
-  "2020": {"Id": 2020, "Name": "平沙落雁", "Desc": "记录弹琴的完美次数"},
-  "2021": {"Id": 2021, "Name": "预赛次数", "Desc": "门派大比预赛需3次", "Tags": ["client"]},
-  "2022": {"Id": 2022, "Name": "大师兄次数", "Tags": ["client"]},
-  "2023": {"Id": 2023, "Name": "生活技能", "Desc": "生活技能个数"},
+  "2006": {
+    "Id": 2006,
+    "Desc": "副本次数",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2007": {
+    "Id": 2007,
+    "Desc": "副本次数",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2008": {
+    "Id": 2008,
+    "Desc": "副本次数",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2009": {
+    "Id": 2009,
+    "Desc": "副本次数",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2017": {
+    "Id": 2017,
+    "Name": "十面埋伏",
+    "Desc": "记录弹琴的完美次数"
+  },
+  "2018": {
+    "Id": 2018,
+    "Name": "高山流水",
+    "Desc": "记录弹琴的完美次数"
+  },
+  "2019": {
+    "Id": 2019,
+    "Name": "小鸟朝凤",
+    "Desc": "记录弹琴的完美次数"
+  },
+  "2020": {
+    "Id": 2020,
+    "Name": "平沙落雁",
+    "Desc": "记录弹琴的完美次数"
+  },
+  "2021": {
+    "Id": 2021,
+    "Name": "预赛次数",
+    "Desc": "门派大比预赛需3次",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2022": {
+    "Id": 2022,
+    "Name": "大师兄次数",
+    "Tags": [
+      "client"
+    ]
+  },
+  "2023": {
+    "Id": 2023,
+    "Name": "生活技能",
+    "Desc": "生活技能个数"
+  },
   "3001": {
     "Id": 3001,
     "Name": "conditionScript400",
     "Desc": "条件触发脚本",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "3701": {
     "Id": 3701,
     "Name": "xuanbingsuip",
     "Desc": "玄冰碎片",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "Tips": "你已经找到了三块玄冰碎片"
   },
   "4000": {
     "Id": 4000,
     "Name": "platformJump",
     "Desc": "跳云",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "5001": {
     "Id": 5001,
     "Name": "TOWER1",
     "Desc": "仙山爬塔-第1座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5002": {
     "Id": 5002,
     "Name": "TOWER2",
     "Desc": "仙山爬塔-第2座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5003": {
     "Id": 5003,
     "Name": "TOWER3",
     "Desc": "仙山爬塔-第3座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5004": {
     "Id": 5004,
     "Name": "TOWER4",
     "Desc": "仙山爬塔-第4座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5005": {
     "Id": 5005,
     "Name": "TOWER5",
     "Desc": "仙山爬塔-第5座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5006": {
     "Id": 5006,
     "Name": "TOWER6",
     "Desc": "仙山爬塔-第6座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5007": {
     "Id": 5007,
     "Name": "TOWER7",
     "Desc": "仙山爬塔-第7座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5008": {
     "Id": 5008,
     "Name": "TOWER8",
     "Desc": "仙山爬塔-第8座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "5009": {
     "Id": 5009,
     "Name": "TOWER9",
     "Desc": "仙山爬塔-第9座塔",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "5101": {"Id": 5101, "Name": "lilian", "Desc": "历练任务", "Tags": ["client"]},
+  "5101": {
+    "Id": 5101,
+    "Name": "lilian",
+    "Desc": "历练任务",
+    "Tags": [
+      "client"
+    ]
+  },
   "6001": {
     "Id": 6001,
     "Name": "guide_equip_part_1",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6002": {
     "Id": 6002,
     "Name": "guide_equip_part_2",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6003": {
     "Id": 6003,
     "Name": "guide_equip_part_3",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6004": {
     "Id": 6004,
     "Name": "guide_equip_part_4",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6005": {
     "Id": 6005,
     "Name": "guide_equip_part_5",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6006": {
     "Id": 6006,
     "Name": "guide_equip_part_6",
     "Desc": "新手引导-穿戴装备",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6011": {
     "Id": 6011,
     "Name": "guide_book_1",
     "Desc": "新手引导-学习套路",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6012": {
     "Id": 6012,
     "Name": "guide_book_2",
     "Desc": "新手引导-学习内功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6013": {
     "Id": 6013,
     "Name": "guide_book_3",
     "Desc": "新手引导-学习轻功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6014": {
     "Id": 6014,
     "Name": "daily_school_point_1",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6015": {
     "Id": 6015,
     "Name": "daily_school_point_2",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6016": {
     "Id": 6016,
     "Name": "daily_school_point_3",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6017": {
     "Id": 6017,
     "Name": "daily_school_point_4",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6018": {
     "Id": 6018,
     "Name": "daily_school_point_5",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6019": {
     "Id": 6019,
     "Name": "daily_school_point_6",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6020": {
     "Id": 6020,
     "Name": "daily_school_point_7",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6021": {
     "Id": 6021,
     "Name": "daily_school_point_8",
     "Desc": "师门-领取门贡",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6022": {
     "Id": 6022,
     "Name": "guide_recruit",
     "Desc": "新手引导-招募伙伴",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6023": {
     "Id": 6023,
     "Name": "lingshi_box_get",
     "Desc": "打开宝箱",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6024": {
     "Id": 6024,
     "Name": "pick_danggui",
     "Desc": "采集当归",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6025": {
     "Id": 6025,
     "Name": "pick_shuiguo",
     "Desc": "摘水果",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6026": {
     "Id": 6026,
     "Name": "guide_taolu",
     "Desc": "新手引导-激活套路",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6027": {
     "Id": 6027,
     "Name": "guide_neigong",
     "Desc": "新手引导-激活内功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6028": {
     "Id": 6028,
     "Name": "guide_qinggong",
     "Desc": "新手引导-激活轻功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6029": {
     "Id": 6029,
     "Name": "tansuoshandong",
     "Desc": "探索山洞",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6030": {
     "Id": 6030,
     "Name": "guide_buzhen",
     "Desc": "新手引导-布阵",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "6131": {
     "Id": 6131,
     "Name": "luoye",
     "Desc": "少林门派清扫任务落叶",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7001": {
     "Id": 7001,
     "Name": "yaotangfengbo",
     "Desc": "药堂风波",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7002": {
     "Id": 7002,
     "Name": "huxianyuanmeng",
     "Desc": "狐仙圆梦",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7003": {
     "Id": 7003,
     "Name": "yingxiongmeng",
     "Desc": "英雄梦",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7004": {
     "Id": 7004,
     "Name": "yingxiongmeng2",
     "Desc": "英雄梦2",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7005": {
     "Id": 7005,
     "Name": "jiachangliduan",
     "Desc": "家长里短",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7006": {
     "Id": 7006,
     "Name": "mianyouyouse",
     "Desc": "面有忧色",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7007": {
     "Id": 7007,
     "Name": "cuncaochunhui",
     "Desc": "寸草春晖",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7008": {
     "Id": 7008,
     "Name": "xunzhaoqiandai",
     "Desc": "寻找钱袋",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7009": {
     "Id": 7009,
     "Name": "xunzhaocaiyaoren",
     "Desc": "寻找采药人",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7010": {
     "Id": 7010,
     "Name": "dudiaohanjiang",
     "Desc": "独钓寒江",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7011": {
     "Id": 7011,
     "Name": "ziyihuyu",
     "Desc": "子意乎鱼",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 720
   },
   "7012": {
     "Id": 7012,
     "Name": "shijinglucong",
     "Desc": "石经录丛",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "7013": {"Id": 7013, "Name": "poshu", "Desc": "破书（渔与钓）", "Tags": ["client"]},
-  "7014": {"Id": 7014, "Name": "yebanjiti", "Desc": "夜半鸡啼", "Tags": ["client"]},
-  "7015": {"Id": 7015, "Name": "taofan", "Desc": "天理昭彰", "Tags": ["client"]},
+  "7013": {
+    "Id": 7013,
+    "Name": "poshu",
+    "Desc": "破书（渔与钓）",
+    "Tags": [
+      "client"
+    ]
+  },
+  "7014": {
+    "Id": 7014,
+    "Name": "yebanjiti",
+    "Desc": "夜半鸡啼",
+    "Tags": [
+      "client"
+    ]
+  },
+  "7015": {
+    "Id": 7015,
+    "Name": "taofan",
+    "Desc": "天理昭彰",
+    "Tags": [
+      "client"
+    ]
+  },
   "7016": {
     "Id": 7016,
     "Name": "sharenjuanzong",
     "Desc": "杀人卷宗",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "7017": {"Id": 7017, "Name": "xiansuo1", "Desc": "线索1", "Tags": ["client"]},
-  "7018": {"Id": 7018, "Name": "xiansuo2", "Desc": "线索2", "Tags": ["client"]},
-  "7019": {"Id": 7019, "Name": "xiansuo3", "Desc": "线索3", "Tags": ["client"]},
+  "7017": {
+    "Id": 7017,
+    "Name": "xiansuo1",
+    "Desc": "线索1",
+    "Tags": [
+      "client"
+    ]
+  },
+  "7018": {
+    "Id": 7018,
+    "Name": "xiansuo2",
+    "Desc": "线索2",
+    "Tags": [
+      "client"
+    ]
+  },
+  "7019": {
+    "Id": 7019,
+    "Name": "xiansuo3",
+    "Desc": "线索3",
+    "Tags": [
+      "client"
+    ]
+  },
   "7020": {
     "Id": 7020,
     "Name": "jinaxiongfan",
     "Desc": "缉拿凶犯",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7021": {
     "Id": 7021,
     "Name": "fangzouxiongfan",
     "Desc": "放走凶犯",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "7022": {
     "Id": 7022,
     "Name": "guide_juanzong",
     "Desc": "翻阅卷宗",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8001": {"Id": 8001, "Name": "zhaohuoban", "Desc": "找伙伴", "Tags": ["client"]},
-  "8002": {"Id": 8002, "Name": "zhaoliehu", "Desc": "找猎户", "Tags": ["client"]},
+  "8001": {
+    "Id": 8001,
+    "Name": "zhaohuoban",
+    "Desc": "找伙伴",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8002": {
+    "Id": 8002,
+    "Name": "zhaoliehu",
+    "Desc": "找猎户",
+    "Tags": [
+      "client"
+    ]
+  },
   "8003": {
     "Id": 8003,
     "Name": "dayingguainiao",
     "Desc": "打赢怪鸟",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8004": {
     "Id": 8004,
     "Name": "songniaorou",
     "Desc": "送鸟肉",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8005": {"Id": 8005, "Name": "linggan1", "Desc": "灵感1", "Tags": ["client"]},
-  "8006": {"Id": 8006, "Name": "linggan2", "Desc": "灵感2", "Tags": ["client"]},
-  "8007": {"Id": 8007, "Name": "linggan3", "Desc": "灵感3", "Tags": ["client"]},
+  "8005": {
+    "Id": 8005,
+    "Name": "linggan1",
+    "Desc": "灵感1",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8006": {
+    "Id": 8006,
+    "Name": "linggan2",
+    "Desc": "灵感2",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8007": {
+    "Id": 8007,
+    "Name": "linggan3",
+    "Desc": "灵感3",
+    "Tags": [
+      "client"
+    ]
+  },
   "8008": {
     "Id": 8008,
     "Name": "kuangshizhizuo",
     "Desc": "旷世之作",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8009": {
     "Id": 8009,
     "Name": "songxiangnang",
     "Desc": "送香囊",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8010": {"Id": 8010, "Name": "liliang", "Desc": "力量", "Tags": ["client"]},
-  "8011": {"Id": 8011, "Name": "jiling", "Desc": "机灵", "Tags": ["client"]},
-  "8012": {"Id": 8012, "Name": "jianren", "Desc": "坚韧", "Tags": ["client"]},
-  "8013": {"Id": 8013, "Name": "shouduan", "Desc": "手段", "Tags": ["client"]},
-  "8014": {"Id": 8014, "Name": "chuniao", "Desc": "雏鸟", "Tags": ["client"]},
-  "8015": {"Id": 8015, "Name": "shaolin", "Desc": "少林", "Tags": ["client"]},
-  "8016": {"Id": 8016, "Name": "wudang", "Desc": "武当", "Tags": ["client"]},
-  "8018": {"Id": 8018, "Name": "gaibang", "Desc": "丐帮", "Tags": ["client"]},
-  "8020": {"Id": 8020, "Name": "yihuagong", "Desc": "移花宫", "Tags": ["client"]},
-  "8021": {"Id": 8021, "Name": "tianshan", "Desc": "天山派", "Tags": ["client"]},
-  "8022": {"Id": 8022, "Name": "bailu", "Desc": "白鹭书院", "Tags": ["client"]},
+  "8010": {
+    "Id": 8010,
+    "Name": "liliang",
+    "Desc": "力量",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8011": {
+    "Id": 8011,
+    "Name": "jiling",
+    "Desc": "机灵",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8012": {
+    "Id": 8012,
+    "Name": "jianren",
+    "Desc": "坚韧",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8013": {
+    "Id": 8013,
+    "Name": "shouduan",
+    "Desc": "手段",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8014": {
+    "Id": 8014,
+    "Name": "chuniao",
+    "Desc": "雏鸟",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8015": {
+    "Id": 8015,
+    "Name": "shaolin",
+    "Desc": "少林",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8016": {
+    "Id": 8016,
+    "Name": "wudang",
+    "Desc": "武当",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8018": {
+    "Id": 8018,
+    "Name": "gaibang",
+    "Desc": "丐帮",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8020": {
+    "Id": 8020,
+    "Name": "yihuagong",
+    "Desc": "移花宫",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8021": {
+    "Id": 8021,
+    "Name": "tianshan",
+    "Desc": "天山派",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8022": {
+    "Id": 8022,
+    "Name": "bailu",
+    "Desc": "白鹭书院",
+    "Tags": [
+      "client"
+    ]
+  },
   "8023": {
     "Id": 8023,
     "Name": "guanfeibutonglu",
     "Desc": "官匪不同路",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8024": {
     "Id": 8024,
     "Name": "kuangshizhizuo0",
     "Desc": "旷世之作0",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8025": {"Id": 8025, "Name": "fanposhu", "Desc": "翻破书", "Tags": ["client"]},
-  "8026": {"Id": 8026, "Name": "touting", "Desc": "偷听对话", "Tags": ["client"]},
+  "8025": {
+    "Id": 8025,
+    "Name": "fanposhu",
+    "Desc": "翻破书",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8026": {
+    "Id": 8026,
+    "Name": "touting",
+    "Desc": "偷听对话",
+    "Tags": [
+      "client"
+    ]
+  },
   "8027": {
     "Id": 8027,
     "Name": "qinghuaiyujinqian",
     "Desc": "情怀与金钱",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8028": {
     "Id": 8028,
     "Name": "shenwenyifan",
     "Desc": "审问疑犯",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8029": {"Id": 8029, "Name": "youchuan", "Desc": "游船", "Tags": ["client"]},
-  "8030": {"Id": 8030, "Name": "guashi", "Desc": "挂饰", "Tags": ["client"]},
-  "8031": {"Id": 8031, "Name": "suizhipian", "Desc": "碎纸片", "Tags": ["client"]},
+  "8029": {
+    "Id": 8029,
+    "Name": "youchuan",
+    "Desc": "游船",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8030": {
+    "Id": 8030,
+    "Name": "guashi",
+    "Desc": "挂饰",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8031": {
+    "Id": 8031,
+    "Name": "suizhipian",
+    "Desc": "碎纸片",
+    "Tags": [
+      "client"
+    ]
+  },
   "8033": {
     "Id": 8033,
     "Name": "xiuluoxiansuo",
     "Desc": "修罗线索",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8034": {
     "Id": 8034,
     "Name": "dasaosiyuan",
     "Desc": "打扫寺院",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8035": {
     "Id": 8035,
     "Name": "duanfengliren",
     "Desc": "锻锋砺刃",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8036": {
     "Id": 8036,
     "Name": "hanqingjue",
     "Desc": "寒清绝故事线",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8037": {
     "Id": 8037,
     "Name": "aowangsun",
     "Desc": "傲王孙故事线",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8038": {
     "Id": 8038,
     "Name": "dalijuanzong",
     "Desc": "大理卷宗",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8039": {
     "Id": 8039,
     "Name": "tongrenxuanba1",
     "Desc": "少林第三阶段-铜人选拔1",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8040": {
     "Id": 8040,
     "Name": "tongrenxuanba2",
     "Desc": "少林第三阶段-铜人选拔2",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8041": {
     "Id": 8041,
     "Name": "beiguoshibing",
     "Desc": "少林第三阶段-北国士兵",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8042": {
     "Id": 8042,
     "Name": "fangjiandiaocha1",
     "Desc": "房间调查1",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8043": {
     "Id": 8043,
     "Name": "fangjiandiaocha2",
     "Desc": "房间调查2",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8044": {
     "Id": 8044,
     "Name": "banxiangzi",
     "Desc": "少林第三阶段-搬箱子",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8045": {
     "Id": 8045,
     "Name": "buzhijunxie",
     "Desc": "少林第三阶段-布置军械",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8046": {
     "Id": 8046,
     "Name": "sanchangbishi",
     "Desc": "三场比试",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8047": {
     "Id": 8047,
     "Name": "zhaoyushibaoxiang",
     "Desc": "找玉石宝箱",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8048": {
     "Id": 8048,
     "Name": "leitaiduihua",
     "Desc": "擂台对话",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8049": {
     "Id": 8049,
     "Name": "jianghugushi",
     "Desc": "搜集江湖故事",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8050": {
     "Id": 8050,
     "Name": "dalichatan",
     "Desc": "茶摊打听消息",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8051": {
     "Id": 8051,
     "Name": "cangbaotu",
     "Desc": "鬼市滥赌鬼藏宝图",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8052": {
     "Id": 8052,
     "Name": "zhuomicang",
     "Desc": "杏花村序章-捉迷藏",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8053": {
     "Id": 8053,
     "Name": "xhcyinjiu",
     "Desc": "杏花村序章-饮酒打听",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8054": {
     "Id": 8054,
     "Name": "jianyi",
     "Desc": "攻守之辩收集剑意",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8055": {
     "Id": 8055,
     "Name": "shimenrenwu",
     "Desc": "侠之行-师门任务",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8056": {
     "Id": 8056,
     "Name": "xiaomiedaozei",
     "Desc": "侠之行-消灭盗贼",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8057": {
     "Id": 8057,
     "Name": "qingyutang",
     "Desc": "侠之行-了解青玉堂",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8058": {
     "Id": 8058,
     "Name": "gaoshouxiangzhu",
     "Desc": "侠之行-高手相助",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8059": {
     "Id": 8059,
     "Name": "minigamechess",
     "Desc": "小游戏-下围棋每日次数",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 3,
     "Tips": "下棋次数已达上限"
   },
@@ -714,7 +1252,9 @@
     "Id": 8060,
     "Name": "suanming",
     "Desc": "王半仙算命",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1,
     "Tips": "今日已算过命了"
   },
@@ -722,7 +1262,9 @@
     "Id": 8061,
     "Name": "yunbiao",
     "Desc": "每日运镖",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1,
     "Tips": "今日没有镖了"
   },
@@ -730,176 +1272,272 @@
     "Id": 8062,
     "Name": "junqingtu",
     "Desc": "军情图任务前置",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8063": {
     "Id": 8063,
     "Name": "jungong",
     "Desc": "军情图任务前置-积累战功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8064": {
     "Id": 8064,
     "Name": "dianhuopen",
     "Desc": "巨鲸寨支线-点亮两个火盆",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8065": {
     "Id": 8065,
     "Name": "maifujinbing",
     "Desc": "埋伏金兵小游戏计数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8066": {
     "Id": 8066,
     "Name": "citanjunqing",
     "Desc": "刺探军情-3个位置计数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8067": {
     "Id": 8067,
     "Name": "liangguomaoyi",
     "Desc": "幽州两国贸易-铃响关山",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8068": {
     "Id": 8068,
     "Name": "gongwen",
     "Desc": "提交公文-铃响关山",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8069": {
     "Id": 8069,
     "Name": "jiaoyi",
     "Desc": "边市交易-铃响关山",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8070": {"Id": 8070, "Name": "daozei", "Desc": "江湖故梦-盗贼", "Tags": ["client"]},
+  "8070": {
+    "Id": 8070,
+    "Name": "daozei",
+    "Desc": "江湖故梦-盗贼",
+    "Tags": [
+      "client"
+    ]
+  },
   "8071": {
     "Id": 8071,
     "Name": "changjiangshuikou",
     "Desc": "金刚身力-长江水寇",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8072": {
     "Id": 8072,
     "Name": "gaibangweiji",
     "Desc": "丐帮--3支线",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8073": {
     "Id": 8073,
     "Name": "yitanjiujing",
     "Desc": "丐帮--郊外查看",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8074": {
     "Id": 8074,
     "Name": "konghegaibang",
     "Desc": "丐帮--威慑x5",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8075": {
     "Id": 8075,
     "Name": "zhanglaoduihua",
     "Desc": "丐帮--两分支对话",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8076": {"Id": 8076, "Name": "anji", "Desc": "丐帮--暗记", "Tags": ["client"]},
-  "8077": {"Id": 8077, "Name": "fadao", "Desc": "丐帮--法刀", "Tags": ["client"]},
+  "8076": {
+    "Id": 8076,
+    "Name": "anji",
+    "Desc": "丐帮--暗记",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8077": {
+    "Id": 8077,
+    "Name": "fadao",
+    "Desc": "丐帮--法刀",
+    "Tags": [
+      "client"
+    ]
+  },
   "8078": {
     "Id": 8078,
     "Name": "weifadizi",
     "Desc": "丐帮--违法弟子",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8079": {
     "Id": 8079,
     "Name": "liangshanggongzi",
     "Desc": "梁上公子-走访",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8080": {"Id": 8080, "Name": "wenshi", "Desc": "侠之情--文试", "Tags": ["client"]},
+  "8080": {
+    "Id": 8080,
+    "Name": "wenshi",
+    "Desc": "侠之情--文试",
+    "Tags": [
+      "client"
+    ]
+  },
   "8081": {
     "Id": 8081,
     "Name": "wushiyaopai",
     "Desc": "侠之情--腰牌",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8082": {
     "Id": 8082,
     "Name": "maishuzi",
     "Desc": "三致千金--卖梳子",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8083": {
     "Id": 8083,
     "Name": "baifo",
     "Desc": "少林--拜佛",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8084": {
     "Id": 8084,
     "Name": "tuna",
     "Desc": "武当--吐纳",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
-  "8085": {"Id": 8085, "Name": "chue", "Desc": "天山--除恶", "Tags": ["client"]},
+  "8085": {
+    "Id": 8085,
+    "Name": "chue",
+    "Desc": "天山--除恶",
+    "Tags": [
+      "client"
+    ]
+  },
   "8086": {
     "Id": 8086,
     "Name": "tiaozhan",
     "Desc": "天山--挑战",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8087": {
     "Id": 8087,
     "Name": "qifu",
     "Desc": "武当--祈福",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8088": {
     "Id": 8088,
     "Name": "fengzheng",
     "Desc": "武当--风筝",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8089": {
     "Id": 8089,
     "Name": "kaishi",
     "Desc": "修罗--开石",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8090": {
     "Id": 8090,
     "Name": "kuangshan",
     "Desc": "修罗--矿山",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8091": {
     "Id": 8091,
     "Name": "tieguanggao",
     "Desc": "一路顺风--广告",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8092": {
     "Id": 8092,
     "Name": "huoche",
     "Desc": "一路顺风--货车",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8093": {"Id": 8093, "Name": "huiyi", "Desc": "侠之生-找回记忆", "Tags": ["client"]},
+  "8093": {
+    "Id": 8093,
+    "Name": "huiyi",
+    "Desc": "侠之生-找回记忆",
+    "Tags": [
+      "client"
+    ]
+  },
   "8094": {
     "Id": 8094,
     "Name": "mijigeiqian",
     "Desc": "秘籍--每天给钱小乞丐",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1,
     "Tips": "今天已经接济过了！"
   },
@@ -907,173 +1545,300 @@
     "Id": 8095,
     "Name": "xiaoqigaimiji",
     "Desc": "秘籍--次数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8096": {
     "Id": 8096,
     "Name": "wuxuecandao",
     "Desc": "武学--残刀",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8097": {
     "Id": 8097,
     "Name": "wuxuesyjf",
     "Desc": "武学--嵩阳剑法",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8098": {
     "Id": 8098,
     "Name": "wuxuexsym",
     "Desc": "武学--游丝悬命诀",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8099": {
     "Id": 8099,
     "Name": "wuxuegsls",
     "Desc": "武学--高山流水",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8100": {
     "Id": 8100,
     "Name": "wuxueyxg",
     "Desc": "武学--雁行功",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8101": {
     "Id": 8101,
     "Name": "wuxuesyq",
     "Desc": "武学--碎玉拳",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8102": {
     "Id": 8102,
     "Name": "wuxuegslsmr",
     "Desc": "武学--高山流水是否获取",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8103": {"Id": 8103, "Name": "shuaye10", "Desc": "10级刷野", "Tags": ["client"]},
-  "8104": {"Id": 8104, "Name": "shuaye20", "Desc": "20级刷野", "Tags": ["client"]},
-  "8105": {"Id": 8105, "Name": "shuaye30", "Desc": "30级刷野", "Tags": ["client"]},
-  "8106": {"Id": 8106, "Name": "shuaye40", "Desc": "40级刷野", "Tags": ["client"]},
-  "8107": {"Id": 8107, "Name": "shuaye45", "Desc": "45级刷野", "Tags": ["client"]},
-  "8108": {"Id": 8108, "Name": "shuaye50", "Desc": "50级刷野", "Tags": ["client"]},
-  "8109": {"Id": 8109, "Name": "shuaye55", "Desc": "55级刷野", "Tags": ["client"]},
-  "8110": {"Id": 8110, "Name": "shuaye60", "Desc": "60级刷野", "Tags": ["client"]},
+  "8103": {
+    "Id": 8103,
+    "Name": "shuaye10",
+    "Desc": "10级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8104": {
+    "Id": 8104,
+    "Name": "shuaye20",
+    "Desc": "20级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8105": {
+    "Id": 8105,
+    "Name": "shuaye30",
+    "Desc": "30级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8106": {
+    "Id": 8106,
+    "Name": "shuaye40",
+    "Desc": "40级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8107": {
+    "Id": 8107,
+    "Name": "shuaye45",
+    "Desc": "45级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8108": {
+    "Id": 8108,
+    "Name": "shuaye50",
+    "Desc": "50级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8109": {
+    "Id": 8109,
+    "Name": "shuaye55",
+    "Desc": "55级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
+  "8110": {
+    "Id": 8110,
+    "Name": "shuaye60",
+    "Desc": "60级刷野",
+    "Tags": [
+      "client"
+    ]
+  },
   "8111": {
     "Id": 8111,
     "Name": "wuxuegsls1",
     "Desc": "武学--高山流水曲子1",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8112": {
     "Id": 8112,
     "Name": "wuxuegsls2",
     "Desc": "武学--高山流水曲子2",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8113": {
     "Id": 8113,
     "Name": "wuxuegsls3",
     "Desc": "武学--高山流水曲子3",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8114": {
     "Id": 8114,
     "Name": "wuxuezbxb",
     "Desc": "武学--醉八仙步法",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8115": {"Id": 8115, "Name": "jiuxing", "Desc": "斗酒诗百篇", "Tags": ["client"]},
+  "8115": {
+    "Id": 8115,
+    "Name": "jiuxing",
+    "Desc": "斗酒诗百篇",
+    "Tags": [
+      "client"
+    ]
+  },
   "8116": {
     "Id": 8116,
     "Name": "jingshu",
     "Desc": "少林挖宝-整理经书",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8117": {
     "Id": 8117,
     "Name": "zangjingge1",
     "Desc": "藏经阁少林完成",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 2
   },
   "8118": {
     "Id": 8118,
     "Name": "zangjingge2",
     "Desc": "藏经阁非少林完成",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 2
   },
   "8119": {
     "Id": 8119,
     "Name": "songhuo",
     "Desc": "武昌挖宝任务-送货",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8120": {
     "Id": 8120,
     "Name": "chue2",
     "Desc": "天山除恶每日接取",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8121": {
     "Id": 8121,
     "Name": "jiaomie",
     "Desc": "敦煌挖宝任务-剿灭马匪",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8122": {
     "Id": 8122,
     "Name": "jiaomie2",
     "Desc": "剑南道挖宝任务-剿灭水寇",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8123": {
     "Id": 8123,
     "Name": "haoran",
     "Desc": "武学--浩然正气是否获取",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8124": {
     "Id": 8124,
     "Name": "datan",
     "Desc": "侠之情-灵州打探情报",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8125": {"Id": 8125, "Name": "guanjing", "Desc": "观景计数", "Tags": ["client"]},
+  "8125": {
+    "Id": 8125,
+    "Name": "guanjing",
+    "Desc": "观景计数",
+    "Tags": [
+      "client"
+    ]
+  },
   "8126": {
     "Id": 8126,
     "Name": "qiecuo",
     "Desc": "每日切磋次数",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 4
   },
   "8127": {
     "Id": 8127,
     "Name": "goback",
     "Desc": "使用记忆碎片的次数",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   },
   "8128": {
     "Id": 8128,
     "Name": "shaolinjieshu",
     "Desc": "少林借书值",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8129": {
     "Id": 8129,
     "Name": "shaolinjieshuchengfa",
     "Desc": "少林借书惩罚值",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
-  "8130": {"Id": 8130, "Name": "luoye", "Desc": "少林打扫落叶次数", "MaxToday": 100},
+  "8130": {
+    "Id": 8130,
+    "Name": "luoye",
+    "Desc": "少林打扫落叶次数",
+    "MaxToday": 100
+  },
   "8131": {
     "Id": 8131,
     "Name": "xiaoshilidays",
     "Desc": "小势力日常任务上限为6",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 6,
     "Tips": "今日小势力任务接取已达上限！"
   },
@@ -1081,13 +1846,17 @@
     "Id": 8132,
     "Name": "paibangdays",
     "Desc": "排帮日常任务",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8133": {
     "Id": 8133,
     "Name": "shangxiang",
     "Desc": "香炉上香值",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1,
     "Tips": "今日已上过香！"
   },
@@ -1095,25 +1864,39 @@
     "Id": 8134,
     "Name": "changledays",
     "Desc": "长乐帮日常任务",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8135": {
     "Id": 8135,
     "Name": "huichen",
     "Desc": "长乐帮灰尘计数",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
   },
   "8136": {
     "Id": 8136,
     "Name": "qianshanmuxue",
     "Desc": "千山暮雪折扇打扫任务",
-    "Tags": ["client"]
+    "Tags": [
+      "client"
+    ]
+  },
+  "8137": {
+    "Id": 8137,
+    "Name": "suangua",
+    "Desc": "算卦次数",
+    "MaxToday": 1
   },
   "10001": {
     "Id": 10001,
     "Name": "daily_bonus",
     "Desc": "每日签到",
-    "Tags": ["client"],
+    "Tags": [
+      "client"
+    ],
     "MaxToday": 1
   }
 }

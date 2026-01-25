@@ -78,7 +78,7 @@ export async function getSchoolTaoluTypes(name: string): Promise<TaoluClassType[
     const taolus = await getTaolus();
     const types = new Set<TaoluClassType>();
     Object.values(taolus).forEach(x => {
-        if(x.School === name) types.add(x.大类);
+        if(x.School === name && x.大类) types.add(x.大类);
     })
     return Array.from(types);
 }

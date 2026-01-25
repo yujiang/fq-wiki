@@ -579,6 +579,10 @@ export default [
       {
         "text": "势力",
         "link": "/13-武学/02-势力"
+      },
+      {
+        "text": "江湖",
+        "link": "/13-武学/03-江湖"
       }
     ],
     "collapsed": false
@@ -637,16 +641,6 @@ export default [
       {
         "text": "任务索引",
         "link": "/15-任务/"
-      }
-    ],
-    "collapsed": false
-  },
-  {
-    "text": "经脉",
-    "items": [
-      {
-        "text": "经脉索引",
-        "link": "/17-经脉/"
       }
     ],
     "collapsed": false

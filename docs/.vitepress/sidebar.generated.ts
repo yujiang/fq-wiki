@@ -642,16 +642,6 @@ export default [
     "collapsed": false
   },
   {
-    "text": "经脉",
-    "items": [
-      {
-        "text": "经脉索引",
-        "link": "/17-经脉/"
-      }
-    ],
-    "collapsed": false
-  },
-  {
     "text": "日常",
     "items": [
       {

@@ -579,6 +579,10 @@ export default [
       {
         "text": "势力",
         "link": "/13-武学/02-势力"
+      },
+      {
+        "text": "江湖",
+        "link": "/13-武学/03-江湖"
       }
     ],
     "collapsed": false

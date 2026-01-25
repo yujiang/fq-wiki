@@ -1,25 +1,33 @@
 {
   "1001": {
     "Id": 1001,
-    "Name": "buff1",
-    "Icon": 111,
+    "Name": "无敌",
+    "Overlay": 1,
     "Show": 1,
-    "PSkill": 20002,
+    "Desc": "无敌",
+    "PSkill": 1001,
     "Level": 1,
-    "LifeTime": 60,
-    "Status": "运镖"
+    "Times": 100,
+    "Event": "win"
   },
   "1002": {
     "Id": 1002,
-    "Name": "易容123",
-    "Overlay": 0,
-    "Icon": 17514,
+    "Name": "无敌status",
+    "Overlay": 1,
     "Show": 1,
-    "Desc": "时间到了就回到原来的样子",
-    "LifeTime": 10,
-    "OnAddType": "changeShape",
-    "OnAddParam": 2079,
-    "OnDelType": "restoreShape"
+    "Desc": "无敌status",
+    "Tags": [
+      "BattleStatus"
+    ],
+    "BattleStatus": [
+      "attack",
+      [
+        1001
+      ]
+    ],
+    "Level": 1,
+    "Times": 3,
+    "Event": "win"
   },
   "1003": {
     "Id": 1003,
@@ -107,7 +115,6 @@
   "10010": {
     "Id": 10010,
     "Name": "1级照明",
-    "IconType": "item",
     "Type": "照明",
     "OverlayType": 1,
     "Overlay": 1,
@@ -1197,6 +1204,39 @@
       "client"
     ],
     "LifeTime": 60
+  },
+  "80003": {
+    "Id": 80003,
+    "Name": "财运符",
+    "Overlay": 1,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "战斗获得的金钱增加",
+    "Level": 20,
+    "Times": 20,
+    "Event": "win"
+  },
+  "80004": {
+    "Id": 80004,
+    "Name": "经验符",
+    "Overlay": 1,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "战斗获得的经验增加",
+    "Level": 20,
+    "Times": 20,
+    "Event": "win"
+  },
+  "80005": {
+    "Id": 80005,
+    "Name": "阅历符",
+    "Overlay": 1,
+    "Icon": 1008,
+    "Show": 1,
+    "Desc": "战斗获得的阅历增加",
+    "Level": 20,
+    "Times": 20,
+    "Event": "win"
   },
   "666666": {
     "Id": 666666,

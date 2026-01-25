@@ -1883,46 +1883,36 @@
   },
   "50002": {
     "Id": 50002,
-    "Name": "门",
+    "Name": "客栈门",
     "Icon": 5103,
     "CreateType": "scene",
     "say": 59040,
     "Scene": 5103,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 884,
-    "y": 706,
-    "Type": "trigger",
-    "Shape": 3030
+    "clickDis": 150
   },
   "50003": {
     "Id": 50003,
-    "Name": "灶台",
+    "Name": "客栈灶台",
     "Icon": 5103,
     "CreateType": "scene",
     "say": 59020,
     "Scene": 5103,
     "act": 5,
     "dis": 300,
-    "clickDis": 300,
-    "x": 2300,
-    "y": 917,
-    "Shape": 7032
+    "clickDis": 300
   },
   "50004": {
     "Id": 50004,
-    "Name": "床",
+    "Name": "客栈床",
     "Icon": 5103,
     "CreateType": "scene",
     "say": 59030,
     "Scene": 5103,
     "act": 5,
     "dis": 200,
-    "clickDis": 200,
-    "x": 1188,
-    "y": 429,
-    "Shape": 7031
+    "clickDis": 200
   },
   "50005": {
     "Id": 50005,
@@ -1933,14 +1923,11 @@
     "Scene": 1022,
     "act": 5,
     "dis": 200,
-    "clickDis": 200,
-    "x": 7665,
-    "y": 1210,
-    "Shape": 30852
+    "clickDis": 200
   },
   "50006": {
     "Id": 50006,
-    "Name": "",
+    "Name": "仁和堂药炉",
     "Icon": 5147,
     "CreateType": "scene",
     "Shape": 5147,
@@ -1948,9 +1935,7 @@
     "Scene": 3141,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 689,
-    "y": 589
+    "clickDis": 150
   },
   "50007": {
     "Id": 50007,
@@ -1971,78 +1956,68 @@
     "CreateType": "scene",
     "Shape": 7033,
     "say": 59180,
-    "Type": "shelf",
+    "Type": "shujia",
     "Scene": 3182,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 163,
-    "y": 779
+    "clickDis": 150
   },
   "50009": {
     "Id": 50009,
-    "Name": "人口田地",
+    "Name": "迁徙与人口",
     "Icon": 7033,
     "CreateType": "scene",
     "Shape": 7033,
     "say": 59190,
-    "Type": "shelf",
+    "Type": "shujia",
     "Scene": 3182,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 561,
-    "y": 578
+    "clickDis": 150
   },
   "50010": {
     "Id": 50010,
-    "Name": "",
+    "Name": "宋家宝箱",
     "Desc": "宋家宝箱",
     "Icon": 3101,
     "CreateType": "scene",
-    "Shape": 3102,
+    "Shape": 3101,
     "HideName": 1,
     "Type": "box",
     "Scene": 1022,
     "act": 3,
     "dis": 150,
-    "Rewards": 58010,
-    "x": 5240,
-    "y": 7661
+    "Rewards": 58010
   },
   "50011": {
     "Id": 50011,
-    "Name": "",
+    "Name": "宋家衣柜",
     "Desc": "宋家衣柜",
-    "Icon": 3101,
-    "CreateType": "scene",
-    "Shape": 7035,
-    "HideName": 1,
-    "Type": "shelf",
-    "Scene": 3151,
-    "act": 3,
-    "dis": 150,
-    "x": 1188,
-    "y": 612
-  },
-  "50012": {
-    "Id": 50012,
-    "Name": "",
-    "Desc": "宋家书架",
     "Icon": 3101,
     "CreateType": "scene",
     "Shape": 7034,
     "HideName": 1,
-    "Type": "shelf",
+    "Type": "shujia",
     "Scene": 3151,
     "act": 3,
-    "dis": 150,
-    "x": 604,
-    "y": 767
+    "dis": 150
+  },
+  "50012": {
+    "Id": 50012,
+    "Name": "宋家书架",
+    "Desc": "宋家书架",
+    "Icon": 3101,
+    "CreateType": "scene",
+    "Shape": 7035,
+    "HideName": 1,
+    "Type": "shujia",
+    "Scene": 3151,
+    "act": 3,
+    "dis": 150
   },
   "50013": {
     "Id": 50013,
-    "Name": "",
+    "Name": "灵隐寺香炉",
     "Icon": 4600,
     "CreateType": "scene",
     "Shape": 4600,
@@ -2051,13 +2026,11 @@
     "Scene": 1022,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 2137,
-    "y": 995
+    "clickDis": 150
   },
   "50014": {
     "Id": 50014,
-    "Name": "",
+    "Name": "大雄宝殿右蒲团",
     "Icon": 3121,
     "CreateType": "scene",
     "Shape": 3121,
@@ -2066,27 +2039,22 @@
     "Scene": 3185,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 1430,
-    "y": 1794
+    "clickDis": 150
   },
   "50015": {
     "Id": 50015,
-    "Name": "",
+    "Name": "墓碑",
     "Icon": 5103,
     "CreateType": "scene",
     "say": 59200,
     "Scene": 1022,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 12136,
-    "y": 471,
-    "Shape": 31201
+    "clickDis": 150
   },
   "50016": {
     "Id": 50016,
-    "Name": "",
+    "Name": "大雄宝殿中蒲团",
     "Icon": 3121,
     "CreateType": "scene",
     "Shape": 3121,
@@ -2095,13 +2063,11 @@
     "Scene": 3185,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 1172,
-    "y": 1921
+    "clickDis": 150
   },
   "50017": {
     "Id": 50017,
-    "Name": "",
+    "Name": "大雄宝殿左蒲团",
     "Icon": 3121,
     "CreateType": "scene",
     "Shape": 3121,
@@ -2110,52 +2076,38 @@
     "Scene": 3185,
     "act": 5,
     "dis": 150,
-    "clickDis": 150,
-    "x": 912,
-    "y": 2057
+    "clickDis": 150
   },
   "50020": {
     "Id": 50020,
     "Name": "客船",
     "CreateType": "scene",
     "Shape": 1114,
-    "Scene": 3150,
-    "x": 923,
-    "y": 842,
-    "Type": "boat"
+    "Scene": 3150
   },
   "50021": {
     "Id": 50021,
-    "Name": "",
+    "Name": "大船",
     "CreateType": "scene",
     "Shape": 1115,
     "HideName": 1,
-    "Scene": 3150,
-    "x": 1222,
-    "y": 1325,
-    "Type": "plateform"
+    "Scene": 3150
   },
   "50022": {
     "Id": 50022,
-    "Name": "",
+    "Name": "小船",
     "CreateType": "scene",
     "Shape": 1115,
     "HideName": 1,
-    "Scene": 3150,
-    "x": 1528,
-    "y": 1364,
-    "Type": "plateform"
+    "Scene": 3150
   },
   "50023": {
     "Id": 50023,
-    "Name": "",
+    "Name": "小船",
     "CreateType": "scene",
     "Shape": 1115,
     "HideName": 1,
-    "Scene": 3150,
-    "x": 1328,
-    "y": 1479,
-    "Type": "plateform"
+    "Scene": 3150
   },
   "50025": {
     "Id": 50025,
@@ -3017,7 +2969,7 @@
   },
   "51011": {
     "Id": 51011,
-    "Name": "",
+    "Name": "宝箱",
     "Desc": "山洞主宝箱",
     "Icon": 3091,
     "CreateType": "scene",
@@ -3031,13 +2983,11 @@
     "TopLimit": 1,
     "RecoverHour": 0,
     "Rewards": 51011,
-    "Trigger": 52410,
-    "x": 900,
-    "y": 773
+    "Trigger": 52410
   },
   "51012": {
     "Id": 51012,
-    "Name": "",
+    "Name": "宝箱",
     "Desc": "山洞宝箱1",
     "Icon": 4035,
     "CreateType": "scene",
@@ -3050,13 +3000,11 @@
     "dis": 150,
     "TopLimit": 1,
     "RecoverHour": 0,
-    "Rewards": 51012,
-    "x": 1330,
-    "y": 2739
+    "Rewards": 51012
   },
   "51013": {
     "Id": 51013,
-    "Name": "",
+    "Name": "宝箱",
     "Desc": "山洞宝箱2",
     "Icon": 4035,
     "CreateType": "scene",
@@ -3069,17 +3017,15 @@
     "dis": 150,
     "TopLimit": 1,
     "RecoverHour": 0,
-    "Rewards": 51013,
-    "x": 195,
-    "y": 1600
+    "Rewards": 51013
   },
   "51014": {
     "Id": 51014,
-    "Name": "",
+    "Name": "宝箱",
     "Desc": "三潭印月宝箱",
     "Icon": 4035,
     "CreateType": "scene",
-    "Shape": 3106,
+    "Shape": 3101,
     "HideName": 1,
     "Type": "box",
     "ConShow": 51014,
@@ -3089,13 +3035,11 @@
     "TopLimit": 1,
     "RecoverHour": 0,
     "Rewards": 51014,
-    "Trigger": 52440,
-    "x": 5687,
-    "y": 2634
+    "Trigger": 52440
   },
   "51020": {
     "Id": 51020,
-    "Name": "开关",
+    "Name": "石门开关",
     "Desc": "石门开关",
     "CreateType": "scene",
     "say": 52530,
@@ -3104,10 +3048,7 @@
     "Scene": 3132,
     "act": 5,
     "dis": 150,
-    "layerObs": 0.1,
-    "x": 672,
-    "y": 494,
-    "Shape": 3229
+    "layerObs": 150
   },
   "51901": {
     "Id": 51901,
@@ -3304,18 +3245,17 @@
   },
   "59998": {
     "Id": 59998,
-    "Name": "",
+    "Name": "救人点",
     "Desc": "霜刀寻义-救落水孟",
     "Icon": 3137,
     "CreateType": "scene",
-    "Shape": 3911,
+    "Shape": 3137,
     "HideName": 1,
+    "Type": "box",
     "Scene": 1022,
     "act": 5,
     "dis": 200,
-    "clickDis": 200,
-    "x": 8221,
-    "y": 2793
+    "clickDis": 200
   },
   "59999": {
     "Id": 59999,

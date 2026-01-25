@@ -3,6 +3,7 @@
     "Id": 1,
     "Name": "无名",
     "display": {
+      "name": "无名",
       "shape": 300,
       "icon": 300,
       "draw": 300,
@@ -19,6 +20,7 @@
     "Id": 2,
     "Name": "主角",
     "display": {
+      "name": "主角",
       "shape": 500,
       "icon": 500,
       "draw": 500,
@@ -39,6 +41,7 @@
     "Desc": "后排剑",
     "Name": "小梳子",
     "display": {
+      "name": "小梳子",
       "shape": 2093,
       "icon": 2093,
       "draw": 2093,
@@ -99,6 +102,7 @@
     "Desc": "后排治疗",
     "Name": "南姗",
     "display": {
+      "name": "南姗",
       "shape": 2200,
       "icon": 2200,
       "draw": 2200,
@@ -155,6 +159,7 @@
     ],
     "Name": "傀戏人",
     "display": {
+      "name": "傀戏人",
       "shape": 2143,
       "icon": 2143,
       "draw": 2143,
@@ -207,6 +212,7 @@
     "Desc": "前排拳",
     "Name": "张富贵",
     "display": {
+      "name": "张富贵",
       "shape": 2003,
       "icon": 2003,
       "draw": 2003,
@@ -263,6 +269,7 @@
     "Desc": "前排棍",
     "Name": "破戒僧",
     "display": {
+      "name": "破戒僧",
       "shape": 1103,
       "icon": 1103,
       "draw": 1103,
@@ -319,6 +326,7 @@
     "Desc": "后排暗器",
     "Name": "骊珠",
     "display": {
+      "name": "骊珠",
       "shape": 2206,
       "icon": 2206,
       "draw": 2206,
@@ -471,6 +479,7 @@
     ],
     "Name": "钱芷薇",
     "display": {
+      "name": "钱芷薇",
       "shape": 2074,
       "icon": 2074,
       "draw": 2074,
@@ -513,7 +522,8 @@
     ],
     "UnlockCondition": 285,
     "biography": "识得两三拳脚的富家千金,却不识得江湖的暗面,也识不得人心.",
-    "AutoFight": 1
+    "AutoFight": 1,
+    "SayNpc": 50093
   },
   "53004": {
     "Id": 53004,
@@ -523,6 +533,7 @@
     "Desc": "前排刀",
     "Name": "狄去邪",
     "display": {
+      "name": "狄去邪",
       "shape": 2192,
       "icon": 2192,
       "draw": 2192,
@@ -577,6 +588,7 @@
     ],
     "Name": "暮成雪",
     "display": {
+      "name": "暮成雪",
       "shape": 2096,
       "icon": 2096,
       "draw": 2096,
@@ -633,6 +645,7 @@
     ],
     "Name": "祁衍",
     "display": {
+      "name": "祁衍",
       "shape": 2097,
       "icon": 2097,
       "draw": 2097,
@@ -689,6 +702,7 @@
     ],
     "Name": "岑小婉",
     "display": {
+      "name": "岑小婉",
       "shape": 2092,
       "icon": 2092,
       "draw": 2092,
@@ -745,6 +759,7 @@
     ],
     "Name": "雷雳",
     "display": {
+      "name": "雷雳",
       "shape": 2083,
       "icon": 2083,
       "draw": 2083,
@@ -801,6 +816,7 @@
     ],
     "Name": "云中阁主",
     "display": {
+      "name": "云中阁主",
       "shape": 2177,
       "icon": 2177,
       "draw": 2177,
@@ -851,6 +867,7 @@
     ],
     "Name": "萨二娘",
     "display": {
+      "name": "萨二娘",
       "shape": 2114,
       "icon": 2114,
       "draw": 2114,
@@ -901,6 +918,7 @@
     ],
     "Name": "胡秋侠",
     "display": {
+      "name": "胡秋侠",
       "shape": 2133,
       "icon": 2133,
       "draw": 2133,
@@ -951,6 +969,7 @@
     ],
     "Name": "吕轻侯",
     "display": {
+      "name": "吕轻侯",
       "shape": 1102,
       "icon": 1102,
       "draw": 1102,
@@ -1001,6 +1020,7 @@
     ],
     "Name": "持戒",
     "display": {
+      "name": "持戒",
       "shape": 2094,
       "icon": 2094,
       "draw": 2094,
@@ -1051,6 +1071,7 @@
     ],
     "Name": "唐七",
     "display": {
+      "name": "唐七",
       "shape": 2175,
       "icon": 2175,
       "draw": 2175,
@@ -1104,6 +1125,7 @@
     ],
     "Name": "巩霄",
     "display": {
+      "name": "巩霄",
       "shape": 2090,
       "icon": 2090,
       "draw": 2090,
@@ -1158,6 +1180,7 @@
     ],
     "Name": "阿紫",
     "display": {
+      "name": "阿紫",
       "shape": 6004,
       "icon": 6004,
       "draw": 6004,
@@ -1209,6 +1232,7 @@
     ],
     "Name": "苏真真",
     "display": {
+      "name": "苏真真",
       "shape": 2073,
       "icon": 2073,
       "draw": 2073,
@@ -1259,6 +1283,7 @@
     ],
     "Name": "王大勇",
     "display": {
+      "name": "王大勇",
       "shape": 1040,
       "icon": 1040,
       "draw": 1040,

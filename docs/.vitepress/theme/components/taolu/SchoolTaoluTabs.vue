@@ -11,7 +11,7 @@
     <div class="loading" v-if="isLoadingTypes">加载门派武学类型中...</div>
 
     <!-- 标签页导航 -->
-    <div class="tabs-nav" v-if="!isLoadingTypes && tabTypes.length > 0">
+    <div class="tabs-nav" v-if="!isLoadingTypes && tabTypes.length > 0">  
       <button
         v-for="type in tabTypes"
         :key="type.value"

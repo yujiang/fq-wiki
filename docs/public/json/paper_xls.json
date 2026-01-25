@@ -277,6 +277,7 @@
     "Id": 31,
     "Name": "诗词",
     "Num": 3,
+    "RandomAnswer": 1,
     "Tag": "诗词",
     "WrongQuit": 1
   },
@@ -292,7 +293,16 @@
     "Id": 33,
     "Name": "佛法",
     "Num": 3,
+    "RandomAnswer": 1,
     "Tag": "佛法",
+    "WrongQuit": 1
+  },
+  "34": {
+    "Id": 34,
+    "Name": "论剑",
+    "Num": 3,
+    "RandomAnswer": 1,
+    "Tag": "论剑",
     "WrongQuit": 1
   },
   "100": {

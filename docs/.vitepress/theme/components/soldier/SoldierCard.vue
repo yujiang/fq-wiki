@@ -26,6 +26,10 @@
           <span class="soldier-card__info-value">{{ soldier?.weapon || '未知' }}</span>
         </div>
         <div class="soldier-card__info-item">
+          <span class="soldier-card__info-label">Shape：</span>
+          <span class="soldier-card__info-value">{{ soldier?.display?.shape || 0 }}</span>
+        </div>        
+        <div class="soldier-card__info-item">
           <span class="soldier-card__info-label">定位：</span>
           <span class="soldier-card__info-value">{{ soldier?.Desc || '未知' }}</span>
         </div>

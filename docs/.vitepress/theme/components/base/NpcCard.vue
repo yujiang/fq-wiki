@@ -31,6 +31,10 @@
           <span class="npc-card__info-value">{{ posdesc }}</span>
         </div>
         <div class="npc-card__info-item">
+          <span class="npc-card__info-label">Shape：</span>
+          <span class="npc-card__info-value">{{ shape }}</span>
+        </div>
+        <div class="npc-card__info-item">
           <span class="npc-card__info-label">喜好：</span>
           <span class="npc-card__info-value">{{ likedesc }}</span>
         </div>
@@ -84,6 +88,7 @@ const observe = ref<XlsObserve | null>(null);
 const npcicon = ref<string>('');
 const likedesc = ref<string>('');
 const posdesc = ref<string>('');
+const shape = ref<number>(0);
 const items = ref<ItemIdCount[]>([]);
 const skills = ref<SkillIdLevel[]>([]);
 
@@ -112,6 +117,7 @@ const updateCurrentObserve = async (id: number) => {
     if (xls) {
       npcName.value = isDev ? `${xls.Name}(${xls.Id})` : xls.Name
       const info = await getNpc(xls.Npc || id);
+      shape.value = info?.Display?.shape || 0;
       npcicon.value = getNpcAvater(info?.Display?.icon) ;
       likedesc.value = await getLikeDesc(xls);
       posdesc.value = info ? await getNpcPosition(info.Id) : '';

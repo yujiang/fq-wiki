@@ -825,6 +825,16 @@ export default [
         "collapsed": true
       },
       {
+        "text": "gshx",
+        "items": [
+          {
+            "text": "江湖夜雨十年灯  我凭一剑候君归",
+            "link": "/40-其他/02-gshx/江湖夜雨十年灯"
+          }
+        ],
+        "collapsed": true
+      },
+      {
         "text": "诗号",
         "link": "/40-其他/03-诗号"
       },
